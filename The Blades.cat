@@ -22,6 +22,15 @@
         <categoryLink id="b37f-7b0d-f821-b74a" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="a7ea-d2d5-12ad-0b02" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="9ad9-2edc-590b-b7a1" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
+        <categoryLink id="3891-a21c-0aa2-c662" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="eaa7-e132-dcfc-3703" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="636e-704b-d074-bc73" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="afa1-3df4-7b30-99fe" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="834a-e66f-1743-ca80" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="993c-6b98-3a1f-691e" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="4830-cc5c-b510-e4d3" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="92b7-6327-4cb6-5055" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="5f5b-c253-895e-762c" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

@@ -15,6 +15,12 @@
         <categoryLink id="fb5b-230e-a60e-0b3a" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
         <categoryLink id="2050-04bd-064e-45f0" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="057f-12be-5a35-7bb6" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+        <categoryLink id="1f07-8ec3-98e6-129c" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="e005-3d29-2bbc-9a04" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="a575-fcb9-075b-9ea2" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="e550-c43a-83db-dd3f" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="2230-dba5-f787-e75e" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="ea89-99ca-c7a3-564c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7f3e-a507-d94a-0cb0" name="Krosis: Dragon Priest" hidden="false" collective="false" import="true" targetId="9cb5-ba93-b866-dd4e" type="selectionEntry">
@@ -25,6 +31,12 @@
         <categoryLink id="01ba-743b-3893-fbf2" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="2580-40ba-1f32-fb55" name="Krosis: Dragon Priest" hidden="false" targetId="132e-5ba6-5277-8586" primary="false"/>
         <categoryLink id="eb85-c907-ca2f-591b" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+        <categoryLink id="d44d-8e51-f5a2-5384" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="5405-6457-5ce6-0fba" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="7d86-52e0-974a-b0e4" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="1f20-d05b-181b-ba0d" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="0a76-7f86-5ad4-aa1d" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="fe93-5c8b-762b-40e3" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9a21-fddd-0d12-f973" name="Draugr Deathlord: Crypt Master" hidden="false" collective="false" import="true" targetId="ee0c-e554-31e3-b770" type="selectionEntry">
@@ -35,6 +47,14 @@
         <categoryLink id="40dd-de62-da0b-a25b" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="24e0-dc1a-7d3e-a5a7" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
         <categoryLink id="0ef9-0e92-0310-fd03" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="7929-2336-421f-805a" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="a00f-b156-e1ce-9b27" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="9396-e457-9569-d516" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="5d0e-9dd4-7ea4-2f52" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="9686-59f6-8fe0-1c0d" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="1036-1ab2-5d5d-750e" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="88eb-85fc-74e7-61dc" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="e7c9-81dd-4d88-95d4" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0c43-21fd-7a62-fa57" name="Draugr Overlord: Bleak Falls Guardian" hidden="false" collective="false" import="true" targetId="b832-60ce-a59f-6f8e" type="selectionEntry">
@@ -45,6 +65,14 @@
         <categoryLink id="2ae8-3a08-9e3a-2d0a" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
         <categoryLink id="b043-e9f2-f9e6-421f" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="be5f-1974-1466-e143" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="dac7-896b-b246-6ff0" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="d4ff-7feb-bae7-ae57" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="de0f-25a1-40c6-fac7" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="a73d-227d-255f-fabe" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="cf34-2027-69ef-73aa" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="f987-cd33-cbe1-a816" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="6e39-2889-76e1-4b50" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="d7ab-ccd4-13df-3d82" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="20a2-f3d0-cd02-4ec3" name="Hulking Draugr: Armored Axeman" hidden="false" collective="false" import="true" targetId="ce4d-0597-4996-c4f8" type="selectionEntry">
@@ -498,6 +526,13 @@
     <selectionEntryGroup id="fd82-6b0b-bab0-2257" name="Draugr Upgrades" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="5e90-1b76-ceb7-7bb6" name="Draugr: Disarm" hidden="false" collective="false" import="true" targetId="44b3-0ce2-44ab-2368" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49bb-2426-7dc6-ee31" type="max"/>
           </constraints>
@@ -506,6 +541,18 @@
           </costs>
         </entryLink>
         <entryLink id="3f3b-4227-2ab6-6a9d" name="Draugr: Conjure Frost Atronach" hidden="false" collective="false" import="true" targetId="054e-82eb-d5c7-2d74" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9075-34c2-2d86-162d" type="max"/>
           </constraints>
@@ -514,6 +561,13 @@
           </costs>
         </entryLink>
         <entryLink id="06c2-169e-76c4-dcb4" name="Draugr: Unrelenting Force" hidden="false" collective="false" import="true" targetId="6ffa-b2e1-f2a1-6400" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b2-c21e-a284-b5dc" type="max"/>
           </constraints>
@@ -522,6 +576,13 @@
           </costs>
         </entryLink>
         <entryLink id="c242-e352-a9a5-1238" name="Draugr: Frost Breath" hidden="false" collective="false" import="true" targetId="afe1-9d24-b32f-72a9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b5-9f61-e538-7fb0" type="max"/>
           </constraints>
@@ -530,6 +591,18 @@
           </costs>
         </entryLink>
         <entryLink id="9dd7-1004-289b-4f00" name="Draugr: Frostbite" hidden="false" collective="false" import="true" targetId="b75e-85a2-62e8-672f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c2-65db-2976-fe80" type="max"/>
           </constraints>
@@ -538,6 +611,18 @@
           </costs>
         </entryLink>
         <entryLink id="6a4e-27b4-0790-4301" name="Draugr: Ebony Battleaxe" hidden="false" collective="false" import="true" targetId="8b01-d412-cfc1-1417" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74fd-ddce-0be6-02c5" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d3-bbc4-6102-e900" type="max"/>
           </constraints>
@@ -546,6 +631,18 @@
           </costs>
         </entryLink>
         <entryLink id="8754-4c0b-3277-e109" name="Draugr: Ebony Greatsword" hidden="false" collective="false" import="true" targetId="62eb-18d7-1506-fba0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74fd-ddce-0be6-02c5" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30fa-9328-df1a-82ae" type="max"/>
           </constraints>
@@ -554,26 +651,71 @@
           </costs>
         </entryLink>
         <entryLink id="ed6f-4cc7-06c8-a664" name="Draugr: Ebony War Axe" hidden="false" collective="false" import="true" targetId="8437-23d7-d63a-0fb4" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64bb-1eb1-1896-f36d" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="7.0"/>
           </costs>
         </entryLink>
         <entryLink id="0225-bed0-8576-96a4" name="Draugr: Weapon Upgrade: Honed Nord Weapon" hidden="false" collective="false" import="true" targetId="6cf7-9dbb-3d17-005a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03bd-d045-659f-b234" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="3.0"/>
           </costs>
         </entryLink>
         <entryLink id="ced8-e084-4bbc-caf0" name="Ebony Dagger" hidden="false" collective="false" import="true" targetId="c11d-a4ea-0258-ea1e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64bb-1eb1-1896-f36d" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8.0"/>
           </costs>
         </entryLink>
         <entryLink id="6f9c-3cce-eede-0ded" name="Draugr: Weapon Enchantment: Ancient Nord Weapon" hidden="false" collective="false" import="true" targetId="e033-f3d4-26dc-4dd5" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03bd-d045-659f-b234" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4.0"/>
           </costs>
         </entryLink>
         <entryLink id="2569-d332-c073-3a07" name="Draugr: Ancient Nord Bow" hidden="false" collective="false" import="true" targetId="eb20-7999-4652-5e2d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d42-f7a9-a2ca-654e" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e25b-d909-5c32-8da1" type="max"/>
           </constraints>

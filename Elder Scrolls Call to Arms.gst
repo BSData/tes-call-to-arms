@@ -259,6 +259,24 @@ Maybe: Adversaries</comment>
         <infoLink id="ea9a-0cc5-3c22-2ac6" name="Hirelings" hidden="false" targetId="a21e-31de-c0b9-4402" type="rule"/>
       </infoLinks>
     </categoryEntry>
+    <categoryEntry id="c65e-1c8e-613b-dc01" name="Block Skill" hidden="false"/>
+    <categoryEntry id="64bb-1eb1-1896-f36d" name="One-Handed Skill" hidden="false"/>
+    <categoryEntry id="74fd-ddce-0be6-02c5" name="Two-Handed Skill" hidden="false"/>
+    <categoryEntry id="8af2-ae59-4a5c-98b8" name="Light Armor Skill" hidden="false"/>
+    <categoryEntry id="e8e8-69e8-5565-af4f" name="Heavy Armor Skill" hidden="false"/>
+    <categoryEntry id="4d42-f7a9-a2ca-654e" name="Archery Skill" hidden="false"/>
+    <categoryEntry id="93b4-afa5-eb85-d8ec" name="Illusion Skill" hidden="false"/>
+    <categoryEntry id="b0b5-e13e-f45a-5045" name="Restoration Skill" hidden="false"/>
+    <categoryEntry id="2aea-a863-419f-ba90" name="Alteration Skill" hidden="false"/>
+    <categoryEntry id="4c5c-c1e0-77f2-cf34" name="Destruction Skill" hidden="false"/>
+    <categoryEntry id="f1a5-f2a8-0691-3c85" name="Conjuration Skill" hidden="false"/>
+    <categoryEntry id="03bd-d045-659f-b234" name="Enchanting Skill" hidden="false"/>
+    <categoryEntry id="7d06-5fcb-c718-e106" name="Lockpicking Skill" hidden="false"/>
+    <categoryEntry id="bf6e-ed80-b16a-b9b9" name="Sneak Skill" hidden="false"/>
+    <categoryEntry id="7f96-4899-973e-0e11" name="Pickpocket Skill" hidden="false"/>
+    <categoryEntry id="dd8f-4143-9e14-8e73" name="Speech Skill" hidden="false"/>
+    <categoryEntry id="37d3-238a-d08a-1589" name="Alchemy Skill" hidden="false"/>
+    <categoryEntry id="c7db-eac8-21dc-49a0" name="Smithing Skill" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
@@ -592,6 +610,13 @@ A: Yes</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="44b3-0ce2-44ab-2368" name="Draugr: Disarm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ab-9ecd-ae18-8810" type="max"/>
       </constraints>
@@ -603,6 +628,13 @@ A: Yes</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="afe1-9d24-b32f-72a9" name="Draugr: Frost Breath" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ffe-0cb8-aaa5-de3a" type="max"/>
       </constraints>
@@ -615,6 +647,13 @@ A: Yes</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ffa-b2e1-f2a1-6400" name="Draugr: Unrelenting Force" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f8-0df3-36eb-5dce" type="max"/>
       </constraints>
@@ -1034,7 +1073,7 @@ A: Yes</description>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cd87-4c92-33bd-87b0" name="Executioner&apos;s Robes" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cd87-4c92-33bd-87b0" name="Executioner&apos;s Clothes" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf8a-e0c1-c45a-1e9c" type="max"/>
       </constraints>
@@ -1957,7 +1996,7 @@ A: Yes</description>
       </constraints>
       <infoLinks>
         <infoLink id="f1a5-2d0e-e02f-c292" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
-        <infoLink id="0d2f-1f2b-0281-7a2f" name="Bound Sword" hidden="false" targetId="8381-607a-709b-9a4b" type="profile"/>
+        <infoLink id="0d2f-1f2b-0281-7a2f" name="Bound Sword (Spell Form)" hidden="false" targetId="8381-607a-709b-9a4b" type="profile"/>
         <infoLink id="1569-f187-aba8-c195" name="Bound Sword: Weapon Form" hidden="false" targetId="857c-dde4-d41d-b17e" type="profile"/>
         <infoLink id="d071-91c5-d5b2-53af" name="Bound Weapon" hidden="false" targetId="6faa-8b18-79f2-d7c1" type="rule"/>
       </infoLinks>
@@ -2456,8 +2495,8 @@ A: Yes</description>
     </selectionEntry>
     <selectionEntry id="c133-8449-d9b5-c18b" name="Army Faction" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e095-31d4-cdbb-6a6d" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76d1-edf8-a37d-8f3c" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb2-93d1-826f-34b9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a298-5cc2-7a26-fd20" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="d6a3-9869-f1f0-db9f" name="Adventurers" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="unit">
@@ -2843,7 +2882,8 @@ A: Yes</description>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink id="961e-8bbf-ad03-ed48" name="Armors" hidden="false" collective="false" import="true" targetId="a7ae-6002-c698-c59e" type="selectionEntryGroup"/>
+                    <entryLink id="961e-8bbf-ad03-ed48" name="Light Armors" hidden="false" collective="false" import="true" targetId="67df-582a-bb94-4c3a" type="selectionEntryGroup"/>
+                    <entryLink id="9644-eee8-0490-e63c" name="Heavy Armors" hidden="false" collective="false" import="true" targetId="5399-5acc-9828-57d4" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2855,7 +2895,6 @@ A: Yes</description>
                   </constraints>
                   <entryLinks>
                     <entryLink id="1222-112e-38a5-52df" name="One-Handed Staves" hidden="false" collective="false" import="true" targetId="06f5-97a8-3d86-613f" type="selectionEntryGroup"/>
-                    <entryLink id="fe89-ff1f-5ebd-3c67" name="Two-Handed Staves" hidden="false" collective="false" import="true" targetId="e32a-d6c3-dc3a-c6ed" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2889,8 +2928,7 @@ A: Yes</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="084d-e7c9-613a-b668" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="a294-db34-fabd-ae23" name="Spells" hidden="false" collective="false" import="true" targetId="8a0d-94f4-f0f7-e285" type="selectionEntryGroup"/>
-                    <entryLink id="439c-16b6-78f6-0656" name="Armor Attachment Spells" hidden="false" collective="false" import="true" targetId="6158-2e11-5ae8-f913" type="selectionEntryGroup"/>
+                    <entryLink id="a294-db34-fabd-ae23" name="One-Hand Spells" hidden="false" collective="false" import="true" targetId="8a0d-94f4-f0f7-e285" type="selectionEntryGroup"/>
                     <entryLink id="905f-abd3-c0ca-206c" name="Quick Slot Spells" hidden="false" collective="false" import="true" targetId="5951-3d08-b70f-e0c2" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
@@ -2943,12 +2981,6 @@ A: Yes</description>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cc4-a6c0-3733-677d" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="f9ee-018e-ce1b-ee14" name="Armor Attachment Spells" hidden="false" collective="false" import="true" targetId="6158-2e11-5ae8-f913" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca96-4674-ce56-e949" type="max"/>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac05-a4e2-f80e-f214" type="min"/>
-                  </constraints>
-                </entryLink>
               </entryLinks>
               <costs>
                 <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2956,10 +2988,22 @@ A: Yes</description>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="bec1-eda2-3494-6119" name="Armors" hidden="false" collective="false" import="true" targetId="a7ae-6002-c698-c59e" type="selectionEntryGroup">
+            <entryLink id="bec1-eda2-3494-6119" name="Light Armors" hidden="false" collective="false" import="true" targetId="67df-582a-bb94-4c3a" type="selectionEntryGroup">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e86a-abde-7935-c37d" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b146-b44b-d7fd-7231" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="af81-b309-310d-c885" name="Robes" hidden="false" collective="false" import="true" targetId="5ee8-ca30-00d2-7fb0" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0963-e99b-2c1a-2816" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc1-44e4-3798-cec1" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="9a25-4dde-e48b-f24c" name="Heavy Armors" hidden="false" collective="false" import="true" targetId="5399-5acc-9828-57d4" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4985-7f61-798b-e61d" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ef0-271e-f9de-a26b" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3033,15 +3077,7 @@ A: Yes</description>
           </constraints>
           <entryLinks>
             <entryLink id="9105-bbf2-459f-6909" name="Quick Slot Items" hidden="false" collective="false" import="true" targetId="1c2b-98e7-da84-737a" type="selectionEntryGroup"/>
-            <entryLink id="c18c-65df-8b9b-87bf" name="Dragon Shouts" hidden="true" collective="false" import="true" targetId="9dcd-bd06-1632-8ed1" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
+            <entryLink id="c18c-65df-8b9b-87bf" name="Dragon Shouts" hidden="false" collective="false" import="true" targetId="9dcd-bd06-1632-8ed1" type="selectionEntryGroup"/>
             <entryLink id="aca1-fa9b-2243-232c" name="Quick Slot Spells" hidden="false" collective="false" import="true" targetId="5951-3d08-b70f-e0c2" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -3089,16 +3125,16 @@ A: Yes</description>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="356f-67b6-a7e6-ad97" name="Two-Handed Weapons" hidden="false" collective="false" import="true" targetId="eafc-7cdb-5712-6bca" type="selectionEntryGroup">
+            <entryLink id="356f-67b6-a7e6-ad97" name="Two-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="eafc-7cdb-5712-6bca" type="selectionEntryGroup">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfe6-ef77-fa41-6bd6" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f84-4bd1-d2c8-daa9" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="cc21-2098-e211-fde2" name="Two-Handed Staves" hidden="false" collective="false" import="true" targetId="e32a-d6c3-dc3a-c6ed" type="selectionEntryGroup">
+            <entryLink id="45ef-c03c-01c0-7f09" name="Bows" hidden="false" collective="false" import="true" targetId="809e-c29f-519d-77f8" type="selectionEntryGroup">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e48-9ac1-9167-ced0" type="max"/>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a51-7f98-f17e-97fd" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7103-6236-dee7-945b" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98c6-658d-dc18-bde5" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3124,7 +3160,19 @@ A: Yes</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="99eb-4c90-424e-ecd2" name="One-Handed Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="99eb-4c90-424e-ecd2" name="One-Handed Weapons" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64bb-1eb1-1896-f36d" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <entryLinks>
         <entryLink id="2708-fbe7-a66e-49cc" name="Blade Of Woe" hidden="true" collective="false" import="true" targetId="c03d-4651-0fcd-e25f" type="selectionEntry">
           <modifiers>
@@ -3144,7 +3192,6 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="56ce-539e-235d-86f3" name="Iron Throwing Knife" hidden="false" collective="false" import="true" targetId="7fe2-0639-9e62-7ca7" type="selectionEntry"/>
         <entryLink id="5cc7-ff32-3ce4-14eb" name="Orcish Sword" hidden="false" collective="false" import="true" targetId="3daf-5734-5be8-0e02" type="selectionEntry">
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8.0"/>
@@ -3201,26 +3248,205 @@ A: Yes</description>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8a0d-94f4-f0f7-e285" name="One-Hand Spells" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8a0d-94f4-f0f7-e285" name="One-Hand Spells" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="6276-d4ab-c69e-8583" name="Spells And Shouts" hidden="false" targetId="be8e-05e5-5bdf-5343" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="08ed-836c-9045-d530" name="Lightning Bolt" hidden="false" collective="false" import="true" targetId="c7ec-e512-4a2d-b87a" type="selectionEntry"/>
-        <entryLink id="57ee-5618-f8a7-8d14" name="Ice Spike" hidden="false" collective="false" import="true" targetId="331c-ec05-9a9a-0ddb" type="selectionEntry"/>
-        <entryLink id="6874-3b33-3c7e-3f61" name="Flames" hidden="false" collective="false" import="true" targetId="0c22-ff70-76bd-96c4" type="selectionEntry"/>
-        <entryLink id="419a-e8c9-dba9-2f7f" name="Sparks" hidden="false" collective="false" import="true" targetId="2260-e304-52c6-1be5" type="selectionEntry"/>
-        <entryLink id="2c49-e57f-9093-6857" name="Fireball" hidden="false" collective="false" import="true" targetId="27a1-c341-d571-cee5" type="selectionEntry"/>
-        <entryLink id="2476-73e2-5e3c-16e1" name="Chain Lightning" hidden="false" collective="false" import="true" targetId="6109-06bb-91d4-9678" type="selectionEntry"/>
-        <entryLink id="f34f-a0a9-9b6c-6179" name="Firebolt" hidden="false" collective="false" import="true" targetId="a7c1-2dc8-20a1-d00e" type="selectionEntry"/>
-        <entryLink id="ba2a-5508-202b-52c4" name="Frostbite" hidden="false" collective="false" import="true" targetId="3269-45ab-39bc-1411" type="selectionEntry"/>
-        <entryLink id="11fe-c6f0-205f-ff31" name="Healing Hands" hidden="false" collective="false" import="true" targetId="ff76-60b5-6adb-9770" type="selectionEntry"/>
-        <entryLink id="0f80-9e43-0cb8-1067" name="Incinerate" hidden="false" collective="false" import="true" targetId="f9d6-85be-1a5b-a351" type="selectionEntry"/>
-        <entryLink id="5f79-6dfd-ef15-6728" name="Fast Healing" hidden="false" collective="false" import="true" targetId="7ad9-06d5-b5b0-3220" type="selectionEntry"/>
-        <entryLink id="8ead-c227-e48a-2a52" name="Healing" hidden="false" collective="false" import="true" targetId="aff6-875e-818e-b326" type="selectionEntry"/>
+        <entryLink id="08ed-836c-9045-d530" name="Lightning Bolt" hidden="false" collective="false" import="true" targetId="c7ec-e512-4a2d-b87a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="57ee-5618-f8a7-8d14" name="Ice Spike" hidden="false" collective="false" import="true" targetId="331c-ec05-9a9a-0ddb" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6874-3b33-3c7e-3f61" name="Flames" hidden="false" collective="false" import="true" targetId="0c22-ff70-76bd-96c4" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="419a-e8c9-dba9-2f7f" name="Sparks" hidden="false" collective="false" import="true" targetId="2260-e304-52c6-1be5" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2c49-e57f-9093-6857" name="Fireball" hidden="false" collective="false" import="true" targetId="27a1-c341-d571-cee5" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2476-73e2-5e3c-16e1" name="Chain Lightning" hidden="false" collective="false" import="true" targetId="6109-06bb-91d4-9678" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f34f-a0a9-9b6c-6179" name="Firebolt" hidden="false" collective="false" import="true" targetId="a7c1-2dc8-20a1-d00e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ba2a-5508-202b-52c4" name="Frostbite" hidden="false" collective="false" import="true" targetId="3269-45ab-39bc-1411" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="11fe-c6f0-205f-ff31" name="Healing Hands" hidden="false" collective="false" import="true" targetId="ff76-60b5-6adb-9770" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0f80-9e43-0cb8-1067" name="Incinerate" hidden="false" collective="false" import="true" targetId="f9d6-85be-1a5b-a351" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5f79-6dfd-ef15-6728" name="Fast Healing" hidden="false" collective="false" import="true" targetId="7ad9-06d5-b5b0-3220" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8ead-c227-e48a-2a52" name="Healing" hidden="false" collective="false" import="true" targetId="aff6-875e-818e-b326" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d8f4-6cca-bf2a-0106" name="Armor Enchantments" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="d8f4-6cca-bf2a-0106" name="Armor Enchantments" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03bd-d045-659f-b234" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <entryLinks>
         <entryLink id="21b1-76eb-defc-7178" name="Armor Enchantment: Dwindling Fire" hidden="false" collective="false" import="true" targetId="35d9-fe42-bd3b-24d3" type="selectionEntry"/>
         <entryLink id="7ef7-820f-213c-c72b" name="Armor Enchantment: Dwindling Frost" hidden="false" collective="false" import="true" targetId="26e3-fd02-2f1a-3245" type="selectionEntry"/>
@@ -3236,7 +3462,14 @@ A: Yes</description>
         <entryLink id="fe3d-2dcf-b839-a245" name="Armor Enchantment: Poison Resistance" hidden="false" collective="false" import="true" targetId="5edf-abbd-5b2e-f33b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9dcd-bd06-1632-8ed1" name="Dragon Shouts" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="9dcd-bd06-1632-8ed1" name="Dragon Shouts" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="73c0-5317-3c9d-e395" name="Spells And Shouts" hidden="false" targetId="be8e-05e5-5bdf-5343" type="rule"/>
       </infoLinks>
@@ -3344,7 +3577,19 @@ A: Yes</description>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="60ed-daf2-01db-e86e" name="Shields" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="60ed-daf2-01db-e86e" name="Shields" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c65e-1c8e-613b-dc01" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <entryLinks>
         <entryLink id="8b20-e024-4fa5-8f04" name="Aetherial Shield" hidden="false" collective="false" import="true" targetId="9d62-0e85-d4ea-8e88" type="selectionEntry"/>
         <entryLink id="4257-27dc-58b5-8fa0" name="Dwarven Shield" hidden="false" collective="false" import="true" targetId="0278-5893-a603-acb7" type="selectionEntry"/>
@@ -3375,140 +3620,6 @@ A: Yes</description>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a7ae-6002-c698-c59e" name="Armors" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="cafe-a592-af1b-7fd7" name="Necromancer Robes" hidden="false" collective="false" import="true" targetId="1ea3-79c8-afd2-5b46" type="selectionEntry"/>
-        <entryLink id="2c96-bbe5-0f11-2e06" name="Monk&apos;s Robes" hidden="false" collective="false" import="true" targetId="441b-ea68-216e-3324" type="selectionEntry"/>
-        <entryLink id="a066-f84c-dd2e-de85" name="Mage Robes" hidden="false" collective="false" import="true" targetId="0b31-fdbc-cea8-f8a0" type="selectionEntry"/>
-        <entryLink id="5db4-fed4-c6a0-6629" name="Shrouded Robes" hidden="true" collective="false" import="true" targetId="9ef1-b2e5-2e6c-84b0" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f84-91ee-9af3-80ac" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="1a60-9ce6-f157-72ad" name="Blades Armor" hidden="true" collective="false" import="true" targetId="4056-a125-06c6-6a0c" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33d2-88f5-d917-7106" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="c297-6005-1e30-a362" name="Thieves&apos; Guild Armor" hidden="true" collective="false" import="true" targetId="d18f-469d-1ab4-6465" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4347-a391-1fca-ce31" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="a21c-f0ce-1f0c-11c7" name="Nightingale Armor" hidden="true" collective="false" import="true" targetId="833f-eef5-23a7-f6c0" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5594-acf1-76dc-5206" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="d310-c4a3-2d64-10b7" name="Shrouded Armor" hidden="true" collective="false" import="true" targetId="f3e5-ded2-02d8-a579" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f84-91ee-9af3-80ac" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="5a24-808c-bd8f-0fd4" name="Orcish Armor" hidden="false" collective="false" import="true" targetId="a08a-986d-931d-c540" type="selectionEntry"/>
-        <entryLink id="03d5-4297-5634-437d" name="Nordic Carved Armor" hidden="false" collective="false" import="true" targetId="20c2-bf71-842d-b340" type="selectionEntry"/>
-        <entryLink id="d96b-aba7-4dab-beaa" name="Steel Armor" hidden="false" collective="false" import="true" targetId="2880-013a-5f87-8cbd" type="selectionEntry"/>
-        <entryLink id="2278-e734-1148-d736" name="Fur Armor" hidden="false" collective="false" import="true" targetId="5166-f909-4bde-b4bf" type="selectionEntry"/>
-        <entryLink id="e1a0-9346-3b9a-ce83" name="Penitus Oculatus Armor" hidden="false" collective="false" import="true" targetId="0ae0-8617-0638-ce11" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00de-a491-fd7e-bcca" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="5cb8-c152-a51c-a6b7" name="Elven Light Armor" hidden="false" collective="false" import="true" targetId="a9e2-120e-debc-07a0" type="selectionEntry"/>
-        <entryLink id="46e4-3150-be08-697d" name="Studded Armor" hidden="false" collective="false" import="true" targetId="8e77-df7d-85d7-89a6" type="selectionEntry"/>
-        <entryLink id="c6f5-8173-f2de-cfdc" name="Banded Iron Armor" hidden="false" collective="false" import="true" targetId="0d87-1f1e-d917-76e8" type="selectionEntry"/>
-        <entryLink id="2c00-40b0-dfbe-cc05" name="Hide Armor" hidden="false" collective="false" import="true" targetId="ea41-f1a5-ac4b-8b9c" type="selectionEntry"/>
-        <entryLink id="f343-59d2-e7b6-277d" name="Leather Armor" hidden="false" collective="false" import="true" targetId="7e47-a7b5-1058-dd9d" type="selectionEntry"/>
-        <entryLink id="d6e1-7b6b-272d-99d4" name="Steel Plate Armor" hidden="false" collective="false" import="true" targetId="17a1-2dd6-ac33-8cb9" type="selectionEntry"/>
-        <entryLink id="a5c5-5284-361d-530f" name="Stormcloak Officer Armor" hidden="false" collective="false" import="true" targetId="1bd6-f7aa-b9b9-f353" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="6d56-ee13-c13d-fe01" name="Imperial Light Armor" hidden="false" collective="false" import="true" targetId="240f-902c-2853-4905" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00de-a491-fd7e-bcca" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="80f6-fec6-f42f-8762" name="Imperial Armor" hidden="false" collective="false" import="true" targetId="8b68-3998-1b86-f012" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00de-a491-fd7e-bcca" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="a1ee-44ff-5145-a6d8" name="Executioner&apos;s Robes" hidden="true" collective="false" import="true" targetId="cd87-4c92-33bd-87b0" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f69-9fe1-93c1-2909" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="c65d-c33c-2c36-c566" name="General Tullius&apos; Armor" hidden="true" collective="false" import="true" targetId="753e-4509-492b-b709" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="947a-333a-bb7d-95ed" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="06a1-bf84-cdfd-62f6" name="Ulfric&apos;s Clothes" hidden="true" collective="false" import="true" targetId="b824-758d-8374-5dac" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e64-fc01-fdbb-88a4" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="03d5-7d14-383b-44ff" name="Stormcloak Cuirass" hidden="false" collective="false" import="true" targetId="da18-f25f-d4e3-3ebf" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
     <selectionEntryGroup id="1c2b-98e7-da84-737a" name="Quick Slot Items" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="efa8-e5eb-4f55-bf1d" name="Weak Magicka Poison" hidden="false" collective="false" import="true" targetId="fdf1-d957-5172-8704" type="selectionEntry"/>
@@ -3520,17 +3631,20 @@ A: Yes</description>
         <entryLink id="2ea9-d278-3337-e46d" name="Lesser Soul Gem" hidden="false" collective="false" import="true" targetId="238d-37b1-33a4-4b89" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="eafc-7cdb-5712-6bca" name="Two-Handed Weapons" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="f70c-9151-0cde-8dd8" name="Zephyr" hidden="true" collective="false" import="true" targetId="f28c-7195-9b56-225c" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
+    <selectionEntryGroup id="eafc-7cdb-5712-6bca" name="Two-Handed Melee Weapons" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc13-1095-857f-820e" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74fd-ddce-0be6-02c5" type="instanceOf"/>
               </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
         <entryLink id="c9d7-3370-44ca-3d5b" name="Headsman&apos;s Axe" hidden="true" collective="false" import="true" targetId="dcca-cac4-ebae-4a18" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -3540,20 +3654,6 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="d116-a9e3-3a2f-70e9" name="Nord Hero Bow" hidden="false" collective="false" import="true" targetId="2297-0370-40ef-9f88" type="selectionEntry"/>
-        <entryLink id="2db7-3470-2fd1-7956" name="Imperial Bow" hidden="false" collective="false" import="true" targetId="effd-8804-2124-b497" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00de-a491-fd7e-bcca" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="6a6a-5c17-610e-5119" name="Longbow" hidden="false" collective="false" import="true" targetId="a30f-39ae-2b80-1dce" type="selectionEntry"/>
-        <entryLink id="5a74-6b11-7af9-0865" name="Hunting Bow" hidden="false" collective="false" import="true" targetId="c007-1a17-926c-8f64" type="selectionEntry"/>
-        <entryLink id="e001-dd60-ed30-325f" name="Ebony Bow" hidden="false" collective="false" import="true" targetId="a224-4bdc-ea63-e0ba" type="selectionEntry"/>
-        <entryLink id="7a18-6d9e-7986-e95e" name="Orcish Bow" hidden="false" collective="false" import="true" targetId="9308-862a-2f0d-e5bc" type="selectionEntry"/>
         <entryLink id="2fa9-fce4-c0fd-d026" name="Orcish Greatsword" hidden="false" collective="false" import="true" targetId="d7b7-e6c2-6a40-5e86" type="selectionEntry"/>
         <entryLink id="02e5-beb3-fd63-c598" name="Steel Greatsword" hidden="false" collective="false" import="true" targetId="acd3-b67c-d86a-dd02" type="selectionEntry"/>
         <entryLink id="a199-f0ff-c295-604e" name="Skyforge Greatsword" hidden="false" collective="false" import="true" targetId="d07d-bec7-0a43-7b91" type="selectionEntry"/>
@@ -3574,8 +3674,14 @@ A: Yes</description>
         <entryLink id="5914-dbc7-a5bd-7e6b" name="Aetherial Staff" hidden="false" collective="false" import="true" targetId="ca36-face-6f70-daca" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e32a-d6c3-dc3a-c6ed" name="Two-Handed Staves" hidden="true" collective="false" import="true"/>
-    <selectionEntryGroup id="3ae5-f30b-7167-ffb3" name="Weapon Enchantments" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3ae5-f30b-7167-ffb3" name="Weapon Enchantments" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03bd-d045-659f-b234" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <entryLinks>
         <entryLink id="086c-5f92-6bc8-4902" name="Weapon Enchantment: Winnowing" hidden="false" collective="false" import="true" targetId="1419-9485-38a6-3fb7" type="selectionEntry"/>
         <entryLink id="164d-6700-5330-7b5a" name="Weapon Enchantment: Reaping" hidden="false" collective="false" import="true" targetId="2b21-d444-a9be-e070" type="selectionEntry"/>
@@ -3611,50 +3717,436 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="97b9-38ef-f793-3147" name="Iron Throwing Knife" hidden="false" collective="false" import="true" targetId="7fe2-0639-9e62-7ca7" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5951-3d08-b70f-e0c2" name="Quick Slot Spells" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="5951-3d08-b70f-e0c2" name="Quick Slot Spells" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="824e-aa14-f07d-4091" name="Spells And Shouts" hidden="false" targetId="be8e-05e5-5bdf-5343" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="6c92-43fd-bbe0-9a53" name="Bound Sword (Spell)" hidden="false" collective="false" import="true" targetId="909f-ed2e-331d-8703" type="selectionEntry"/>
-        <entryLink id="b634-90fb-d7bf-475c" name="Flame Cloak" hidden="false" collective="false" import="true" targetId="0466-b8ea-933e-5dff" type="selectionEntry"/>
-        <entryLink id="e0c2-f85c-522c-a098" name="Lesser Ward" hidden="false" collective="false" import="true" targetId="e053-b430-af3d-c9b8" type="selectionEntry"/>
-        <entryLink id="f551-ce32-273b-ff99" name="Steadfast Ward" hidden="false" collective="false" import="true" targetId="c633-7fb6-cead-fcd9" type="selectionEntry"/>
-        <entryLink id="10af-0958-795e-473a" name="Turn Lesser Undead" hidden="false" collective="false" import="true" targetId="36f6-f753-461c-25bc" type="selectionEntry"/>
-        <entryLink id="b301-2337-0df8-f8d6" name="Fury" hidden="false" collective="false" import="true" targetId="1d6b-0526-2362-9722" type="selectionEntry"/>
-        <entryLink id="dbde-a038-1700-1c39" name="Fear" hidden="false" collective="false" import="true" targetId="09e2-e818-ac33-6e95" type="selectionEntry"/>
-        <entryLink id="2fff-2185-cdef-e9f1" name="Rally" hidden="false" collective="false" import="true" targetId="8882-8c2c-edab-6672" type="selectionEntry"/>
-        <entryLink id="754f-1b57-49e4-6b79" name="Calm" hidden="false" collective="false" import="true" targetId="f6e3-0304-bd51-1d01" type="selectionEntry"/>
-        <entryLink id="add4-a39a-d2e9-6983" name="Courage" hidden="false" collective="false" import="true" targetId="731b-8f3e-457a-07c4" type="selectionEntry"/>
-        <entryLink id="d4eb-57d2-aca5-0b39" name="Candlelight" hidden="false" collective="false" import="true" targetId="e79e-6e03-ac9b-18a6" type="selectionEntry"/>
-        <entryLink id="faa3-3387-bca8-5722" name="Lightning Rune" hidden="false" collective="false" import="true" targetId="10f4-77ec-7c99-5618" type="selectionEntry"/>
-        <entryLink id="1550-3166-f88e-5d84" name="Frost Rune" hidden="false" collective="false" import="true" targetId="f1c3-d025-491b-704e" type="selectionEntry"/>
-        <entryLink id="d514-27f8-c181-acc9" name="Fire Rune" hidden="false" collective="false" import="true" targetId="4471-2f82-7332-b042" type="selectionEntry"/>
-        <entryLink id="a9f1-8fb4-74f9-332e" name="Telekinesis" hidden="false" collective="false" import="true" targetId="9a40-f21e-af01-e706" type="selectionEntry"/>
-        <entryLink id="942e-f878-7b78-6c06" name="Mass Paralysis" hidden="false" collective="false" import="true" targetId="ad9f-28af-8339-53be" type="selectionEntry"/>
-        <entryLink id="11dd-99c4-3002-4fa7" name="Oakflesh" hidden="false" collective="false" import="true" targetId="9557-ab50-83aa-fca9" type="selectionEntry"/>
-        <entryLink id="1dd5-53e5-6632-e4e0" name="Stoneflesh" hidden="false" collective="false" import="true" targetId="e4a9-1938-1dfc-823a" type="selectionEntry"/>
-        <entryLink id="9b56-7b0e-5f2c-c15a" name="Ironflesh" hidden="false" collective="false" import="true" targetId="e7f1-767d-dc63-6d61" type="selectionEntry"/>
-        <entryLink id="e474-03d9-4a0e-25ee" name="Turn Undead" hidden="false" collective="false" import="true" targetId="4add-4539-5ed4-07fc" type="selectionEntry"/>
-        <entryLink id="320a-7af3-d421-3ba9" name="Raise Zombie" hidden="false" collective="false" import="true" targetId="2074-d3a3-fbb6-e2ba" type="selectionEntry"/>
-        <entryLink id="bc8e-9976-2aed-d1e3" name="Reanimate Corpse" hidden="false" collective="false" import="true" targetId="70d5-aa04-2592-7482" type="selectionEntry"/>
-        <entryLink id="8f73-4b12-cb58-7266" name="Clairvoyance" hidden="false" collective="false" import="true" targetId="1640-6ade-88d0-6909" type="selectionEntry"/>
-        <entryLink id="9c12-66e8-ebdb-e6a9" name="Soul Trap" hidden="false" collective="false" import="true" targetId="f90c-2875-9144-b161" type="selectionEntry"/>
-        <entryLink id="c888-9eaf-af36-46dd" name="Detect Life" hidden="false" collective="false" import="true" targetId="4c78-951f-c732-9d06" type="selectionEntry"/>
-        <entryLink id="9fa0-41a5-2f0a-b4ef" name="Invisibility" hidden="false" collective="false" import="true" targetId="f2d2-6e21-fd5c-558b" type="selectionEntry"/>
-        <entryLink id="5174-ff9a-75c8-c4d3" name="Detect Dead" hidden="false" collective="false" import="true" targetId="fe4f-0f06-fb15-4d5e" type="selectionEntry"/>
-        <entryLink id="8acb-6614-11de-2bb4" name="Repel Lesser Undead" hidden="false" collective="false" import="true" targetId="4541-b97a-bbb7-998a" type="selectionEntry"/>
-        <entryLink id="2ae6-55e3-7333-b9eb" name="Conjure Flame Atronach" page="" hidden="false" collective="false" import="true" targetId="475c-c516-1d19-8c9e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="6158-2e11-5ae8-f913" name="Armor Attachment Spells" hidden="false" collective="false" import="true">
-      <infoLinks>
-        <infoLink id="a701-1ab2-bcb4-9d06" name="Spells And Shouts" hidden="false" targetId="be8e-05e5-5bdf-5343" type="rule"/>
-      </infoLinks>
-      <entryLinks>
-        <entryLink id="9359-efe9-892d-5d48" name="Flame Cloak" hidden="false" collective="false" import="true" targetId="0466-b8ea-933e-5dff" type="selectionEntry"/>
+        <entryLink id="6c92-43fd-bbe0-9a53" name="Bound Sword (Spell)" hidden="false" collective="false" import="true" targetId="909f-ed2e-331d-8703" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b634-90fb-d7bf-475c" name="Flame Cloak" hidden="false" collective="false" import="true" targetId="0466-b8ea-933e-5dff" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="10af-0958-795e-473a" name="Turn Lesser Undead" hidden="false" collective="false" import="true" targetId="36f6-f753-461c-25bc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b301-2337-0df8-f8d6" name="Fury" hidden="false" collective="false" import="true" targetId="1d6b-0526-2362-9722" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="dbde-a038-1700-1c39" name="Fear" hidden="false" collective="false" import="true" targetId="09e2-e818-ac33-6e95" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2fff-2185-cdef-e9f1" name="Rally" hidden="false" collective="false" import="true" targetId="8882-8c2c-edab-6672" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="754f-1b57-49e4-6b79" name="Calm" hidden="false" collective="false" import="true" targetId="f6e3-0304-bd51-1d01" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="add4-a39a-d2e9-6983" name="Courage" hidden="false" collective="false" import="true" targetId="731b-8f3e-457a-07c4" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="d4eb-57d2-aca5-0b39" name="Candlelight" hidden="false" collective="false" import="true" targetId="e79e-6e03-ac9b-18a6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="faa3-3387-bca8-5722" name="Lightning Rune" hidden="false" collective="false" import="true" targetId="10f4-77ec-7c99-5618" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="1550-3166-f88e-5d84" name="Frost Rune" hidden="false" collective="false" import="true" targetId="f1c3-d025-491b-704e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="d514-27f8-c181-acc9" name="Fire Rune" hidden="false" collective="false" import="true" targetId="4471-2f82-7332-b042" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a9f1-8fb4-74f9-332e" name="Telekinesis" hidden="false" collective="false" import="true" targetId="9a40-f21e-af01-e706" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="942e-f878-7b78-6c06" name="Mass Paralysis" hidden="false" collective="false" import="true" targetId="ad9f-28af-8339-53be" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="11dd-99c4-3002-4fa7" name="Oakflesh" hidden="false" collective="false" import="true" targetId="9557-ab50-83aa-fca9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="1dd5-53e5-6632-e4e0" name="Stoneflesh" hidden="false" collective="false" import="true" targetId="e4a9-1938-1dfc-823a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="9b56-7b0e-5f2c-c15a" name="Ironflesh" hidden="false" collective="false" import="true" targetId="e7f1-767d-dc63-6d61" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="e474-03d9-4a0e-25ee" name="Turn Undead" hidden="false" collective="false" import="true" targetId="4add-4539-5ed4-07fc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="320a-7af3-d421-3ba9" name="Raise Zombie" hidden="false" collective="false" import="true" targetId="2074-d3a3-fbb6-e2ba" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="bc8e-9976-2aed-d1e3" name="Reanimate Corpse" hidden="false" collective="false" import="true" targetId="70d5-aa04-2592-7482" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8f73-4b12-cb58-7266" name="Clairvoyance" hidden="false" collective="false" import="true" targetId="1640-6ade-88d0-6909" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="9c12-66e8-ebdb-e6a9" name="Soul Trap" hidden="false" collective="false" import="true" targetId="f90c-2875-9144-b161" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="c888-9eaf-af36-46dd" name="Detect Life" hidden="false" collective="false" import="true" targetId="4c78-951f-c732-9d06" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="9fa0-41a5-2f0a-b4ef" name="Invisibility" hidden="false" collective="false" import="true" targetId="f2d2-6e21-fd5c-558b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5174-ff9a-75c8-c4d3" name="Detect Dead" hidden="false" collective="false" import="true" targetId="fe4f-0f06-fb15-4d5e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8acb-6614-11de-2bb4" name="Repel Lesser Undead" hidden="false" collective="false" import="true" targetId="4541-b97a-bbb7-998a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2ae6-55e3-7333-b9eb" name="Conjure Flame Atronach" page="" hidden="false" collective="false" import="true" targetId="475c-c516-1d19-8c9e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="befc-9ec3-354c-cf69" name="Lesser Ward" hidden="false" collective="false" import="true" targetId="e053-b430-af3d-c9b8" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="e81d-fc0e-a045-e4c9" name="Steadfast Ward" hidden="false" collective="false" import="true" targetId="c633-7fb6-cead-fcd9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6a15-c5d8-a667-7a4b" name="Nightingales: Agent Ability" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true">
@@ -3717,6 +4209,209 @@ A: Yes</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="809e-c29f-519d-77f8" name="Bows" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d42-f7a9-a2ca-654e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="3484-23f2-e5b8-26e7" name="Zephyr" hidden="true" collective="false" import="true" targetId="f28c-7195-9b56-225c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc13-1095-857f-820e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0f86-05d5-42e7-f41b" name="Orcish Bow" hidden="false" collective="false" import="true" targetId="9308-862a-2f0d-e5bc" type="selectionEntry"/>
+        <entryLink id="978e-08e7-e989-fd8b" name="Nord Hero Bow" hidden="false" collective="false" import="true" targetId="2297-0370-40ef-9f88" type="selectionEntry"/>
+        <entryLink id="eda9-bbc4-e4ed-b407" name="Imperial Bow" hidden="false" collective="false" import="true" targetId="effd-8804-2124-b497" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0744-63ab-9054-0a86" name="Hunting Bow" hidden="false" collective="false" import="true" targetId="c007-1a17-926c-8f64" type="selectionEntry"/>
+        <entryLink id="920e-25b5-8a0d-80dc" name="Ebony Bow" hidden="false" collective="false" import="true" targetId="a224-4bdc-ea63-e0ba" type="selectionEntry"/>
+        <entryLink id="dc66-6f20-2184-c9f7" name="Longbow" hidden="false" collective="false" import="true" targetId="a30f-39ae-2b80-1dce" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5ee8-ca30-00d2-7fb0" name="Robes" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="8054-ccbf-2267-f5bd" name="Shrouded Robes" hidden="true" collective="false" import="true" targetId="9ef1-b2e5-2e6c-84b0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f84-91ee-9af3-80ac" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0eae-3221-eabe-5f2d" name="Necromancer Robes" hidden="false" collective="false" import="true" targetId="1ea3-79c8-afd2-5b46" type="selectionEntry"/>
+        <entryLink id="4840-8fd5-8f4a-0f72" name="Monk&apos;s Robes" hidden="false" collective="false" import="true" targetId="441b-ea68-216e-3324" type="selectionEntry"/>
+        <entryLink id="c11c-8cd8-2175-0fb1" name="Mage Robes" hidden="false" collective="false" import="true" targetId="0b31-fdbc-cea8-f8a0" type="selectionEntry"/>
+        <entryLink id="d1bd-979d-fd6f-6129" name="Shrouded Armor" hidden="true" collective="false" import="true" targetId="f3e5-ded2-02d8-a579" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f84-91ee-9af3-80ac" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="67df-582a-bb94-4c3a" name="Light Armors" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8af2-ae59-4a5c-98b8" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="b75c-269c-23ef-0fee" name="Elven Light Armor" hidden="false" collective="false" import="true" targetId="a9e2-120e-debc-07a0" type="selectionEntry"/>
+        <entryLink id="cda2-2b6f-621b-86e6" name="Executioner&apos;s Clothes" hidden="true" collective="false" import="true" targetId="cd87-4c92-33bd-87b0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f69-9fe1-93c1-2909" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="fccf-7cf0-19c5-8585" name="Fur Armor" hidden="false" collective="false" import="true" targetId="5166-f909-4bde-b4bf" type="selectionEntry"/>
+        <entryLink id="c023-0487-a5fe-243a" name="Hide Armor" hidden="false" collective="false" import="true" targetId="ea41-f1a5-ac4b-8b9c" type="selectionEntry"/>
+        <entryLink id="eeb5-14ac-4862-2e62" name="Hold Guard&apos;s Armor" hidden="false" collective="false" import="true" targetId="14b8-2870-5fb1-2848" type="selectionEntry"/>
+        <entryLink id="1cb7-240a-b70e-e647" name="Imperial Light Armor" hidden="false" collective="false" import="true" targetId="240f-902c-2853-4905" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="48cc-03a1-e5f8-2d06" name="Leather Armor" hidden="false" collective="false" import="true" targetId="7e47-a7b5-1058-dd9d" type="selectionEntry"/>
+        <entryLink id="d73e-1acd-fb43-d5c1" name="Nightingale Armor" hidden="true" collective="false" import="true" targetId="833f-eef5-23a7-f6c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5594-acf1-76dc-5206" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="9924-db43-75f5-0789" name="Penitus Oculatus Armor" hidden="false" collective="false" import="true" targetId="0ae0-8617-0638-ce11" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6b24-549e-ec38-3d73" name="Stormcloak Cuirass" hidden="false" collective="false" import="true" targetId="da18-f25f-d4e3-3ebf" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="858e-8cc9-af61-bb3a" name="Stormcloak Officer Armor" hidden="false" collective="false" import="true" targetId="1bd6-f7aa-b9b9-f353" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="cb6e-090f-2a4b-299a" name="Studded Armor" hidden="false" collective="false" import="true" targetId="8e77-df7d-85d7-89a6" type="selectionEntry"/>
+        <entryLink id="6d4b-9e7d-3ba3-ce19" name="Thieves&apos; Guild Armor" hidden="true" collective="false" import="true" targetId="d18f-469d-1ab4-6465" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4347-a391-1fca-ce31" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b4ed-438c-22fe-be10" name="Ulfric&apos;s Clothes" hidden="true" collective="false" import="true" targetId="b824-758d-8374-5dac" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e64-fc01-fdbb-88a4" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5399-5acc-9828-57d4" name="Heavy Armors" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8e8-69e8-5565-af4f" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="7082-0173-f266-45ca" name="Banded Iron Armor" hidden="false" collective="false" import="true" targetId="0d87-1f1e-d917-76e8" type="selectionEntry"/>
+        <entryLink id="ccd5-a280-cbbf-8766" name="Blades Armor" hidden="true" collective="false" import="true" targetId="4056-a125-06c6-6a0c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33d2-88f5-d917-7106" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ffe6-08aa-53ee-2049" name="Dwarven Armor" hidden="false" collective="false" import="true" targetId="c241-5844-839f-d862" type="selectionEntry"/>
+        <entryLink id="b34d-9674-bc48-9a70" name="General Tullius&apos; Armor" hidden="true" collective="false" import="true" targetId="753e-4509-492b-b709" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="947a-333a-bb7d-95ed" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="9376-48a3-01c0-1d56" name="Imperial Armor" hidden="false" collective="false" import="true" targetId="8b68-3998-1b86-f012" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2d1a-30ef-15d1-7c00" name="Iron Armor" hidden="false" collective="false" import="true" targetId="b795-395d-6f00-b54d" type="selectionEntry"/>
+        <entryLink id="3f68-1c47-2cbc-738f" name="Nordic Carved Armor" hidden="false" collective="false" import="true" targetId="20c2-bf71-842d-b340" type="selectionEntry"/>
+        <entryLink id="8040-ab96-9be1-0749" name="Orcish Armor" hidden="false" collective="false" import="true" targetId="a08a-986d-931d-c540" type="selectionEntry"/>
+        <entryLink id="dd79-d717-e938-2ee6" name="Steel Armor" hidden="false" collective="false" import="true" targetId="2880-013a-5f87-8cbd" type="selectionEntry"/>
+        <entryLink id="8fe1-742b-3054-ac6b" name="Steel Plate Armor" hidden="false" collective="false" import="true" targetId="17a1-2dd6-ac33-8cb9" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

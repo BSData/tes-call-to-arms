@@ -15,6 +15,11 @@
         <categoryLink id="26b1-3012-1245-afee" name="Ebonheart Pact" hidden="false" targetId="328b-1d75-65e2-424b" primary="false"/>
         <categoryLink id="9941-5ff9-8299-d74f" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="e812-33a4-0c0a-7ae1" name="The Nord: Champion Of The Pact" hidden="false" targetId="5b96-65c1-73cd-15bf" primary="false"/>
+        <categoryLink id="67f6-b6c8-1039-8ff3" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="0ee6-ce90-4e82-8f3d" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="f574-c115-4ba0-fb91" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="e639-b545-ebde-c6bb" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="6e11-c569-a3e0-2e0a" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

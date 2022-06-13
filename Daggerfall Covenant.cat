@@ -15,6 +15,12 @@
         <categoryLink id="ecc6-222c-18cf-f7c1" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="338e-f3c0-a6fa-b362" name="Daggerfall Covenant" hidden="false" targetId="f5a6-4501-1cef-61bd" primary="false"/>
         <categoryLink id="b74d-7c03-ed6d-7230" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="e886-0559-e546-67e8" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="f83e-e113-d357-1c5a" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="7266-398c-ac93-17a7" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="b7d9-18db-9220-5723" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="0193-bbc8-fedd-6e40" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
+        <categoryLink id="9ea8-4025-2f57-36ca" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="bed2-2069-45b8-9df1" name="Adventurers" revision="1" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>HEROES DONE</comment>
   <categoryEntries>
     <categoryEntry id="d700-5656-063d-aa4b" name="Aranea Ienith: Priestess of Azura" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <constraints>
@@ -71,6 +70,18 @@
         <categoryLink id="6c28-e7ca-c818-286a" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
         <categoryLink id="8993-0ba1-fccb-8e5d" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
         <categoryLink id="d8cb-917a-7f79-c67c" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="6a95-f8e3-adac-3e9d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="1d5f-57e6-ac3c-aba0" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="c7f4-0fd9-f828-9a09" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="7445-a50c-5968-1cc5" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="b9e4-0d49-9391-b019" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="9de5-f7e3-a984-9105" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="cece-390b-d673-670e" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="f16a-4d31-f048-4ccb" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="5db6-d4a4-fde9-5e8c" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="c8f9-32f8-c4ef-821d" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="2eca-4c1b-033a-a3f0" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="07c6-5b4e-7afd-cc1b" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6628-18a9-c641-1dd4" name="The Dragonborn: Steadfast Adventurer" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="fbc5-4271-7f0a-7574" type="selectionEntry">
@@ -87,6 +98,13 @@
         <categoryLink id="dcc5-805d-9b4a-ee0e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="f702-e5cc-01b4-16bb" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
         <categoryLink id="7628-38e1-35bc-ada4" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="9a87-4afb-628d-eabd" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="ee4e-8356-08bb-4222" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="fdd9-6dbe-865f-5869" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="e4d0-8d59-6877-658a" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="2dba-7de7-1222-f2a4" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="bfad-6cc2-2151-c651" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="ccc8-0e7f-149d-f819" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="250e-4359-7540-45b8" name="The Dragonborn: Nightingale" hidden="false" collective="false" import="true" targetId="6259-fe84-67ba-0f6c" type="selectionEntry">
@@ -109,6 +127,16 @@
         <categoryLink id="a45c-4d98-fa79-8735" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="2903-e864-86e5-3671" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
         <categoryLink id="25f5-3784-2b11-1b84" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="d392-0a1e-d858-f2b6" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="896e-f929-5441-800b" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="5e25-ca78-151e-32df" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="35b6-abda-3ddf-c4da" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
+        <categoryLink id="92a8-289c-c823-1ec0" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="a2e8-a970-b882-f5dc" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="c09d-3b95-c9b6-a5db" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink id="acde-51d2-8bda-36b8" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="f1c4-f0f2-eac8-274b" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="0896-dd88-9ab3-5346" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="473c-7245-b270-b1cc" name="Aranea Ienith: Priestess of Azura" hidden="false" collective="false" import="true" targetId="fdd8-6e26-b1ba-e83b" type="selectionEntry">
@@ -124,6 +152,12 @@
         <categoryLink id="9837-4e1f-2579-d7e0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="97da-8d85-da99-e68c" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="f267-4116-05e7-731d" name="Aranea Ienith: Priestess of Azura" hidden="false" targetId="d700-5656-063d-aa4b" primary="false"/>
+        <categoryLink id="b068-196d-52a7-5be5" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="65f8-a48f-a53f-dc94" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="75b3-0909-ecde-9370" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="6c76-40b8-98e0-dee7" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="a9c8-b896-dca5-7452" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="3bd4-0558-4108-3a9b" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2746-2b72-0271-6d25" name="Vorstag: Freelance Adventurer" hidden="false" collective="false" import="true" targetId="2036-309e-2b2d-0b44" type="selectionEntry">
@@ -139,6 +173,11 @@
         <categoryLink id="e880-ee81-9791-2c09" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="4af9-3815-e7b1-f607" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="2b39-44c6-3883-93df" name="Vorstag: Freelance Adventurer" hidden="false" targetId="7b9a-3194-1a88-bf8b" primary="false"/>
+        <categoryLink id="9169-f952-9ecf-6cff" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="1882-9cf3-c88b-c1c8" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="a9f2-b032-2354-ad71" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="4f2e-6506-4052-6444" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="b8df-f3dd-4a05-b180" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="fb04-56bb-57aa-bba0" name="Banning: Dog Handler" hidden="false" collective="false" import="true" targetId="8fe9-7337-9def-f13d" type="selectionEntry">
@@ -154,6 +193,10 @@
         <categoryLink id="6522-f85e-cd8f-1f0f" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
         <categoryLink id="6330-d372-a0ef-42ee" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="bcdc-d3a8-4728-c891" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="56de-ed9e-247e-ffb2" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="15a2-2132-8433-4353" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="2892-2aa5-2114-b966" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="5589-25d4-7482-7e2a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a6a8-5b9a-5748-69d3" name="Kharjo: Caravan Guard" hidden="false" collective="false" import="true" targetId="e4f2-9c8e-cfc1-fce0" type="selectionEntry">
@@ -169,6 +212,10 @@
         <categoryLink id="ba9f-213f-8bf7-b276" name="Kharjo: Caravan Guard" hidden="false" targetId="3f58-8127-3ee8-b7db" primary="false"/>
         <categoryLink id="4f5e-7637-f244-1bb6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="26cc-cb53-e38c-994d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="a7a4-94e6-c459-3c3a" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="a8e3-bc22-6edd-6c37" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="d577-7f8a-5316-c4a6" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="0433-37cc-67a7-035e" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8e11-0eba-3ac0-5397" name="Jenassa: Dunmer Mercenary" hidden="false" collective="false" import="true" targetId="3bc4-e883-688e-2f3c" type="selectionEntry">
@@ -184,6 +231,12 @@
         <categoryLink id="35d4-6826-ec42-62b4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="d2f3-4c7a-01cb-22bc" name="Jenassa: Dunmer Mercenary" hidden="false" targetId="fcb0-e659-ee1b-d8ae" primary="false"/>
         <categoryLink id="5bda-ad21-ac8a-000e" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="07a6-4f07-2079-759c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="67ee-6e03-55b2-51bc" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="1d5e-41c0-ef86-e9fd" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="d5e1-3ffb-6502-cf34" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="288b-8051-eca7-473a" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="7c2a-40c0-3472-1651" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ddc5-9bc0-d062-c84b" name="Marcurio: Adventuring Mage" hidden="false" collective="false" import="true" targetId="5aaa-7a87-20a1-ecc5" type="selectionEntry">
@@ -199,6 +252,11 @@
         <categoryLink id="2b45-203b-4b54-050f" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="ed2f-032d-28a2-b618" name="Marcurio: Adventuring Mage" hidden="false" targetId="dede-1c5f-efbc-fb4f" primary="false"/>
         <categoryLink id="a494-2b5a-98fe-cc1d" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="5053-b2af-612b-6cdc" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="5356-7c5d-2813-40df" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="5cc9-da9b-abad-7827" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="969b-2494-ce50-e2c0" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="034a-c843-2a80-3122" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="526f-b890-8b7c-875f" name="Mjoll: The Lioness" hidden="false" collective="false" import="true" targetId="b79a-31ec-9033-3f78" type="selectionEntry">
@@ -215,6 +273,11 @@
         <categoryLink id="7081-5175-ca11-7b29" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
         <categoryLink id="34cd-bd4a-3f81-cf01" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="ee99-56aa-f907-17a3" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="179b-ab0a-4255-3eae" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="f16f-ad3f-abae-852f" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="3747-a885-d31f-a653" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="569f-9392-4ced-1a9b" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="c0e4-cf2a-6303-8a05" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d7c8-6938-dea4-2300" name="Orc Barbarian: Adventurer-For-Hire" hidden="false" collective="false" import="true" targetId="95ab-6c55-6fef-1305" type="selectionEntry">
@@ -272,6 +335,11 @@
         <categoryLink id="251b-9b1f-b49d-ce32" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="3582-27c0-14e3-6138" name="Derkeethus: Goldenrock Miner" hidden="false" targetId="49b9-5604-b79d-80ac" primary="false"/>
         <categoryLink id="191a-50e4-5078-cd1f" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="3af4-c165-292d-ab1c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="62c0-162f-3a1c-53f2" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="b43f-0a43-8478-3a6a" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="ad26-9462-b879-ac70" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="5c8e-1d23-6864-c142" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="29a2-e09e-5eec-58c9" name="Lydia: Dragonsreach Housecarl" hidden="false" collective="false" import="true" targetId="c5e2-c069-6e86-e350" type="selectionEntry">
@@ -287,6 +355,10 @@
         <categoryLink id="b991-9ba9-991a-ab91" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="0ccd-fc04-fda5-39a5" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="9de7-17e6-dc6e-7c12" name="Lydia: Dragonsreach Housecarl" hidden="false" targetId="7090-f93f-a2f9-7f8d" primary="false"/>
+        <categoryLink id="c3b0-76ed-8431-53a6" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="164a-7081-afd8-89e5" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="ec08-e6ea-bcf3-a43d" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="ad33-cb44-1ce9-2e34" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

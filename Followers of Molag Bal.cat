@@ -14,6 +14,14 @@
         <categoryLink id="aac6-4246-59f1-7c43" name="Followers of Molag Bal" hidden="false" targetId="89c7-846f-c20d-7174" primary="false"/>
         <categoryLink id="d36e-80c7-3a79-32ba" name="Mannimarco, King of Worms" hidden="false" targetId="b70d-fbd4-c46f-81b8" primary="false"/>
         <categoryLink id="cae7-158b-d088-4e5d" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="c71c-afef-94a7-2577" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="4ab7-7078-225d-b79f" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="c1f8-b0f4-c994-278e" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="b976-a054-78cc-424b" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="3a09-a69b-30c2-5d44" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="ad9c-2172-2030-ae29" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="7c1e-da26-100b-6f30" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="6a44-60f9-f881-d19a" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

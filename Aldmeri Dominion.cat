@@ -18,6 +18,14 @@
         <categoryLink id="7589-bc81-e88c-8399" name="The Sorceress" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
         <categoryLink id="885d-1c8f-3588-3769" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
         <categoryLink id="c5e2-9526-e83b-a2bf" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="d24b-0520-5ca2-cf91" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="6ba1-6149-8b89-efc1" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="6445-ab75-a37a-4213" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="0ba6-3490-0e60-b402" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="223d-4933-becd-a549" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="a862-6c9e-eb2b-475e" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink id="8ad5-6662-ea35-38df" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="88bb-ab32-dffe-5d11" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

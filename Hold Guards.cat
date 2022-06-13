@@ -8,6 +8,12 @@
         <categoryLink id="7054-999b-2cd2-9330" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="dbfa-b327-0826-22ff" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="524d-5995-a5f6-5b74" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+        <categoryLink id="b0d4-1700-37d0-1e63" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="bb75-f47e-4e6b-dc47" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="94f5-b452-29f0-702a" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="5305-05d2-7752-b58e" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="01b2-c2c6-bf7c-0831" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="e8c8-3146-f51c-21c5" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7eea-2a98-6a78-d3f2" name="Hold Guard: Enforcer" hidden="false" collective="false" import="true" targetId="1454-24be-fa85-cba3" type="selectionEntry">
