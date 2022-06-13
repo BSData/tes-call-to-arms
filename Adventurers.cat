@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bed2-2069-45b8-9df1" name="Adventurers" revision="1" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>HEROES DONE</comment>
+  <categoryEntries>
+    <categoryEntry id="d700-5656-063d-aa4b" name="Aranea Ienith: Priestess of Azura" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f246-c043-016e-9218" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7b9a-3194-1a88-bf8b" name="Vorstag: Freelance Adventurer" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80cc-b707-b64d-14de" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7090-f93f-a2f9-7f8d" name="Lydia: Dragonsreach Housecarl" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fb5-5e7f-32eb-2d65" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a108-f970-45bb-869c" name="Banning: Dog Handler" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbcb-ce2b-7570-8314" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="3f58-8127-3ee8-b7db" name="Kharjo: Caravan Guard" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d6-07f8-005a-4e62" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="fcb0-e659-ee1b-d8ae" name="Jenassa: Dunmer Mercenary" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73cd-619c-95ed-bf94" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="49b9-5604-b79d-80ac" name="Derkeethus: Goldenrock Miner" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db5-3d8a-bc95-6f4c" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="abea-4345-6909-fa0b" name="Mjoll: The Lioness" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40fd-0c3a-af31-782d" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="dede-1c5f-efbc-fb4f" name="Marcurio: Adventuring Mage" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee8c-759b-3fb2-452d" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="cb03-f5b7-341c-9bb3" name="The Dragonborn: Champion of Skyrim" hidden="false" collective="false" import="true" targetId="2038-fbad-32c1-0729" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2e68-3ab1-029c-890a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="b140-3583-1eff-a19b" name="New CategoryLink" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="f5f4-45bb-ae92-361b" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="ce3d-e1ac-50eb-6685" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="6c28-e7ca-c818-286a" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="8993-0ba1-fccb-8e5d" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="d8cb-917a-7f79-c67c" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6628-18a9-c641-1dd4" name="The Dragonborn: Steadfast Adventurer" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="fbc5-4271-7f0a-7574" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="94f7-dc68-4a2e-f766" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="b3da-c4c0-4701-f5a4" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="dcc5-805d-9b4a-ee0e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="f702-e5cc-01b4-16bb" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="7628-38e1-35bc-ada4" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="250e-4359-7540-45b8" name="The Dragonborn: Nightingale" hidden="false" collective="false" import="true" targetId="6259-fe84-67ba-0f6c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="989b-4227-9d20-dbae" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="e521-972d-e59c-aa4c" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="5d3e-aff7-bee3-9f64" name="Nightingales" hidden="false" targetId="5594-acf1-76dc-5206" primary="false"/>
+        <categoryLink id="edd5-700a-658e-3d90" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="a45c-4d98-fa79-8735" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="2903-e864-86e5-3671" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="25f5-3784-2b11-1b84" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="473c-7245-b270-b1cc" name="Aranea Ienith: Priestess of Azura" hidden="false" collective="false" import="true" targetId="fdd8-6e26-b1ba-e83b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8405-4d50-d702-41de" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="9837-4e1f-2579-d7e0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="97da-8d85-da99-e68c" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="f267-4116-05e7-731d" name="Aranea Ienith: Priestess of Azura" hidden="false" targetId="d700-5656-063d-aa4b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2746-2b72-0271-6d25" name="Vorstag: Freelance Adventurer" hidden="false" collective="false" import="true" targetId="2036-309e-2b2d-0b44" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f419-714b-d0c9-a126" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="e880-ee81-9791-2c09" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="4af9-3815-e7b1-f607" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="2b39-44c6-3883-93df" name="Vorstag: Freelance Adventurer" hidden="false" targetId="7b9a-3194-1a88-bf8b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fb04-56bb-57aa-bba0" name="Banning: Dog Handler" hidden="false" collective="false" import="true" targetId="8fe9-7337-9def-f13d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="fcae-643a-0fef-c097" name="Banning: Dog Handler" hidden="false" targetId="a108-f970-45bb-869c" primary="false"/>
+        <categoryLink id="6522-f85e-cd8f-1f0f" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="6330-d372-a0ef-42ee" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="bcdc-d3a8-4728-c891" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a6a8-5b9a-5748-69d3" name="Kharjo: Caravan Guard" hidden="false" collective="false" import="true" targetId="e4f2-9c8e-cfc1-fce0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="7282-095f-9fc8-8e5e" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="ba9f-213f-8bf7-b276" name="Kharjo: Caravan Guard" hidden="false" targetId="3f58-8127-3ee8-b7db" primary="false"/>
+        <categoryLink id="4f5e-7637-f244-1bb6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="26cc-cb53-e38c-994d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8e11-0eba-3ac0-5397" name="Jenassa: Dunmer Mercenary" hidden="false" collective="false" import="true" targetId="3bc4-e883-688e-2f3c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="b95c-e722-2ff8-d84b" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="35d4-6826-ec42-62b4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="d2f3-4c7a-01cb-22bc" name="Jenassa: Dunmer Mercenary" hidden="false" targetId="fcb0-e659-ee1b-d8ae" primary="false"/>
+        <categoryLink id="5bda-ad21-ac8a-000e" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ddc5-9bc0-d062-c84b" name="Marcurio: Adventuring Mage" hidden="false" collective="false" import="true" targetId="5aaa-7a87-20a1-ecc5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="3f37-402f-2d70-4c3d" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="2b45-203b-4b54-050f" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="ed2f-032d-28a2-b618" name="Marcurio: Adventuring Mage" hidden="false" targetId="dede-1c5f-efbc-fb4f" primary="false"/>
+        <categoryLink id="a494-2b5a-98fe-cc1d" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="526f-b890-8b7c-875f" name="Mjoll: The Lioness" hidden="false" collective="false" import="true" targetId="b79a-31ec-9033-3f78" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8b4f-de2b-b946-0dd4" name="Mjoll: The Lioness" hidden="false" targetId="abea-4345-6909-fa0b" primary="false"/>
+        <categoryLink id="e9ad-9e38-1fea-f1c4" name="Mjoll The Lioness Equipment" hidden="false" targetId="ff78-9b9f-a3a4-13ec" primary="false"/>
+        <categoryLink id="7081-5175-ca11-7b29" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="34cd-bd4a-3f81-cf01" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="ee99-56aa-f907-17a3" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d7c8-6938-dea4-2300" name="Orc Barbarian: Adventurer-For-Hire" hidden="false" collective="false" import="true" targetId="95ab-6c55-6fef-1305" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="03a4-6256-8b54-3dba">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="4790-7693-ceef-651e" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="30f3-c052-51f3-72d5" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="77e7-005b-e819-3498" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4bab-6e3f-44da-1c8b" name="Breton Ranger: Adventurer-For-Hire" hidden="false" collective="false" import="true" targetId="b23f-31ab-dd79-0880" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="03a4-6256-8b54-3dba">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="65bb-657c-fc27-cf30" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="95f4-eb1d-292d-5397" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="3854-8d61-e2c1-d2bd" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="14fd-c147-edab-31e5" name="Khajiit Thief: Adventurer-For-Hire" hidden="false" collective="false" import="true" targetId="8805-cec0-32a1-5cc8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="03a4-6256-8b54-3dba">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8453-9703-4b3e-a725" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="4174-513c-18d8-9139" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="4b60-0dad-606f-c119" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="38ae-380b-2c2c-71b4" name="Derkeethus: Goldenrock Miner" hidden="false" collective="false" import="true" targetId="07f9-bd77-8b75-db94" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8452-dc57-1d38-8ae8" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="251b-9b1f-b49d-ce32" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="3582-27c0-14e3-6138" name="Derkeethus: Goldenrock Miner" hidden="false" targetId="49b9-5604-b79d-80ac" primary="false"/>
+        <categoryLink id="191a-50e4-5078-cd1f" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="29a2-e09e-5eec-58c9" name="Lydia: Dragonsreach Housecarl" hidden="false" collective="false" import="true" targetId="c5e2-c069-6e86-e350" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="9dcd-4e9e-ab71-08be" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="b991-9ba9-991a-ab91" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="0ccd-fc04-fda5-39a5" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="9de7-17e6-dc6e-7c12" name="Lydia: Dragonsreach Housecarl" hidden="false" targetId="7090-f93f-a2f9-7f8d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2038-fbad-32c1-0729" name="The Dragonborn: Champion of Skyrim" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="bfd4-26f4-6c42-3cb9" name="Banish The Wicked" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+          <description>The Dragonborn adds [YELLOW] to all Attacks performed against models of the Daedra, Undead, Vampire and Werewolf races.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7288-6969-ab31-d3f1" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+        <infoLink id="ea52-d8d5-9137-89f3" name="The Dragonborn: Champion of Skyrim" hidden="false" targetId="264c-1500-c3c5-7e4d" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4223-f690-72a4-ee7b" name="Perk: Dual Savagery" hidden="false" targetId="b75c-66f4-b5b4-5308" type="rule"/>
+        <infoLink id="9a09-74fa-0532-5ae1" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="208e-0d14-d8d6-2b75" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="eed1-c193-d029-cf96" name="Perk: Treasure Hunter" hidden="false" targetId="20be-2e12-0782-2057" type="rule"/>
+        <infoLink id="0459-7db4-3556-c93c" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="dac3-022f-f32b-0976" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89d-ff79-08ad-ca3b" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="b899-1ecc-1f21-3482" name="Banish The Wicked (Leveled)" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+              <description>The Dragonborn adds [GREEN][YELLOW] to all Attacks performed against models of the Daedra, Undead, Vampire and Werewolf races.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="7b98-d737-e3ca-6f82" name="The Dragonborn: Champion of Skyrim (Leveled)" hidden="false" targetId="704d-c477-99a2-720c" type="profile"/>
+            <infoLink id="1085-edab-e1d6-e851" name="Perk: Armsman" hidden="false" targetId="f765-fb99-5b29-1171" type="rule"/>
+            <infoLink id="3cfe-930e-b04e-2c4f" name="Perk: Conditioning" hidden="false" targetId="6486-0fbf-504b-ff6f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a21e-05ae-c671-9a6e" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="1fb3-f32b-5ff5-f7ec" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b9c-92a5-d2c0-b8f1" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="c99d-8122-108b-6600" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="74.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbc5-4271-7f0a-7574" name="The Dragonborn: Steadfast Adventurer" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="7a41-cfb8-bbc9-5bd9" name="Sure-Footed" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>The Dragonborn adds [YELLOW][YELLOW] to its Armor Rating against ranged attacks with the Force damage type.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="80a0-5612-211c-6853" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+        <infoLink id="a395-8320-9066-ef84" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="ea63-76b2-440d-1fed" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="eba1-5d57-2891-82fb" name="Perk: Defensive Posture" hidden="false" targetId="fd4f-3ef9-2082-4adf" type="rule"/>
+        <infoLink id="d82e-832b-c0b6-80a4" name="Perk: Tower of Strength" hidden="false" targetId="9489-c41b-efeb-4897" type="rule"/>
+        <infoLink id="382c-4c41-3ea2-f903" name="The Dragonborn: Steadfast Adventurer" hidden="false" targetId="e867-4e61-ec56-6df1" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="343d-260a-d0e4-dcf1" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06aa-7c52-24a6-67fc" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a73e-5171-889a-7979" name="The Dragonborn: Steadfast Adventurer (Leveled)" hidden="false" targetId="6b45-8685-6580-e7cf" type="profile"/>
+            <infoLink id="3a7d-b485-72ca-572e" name="Perk: Fortress" hidden="false" targetId="3909-d1e3-2d0a-a52b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d1a3-c07d-f9a3-4bbb" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="0a8a-b796-0134-8d62" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92a9-748e-b9ed-a1e5" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="aa71-a4c1-1ec7-2ff7" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="86.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6259-fe84-67ba-0f6c" name="The Dragonborn: Nightingale" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="5f4e-e607-10b3-ecb5" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+        <infoLink id="ee65-85d0-c152-eb0e" name="The Dragonborn: Nightingale" hidden="false" targetId="c9f7-0725-7105-ef01" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="989b-4227-9d20-dbae" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="860f-40da-b15e-0e90" name="Perk: Misdirection" hidden="false" targetId="e37a-4550-0ecf-e918" type="rule"/>
+        <infoLink id="acbd-cabb-3099-12b8" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="f419-fc7d-7063-17f9" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="41c6-7498-dd8c-1c3b" name="Perk: Wind Walker" hidden="false" targetId="986d-0c2c-6f55-86f8" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="aed0-5da5-9085-12ff" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d521-e309-fede-b506" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d690-ed46-b149-62ff" name="One With The Shadows (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false">
+              <description>The Dragonborn may restore 1 Stamina Point each time they start an activation with a Hidden token.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="df5c-7836-6f64-a87d" name="The Dragonborn: Nightingale (Leveled)" hidden="false" targetId="27de-780d-0932-0fd1" type="profile"/>
+            <infoLink id="565a-3752-3f0d-7c04" name="Perk: Quick Shot" hidden="false" targetId="8cc1-5dcf-1215-7ee2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b991-b320-15a0-1c66" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="cf4c-9ce8-56a5-185a" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa7c-0e33-8b5d-df54" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1149-cacc-6ce3-4514" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="68.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdd8-6e26-b1ba-e83b" name="Aranea Ienith: Priestess of Azura" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="10ae-97ff-d3d4-6495" name="Aranea Ienith: Priestess of Azura" hidden="false" targetId="4cad-008a-0060-b9d5" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="96d9-26f4-488f-1741" name="Perk: Mage Armor" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink id="1939-a732-9296-0715" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="c968-0d44-f359-2f62" name="Dunmer" hidden="false" targetId="a0cb-51aa-e265-db37" type="infoGroup"/>
+        <infoLink id="df1c-0489-52de-d687" name="Ancestor&apos;s Wrath" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="ef56-7dca-0b72-6517" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2988-268a-f0b7-9459" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6a3b-c7ca-35d8-d707" name="Aranea Ienith: Priestess of Azura (Leveled)" hidden="false" targetId="3378-0171-13ec-e3ba" type="profile"/>
+            <infoLink id="993b-abfc-25b3-2146" name="Perk: Augmented Frost" hidden="false" targetId="f130-7877-e9aa-a998" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="815a-692b-cced-1111" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="3234-6121-aa1c-e51b" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="975a-593b-ba53-e595" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="dea5-97c7-4ca0-f156" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="56.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2036-309e-2b2d-0b44" name="Vorstag: Freelance Adventurer" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="d46f-d04c-a49a-d8af" name="Vorstag: Freelance Adventurer" hidden="false" targetId="e22f-7d81-832a-a3c1" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0a19-4abf-94f4-1333" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="c801-3499-4696-7f0e" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="fbd5-dba1-9c2e-955c" name="Perk: Low Slash" hidden="false" targetId="4ed4-75bd-da20-3fe2" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="854f-4a6a-825d-c1b3" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96c9-6eb2-69a8-c155" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="544b-1a71-1ad0-c344" name="Barbarian Strike (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+              <description>When Vorstag scores a [CRITICAL HIT] for a melee attack, the attack immediately gains the Follow-Up keyword. Only one Follow-Up may be gained this way per weapon in a single round.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="27b7-1cc4-f8fa-4e95" name="Vorstag: Freelance Adventurer (Leveled)" hidden="false" targetId="786d-6673-db92-66b8" type="profile"/>
+            <infoLink id="5e78-04de-0b2e-a0dd" name="Perk: Power Bash" hidden="false" targetId="e5a0-ed0a-d20a-b5c9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="dd98-ca72-c88d-376f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="4409-7829-e231-3017" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e62-e724-36dd-2b37" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="26c2-1756-a5e3-e352" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5e2-c069-6e86-e350" name="Lydia: Dragonsreach Housecarl" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="fe07-45e8-1f44-194e" name="Lydia: Dragonsreach Housecarl" hidden="false" targetId="95f2-62b5-bcfc-582f" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="772c-fb27-2542-3565" name="Perk: Shield Wall" hidden="false" targetId="8e3a-c72d-0196-1862" type="rule"/>
+        <infoLink id="edfa-beec-0264-5261" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="ee64-84db-86a1-f330" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="a3b4-8f22-7763-4586" name="Bodyguard" hidden="false" targetId="0d50-532c-9a8a-a28f" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="d28a-78eb-d9d2-7ecf" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47de-a58b-eda0-da48" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d089-8fa0-128c-0f1b" name="Lydia: Dragonsreach Housecarl (Leveled)" hidden="false" targetId="9442-21a7-d7a8-8e7d" type="profile"/>
+            <infoLink id="31e3-dccc-35f9-62d9" name="Perk: Quick Reflexes" hidden="false" targetId="195a-2802-482e-6e22" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d20f-e86f-1319-7524" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="48cd-583e-a1b0-a32b" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e40-154d-0933-15f5" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="51a6-a847-7cc8-d186" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fe9-7337-9def-f13d" name="Banning: Dog Handler" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="f56a-fc2c-f472-1e36" name="Pack Master" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>A party that includes Banning can include one more War Dog Familiar than is ordinarily allowed. In addition, friendly War Dogs within 3&quot; gain the Bodyguard keyword, targeting Banning instead of the party Chamption</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d7ef-55c6-4e1f-4d89" name="Banning: Dog Handler" hidden="false" targetId="c4a3-2632-7dd9-a053" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6229-2e92-e928-9750" name="Perk: Merchant" hidden="false" targetId="a50d-245c-bebc-6404" type="rule"/>
+        <infoLink id="1cf6-9168-4896-bf08" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="49ec-2714-bd1e-739b" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="c01b-8735-a85b-4896" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e418-fe38-d998-9da6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8190-233b-384a-4b77" name="Banning: Dog Handler (Leveled)" hidden="false" targetId="057a-75f6-48f7-7e75" type="profile"/>
+            <infoLink id="3c6f-2de4-638d-b8aa" name="Perk: Ranger" hidden="false" targetId="ff82-0769-0a4a-7153" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="bfac-f058-ed90-7947" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="fa10-5bd1-8891-6d4f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db58-5183-1fad-de58" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="6bd5-d7df-bb37-144f" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4f2-9c8e-cfc1-fce0" name="Kharjo: Caravan Guard" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="6dba-8bad-9e8b-d730" name="Perk: Bonebreaker" hidden="false" targetId="99da-de32-8e63-1a52" type="rule"/>
+        <infoLink id="a9cd-1374-0457-13fc" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="724e-35f7-1398-0c77" name="Khajiit" hidden="false" targetId="79c0-88d5-843b-8055" type="infoGroup"/>
+        <infoLink id="bb95-379e-c03f-d894" name="Bodyguard" hidden="false" targetId="0d50-532c-9a8a-a28f" type="rule"/>
+        <infoLink id="befe-e5d8-3a66-d405" name="Kharjo: Caravan Guard" hidden="false" targetId="3703-ce6c-93c5-5224" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="3c46-033a-5f8e-e00d" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9662-8c54-432d-b9e3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1240-0f0c-286e-1f02" name="Kharjo: Caravan Guard (Leveled)" hidden="false" targetId="3b2c-6a06-2ab6-a542" type="profile"/>
+            <infoLink id="7c0a-848d-759e-75b3" name="Perk: Conditioning" hidden="false" targetId="6486-0fbf-504b-ff6f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="54e6-9ae1-f579-ffc0" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="de53-b849-f5ef-815f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1179-7388-88a2-dc1e" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="c4a1-0c74-e949-1119" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bc4-e883-688e-2f3c" name="Jenassa: Dunmer Mercenary" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="36a5-f515-b537-7e93" name="Blade And Shadow" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>All One-Handed weapons equipped by Jenassa gain the Lightweight keyword.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="064f-f896-74b1-b23c" name="Jenassa: Dunmer Mercenary (Leveled)" hidden="false" targetId="8152-cf6d-3f1f-783c" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="af6b-848a-6534-4e47" name="Perk: Ranger" hidden="false" targetId="ff82-0769-0a4a-7153" type="rule"/>
+        <infoLink id="c3fc-ef44-d3d6-732d" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="6e06-fab8-75af-4084" name="Dunmer" hidden="false" targetId="a0cb-51aa-e265-db37" type="infoGroup"/>
+        <infoLink id="a7c5-07a4-0530-e793" name="Perk: Flurry" hidden="false" targetId="d591-10a9-f15e-6b20" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="b430-fefc-d3cd-7684" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fca-ceae-cb92-373c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b376-374d-724b-0333" name="Jenassa: Dunmer Mercenary (Leveled)" hidden="false" targetId="8152-cf6d-3f1f-783c" type="profile"/>
+            <infoLink id="4de5-dc08-299c-54d8" name="Perk: Silent Roll" hidden="false" targetId="1be2-5932-9952-b01b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="60f8-879a-7606-c598" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="95e2-68b4-9281-110d" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04e2-5a42-d6de-eede" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1c1c-6db7-c7da-b28e" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07f9-bd77-8b75-db94" name="Derkeethus: Goldenrock Miner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="985e-092c-9667-63ce" name="Perk: Power Shot" hidden="false" targetId="ad1e-6109-2c63-c660" type="rule"/>
+        <infoLink id="484c-1c7b-dd8a-a336" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="85b9-54d5-e318-d95a" name="Argonian" hidden="false" targetId="4b92-92cf-5195-7fbb" type="infoGroup"/>
+        <infoLink id="a8f6-7c7e-9fae-0398" name="Derkeethus: Goldenrock Miner" hidden="false" targetId="5578-8caf-c76a-c3e0" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="d671-5e9d-a487-e34a" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5aa-1dbf-47bd-a558" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2540-8f18-f074-fd58" name="Derkeethus: Goldenrock Miner (Leveled)" hidden="false" targetId="1204-9275-c26c-2768" type="profile"/>
+            <infoLink id="94ff-4e9c-2b27-c34b" name="Perk: Dual Savagery" hidden="false" targetId="b75c-66f4-b5b4-5308" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="28f9-0c07-e04f-5140" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="3ff1-07db-4364-73e6" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea2-ccb4-6f74-57c1" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="87a1-7aa3-b3e8-6091" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b79a-31ec-9033-3f78" name="Mjoll: The Lioness" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="4367-8d2f-f78b-f04d" name="Stubborn" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>Mjoll adds [GREEN] to all Morale Checks.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="44d9-a03c-efae-3afc" name="Mjoll: The Lioness (Leveled)" hidden="false" targetId="f04f-b30a-f383-b355" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0b7c-bc60-7121-af8e" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
+        <infoLink id="f8fb-979a-1a3e-831f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="1f8f-82a1-19ba-a842" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="0355-763d-83d2-b9f2" name="Perk: Warmaster" hidden="false" targetId="76b4-20d7-406d-e54b" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="d32f-6ff4-1597-cdef" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebbf-bd55-ff75-7c2d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="9e20-600d-024b-0af9" name="By Ysmir You&apos;ll Pay For That! (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+              <description>Once per Round when Mjoll is damaged by a melee attack, as long as she is still standing she immediately performs a free melee attack against the [enemy] attacker, exactly as if she had spent a Ready token.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="f7dc-d89b-f3b5-995b" name="Mjoll: The Lioness (Leveled)" hidden="false" targetId="f04f-b30a-f383-b355" type="profile"/>
+            <infoLink id="538d-429b-346a-2078" name="Perk: Sweep" hidden="false" targetId="6abd-5574-d4a0-c5f9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2298-2c94-1ac6-6fc4" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="d6d6-abb5-9234-a9cc" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa45-a939-f2fe-fe0d" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="cf59-fca3-56ae-b30c" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5aaa-7a87-20a1-ecc5" name="Marcurio: Adventuring Mage" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="4ff2-078d-fe51-7134" name="Marcurio: Adventuring Mage" hidden="false" targetId="786b-1ca0-a695-1b60" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9c32-8b46-a989-6c06" name="Perk: Mage Armor" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink id="0cd7-c3fe-8824-1bb4" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="9c32-b988-7544-bc39" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="c971-5c27-2272-69b7" name="Perk: Destruction Mastery" hidden="false" targetId="eae7-ee7c-9f43-386d" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="7938-f973-7759-b1aa" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0acc-608e-465c-5355" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e4a7-1260-958c-b8d0" name="Marcurio: Adventuring Mage (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" targetId="4408-584d-bd28-6437" type="profile"/>
+            <infoLink id="48c3-b9b7-35bd-aced" name="Perk: Impulse" hidden="false" targetId="6257-3746-fa77-501f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0b3f-cb57-bd5b-6a25" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="3760-54a1-4e67-733e" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6cb-1587-01c1-5630" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2a45-1885-8e36-d32d" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95ab-6c55-6fef-1305" name="Orc Barbarian: Adventurer-For-Hire" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="190e-af51-9edf-2a8e" name="Orc Barbarian: Adventurer-For-Hire" hidden="false" targetId="18c8-02a2-d523-abbf" type="profile">
+          <modifiers>
+            <modifier type="set" field="d40a-cf47-d6a2-041b" value="Hireling Follower">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4a2d-3fb4-ab83-948a" name="Perk: Conditioning" hidden="false" targetId="6486-0fbf-504b-ff6f" type="rule"/>
+        <infoLink id="ef92-96fd-946f-4e89" name="Orsimer" hidden="false" targetId="24d3-bf90-3495-ab2b" type="infoGroup"/>
+        <infoLink id="8393-870f-9297-f507" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b23f-31ab-dd79-0880" name="Breton Ranger: Adventurer-For-Hire" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7343-87cd-d16c-12df" name="Breton Ranger: Adventurer-For-Hire" hidden="false" targetId="4897-9af5-f743-7c51" type="profile">
+          <modifiers>
+            <modifier type="set" field="d40a-cf47-d6a2-041b" value="Hireling Follower">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a090-4245-59c4-d0a7" name="Charm Animal" hidden="false" targetId="d7a8-7b6e-b437-a6fc" type="rule"/>
+        <infoLink id="d982-1b53-13a0-67f8" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+        <infoLink id="dc32-3a9d-ce00-673d" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8805-cec0-32a1-5cc8" name="Khajiit Thief: Adventurer-For-Hire" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ed26-98e6-d2ab-398e" name="Khajiit Thief: Adventurer-For-Hire" hidden="false" targetId="4075-d281-bf6e-9033" type="profile">
+          <modifiers>
+            <modifier type="set" field="d40a-cf47-d6a2-041b" value="Hireling Follower">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0ce1-474b-5d4a-e03d" name="Perk: Backstab" hidden="false" targetId="3c8f-df29-73c0-e515" type="rule"/>
+        <infoLink id="ee63-8b53-3417-47a5" name="Khajiit" hidden="false" targetId="79c0-88d5-843b-8055" type="infoGroup"/>
+        <infoLink id="4ee6-5a09-032e-8b2d" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="264c-1500-c3c5-7e4d" name="The Dragonborn: Champion of Skyrim" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Dual Savagery, Intimidation, Treasure Hunter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Banish The Wicked</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Heavy Armor
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Alchemy
+Enchanting
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Imperial Legion, Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="704d-c477-99a2-720c" name="The Dragonborn: Champion of Skyrim (Leveled)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Armsman, Conditioning, Dual Savagery, Intimidation, Treasure Hunter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Banish The Wicked (Leveled)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Alchemy
+Enchanting
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e867-4e61-ec56-6df1" name="The Dragonborn: Steadfast Adventurer" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Defensive Posture, Tower of Strength</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Sure-Footed</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6b45-8685-6580-e7cf" name="The Dragonborn: Steadfast Adventurer (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Defensive Posture, Fortress, Tower of Strength</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Sure-Footed</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Heavy Armor
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">5</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c9f7-0725-7105-ef01" name="The Dragonborn: Nightingale" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Misdirection, Wind Walker</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Lockpicking
+Pickpocket
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Illusion
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Enchanting
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Nightingales</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="27de-780d-0932-0fd1" name="The Dragonborn: Nightingale (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Misdirection, Quick Shot, Wind Walker</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">One With The Shadows (Leveled Only)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">6
+Archery
+Lockpicking
+Pickpocket
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Illusion
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Enchanting
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4cad-008a-0060-b9d5" name="Aranea Ienith: Priestess of Azura" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Dunmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Mage Armor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Ancestor&apos;s Wrath, Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Alteration
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3378-0171-13ec-e3ba" name="Aranea Ienith: Priestess of Azura (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Frost, Mage Armor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Ancestor&apos;s Wrath, Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e22f-7d81-832a-a3c1" name="Vorstag: Freelance Adventurer" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Low Slash</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="786d-6673-db92-66b8" name="Vorstag: Freelance Adventurer (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Low Slash, Power Bash</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Barbarian Strike (Leveled)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="95f2-62b5-bcfc-582f" name="Lydia: Dragonsreach Housecarl" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Shield Wall</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Bodyguard, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9442-21a7-d7a8-8e7d" name="Lydia: Dragonsreach Housecarl (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Quick Reflexes, Shield Wall</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Bodyguard, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="057a-75f6-48f7-7e75" name="Banning: Dog Handler (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Merchant, Ranger</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Pack Master</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Conjuration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c4a3-2632-7dd9-a053" name="Banning: Dog Handler" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Merchant</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Pack Master</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Conjuration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3703-ce6c-93c5-5224" name="Kharjo: Caravan Guard" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Khajiit</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bonebreaker</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Bodyguard, Night Eye</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3b2c-6a06-2ab6-a542" name="Kharjo: Caravan Guard (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bonebreaker, Conditioning</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Bodyguard, Night Eye</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">5</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2d90-22fb-251f-fe93" name="Jenassa: Dunmer Mercenary" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Dunmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Flurry, Ranger</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Blade and Shadow</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8152-cf6d-3f1f-783c" name="Jenassa: Dunmer Mercenary (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Flurry, Ranger, Silent Roll</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Blade and Shadow</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5578-8caf-c76a-c3e0" name="Derkeethus: Goldenrock Miner" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Argonian</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Power Shot</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Histskin, Waterbreathing</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1204-9275-c26c-2768" name="Derkeethus: Goldenrock Miner (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Dual Savagery, Power Shot</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Histskin, Waterbreathing</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1426-5847-5151-4225" name="Mjoll: The Lioness" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Warmaster</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Stubborn</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f04f-b30a-f383-b355" name="Mjoll: The Lioness (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Sweep [1], Warmaster</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Stubborn, &quot;By Ysmir You&apos;ll Pay For That!&quot; (Leveled)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="786b-1ca0-a695-1b60" name="Marcurio: Adventuring Mage" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Destruction, Mage Armor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Destruction
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">2</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4408-584d-bd28-6437" name="Marcurio: Adventuring Mage (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Destruction, Impulse, Mage Armor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Destruction
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="18c8-02a2-d523-abbf" name="Orc Barbarian: Adventurer-For-Hire" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Orsimer</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Two-Handed: [GREEN][RED][YELLOW]
+[HELMET]: Bleed
+[SWORDS]: Follow-Up
+Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Heavy Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Berserker Rage, Conditioning</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4897-9af5-f743-7c51" name="Breton Ranger: Adventurer-For-Hire" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Breton</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+10&quot;: [GREEN][RED]
+20&quot;: [GREEN][YELLOW]
+[HELMET]: Piercing (1)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Charm Animal, Resistance (Magic)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4075-d281-bf6e-9033" name="Khajiit Thief: Adventurer-For-Hire" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Khajiit</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW][YELLOW]
+///////
+One-Handed: [GREEN][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Backstab, Night Eye</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Sneak
+Lockpicking</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

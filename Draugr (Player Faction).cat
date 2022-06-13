@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8caf-f620-70a1-633c" name="Draugr (Player Faction)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="132e-5ba6-5277-8586" name="Krosis: Dragon Priest" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8de-05dd-06c6-001b" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="975a-133f-afba-6125" name="Dragon Priest" hidden="false" collective="false" import="true" targetId="2a5e-2c2a-7612-d71d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7b0d-cf0e-2e81-ec3a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="d563-1aa7-1890-3d75" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="fb5b-230e-a60e-0b3a" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="2050-04bd-064e-45f0" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="057f-12be-5a35-7bb6" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7f3e-a507-d94a-0cb0" name="Krosis: Dragon Priest" hidden="false" collective="false" import="true" targetId="9cb5-ba93-b866-dd4e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3c22-273a-1407-55fb" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="843b-4cfc-e872-d8a8" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="eef5-7b89-9ea1-192b" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="01ba-743b-3893-fbf2" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="2580-40ba-1f32-fb55" name="Krosis: Dragon Priest" hidden="false" targetId="132e-5ba6-5277-8586" primary="false"/>
+        <categoryLink id="eb85-c907-ca2f-591b" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9a21-fddd-0d12-f973" name="Draugr Deathlord: Crypt Master" hidden="false" collective="false" import="true" targetId="ee0c-e554-31e3-b770" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d85c-2e38-ec71-9ac7" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="d837-e424-f808-1db6" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="7215-d20b-0a5e-dd18" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="40dd-de62-da0b-a25b" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="24e0-dc1a-7d3e-a5a7" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+        <categoryLink id="0ef9-0e92-0310-fd03" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0c43-21fd-7a62-fa57" name="Draugr Overlord: Bleak Falls Guardian" hidden="false" collective="false" import="true" targetId="b832-60ce-a59f-6f8e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3217-9e2d-4a71-f583" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="fbf5-4b48-14af-af77" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="a267-5dbd-8f37-0182" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="2ae8-3a08-9e3a-2d0a" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+        <categoryLink id="b043-e9f2-f9e6-421f" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="be5f-1974-1466-e143" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="20a2-f3d0-cd02-4ec3" name="Hulking Draugr: Armored Axeman" hidden="false" collective="false" import="true" targetId="ce4d-0597-4996-c4f8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f0cd-c4fc-4eb4-c8d3" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="93f9-1806-61a5-5421" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="4110-2b49-cd8a-d472" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="28e5-6372-8e78-46b0" name="Hulking Draugr: Armored Guardian" hidden="false" collective="false" import="true" targetId="67ce-e702-4eb3-9586" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d0f5-ba23-4441-7223" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="1af6-31d9-080b-19a4" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="9aad-0232-0f3a-cde3" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="943f-954c-afcc-733b" name="Skeleton: Archer" hidden="false" collective="false" import="true" targetId="d3f7-91d9-90e5-350a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="edfa-776b-4ce4-1e44" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="b931-9d29-82e8-7c86" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="0519-4b2d-4dee-5303" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e3dd-9eb2-26c7-0171" name="Skeleton: Warrior" hidden="false" collective="false" import="true" targetId="392f-7cf6-da00-066b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4666-5e80-f45a-112f" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="88a3-06dc-fd1c-e22b" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="78f6-b452-2db2-fbe1" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f16e-6a34-8df3-bedd" name="Draugr: Greatsword Warrior" hidden="false" collective="false" import="true" targetId="e91c-3201-d306-1099" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4252-46b6-b240-f9cc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="be4a-8311-7827-f886" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="6bd1-5920-f730-837c" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0d94-a7eb-70ec-f3d0" name="Draugr: Warrior" hidden="false" collective="false" import="true" targetId="3510-b50a-d358-e194" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="72dd-936b-19ce-b369" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="5e1c-f019-54bf-49a0" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="7a8d-0ba0-b236-d35a" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="50e9-17c6-be7a-e1de" name="Skeleton: Archer" hidden="false" collective="false" import="true" targetId="d3f7-91d9-90e5-350a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5ac5-50b3-073b-8d93" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="2737-bd76-a1b5-33b4" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="076f-ec4b-e87c-a831" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5bd6-ad21-3a6e-f3ee" name="Restless Draugr: Barrow Guardian" hidden="false" collective="false" import="true" targetId="a293-da46-8672-5cf9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="875e-256d-b8bb-d0d8" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="ea1f-07d9-c721-7c82" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="570b-e7f7-e298-256b" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="af26-82bf-4608-d05b" name="Restless Draugr: Frostblade" hidden="false" collective="false" import="true" targetId="1c51-73e0-5102-f65f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e10d-7091-2911-0ca0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="e0ca-383b-cf33-7c7d" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="580a-4674-ee40-29be" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="b832-60ce-a59f-6f8e" name="Draugr Overlord: Bleak Falls Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="9a76-47aa-a4c6-80aa" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+        <infoLink id="873d-d5a9-9540-50f2" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="4377-ffe4-40cd-2b6f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="bfe7-4624-879f-2234" name="Draugr Deathlord: Crypt Master" hidden="false" targetId="4b63-1bf0-1892-c70b" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="425e-3af1-5a24-8394" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60b0-18ef-39fb-0b83" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b65d-ef0f-557a-90e0" name="Draugr Overlord: Bleak Falls Guardian (Leveled)" hidden="false" targetId="ff56-0d69-324a-57f8" type="profile"/>
+            <infoLink id="315b-585c-1ca2-2c04" name="Perk: Annulment" hidden="false" targetId="0830-3a1b-ea49-5b38" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="287d-263b-7b33-9d51" name="Draugr Equipment (Preset)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6818-bca8-693f-78fb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9a1-8b7b-c2e3-b421" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="501f-ba5f-0fdc-ca0d" name="Ancient Nord Sword" hidden="false" collective="false" import="true" targetId="bd0c-e99d-1db7-781f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b96-385d-353b-b3a6" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="41a9-e202-71ae-d8d2" name="Steel Shield" hidden="false" collective="false" import="true" targetId="972b-2934-b04f-d553" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3d8-5731-5549-209a" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2c67-9238-1599-e5b3" name="Studded Leather" hidden="false" collective="false" import="true" targetId="4463-fb08-a70c-d685" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca62-858d-8acf-bb2c" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b244-307f-f1bc-9fad" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac1-d22d-fa58-e9fe" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="68.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee0c-e554-31e3-b770" name="Draugr Deathlord: Crypt Master" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="70a1-7903-05dd-9403" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+        <infoLink id="3253-cc4b-4ecb-47c1" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="a51c-945a-5dd8-36f4" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="88dc-4f5f-c0f2-1aaf" name="Draugr Deathlord: Crypt Master" hidden="false" targetId="4b63-1bf0-1892-c70b" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="31db-5ea9-831b-ec6e" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="746b-4215-c3ca-98be" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d035-9a6d-2bf2-2182" name="Draugr Overlord: Bleak Falls Guardian (Leveled)" hidden="false" targetId="ff56-0d69-324a-57f8" type="profile"/>
+            <infoLink id="1489-16f2-8e6c-c792" name="Perk: Well Fitted" hidden="false" targetId="1cd1-dafa-32a1-0e91" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b735-8111-9834-2c1d" name="Draugr Equipment (Preset)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4824-6eff-b579-934a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4325-bc52-9872-9019" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="062f-eb3c-4a3f-6c26" name="Ancient Nord Greatsword" hidden="false" collective="false" import="true" targetId="7d00-747c-e971-04ef" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5561-b009-e737-9c6a" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2742-3347-bc27-4625" name="Ancient Nord Armor" hidden="false" collective="false" import="true" targetId="918d-0dd5-1b7e-f33c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1992-1433-750c-825f" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ff46-c90e-c9e7-deb4" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b09-7de5-32b0-3d26" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a5e-2c2a-7612-d71d" name="Dragon Priest" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6896-80ba-3ab4-800b" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="5c87-1d3e-2a5e-cb4f" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="726e-cce7-27f5-f10e" name="Dragon Priest" hidden="false" targetId="bc5a-2520-fd3d-3943" type="profile"/>
+        <infoLink id="1bfd-5e3a-9599-152c" name="Perk: Mage Armor" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink id="7015-2580-c57a-df9d" name="Perk: Recovery" hidden="false" targetId="85b5-86b0-993b-2f70" type="rule"/>
+        <infoLink id="d921-a0cc-bf24-b57a" name="Perk: Stability" hidden="false" targetId="3394-de27-bd45-ae53" type="rule"/>
+        <infoLink id="4f37-b72d-9a7f-c1c8" name="Born Leader" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+        <infoLink id="7e42-e97a-324c-1668" name="Ethereal" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+        <infoLink id="b77f-cda1-02b1-9ba4" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="6842-8352-f246-6502" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="572c-b5b9-9959-ae76" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="dde3-9c06-526b-b4bb" name="Dragon Priest (Leveled)" hidden="false" targetId="7a00-57ed-1847-6f89" type="profile"/>
+            <infoLink id="6fb4-03cd-b39d-5c9d" name="Perk: Ward Absorb" hidden="false" targetId="167f-9166-06e4-262e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="195a-7887-d72c-5893" name="Draugr Equipment (Preset)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4763-f375-3044-7bf7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d8d-e7ca-438a-b20a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a313-9662-c218-f4bc" name="Ghostly Strike" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][YELLOW]</characteristic>
+                <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Strength (Attribute)</characteristic>
+                <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">None</characteristic>
+                <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+                <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="916c-eef1-a265-bbef" name="Greater Ward" hidden="false" collective="false" import="true" targetId="6f7d-406a-a58b-9971" type="selectionEntry"/>
+            <entryLink id="27a1-b488-c9ae-9c3c" name="Ice Spike" hidden="false" collective="false" import="true" targetId="7b4b-2a8f-5e6b-fa8a" type="selectionEntry"/>
+            <entryLink id="e996-19fa-cf1a-9ae0" name="Command Daedra" hidden="false" collective="false" import="true" targetId="7490-251c-5e96-911b" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="da28-5e78-e95e-abdd" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90ab-95fc-eb63-3c14" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cb5-ba93-b866-dd4e" name="Krosis: Dragon Priest" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="e12e-fcfa-3052-c07c" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="21b7-eea2-03a1-8280" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="1cbf-b2bd-2d32-af25" name="Dragon Priest" hidden="false" targetId="bc5a-2520-fd3d-3943" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Krosis: Dragon Priest"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4d5a-f8aa-d191-bd7a" name="Perk: Mage Armor" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink id="b75a-233d-d213-e22d" name="Perk: Recovery" hidden="false" targetId="85b5-86b0-993b-2f70" type="rule"/>
+        <infoLink id="838e-aacb-30b3-3578" name="Perk: Stability" hidden="false" targetId="3394-de27-bd45-ae53" type="rule"/>
+        <infoLink id="34ba-fe5e-38e9-7b16" name="Born Leader" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+        <infoLink id="5558-7cd6-2d5e-069b" name="Ethereal" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+        <infoLink id="d909-62ff-3847-e359" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="4e30-e328-a245-210c" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bb8-0a96-0a71-fe43" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cfc9-cc99-ffab-72c8" name="Dragon Priest (Leveled)" hidden="false" targetId="7a00-57ed-1847-6f89" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Krosis: Dragon Priest (Leveled)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="5559-0f8c-001d-2fbb" name="Perk: Ward Absorb" hidden="false" targetId="167f-9166-06e4-262e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5361-205d-6d84-a4c4" name="Draugr Equipment (Preset)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="886b-934f-6cb9-99e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="631d-8f03-3a00-d85c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c0f9-8bea-7b3a-be38" name="Greater Ward" hidden="false" collective="false" import="true" targetId="6f7d-406a-a58b-9971" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2892-f2a5-664d-132a" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="36af-4340-a440-0973" name="Ice Spike" hidden="false" collective="false" import="true" targetId="7b4b-2a8f-5e6b-fa8a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95b4-af0f-3e24-378c" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7c57-ced1-2800-9428" name="Command Daedra" hidden="false" collective="false" import="true" targetId="7490-251c-5e96-911b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ebc-2a27-f12c-e687" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d11f-6694-dd27-05d9" name="Staff Of Fireballs" hidden="false" collective="false" import="true" targetId="a102-1e2e-090d-8b38" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac8e-98d9-61ca-4047" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="148e-655a-5385-b327" name="Ice Storm" hidden="false" collective="false" import="true" targetId="b420-fb43-3267-e702" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccbe-9491-e026-a3a1" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0709-fda4-ede8-d68c" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bd1-92ce-4008-620b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce4d-0597-4996-c4f8" name="Hulking Draugr: Armored Axeman" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c762-75c2-8ab5-1e44" name="Hulking Draugr: Armored Axeman" hidden="false" targetId="12bf-6c58-5050-589a" type="profile"/>
+        <infoLink id="9802-e912-dcff-13db" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="1494-4c8b-9adb-6592" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67ce-e702-4eb3-9586" name="Hulking Draugr: Armored Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a806-9838-57cb-c635" name="Hulking Draugr: Armored Guardian" hidden="false" targetId="1c88-456a-0488-d604" type="profile"/>
+        <infoLink id="9c82-a056-a57c-728b" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="2c33-9887-a710-de74" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3f7-91d9-90e5-350a" name="Skeleton: Archer" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6423-b0df-2d1f-9705" name="Skeleton: Archer" hidden="false" targetId="e346-b110-dd36-de1b" type="profile"/>
+        <infoLink id="a04e-25b4-6b20-a643" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="eaeb-4d8f-c21d-2ac1" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="775f-cf3b-d5a6-73e6" name="Feeble" hidden="false" targetId="eab8-73f5-feed-5924" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="392f-7cf6-da00-066b" name="Skeleton: Warrior" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3b31-a1e6-2033-74cd" name="Skeleton: Warrior" hidden="false" targetId="f074-d318-fdb9-ed9f" type="profile"/>
+        <infoLink id="44db-53bf-1223-3b69" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="2812-d13e-2a62-b07b" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="a9f2-c2ce-3eb0-3553" name="Feeble" hidden="false" targetId="eab8-73f5-feed-5924" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e91c-3201-d306-1099" name="Draugr: Greatsword Warrior" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d41b-26b7-533f-cec1" name="Draugr: Greatsword Warrior" hidden="false" targetId="1391-ccb3-0035-0bce" type="profile"/>
+        <infoLink id="7fb9-8cd3-504a-6f3b" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="48fa-f8dd-9910-9467" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="5493-9dd1-f31b-5b1c" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3510-b50a-d358-e194" name="Draugr: Warrior" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a0e0-5130-8e53-08a3" name="Draugr: Warrior" hidden="false" targetId="6f69-129c-6f70-8b2c" type="profile"/>
+        <infoLink id="82a8-ceba-78f2-69d2" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="c8af-708a-e9ee-93fc" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="829c-3cd2-cb09-16cf" name="Draugr: Archer" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="322f-e239-86cb-fd9a" name="Draugr: Archer" hidden="false" targetId="589f-2a65-9d52-29be" type="profile"/>
+        <infoLink id="9713-1342-2e51-70b3" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="cfa6-94cb-f029-5053" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a293-da46-8672-5cf9" name="Restless Draugr: Barrow Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8c61-6a99-566c-0872" name="Restless Draugr: Barrow Guardian" hidden="false" targetId="8000-dfc4-c8b5-5633" type="profile"/>
+        <infoLink id="dd9c-da40-2559-c208" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="dad4-4aba-9d1a-0904" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c51-73e0-5102-f65f" name="Restless Draugr: Frostblade" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7faf-1ad8-90fe-1c49" name="Restless Draugr: Frostblade" hidden="false" targetId="5fd1-9df1-0699-3ad1" type="profile"/>
+        <infoLink id="0ef7-99e6-5337-76b9" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="7103-28e8-5b35-1991" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="d715-21d0-90c5-684a" name="Magicka Boost (X)" hidden="false" targetId="2597-fb44-57b8-5201" type="rule"/>
+        <infoLink id="922b-b58b-64f1-1396" name="Perk: Destruction Mastery" hidden="false" targetId="eae7-ee7c-9f43-386d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="ff56-0d69-324a-57f8" name="Draugr Overlord: Bleak Falls Guardian (Leveled)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Annulment</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b63-1bf0-1892-c70b" name="Draugr Deathlord: Crypt Master" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Undead</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">None</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Draugr</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c9d6-d192-4dba-e7cd" name="Draugr Overlord: Bleak Falls Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Undead</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">None</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Draugr</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2ffe-ecd2-d0ce-c2bb" name="Draugr Deathlord: Crypt Master (Leveled)" publicationId="9ac9-edd2-53a7-2d58" hidden="true" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Well Fitted</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bc5a-2520-fd3d-3943" name="Dragon Priest" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Undead</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Mage Armor, Recovery, Stability</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Ethereal, Terrifying</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Monsters, Draugr</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7a00-57ed-1847-6f89" name="Dragon Priest (Leveled)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Mage Armor, Recovery, Stability, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Ethereal, Terrifying</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">6</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12bf-6c58-5050-589a" name="Hulking Draugr: Armored Axeman" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[HELMET]: Bleed
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Heavy Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1c88-456a-0488-d604" name="Hulking Draugr: Armored Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[HELMET]: Bleed
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Heavy Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">5
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e346-b110-dd36-de1b" name="Skeleton: Archer" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+8&quot;: [GREEN][YELLOW[YELLOW]
+16&quot;: [YELLOW][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Feeble</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f074-d318-fdb9-ed9f" name="Skeleton: Warrior" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW][YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Feeble</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">2
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1391-ccb3-0035-0bce" name="Draugr: Greatsword Warrior" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Two-Handed: [GREEN][BLACK]
+[HELMET]: Piercing (1)
+[SWORDS]: Punishing (1)
+Two-Handed Block</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685"/>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+Block
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f69-129c-6f70-8b2c" name="Draugr: Warrior" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="589f-2a65-9d52-29be" name="Draugr: Archer" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower
+[This model&apos;s card is missing Skill icons. Similar models have skills from attacks/armor.]</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+8&quot;: [GREEN][YELLOW][YELLOW]
+16&quot;:[YELLOW][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+[One-Handed]
+</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+[Archery]</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+[Light Armor]</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8000-dfc4-c8b5-5633" name="Restless Draugr: Barrow Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5fd1-9df1-0699-3ad1" name="Restless Draugr: Frostblade" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>Need to confirm correct Path for Restless Draugr: Frostblade Follower</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Destruction: Difficulty -2, Magicka Cost 1
+6&quot; [YELLOW]
+Magicka Boost (2): add [YELLOW] per [additional] point</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW][YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Perk: Destruction Mastery</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3
+[correction: moved Destruction to Intelligence]</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">2</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

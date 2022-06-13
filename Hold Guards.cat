@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guards" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="f97a-a510-bc8b-1b53" name="Hold Guard Captain: Commander Of The Watch" hidden="false" collective="false" import="true" targetId="0cc8-d2e1-973b-af19" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="58b8-3ce1-df5f-466c" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="8ddf-ea6c-53f4-8d02" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="7054-999b-2cd2-9330" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="dbfa-b327-0826-22ff" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="524d-5995-a5f6-5b74" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7eea-2a98-6a78-d3f2" name="Hold Guard: Enforcer" hidden="false" collective="false" import="true" targetId="1454-24be-fa85-cba3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a0d0-cae3-6438-4671" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="1d67-187a-a6b6-4c9c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="7182-bbf5-0244-2c0d" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="609c-34fa-f01c-6592" name="Hold Guard: Sentry" hidden="false" collective="false" import="true" targetId="a021-3155-c447-8086" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="108b-3d84-90ad-20c4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="e3db-50d3-041f-e48f" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+        <categoryLink id="f6f5-506e-1d16-5aa2" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1506-689a-2ef7-ae92" name="Hold Guard: Patroller" hidden="false" collective="false" import="true" targetId="0c8a-1c7f-7a54-4b64" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b285-7ef2-c758-63e4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="3261-8ee7-de52-dc28" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="b6d6-dbf9-f62d-1fe9" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="0cc8-d2e1-973b-af19" name="Hold Guard Captain: Commander Of The Watch" publicationId="c5ed-9e8c-ec28-4def" page="76" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="9db5-8cf8-6288-d240" name="Protect The Innocent" publicationId="c5ed-9e8c-ec28-4def" page="76" hidden="false">
+          <description>While the Hold Guard Captian is within 3&quot; of an NPC token, the Hold Guard Captain and friendly Hold Guard Faction Followers within 6&quot; automatically pass Morale Checks.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="722a-82e0-48d1-0cf7" name="Hold Guard Captain: Commander Of The Watch" hidden="false" targetId="6d0f-5624-adee-c731" type="profile"/>
+        <infoLink id="8412-7066-d90c-9f94" name="Perk: Agile Defender" hidden="false" targetId="c175-8d5e-9e3f-3736" type="rule"/>
+        <infoLink id="58b3-8d87-7e38-acca" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="f67e-74a5-2e95-9225" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="0933-ede0-1907-5071" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ed-b074-f730-5201" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="ee92-cff6-74c3-1b63" name="Protect The Innocent (Leveled)" publicationId="c5ed-9e8c-ec28-4def" page="76" hidden="false">
+              <description>While the Hold Guard Captian is within 6&quot; of an NPC token, the Hold Guard Captain and friendly Hold Guard Faction Followers within 9&quot; automatically pass Morale Checks.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="215e-6261-b111-3af0" name="Hold Guard Captain: Commander Of The Watch (Leveled)" hidden="false" targetId="2fd7-220c-6872-91d9" type="profile"/>
+            <infoLink id="6e45-bb71-30b4-c8cf" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="51fd-a077-796b-ddf3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="1334-897e-2855-a02f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5c7-5f87-8790-29fd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="37.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1454-24be-fa85-cba3" name="Hold Guard: Enforcer" publicationId="c5ed-9e8c-ec28-4def" page="74" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="a239-f097-5011-1e9e" name="Hold Guard: Enforcer" hidden="false" targetId="4f90-e66d-4cf0-bd34" type="profile"/>
+        <infoLink id="d193-2cba-b531-5ad7" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+        <infoLink id="12fa-b369-f3be-4f0b" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="a308-084b-7176-2e4a" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="18db-7062-c4cb-90f6" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a021-3155-c447-8086" name="Hold Guard: Sentry" publicationId="c5ed-9e8c-ec28-4def" page="74" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="5bf0-92f4-6cae-1b27" name="Hold Guard: Sentry" hidden="false" targetId="6b2c-80f3-b835-b9eb" type="profile"/>
+        <infoLink id="efe1-3d08-cf29-58a3" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="8c7a-21ae-0e69-b327" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c8a-1c7f-7a54-4b64" name="Hold Guard: Patroller" publicationId="c5ed-9e8c-ec28-4def" page="74" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="c668-0db0-dd6b-22d1" name="Hold Guard: Patroller" hidden="false" targetId="44b8-159f-d757-4ed8" type="profile"/>
+        <infoLink id="1e16-a92e-d24e-9350" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="0185-7830-8996-0101" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="21.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="6d0f-5624-adee-c731" name="Hold Guard Captain: Commander Of The Watch" publicationId="c5ed-9e8c-ec28-4def" page="76" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Agile Defender</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Protect The Innocent</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Hold Guards</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Imperial Legion, Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2fd7-220c-6872-91d9" name="Hold Guard Captain: Commander Of The Watch (Leveled)" publicationId="c5ed-9e8c-ec28-4def" page="76" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Agile Defender, Persuasion</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Protect The Innocent (Leveled)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4f90-e66d-4cf0-bd34" name="Hold Guard: Enforcer" publicationId="c5ed-9e8c-ec28-4def" page="74" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Two-Handed: [BLACK]
+[HELMET]: add [GREEN]
+[SWORDS]: Follow-Up [1]
+Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Hold Guards</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6b2c-80f3-b835-b9eb" name="Hold Guard: Sentry" publicationId="c5ed-9e8c-ec28-4def" page="74" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+8&quot;: [RED]
+24&quot;: [YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Hold Guards</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="44b8-159f-d757-4ed8" name="Hold Guard: Patroller" publicationId="c5ed-9e8c-ec28-4def" page="74" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [RED]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Hold Guards</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

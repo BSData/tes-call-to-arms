@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="ea8e-4fe3-e4a5-c93b" name="Hadvar: Hero Of Helgen" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b56d-282b-7a6d-f737" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="3256-29d2-dfc3-d509" name="General Tullius: Imperial Governor" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86b3-48a5-94e0-9003" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="527a-9b3a-c39f-3225" name="Legate Rikke: Chief Legate" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f916-6f63-e7c0-80d3" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="c113-4d4c-dc87-446c" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="65d4-b57c-8d3b-3e63" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a368-d578-6bc0-83e0" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="db81-bb3f-d22d-c3a8" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="fafb-8832-9f19-047c" name="Imperial Headsman: Grim Executioner" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="15ba-ccdc-f400-4d49" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="029b-ef6d-cb9d-da0f" name="Imperial Mage: Spellsword" hidden="false" collective="false" import="true" targetId="27f0-4897-0ad4-febf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="38ea-1e5e-0f59-b634" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="7133-3b6b-18c2-d988" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="e6b3-14d1-5056-20a7" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a63e-a0e5-e1d8-295f" name="Hadvar: Hero Of Helgen" hidden="false" collective="false" import="true" targetId="8be8-d241-f20f-ebc9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4de6-8a78-cd42-7f6a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="9ee4-34a2-8889-2ef0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="bbe9-65b9-2d56-1a59" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="f481-24c7-84d3-4f9a" name="Hadvar: Hero Of Helgen" hidden="false" targetId="ea8e-4fe3-e4a5-c93b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0ebf-81c9-6945-3be9" name="General Tullius: Imperial Governor" hidden="false" collective="false" import="true" targetId="821f-2b39-4456-871d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="07e4-196f-9c9b-5837" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="8c54-feda-207c-04d9" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="deb8-0dbf-7f8f-06cd" name="General Tullius: Imperial Governor" hidden="false" targetId="3256-29d2-dfc3-d509" primary="false"/>
+        <categoryLink id="d131-e0c3-e8dc-42f8" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="6996-9130-ee8c-8d67" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="a464-9857-372a-fe86" name="General Tullius Equipment" hidden="false" targetId="947a-333a-bb7d-95ed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e13c-ea90-fe40-ddbd" name="Legate Rikke: Chief Legate" hidden="false" collective="false" import="true" targetId="1014-5819-0aac-b059" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="253e-3079-ce52-0522" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="5be8-b279-364c-7897" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="4668-09be-835a-4388" name="Legate Rikke: Chief Legate" hidden="false" targetId="527a-9b3a-c39f-3225" primary="false"/>
+        <categoryLink id="5b6f-4b96-d654-e631" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e2dd-5903-52b7-05c3" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="8cff-5b1e-1e85-34e4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7ab2-c35c-bfd7-8a6d" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="0e08-0c0a-fcd9-35d8" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="675e-ee9c-d0f4-5f10" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="3f69-18c2-aeed-23af" name="Legate Fasendil: Commander Of The Rift" hidden="false" targetId="c113-4d4c-dc87-446c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0b3b-562b-aec2-8550" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="0895-0dae-ed96-6aa6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="61c3-9ab8-c035-75e0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="fd0d-7d2e-07cc-85ce" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="efcb-405c-f2b8-9b3a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="8a3b-2716-89e4-162e" name="Captain Aldis: Defender Of Solitude" hidden="false" targetId="a368-d578-6bc0-83e0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d6bf-664a-42bb-2800" name="Imperial Headsman: Grim Executioner" hidden="false" collective="false" import="true" targetId="d737-af1a-f6d7-226a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0c9d-abfd-03b7-e1e6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="051b-1599-982e-56e6" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="ef82-bb93-a1d6-e6c7" name="Imperial Headsman: Grim Executioner" hidden="false" targetId="fafb-8832-9f19-047c" primary="false"/>
+        <categoryLink id="d150-bfe3-9b81-8315" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="b251-f330-e4b8-a251" name="Imperial Headsman Equipment" hidden="false" targetId="6f69-9fe1-93c1-2909" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5057-a51e-4f9a-22f1" name="Imperial Captain: Garrison Commander" hidden="false" collective="false" import="true" targetId="e764-5fa7-0ea8-958e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bce8-0338-d6a8-2c3a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="2d71-a45a-f939-65cb" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="da1e-9b9b-4fb6-92a5" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6374-9535-0c3e-da34" name="Imperial Soldier: Heavy Armor" hidden="false" collective="false" import="true" targetId="f440-aaa7-8814-f988" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4e81-0e44-f261-4211" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="6f2e-27a5-9005-a90f" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="7e88-960e-07a7-885b" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="37be-cb78-1b7a-1eb4" name="Imperial Soldier: Archer" hidden="false" collective="false" import="true" targetId="dca6-c5f7-43c9-aff9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7864-942b-3271-3b81" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="7e4a-2650-3b05-e1e6" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="38c9-0302-5338-019a" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="88ba-995a-4931-fdad" name="Imperial Recruit: Drillyard Trainee" hidden="false" collective="false" import="true" targetId="b350-a774-e96d-43bf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8a04-9e47-f279-ca0e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="4162-40f2-b04e-ad4f" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="804e-85f7-a744-6d1c" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7269-cdc4-5515-ad0c" name="Imperial Soldier: Sword And Shield" hidden="false" collective="false" import="true" targetId="e723-610d-0c0f-f5cb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a095-8850-0d70-ae2b" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="3622-26ea-b695-424a" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="5f0c-e146-97a3-18b0" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="27f0-4897-0ad4-febf" name="Imperial Mage: Spellsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="de17-60c7-716b-985a" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="c5cc-3a68-f56d-3ad5" name="Perk: Destruction Mastery" hidden="false" targetId="eae7-ee7c-9f43-386d" type="rule"/>
+        <infoLink id="5251-eb51-5ae2-4ae9" name="Perk: Evocation" hidden="false" targetId="c7c8-2d41-68e3-f434" type="rule"/>
+        <infoLink id="f2d2-9510-efa5-d26e" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="4f9b-f9dd-7250-576f" name="Imperial Mage: Spellsword" hidden="false" targetId="94c3-5b9f-41a9-6b2d" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="3f57-1986-40f3-ae8f" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8f8-1023-c995-6288" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ca06-a99c-c019-eceb" name="Imperial Mage: Spellsword (Leveled)" hidden="false" targetId="4a10-7c5e-0d82-0d17" type="profile"/>
+            <infoLink id="82cd-dbe5-8e18-9613" name="Perk: Impact" hidden="false" targetId="4da0-edd2-25f8-ce8a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="28c7-6f26-836d-53ae" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a79-d660-a72b-fade" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e65b-7c58-68c5-cca7" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8be8-d241-f20f-ebc9" name="Hadvar: Hero Of Helgen" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="fd60-3d1c-eb2d-54b1" name="Hold Your Ground" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+          <description>When Hadvar is within 3” of an Objective, Hadvar and friendly Imperial Faction Followers within 3” may reroll their Armor Rating.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="dcd6-cb33-d567-f3f4" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+        <infoLink id="cb2b-5f8e-719c-e3f3" name="Perk: Sword and Board" hidden="false" targetId="6dcb-4217-410a-0a0f" type="rule"/>
+        <infoLink id="04e4-40b4-3ed0-ba18" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="08dc-42ef-a997-441b" name="Hadvar: Hero Of Helgen" hidden="false" targetId="a181-2fe1-2b4a-5805" type="profile"/>
+        <infoLink id="10f7-0871-d0af-1c19" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a018-4fc4-1b87-c20f" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f169-1395-1aa3-dc2f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="aa30-275e-f99d-2095" name="Hadvar: Hero Of Helgen (Leveled)" hidden="false" targetId="4737-416e-f247-ec34" type="profile"/>
+            <infoLink id="555c-eda6-905c-1a1b" name="Perk: Tower of Strength" hidden="false" targetId="9489-c41b-efeb-4897" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="37d6-0b04-51a5-b87e" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db80-2895-8e18-02ac" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8674-9d63-d652-7101" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="821f-2b39-4456-871d" name="General Tullius: Imperial Governor" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="a5f0-760c-3c20-7708" name="General Of The Legion" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>Choose one friendly Imperial Legion model at the start of the game. That model gains the Bodyguard keyword for the duration of the game [correction: battle]. In addition, when Tullius performs the Rally Command Action, if affects all Followers within 6&quot; and Line Of Sight instead of just one.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="50f7-bfd4-f9a1-2d03" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+        <infoLink id="ab91-aa88-f7a6-f4dc" name="Perk: Puncture" hidden="false" targetId="458d-6f19-41aa-6961" type="rule"/>
+        <infoLink id="116d-7e0d-aa15-9e0d" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="ce36-847a-8cf5-cb3f" name="General Tullius: Imperial Governor" hidden="false" targetId="db7d-dacf-54b4-205e" type="profile"/>
+        <infoLink id="607a-2a66-fb7f-39d8" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="a50f-6bed-53a3-f597" name="Born Leader" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+        <infoLink id="59ea-edfa-784c-9845" name="Perk: Revitalize" hidden="false" targetId="a6f5-80cc-4900-cc71" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="540e-7a12-bd9a-0238" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fc-37f9-932a-3d88" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="38d3-f36e-c2f0-ebe2" name="General Tullius: Imperial Governor (Leveled)" hidden="false" targetId="00fe-4cd5-b892-f854" type="profile"/>
+            <infoLink id="2a35-3184-9335-7945" name="Perk: Reflect Blows" hidden="false" targetId="a61b-4473-cc8c-ffe2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="68cd-415f-e6a6-f171" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7b-4636-69c8-a6c9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cc31-b979-24aa-2e9f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="74.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1014-5819-0aac-b059" name="Legate Rikke: Chief Legate" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="45c8-c9fe-b43b-b4e4" name="Master Tactician" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>When Legate Rikke performs the Ready action, up to 2 friendly Followers within 3&quot; and Line Of Sight that have not performed a Melee Attack or Shoot[ing Attack] during this round may recieve a Ready token.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="834d-796b-db53-1910" name="Perk: Constitution" hidden="false" targetId="67ea-4fbe-5055-2f3b" type="rule"/>
+        <infoLink id="f3d1-3d81-3652-95b2" name="Perk: Defensive Posture" hidden="false" targetId="fd4f-3ef9-2082-4adf" type="rule"/>
+        <infoLink id="ab7d-1127-46b9-8ad6" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="f8ad-919c-8908-7c15" name="Legate Rikke: Chief Legate" hidden="false" targetId="0af9-1e38-012d-1727" type="profile"/>
+        <infoLink id="7692-4fd3-ae9b-f77d" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="23f4-0682-8d92-a35f" name="Perk: Quick Reflexes" hidden="false" targetId="195a-2802-482e-6e22" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="82fb-2681-1e0d-eed8" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1550-0d48-373b-be32" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7b1b-786a-1e39-a3f0" name="Legate Rikke: Chief Legate (Leveled)" hidden="false" targetId="060d-c306-2044-fa67" type="profile"/>
+            <infoLink id="9395-3d0d-406a-7293" name="Perk: Critical Charge" hidden="false" targetId="bedf-8612-7883-a004" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8abe-e6c8-7584-c3bf" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0625-beb1-e7c3-f782" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5815-1e09-89de-c2f8" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="68.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8cff-5b1e-1e85-34e4" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="e4ed-8541-e71b-bf84" name="Press The Advantage" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>Friendly Followers within 3&quot; and Line Of Sight of Fasendil that roll [CRITICAL HIT] for a melee attack may immediately perform a free Follow-Up [see BRB pg. 75].</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ea97-5247-e0b0-24e4" name="Perk: Twin Slashes" hidden="false" targetId="947e-a191-297f-95e5" type="rule"/>
+        <infoLink id="98e4-dd44-5423-0cb4" name="Perk: Well Fitted" hidden="false" targetId="1cd1-dafa-32a1-0e91" type="rule"/>
+        <infoLink id="af4e-923b-7012-3264" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="ce89-f05e-57c2-d512" name="Legate Fasendil: Commander Of The Rift" hidden="false" targetId="0d46-08a3-9388-6bec" type="profile"/>
+        <infoLink id="76b6-1eb7-acf4-71da" name="Altmer" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="86d8-f7ae-b567-eb0d" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7395-d624-bf72-e8f0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7bae-0a9e-a34e-8825" name="Legate Fasendil: Commander Of The Rift (Leveled" hidden="false" targetId="e99d-1eba-7592-6c83" type="profile"/>
+            <infoLink id="bb97-810b-d2c7-3b55" name="Perk: Ranger" hidden="false" targetId="ff82-0769-0a4a-7153" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1202-2e12-c254-fe4b" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9de-2bf7-01bc-627b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="22e3-3dcd-a5c4-cb47" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0895-0dae-ed96-6aa6" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="ac7e-8d5a-5d61-bd62" name="Drillmaster" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>Once per activation, when performing a One-Handed, Two-Handed, or Block Skill Test, Aldis or a friendly Follower within 3&quot; and Line Of Sight may exchange [YELLOW][YELLOW] for [BLACK].</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="bb77-092d-71f4-f2f6" name="Perk: Custom Fit" hidden="false" targetId="60eb-baf5-15f2-58ed" type="rule"/>
+        <infoLink id="510f-5be4-c64e-897a" name="Perk: Deep Wounds" hidden="false" targetId="1df4-d415-809d-282c" type="rule"/>
+        <infoLink id="69c6-fb62-6a34-dc5a" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="8a46-96e2-0757-d17c" name="Captain Aldis: Defender Of Solitude" hidden="false" targetId="b7d6-f6b5-0d6c-4c69" type="profile"/>
+        <infoLink id="1f1f-5202-087d-05b4" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="8bc1-f7ae-ecd2-c05f" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5c-ff27-b484-ecf8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="36b9-afc3-e698-21a5" name="Captain Aldis: Defender Of Solitude (Leveled)" hidden="false" targetId="53aa-b80e-877d-376a" type="profile"/>
+            <infoLink id="ed1e-1581-1278-0bd6" name="Perk: Momentum" hidden="false" targetId="44cc-389d-4766-9e73" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8da8-30b6-a183-4791" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup"/>
+        <entryLink id="d5b8-7e2e-7360-be8d" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d737-af1a-f6d7-226a" name="Imperial Headsman: Grim Executioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="50c8-77ac-9557-a7d4" name="Perk: Devastating Blow" hidden="false" targetId="ef5a-bdc6-5744-5b1e" type="rule"/>
+        <infoLink id="d40b-e7b2-7ad3-a7f9" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="62b8-497a-3250-c8d2" name="Imperial Headsman: Grim Executioner" hidden="false" targetId="3dcc-aca0-d2a4-349e" type="profile"/>
+        <infoLink id="df3a-c8c0-aa71-876e" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="5cda-eac0-b190-282c" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f81-2915-82e0-8e8a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4b6d-8e98-dc26-f210" name="Imperial Headsman: Grim Executioner (Leveled)" hidden="false" targetId="bd00-dd11-1dc4-1fd1" type="profile"/>
+            <infoLink id="fb52-912f-87e8-28a9" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c23f-bf55-aa84-b8f6" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b71-9edb-219a-8968" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f421-8254-65a3-ac6f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e764-5fa7-0ea8-958e" name="Imperial Captain: Garrison Commander" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="a855-cd6a-6bd3-8400" name="No Mercy" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>This model and friendly Imperial Legion Followers within 3&quot; modify their attack rolls by -1 when targeting enemies with 2 [remaining] Health or less [slightly edited wording for clarity].</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6c02-77e9-6d6f-42d5" name="Perk: Invulnerable" hidden="false" targetId="cf30-bf63-5856-b9ca" type="rule"/>
+        <infoLink id="064a-853f-4933-f14f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="9f5e-639d-380d-733b" name="Imperial Captain: Garrison Commander" hidden="false" targetId="daec-73c2-b55a-ee45" type="profile"/>
+        <infoLink id="cf7a-7424-0e47-1ce1" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="6b2d-a8a5-ea73-fe29" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43cd-1f36-66d2-09f4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="940f-2725-9db0-9768" name="Imperial Captain: Garrison Commander (Leveled)" hidden="false" targetId="8bfe-2031-2b47-a858" type="profile"/>
+            <infoLink id="528c-6ebf-3dd3-48c1" name="Perk: Defensive Posture" hidden="false" targetId="fd4f-3ef9-2082-4adf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="fac8-42f3-377e-41d1" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a359-3eff-dfc9-f0fb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5324-a6c9-dd1f-3fef" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e723-610d-0c0f-f5cb" name="Imperial Soldier: Sword And Shield" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8d43-e220-c264-48d2" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="d584-a400-d0d4-8260" name="Imperial Soldier: Sword And Shield" hidden="false" targetId="52cc-6a01-97d9-3045" type="profile"/>
+        <infoLink id="7a75-f4c0-8799-7725" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f440-aaa7-8814-f988" name="Imperial Soldier: Heavy Armor" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="e8ca-1a9b-b6ad-f074" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="2ad6-d9ee-43ca-aaca" name="Imperial Soldier: Heavy Armor" hidden="false" targetId="13d1-acd2-538f-e605" type="profile"/>
+        <infoLink id="c3e7-e3bb-2ade-647c" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dca6-c5f7-43c9-aff9" name="Imperial Soldier: Archer" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="306f-2269-a5c5-adcf" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="273a-9e1e-62b8-5e4c" name="Imperial Soldier: Archer" hidden="false" targetId="b2a1-ed1c-b9d7-a2ff" type="profile"/>
+        <infoLink id="d405-52ff-7ad7-aada" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b350-a774-e96d-43bf" name="Imperial Recruit: Drillyard Trainee" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="2d6a-fe2b-c25f-b359" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="07fa-f459-92e9-14e4" name="Imperial Recruit: Drillyard Trainee" hidden="false" targetId="5d41-069b-3090-1ec0" type="profile"/>
+        <infoLink id="b8ee-b224-b26e-1015" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="19.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="94c3-5b9f-41a9-6b2d" name="Imperial Mage: Spellsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Destruction Mastery, Evocation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Imperial Legion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a181-2fe1-2b4a-5805" name="Hadvar: Hero Of Helgen" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion, Sword and Board</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Hold Your Ground</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Imperial Legion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4737-416e-f247-ec34" name="Hadvar: Hero Of Helgen (Leveled)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion, Sword And Board, Tower Of Strength</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Hold Your Ground</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4a10-7c5e-0d82-0d17" name="Imperial Mage: Spellsword (Leveled)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Destruction Mastery, Evocation, Impact</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Destruction
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db7d-dacf-54b4-205e" name="General Tullius: Imperial Governor" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion, Puncture, Revitalize</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">General Of The Legion</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Imperial Legion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="00fe-4cd5-b892-f854" name="General Tullius: Imperial Governor (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion, Puncture, Reflect Blows, Revitalize</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">General Of The Legion</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">7
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0af9-1e38-012d-1727" name="Legate Rikke: Chief Legate" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Constitution, Defensive Posture, Quick Reflexes</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Master Tactician</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Imperial Legion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="060d-c306-2044-fa67" name="Legate Rikke: Chief Legate (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Constitution, Critical Charge, Defensive Posture, Quick Reflexes</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Master Tactician</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0d46-08a3-9388-6bec" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Altmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Twin Slashes, Well Fitted</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Press The Advantage</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Imperial Legion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e99d-1eba-7592-6c83" name="Legate Fasendil: Commander Of The Rift (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Ranger, Twin Slashes, Well Fitted</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Press The Advantage</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b7d6-f6b5-0d6c-4c69" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Custom Fit, Deep Wounds</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Drillmaster</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Imperial Legion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="53aa-b80e-877d-376a" name="Captain Aldis: Defender Of Solitude (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Custom Fit, Deep Wounds, Momentum</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Drillmaster</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3dcc-aca0-d2a4-349e" name="Imperial Headsman: Grim Executioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Devastating Blow</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">2</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Imperial Legion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bd00-dd11-1dc4-1fd1" name="Imperial Headsman: Grim Executioner (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Devastating Blow, Intimidation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">2</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="daec-73c2-b55a-ee45" name="Imperial Captain: Garrison Commander" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Invulnerable</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">No Mercy</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Imperial Legion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8bfe-2031-2b47-a858" name="Imperial Captain: Garrison Commander (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Defensive Posture, Invulnerable</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">No Mercy</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="52cc-6a01-97d9-3045" name="Imperial Soldier: Sword And Shield" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Imperial</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [RED]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="13d1-acd2-538f-e605" name="Imperial Soldier: Heavy Armor" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Imperial</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Heavy Armor: [RED] (1)
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [RED]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b2a1-ed1c-b9d7-a2ff" name="Imperial Soldier: Archer" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Imperial</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+10&quot;: [GREEN][YELLOW][YELLOW]
+20&quot;: [YELLOW]
+[HELMET]: Piercing (1) up to 10&quot;</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d41-069b-3090-1ec0" name="Imperial Recruit: Drillyard Trainee" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

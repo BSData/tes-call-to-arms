@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b3d3-9d9d-be15-9a99" name="Daggerfall Covenant" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="9048-1b28-6695-27e0" name="The Breton: Covenant Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc5-1ef9-065f-a1e5" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="d153-5f38-f165-e36d" name="The Breton: Covenant Champion" hidden="false" collective="false" import="true" targetId="def9-cb7a-994e-2f5b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6813-f09d-78a5-56fb" name="The Breton: Covenant Champion" hidden="false" targetId="9048-1b28-6695-27e0" primary="false"/>
+        <categoryLink id="defe-d63f-ae42-818b" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="ecc6-222c-18cf-f7c1" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="338e-f3c0-a6fa-b362" name="Daggerfall Covenant" hidden="false" targetId="f5a6-4501-1cef-61bd" primary="false"/>
+        <categoryLink id="b74d-7c03-ed6d-7230" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="def9-cb7a-994e-2f5b" name="The Breton: Covenant Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="68b2-0ae4-95f7-8ce7" name="Acrobatic" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>The Breton may Climb up to double his own Height (but otherwise follows the normal Climbing rules), and never suffers Falling Damage.</description>
+        </rule>
+        <rule id="63c9-cf92-136f-6cdc" name="Hidden Blade" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>The Breton may perform a Shoot Action with any Throwing Knives in his Inventory, without the need to equip them first.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="523f-5f65-c9fa-dc1f" name="The Breton: Covenant Champion" hidden="false" targetId="7e11-2676-505f-fc34" type="profile"/>
+        <infoLink id="b1bf-10dc-9228-697f" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
+        <infoLink id="dedc-c687-397a-e06e" name="Perk: Long Shots" hidden="false" targetId="381d-ce1c-00d2-59eb" type="rule"/>
+        <infoLink id="1f43-9bf0-60de-4dfd" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="1637-725e-2ca5-278b" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="ebb4-444e-acbc-d927" name="Show Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f54-092a-05be-206e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b35a-2e06-22dc-45a8" name="The Breton: Covenant Champion (Leveled)" hidden="false" targetId="3bff-289e-7d4b-62fe" type="profile"/>
+            <infoLink id="97a9-adcc-114d-cdd6" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
+            <infoLink id="20e0-48f8-27fa-6db1" name="Perk: Twin Slashes" hidden="false" targetId="947e-a191-297f-95e5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9698-4744-42e4-f2b9" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1d1-fb3d-620b-fae3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8e24-2054-680a-b04d" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="7e11-2676-505f-fc34" name="The Breton: Covenant Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Long Shots</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Acrobatic, Hidden Blade</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">6
+Archery
+Lockpicking
+Pickpocket
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Daggerfall Covenant</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3bff-289e-7d4b-62fe" name="The Breton: Covenant Champion (Leveled)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Hasty Retreat, Long Shots, Twin Slashes</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Acrobatic, Hidden Blade</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">6
+Archery
+Lockpicking
+Pickpocket
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

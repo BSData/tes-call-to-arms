@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7750-c5b0-be85-2679" name="Followers of Molag Bal" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="b70d-fbd4-c46f-81b8" name="Mannimarco, King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b801-4a2d-f211-c486" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="5352-dca6-78b4-3441" name="Mannimarco: King of Worms" hidden="false" collective="false" import="true" targetId="f137-7662-8645-5c16" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f76f-047a-1f10-9e80" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="aac6-4246-59f1-7c43" name="Followers of Molag Bal" hidden="false" targetId="89c7-846f-c20d-7174" primary="false"/>
+        <categoryLink id="d36e-80c7-3a79-32ba" name="Mannimarco, King of Worms" hidden="false" targetId="b70d-fbd4-c46f-81b8" primary="false"/>
+        <categoryLink id="cae7-158b-d088-4e5d" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="f137-7662-8645-5c16" name="Mannimarco: King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled DONE</comment>
+      <rules>
+        <rule id="fa73-50ac-3462-e558" name="King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>Unless he has an Activated token, Mannimarco automatically activates in each Event phase, even if his Adversary Token was not drawn. Resolve Mannimarco’s activation before other Adversaries activate.
+</description>
+        </rule>
+        <rule id="c15a-776d-6a7f-2a70" name="Master Necromancer" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>Undead Adversaries restore 1 Health point if they activate within 6” of Mannimarco.
+</description>
+        </rule>
+        <rule id="1679-ce2b-1ed6-577c" name="Staff of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>Mannimarco always starts the game with the Staff of Worms (the cost of the staff is included in his profile).
+When Mannimarco activates, if he is unengaged and there are fewer than 5 Reanimated Corpse Adversaries in play, Spawn a Reanimated Corpse Adversary in contact with him.</description>
+        </rule>
+        <rule id="0bdf-3d39-94ad-d3b2" name="Master of Undeath" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>Mannimarco may have up to five Summoned Undead Creatures in play at the same time. Whenever one of Mannimarco’s summoned Undead Creatures is removed from play, restore 1 Magicka.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3727-3bb7-6996-df3c" name="Mannimarco: King of Worms" hidden="false" targetId="4103-df5f-d59f-e58e" type="profile">
+          <comment>Mannimarco&apos;s Beta Hero card lists the Conjuration perk &quot;Dark Souls&quot; as &quot;Black Souls&quot;, this is an error and has been corrected here.</comment>
+        </infoLink>
+        <infoLink id="0f03-7ede-60dd-d599" name="Altmer" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink id="e802-bc78-988d-41ef" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="219d-d982-0800-5dc2" name="Perk: Necromage" hidden="false" targetId="9157-2d9d-af98-739c" type="rule"/>
+        <infoLink id="56cb-448a-dca3-de6d" name="Perk: Necromancy" hidden="false" targetId="226e-8404-87c8-a2ff" type="rule"/>
+        <infoLink id="4920-8aed-d692-dd68" name="Perk: Dark Souls" hidden="false" targetId="901a-859d-c87e-4262" type="rule"/>
+        <infoLink id="421e-9a90-2277-852d" name="The Staff of Worms" hidden="false" targetId="6e66-8ab9-e744-e605" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="8506-de9d-9cc3-a5a3" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bda-3718-ac0c-22f2" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="51fa-10a6-2c31-5d33" name="Mannimarco: King of Worms (Leveled)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" targetId="6168-ab88-4b5c-f1df" type="profile"/>
+            <infoLink id="d302-5083-779e-a214" name="Perk: Force Siphon" hidden="false" targetId="4359-9375-5bec-94d9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b2c6-f383-b9f0-8553" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="4d26-b63d-2b80-3072" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c5-e0b6-a7c7-5fc4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="92.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="4103-df5f-d59f-e58e" name="Mannimarco: King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Altmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Dark Souls, Necromage, Necromancy</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">King of Worms, Master Necromancer, Master of Undeath, Staff of Worms</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">7
+Alteration
+Conjuration
+Destruction
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Followers of Molag Bal</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6e66-8ab9-e744-e605" name="The Staff of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="ad04-5a38-26ef-722a" typeName="Item">
+      <characteristics>
+        <characteristic name="Effect" typeId="9021-607d-69ee-e981">Summoning. Place a Reanimated Corpse at the target point, and assign an Upkeep Token to it. Reanimated Corpses within 3” of this model when they activate require no Upkeep. MANNIMARCO ONLY.</characteristic>
+        <characteristic name="Skill" typeId="6687-619a-2e22-b1f1">Conjuration</characteristic>
+        <characteristic name="Equip Slot" typeId="b47f-f562-ef73-ffce">8&quot;</characteristic>
+        <characteristic name="Keywords" typeId="f695-9131-851d-5734">Mannimarco only. Unique.</characteristic>
+        <characteristic name="Restrictions" typeId="f185-88fe-e033-7661"/>
+      </characteristics>
+    </profile>
+    <profile id="6168-ab88-4b5c-f1df" name="Mannimarco: King of Worms (Leveled)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Dark Souls, Force Siphon, Necromage, Necromancy</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">King of Worms, Master Necromancer, Master of Undeath, Staff of Worms</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">7
+Alteration
+Conjuration
+Destruction
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">7
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">6</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

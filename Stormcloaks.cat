@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="245b-f545-323f-330b" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ffc-7821-97af-0ea3" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="3b62-aa92-7cda-82e0" name="Ralof: Warrior Of The Resistance" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b86-5eff-70b9-8c14" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="d663-694a-6f31-7f05" name="Ulfric Stormcloak: Bear Of Markarth" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8790-3ed1-bd46-b4e4" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="cc0b-c103-c496-4e5d" name="Thorygg Sun-Killer: Commander Of Falkreath" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4a9e-51cb-bacf-087b" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="b504-9250-f3b7-26c6" name="Gonnar Oath-Giver: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="10bb-5fdb-7274-7a42" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="63b7-3654-8668-ff1b" name="Galmar Stone-Fist: Chosen Of Ulfric" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="640c-6c58-8aaf-cebf" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="19a1-246b-f53f-d612" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" targetId="4f5f-c3f1-751e-ae24" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="54c7-26ef-1219-c175" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="f5e6-9114-f4bd-f9fe" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="41c8-3a8d-b279-a738" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="5341-a75c-6295-2c87" name="Yrsarald Thrice-Pierced: Stormcloak Commander" hidden="false" targetId="245b-f545-323f-330b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9555-1bf2-b2e8-ea0a" name="Ralof: Warrior Of The Resistance" hidden="false" collective="false" import="true" targetId="21a6-9354-a670-7d61" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="05aa-8c27-c75e-7830" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="c570-1100-6a37-b349" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="306d-3000-ec98-ce21" name="Ralof: Warrior Of The Resistance" hidden="false" targetId="3b62-aa92-7cda-82e0" primary="false"/>
+        <categoryLink id="6c0e-baf7-ab32-6795" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b2bf-245d-2324-6d0d" name="Ulfric Stormcloak: Bear Of Markarth" hidden="false" collective="false" import="true" targetId="cce6-1ffb-f196-25c2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0be4-d607-54ed-a732" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="d843-3f66-611d-cc90" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="2b60-f607-514e-3e14" name="Ulfric Stormcloak: Bear Of Markarth" hidden="false" targetId="d663-694a-6f31-7f05" primary="false"/>
+        <categoryLink id="1775-ace0-1961-9f88" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="a908-b47a-e8d8-af36" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="6d14-a63f-6c74-81d5" name="Dragon Shouts: Ulfric" hidden="false" targetId="6119-a6c8-2eb1-6092" primary="false"/>
+        <categoryLink id="b9b2-869e-1f53-b70f" name="Ulfric Stormcloak Equipment" hidden="false" targetId="6e64-fc01-fdbb-88a4" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="738e-ccd6-a40d-54ca" name="Thorygg Sun-Killer: Commander Of Falkreath" hidden="false" collective="false" import="true" targetId="a953-b8fa-102e-2208" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5a89-d87a-2418-50f0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="8cf2-1790-df26-531b" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="0327-5500-b623-3272" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="3029-0431-e037-350b" name="Thorygg Sun-Killer: Commander Of Falkreath" hidden="false" targetId="cc0b-c103-c496-4e5d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5f3f-bd91-d597-ee47" name="Stormcloak General: True Son Of Skyrim" hidden="false" collective="false" import="true" targetId="228f-2ebc-e6d7-6c10" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c2de-33b3-963b-da8a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="aef8-007c-395a-6cff" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="e47c-284e-f78f-6278" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="edd1-250b-f147-8164" name="Gonnar Oath-Giver: Commander Of The Rift" hidden="false" collective="false" import="true" targetId="b3e1-defb-8c00-0929" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="02f8-2989-84fe-2c6a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="0f74-0d60-ecaa-ef74" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="ac82-7a7b-7eb6-d44e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="1fba-00e5-679d-20a0" name="Gonnar Oath-Giver: Commander Of The Rift" hidden="false" targetId="b504-9250-f3b7-26c6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d6dd-a0f8-c780-f661" name="Galmar Stone-Fist: Chosen Of Ulfric" hidden="false" collective="false" import="true" targetId="7451-dfba-1edf-bd47" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3b88-a5c0-0225-96dd" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="1d55-9916-44dd-f08b" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="8300-a166-9e39-ce14" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="c2f3-c3e3-a5af-efc8" name="Galmar Stone-Fist: Chosen Of Ulfric" hidden="false" targetId="63b7-3654-8668-ff1b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f165-e91a-36c8-07cf" name="Stormcloak Soldier: Greatsword" hidden="false" collective="false" import="true" targetId="48fe-6e1d-fafb-db4f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eaf1-68e8-4774-5ced" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="7e7c-bf8d-ab23-94f0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="7997-3846-b9d3-1334" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e9da-dbb7-9d24-1bf3" name="Stormcloak Soldier: Huntsman" hidden="false" collective="false" import="true" targetId="a2f2-3da2-08d5-a868" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="47bd-0f69-2900-6071" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="5f80-4db3-cc89-944e" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="1ead-9486-1216-04ed" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cf96-828f-4622-3551" name="Stormcloak Soldier: Dual Wielding Axes" hidden="false" collective="false" import="true" targetId="2f5e-b8e4-d276-f2f3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="71ae-187c-ebcd-a653" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="c052-1be7-a9cc-24c8" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="0db0-2ed9-a377-c2b6" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dddb-ea83-7f4e-1bf3" name="Stormcloak Soldier: Linebreaker" hidden="false" collective="false" import="true" targetId="b089-2476-8b56-5629" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1f04-7d19-81cc-b8d8" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="8712-918b-0026-479a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="bb18-3e83-5ea9-c2af" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4485-2871-5181-78df" name="Stormcloak Soldier: Axe-Fighter" hidden="false" collective="false" import="true" targetId="d2ce-9d7f-a09a-58da" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9d38-5e66-a926-60b5" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="0d6b-9f14-9d7e-5515" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="f6f8-eba7-779f-d798" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="31a6-e99b-df9d-a720" name="Stormcloak Soldier: Dual Wielding Swords" hidden="false" collective="false" import="true" targetId="9326-a58e-87d8-067b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="91f3-d5c2-d569-32d1" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="e4d5-b4a5-ce9f-a49d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="9a6d-e112-26ed-caa5" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f55c-0c0e-015b-abb7" name="Stormcloak Soldier: Shieldbearer" hidden="false" collective="false" import="true" targetId="b4bd-0065-60dd-dd07" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="db28-748d-b6fc-645f" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="faac-635f-2162-ba30" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="b7c6-3ac7-a7fd-42be" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8283-431e-33fd-58dc" name="Stormcloak Soldier: Swordsman" hidden="false" collective="false" import="true" targetId="bf73-1f9d-e16f-ae65" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="99e0-8e19-dd76-4875" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="61a1-e787-8cad-4fdc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="deaa-d590-ac94-907b" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f013-cee2-1f71-2192" name="Stormcloak Soldier: Archer" hidden="false" collective="false" import="true" targetId="ee9d-a8bf-9386-34e1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a059-ca66-c048-430e" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="3f6b-7cff-0fbb-2823" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="d75b-4028-3b99-7bcb" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4f5f-c3f1-751e-ae24" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="105f-83a4-9833-2461" name="The Strong Survive" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+          <description>Faction followers within 3” of Ysarald reduce the Stamina Point cost of their Power attacks by -1 point.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="48a4-8128-cc84-ba9f" name="Yrsarald Thrice-Pierced: Stormcloak Commander" hidden="false" targetId="22c7-870b-5153-7f47" type="profile"/>
+        <infoLink id="de59-7ecf-5ece-4c25" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+        <infoLink id="06dd-c211-b905-d079" name="Perk: Wind Walker" hidden="false" targetId="986d-0c2c-6f55-86f8" type="rule"/>
+        <infoLink id="5dca-ba6b-87c1-2ca2" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="9baf-0efb-4c59-e484" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="5bbd-5f27-164e-bec4" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b31-e413-2031-97e4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="01a4-5ede-85cf-680b" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Leveled)" hidden="false" targetId="0cb8-da82-0c83-0888" type="profile"/>
+            <infoLink id="c04a-3fd0-5601-debe" name="Perk: Critical Charge" hidden="false" targetId="bedf-8612-7883-a004" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="33a9-e2fd-923e-f595" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="cc6e-1ac7-c1bd-03ce" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a2-18ef-b04b-d62e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="52.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="21a6-9354-a670-7d61" name="Ralof: Warrior Of The Resistance" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="1c57-f5e3-43f7-8d62" name="Ralof: Warrior Of The Resistance" hidden="false" targetId="10c5-e79b-11ab-8d6e" type="profile"/>
+        <infoLink id="e6f1-ad4c-3853-6ba8" name="Perk: Fighting Stance" hidden="false" targetId="e23a-87f7-19e1-ad12" type="rule"/>
+        <infoLink id="6d85-0bef-6ef9-0161" name="Perk: Ranger" hidden="false" targetId="ff82-0769-0a4a-7153" type="rule"/>
+        <infoLink id="2076-f738-37de-0206" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="c31f-9bc8-dd41-414a" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="7b09-5c48-c368-a02c" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a20-ccf7-4f0c-374d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="6e8e-8dc9-d894-a2ea" name="Vanguard (Leveled)" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+              <description>Boost. When Ralof performs the With Me! Command Action, he may target up to two additional models after the first, at the cost of 1 Stamina point per [additional] model.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="825d-adcd-e220-ee75" name="Ralof: Warrior Of The Resistance (Leveled)" hidden="false" targetId="8efd-3bcc-41f5-1789" type="profile"/>
+            <infoLink id="0981-b022-5c00-71a0" name="Perk: Steady Hand" hidden="false" targetId="f51b-1bcb-b1c1-7a57" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9c71-2996-24ff-11f3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="b615-ddd9-ce3b-4f04" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee9-f710-4738-749f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cce6-1ffb-f196-25c2" name="Ulfric Stormcloak: Bear Of Markarth" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="e82a-9113-a8a9-5619" name="The Bear Of Markarth" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>Once per game [correction: battle], when Ulfric uses the Command Action, Ulfric and all friendly Stormcloak Faction models within 6&quot; add [RED] to their melee attacks this round.</description>
+        </rule>
+        <rule id="fbde-8b7a-76ba-16fd" name="The Voice" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>Ulfric Stormcloak has the Dragon Shouts keyword, but may only purchase Disarm and/or Unrelenting Force.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2803-18d0-1db9-1925" name="Ulfric Stormcloak: Bear Of Markarth" hidden="false" targetId="b219-672a-62f5-bc1c" type="profile"/>
+        <infoLink id="00f5-881b-7bbb-b979" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+        <infoLink id="e2ec-8397-e0c3-6bb9" name="Perk: Hack and Slash" hidden="false" targetId="2cf3-a74a-631e-7547" type="rule"/>
+        <infoLink id="0425-ab04-4641-f9cb" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="f75c-407f-9c71-8532" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="4473-282f-a08c-6435" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+        <infoLink id="7764-08a1-9c41-9eda" name="Born Leader" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="81cc-1f4e-8175-e487" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8215-8882-1db4-8048" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3a62-8d23-98ab-1feb" name="Ulfric Stormcloak: Bear Of Markarth (Leveled)" hidden="false" targetId="8245-649d-5e8a-055e" type="profile"/>
+            <infoLink id="2b27-d64b-a327-77f4" name="Perk: Armsman" hidden="false" targetId="f765-fb99-5b29-1171" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="29e1-ebec-4898-4697" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="1db7-56f2-989a-94bb" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d45-ee03-1390-82ed" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="78.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a953-b8fa-102e-2208" name="Thorygg Sun-Killer: Commander Of Falkreath" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="92d9-04a5-6f65-4817" name="Measured Strikes" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>When Thorygg is engaged in melee, friendly Stormcloaks followers within 3&quot; and Line Of Sight gain the Punishing (2) Keyword to attacks made with the Two-Handed Skill. If the attack already has the Punishing Keyword, increase the value in the parentheses by 2.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3ab6-b38b-4602-efc0" name="Thorygg Sun-Killer: Commander Of Falkreath" hidden="false" targetId="967b-6dbf-2aea-061e" type="profile"/>
+        <infoLink id="aba1-d999-5279-4e6d" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+        <infoLink id="5724-117a-c7c8-0064" name="Perk: Deep Wounds" hidden="false" targetId="1df4-d415-809d-282c" type="rule"/>
+        <infoLink id="be98-2b3a-7b76-c52a" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="8080-40b5-a310-6fd8" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="49f5-3490-f483-4ac1" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c610-93e4-c945-746a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a8dc-e2b2-250a-1872" name="Thorygg Sun-Killer: Commander Of Falkreath (Leveled)" hidden="false" targetId="bcc4-8abd-c3c5-1296" type="profile"/>
+            <infoLink id="be51-5062-e478-d7f3" name="Perk: Barbarian" hidden="false" targetId="075c-5345-7cb8-f820" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1739-df02-88cf-884c" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="c4f7-f638-5d68-f976" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f07f-a57b-dd3e-aed7" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="228f-2ebc-e6d7-6c10" name="Stormcloak General: True Son Of Skyrim" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="24ed-12f5-f4f7-7151" name="To War!" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>The first time the Stormcloak General uses the Command Action in a game, it counts as a Free Action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="80cc-2e92-137b-8955" name="Stormcloak General: True Son Of Skyrim" hidden="false" targetId="0f63-671b-0f6b-4013" type="profile"/>
+        <infoLink id="d95b-6a8c-9f47-a649" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
+        <infoLink id="13e9-2d58-8275-1125" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="b4b1-ec21-d8b3-671e" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="b434-3735-cab0-0c5b" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de7-693a-5904-a9ad" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b3c3-4555-54da-33db" name="Stormcloak General: True Son Of Skyrim (Leveled)" hidden="false" targetId="0e4f-d0ae-35b5-df5e" type="profile"/>
+            <infoLink id="daf5-b5ec-f073-f74d" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="eb33-ce32-3015-7eb9" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="a04b-2875-f060-17cb" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81cd-93d3-7553-60e4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3e1-defb-8c00-0929" name="Gonnar Oath-Giver: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="9a92-6df4-079f-bf84" name="Oath-Giver" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>Once per game, as a Special Action the player controlling Gonnar Oath-Giver can select an additional Oath from the list of available Oaths for the scenario being played.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5677-a090-4e7d-bc3a" name="Gonnar Oath-Giver: Commander Of The Rift" hidden="false" targetId="1ec9-803c-ac26-9013" type="profile"/>
+        <infoLink id="e1d4-c0ff-877e-d0d1" name="Perk: Uppercut" hidden="false" targetId="db1e-693f-0bcc-c7db" type="rule"/>
+        <infoLink id="85ca-00c3-c1ef-a079" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="bc07-32aa-5cd6-c164" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="599b-8334-29f5-1e37" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c683-922a-b27e-3c2f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8754-7857-0afe-dd74" name="Gonnar Oath-Giver: Commander Of The Rift (Leveled)" hidden="false" targetId="5827-fdb6-221c-bd53" type="profile"/>
+            <infoLink id="3ac0-11b1-ad69-3ab5" name="Perk: Battle-Rush" hidden="false" targetId="f974-3fee-a45f-998f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c8f1-07d6-dea2-0f56" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="c953-3c4a-7bc7-458f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a1-6e68-1995-aab2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7451-dfba-1edf-bd47" name="Galmar Stone-Fist: Chosen Of Ulfric" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="0b66-01b0-0735-6fed" name="Victory Or Sovngarde!" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>Once per game, when Galmar is engaged with an enemy, he may call to his men. All friendly Stormcloak models within 6&quot; may immediately move up to 3&quot;, even if they have already activated this round, but only if they are able to engage an enemy by doing so.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="73e9-8190-a422-5e1e" name="Galmar Stone-Fist: Chosen Of Ulfric" hidden="false" targetId="66ad-0da8-ab86-3683" type="profile"/>
+        <infoLink id="1e33-4e69-6ba4-3b99" name="Perk: Champion&apos;s Stance" hidden="false" targetId="6f94-83fa-5b4c-9114" type="rule"/>
+        <infoLink id="0af2-211d-5dbc-78a4" name="Perk: Battle-Rush" hidden="false" targetId="f974-3fee-a45f-998f" type="rule"/>
+        <infoLink id="a91b-afad-9e90-ad8b" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="ca5b-4f53-8b80-1bd2" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="b792-9e56-6f04-61fb" name="Perk: Warmaster" hidden="false" targetId="76b4-20d7-406d-e54b" type="rule"/>
+        <infoLink id="2380-bcb9-0aa3-c8f3" name="Relentless" hidden="false" targetId="7f50-9282-bb89-a177" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="1286-b7f0-72b7-6910" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5301-db0b-bf47-3c3e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="833a-ee20-05e4-b2f1" name="Galmar Stone-Fist: Chosen Of Ulfric (Leveled)" hidden="false" targetId="4493-4233-13d7-6570" type="profile"/>
+            <infoLink id="a05d-4021-af89-0e17" name="Perk: Great Critical Charge" hidden="false" targetId="258a-d5df-32d0-0f14" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e94e-143c-027f-f8a2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="366b-2d6b-6f21-4340" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf0-bcce-ff6b-a8e0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48fe-6e1d-fafb-db4f" name="Stormcloak Soldier: Greatsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="f0fe-9233-acef-1610" name="Stormcloak Soldier: Greatsword" hidden="false" targetId="8d48-0228-f439-b8bb" type="profile"/>
+        <infoLink id="0842-9310-52e8-399e" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="28ce-4cf9-7998-dcef" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="2e6b-a95b-e924-5255" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+        <infoLink id="88f9-8802-d15c-c2c9" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a2f2-3da2-08d5-a868" name="Stormcloak Soldier: Huntsman" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="888e-358f-d9c0-97c5" name="Stormcloak Soldier: Huntsman" hidden="false" targetId="6cbd-46ca-b6ad-f9cd" type="profile"/>
+        <infoLink id="cefc-5dcb-2798-e375" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="0227-db26-ce97-7240" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f5e-b8e4-d276-f2f3" name="Stormcloak Soldier: Dual Wielding Axes" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="1a51-4341-6a46-973b" name="Stormcloak Soldier: Dual Wielding Axes" hidden="false" targetId="3cf0-7386-36c2-c73e" type="profile"/>
+        <infoLink id="e72d-060c-1eeb-c782" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="f489-c9da-5699-286a" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b089-2476-8b56-5629" name="Stormcloak Soldier: Linebreaker" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="96d7-e790-ee07-f8d8" name="Stormcloak Soldier: Linebreaker" hidden="false" targetId="42b4-0f72-3ee0-1f5a" type="profile"/>
+        <infoLink id="0e61-5e0c-1e4c-0d22" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="c034-33ab-5c5d-a8db" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d2ce-9d7f-a09a-58da" name="Stormcloak Soldier: Axe-Fighter" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="0539-c8e0-5019-b6ae" name="Stormcloak Soldier: Axe-Fighter" hidden="false" targetId="3ca0-6164-ae62-8796" type="profile"/>
+        <infoLink id="b47b-3318-4dc1-8da5" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="d9e1-c113-f80b-07ea" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9326-a58e-87d8-067b" name="Stormcloak Soldier: Dual Wielding Swords" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="40cf-c511-654d-0622" name="Stormcloak Soldier: Dual Wielding Swords" hidden="false" targetId="3c7b-f4cd-fbb6-62eb" type="profile"/>
+        <infoLink id="f2b6-de3e-43ca-1287" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="1475-0f30-ed96-b71b" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4bd-0065-60dd-dd07" name="Stormcloak Soldier: Shieldbearer" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="40f9-ac1e-109a-f1c0" name="Stormcloak Soldier: Shieldbearer" hidden="false" targetId="e2b2-4669-35b0-affc" type="profile"/>
+        <infoLink id="be46-4de3-549c-a25f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="1e58-3947-c1a9-2f76" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf73-1f9d-e16f-ae65" name="Stormcloak Soldier: Swordsman" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6fe7-5d45-b3a3-3900" name="Stormcloak Soldier: Swordsman" hidden="false" targetId="ccd6-b5d2-7456-bace" type="profile"/>
+        <infoLink id="1880-ac4a-06bc-8b3a" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="ba48-88a7-c066-1ace" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee9d-a8bf-9386-34e1" name="Stormcloak Soldier: Archer" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="c39d-8569-7388-8474" name="Stormcloak Soldier: Archer" hidden="false" targetId="a32f-45d5-4dc5-2a55" type="profile"/>
+        <infoLink id="376c-bc96-9dc7-63ec" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="6235-22ec-2d44-59a7" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="22c7-870b-5153-7f47" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Intimidation, Wind Walker</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">The Strong Survive</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Stormcloaks</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="10c5-e79b-11ab-8d6e" name="Ralof: Warrior Of The Resistance" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Fighting Stance, Ranger</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Stormcloaks</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8efd-3bcc-41f5-1789" name="Ralof: Warrior Of The Resistance (Leveled)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Fighting Stance, Ranger, Steady Hand</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vanguard (Leveled)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0cb8-da82-0c83-0888" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Leveled)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Critical Charge, Intimidation, Wind Walker</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">The Strong Survive</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b219-672a-62f5-bc1c" name="Ulfric Stormcloak: Bear Of Markarth" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Hack And Slash, Intimidation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Dragon Shouts, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">The Bear Of Markarth, The Voice</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">7
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Stormcloaks</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8245-649d-5e8a-055e" name="Ulfric Stormcloak: Bear Of Markarth (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Armsman, Hack And Slash, Intimidation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Dragon Shouts, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">The Bear Of Markarth, The Voice</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">7
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">7
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">7
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">5</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="967b-6dbf-2aea-061e" name="Thorygg Sun-Killer: Commander Of Falkreath" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Deep Wounds, Intimidation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Measured Strikes</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Stormcloaks</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bcc4-8abd-c3c5-1296" name="Thorygg Sun-Killer: Commander Of Falkreath (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Barbarian, Deep Wounds, Intimidation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Measured Strikes</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0f63-671b-0f6b-4013" name="Stormcloak General: True Son Of Skyrim" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">To War!</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">2
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Stormcloaks</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0e4f-d0ae-35b5-df5e" name="Stormcloak General: True Son Of Skyrim (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Persuasion</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">To War!</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">2
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1ec9-803c-ac26-9013" name="Gonnar Oath-Giver: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Uppercunt</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Oath-Giver</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Stormcloaks</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5827-fdb6-221c-bd53" name="Gonnar Oath-Giver: Commander Of The Rift (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Battle-Rush, Uppercunt</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Oath-Giver</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="66ad-0da8-ab86-3683" name="Galmar Stone-Fist: Chosen Of Ulfric" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Battle-Rush, Champion&apos;s Stance, Warmaster</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost), Relentless</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Victory Or Sovngarde!</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Stormcloaks</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4493-4233-13d7-6570" name="Galmar Stone-Fist: Chosen Of Ulfric (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Battle-Rush, Champion&apos;s Stance, Great Critical Charge, Warmaster</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost), Relentless</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Victory Or Sovngarde!</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">7
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d48-0228-f439-b8bb" name="Stormcloak Soldier: Greatsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Two-Handed: [BLACK]
+[HELMET]: add [GREEN]
+[SWORDS]: Follow-Up [1]
+Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6cbd-46ca-b6ad-f9cd" name="Stormcloak Soldier: Huntsman" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+10&quot;: [GREEN][RED]
+20&quot;: [GREEN][YELLOW]
+[HELMET]: Piercing (1)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3cf0-7386-36c2-c73e" name="Stormcloak Soldier: Dual Wielding Axes" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [RED]
+[HELMET]: Bleed
+///////////
+One-Handed: [YELLOW][YELLOW]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="42b4-0f72-3ee0-1f5a" name="Stormcloak Soldier: Linebreaker" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [RED]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3ca0-6164-ae62-8796" name="Stormcloak Soldier: Axe-Fighter" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c7b-f4cd-fbb6-62eb" name="Stormcloak Soldier: Dual Wielding Swords" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]
+///////////
+One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e2b2-4669-35b0-affc" name="Stormcloak Soldier: Shieldbearer" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [RED]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ccd6-b5d2-7456-bace" name="Stormcloak Soldier: Swordsman" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a32f-45d5-4dc5-2a55" name="Stormcloak Soldier: Archer" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+8&quot;: [RED]
+24&quot;: [YELLOW]
+[HELMET]: Piercing (1)
+[SWORDS]: add [GREEN]</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

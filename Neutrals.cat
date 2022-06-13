@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="67ad-b57c-1fac-cf39" name="Neutrals" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="9397-8137-a03c-2aa2" name="Sven: The Minstrel" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2c44-f29b-5661-99bb" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="5237-2165-4772-5555" name="Heimskr: Priest Of Talos" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="81f5-2209-7cc1-26b1" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="42af-c4e2-ea99-ad5f" name="Pantea Ateia: Master Vocalist" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="028d-87d8-3d55-6478" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="0d68-eef9-cc1c-8d3d" name="Katria: Nord Spirit" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9991-f109-3e76-a364" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="9b43-92bd-e926-3e73" name="Lob: Orsimer Ranger" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5326-ad91-49e9-cd3d" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="28af-5165-988e-2716" name="Nura Snow-Shod: Priestess Of Talos" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd7e-4929-5c09-56a2" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="3214-03da-4960-6e90" name="Adelaisa Vendicci: East Empire Company Agent" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d327-6a0e-98b7-a0db" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="1261-c80e-1f7e-9e46" name="Vigilance: War Dog" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f8f9-0ccc-ac31-5f0c" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="8aa4-fea7-7d3c-2261" name="Steadfast Dwarven Spider: Friendly Construct" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e30f-c1e9-eab9-1428" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="4e47-7aa0-ae5b-2efc" name="Steadfast Dwarven Sphere: Friendly Construct" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3357-ba09-090e-c85a" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="eb0b-832e-e239-e8bb" name="Sven: The Minstrel" hidden="false" collective="false" import="true" targetId="1fa4-7b37-8c2f-0a9e" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="0d0d-9415-e789-4aad" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="c79f-4f91-55d3-3dee" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="d002-4707-1be5-f16d" name="Sven: The Minstrel" hidden="false" targetId="9397-8137-a03c-2aa2" primary="false"/>
+        <categoryLink id="cde6-0c56-3d82-9053" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="7cf0-8f0a-2894-2dea" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="e917-b51b-d71b-15f5" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2fb1-9d34-6fd6-705c" name="Heimskr: Priest Of Talos" hidden="false" collective="false" import="true" targetId="c6be-6be8-c7d4-a098" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="4d5f-262b-0ade-0445" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="266f-c4b2-1caa-d44f" name="Heimskr: Priest Of Talos" hidden="false" targetId="5237-2165-4772-5555" primary="false"/>
+        <categoryLink id="efe7-b702-4025-6f79" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="2609-5031-97ca-f18d" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="e3b5-5190-62bd-eacc" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="61c6-711e-ef2a-61d6" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cf65-0fc6-bc69-a284" name="Pantea Ateia: Master Vocalist" hidden="false" collective="false" import="true" targetId="cd43-e14d-0ee4-20a1" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="4594-c0f2-9009-9a7f" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="62b9-cd27-b02c-eb54" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="72ec-6044-153f-a2cf" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="95f9-e539-dae7-ecad" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="3d26-16f7-479b-c4b3" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="568a-e72d-82f9-0218" name="Pantea Ateia: Master Vocalist" hidden="false" targetId="42af-c4e2-ea99-ad5f" primary="false"/>
+        <categoryLink id="a0ab-e3b6-1a47-1bc9" name="Pantea Ateia Equipment" hidden="false" targetId="74e8-fc64-a019-c1d7" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="06ab-d55c-b012-264c" name="Katria: Nord Spirit" hidden="false" collective="false" import="true" targetId="35b4-9427-1dd1-c693" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="e1c8-b6de-78e5-08cf" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="6d8b-ca03-e08a-a3c3" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="4ad5-54f4-51b1-2d74" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="f478-aeba-a748-22db" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="0b93-c2bb-c700-3995" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="ef8a-91e1-2dcc-08b7" name="Katria: Nord Spirit" hidden="false" targetId="0d68-eef9-cc1c-8d3d" primary="false"/>
+        <categoryLink id="2d8d-3922-5825-bc49" name="Katria Equipment" hidden="false" targetId="cc13-1095-857f-820e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4edf-0af7-a420-af3b" name="Lob: Orsimer Ranger" hidden="false" collective="false" import="true" targetId="200a-a201-3b78-78dd" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="2769-273a-d69e-bb6f" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="51f5-1562-3d93-a089" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="ddc3-62be-d23b-dac5" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="4b7f-de57-6b0d-af34" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="bae9-08de-2c32-f74a" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="96e2-6e5f-a672-fe3f" name="Lob: Orsimer Ranger" hidden="false" targetId="9b43-92bd-e926-3e73" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f972-2d38-9e1d-a852" name="Dunmer Thief: Ratway Regular" hidden="false" collective="false" import="true" targetId="c3ed-8feb-2819-1faf" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ead-7f3e-4bda-5072" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="8da0-93df-bf9b-0d9b" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="b1e9-0418-4395-7d7e" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="2374-fd88-a97a-6793" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="7f33-94b0-526d-4997" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="d6a1-e0d8-1cab-ef30" name="Thieves&apos; Guild" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8a8e-f505-00da-e14c" name="Breton Fire Mage: Gifted Student" hidden="false" collective="false" import="true" targetId="9e30-8da4-9c08-b897" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f675-28a6-b947-2dd1" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="cbb2-9bd3-2318-29a6" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="23e2-7d7a-f1d4-696f" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="b42e-9035-18c2-44b8" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="cdbe-5921-9c2d-8ed8" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="ddef-0ff5-722d-6221" name="College Of Winterhold" hidden="false" targetId="2b0f-1265-0b4f-1046" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4556-6c46-5f77-9f0d" name="Nura Snow-Shod: Priestess Of Talos" hidden="false" collective="false" import="true" targetId="c6d5-9c4c-9e32-ceb5" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="7fc1-bdc2-e812-acbe" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="b016-1d8d-5115-c812" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="dfbe-2eef-614e-dee8" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="31f3-cb81-4557-4ccb" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="5ba6-241d-fa3f-ff6b" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="1a94-ee2f-6288-aab7" name="Nura Snow-Shod: Priestess Of Talos" hidden="false" targetId="28af-5165-988e-2716" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a937-f7d8-263f-646d" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" collective="false" import="true" targetId="e041-76bc-db25-6ec1" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="d69e-7c27-a60d-2b5f" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="37e1-2b5c-5ce6-edf3" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="313e-faca-591b-d821" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="de20-763c-dd93-0747" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" targetId="3214-03da-4960-6e90" primary="false"/>
+        <categoryLink id="e637-4752-de90-3f5b" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="60b0-ca7f-f750-eda7" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="648f-ff87-5424-0cb7" name="Priestess Of Arkay: Devout Healer" hidden="false" collective="false" import="true" targetId="d7f9-cad2-1ae1-8c02" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="42bd-137f-c921-8e6e" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="d591-9aa6-7c69-502b" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="250b-89c0-0cf6-83de" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="a304-129d-e3d4-3ae9" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="c0d4-2dd3-d266-95ad" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4689-c94b-33f1-4259" name="Stormcloak Quartermaster: Master Provisioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" targetId="691f-648b-af0e-0158" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="2a73-9e8c-5b68-6ea0" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="0d0a-deac-22eb-c78b" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="a997-5fb3-e133-66ad" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="7dc5-3b21-e327-a27f" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="a0a4-a13c-5c94-8a3a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="01b0-fead-8867-49ea" name="Courier: Letter Carrier" hidden="false" collective="false" import="true" targetId="c8b2-2608-6e54-2e93" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3ee4-e94c-2397-8ef2" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
+        <categoryLink id="a443-4664-3b73-43c7" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="7cd4-a344-f781-8665" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6caf-7823-4c4a-8720" name="Vigilance: War Dog" hidden="false" collective="false" import="true" targetId="da22-8c02-dd4c-6d0c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e34e-ce23-be4f-9a9f" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
+        <categoryLink id="7939-4ee2-1845-d02e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="75e2-2a21-022e-dd23" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="583d-beb3-bc4f-2310" name="Vigilance: War Dog" hidden="false" targetId="1261-c80e-1f7e-9e46" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7878-f3c5-7fce-63e1" name="War Dog: Loyal Hound" hidden="false" collective="false" import="true" targetId="4b76-5a0c-15e6-a742" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="13d6-40b6-ba69-dbb2" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
+        <categoryLink id="ec7f-cab8-9792-7785" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="38bb-6ee3-c1ba-c8d3" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1f8b-7d1b-d85c-15da" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" collective="false" import="true" targetId="bf15-71b2-fde4-e5d5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e319-ee34-6dc0-0843" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
+        <categoryLink id="1f7c-bd89-1da2-9256" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="9874-120c-e70e-a38d" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="02b2-48fc-7434-f069" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" targetId="8aa4-fea7-7d3c-2261" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ea87-2347-2b99-2467" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" collective="false" import="true" targetId="bf15-71b2-fde4-e5d5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="74f6-2f15-3686-3a08" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
+        <categoryLink id="a43d-32e7-bf85-6e00" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="3957-9ced-4b1a-b3bf" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="8bf8-2bf6-8b5c-9c10" name="Steadfast Dwarven Sphere: Friendly Construct" hidden="false" targetId="4e47-7aa0-ae5b-2efc" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="1fa4-7b37-8c2f-0a9e" name="Sven: The Minstrel" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="98d2-4acd-9b89-a446" name="Sven: The Minstrel" hidden="false" targetId="d64d-e5fa-616f-2822" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5705-3273-92c1-1d26" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="8208-f585-a8f0-8c28" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+        <infoLink id="284a-9e78-f386-ebe8" name="Gift Of The Gab" hidden="false" targetId="4464-e36d-0f68-3fb1" type="rule"/>
+        <infoLink id="3891-2cbe-adc4-5c63" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="8b1d-bd09-2183-b0f5" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5000-fb42-0cbd-d7aa" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="86a2-36fc-641a-ceab" name="Sven: The Minstrel (Leveled)" hidden="false" targetId="73e9-6e0c-c4b4-399c" type="profile"/>
+            <infoLink id="5076-8bdb-43b5-6294" name="Perk: Deft Movement" hidden="false" targetId="0b47-a02d-7096-e30f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4d02-4663-ce82-addb" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6be-6be8-c7d4-a098" name="Heimskr: Priest Of Talos" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="859c-3984-1627-9fb4" name="Talos Guide You" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+          <description>As a Special Action, target one friendly model with the Dragon Shouts keyword within 3&quot; and line of sight. That model restores 1 Thu&apos;um.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4762-cb1e-6e13-fe6f" name="Heimskr: Priest Of Talos" hidden="false" targetId="02ed-6bd7-890a-6c04" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="964d-c992-9610-1e23" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="af84-d9ec-3ced-130c" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+        <infoLink id="9975-08f6-a3d3-2eb0" name="Cure Disease" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+        <infoLink id="41bc-2681-0568-0aa6" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="b505-79d9-88cf-ec83" name="Perk: Physician" hidden="false" targetId="9614-e4da-11e3-6640" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="255f-8c2b-f55e-c93d" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f748-ed0b-4b3b-94f9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b049-a9c9-8dfd-0c2e" name="Heimskr: Priest Of Talos (Leveled)" hidden="false" targetId="8364-0238-9cc2-a0a4" type="profile"/>
+            <infoLink id="e128-858a-3d59-7060" name="Perk: Respite" hidden="false" targetId="7d81-5691-f973-2977" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="75b5-f672-84a7-a569" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd43-e14d-0ee4-20a1" name="Pantea Ateia: Master Vocalist" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="c570-42a2-066e-4841" name="Rousing Song" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>As a Special Action, Pantea may take a Speech Skill Test. If successful, all friendly models within 3&quot; (including Pantea herself), gain a -2 modifier to Morale checks until the end of the round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="02e1-6e68-72db-a504" name="Pantea Ateia: Master Vocalist" hidden="false" targetId="a40b-5cc6-1dfd-b3d0" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="591b-3c5d-4387-875f" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="e130-4b51-3d6c-2c0e" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+        <infoLink id="81d3-a27a-c192-c423" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="6673-a966-b719-af18" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f6-ea8e-7932-f347" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="08f9-7cf2-323e-4473" name="Pantea Ateia: Master Vocalist (Leveled)" hidden="false" targetId="59cf-671a-8ad7-6464" type="profile"/>
+            <infoLink id="fa35-aa4b-5089-a6a0" name="Perk: Recovery" hidden="false" targetId="85b5-86b0-993b-2f70" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7344-277d-1fd1-949f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35b4-9427-1dd1-c693" name="Katria: Nord Spirit" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="d3d2-bc81-de01-ae54" name="Eternal Thanks" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>Each time you complete a Quest during the game, roll [SKILL DIE]. On a [CRITICAL MISS], Katria&apos;s work on the mortal plane is complete and she is removed from play (she does not count as a casualty). Gain 1 bonus VP for the Quest.</description>
+        </rule>
+        <rule id="6cea-f17d-80c1-6f77" name="Ghostly Equipment" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>All weapons equipped by Katria have the Enchanted keyword.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="202c-2b48-3f86-124b" name="Katria: Nord Spirit" hidden="false" targetId="65b2-734f-6267-e68d" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b45-4245-ce5e-5404" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ea16-8685-2ee0-040e" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="2e23-dbc1-9b23-a050" name="Perk: Agile Defender" hidden="false" targetId="c175-8d5e-9e3f-3736" type="rule"/>
+        <infoLink id="510e-aee1-1f8c-d568" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="b732-f2e6-8adc-3622" name="Perk: Armsman" hidden="false" targetId="f765-fb99-5b29-1171" type="rule"/>
+        <infoLink id="7c88-8fcf-3690-97d7" name="Perk: Overdraw" hidden="false" targetId="0003-a957-471d-4ce0" type="rule"/>
+        <infoLink id="5577-2eff-d1f6-e07b" name="Ethereal" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="fc1f-eb4a-a073-2be1" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdf2-4629-3194-ce02" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2bcf-e767-da63-c884" name="Katria: Nord Spirit (Leveled)" hidden="false" targetId="f34b-9a01-47f3-140b" type="profile"/>
+            <infoLink id="2797-e264-0e57-1aaf" name="Perk: Quick Shot" hidden="false" targetId="8cc1-5dcf-1215-7ee2" type="rule"/>
+            <infoLink id="54b3-7895-e705-b965" name="Perk: Ranger" hidden="false" targetId="ff82-0769-0a4a-7153" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f9d3-745e-ea6d-6cdc" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="59.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="200a-a201-3b78-78dd" name="Lob: Orsimer Ranger" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="d442-6d50-6891-b88d" name="Lob: Orsimer Ranger" hidden="false" targetId="ba37-850a-88fe-1f1b" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f44a-1a41-2ea1-25ba" name="Orsimer" hidden="false" targetId="24d3-bf90-3495-ab2b" type="infoGroup"/>
+        <infoLink id="d121-6fc1-0080-3716" name="Perk: Agile Defender" hidden="false" targetId="c175-8d5e-9e3f-3736" type="rule"/>
+        <infoLink id="72c3-5f37-62cd-b00e" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="11cd-2f35-46db-d870" name="Perk: Smithing (Type)" hidden="false" targetId="433e-9827-e87e-fa56" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a132-8d9e-6da1-ece4" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5478-de98-f969-cf14" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6dbd-5a46-3aee-fb1e" name="Lob: Orsimer Ranger (Leveled)" hidden="false" targetId="0b09-b094-969f-c407" type="profile"/>
+            <infoLink id="18d3-a80b-8956-8b68" name="Perk: Agile Defender" hidden="false" targetId="c175-8d5e-9e3f-3736" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e550-ac65-f8e4-cbb6" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="59.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3ed-8feb-2819-1faf" name="Dunmer Thief: Ratway Regular" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="7bf2-61b1-1418-2a42" name="Dunmer Thief: Ratway Regular" hidden="false" targetId="0de3-7152-d4e5-e9a3" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ead-7f3e-4bda-5072" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bcfe-6b8e-dfb1-79ee" name="Dunmer" hidden="false" targetId="a0cb-51aa-e265-db37" type="infoGroup"/>
+        <infoLink id="928c-bba0-fd26-c839" name="Perk: Cutpurse" hidden="false" targetId="f7bb-d34f-130c-c992" type="rule"/>
+        <infoLink id="80c0-d142-0716-390c" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="186a-8b46-c697-0342" name="Perk: Night Thief" hidden="false" targetId="544c-e5db-fb40-b822" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="f0b0-bf9f-0d9b-9345" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a20c-9aca-548e-3be0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fe88-5b53-1b51-1bb2" name="Dunmer Thief: Ratway Regular (Leveled)" hidden="false" targetId="7869-f082-f805-ef38" type="profile"/>
+            <infoLink id="f539-67c4-9cce-ad9c" name="Perk: Light Fingers" hidden="false" targetId="a2d9-a9bb-2870-142c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="57de-d7b4-1843-3e33" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e30-8da4-9c08-b897" name="Breton Fire Mage: Gifted Student" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="33e7-578a-44ce-f97a" name="Breton Fire Mage: Gifted Student" hidden="false" targetId="801e-1278-d254-9238" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f675-28a6-b947-2dd1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c6ad-bae8-a3d1-6c8d" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+        <infoLink id="9f8f-ec43-d2a0-a155" name="Perk: Augmented Flames" hidden="false" targetId="5cde-bd5c-95c1-757d" type="rule"/>
+        <infoLink id="a3c3-a722-3de3-d347" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="26b7-0ebc-c5df-8f4e" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="594e-a9a7-23ac-941a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="bf75-54e9-7acb-733f" name="Breton Fire Mage: Gifted Student (Leveled)" hidden="false" targetId="287d-34cc-8a5a-467d" type="profile"/>
+            <infoLink id="c045-69d0-5a89-7acb" name="Perk: Destruction Mastery" hidden="false" targetId="eae7-ee7c-9f43-386d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1ec9-1219-c17b-6848" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6d5-9c4c-9e32-ceb5" name="Nura Snow-Shod: Priestess Of Talos" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="27da-2853-38a2-ae50" name="Talos Guide You" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>As a Special Action, target one friendly model with the Dragon Shouts keyword within 3&quot; and line of sight. That model restores 1 Thu&apos;um.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="dad3-acfd-326d-b908" name="Nura Snow-Shod: Priestess Of Talos" hidden="false" targetId="0fb9-db4a-4b78-85fd" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4b44-bdd0-50d0-50c7" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="ccbd-a15f-8c5d-761e" name="Perk: Avoid Death" hidden="false" targetId="997c-17c8-a48c-d0ad" type="rule"/>
+        <infoLink id="60b2-d00b-192a-2930" name="Cure Disease" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+        <infoLink id="e056-7583-5091-c9fa" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="3a3a-976a-f4da-3bb6" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66c7-71a2-dded-bf83" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ede9-7549-92d8-b1ce" name="Nura Snow-Shod: Priestess Of Talos (Leveled)" hidden="false" targetId="2ef6-6643-8db1-24f0" type="profile"/>
+            <infoLink id="7a5e-334e-0e17-c765" name="Perk: Physician" hidden="false" targetId="9614-e4da-11e3-6640" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f794-746a-bb77-4316" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e041-76bc-db25-6ec1" name="Adelaisa Vendicci: East Empire Company Agent" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="6139-932c-51a9-dca9" name="Pirate Hunter" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>Adelaisa and friendly Followers within 3&quot; add [YELLOW] to their attack rolls versus models with the Bandits faction symbol.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c7b2-994b-baf7-235f" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" targetId="691d-060a-8252-3fec" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="457f-6501-4edd-80a4" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="a55e-8f4c-099e-93f9" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+        <infoLink id="99a0-0b3d-400e-c3f6" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="698e-6f41-7e24-7ebe" name="Perk: Smithing (Type)" hidden="false" targetId="433e-9827-e87e-fa56" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2be1-2a91-f5dc-92cb" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b342-0d36-839a-34ad" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="605b-9ba2-7254-20bb" name="Adelaisa Vendicci: East Empire Company Agent (Leveled)" hidden="false" targetId="48c5-d6c3-d9c7-f0ce" type="profile"/>
+            <infoLink id="6b82-fb1e-c420-41ba" name="Perk: Critical Charge" hidden="false" targetId="bedf-8612-7883-a004" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2ce9-42d9-aa0e-ef9e" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d7f9-cad2-1ae1-8c02" name="Priestess Of Arkay: Devout Healer" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3743-c272-726f-9b9f" name="Priestess Of Arkay: Devout Healer" hidden="false" targetId="8708-f5b3-3494-8425" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b8ee-726d-fd3a-02b4" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="eb73-b9ca-8938-6f36" name="Perk: Restoration Mastery" hidden="false" targetId="b037-27c9-fd1c-b3e5" type="rule"/>
+        <infoLink id="84a9-32a2-c4e6-96bf" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="bb90-ec48-db6f-764c" name="Perk: Regeneration" hidden="false" targetId="f8ea-6250-0c28-33f6" type="rule"/>
+        <infoLink id="9945-a8c7-1c21-2044" name="Cure Disease" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="5efe-50be-f160-d323" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6d0-1dd0-bd0a-f11b" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="3694-51b7-c620-384d" name="Arkay&apos;s Mercy (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false">
+              <description>As a Special Action, tthe Priestess and each friendly model within 3&quot; may take an Endurance Attribute Test. If successful, they restore 1 Health point lost earlier in the battle.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="dcf9-0cc6-e90d-71bf" name="Priestess Of Arkay: Devout Healer (Leveled)" hidden="false" targetId="aa3f-d723-d323-f88a" type="profile"/>
+            <infoLink id="068c-c11c-980e-ba53" name="Perk: Recovery" hidden="false" targetId="85b5-86b0-993b-2f70" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1416-e36b-2643-6e55" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="691f-648b-af0e-0158" name="Stormcloak Quartermaster: Master Provisioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="4310-bab4-544e-e357" name="Stormcloak Quartermaster: Master Provisioner" hidden="false" targetId="5ab0-7973-2028-1d09" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d421-387a-5210-0be4" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="223c-9056-466b-3d57" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="48ed-b55d-5e24-c3d7" name="Perk: Smithing (Type)" hidden="false" targetId="433e-9827-e87e-fa56" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="0694-a925-d48c-2043" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f763-526d-44e6-b251" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d425-9f36-ee33-a8ba" name="Stormcloak Quartermaster: Master Provisioner (Leveled)" hidden="false" targetId="59f9-9c74-5ba7-2300" type="profile"/>
+            <infoLink id="6c25-d8f4-ae19-d1e3" name="Perk: Arcane Blacksmith" hidden="false" targetId="62b5-4fa1-a986-a89e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="fc90-ce4f-3f8c-8832" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8b2-2608-6e54-2e93" name="Courier: Letter Carrier" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="cdc9-8e4c-5bad-9994" name="Imporant Message!" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>This model is not deployed with the rest of a party before the game. At the beginning of Round 3, this model is placed in contact with a random board edge. Once per game [correction: battle], if this model performs a Special Action whilst within 3&quot; of its party Champion, gain 3 VPs.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="424e-3021-7249-0f69" name="Courier: Letter Carrier" hidden="false" targetId="e255-7230-68ae-55f7" type="profile"/>
+        <infoLink id="dffe-944b-da15-b3f9" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="ccf8-d43b-fbee-ef7b" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da22-8c02-dd4c-6d0c" name="Vigilance: War Dog" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="43bb-48ae-cc9d-72a1" name="Vigilance: War Dog" hidden="false" targetId="1cb3-b9c0-145d-df34" type="profile"/>
+        <infoLink id="1266-bd77-55ba-5a33" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
+        <infoLink id="7b5c-3c72-d872-4c6d" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="5006-b7e6-4b38-400e" name="Familiars" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b76-5a0c-15e6-a742" name="War Dog: Loyal Hound" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="fe32-5408-9383-142a" name="War Dog: Loyal Hound" hidden="false" targetId="1826-28e8-1945-a6b2" type="profile"/>
+        <infoLink id="9199-458e-45e9-a29e" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
+        <infoLink id="813d-3fa2-e71b-05a9" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="8730-4752-e448-feb8" name="Familiars" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf15-71b2-fde4-e5d5" name="Steadfast Dwarven Spider: Friendly Construct" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="208d-b841-4247-b8a1" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" targetId="5171-0243-4793-55c4" type="profile"/>
+        <infoLink id="47fd-857a-ccc8-d261" name="Dwemer Animunculi" hidden="false" targetId="dd22-8ea1-6516-926d" type="infoGroup"/>
+        <infoLink id="2a5c-66dd-67b9-87ae" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="76e4-85fd-9279-7faa" name="Familiars" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7659-5c62-6d66-6a86" name="Steadfast Dwarven Sphere: Friendly Construct" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="da6f-952c-3038-9b50" name="Steadfast Dwarven Sphere: Friendly Construct" hidden="false" targetId="57ba-fcef-f1a2-ccdd" type="profile"/>
+        <infoLink id="ace9-1432-6432-063b" name="Dwemer Animunculi" hidden="false" targetId="dd22-8ea1-6516-926d" type="infoGroup"/>
+        <infoLink id="615d-abcf-e122-5139" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="0efd-a39c-2243-ac6e" name="Familiars" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+        <infoLink id="2248-25e4-e21a-1283" name="Slow To Fire" hidden="false" targetId="a213-4c27-218f-13b3" type="rule"/>
+        <infoLink id="b68c-99be-c29d-816d" name="Relentless" hidden="false" targetId="7f50-9282-bb89-a177" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="d64d-e5fa-616f-2822" name="Sven: The Minstrel" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Gift Of The Gab, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Alchemy
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73e9-6e0c-c4b4-399c" name="Sven: The Minstrel (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Deft Movement, Persuasion</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Gift Of The Gab, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Alchemy
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="02ed-6bd7-890a-6c04" name="Heimskr: Priest Of Talos" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion, Physician</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Cure Disease, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Talos Guide You</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Speech
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">2</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8364-0238-9cc2-a0a4" name="Heimskr: Priest Of Talos (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion, Physician, Respite</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Cure Disease, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Talos Guide You</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a40b-5cc6-1dfd-b3d0" name="Pantea Ateia: Master Vocalist" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Rousing Song</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="59cf-671a-8ad7-6464" name="Pantea Ateia: Master Vocalist (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion, Recovery</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Rousing Song</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="65b2-734f-6267-e68d" name="Katria: Nord Spirit" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Undead</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Agile Defender, Marksman, Overdraw</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Ethereal, Immunity (Bleed), Resistance (Frost, Poison)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Eternal Thanks, Ghostly Equipment</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f34b-9a01-47f3-140b" name="Katria: Nord Spirit (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Agile Defender, Marksman, Overdraw, Quick Shot, Ranger</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Ethereal, Immunity (Bleed), Resistance (Frost, Poison)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Eternal Thanks, Ghostly Equipment</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ba37-850a-88fe-1f1b" name="Lob: Orsimer Ranger" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Orsimer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Quick Shot, Smithing (Iron, Orcish)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Berserker Rage</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0b09-b094-969f-c407" name="Lob: Orsimer Ranger (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Agile Defender, Quick Shot, Smithing (Iron, Orcish)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Berserker Rage</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0de3-7152-d4e5-e9a3" name="Dunmer Thief: Ratway Regular" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Dunmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Cutpurse, Night Thief</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Lockpicking
+Pickpocket
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">2</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Thieves&apos; Guild</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7869-f082-f805-ef38" name="Dunmer Thief: Ratway Regular (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Cutpurse, Light Fingers, Night Thief</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">6
+Archery
+Lockpicking
+Pickpocket
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="801e-1278-d254-9238" name="Breton Fire Mage: Gifted Student" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Flames</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">College Of Winterhold</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="287d-34cc-8a5a-467d" name="Breton Fire Mage: Gifted Student (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Flames, Destruction Mastery</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">College Of Winterhold</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0fb9-db4a-4b78-85fd" name="Nura Snow-Shod: Priestess Of Talos" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Avoid Death</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Cure Disease, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Talos Guide You</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2ef6-6643-8db1-24f0" name="Nura Snow-Shod: Priestess Of Talos (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Avoid Death, Physician</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Cure Disease, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Talos Guide You</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="691d-060a-8252-3fec" name="Adelaisa Vendicci: East Empire Company Agent" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Intimidation, Smithing (Imperial)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Pirate Hunter</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Alchemy
+Enchanting
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="48c5-d6c3-d9c7-f0ce" name="Adelaisa Vendicci: East Empire Company Agent (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Critical Charge, Intimidation, Smithing (Imperial)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Pirate Hunter</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Alchemy
+Enchanting
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8708-f5b3-3494-8425" name="Priestess Of Arkay: Devout Healer" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Regeneration, Restoration Mastery</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Cure Disease, Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aa3f-d723-d323-f88a" name="Priestess Of Arkay: Devout Healer (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Recovery, Regeneration, Restoration Mastery</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Cure Disease, Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Arkay&apos;s Mercy (Leveled)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ab0-7973-2028-1d09" name="Stormcloak Quartermaster: Master Provisioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Smithing (Iron, Steel)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Enchanting</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="59f9-9c74-5ba7-2300" name="Stormcloak Quartermaster: Master Provisioner (Leveled)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Smithing (Iron, Steel), Arcane Blacksmith</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Enchanting</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e255-7230-68ae-55f7" name="Courier: Letter Carrier" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost), &quot;Important Message!&quot;</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">1
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3
+Speech</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1cb3-b9c0-145d-df34" name="Vigilance: War Dog" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower (Unique)</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Beast</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][YELLOW][YELLOW]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Familiar, Fleet</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">1</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1826-28e8-1945-a6b2" name="War Dog: Loyal Hound" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Beast</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][YELLOW][YELLOW]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Familiar, Fleet</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">2</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">1</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5171-0243-4793-55c4" name="Steadfast Dwarven Spider: Friendly Construct" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower (Unique)</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Dwemer Animunculi</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][YELLOW] (Shock)
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [RED] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Familiar</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">2</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">1</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="57ba-fcef-f1a2-ccdd" name="Steadfast Dwarven Sphere: Friendly Construct" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower (Unique)</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Dwemer Animunculi</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED]
+[HELMET]: Piercing (1)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Strength
+8&quot;: [GREEN][RED]
+16&quot;: [RED]
+[HELMET]: Piercing (1)
+[SWORDS]: add [YELLOW]
+Slow To Fire</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [RED] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Familiar, Relentless</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

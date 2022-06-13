@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1f59-13be-d324-54f7" name="Dark Brotherhood" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="6159-ce11-1d38-3eb9" name="Astrid: Brotherhood Leader" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ac8-bcf7-a27c-b042" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7799-5379-6d26-b00c" name="Festus Krex: Remorseless Killer" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d96-4147-db27-5ffb" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a00f-eac6-7c21-23e9" name="Nazir: Alik&apos;r Assassin" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c83-0918-cb17-57ec" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a720-e046-0736-e54c" name="Gabriella: Doom&apos;s Herald" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ace7-0580-c913-6050" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="4056-a429-ec03-9047" name="Babette: Un-Child" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5eb7-734a-9db6-37a0" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="af54-8621-742b-9b7b" name="Veezara: The Last Shadowscale" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e5d2-e40f-04a4-0053" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="20c8-1287-1712-3742" name="Lis: Frost Spider" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <comment>Leveled: Done</comment>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ab4-2d90-4c9d-3956" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="272a-739c-be99-26b2" name="Astrid: Brotherhood Leader" hidden="false" collective="false" import="true" targetId="cd87-8fdc-2c5a-a938" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="40c0-5909-5578-aec1" name="Astrid: Brotherhood Leader" hidden="false" targetId="6159-ce11-1d38-3eb9" primary="false"/>
+        <categoryLink id="1679-5165-820c-a5cf" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="26ba-6228-3d9d-2a56" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="5382-e9e9-05d2-b831" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="09ff-730b-ea46-3f9e" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="200e-e65e-b635-2328" name="Astrid Equipment" hidden="false" targetId="5e44-a15b-63d2-b4ed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e68d-5ec8-fb59-cb9d" name="Festus Krex: Remorseless Killer" hidden="false" collective="false" import="true" targetId="cb91-e996-1383-2370" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a37c-aa22-9d19-3e68" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="ca60-1c9c-951c-54c2" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="67e8-8b31-d5b3-d687" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="546d-73aa-12e0-4605" name="Festus Krex: Remorseless Killer" hidden="false" targetId="7799-5379-6d26-b00c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0a06-2f93-ed15-7010" name="Nazir: Alik&apos;r Assassin" hidden="false" collective="false" import="true" targetId="9aaa-e526-4a4c-c726" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="10aa-9eec-ca4a-baf1" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="3886-4494-38c1-bc5f" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="2c25-3cb4-3021-bd61" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="b795-915f-6e14-dedc" name="Nazir: Alik&apos;r Assassin" hidden="false" targetId="a00f-eac6-7c21-23e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f408-21cc-e5f2-d118" name="Gabriella: Doom&apos;s Herald" hidden="false" collective="false" import="true" targetId="17f3-5b34-a5b4-8323" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="33bd-1a33-ed8e-8781" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="419d-277c-9f14-e56a" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="fe15-9fa6-9971-84d1" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="78be-3ee7-b18b-30f3" name="Gabriella: Doom&apos;s Herald" hidden="false" targetId="a720-e046-0736-e54c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4192-1911-8285-fd0b" name="Babette: Un-Child" hidden="false" collective="false" import="true" targetId="19c0-8c75-191d-40a4" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6890-bf2c-fee7-ea81" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="7086-6108-d7de-17e2" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="b6e1-ddc1-f4ad-db68" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="f303-7d32-9aad-e7e3" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="e382-21a6-a6f9-6888" name="Babette: Un-Child" hidden="false" targetId="4056-a429-ec03-9047" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b654-c02f-4171-fae1" name="Veezara: The Last Shadowscale" hidden="false" collective="false" import="true" targetId="74a9-35e8-bffe-3a98" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="b19c-ff78-b5ae-64d6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="adbf-12c4-03a5-123d" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="84bd-f225-6199-cd80" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="fcde-d246-50c7-06a4" name="Veezara: The Last Shadowscale" hidden="false" targetId="af54-8621-742b-9b7b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="252b-5f11-58b1-043b" name="Dark Brotherhood Initiate: Assassin In Training" hidden="false" collective="false" import="true" targetId="f195-c6d4-332e-b7f7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="03a4-6256-8b54-3dba">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="5944-2c3b-7d53-5418" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="6dba-5524-ebb7-09bd" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="27a2-3db6-bb04-d625" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="03dc-f183-b86d-96cc" name="Dark Brotherhood Assassin: Twin Daggers" hidden="false" collective="false" import="true" targetId="0a5c-bc41-625f-e2af" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="03a4-6256-8b54-3dba">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="d394-224a-6ef5-1b39" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="d940-55c1-5136-382a" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="a7ff-3f22-5910-6829" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f0b7-e8be-6347-7f9d" name="Lis: Frost Spider" hidden="false" collective="false" import="true" targetId="6a62-6839-a21e-24df" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="03a4-6256-8b54-3dba">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a9e1-d5a3-46fe-15cd" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="e0f6-8a8f-ad5b-ff55" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="1198-f283-1437-05bf" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="7e0f-43ef-d363-9b86" name="Lis: Frost Spider" hidden="false" targetId="20c8-1287-1712-3742" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="cd87-8fdc-2c5a-a938" name="Astrid: Brotherhood Leader" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="1e9e-d15e-f285-93e9" name="Killing Feels Good..." publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>When Astrid removes an enemy Hero or Master Adversary as a casualty with a melee attack, she, or a friendly Dark Brotherhood Hero within 3&quot; and Line Of Sight, restores 1 Stamina point</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c147-176b-111a-470a" name="Perk: Shadow Warrior" hidden="false" targetId="7acd-c308-9598-3de2" type="rule"/>
+        <infoLink id="8d1b-8513-5448-37f4" name="Perk: Assassin&apos;s Blade" hidden="false" targetId="eea3-bb51-672c-9dac" type="rule"/>
+        <infoLink id="2cc9-5f6e-f79f-e437" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="62bd-4ffe-bb88-eb8e" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="dc3f-849c-6977-4446" name="Born Leader" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+        <infoLink id="6171-5f01-e3c1-4dd1" name="Astrid: Brotherhood Leader" hidden="false" targetId="8a16-e993-bfd6-d125" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="57ee-3bfb-e9d0-7942" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daef-7a69-fcd4-32b3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9013-14b1-c7e0-c5d8" name="Astrid: Brotherhood Leader (Leveled)" hidden="false" targetId="3c0f-c98d-93e5-bfd4" type="profile"/>
+            <infoLink id="0d7b-ec03-0bcd-815c" name="Perk: Timely Escape" hidden="false" targetId="de14-14f0-2811-08f4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="911c-2cef-4d40-a201" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="670b-5a63-1bbf-f600" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e67-0ca7-69cf-1c3c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="64.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb91-e996-1383-2370" name="Festus Krex: Remorseless Killer" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="cf95-f9e5-b964-a668" name="Perk: Destruction Mastery" hidden="false" targetId="eae7-ee7c-9f43-386d" type="rule"/>
+        <infoLink id="1121-628a-0e4b-b805" name="Perk: Alchemist" hidden="false" targetId="87fe-b62d-ddfe-6246" type="rule"/>
+        <infoLink id="fb51-a87f-f486-a446" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="d324-d2b2-068f-07e2" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="98d6-4cf3-8731-794f" name="Ponderous" hidden="false" targetId="00c2-1d16-0911-9a98" type="rule"/>
+        <infoLink id="c342-dadd-4834-9d6b" name="Festus Krex: Remorseless Killer" hidden="false" targetId="6a2b-1bae-1fb5-2129" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="afdb-7179-b832-5d36" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cca7-ac69-9952-42b6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7bbf-1504-da25-5ff1" name="Festus Krex: Remorseless Killer (Leveled)" hidden="false" targetId="62ba-d6fd-d155-198d" type="profile"/>
+            <infoLink id="74f8-28ef-aa31-eb3c" name="Perk: Intense Flames" hidden="false" targetId="5f58-029c-f75b-2f40" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f9d2-e745-e8d2-0ada" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="c280-2b2b-7a1d-14aa" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4edc-992f-29f1-0bd8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9aaa-e526-4a4c-c726" name="Nazir: Alik&apos;r Assassin" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="e288-98bd-1211-259c" name="Contractor" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>Once per game at the start of his Activation, Nazir may remove a Black Hand Contract from an enemy Hero and place it on a different enemy Hero that does not have one assigned.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0775-a2df-f1db-6a77" name="Perk: Deft Movement" hidden="false" targetId="0b47-a02d-7096-e30f" type="rule"/>
+        <infoLink id="b52f-c584-7d67-5ad4" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
+        <infoLink id="cac3-feeb-ed60-94d7" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="8ec2-e050-95d5-52fa" name="Redguard" hidden="false" targetId="c7c8-72cb-039b-ec59" type="infoGroup"/>
+        <infoLink id="c5d0-cda2-4518-45ae" name="Nazir: Alik&apos;r Assassin" hidden="false" targetId="6be7-e423-237d-d66f" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a00a-08a3-a35c-e135" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed32-fef7-6f5b-855e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="38e6-57d0-fd4d-286c" name="Nazir: Alik&apos;r Assassin (Leveled)" hidden="false" targetId="ae44-0c7a-fe32-5145" type="profile"/>
+            <infoLink id="bf64-4aca-4992-a8d6" name="Perk: Caltrops" hidden="false" targetId="4980-56a9-9a6f-13c4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="080a-9312-fd1f-59d6" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="4ef8-2333-f687-c306" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c9-377f-93bb-058e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17f3-5b34-a5b4-8323" name="Gabriella: Doom&apos;s Herald" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="1c5c-66e6-00ee-1adc" name="Perk: Stealth" hidden="false" targetId="97cc-1221-1a57-177f" type="rule"/>
+        <infoLink id="8ae2-1390-77dd-5a7e" name="Perk: Deadly Aim" hidden="false" targetId="cc74-2edd-269b-887d" type="rule"/>
+        <infoLink id="5fc2-2b9e-7d7b-93e5" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="5d35-569c-7aea-0eeb" name="Dunmer" hidden="false" targetId="a0cb-51aa-e265-db37" type="infoGroup"/>
+        <infoLink id="85a7-a2a9-c9f9-dd54" name="Gabriella: Doom&apos;s Herald" hidden="false" targetId="bdb6-3d8f-91ec-524f" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="fb02-106c-d0ef-6ada" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfaf-d946-6b8f-240a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d47c-a84c-2431-cde9" name="Shadow Of Sithis (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false">
+              <description>When Gabriella removes a Hero from the opposing party as a casualty, she becomes Terrifying [see BRB pg. 78] until the end of her next activation.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="e3b8-e072-bae2-2904" name="Gabriella: Doom&apos;s Herald (Leveled)" hidden="false" targetId="26f3-432f-c380-2ae7" type="profile"/>
+            <infoLink id="4dd3-7803-f9d3-ce86" name="Perk: Hasty Retreat" hidden="false" targetId="e7a2-df68-fe8b-bd85" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7b26-8d84-9e51-9f82" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="26d7-863d-5452-81c4" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef6-a92a-6a94-f9eb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19c0-8c75-191d-40a4" name="Babette: Un-Child" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="a6a6-99f3-b075-93b9" name="Just A Child" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>If a model from one of the ten main Races of Tamriel wishes to target Babette with an attack, it must first take a Wisdom Attribute Test. If the test is failed, they must choose a different target or a different action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8346-b6a0-ba61-742d" name="Teeth &amp; Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
+        <infoLink id="ffc5-2e4f-643f-8d0d" name="Acute Senses" hidden="false" targetId="547c-e6e5-64d4-a519" type="rule"/>
+        <infoLink id="8fbd-8aae-f593-371b" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="3ba7-293b-90d9-cc8a" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="eca5-74a7-640d-246b" name="Perk: Benefactor" hidden="false" targetId="7e8c-c565-61a2-0c5b" type="rule"/>
+        <infoLink id="89fa-b6cf-94d5-c0db" name="Teeth And Claws" hidden="false" targetId="90cf-86d1-e95f-6cd3" type="profile"/>
+        <infoLink id="cc52-d325-1384-0bf2" name="Babette: Un-Child" hidden="false" targetId="4801-0236-95e1-29b9" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="8083-9602-c003-cfbb" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e6-befe-2c42-d030" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8845-20f9-8ee5-97ab" name="Babette: Un-Child (Leveled)" hidden="false" targetId="6ef0-0314-52c6-d32f" type="profile"/>
+            <infoLink id="5427-5cb7-5a6a-7642" name="Perk: Backstab" hidden="false" targetId="3c8f-df29-73c0-e515" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="47d2-7b06-91b3-c866" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="2049-36a5-d1bc-f3a5" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74a9-35e8-bffe-3a98" name="Veezara: The Last Shadowscale" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="0573-e68a-4904-1e4b" name="Perk: Silence" hidden="false" targetId="3dc1-d09e-2d25-1abb" type="rule"/>
+        <infoLink id="749c-9d2c-e55f-ccda" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="3f20-65b6-04a2-9cd6" name="Argonian" hidden="false" targetId="4b92-92cf-5195-7fbb" type="infoGroup"/>
+        <infoLink id="be65-72e4-0b29-b5da" name="Veezara: The Last Shadowscale" hidden="false" targetId="a133-660a-44cb-bf2d" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="5a79-1ace-0c69-4daf" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b7-bdab-d866-2ac4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="72b9-cab6-06e6-359f" name="Veezara: The Last Shadowscale" hidden="false" targetId="a133-660a-44cb-bf2d" type="profile"/>
+            <infoLink id="4cfb-8c22-9927-fc40" name="Perk: Low Slash" hidden="false" targetId="4ed4-75bd-da20-3fe2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="40fd-8d4e-1664-e7ae" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="5ae3-1d7e-a473-6ff4" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb88-10d0-4bda-e8e4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f195-c6d4-332e-b7f7" name="Dark Brotherhood Initiate: Assassin In Training" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="9d69-3da8-2673-74dc" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="4918-8a88-c4cb-0656" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="5135-73b1-f09c-291b" name="Dark Brotherhood Initiate: Assassin In Training" hidden="false" targetId="70e7-f0ed-7e5e-88d1" type="profile">
+          <modifiers>
+            <modifier type="set" field="d40a-cf47-d6a2-041b" value="Hireling Follower">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a5c-bc41-625f-e2af" name="Dark Brotherhood Assassin: Twin Daggers" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="493e-b19d-63d5-32ea" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="cdd4-5440-6e7f-6c40" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="42ef-dfc1-4624-b6bd" name="Dark Brotherhood Assassin: Twin Daggers" hidden="false" targetId="d2fb-5708-7a87-9492" type="profile">
+          <modifiers>
+            <modifier type="set" field="d40a-cf47-d6a2-041b" value="Hireling Follower">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a62-6839-a21e-24df" name="Lis: Frost Spider" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="de1b-060c-c1c3-7945" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="bfed-bfd0-63ad-1051" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
+        <infoLink id="5314-5181-f1bf-19b1" name="Lis: Frost Spider" hidden="false" targetId="6299-bed4-68bc-2232" type="profile">
+          <modifiers>
+            <modifier type="set" field="d40a-cf47-d6a2-041b" value="Hireling Follower (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7b49-a142-4ea1-4866" name="Familiars" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="8a16-e993-bfd6-d125" name="Astrid: Brotherhood Leader" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Assassin&apos;s Blade, Shadow Warrior</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">&quot;Killing Feels Good...&quot;</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">6
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Alchemy
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c0f-c98d-93e5-bfd4" name="Astrid: Brotherhood Leader (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Assassin&apos;s Blade, Shadow Warrior, Timely Escape</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">&quot;Killing Feels Good...&quot;</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">7
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Alchemy
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">5</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6a2b-1bae-1fb5-2129" name="Festus Krex: Remorseless Killer" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Alchemist, Destruction Mastery</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck, Ponderous</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Alchemy
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="62ba-d6fd-d155-198d" name="Festus Krex: Remorseless Killer (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Alchemist, Destruction Mastery, Intense Flames</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Imperial Luck, Ponderous</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Alchemy
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6be7-e423-237d-d66f" name="Nazir: Alik&apos;r Assassin" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Redguard</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Deft Movement</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Contractor</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ae44-0c7a-fe32-5145" name="Nazir: Alik&apos;r Assassin (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Caltrops, Deft Movement</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Contractor</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bdb6-3d8f-91ec-524f" name="Gabriella: Doom&apos;s Herald" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Dunmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Deadly Aim, Stealth</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="26f3-432f-c380-2ae7" name="Gabriella: Doom&apos;s Herald (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Deadly Aim, Hasty Retreat, Stealth</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Shadow Of Sithis (Leveled)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">6
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">5</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4801-0236-95e1-29b9" name="Babette: Un-Child" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton (Vampire)</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Benefactor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Acute Senses, Immunity (Bleed), Resistance (Frost, Poison), Teeth And Claws</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Just A Child</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">1</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6ef0-0314-52c6-d32f" name="Babette: Un-Child (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Backstab, Benefactor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Acute Senses, Immunity (Bleed), Resistance (Frost, Poison), Teeth And Claws</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Just A Child</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">1</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a133-660a-44cb-bf2d" name="Veezara: The Last Shadowscale" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Argonian</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Silence</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Histskin, Waterbreathing</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b10-6a8c-867b-0343" name="Veezara: The Last Shadowscale (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Low Slash, Silence</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Histskin, Waterbreathing</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="70e7-f0ed-7e5e-88d1" name="Dark Brotherhood Initiate: Assassin In Training" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]
+[HELMET]: add [HEALTH POISON]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost, Poison)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">2
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dark Brotherhood</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d2fb-5708-7a87-9492" name="Dark Brotherhood Assassin: Twin Daggers" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]
+[HELMET]: add [HEALTH POISON]
+///////////
+One-Handed: [GREEN][YELLOW]
+[HELMET]: add [HEALTH POISON]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost, Poison)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">5
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dark Brotherhood</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6299-bed4-68bc-2232" name="Lis: Frost Spider" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Unique)</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Beast</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED]
+[SWORDS]: add [STAMINA POISON]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Agility
+6&quot;: [GREEN][YELLOW][YELLOW]
+[HELMET]: add [STAMINA POISON]</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Familiar, Fleet</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">1</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dark Brotherhood</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

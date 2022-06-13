@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="fbc8-e2e4-eabc-8490" name="Ebonheart Pact" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="5b96-65c1-73cd-15bf" name="The Nord: Champion Of The Pact" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c19-5224-4453-a6f4" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="fe6d-62b9-d4d2-a37f" name="The Nord: Champion Of The Pact" hidden="false" collective="false" import="true" targetId="4802-b7fe-2b9b-3578" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3dbb-f700-0e1b-79aa" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="8c58-313f-50ac-d80e" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="26b1-3012-1245-afee" name="Ebonheart Pact" hidden="false" targetId="328b-1d75-65e2-424b" primary="false"/>
+        <categoryLink id="9941-5ff9-8299-d74f" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="e812-33a4-0c0a-7ae1" name="The Nord: Champion Of The Pact" hidden="false" targetId="5b96-65c1-73cd-15bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4802-b7fe-2b9b-3578" name="The Nord: Champion Of The Pact" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+      <comment>Need to implement Two-Handed Perks</comment>
+      <rules>
+        <rule id="3090-026f-8368-883e" name="Troll&apos;s Strength" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>When making a Power Attack using a weapon with the Cumbersome keyword, this model may choose to ignore the [RED] bonus dice and instead gain Follow-Up (1) [see BRB page 75] on the attack.</description>
+        </rule>
+        <rule id="2d5e-53db-9f6f-2e61" name="Rage Of Sovngarde" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>When this model takes 2 or more points of damage from a single enemy Attack Action, assign it a Berserk Token, following the rules for Berserker Rage [see BRB page 72].</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3e5a-93f0-452f-8603" name="The Nord: Champion Of The Pact" hidden="false" targetId="e641-b45e-3576-d0be" type="profile"/>
+        <infoLink id="137e-9a64-9ef5-1169" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="f4a5-4956-2fd6-887f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="6577-83bb-24cc-740e" name="Relentless" hidden="false" targetId="7f50-9282-bb89-a177" type="rule"/>
+        <infoLink id="be18-aa9b-f46a-e653" name="Perk: Limbsplitter" hidden="false" targetId="8104-8c79-c19e-4b99" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="7c86-6d8f-7bf7-0725" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba95-54fd-62f9-2827" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fa90-8d90-ca8f-a0bb" name="The Nord: Champion Of The Pact (Leveled)" hidden="false" targetId="97b1-9b18-ade4-a5d6" type="profile"/>
+            <infoLink id="6d4a-08a1-98df-a21b" name="Perk: Great Critical Charge" hidden="false" targetId="258a-d5df-32d0-0f14" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="874e-feea-b66a-ced2" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e45-7688-8442-be65" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8fcc-f94e-e7da-4888" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="e641-b45e-3576-d0be" name="The Nord: Champion Of The Pact" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Limbsplitter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost), Relentless</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Troll&apos;s Strength, Rage Of Sovngarde</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">2</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Ebonheart Pact</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="97b1-9b18-ade4-a5d6" name="The Nord: Champion Of The Pact (Leveled)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Great Critical Charge, Limbsplitter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost), Relentless</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Troll&apos;s Strength, Rage Of Sovngarde</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

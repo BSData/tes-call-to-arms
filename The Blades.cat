@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="612d-d6be-e14b-5247" name="The Blades" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>HEROES DONE</comment>
+  <categoryEntries>
+    <categoryEntry id="143c-025e-9602-885e" name="Delphine: The Hidden Blade" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a74-67ac-da6c-524f" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="5db9-fb53-ea6c-fdc1" name="Delphine: The Hidden Blade" hidden="false" collective="false" import="true" targetId="2d26-4a6f-8456-21dd" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="27e4-7da5-ccad-681b" name="Delphine: The Hidden Blade" hidden="false" targetId="143c-025e-9602-885e" primary="false"/>
+        <categoryLink id="b37f-7b0d-f821-b74a" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="a7ea-d2d5-12ad-0b02" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="9ad9-2edc-590b-b7a1" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2d26-4a6f-8456-21dd" name="Delphine: The Hidden Blade" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="facd-d2cc-8da6-7038" name="Problem Solver" publicationId="2733-0fd1-3311-3be2" hidden="false">
+          <description>Delphine gains a -2 modifier to her Intelligence Atrribute Tests when attempting to solve Puzzle Objectives.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9057-5167-e6e2-e877" name="Delphine: The Hidden Blade" hidden="false" targetId="dcbc-333b-60d4-63f9" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5f0e-c0c1-b9d5-f28d" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
+        <infoLink id="527d-7c67-9a14-d92b" name="Perk: Flurry" hidden="false" targetId="d591-10a9-f15e-6b20" type="rule"/>
+        <infoLink id="b50d-7c4e-651a-e44f" name="Perk: Revitalize" hidden="false" targetId="a6f5-80cc-4900-cc71" type="rule"/>
+        <infoLink id="5e7f-a833-45f6-5037" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+        <infoLink id="387a-e1f7-7d5f-aec8" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a64c-6d7b-5e5c-d311" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365c-7452-9f84-0ff1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cf60-e7dd-344c-5999" name="Delphine: The Hidden Blade (Leveled)" hidden="false" targetId="9fa5-6ab6-fdcb-7989" type="profile"/>
+            <infoLink id="1c58-74bb-97c6-dcb4" name="Perk: Conditioning" hidden="false" targetId="6486-0fbf-504b-ff6f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f347-2c1a-0a96-d282" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c4-d358-4257-6cfe" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b609-8276-4c7d-55de" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="dcbc-333b-60d4-63f9" name="Delphine: The Hidden Blade" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Flurry, Revitalize</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Problem Solver</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9fa5-6ab6-fdcb-7989" name="Delphine: The Hidden Blade (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bladesman, Conditioning, Flurry, Revitalize</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Problem Solver</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
