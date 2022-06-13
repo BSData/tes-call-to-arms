@@ -383,13 +383,20 @@ A: Yes</description>
       <infoLinks>
         <infoLink id="e448-2461-09d1-947f" name="Unarmed" hidden="false" targetId="8ad2-3d1d-b9ca-9d65" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3b79-2f43-a6f9-3cb2" name="New CategoryLink" hidden="false" targetId="322e-38ea-bf3e-c785" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="1626-96ed-31f6-7b05" name="Army Faction" hidden="false" collective="false" import="true" targetId="c133-8449-d9b5-c18b" type="selectionEntry"/>
+    <entryLink id="1626-96ed-31f6-7b05" name="Army Faction" hidden="false" collective="false" import="true" targetId="c133-8449-d9b5-c18b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1d78-dd22-c517-afdc" name="New CategoryLink" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="bd0c-e99d-1db7-781f" name="Draugr: Ancient Nord Sword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="upgrade">
