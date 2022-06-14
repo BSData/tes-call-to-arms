@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="1" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>TODO: Followers
-Done: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells
+  <comment>Done: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers
 Maybe: Adversaries</comment>
   <publications>
     <publication id="4d6f-8c48-a5ea-e83c" name="BRB (v1.2)" shortName="BRB (v1.2)" publisher="The Elder Scrolls: Call to Arms Core Rulebook (v1.2)"/>

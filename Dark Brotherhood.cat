@@ -60,6 +60,11 @@
         <categoryLink id="5382-e9e9-05d2-b831" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="09ff-730b-ea46-3f9e" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
         <categoryLink id="200e-e65e-b635-2328" name="Astrid Equipment" hidden="false" targetId="5e44-a15b-63d2-b4ed" primary="false"/>
+        <categoryLink id="2655-0505-9742-dd53" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="b777-29b9-e68c-0457" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="629e-e614-7164-b904" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="7b71-1a60-e288-9c54" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="db97-bc91-f3cb-1771" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e68d-5ec8-fb59-cb9d" name="Festus Krex: Remorseless Killer" hidden="false" collective="false" import="true" targetId="cb91-e996-1383-2370" type="selectionEntry">
@@ -75,6 +80,12 @@
         <categoryLink id="ca60-1c9c-951c-54c2" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
         <categoryLink id="67e8-8b31-d5b3-d687" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="546d-73aa-12e0-4605" name="Festus Krex: Remorseless Killer" hidden="false" targetId="7799-5379-6d26-b00c" primary="false"/>
+        <categoryLink id="9b51-a88c-86eb-c381" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="0a16-df0e-18a3-e495" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="73c1-fb78-680c-3fb5" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="9b40-f924-ac29-aa61" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="d199-6c34-ac2c-43ee" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="e236-5339-deb0-47dc" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0a06-2f93-ed15-7010" name="Nazir: Alik&apos;r Assassin" hidden="false" collective="false" import="true" targetId="9aaa-e526-4a4c-c726" type="selectionEntry">
@@ -90,6 +101,10 @@
         <categoryLink id="3886-4494-38c1-bc5f" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
         <categoryLink id="2c25-3cb4-3021-bd61" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="b795-915f-6e14-dedc" name="Nazir: Alik&apos;r Assassin" hidden="false" targetId="a00f-eac6-7c21-23e9" primary="false"/>
+        <categoryLink id="7a98-b976-46b6-6456" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="c5e4-b0ba-6024-fb0a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="9f30-dbc3-cfa0-bea2" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="19fa-d14f-a61d-5ba6" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f408-21cc-e5f2-d118" name="Gabriella: Doom&apos;s Herald" hidden="false" collective="false" import="true" targetId="17f3-5b34-a5b4-8323" type="selectionEntry">
@@ -105,6 +120,10 @@
         <categoryLink id="419d-277c-9f14-e56a" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
         <categoryLink id="fe15-9fa6-9971-84d1" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="78be-3ee7-b18b-30f3" name="Gabriella: Doom&apos;s Herald" hidden="false" targetId="a720-e046-0736-e54c" primary="false"/>
+        <categoryLink id="b8ea-63bc-075e-cacf" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="8b6f-7554-65cf-2bdc" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="310d-e8f5-8f86-9e92" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="0b2b-7ba6-2153-4c5c" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4192-1911-8285-fd0b" name="Babette: Un-Child" hidden="false" collective="false" import="true" targetId="19c0-8c75-191d-40a4" type="selectionEntry">
@@ -125,6 +144,12 @@
         <categoryLink id="b6e1-ddc1-f4ad-db68" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
         <categoryLink id="f303-7d32-9aad-e7e3" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="e382-21a6-a6f9-6888" name="Babette: Un-Child" hidden="false" targetId="4056-a429-ec03-9047" primary="false"/>
+        <categoryLink id="8565-2ff9-e918-0ff2" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="51fd-d1e8-8c6e-8652" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="0011-1787-ed4c-762b" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="ca32-07f0-eef8-e9ef" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="2ba6-c9f3-4e83-7d65" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="e6cc-67a3-4417-86a8" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b654-c02f-4171-fae1" name="Veezara: The Last Shadowscale" hidden="false" collective="false" import="true" targetId="74a9-35e8-bffe-3a98" type="selectionEntry">
@@ -140,6 +165,11 @@
         <categoryLink id="adbf-12c4-03a5-123d" name="New CategoryLink" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
         <categoryLink id="84bd-f225-6199-cd80" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="fcde-d246-50c7-06a4" name="Veezara: The Last Shadowscale" hidden="false" targetId="af54-8621-742b-9b7b" primary="false"/>
+        <categoryLink id="f579-d79b-d803-892a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="24d2-33da-0bfe-54e0" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="956d-15f2-9156-a721" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="63f8-7720-a2c6-7f9b" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="23cb-a7a9-a40e-fc9d" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="252b-5f11-58b1-043b" name="Dark Brotherhood Initiate: Assassin In Training" hidden="false" collective="false" import="true" targetId="f195-c6d4-332e-b7f7" type="selectionEntry">
