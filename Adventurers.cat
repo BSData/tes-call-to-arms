@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bed2-2069-45b8-9df1" name="Adventurers" revision="1" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bed2-2069-45b8-9df1" name="Adventurers" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="d700-5656-063d-aa4b" name="Aranea Ienith: Priestess of Azura" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <constraints>

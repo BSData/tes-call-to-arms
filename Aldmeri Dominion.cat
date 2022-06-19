@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f57f-127b-a7be-bbc2" name="Aldmeri Dominion" revision="1" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f57f-127b-a7be-bbc2" name="Aldmeri Dominion" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9720-15f3-7997-3025" name="The Sorceress: Dominion Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
       <constraints>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="1" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Done: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers
 Maybe: Adversaries</comment>
   <publications>
