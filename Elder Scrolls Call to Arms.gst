@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="3" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Done: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers
 Maybe: Adversaries</comment>
   <publications>
@@ -3698,6 +3698,7 @@ A: Yes</description>
         <entryLink id="ca4c-6910-9b57-80e9" name="Amulet Of Stendarr" hidden="false" collective="false" import="true" targetId="fbbf-93ed-0f4f-dc0b" type="selectionEntry"/>
         <entryLink id="e098-f931-07db-6454" name="Amulet Of Akatosh" hidden="false" collective="false" import="true" targetId="0603-991a-1a28-413d" type="selectionEntry"/>
         <entryLink id="1c25-21a4-1756-7ff5" name="Amulet Of Talos" hidden="false" collective="false" import="true" targetId="1a8e-b0d3-a657-f36b" type="selectionEntry"/>
+        <entryLink id="decd-66b9-810e-19e7" name="Amulet Of Arkay" hidden="false" collective="false" import="true" targetId="e667-b875-6519-a7b6" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5879-58a1-2038-2d2d" name="Weapon Attachments" hidden="false" collective="false" import="true">
