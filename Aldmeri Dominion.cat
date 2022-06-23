@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f57f-127b-a7be-bbc2" name="Aldmeri Dominion" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f57f-127b-a7be-bbc2" name="Aldmeri Dominion" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9720-15f3-7997-3025" name="The Sorceress: Dominion Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
       <constraints>
@@ -9,9 +9,6 @@
   </categoryEntries>
   <entryLinks>
     <entryLink id="bc73-c97b-1876-7e03" name="The Sorceress: Dominion Champion" hidden="false" collective="false" import="true" targetId="1651-661c-4fbb-42cb" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f341-7d95-5a35-4b39" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="1451-d078-8c57-4039" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="2390-21b8-3849-5bbf" name="Aldmeri Dominion" hidden="false" targetId="7a4b-b0a8-af97-404b" primary="false"/>
@@ -26,6 +23,14 @@
         <categoryLink id="a862-6c9e-eb2b-475e" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="8ad5-6662-ea35-38df" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
         <categoryLink id="88bb-ab32-dffe-5d11" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1532-e8c3-91d2-6f7d" name="The Sorceress: Dominion Champion (Adversary)" hidden="false" collective="false" import="true" targetId="d1ed-5300-6d4b-1cb9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a59f-67d6-a563-33c4" name="Aldmeri Dominion" hidden="false" targetId="7a4b-b0a8-af97-404b" primary="false"/>
+        <categoryLink id="7bdb-2371-7373-d8e5" name="The Sorceress" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
+        <categoryLink id="e28e-63a6-179f-e40e" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="e3b6-a512-1c1d-5b82" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -71,6 +76,23 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1ed-5300-6d4b-1cb9" name="The Sorceress: Dominion Champion (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: Done</comment>
+      <rules>
+        <rule id="e6ca-5771-1f71-61be" name="Impulse Retribution" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>Each time this model suffers damage from an Attack (but is not removed from play), the attacker must pass an Endurance Attribute Test or become Staggered.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0ea1-40e8-e8ea-f02e" name="The Sorceress: Dominion Champion (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" targetId="4485-18b5-f961-477a" type="profile"/>
+        <infoLink id="69f4-6214-b260-cf95" name="Altmer" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink id="1395-a6fb-92c3-bbd8" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="09e1-3864-96ed-6c1c" name="Damage Type: Shock" hidden="false" targetId="c757-1849-5b26-4b56" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -131,6 +153,35 @@ Restoration</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4485-18b5-f961-477a" name="The Sorceress: Dominion Champion (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Altmer</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Sorcery</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Ranged(Destruction):
+12&quot;: [GREEN][RED] (Shock)
+[HELMET]: Force
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Melee(One-Handed): [GREEN][RED]
+[HELMET]: Piercing (2)
+[SWORDS]: Follow-Up [1]</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Shield (Block): [BLACK]</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Regenerate Magicka, Impulse Retribution</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">4</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">6
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">5</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">3</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Aldmeri Dominion</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

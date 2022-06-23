@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8caf-f620-70a1-633c" name="Draugr (Player Faction)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8caf-f620-70a1-633c" name="Draugr" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="132e-5ba6-5277-8586" name="Krosis: Dragon Priest" hidden="false">
       <constraints>
@@ -8,7 +8,7 @@
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="975a-133f-afba-6125" name="Dragon Priest" hidden="false" collective="false" import="true" targetId="2a5e-2c2a-7612-d71d" type="selectionEntry">
+    <entryLink id="975a-133f-afba-6125" name="Dragon Priest: Guardian Of The Word Wall" hidden="false" collective="false" import="true" targetId="2a5e-2c2a-7612-d71d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7b0d-cf0e-2e81-ec3a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="d563-1aa7-1890-3d75" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
@@ -138,6 +138,25 @@
         <categoryLink id="580a-4674-ee40-29be" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="6a98-5e0c-a83c-3c6c" name="Krosis: Dragon Priest (Adversary)" hidden="false" collective="false" import="true" targetId="a4e5-cca3-1f68-4d52" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="baf2-4b13-5339-6523" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="14d1-4912-1f03-80ea" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="07dc-dc3a-504f-ba8b" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="3912-9f72-94b6-e99d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="4e50-61e6-351e-5bfb" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="ccbd-f743-7387-6d01" name="Krosis: Dragon Priest" hidden="false" targetId="132e-5ba6-5277-8586" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f0a3-50a2-f7dd-6417" name="Dragon Priest: Guardian Of The Word Wall (Adversary)" hidden="false" collective="false" import="true" targetId="760c-19c6-6c0d-9010" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="184e-2436-08d2-07b6" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="ab61-62f7-91ce-5837" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="c2b3-3d26-3cb3-6af1" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="99af-ff27-27ed-7ce1" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="e276-20e6-81f0-c6f1" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="b832-60ce-a59f-6f8e" name="Draugr Overlord: Bleak Falls Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
@@ -261,7 +280,7 @@
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a5e-2c2a-7612-d71d" name="Dragon Priest" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2a5e-2c2a-7612-d71d" name="Dragon Priest: Guardian Of The Word Wall" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6896-80ba-3ab4-800b" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
         <infoLink id="5c87-1d3e-2a5e-cb4f" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
@@ -519,6 +538,41 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a4e5-cca3-1f68-4d52" name="Krosis: Dragon Priest (Adversary)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="030c-9c96-b23e-e876" name="Staff Of Fireballs (Adversary)" publicationId="9ac9-edd2-53a7-2d58" hidden="false">
+          <description>The first time this model performs a Ranged Attack, it uses the Agility Attribute instead of [the] Destruction [skill], and replaces the Frost effect with Fire instead.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="efad-2ff7-eadc-208e" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="0b00-49e8-dbbc-040c" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="b1cc-7960-077a-6c4e" name="Krosis: Dragon Priest (Adversary)" hidden="false" targetId="73fe-d9ac-07d5-42de" type="profile"/>
+        <infoLink id="d46b-5a2f-77e0-6e25" name="Ethereal" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+        <infoLink id="a2e7-e71e-43a2-d3d1" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
+        <infoLink id="ea5f-c388-855c-a235" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
+        <infoLink id="d00f-80df-f211-62d9" name="Damage Type: Fire" hidden="false" targetId="e311-031a-d0f0-985c" type="rule"/>
+        <infoLink id="2ca1-2384-f131-2523" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="ebfa-9882-89a2-44d3" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="760c-19c6-6c0d-9010" name="Dragon Priest: Guardian Of The Word Wall (Adversary)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="a9db-e9f3-aa65-d7d3" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="bfff-f8e2-642c-af92" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="ad0b-69ba-b1f3-1510" name="Dragon Priest: Guardian Of The Word Wall (Adversary)" hidden="false" targetId="1596-a6d7-bb96-2552" type="profile"/>
+        <infoLink id="2845-a5d8-6e49-399a" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="79d7-4796-a8ef-b462" name="Ethereal" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+        <infoLink id="6566-27f1-4a40-3bad" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
+        <infoLink id="8d96-47a0-0cb4-c162" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="110.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -843,7 +897,7 @@ Destruction</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="bc5a-2520-fd3d-3943" name="Dragon Priest" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+    <profile id="bc5a-2520-fd3d-3943" name="Dragon Priest: Guardian Of The Word Wall" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Undead</characteristic>
@@ -870,7 +924,7 @@ Speech</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="7a00-57ed-1847-6f89" name="Dragon Priest (Leveled)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+    <profile id="7a00-57ed-1847-6f89" name="Dragon Priest: Guardian Of The Word Wall (Leveled)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
@@ -1144,6 +1198,60 @@ Destruction</characteristic>
         <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">2</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73fe-d9ac-07d5-42de" name="Krosis: Dragon Priest (Adversary)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Undead</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Sorcery</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(One-Handed): [GREEN][YELLOW]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Ranged(Destruction):
+8&quot;: [GREEN][RED] (Frost)
+[HELMET]: add [RED]
+[OBLIVION]: add [YELLOW]
+Enchanted, Area Effect (2&quot;)</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Mage Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Ward(Strength): [BLACK]</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Ethereal, Terrifying, Staff Of Fireballs (Adversary)</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">6
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">6</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">6</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1596-a6d7-bb96-2552" name="Dragon Priest: Guardian Of The Word Wall (Adversary)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Undead</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Sorcery</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(One-Handed): [GREEN][YELLOW]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Ranged(Destruction):
+12&quot;: [GREEN][RED] (Frost)
+[HELMET]: add [YELLOW][YELLOW]
+[OBLIVION]: Piercing (2)
+Enchanted</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Mage Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Ward(Strength): [BLACK]</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Ethereal, Terrifying</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">6
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">6</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">6</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Monsters, Draugr</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

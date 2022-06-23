@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7750-c5b0-be85-2679" name="Followers of Molag Bal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7750-c5b0-be85-2679" name="Followers of Molag Bal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b70d-fbd4-c46f-81b8" name="Mannimarco, King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
       <constraints>
@@ -24,25 +24,28 @@
         <categoryLink id="6a44-60f9-f881-d19a" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="9fd3-25b4-ab8a-8139" name="Mannimarco: King of Worms (Adversary)" hidden="false" collective="false" import="true" targetId="26d0-b83d-825c-e8d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fa29-24a2-7834-2dcb" name="Followers of Molag Bal" hidden="false" targetId="89c7-846f-c20d-7174" primary="false"/>
+        <categoryLink id="7ba7-e7ee-0204-d291" name="Mannimarco, King of Worms" hidden="false" targetId="b70d-fbd4-c46f-81b8" primary="false"/>
+        <categoryLink id="b550-ea80-4099-367a" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="d487-f52d-dd33-e54f" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="8fc8-98b5-d63a-bc52" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="01aa-e3c0-eb22-3487" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="7df1-bca7-ef8a-d6a4" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="a6e4-92ea-7748-b35c" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f137-7662-8645-5c16" name="Mannimarco: King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
       <comment>Unleveled DONE</comment>
       <rules>
-        <rule id="fa73-50ac-3462-e558" name="King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-          <description>Unless he has an Activated token, Mannimarco automatically activates in each Event phase, even if his Adversary Token was not drawn. Resolve Mannimarco’s activation before other Adversaries activate.
-</description>
-        </rule>
-        <rule id="c15a-776d-6a7f-2a70" name="Master Necromancer" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-          <description>Undead Adversaries restore 1 Health point if they activate within 6” of Mannimarco.
-</description>
-        </rule>
-        <rule id="1679-ce2b-1ed6-577c" name="Staff of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-          <description>Mannimarco always starts the game with the Staff of Worms (the cost of the staff is included in his profile).
-When Mannimarco activates, if he is unengaged and there are fewer than 5 Reanimated Corpse Adversaries in play, Spawn a Reanimated Corpse Adversary in contact with him.</description>
-        </rule>
         <rule id="0bdf-3d39-94ad-d3b2" name="Master of Undeath" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
           <description>Mannimarco may have up to five Summoned Undead Creatures in play at the same time. Whenever one of Mannimarco’s summoned Undead Creatures is removed from play, restore 1 Magicka.</description>
+        </rule>
+        <rule id="ef77-952d-3a6e-b211" name="Staff Of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>Mannimarco always starts the game with the Staff Of Worms (the cost is included in his profile).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -80,6 +83,36 @@ When Mannimarco activates, if he is unengaged and there are fewer than 5 Reanima
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="92.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26d0-b83d-825c-e8d3" name="Mannimarco: King of Worms (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled DONE</comment>
+      <rules>
+        <rule id="721d-9ebb-1e3a-7426" name="Master Necromancer" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>Undead Adversaries restore 1 Health point if they activate within 6” of Mannimarco.
+</description>
+        </rule>
+        <rule id="92c1-c880-7381-c2ae" name="King Of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>Unless he has an Activated token, Mannimarco automatically activates in each Event phase, even if his Adversary Token was not drawn. Resolve Mannimarco’s activation before other Adversaries activate.</description>
+        </rule>
+        <rule id="7a96-04f9-34f1-9570" name="Staff Of Worms (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>When Mannimarco activates, if he is unengaged and there are fewer than 5 Reanimated Corpse Adversaries in play, Spawn a Reanimated Corpse Adversary in contact with him.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="45bf-71fc-5224-fc47" name="Mannimarco: King of Worms (Adversary)" hidden="false" targetId="2b59-c0ff-fc3f-c447" type="profile">
+          <comment>Mannimarco&apos;s Beta Hero card lists the Conjuration perk &quot;Dark Souls&quot; as &quot;Black Souls&quot;, this is an error and has been corrected here.</comment>
+        </infoLink>
+        <infoLink id="090c-ddd5-a0c0-80b2" name="Altmer" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink id="902c-ff88-14cb-cce0" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="e113-7d7c-e03d-3156" name="Absorb (Reserve) (X)" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="b65a-5e3a-4c6b-ba6f" name="Damage Type: Shock" hidden="false" targetId="c757-1849-5b26-4b56" type="rule"/>
+        <infoLink id="6453-9f6a-0ff3-1b66" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+        <infoLink id="4cf2-9469-8820-1250" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
+        <infoLink id="1439-9792-2c02-662c" name="Reanimated Corpse: Summoned Creature (Adversary)" hidden="false" targetId="219e-c885-6f59-be85" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="120.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -149,6 +182,38 @@ Speech</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b59-c0ff-fc3f-c447" name="Mannimarco: King of Worms (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Altmer</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Sorcery</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Ranged(Destruction):
+12&quot;: [GREEN][YELLOW][YELLOW][YELLOW] (Shock)
+[HELMET]: Stagger
+Area Effect 2&quot;</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Melee(One-Handed): [GREEN][RED]
+[HELMET]: add [YELLOW]
+[SWORDS]: (Shock)
+Absorb Health (1)</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor: [RED] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Ward(Restoration): [RED]
+Resistance (Magic)</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Regenerate Magicka, King Of Worms</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">7
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">6
+Restoration</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">6</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Followers of Molag Bal</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

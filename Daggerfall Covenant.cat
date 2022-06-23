@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b3d3-9d9d-be15-9a99" name="Daggerfall Covenant" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b3d3-9d9d-be15-9a99" name="Daggerfall Covenant" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9048-1b28-6695-27e0" name="The Breton: Covenant Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
       <constraints>
@@ -21,6 +21,18 @@
         <categoryLink id="b7d9-18db-9220-5723" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
         <categoryLink id="0193-bbc8-fedd-6e40" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="9ea8-4025-2f57-36ca" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="39e4-8902-5122-3da3" name="The Breton: Covenant Champion (Adversary)" hidden="false" collective="false" import="true" targetId="5dd5-3806-c41b-dcb5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="33c7-ab99-9b67-51cd" name="The Breton: Covenant Champion" hidden="false" targetId="9048-1b28-6695-27e0" primary="false"/>
+        <categoryLink id="fdbe-f884-f692-c542" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="c2ea-a3be-c6f3-15ed" name="Daggerfall Covenant" hidden="false" targetId="f5a6-4501-1cef-61bd" primary="false"/>
+        <categoryLink id="a401-dd3d-f326-22e0" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="0f0b-0a12-5d67-ac46" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="4f77-53a6-8531-2fcb" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="7734-ca73-c825-3236" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="0207-b7d9-32d4-b827" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -66,6 +78,21 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5dd5-3806-c41b-dcb5" name="The Breton: Covenant Champion (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="b5a6-d087-323f-af8a" name="Catfall" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+          <description>This model never takes Falling Damage.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="54a8-5651-0a34-2f3d" name="The Breton: Covenant Champion (Adversary)" hidden="false" targetId="34ed-ff07-67c3-78e2" type="profile"/>
+        <infoLink id="ff66-4aa9-0191-10e5" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="ccc5-1b38-089e-1b25" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -122,6 +149,37 @@ Light Armor</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="34ed-ff07-67c3-78e2" name="The Breton: Covenant Champion (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Breton</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Shadow</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Ranged(Archery):
+10&quot;: [GREEN][BLACK]
+[HELMET]: Piercing (2)
+20&quot;: [GREEN][YELLOW][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Melee(One-Handed): [GREEN][BLACK]
+[HELMET]: add [YELLOW]
+[SWORDS]: Piercing (2)</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor: [YELLOW][YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Resistance (Magic), Catfall</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">6
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">3</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">4</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">3</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Daggerfall Covenant</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

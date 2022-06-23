@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="3" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="4" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Done: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers
 Maybe: Adversaries</comment>
   <publications>
@@ -11,6 +11,7 @@ Maybe: Adversaries</comment>
     <publication id="9ac9-edd2-53a7-2d58" name="Draugr Faction (BETA)" publisher="Draugr Faction Rules"/>
     <publication id="c5ed-9e8c-ec28-4def" name="HotE I: TSR" shortName="HotE I: TSR" publisher="Histories of the Empire Vol. I: The Stormcloak Rebellion"/>
     <publication id="7808-76cd-3ab8-6f86" name="FAQ (v1.2)" publisher="FAQ (v1.2)"/>
+    <publication id="6505-1b24-c5b0-6421" name="Into The Dark Cards" shortName="ITD Cards" publisher="Into The Dark Cards"/>
   </publications>
   <costTypes>
     <costType id="c61a-51a3-370d-bf55" name=" Septims" defaultCostLimit="-1.0" hidden="false"/>
@@ -282,25 +283,81 @@ Maybe: Adversaries</comment>
       <categoryLinks>
         <categoryLink id="d5be-41bd-807a-4bd8" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="false"/>
         <categoryLink id="0c8c-a792-3d9b-7bef" name="Reference" hidden="false" targetId="322e-38ea-bf3e-c785" primary="false"/>
-        <categoryLink id="2917-ac51-3fdc-e3f4" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="2917-ac51-3fdc-e3f4" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bbf7-abb8-4849-4da1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
         <categoryLink id="a40f-b709-d084-d1de" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="139f-9c43-f37b-a8c5" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="076c-23b0-3d7f-ca04" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="16ed-aaab-4536-c160" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
-        <categoryLink id="e57c-5ce9-42e7-cda8" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="false"/>
-        <categoryLink id="6f50-7412-6012-88a5" name="Adversary Minion" hidden="false" targetId="4470-2839-f56b-81ec" primary="false"/>
-        <categoryLink id="2232-79e9-8692-00f9" name="Adversary Elite" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="false"/>
+        <categoryLink id="16ed-aaab-4536-c160" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bbf7-abb8-4849-4da1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink id="e57c-5ce9-42e7-cda8" name="Adversary Master" hidden="true" targetId="e4f3-19d3-b4a8-4788" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bbf7-abb8-4849-4da1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink id="6f50-7412-6012-88a5" name="Adversary Minion" hidden="true" targetId="4470-2839-f56b-81ec" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bbf7-abb8-4849-4da1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink id="2232-79e9-8692-00f9" name="Adversary Elite" hidden="true" targetId="668a-03f2-10e2-1f0d" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bbf7-abb8-4849-4da1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
         <categoryLink id="0fc1-fe0b-a417-b96d" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f4bc-6328-2975-0593" type="min"/>
             <constraint field="selections" scope="7138-2b60-74ce-a90b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="98c3-21e0-ff28-e8c5" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="6b3f-0b95-8e3d-2f3f" name="Hireling" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="false"/>
-        <categoryLink id="f14d-be84-8384-ac8f" name="Hireling Follower" hidden="false" targetId="03a4-6256-8b54-3dba" primary="false"/>
+        <categoryLink id="6b3f-0b95-8e3d-2f3f" name="Hireling Hero" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bbf7-abb8-4849-4da1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink id="f14d-be84-8384-ac8f" name="Hireling Follower" hidden="false" targetId="03a4-6256-8b54-3dba" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bbf7-abb8-4849-4da1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -2814,6 +2871,19 @@ A: Yes</description>
           <categoryLinks>
             <categoryLink id="0623-5d5f-e8d0-a033" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
             <categoryLink id="e8b7-b37d-4e3f-8f55" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bbf7-abb8-4849-4da1" name="Adversary Force" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd8e-bce1-c6da-e87a" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df92-4d22-e1ee-ebe4" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="d049-bdd4-b75a-7f67" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
+            <categoryLink id="8683-c988-e038-cdb7" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7355,6 +7425,28 @@ Enchanted</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
       </characteristics>
     </profile>
+    <profile id="14c5-856f-b423-28e8" name="Reanimated Corpse: Summoned Creature (Adversary)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Minion</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Undead</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(Strength): [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Feeble</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">2</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">3</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">2</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">2</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">1</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">None</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="359b-c87f-d2ef-fa4f" name="Perks: Archery" publicationId="4d6f-8c48-a5ea-e83c" page="81" hidden="false">
@@ -7864,6 +7956,14 @@ Enchanted</characteristic>
         <infoLink id="75e5-57b6-8618-3f47" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
         <infoLink id="96d5-0abc-2495-5e5f" name="Damage Type: Fire" hidden="false" targetId="e311-031a-d0f0-985c" type="rule"/>
         <infoLink id="0e81-2a53-8ae9-9214" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="219e-c885-6f59-be85" name="Reanimated Corpse: Summoned Creature (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+      <infoLinks>
+        <infoLink id="b49c-fb65-917b-0367" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="b331-92c3-5a77-b390" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="4a66-1b0f-6298-df6a" name="Reanimated Corpse: Summoned Creature (Adversary)" hidden="false" targetId="14c5-856f-b423-28e8" type="profile"/>
+        <infoLink id="d72a-0cbb-0958-4fe9" name="Feeble" hidden="false" targetId="eab8-73f5-feed-5924" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>

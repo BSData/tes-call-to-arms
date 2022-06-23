@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="14a9-0fb6-a27d-8cc6" name="Monsters (Adversaries Only)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="e1b0-72af-2bba-bba6" name="Frost Troll: Fearsome Brute" hidden="false" collective="false" import="true" targetId="3714-59eb-b051-a675" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e7a9-3c01-b8b5-5f1a" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="8144-ca76-a439-2f04" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="24d5-ec54-fa11-67bd" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="16df-f62e-7d42-004d" name="Troll: Raging Brute" hidden="false" collective="false" import="true" targetId="ee7b-31b9-a888-9bfa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="350d-a8b5-7550-c624" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="536f-ea06-e47c-403c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="263f-0f2e-48da-0e40" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="3714-59eb-b051-a675" name="Frost Troll: Fearsome Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="414c-66f5-3af3-a6aa" name="Frost Troll: Fearsome Brute" hidden="false" targetId="9398-32b3-a92e-ee85" type="profile"/>
+        <infoLink id="f791-e381-64c6-3329" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
+        <infoLink id="a311-ad5c-120f-904b" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="1799-2229-3a15-b1e8" name="Troll Strike" hidden="false" targetId="e0fa-05b5-4907-1a6e" type="rule"/>
+        <infoLink id="1105-80cb-b3be-403f" name="Follow-Up" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee7b-31b9-a888-9bfa" name="Troll: Raging Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8fc8-6d17-6ba5-4577" name="Troll: Raging Brute" hidden="false" targetId="8d95-13e5-b0f7-9cff" type="profile"/>
+        <infoLink id="4206-5dcb-ef65-97cb" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="bb06-ab76-0e70-36a7" name="Troll Strike" hidden="false" targetId="e0fa-05b5-4907-1a6e" type="rule"/>
+        <infoLink id="8b60-8049-64d0-79d7" name="Follow-Up" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="39.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="e0fa-05b5-4907-1a6e" name="Troll Strike" publicationId="6505-1b24-c5b0-6421" hidden="false">
+      <description>When a Troll performs a Power Attack Boost, it adds [RED] instead of [YELLOW] to the attack roll.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="9398-32b3-a92e-ee85" name="Frost Troll: Fearsome Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Elite</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Monster</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(Strength): [GREEN][RED]
+[SWORDS]: Punishing (2)
+Follow-Up [1]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Resistance (Frost), Teeth And Claws, Terrifying, Troll Strike</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">6</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">2</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">3</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">4</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">3</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Monsters</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d95-13e5-b0f7-9cff" name="Troll: Raging Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Elite</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Monster</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(Strength): [GREEN][RED]
+[SWORDS]: Punishing (2)
+Follow-Up [1]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Teeth And Claws, Terrifying, Troll Strike</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">6</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">2</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">3</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">4</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">3</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Monsters</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
