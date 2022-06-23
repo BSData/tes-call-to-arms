@@ -42,7 +42,6 @@
     <entryLink id="9a21-fddd-0d12-f973" name="Draugr Deathlord: Crypt Master" hidden="false" collective="false" import="true" targetId="ee0c-e554-31e3-b770" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d85c-2e38-ec71-9ac7" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
-        <categoryLink id="d837-e424-f808-1db6" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
         <categoryLink id="7215-d20b-0a5e-dd18" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
         <categoryLink id="40dd-de62-da0b-a25b" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="24e0-dc1a-7d3e-a5a7" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
@@ -60,7 +59,6 @@
     <entryLink id="0c43-21fd-7a62-fa57" name="Draugr Overlord: Bleak Falls Guardian" hidden="false" collective="false" import="true" targetId="b832-60ce-a59f-6f8e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3217-9e2d-4a71-f583" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
-        <categoryLink id="fbf5-4b48-14af-af77" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
         <categoryLink id="a267-5dbd-8f37-0182" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
         <categoryLink id="2ae8-3a08-9e3a-2d0a" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
         <categoryLink id="b043-e9f2-f9e6-421f" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
@@ -157,6 +155,16 @@
         <categoryLink id="e276-20e6-81f0-c6f1" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="ba93-297c-3b16-81a2" name="Draugr Overlord: Bleak Falls Guardian (Adversary)" hidden="false" collective="false" import="true" targetId="1495-506e-0566-294a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c792-cfe0-c04e-8c91" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="eafe-efe7-961b-725b" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="a616-6e38-59db-9e9e" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="c600-a6bf-2a21-908d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="41f5-04af-17bc-8265" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="cf77-e93b-e174-d1fc" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="b832-60ce-a59f-6f8e" name="Draugr Overlord: Bleak Falls Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
@@ -164,7 +172,7 @@
         <infoLink id="9a76-47aa-a4c6-80aa" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
         <infoLink id="873d-d5a9-9540-50f2" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
         <infoLink id="4377-ffe4-40cd-2b6f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
-        <infoLink id="bfe7-4624-879f-2234" name="Draugr Deathlord: Crypt Master" hidden="false" targetId="4b63-1bf0-1892-c70b" type="profile"/>
+        <infoLink id="bfe7-4624-879f-2234" name="Draugr Overlord: Bleak Falls Guardian" hidden="false" targetId="c9d6-d192-4dba-e7cd" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="425e-3af1-5a24-8394" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
@@ -231,7 +239,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="746b-4215-c3ca-98be" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d035-9a6d-2bf2-2182" name="Draugr Overlord: Bleak Falls Guardian (Leveled)" hidden="false" targetId="ff56-0d69-324a-57f8" type="profile"/>
+            <infoLink id="d035-9a6d-2bf2-2182" name="Draugr Deathlord: Crypt Master (Leveled)" hidden="false" targetId="2ffe-ecd2-d0ce-c2bb" type="profile"/>
             <infoLink id="1489-16f2-8e6c-c792" name="Perk: Well Fitted" hidden="false" targetId="1cd1-dafa-32a1-0e91" type="rule"/>
           </infoLinks>
           <costs>
@@ -573,6 +581,18 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1495-506e-0566-294a" name="Draugr Overlord: Bleak Falls Guardian (Adversary)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ba3e-728a-7c46-340b" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="3887-a120-9f6d-9431" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="d2fa-830f-293b-4959" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="02d2-3426-9787-c52c" name="Draugr Overlord: Bleak Falls Guardian (Adversary)" hidden="false" targetId="525f-d276-aab5-d073" type="profile"/>
+        <infoLink id="68ef-3bdb-8f93-3e4e" name="Damage Type: Force" hidden="false" targetId="1c80-ddbe-173a-056e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1252,6 +1272,36 @@ Destruction</characteristic>
         <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">6</characteristic>
         <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
         <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Monsters, Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="525f-d276-aab5-d073" name="Draugr Overlord: Bleak Falls Guardian (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Undead</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Ranged(Strength):
+6&quot;: [RED][YELLOW]
+[HELMET]: Piercing (1)
+[SWORDS]: Piercing (2)
+Enchanted, Force (+3&quot; Push Back)</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Melee(One-Handed): [GREEN][YELLOW][YELLOW]
+[HELMET]: Punishing (1)</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor
+[YELLOW][YELLOW] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Shield (Block): [GREEN][RED]</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Dragon Shouts</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">5
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">3</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">4</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">4</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Draugr</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

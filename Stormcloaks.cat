@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="245b-f545-323f-330b" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <comment>Leveled: Done</comment>
@@ -199,6 +199,18 @@
         <categoryLink id="a059-ca66-c048-430e" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="3f6b-7cff-0fbb-2823" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="d75b-4028-3b99-7bcb" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9b41-9891-a451-75d3" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" targetId="3695-1b03-32b6-9748" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="744f-f1f7-773a-0bcc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="1fb9-966b-0763-cd68" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="69ef-e019-ff51-cd45" name="Yrsarald Thrice-Pierced: Stormcloak Commander" hidden="false" targetId="245b-f545-323f-330b" primary="false"/>
+        <categoryLink id="5e09-4353-b6ae-4dcc" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="6a6f-9ead-d01c-5ff3" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="2d33-a6e6-a7be-81ad" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="3a24-529a-840b-2378" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="4d68-4ee5-3b77-1245" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -571,6 +583,21 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3695-1b03-32b6-9748" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="3790-d387-6848-56fb" name="The Strong Survive (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+          <description>Stormcloak Adversaries within 3&quot; of Ysarald gain +1 Strength.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3698-157c-edf9-65cd" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)" hidden="false" targetId="b188-cc34-67f9-e661" type="profile"/>
+        <infoLink id="851e-c44d-d165-ea2a" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="6cb5-d2bd-7419-12b7" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1195,6 +1222,34 @@ Light Armor</characteristic>
         <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Stormcloaks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b188-cc34-67f9-e661" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Nord</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(One-Handed): [GREEN][RED]
+[HELMET]: Bleed
+[SWORDS]: Follow-Up [1]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor: [RED]
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Resistance (Frost), The Strong Survive (Adversary)</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">2</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">5</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">4</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Stormcloaks</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

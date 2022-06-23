@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ea8e-4fe3-e4a5-c93b" name="Hadvar: Hero Of Helgen" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <constraints>
@@ -170,6 +170,24 @@
         <categoryLink id="a095-8850-0d70-ae2b" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="3622-26ea-b695-424a" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="5f0c-e146-97a3-18b0" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5202-a07f-833b-15b5" name="Hadvar: Hero Of Helgen (Adversary)" hidden="false" collective="false" import="true" targetId="5aeb-1597-85dc-a277" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8787-ef37-d99d-a1be" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="f2e3-b892-291b-dd17" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="6faf-1cbe-e19b-a601" name="Hadvar: Hero Of Helgen" hidden="false" targetId="ea8e-4fe3-e4a5-c93b" primary="false"/>
+        <categoryLink id="c003-2923-b606-0de4" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="c56e-6cb8-f2cf-aec9" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="9544-c613-ce8d-0f51" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="bf91-9727-aec7-57c3" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ce0d-c5d6-817d-48b0" name="Imperial Soldier: Swordsman (Adversary)" hidden="false" collective="false" import="true" targetId="5873-1ffb-182f-4d0b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="414c-2e61-2458-981e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="9b0f-b64b-e109-7418" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="2b31-503a-2227-0355" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -511,6 +529,31 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5aeb-1597-85dc-a277" name="Hadvar: Hero Of Helgen (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="fc11-a496-9f10-0fed" name="Hold The Line" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+          <description>Imperial Legion Adversaries with shields that end their activation within 3&quot; of Hadvar automatically receive a Block token.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b4a6-b861-7daa-8103" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="f2e8-e505-7d01-e23d" name="Hadvar: Hero Of Helgen (Adversary)" hidden="false" targetId="5089-8e23-c783-06cf" type="profile"/>
+        <infoLink id="4515-95fd-d5ae-953f" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5873-1ffb-182f-4d0b" name="Imperial Soldier: Swordsman (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="26c5-75f9-077b-bb20" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="f7a3-af28-c28f-3c00" name="Imperial Soldier: Swordsman (Adversary)" hidden="false" targetId="cb75-ad31-e5c9-ffb0" type="profile"/>
+        <infoLink id="4032-e3cc-b1e1-ddf5" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1050,6 +1093,58 @@ Light Armor</characteristic>
         <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5089-8e23-c783-06cf" name="Hadvar: Hero Of Helgen (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Nord</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(One-Handed): [GREEN][RED]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Heavy Armor
+[RED] (1)
+[HELMET]: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Resistance (Frost), Hold The Line</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">4</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">3</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">4</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">4</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb75-ad31-e5c9-ffb0" name="Imperial Soldier: Swordsman (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Minion</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Imperial</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">One-Handed: [GREEN][RED]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Shield (Block): [RED]</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">None</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">2</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">4</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">1</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Imperial Legion</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
