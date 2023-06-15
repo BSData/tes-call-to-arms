@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guards" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="f97a-a510-bc8b-1b53" name="Hold Guard Captain: Commander Of The Watch" hidden="false" collective="false" import="true" targetId="0cc8-d2e1-973b-af19" type="selectionEntry">
       <categoryLinks>
@@ -72,10 +72,20 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="51fd-a077-796b-ddf3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="1334-897e-2855-a02f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="4a81-f8fe-9466-7609" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a41-4348-2857-17c1" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5c7-5f87-8790-29fd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe6d-6215-e462-c40a" type="max"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink id="7f83-73b5-c7c2-7041" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>

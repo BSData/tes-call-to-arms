@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5182-07ec-790b-ea1c" name="Clan Volkihar" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="3eae-7ac8-0da6-d1d7" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bd3-aa6a-2420-99fe" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="2aaf-aa48-8cc3-28c1" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f1e-c57c-4c19-3cca" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="1a76-122e-663f-1640" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b206-2ed2-0040-6c70" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="d38d-b84c-58b0-4a9e" name="Serana: Daughter of Coldharbour" hidden="false" collective="false" import="true" targetId="f52a-1b3f-2ec4-0a44" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b7aa-4b7c-29c1-1bb5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a619-a279-a694-39aa" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="a3e5-8615-62f2-0a89" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="4761-785a-6d9e-8403" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="f6be-1f71-dc3a-806f" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="a8a9-27d8-b89e-49e8" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="9bf4-2ac5-275b-39f7" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="1a50-c0bb-109d-d5cb" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="6269-564a-dd5a-d536" name="Serana (Character)" hidden="false" targetId="d5c8-3d78-b4ca-201b" primary="false"/>
+        <categoryLink id="a17a-213b-7018-b0d7" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="8182-59d9-9f7e-a4f9" name="Blood Magic Skill" hidden="false" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
+        <categoryLink id="bc76-7385-fff2-1963" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="6fd6-5138-4c73-4486" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a23b-5d7e-c6c3-d583" name="The Dragonborn: Fist of Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="9218-63c2-9e88-dc4d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7fd5-da89-8c1c-66f7" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="5413-b326-20c8-4c86" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="2f47-c43e-3ac2-51cc" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="9194-15b0-2f4c-9b8a" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="9e99-22f3-c8ef-1ed0" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="1655-0a01-1142-5e15" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="5aaf-0594-711e-45b1" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="7a5c-eb5c-a02d-b58d" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="d5ef-792b-62a5-8b64" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="44a5-e5a6-a96a-1217" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="087e-288b-6548-d7a1" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="9e79-838b-d63e-50e8" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="e54b-95f3-8721-aeb0" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="9962-9b50-9783-892d" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
+        <categoryLink id="151e-2cb5-e9af-d730" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="0958-4518-eb78-6c54" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="989e-d695-ced9-ff78" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="4707-09e4-8041-d28c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8da4-a0e4-7d8f-0b12" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="484d-3874-4ca8-3b0b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="b0f4-4754-a9da-4277" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="25fd-b871-8a72-eb84" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="6830-ba1e-d7ca-f5f0" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="f605-a601-25f8-249e" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="9e3b-9a91-00c1-e595" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="7900-9e1f-5086-e1dc" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="fdf0-cc98-e1e6-e867" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="0066-3fb9-0655-84c3" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="97f5-0b79-159f-1504" name="Lord Harkon: Progenitor of the Volkihar" hidden="false" targetId="3eae-7ac8-0da6-d1d7" primary="false"/>
+        <categoryLink id="43fd-8068-8e55-41cd" name="Blood Magic Skill" hidden="false" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
+        <categoryLink id="1cf2-8f98-41e5-6cb8" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink id="f113-0ccb-4b96-ec9c" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="e93d-7abe-0781-b506" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="e70f-67f3-3428-7a59" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="6a88-5dd2-2004-ced0" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ef3d-c946-d685-39f9" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="e3cc-9c6c-7980-ac7b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b769-61ef-673e-1a90" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="2ede-9c30-61a0-f2c5" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="847c-4e76-4e66-da35" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="445f-f617-fc42-5b7a" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="b2f9-bf83-9b91-dbbf" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="48b7-c927-4ef8-32aa" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="0893-523d-6d93-09c7" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="9b31-1942-5730-bae8" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="4ae6-3684-0848-b022" name="Blood Magic Skill" hidden="false" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
+        <categoryLink id="ab8f-9650-b469-efc6" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink id="d56b-01fe-7205-60b4" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="ada4-9f4b-0f3a-e6a3" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="fc7b-1961-034d-fd62" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="f66b-71c1-fc72-aec9" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="6902-a466-07f0-5e31" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink id="328e-4c34-5067-08c9" name="Vingalmo: Volkihar Master Vampire" hidden="false" targetId="2aaf-aa48-8cc3-28c1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e035-9bed-c45f-a481" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="6c49-014b-85f6-324d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="53f0-89a9-5e56-d6c3" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="c1bc-45da-4de4-8345" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="9d37-4c90-d561-fa15" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="e029-9c61-4a82-f8fd" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="a1e3-a299-813e-f51a" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="a8e1-a900-1eba-9e89" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="6a9b-392b-819f-ce68" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="825e-1b0a-d750-5db8" name="Blood Magic Skill" hidden="false" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
+        <categoryLink id="0c11-f1f4-efff-c254" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="7558-9d3b-4b07-fc50" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="9523-ffa6-419b-ce00" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="82e7-838d-09af-348b" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="5a9f-26ed-e9c7-d8c9" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="4780-074e-7cf5-1f84" name="Orthjolf: Clan Advisor" hidden="false" targetId="1a76-122e-663f-1640" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="332f-45b8-fc7e-0c40" name="Ancient Vampire: Clan Elder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f778-9246-12e4-8343" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2df8-042a-eb72-e6e0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="ecff-bbca-6226-d1cb" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="1cc3-9631-e3d7-4a36" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="8c49-d374-0522-5da1" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="cf4d-2af3-e4b7-928a" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="9eaa-5385-2693-2c4a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="0944-d9fe-7b9c-f03d" name="Blood Magic Skill" hidden="false" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
+        <categoryLink id="7aa6-758a-53f1-997e" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="a218-76b9-1698-370b" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="61e9-edfa-96bd-121a" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="c4e0-67c6-3c52-a5e2" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4cf8-5f5d-1020-06d3" name="Vampire Mistwalker: Silent Killer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="cee2-c91f-f24f-0797" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="52af-9681-dbea-3ba8" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="87a6-6a1b-40a3-d3fb" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="4368-fc24-f298-239b" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="9464-650f-dc49-cd20" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="425a-66ec-955a-8703" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="1699-227a-a02e-9908" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="aef5-11b2-ae6f-7a8c" name="Blood Magic Skill" hidden="false" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
+        <categoryLink id="7974-decb-0c27-298b" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="0938-db60-69af-4133" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="c2e2-806f-ab4c-218f" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink id="7f95-09bd-fa99-c1cc" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9218-63c2-9e88-dc4d" name="The Dragonborn: Fist of Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="c33c-18a6-a223-a468" name="Enemy of the Dawn" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>The Dragonborn adds [GREEN] to all Attacks performed against members of the Dawnguard Faction.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="462e-0d34-7f9a-9ff7" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+        <infoLink id="a147-4e26-323d-02ee" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="bbeb-03af-3980-25af" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="1637-0b2c-6866-25f3" name="The Dragonborn: Fist of Volkihar" hidden="false" targetId="06fa-ec26-f0f6-b784" type="profile"/>
+        <infoLink id="e14c-a609-68e3-8e63" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="bc58-4dc2-ea46-022b" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+        <infoLink id="50ce-b1dc-e4a9-815b" name="Vampire Perk: Supernatural Reflexes" hidden="false" targetId="94fd-e062-7e6e-f31c" type="rule"/>
+        <infoLink id="1cab-b4c2-8229-0090" name="Perk: Treasure Hunter" hidden="false" targetId="20be-2e12-0782-2057" type="rule"/>
+        <infoLink id="d088-eab8-e028-b29d" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+        <infoLink id="df54-6c21-f3fa-b8ae" name="Shapeshift (X)" hidden="false" targetId="c372-6973-ecac-b0d8" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="82f7-292f-547d-9dc8" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ae-8e89-d3b8-3782" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="237b-8a41-3ebb-4cd7" name="The Dragonborn: Fist of Volkihar (Leveled)" hidden="false" targetId="96eb-b91b-e2ff-049a" type="profile"/>
+            <infoLink id="d641-9a12-6077-29af" name="Perk: Stealth" hidden="false" targetId="97cc-1221-1a57-177f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f7bd-62c8-b6e7-4f87" name="Include Shapeshift Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8d-c58a-6b07-848e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="852a-5574-0e36-ae0a" name="Vampire Lord: Winged Nightmare (Shapeshift)" hidden="false" targetId="de7a-88f8-b261-5b3a" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="250c-735b-df82-763a" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="724e-00f8-569b-4fb9" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45a4-0e0d-1037-3039" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="ac21-cf9d-e4d2-d5c9" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4707-09e4-8041-d28c" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="37a0-1989-1c23-28bb" name="Power Takes Precedence" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>Lord Harkon may not be included in the same party as any model that is not either a member of the Clan Volkihar Faction or Neutral.  Furthermore, Harkon and any friendly Vampire within 6&quot; may add [GREEN] to their Blood Magic Skill Tests.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4dc4-0da7-c489-66f5" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="ba62-cb38-26c2-f0fb" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="6079-839d-75b8-ac63" name="Lord Harkon: Progenitor of the Volkihar" hidden="false" targetId="cce3-118b-a3b2-c73d" type="profile"/>
+        <infoLink id="c2f0-a3a1-099c-a831" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="cc6f-741d-2223-c460" name="Perk: Avoid Death" hidden="false" targetId="997c-17c8-a48c-d0ad" type="rule"/>
+        <infoLink id="381f-bca4-8b7b-7097" name="Vampire Perk: Night Cloak" hidden="false" targetId="2264-2f2b-e122-2305" type="rule"/>
+        <infoLink id="5518-8333-b039-4d84" name="Vampire Perk: Mist Form" hidden="false" targetId="9cad-8869-3c03-b530" type="rule"/>
+        <infoLink id="97b5-d7ca-ca68-acae" name="Shapeshift (X)" hidden="false" targetId="c372-6973-ecac-b0d8" type="rule"/>
+        <infoLink id="94de-9061-52ec-f4b0" name="Born Leader" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="824a-10b6-7cfa-947a" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd03-7670-5ea0-8acf" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ac6e-e9f2-5511-dea0" name="Lord Harkon: Progenitor of the Volkihar (Leveled)" hidden="false" targetId="cdd1-b4a0-4061-ad42" type="profile"/>
+            <infoLink id="80a3-a98a-d1ad-5e77" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eb7a-c2e5-e156-1031" name="Include Shapeshift Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c82-60d9-ffc8-0298" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="eae0-3413-75dd-23ba" name="Vampire Lord: Winged Nightmare (Shapeshift)" hidden="false" targetId="de7a-88f8-b261-5b3a" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="221f-ac83-295f-df0b" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="19d8-8654-568a-434b" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96b0-aca9-a825-dc89" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d7-74a3-a333-7f43" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0e66-341c-a903-94fb" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3cc-9c6c-7980-ac7b" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="fe85-9fa8-6e93-984c" name="Know Your Place..." publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When Vingalmo performs the Rally Command, he may immediately reassign the removed Shaken token to any enemy Follower or Minion Adversary within 6&quot; and Line of Sight.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2bd5-549d-2adc-3d43" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="8b79-fae2-115a-b551" name="Altmer" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink id="530d-c382-0a52-459f" name="Vingalmo: Volkihar Master Vampire" hidden="false" targetId="a0c2-f533-6bba-948c" type="profile"/>
+        <infoLink id="76dc-ee3b-86c4-6d81" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="53af-127f-3e60-f52e" name="Perk: Augmented Frost" hidden="false" targetId="f130-7877-e9aa-a998" type="rule"/>
+        <infoLink id="ff0a-686e-a6f0-4f4e" name="Perk: Necromancy" hidden="false" targetId="226e-8404-87c8-a2ff" type="rule"/>
+        <infoLink id="1c95-3970-ee67-0b94" name="Perk: Dark Souls" hidden="false" targetId="901a-859d-c87e-4262" type="rule"/>
+        <infoLink id="fcbf-28d0-633a-ac89" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="887f-8d41-4715-358b" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d39-f6ba-9854-a913" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8c5e-fe8a-73c1-ca87" name="Vingalmo: Volkihar Master Vampire (Leveled)" hidden="false" targetId="cc4d-3f9b-86ce-a92f" type="profile"/>
+            <infoLink id="c3ee-5e95-3333-a98a" name="Perk: Wind Walker" hidden="false" targetId="986d-0c2c-6f55-86f8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="363e-ebfa-868e-9b2a" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="870a-fdb8-4d92-f6b7" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac85-0844-757e-1cc8" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="c289-da34-fd18-5add" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c49-014b-85f6-324d" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="4774-0de6-cb67-fb08" name="Elf Enmity (1)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>Orthjolf may not be included in any Party if the Champion is an Elf. [...] Furthermore, when targeting an enemy Elf with an Attack or Spell, Orthjolf may reroll the Skill die once if he scores a [CRITICAL FAIL].</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="224d-370f-9f0b-50d1" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="517f-eafc-7203-4542" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="a850-5917-427a-8e9b" name="Orthjolf: Clan Advisor" hidden="false" targetId="9c15-d390-68bc-2310" type="profile"/>
+        <infoLink id="6b4f-0ee5-ed87-2b69" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="38be-4462-027b-d945" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+        <infoLink id="0f7f-4c74-3863-0ea7" name="Vampire Perk: Power Bite" hidden="false" targetId="b31c-1f51-58a2-139b" type="rule"/>
+        <infoLink id="4db7-fe22-b83c-5341" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="af18-5dcc-0885-678b" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d63-713a-4c62-d063" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9ae1-c6c0-4b60-e05e" name="Orthjolf: Clan Advisor (Leveled)" hidden="false" targetId="7a1d-95c1-a055-6f76" type="profile"/>
+            <infoLink id="9163-5cb4-6414-c4b0" name="Perk: Bribery" hidden="false" targetId="35b9-e58d-5f20-caa7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="94cd-6c9d-1011-442b" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="a7eb-4a6e-eb1a-e5e3" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0276-3f58-236f-0468" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1c6e-b0b6-59f0-1904" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f778-9246-12e4-8343" name="Ancient Vampire: Clan Elder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="0ce2-9958-8119-a876" name="Thrall Master" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>Friendly Clan Volkihar Thralls add [YELLOW] to Attacks if within 6&quot; of an Ancient Vampire which does not have a full Health Reserve.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fb9a-7d45-3530-9e88" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="ac81-9c64-ee91-0b5a" name="Dunmer" hidden="false" targetId="a0cb-51aa-e265-db37" type="infoGroup"/>
+        <infoLink id="38fc-5bff-bfd3-dc4c" name="Ancient Vampire: Clan Elder" hidden="false" targetId="d024-b933-cc6f-da4a" type="profile"/>
+        <infoLink id="fc03-c768-8f21-106b" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="24e0-d8e9-8e47-1abe" name="Vampire Perk: Detect Creatures" hidden="false" targetId="8792-767e-1e78-bd0f" type="rule"/>
+        <infoLink id="5d2d-43d3-538d-c73a" name="Perk: Necromancy" hidden="false" targetId="226e-8404-87c8-a2ff" type="rule"/>
+        <infoLink id="658e-afa7-4b87-1595" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="eb6e-a64a-f091-bee1" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5dd-1f09-5c67-09e8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="03a8-12f7-0f14-9b47" name="Ancient Vampire: Clan Elder (Leveled)" hidden="false" targetId="b853-b6b1-de1c-b718" type="profile"/>
+            <infoLink id="bd1e-5381-e2c7-f0ba" name="Perk: Fighting Stance" hidden="false" targetId="e23a-87f7-19e1-ad12" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2856-7a8b-1faf-398c" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="921c-fe6e-f252-3315" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a13d-e066-f4fd-c35d" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="9be4-7526-3f5e-171a" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cee2-c91f-f24f-0797" name="Vampire Mistwalker: Silent Killer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="86a4-6fc2-6f9b-29e7" name="Thrall Feeder" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>As a Special Action, the Vampire Mistwalker may target one Volkihar Thrall within 3&quot; and Line of Sight.  The target Thrall suffers [YELLOW] damage (ignoring Armor Rating), then the Vampire Mistwalker restores 1 point to each of its Reserves.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d588-9cce-3d80-8f19" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="4cc4-7f7e-df84-65d3" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="6726-a0e6-08d3-15d9" name="Vampire Mistwalker: Silent Killer" hidden="false" targetId="adcb-4db1-f397-cc76" type="profile"/>
+        <infoLink id="bd7e-28ae-705d-9c37" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="f08a-5548-76dc-8409" name="Perk: Necromancy" hidden="false" targetId="226e-8404-87c8-a2ff" type="rule"/>
+        <infoLink id="f1f6-8169-fd08-811c" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="f0c0-ca77-0270-46e1" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51b5-b281-58ca-b95d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1081-f8a1-3c67-6a38" name="Vampire Mistwalker: Silent Killer (Leveled)" hidden="false" targetId="bb9c-da55-b9c4-81e9" type="profile"/>
+            <infoLink id="b267-d1a4-fe57-8980" name="Vampire Perk: Embrace of Shadows" hidden="false" targetId="1746-e9fc-41db-4247" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="188f-6280-b450-a4c3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="b415-e11f-608b-d9e9" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e1-2815-a0c7-9c31" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="8a7c-294c-fc31-01c3" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="06fa-ec26-f0f6-b784" name="The Dragonborn: Fist of Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord (Vampire)</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Intimidation, Supernatural Reflexes, Treasure Hunter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Immunity (Poison), Night Eye, Resistance (Frost), Shapeshift (Vampire Lord), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Enemy of the Dawn</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Lockpicking
+Pickpocket</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Heavy Armor
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Clan Volkihar</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="96eb-b91b-e2ff-049a" name="The Dragonborn: Fist of Volkihar (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Intimidation, Supernatural Reflexes, Stealth, Treasure Hunter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Immunity (Poison), Night Eye, Resistance (Frost), Shapeshift (Vampire Lord), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Enemy of the Dawn</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Lockpicking
+Pickpocket</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cce3-118b-a3b2-c73d" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord (Vampire)</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Avoid Death, Mist Form, Night Cloak</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Immunity (Poison), Night Eye, Resistance (Frost), Shapeshift (Vampire Lord), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Power Takes Precedence</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Destruction
+Conjuration
+Alteration
+Illusion
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Clan Volkihar</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cdd1-b4a0-4061-ad42" name="Lord Harkon: Progenitor of the Volkihar (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Avoid Death, Bladesman, Mist Form, Night Cloak</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Immunity (Poison), Night Eye, Resistance (Frost), Shapeshift (Vampire Lord), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Power Takes Precedence</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Destruction
+Conjuration
+Alteration
+Illusion
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a0c2-f533-6bba-948c" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Altmer (Vampire)</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Frost, Dark Souls, Necromancy</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Immunity (Poison), Night Eye, Regenerate Magicka, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Know Your Place...</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Destruction
+Conjuration
+Alteration
+Illusion
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Clan Volkihar</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cc4d-3f9b-86ce-a92f" name="Vingalmo: Volkihar Master Vampire (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Frost, Dark Souls, Necromancy, Wind Walker</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Immunity (Poison), Night Eye, Regenerate Magicka, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Know Your Place...</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Destruction
+Conjuration
+Alteration
+Illusion
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9c15-d390-68bc-2310" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord (Vampire)</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Persuasion, Power Bite</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Immunity (Poison), Night Eye, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Elf Enmity (1)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Destruction
+Conjuration
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Clan Volkihar</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7a1d-95c1-a055-6f76" name="Orthjolf: Clan Advisor (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bribery, Persuasion, Power Bite</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Immunity (Poison), Night Eye, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Elf Enmity (1)</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d024-b933-cc6f-da4a" name="Ancient Vampire: Clan Elder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Dunmer (Vampire)</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Detect Creatures, Necromancy</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Immunity (Poison), Night Eye, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Thrall Master</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Clan Volkihar</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b853-b6b1-de1c-b718" name="Ancient Vampire: Clan Elder (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Detect Creatures, Fighting Stance, Necromancy</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Immunity (Poison), Night Eye, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Thrall Master</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Alchemy</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="adcb-4db1-f397-cc76" name="Vampire Mistwalker: Silent Killer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial (Vampire)</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Necromancy</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Immunity (Poison), Imperial Luck, Night Eye, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Thrall Feeder</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration
+Blood Magic
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Clan Volkihar</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bb9c-da55-b9c4-81e9" name="Vampire Mistwalker: Silent Killer (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Embrace of Shadows, Necromancy</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Immunity (Poison), Imperial Luck, Night Eye, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Vampiric Drain, Thrall Feeder</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction
+Conjuration
+Blood Magic
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="2e37-4e3d-c816-2a48" name="Adventurers" targetId="bed2-2069-45b8-9df1" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>

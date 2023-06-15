@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="4" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Done: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers
-Maybe: Adversaries</comment>
+  <comment>Done: All Heroes, Draugr Upgrades, Chapter 2 Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers
+TODO: STAG Followers, Chapter 3 (All Non-Hero)
+Low Priority: Adversaries</comment>
   <publications>
-    <publication id="4d6f-8c48-a5ea-e83c" name="BRB (v1.2)" shortName="BRB (v1.2)" publisher="The Elder Scrolls: Call to Arms Core Rulebook (v1.2)"/>
+    <publication id="4d6f-8c48-a5ea-e83c" name="BRB (May 2023)" shortName="BRB (5-23)" publisher="The Elder Scrolls: Call to Arms Revised Rulebook (May 2023)" publicationDate="May 2023" publisherUrl="https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads"/>
     <publication id="a37b-3a3b-faf7-0732" name="Chapter 1 Cards"/>
     <publication id="2733-0fd1-3311-3be2" name="Chapter 2 Cards"/>
     <publication id="bcdd-038f-9aa1-3237" name="Core Set Cards"/>
-    <publication id="aad1-da3a-8e80-9b6b" name="ESO Cards (BETA)"/>
     <publication id="9ac9-edd2-53a7-2d58" name="Draugr Faction (BETA)" publisher="Draugr Faction Rules"/>
     <publication id="c5ed-9e8c-ec28-4def" name="HotE I: TSR" shortName="HotE I: TSR" publisher="Histories of the Empire Vol. I: The Stormcloak Rebellion"/>
     <publication id="7808-76cd-3ab8-6f86" name="FAQ (v1.2)" publisher="FAQ (v1.2)"/>
     <publication id="6505-1b24-c5b0-6421" name="Into The Dark Cards" shortName="ITD Cards" publisher="Into The Dark Cards"/>
+    <publication id="fc6a-2d15-ff0e-9318" name="Chapter 3 Cards"/>
+    <publication id="2ee0-173b-47e1-7ff1" name="S:TAG Cards" shortName="S:TAG Cards" publisher="Skyrim: The Adventure Game Minitatures Expansion"/>
   </publications>
   <costTypes>
     <costType id="c61a-51a3-370d-bf55" name=" Septims" defaultCostLimit="-1.0" hidden="false"/>
@@ -181,9 +183,9 @@ Maybe: Adversaries</comment>
         <infoLink id="14fa-09de-0e0b-806a" name="Hirelings" hidden="false" targetId="a21e-31de-c0b9-4402" type="rule"/>
       </infoLinks>
     </categoryEntry>
-    <categoryEntry id="7a4b-b0a8-af97-404b" name="Aldmeri Dominion" publicationId="aad1-da3a-8e80-9b6b" hidden="false"/>
-    <categoryEntry id="f5a6-4501-1cef-61bd" name="Daggerfall Covenant" publicationId="aad1-da3a-8e80-9b6b" hidden="false"/>
-    <categoryEntry id="328b-1d75-65e2-424b" name="Ebonheart Pact" publicationId="aad1-da3a-8e80-9b6b" hidden="false"/>
+    <categoryEntry id="7a4b-b0a8-af97-404b" name="Aldmeri Dominion" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
+    <categoryEntry id="f5a6-4501-1cef-61bd" name="Daggerfall Covenant" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
+    <categoryEntry id="328b-1d75-65e2-424b" name="Ebonheart Pact" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
     <categoryEntry id="89c7-846f-c20d-7174" name="Followers of Molag Bal" hidden="false"/>
     <categoryEntry id="d052-3a4c-7811-5d93" name="Bandits" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false"/>
     <categoryEntry id="b1cc-bf06-8acb-dce0" name="Path of Might" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false"/>
@@ -253,7 +255,7 @@ Maybe: Adversaries</comment>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0221-2854-2e4f-dbbc" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="8571-e171-abd1-033f" name="Hold Guards" publicationId="c5ed-9e8c-ec28-4def" page="73" hidden="false"/>
+    <categoryEntry id="8571-e171-abd1-033f" name="Hold Guard" publicationId="c5ed-9e8c-ec28-4def" page="73" hidden="false"/>
     <categoryEntry id="03a4-6256-8b54-3dba" name="Hireling Follower" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false">
       <infoLinks>
         <infoLink id="ea9a-0cc5-3c22-2ac6" name="Hirelings" hidden="false" targetId="a21e-31de-c0b9-4402" type="rule"/>
@@ -277,6 +279,18 @@ Maybe: Adversaries</comment>
     <categoryEntry id="dd8f-4143-9e14-8e73" name="Speech Skill" hidden="false"/>
     <categoryEntry id="37d3-238a-d08a-1589" name="Alchemy Skill" hidden="false"/>
     <categoryEntry id="c7db-eac8-21dc-49a0" name="Smithing Skill" hidden="false"/>
+    <categoryEntry id="8efa-ca32-314e-1157" name="Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
+    <categoryEntry id="3987-ed35-2c6f-2464" name="Clan Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
+    <categoryEntry id="9bab-4b58-ba6c-73d9" name="Skyrim: The Adventure Game" publicationId="2ee0-173b-47e1-7ff1" hidden="false"/>
+    <categoryEntry id="6299-838d-9877-432c" name="Cult of Boethiah" hidden="false"/>
+    <categoryEntry id="de22-5937-1643-4522" name="House Telvanni" page="TBD" hidden="false"/>
+    <categoryEntry id="16e1-93b0-a99d-b6b1" name="Blood Magic Skill" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false"/>
+    <categoryEntry id="d5c8-3d78-b4ca-201b" name="Serana (Character)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13c7-56f7-87fd-5c49" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7975-461a-3ea6-a65b" name="Elf" publicationId="4d6f-8c48-a5ea-e83c" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
@@ -459,6 +473,18 @@ A: Yes</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3b79-2f43-a6f9-3cb2" name="New CategoryLink" hidden="false" targetId="322e-38ea-bf3e-c785" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2512-932f-0a3c-7322" name="Include Skyrim: The Adventure Game Cards" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271e-5b86-072e-7753" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7558-1d33-b0e8-eb1e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0a9f-f4cb-1dde-b2bd" name="New CategoryLink" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2576,13 +2602,13 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="949d-3d53-f802-2bf3" name="Aldmeri Dominion" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="949d-3d53-f802-2bf3" name="Aldmeri Dominion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d9-f0b3-035d-0393" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="213e-acaf-e7eb-d54c" type="min"/>
           </constraints>
           <rules>
-            <rule id="3eb4-a8e2-5e03-da5d" name="Aldmeri Dominion Party Composition" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+            <rule id="3eb4-a8e2-5e03-da5d" name="Aldmeri Dominion Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>At least half (50%) of the models in the Party must be Heroes.</description>
             </rule>
           </rules>
@@ -2604,10 +2630,13 @@ A: Yes</description>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d65-c8cc-499e-1b63" type="min"/>
           </constraints>
           <rules>
-            <rule id="c1a2-3f8b-14f2-6d97" name="Bandit Party Composition" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
-              <description>At least a quarter (25%) of the models in the Party must be from the Path of Might. At least a quarter (25%) of the models in the Party must be Followers. Bandit parties may not recruit any Hireling that is either unique (*), or that belongs to more than one faction.</description>
+            <rule id="c1a2-3f8b-14f2-6d97" name="Bandit Party Composition" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false">
+              <description>At least a quarter (25%) of the models in the Party must be from the Path of Might. At least a quarter (25%) of the models in the Party must be Followers. Bandit parties may not recruit any Hireling that is either unique (*), or that belongs to more than one faction (unless one of [those] Factions is also Bandits).</description>
             </rule>
           </rules>
+          <infoLinks>
+            <infoLink id="d9d7-cc55-09ca-3825" name="Strength in Numbers" hidden="false" targetId="3446-8971-459d-60e6" type="rule"/>
+          </infoLinks>
           <categoryLinks>
             <categoryLink id="7490-bbdf-012c-da99" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
             <categoryLink id="a1ba-436e-0152-cc4d" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
@@ -2616,25 +2645,26 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f675-28a6-b947-2dd1" name="College Of Winterhold" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f675-28a6-b947-2dd1" name="College Of Winterhold" page="TBD" hidden="true" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f39-56f3-737b-57d7" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5379-daf6-55f8-6bf6" type="min"/>
           </constraints>
           <categoryLinks>
             <categoryLink id="85a1-492e-a808-8bba" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
+            <categoryLink id="db56-5268-15eb-138d" name="College Of Winterhold" hidden="false" targetId="2b0f-1265-0b4f-1046" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c6ee-751e-e8e5-492a" name="Daggerfall Covenant" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="c6ee-751e-e8e5-492a" name="Daggerfall Covenant" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27d3-410e-9ff1-ea04" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bd2-d31f-5ba1-4f59" type="min"/>
           </constraints>
           <rules>
-            <rule id="d1ff-bb62-1f59-7922" name="Daggerfall Covenant Party Composition" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+            <rule id="d1ff-bb62-1f59-7922" name="Daggerfall Covenant Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>At least a quarter (25%) of the models in the Party must be from the Path of Might. With the exception of the Champion, Daggerfall Covenant Parties may not include more Heroes than Followers (so a Party may contain one Champion, two Heroes, and two  followers models, for example). No more than a quarter (25%) of the party’s models may be Hirelings.</description>
             </rule>
           </rules>
@@ -2700,14 +2730,14 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="03b8-d846-d949-fc55" name="Ebonheart Pact" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="03b8-d846-d949-fc55" name="Ebonheart Pact" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f15b-29df-131f-c885" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9fa-ffac-0257-2996" type="min"/>
           </constraints>
           <rules>
-            <rule id="1931-fe74-c8cd-422c" name="Ebonheart Pact Party Composition" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-              <description>At least a quarter (25%) of the models in the Party must be from the Path of Might. With the exception of the Champion, Daggerfall Covenant Parties may not include more Heroes than Followers (so a Party may contain one Champion, two Heroes, and two Followers models, for example). No more than a quarter (25%) of the Party’s models may be Hirelings.</description>
+            <rule id="1931-fe74-c8cd-422c" name="Ebonheart Pact Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+              <description>The party may include no more than one Hireling model for every Faction Hero.  The party may not include any models from the House Telvanni Faction.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2722,13 +2752,13 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6890-bf2c-fee7-ea81" name="Followers of Molag Bal" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="6890-bf2c-fee7-ea81" name="Followers of Molag Bal" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f27f-6ce4-e27b-09b6" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2060-842c-d90b-ebfc" type="min"/>
           </constraints>
           <rules>
-            <rule id="5de2-da8b-8392-a766" name="Followers of Molag Bal Party Composition" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+            <rule id="5de2-da8b-8392-a766" name="Followers of Molag Bal Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>The Followers of Molag Bal treat all Undead, Vampire, and Necromancer models in the Party as Faction Heroes or Followers. Up to one Hero of the Adventurers faction may be recruited as a Faction Hero. This Party may not recruit models from the Aldmeri Dominion, Daggerfall Covenant, or Ebonheart Pact Factions, even if those models might ordinarily be recruited (because they share a Faction such as Adventurers, for example).</description>
             </rule>
           </rules>
@@ -2743,13 +2773,13 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4a41-4348-2857-17c1" name="Hold Guards" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="4a41-4348-2857-17c1" name="Hold Guard" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6438-5921-65fc-92fd" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a5-f520-8315-c9d2" type="min"/>
           </constraints>
           <rules>
-            <rule id="47ed-3ab7-288a-36b1" name="Hold Guards Party Composition" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false">
+            <rule id="47ed-3ab7-288a-36b1" name="Hold Guard Party Composition" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false">
               <description>At least half (50%) of the models in the Party must be from the Path of Might. At least half (50%) of the models in the Party must be Followers. No more than half (50%) of the models in the Party may be Hirelings.</description>
             </rule>
           </rules>
@@ -2884,6 +2914,79 @@ A: Yes</description>
           <categoryLinks>
             <categoryLink id="d049-bdd4-b75a-7f67" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
             <categoryLink id="8683-c988-e038-cdb7" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2793-630a-3b5a-9de9" name="Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fbd-e76d-55f0-126a" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f5-55ad-5cc7-52ac" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="8673-d2f4-2b47-d598" name="Dawnguard Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+              <description>At least a quarter (25%) of the models in the Party must Heroes. Up to half (50%) of the party’s models may be Hirelings.  Dawnguard models cannot be included in the same Party as a Vampire (with the exception of Serana).</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="0cf1-d262-9b4c-ea44" name="Vampire Hunters" hidden="false" targetId="c7d0-8940-a01f-9dcd" type="rule"/>
+            <infoLink id="6285-7ece-5260-0827" name="Dawnguard Recruits" hidden="false" targetId="7233-5acb-5e43-dd96" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="929a-4281-0631-e88b" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
+            <categoryLink id="4171-55b3-a512-f7bc" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b7aa-4b7c-29c1-1bb5" name="Clan Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b43-3dc4-beef-fffb" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7544-6940-9b5d-9888" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="22e4-6c61-753e-9756" name="Clan Volkihar Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+              <description>The Party may include up to two Familiars per Hero instead of the usual one.  No more than half (50%) of [the models in] the Party may be Volkihar Thralls.  Clan Volkihar Parties may not recruit any Hirelings, except as detailed in the Volkihar Thralls special rule.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="9f19-4f38-48fe-c174" name="Strength of the Bloodline" hidden="false" targetId="3856-2cfd-bc03-b674" type="rule"/>
+            <infoLink id="78f6-0494-f300-6dc3" name="Volkihar Thralls" hidden="false" targetId="a52f-d1f6-840c-142e" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="361a-a40c-f8fa-4ca4" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
+            <categoryLink id="b3df-9c0d-883d-ef1b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="57bb-6c49-490e-3f76" name="Cult of Boethiah" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abcd-9f92-d8e6-5eec" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec59-3c1b-8491-2614" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f5ab-f1c3-aa35-efed" name="Enemies of Molag Bal" hidden="false" targetId="48c9-7ce2-5d87-1035" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="1cf4-3719-1863-b5d9" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
+            <categoryLink id="90b1-bd4c-9a30-3a14" name="Cult of Boethiah" hidden="false" targetId="6299-838d-9877-432c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="beae-505a-11e9-c02c" name="House Telvanni" page="TBD" hidden="true" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8063-a153-9f0a-7ddc" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aae-5cfc-e766-1a4a" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="9838-df55-06d7-2aa1" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
+            <categoryLink id="c0f2-7e15-d273-ad2a" name="House Telvanni" hidden="false" targetId="de22-5937-1643-4522" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4640,8 +4743,8 @@ Note: Strong Armor (X) cannot be negated by Piercing (X). [See rule in BRB for e
     <rule id="0a08-aeef-9ff3-c86c" name="Shambling" publicationId="4d6f-8c48-a5ea-e83c" page="77" hidden="false">
       <description>This model may never Sprint.</description>
     </rule>
-    <rule id="c372-6973-ecac-b0d8" name="Shapeshift" publicationId="4d6f-8c48-a5ea-e83c" page="77" hidden="false">
-      <description>A model with this Special Rule has a second Character Card detailing its alternate form. The Shapeshift keyword will be listed on each card as either ‘Shapeshift A’ (the model’s natural form), or ‘Shapeshift B’ (the model’s altered form). As a Special Action once per round, this model can shift between its forms. Flip the Character Card and replace the model with the altered form model in the exact same position – if they were on different sized bases, be careful not to place the new model so that it is Engaged if the previous one was not, and vice versa. For the sake of simplicity, Upgrade Cards not usable by an altered form are kept to one side and are re-equipped as a free Swap Items Action when the model returns to its normal form. A model’s current Reserve pools are transferred between the two forms. If one form has a higher maximum value in any pool than the other when the model Shapeshifts, it must be reduced accordingly so as to not exceed the maximum. If for whatever reason there is not enough room to place the shape shifter’s base in the space the model previously occupied due to other models, move the other models the minimum distance required so that there is room to place the new model.</description>
+    <rule id="c372-6973-ecac-b0d8" name="Shapeshift (X)" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
+      <description>A model with this Special Rule has a second Character Card detailing its alternate form (where &apos;X&apos; is the name of the alternate form Character Card). As a Special Action once per round, this model can shift between its forms. Replace the original model&apos;s Character Card with the alternate form Character Card and replace the model [...] in the exact same position on the battlefied.  [...] A model’s Reserves are transferred between the two forms. If one form has a higher maximum value in any pool than the other when the model Shapeshifts, it must be reduced accordingly so as to not exceed the [new] maximum value.  If a model that starts a Scenario with a Hero Character Card Shapeshifts, and their Character Card is replaced with a Follower Card, that model is still considered to be a Hero. [see BRB p. 90 for full explanation].</description>
     </rule>
     <rule id="a213-4c27-218f-13b3" name="Slow To Fire" publicationId="4d6f-8c48-a5ea-e83c" page="77" hidden="false">
       <description>Weapons with the Slow to Fire Special Rule receive a Special Token to show it requires reloading each time they are fired. Place the token on the Weapon Card to make it clear which Weapon is affected. A Weapon Card with this token may not be used to attack. During the model’s Activation, it may remove the token as a Special Action, at the cost of 1 Stamina.</description>
@@ -5170,25 +5273,24 @@ If playing against the Dark Brotherhood as Adversaries, assign contract cards as
     <rule id="d254-bc27-0005-47e6" name="Fortune Hunters" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <description>The party Champion and all friendly Faction Heroes and Followers within 3&quot; treat Search as a Free Action.</description>
     </rule>
-    <rule id="8550-ba53-5a69-44db" name="By Ancient Right!" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-      <description>Models from this Party within 3” of an Objective or Special Objective add [YELLOW] to their Armor Rating. In addition, if this Party ever contests control of an Objective, they automatically win it instead.
-</description>
+    <rule id="8550-ba53-5a69-44db" name="By Ancient Right!" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>Models from this Party within 3” of an Objective or Special Objective add [YELLOW] to their Armor Rating. In addition, if this Party ever contests control of an Objective, they automatically win it instead.</description>
     </rule>
-    <rule id="48c9-7ce2-5d87-1035" name="Enemies of Molag Bal" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-      <description>All Aldmeri Dominion Heroes add [YELLOW] to their Attacks versus models with the Followers of Molag Bal Faction icon.</description>
+    <rule id="48c9-7ce2-5d87-1035" name="Enemies of Molag Bal" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>All [Aldmeri Dominion and/or Cult of Boethiah] Heroes add [YELLOW] to their Attacks versus models with the Followers of Molag Bal Faction icon.  [See S:TAG Cards for the Cult of Boethiah Faction rules].</description>
     </rule>
-    <rule id="b5dd-ffeb-b252-0aaa" name="Victory Through Unity" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-      <description>The Party’s Heroes benefit from the following special rules:
+    <rule id="b5dd-ffeb-b252-0aaa" name="Victory Through Unity" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>[A Daggerfall Covenant] Party’s Heroes benefit from the following special rules:
 -Any Hero in the Party may target any model in the Party with a Rally action (for example, a Faction Hero may target a Hireling).
 -When performing an Aid action, a Hero may target Staggered models, and may use the Aid action to remove a Staggered token.</description>
     </rule>
-    <rule id="79a7-54e0-8489-7b66" name="Stubborn" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+    <rule id="79a7-54e0-8489-7b66" name="Stubborn" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <description>While the Party Champion is engaged, that model and all friendly models within 3” automatically pass any Morale test they are required to take.</description>
     </rule>
-    <rule id="e117-73e7-eb3e-b208" name="Wrathful" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+    <rule id="e117-73e7-eb3e-b208" name="Wrathful" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <description>If the Party Champion is removed from play by an enemy, then for the remainder of the game all Heroes in the Party gain [GREEN] to attack rolls against the model that removed the Champion.</description>
     </rule>
-    <rule id="33ad-d197-7787-2e32" name="Armies of Unlife" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+    <rule id="33ad-d197-7787-2e32" name="Armies of Unlife" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <description>As a Special Action, any Hero in the Party may target a friendly Undead or Vampire model within 6” and LoS. That model restores your choice of 1 Health, Stamina, or Magicka.</description>
     </rule>
     <rule id="72b4-b130-ee4e-fbbe" name="Shield Drill" publicationId="bcdd-038f-9aa1-3237" hidden="false">
@@ -5246,6 +5348,63 @@ Skill icon may be used freely by anyone. Remember that a model’s path may allo
     </rule>
     <rule id="129d-f11e-1a4e-b30f" name="Familiars" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false">
       <description>Familiars are a special type of Follower. Players may choose no more than one Familiar for every Hero in their Party.</description>
+    </rule>
+    <rule id="21a9-2a71-b558-5118" name="Subraces" publicationId="fc6a-2d15-ff0e-9318" page="4" hidden="false">
+      <description>A subrace is an extension of the 10 Races of Tamriel found within the core rulebook. [...] Any rules or keywords associated with the Subrace are used in addition to any gained from the 10 Races of Tamriel.  If a race already has Resistance or Weakness to a damage type from their racial keywords, they cancel each other out and neither keyword is used.  Additionally, if a model already has a Keyword then the same keyword gained via a Subrace cannot be gained again.</description>
+    </rule>
+    <rule id="115f-5de9-4155-040e" name="Adversary Shapeshift (X)" publicationId="4d6f-8c48-a5ea-e83c" page="85" hidden="false">
+      <description>[...] &apos;X&apos; is the name of the alternate form Advesart Card. [...] Each time this Adversary activates, roll [SKILL DIE]. On a [CRITICAL FAIL], the model transforms into the alternate form, replacing the model with the alternate version. [...] An Adversary&apos;s Reserves (if any) are transferred between the two forms. If one form has a higher maximum value in any pool than the other when the model Shapeshifts, it must be reduced accordingly so as to not exceed the maximum value.  Repeat this same process for the alternate form when it next activates [see BRB p. 85 for full explanation].</description>
+    </rule>
+    <rule id="1876-7498-6402-603b" name="Dawnguard Armor" publicationId="4d6f-8c48-a5ea-e83c" page="87" hidden="false">
+      <description>This model adds [YELLOW] to its Armor Rating against any damage inflicted by an enemy Vampire.</description>
+    </rule>
+    <rule id="13ac-5d7b-67c9-eb47" name="Dawnguard Weapon" publicationId="4d6f-8c48-a5ea-e83c" page="87" hidden="false">
+      <description>This Attack inflicts an extra [YELLOW] damage against Vampires.</description>
+    </rule>
+    <rule id="3446-8971-459d-60e6" name="Strength in Numbers" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>Bandit Followers add [GREEN] to their Melee Attack rolls when there are more friendly models than enemies within 3&quot;.</description>
+    </rule>
+    <rule id="fd98-d091-a076-05dd" name="Damage Type: Sun" publicationId="fc6a-2d15-ff0e-9318" page="7" hidden="false">
+      <description>The Sun Damage Type is an extension of the Fire Damage Type [see BRB p. 93].  In addition to all the effects [caused] by the Fire Damage Type (such as the Burning Token), attacks of the Sun Damage Type add an additional [RED] against models of the Undead Race or Vampire Subrace.  Additionally, Undead [and] Vampire models cannot equip weapons or spells that have the Sun Damage Type.  If an attack with the Sun Damage Type is [targets] a model that is not Undead or a Vampire, [the targeted model(s)] add [YELLOW] to their Armor Rating when attempting to reduce incoming damage.</description>
+    </rule>
+    <rule id="8792-767e-1e78-bd0f" name="Vampire Perk: Detect Creatures" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+      <description>As a Special Action, this model may spend any number of [available] Stamina points to remove Hidden Tokens from enemy models within 6&quot; and Line of Sight at a cost of 1 Stamina point per Hidden Token removed.</description>
+    </rule>
+    <rule id="1746-e9fc-41db-4247" name="Vampire Perk: Embrace of Shadows" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+      <description>As a Special Action, this model may spend 1 Health point to gain the Invisible keyword until the start of its next activation.</description>
+    </rule>
+    <rule id="9cad-8869-3c03-b530" name="Vampire Perk: Mist Form" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+      <description>As a Special Action, this model may spend 2 Health points to gain the Ethereal keyword until the start of its next activation.</description>
+    </rule>
+    <rule id="2264-2f2b-e122-2305" name="Vampire Perk: Night Cloak" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+      <description>As a Special Action, this model may spend 1 Health points to make enemy models suffer a +2 penalty to Attack tests that target this model. [This effect lasts] until the end of the round.</description>
+    </rule>
+    <rule id="5ebf-9690-1a20-60fb" name="Vampire Perk: Poison Talons" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+      <description>Melee Attack Boost.  This model may spend 1 Stamina point during a Melee Attack with Teeth &amp; Claws to add the Poison (Health) keyword [to the Attack].</description>
+    </rule>
+    <rule id="b31c-1f51-58a2-139b" name="Vampire Perk: Power Bite" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+      <description>Melee Attack Boost.  This model may spend 2 Stamina points during a Melee Attack to add the Bleed and Absorb Health (2) keywords to the Attack.</description>
+    </rule>
+    <rule id="94fd-e062-7e6e-f31c" name="Vampire Perk: Supernatural Reflexes" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+      <description>This model may spend [1 point each of Health, Stamina, and Magicka] at the beginning of its Activation to gain the Extra Attack keyword until the end of its Activation.</description>
+    </rule>
+    <rule id="3856-2cfd-bc03-b674" name="Strength of the Bloodline" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>Clan Volkihar models may [spend] 1 Stamina point to add [GREEN] to any Blood Magic spell they attempt to cast.  Furthermore, if any Blood Magic test scores a [CRITICAL HIT], the model may immediate restore 1 Health, Magick, or Stamina point to itself or a friendly model within 3&quot;, in addition to any other effect[s of the test].</description>
+    </rule>
+    <rule id="a52f-d1f6-840c-142e" name="Volkihar Thralls" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>The only Hirelings available to a Clan Volkihar Party are non-unique Followers with the Neutral Faction.  Once recruited, these models become Volkihar Thralls for the purposes of interacting with other special rules.  They are treated as normal Faction Followers - their faction becomes Clan Volkihar.</description>
+    </rule>
+    <rule id="c7d0-8940-a01f-9dcd" name="Vampire Hunters" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>All Dawnguard models add [GREEN] to their Attacks versus Vampires.  Furthermore, Dawnguard models add [GREEN] to any Morale check they are required to take if there are one or more enemy Vampires in play.</description>
+    </rule>
+    <rule id="7233-5acb-5e43-dd96" name="Dawnguard Recruits" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>Friendly Hirelings in a Dawnguard Party benefit from their own Faction special rule as well as the Vampire Hunters special rule.  In addition, as an execption to the usual rules for Hirelings, they may use the Party Champion&apos;s Wisdom [Attribute] for Morale Checks as if they were from the same Faction.</description>
+    </rule>
+    <rule id="6324-5cb1-39dd-ffa7" name="Immovable" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
+      <description>This model cannot be moved via the Force Damage Type while it has a Block Token.</description>
+    </rule>
+    <rule id="cffe-79d8-5859-8053" name="Aggressive Assault" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
+      <description>When [this model] rolls [CRITICAL HIT] on the Skill Dice when performing a Melee Attack, add an additional [YELLOW] to the standard [BLACK] for rolling a critical.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7447,6 +7606,50 @@ Enchanted</characteristic>
         <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">None</characteristic>
       </characteristics>
     </profile>
+    <profile id="6807-565e-49d8-f432" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <comment>Pending Errata?
+Card missing from Chapter 3 pack. Free download available at https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads.</comment>
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">1</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged/Melee Attack</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">0</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">3&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[YELLOW] Absorb Health (3)</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (2): Add [YELLOW] per point.</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6ae2-10fd-b28e-b366" name="Vampire Lord: Winged Nightmare (Shapeshift)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Shapeshift Form</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Monster (Vampire)</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED][RED]
+[HELMET]: Bleed
+[SWORDS]: Punishing (1)
+Absorb Health (3)
+</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Blood Magic: Magicka Cost 2
+3&quot; [GREEN][YELLOW][YELLOW]
+Absorb Health (3), Enchanted</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [BLACK]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Keywords: Fly, Immunity (Poison), Night Eye, Resistance (Frost), Terrifying, Weakness (Fire)
+Perks: Mist Form, Poison Talons, Supernatural Reflexes</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">7</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">5</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">6</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">5
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">6</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">4</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">3</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="359b-c87f-d2ef-fa4f" name="Perks: Archery" publicationId="4d6f-8c48-a5ea-e83c" page="81" hidden="false">
@@ -7917,7 +8120,7 @@ Enchanted</characteristic>
         <infoLink id="27ec-6c89-82b0-9af4" name="Zombie: Summoned Creature" hidden="false" targetId="3aa1-ffdc-8358-0bf5" type="profile"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="1ce8-87b6-e792-7578" name="Frost Atronach: Summoned Creature" publicationId="9ac9-edd2-53a7-2d58" hidden="false">
+    <infoGroup id="1ce8-87b6-e792-7578" name="Frost Atronach: Summoned Creature" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <infoLinks>
         <infoLink id="3df0-35c9-cb7b-4a8f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
         <infoLink id="4b77-c699-40b4-cff9" name="Daedra" hidden="false" targetId="f263-f92c-54ab-e087" type="infoGroup"/>
@@ -7935,9 +8138,9 @@ Enchanted</characteristic>
         <infoLink id="f031-2d20-2774-2004" name="Daedra" hidden="false" targetId="f263-f92c-54ab-e087" type="infoGroup"/>
         <infoLink id="683a-fe68-8287-d34a" name="Storm Atronach: Summoned Creature" hidden="false" targetId="604c-079f-8138-ccd3" type="profile"/>
         <infoLink id="0094-c3d0-06b2-0654" name="Relentless" hidden="false" targetId="7f50-9282-bb89-a177" type="rule"/>
-        <infoLink id="9578-2823-f4c3-06f5" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
         <infoLink id="2ad6-15ba-748a-11c0" name="Damage Type: Shock" hidden="false" targetId="c757-1849-5b26-4b56" type="rule"/>
         <infoLink id="94d7-a3d6-67fe-8e9e" name="Waterbreathing" hidden="false" targetId="4a69-181e-f97d-5934" type="rule"/>
+        <infoLink id="0c78-d0d0-c038-f60a" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="1800-1462-b149-538f" name="Reanimated Corpse: Summoned Creature" publicationId="2733-0fd1-3311-3be2" hidden="false">
@@ -7947,7 +8150,7 @@ Enchanted</characteristic>
         <infoLink id="37b0-b185-baaf-8913" name="Reanimated Corpse: Summoned Creature" hidden="false" targetId="e1d9-5602-e13d-f45f" type="profile"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="8ffc-ec6f-d4f4-f964" name="Flame Atronach: Summoned Creature" publicationId="9ac9-edd2-53a7-2d58" hidden="false">
+    <infoGroup id="8ffc-ec6f-d4f4-f964" name="Flame Atronach: Summoned Creature" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <infoLinks>
         <infoLink id="d88d-1d30-813e-c8b9" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
         <infoLink id="1b18-8040-762f-3b7f" name="Daedra" hidden="false" targetId="f263-f92c-54ab-e087" type="infoGroup"/>
@@ -7958,12 +8161,47 @@ Enchanted</characteristic>
         <infoLink id="0e81-2a53-8ae9-9214" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="219e-c885-6f59-be85" name="Reanimated Corpse: Summoned Creature (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+    <infoGroup id="219e-c885-6f59-be85" name="Reanimated Corpse: Summoned Creature (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <infoLinks>
         <infoLink id="b49c-fb65-917b-0367" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
         <infoLink id="b331-92c3-5a77-b390" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
         <infoLink id="4a66-1b0f-6298-df6a" name="Reanimated Corpse: Summoned Creature (Adversary)" hidden="false" targetId="14c5-856f-b423-28e8" type="profile"/>
         <infoLink id="d72a-0cbb-0958-4fe9" name="Feeble" hidden="false" targetId="eab8-73f5-feed-5924" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="38ae-4f26-9328-defe" name="Subrace: Vampire" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+      <rules>
+        <rule id="acfd-d9f8-8c8c-843a" name="Racial Bonus Keywords: Vampire" publicationId="4d6f-8c48-a5ea-e83c" page="88" hidden="false">
+          <description>Immunity (Poison), Night Eye, Resistance (Frost), Weakness (Fire)</description>
+        </rule>
+        <rule id="5854-e0a3-effe-f011" name="Vampire Abilities" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+          <description>Vampires add +1 to their Strength and Edurance Attributes while the Darkness rules are in effect.  Vampires have access to [...] the Blood Magic Skill.  Consumables that restore Health do not work on Vampires unless their rules specify otherwise.</description>
+        </rule>
+        <rule id="eb62-9cb7-7bb4-3013" name="Blood Magic Skill" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
+          <description>Exclusive to the Vampire Subrace. Blood Magic Skill Tests are tested against the Intelligence Attribute.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fd03-d69e-babc-b598" name="Subraces" hidden="false" targetId="21a9-2a71-b558-5118" type="rule"/>
+        <infoLink id="f1ed-af55-44e5-06ec" name="Immunity (Type)" hidden="false" targetId="7c88-fc5e-9fde-1261" type="rule"/>
+        <infoLink id="4aff-b513-2f8a-7337" name="Teeth &amp; Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
+        <infoLink id="d454-309e-bca7-2e09" name="Night Eye" hidden="false" targetId="1b73-830e-6076-fc5c" type="rule"/>
+        <infoLink id="720e-488b-d855-db9b" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
+        <infoLink id="c03b-0c66-ed0b-49e7" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="de7a-88f8-b261-5b3a" name="Vampire Lord: Winged Nightmare (Shapeshift)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <infoLinks>
+        <infoLink id="7618-bf36-1d0c-c4a2" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="56eb-5d6b-c0dc-a5ac" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="afbf-71cd-a6c7-6115" name="Vampire Lord: Winged Nightmare (Shapeshift)" hidden="false" targetId="6ae2-10fd-b28e-b366" type="profile"/>
+        <infoLink id="a6c9-ca31-74df-9302" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="0435-6781-8e8e-226b" name="Absorb (Reserve) (X)" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="95f2-727a-ee79-3740" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="12e4-bec0-da53-22d8" name="Fly" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
+        <infoLink id="ab3e-cdee-7de4-76a5" name="Vampire Perk: Mist Form" hidden="false" targetId="9cad-8869-3c03-b530" type="rule"/>
+        <infoLink id="00a9-dc9d-331c-90e5" name="Vampire Perk: Poison Talons" hidden="false" targetId="5ebf-9690-1a20-60fb" type="rule"/>
+        <infoLink id="f880-bda3-f547-bcc6" name="Vampire Perk: Supernatural Reflexes" hidden="false" targetId="94fd-e062-7e6e-f31c" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>

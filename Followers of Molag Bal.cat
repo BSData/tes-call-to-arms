@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="7750-c5b0-be85-2679" name="Followers of Molag Bal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="b70d-fbd4-c46f-81b8" name="Mannimarco, King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+    <categoryEntry id="b70d-fbd4-c46f-81b8" name="Mannimarco: King of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b801-4a2d-f211-c486" type="max"/>
       </constraints>
@@ -38,13 +38,13 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="f137-7662-8645-5c16" name="Mannimarco: King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled DONE</comment>
+    <selectionEntry id="f137-7662-8645-5c16" name="Mannimarco: King of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment></comment>
       <rules>
-        <rule id="0bdf-3d39-94ad-d3b2" name="Master of Undeath" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+        <rule id="0bdf-3d39-94ad-d3b2" name="Master of Undeath" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Mannimarco may have up to five Summoned Undead Creatures in play at the same time. Whenever one of Mannimarco’s summoned Undead Creatures is removed from play, restore 1 Magicka.</description>
         </rule>
-        <rule id="ef77-952d-3a6e-b211" name="Staff Of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+        <rule id="ef77-952d-3a6e-b211" name="Staff Of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Mannimarco always starts the game with the Staff Of Worms (the cost is included in his profile).</description>
         </rule>
       </rules>
@@ -60,12 +60,12 @@
         <infoLink id="421e-9a90-2277-852d" name="The Staff of Worms" hidden="false" targetId="6e66-8ab9-e744-e605" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="8506-de9d-9cc3-a5a3" name="Include Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8506-de9d-9cc3-a5a3" name="Include Leveled Profile" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bda-3718-ac0c-22f2" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="51fa-10a6-2c31-5d33" name="Mannimarco: King of Worms (Leveled)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" targetId="6168-ab88-4b5c-f1df" type="profile"/>
+            <infoLink id="51fa-10a6-2c31-5d33" name="Mannimarco: King of Worms (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="6168-ab88-4b5c-f1df" type="profile"/>
             <infoLink id="d302-5083-779e-a214" name="Perk: Force Siphon" hidden="false" targetId="4359-9375-5bec-94d9" type="rule"/>
           </infoLinks>
           <costs>
@@ -85,17 +85,10 @@
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="92.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="26d0-b83d-825c-e8d3" name="Mannimarco: King of Worms (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled DONE</comment>
+    <selectionEntry id="26d0-b83d-825c-e8d3" name="Mannimarco: King of Worms (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment></comment>
       <rules>
-        <rule id="721d-9ebb-1e3a-7426" name="Master Necromancer" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-          <description>Undead Adversaries restore 1 Health point if they activate within 6” of Mannimarco.
-</description>
-        </rule>
-        <rule id="92c1-c880-7381-c2ae" name="King Of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
-          <description>Unless he has an Activated token, Mannimarco automatically activates in each Event phase, even if his Adversary Token was not drawn. Resolve Mannimarco’s activation before other Adversaries activate.</description>
-        </rule>
-        <rule id="7a96-04f9-34f1-9570" name="Staff Of Worms (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+        <rule id="7a96-04f9-34f1-9570" name="Staff Of Worms (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When Mannimarco activates, if he is unengaged and there are fewer than 5 Reanimated Corpse Adversaries in play, Spawn a Reanimated Corpse Adversary in contact with him.</description>
         </rule>
       </rules>
@@ -117,14 +110,14 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="4103-df5f-d59f-e58e" name="Mannimarco: King of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+    <profile id="4103-df5f-d59f-e58e" name="Mannimarco: King of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Altmer</characteristic>
         <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
         <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Dark Souls, Necromage, Necromancy</characteristic>
         <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
-        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">King of Worms, Master Necromancer, Master of Undeath, Staff of Worms</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Master of Undeath, Staff of Worms</characteristic>
         <characteristic name="Strength" typeId="7863-9734-b481-1521">3
 One-Handed</characteristic>
         <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
@@ -146,7 +139,7 @@ Speech</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="6e66-8ab9-e744-e605" name="The Staff of Worms" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="ad04-5a38-26ef-722a" typeName="Item">
+    <profile id="6e66-8ab9-e744-e605" name="The Staff of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="ad04-5a38-26ef-722a" typeName="Item">
       <characteristics>
         <characteristic name="Effect" typeId="9021-607d-69ee-e981">Summoning. Place a Reanimated Corpse at the target point, and assign an Upkeep Token to it. Reanimated Corpses within 3” of this model when they activate require no Upkeep. MANNIMARCO ONLY.</characteristic>
         <characteristic name="Skill" typeId="6687-619a-2e22-b1f1">Conjuration</characteristic>
@@ -155,14 +148,14 @@ Speech</characteristic>
         <characteristic name="Restrictions" typeId="f185-88fe-e033-7661"/>
       </characteristics>
     </profile>
-    <profile id="6168-ab88-4b5c-f1df" name="Mannimarco: King of Worms (Leveled)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+    <profile id="6168-ab88-4b5c-f1df" name="Mannimarco: King of Worms (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
         <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
         <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Dark Souls, Force Siphon, Necromage, Necromancy</characteristic>
         <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
-        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">King of Worms, Master Necromancer, Master of Undeath, Staff of Worms</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Master of Undeath, Staff of Worms</characteristic>
         <characteristic name="Strength" typeId="7863-9734-b481-1521">3
 One-Handed</characteristic>
         <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
@@ -184,7 +177,7 @@ Speech</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="2b59-c0ff-fc3f-c447" name="Mannimarco: King of Worms (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+    <profile id="2b59-c0ff-fc3f-c447" name="Mannimarco: King of Worms (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
       <characteristics>
         <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
         <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Altmer</characteristic>
@@ -201,7 +194,7 @@ Absorb Health (1)</characteristic>
         <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor: [RED] (1)</characteristic>
         <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Ward(Restoration): [RED]
 Resistance (Magic)</characteristic>
-        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Regenerate Magicka, King Of Worms</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Regenerate Magicka</characteristic>
         <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3
 One-Handed</characteristic>
         <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>

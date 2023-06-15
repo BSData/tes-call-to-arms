@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="b3d3-9d9d-be15-9a99" name="Daggerfall Covenant" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="9048-1b28-6695-27e0" name="The Breton: Covenant Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+    <categoryEntry id="9048-1b28-6695-27e0" name="The Breton: Covenant Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc5-1ef9-065f-a1e5" type="max"/>
       </constraints>
@@ -37,12 +37,12 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="def9-cb7a-994e-2f5b" name="The Breton: Covenant Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="def9-cb7a-994e-2f5b" name="The Breton: Covenant Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="68b2-0ae4-95f7-8ce7" name="Acrobatic" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+        <rule id="68b2-0ae4-95f7-8ce7" name="Acrobatic" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>The Breton may Climb up to double his own Height (but otherwise follows the normal Climbing rules), and never suffers Falling Damage.</description>
         </rule>
-        <rule id="63c9-cf92-136f-6cdc" name="Hidden Blade" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+        <rule id="63c9-cf92-136f-6cdc" name="Hidden Blade" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>The Breton may perform a Shoot Action with any Throwing Knives in his Inventory, without the need to equip them first.</description>
         </rule>
       </rules>
@@ -54,14 +54,14 @@
         <infoLink id="1637-725e-2ca5-278b" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="ebb4-444e-acbc-d927" name="Show Leveled Profile" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ebb4-444e-acbc-d927" name="Show Leveled Profile" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f54-092a-05be-206e" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="b35a-2e06-22dc-45a8" name="The Breton: Covenant Champion (Leveled)" hidden="false" targetId="3bff-289e-7d4b-62fe" type="profile"/>
-            <infoLink id="97a9-adcc-114d-cdd6" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
             <infoLink id="20e0-48f8-27fa-6db1" name="Perk: Twin Slashes" hidden="false" targetId="947e-a191-297f-95e5" type="rule"/>
+            <infoLink id="d0d6-4b86-af28-e8ce" name="Perk: Hasty Retreat" hidden="false" targetId="e7a2-df68-fe8b-bd85" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -69,20 +69,30 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9698-4744-42e4-f2b9" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1d1-fb3d-620b-fae3" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="8e24-2054-680a-b04d" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="87c1-f006-f06a-782f" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c6ee-751e-e8e5-492a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de3-4c33-8d56-e01f" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="5746-d8d2-8aa5-8435" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5dd5-3806-c41b-dcb5" name="The Breton: Covenant Champion (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5dd5-3806-c41b-dcb5" name="The Breton: Covenant Champion (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="b5a6-d087-323f-af8a" name="Catfall" publicationId="aad1-da3a-8e80-9b6b" hidden="false">
+        <rule id="b5a6-d087-323f-af8a" name="Catfall" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>This model never takes Falling Damage.</description>
         </rule>
       </rules>
@@ -97,7 +107,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="7e11-2676-505f-fc34" name="The Breton: Covenant Champion" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+    <profile id="7e11-2676-505f-fc34" name="The Breton: Covenant Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton</characteristic>
@@ -124,7 +134,7 @@ Light Armor</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
       </characteristics>
     </profile>
-    <profile id="3bff-289e-7d4b-62fe" name="The Breton: Covenant Champion (Leveled)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+    <profile id="3bff-289e-7d4b-62fe" name="The Breton: Covenant Champion (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
@@ -151,7 +161,7 @@ Light Armor</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="34ed-ff07-67c3-78e2" name="The Breton: Covenant Champion (Adversary)" publicationId="aad1-da3a-8e80-9b6b" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+    <profile id="34ed-ff07-67c3-78e2" name="The Breton: Covenant Champion (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
       <characteristics>
         <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
         <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Breton</characteristic>

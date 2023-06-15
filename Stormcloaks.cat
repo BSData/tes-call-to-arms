@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="245b-f545-323f-330b" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <comment>Leveled: Done</comment>
@@ -213,6 +213,119 @@
         <categoryLink id="4d68-4ee5-3b77-1245" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="aba0-70fd-7089-5a00" name="The Dragonborn: Champion of Skyrim" hidden="false" collective="false" import="true" targetId="2038-fbad-32c1-0729" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2e06-ca40-9dbb-0e86" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="e140-5945-bb98-c0d2" name="New CategoryLink" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="1b42-d80c-5365-7be4" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="cd69-294c-7018-4ba1" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="cca6-ab9b-826c-e2f6" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="bd58-cc10-9ac1-c2dc" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="50b7-6f22-cf2a-5432" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="47da-9cc8-fe18-402d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="865f-4d76-a409-801c" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="4961-5c12-b376-34af" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="503e-1e4e-0537-8ffc" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="b8bd-5cb1-3c33-9b59" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="60e2-bea0-bc3e-a44f" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="8340-e8f6-714c-c93c" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="c02e-b763-a474-c08f" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="fc37-166c-7efe-3b33" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="1b98-0d5d-5459-7e3f" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="30fc-b952-8129-372b" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="cc0a-14ba-fb64-7b50" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="57f4-e435-d2fa-5de7" name="Stormcloak Quartermaster: Master Provisioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" targetId="691f-648b-af0e-0158" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="b1ee-8543-1287-8463" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="df63-0302-84b3-1be2" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="a476-f218-9919-f538" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="51a3-947f-469b-76a0" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="d523-d839-e5b6-91a3" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="dc51-bf08-b2bf-1b5b" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="0f22-1721-afd8-3972" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="3195-5856-b7f8-9202" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="49b1-54d4-aa1c-3539" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink id="6792-d22e-d297-90f1" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0c61-b5ef-07ee-fd6c" name="Nura Snow-Shod: Priestess Of Talos" hidden="false" collective="false" import="true" targetId="c6d5-9c4c-9e32-ceb5" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="e2ac-7409-b1e5-1e06" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="6dbe-53da-44eb-0151" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="d5fb-b015-3d6c-5684" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="3969-eaaf-9f90-d33f" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="8e47-d129-1a4d-2fc0" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="b856-cb84-e7f7-80ca" name="Nura Snow-Shod: Priestess Of Talos" hidden="false" targetId="28af-5165-988e-2716" primary="false"/>
+        <categoryLink id="8d5d-83e8-1fd8-1795" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="b37d-6be6-4f63-1933" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="ecc5-317e-b0f0-9930" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink id="fe46-20a5-9a04-7f27" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="98cc-ff4c-81d0-f084" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9de6-f8ee-9aa5-777f" name="Heimskr: Priest Of Talos" hidden="false" collective="false" import="true" targetId="c6be-6be8-c7d4-a098" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="9ffe-1d13-8c09-0a28" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="5761-20b1-a03e-48d9" name="Heimskr: Priest Of Talos" hidden="false" targetId="5237-2165-4772-5555" primary="false"/>
+        <categoryLink id="f35a-f6c8-3c40-6e96" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="1d49-4f9d-de65-281f" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="570d-a174-1a54-c3ec" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="2d85-702b-2313-5e4c" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="ce81-a4b9-c9fb-05b5" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="ae97-d87a-5d3a-8bfb" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="81f9-14ee-46fc-4e59" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="4349-250b-912b-af9b" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="f725-cbe3-ad91-1235" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4f5f-c3f1-751e-ae24" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -330,6 +443,7 @@
         <entryLink id="1db7-56f2-989a-94bb" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d45-ee03-1390-82ed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd3-19b1-e9fc-8926" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1253,4 +1367,7 @@ Light Armor</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="8e9d-08a6-1b74-adfd" name="Adventurers" targetId="bed2-2069-45b8-9df1" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
 </catalogue>

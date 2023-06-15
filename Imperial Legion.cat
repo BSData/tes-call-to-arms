@@ -190,6 +190,122 @@
         <categoryLink id="2b31-503a-2227-0355" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="6ae1-2d95-fea7-670f" name="The Dragonborn: Champion of Skyrim" hidden="false" collective="false" import="true" targetId="2038-fbad-32c1-0729" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a814-43ff-4455-91ed" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="2202-6a9a-fede-49fc" name="New CategoryLink" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="3236-682d-8694-f62f" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="bf7b-289b-5ab2-a9e3" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="c693-b568-b87a-c5a1" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="331d-902b-a4a2-7f73" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="4441-16e9-0be7-68fc" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="a316-5f37-2001-773a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="2afb-8166-ef0a-c79d" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="f505-f790-9e68-40bb" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="7b28-f6c2-3cca-ddff" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="0c41-617b-e99a-9df2" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="73db-a44b-1119-963f" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="bdad-ddd9-bc32-0f8e" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="a9b3-ad1b-cf3d-f215" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="788d-d1a6-7cab-7284" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="a4c3-048c-ed33-520c" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="4b38-8ac7-07a8-23bc" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="0eec-96dc-84c2-a9d0" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="39af-9c79-d791-46f0" name="Sulla Trebatius: Rogue Spellsword" hidden="false" collective="false" import="true" targetId="4c95-92ab-1b31-8e1f" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="7f5c-e062-7fd8-bdd5" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="d353-57d4-c0e0-9e1b" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="1b0b-fdf2-734a-1ac3" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="945d-3331-4bb1-f6ed" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="9575-335c-e017-535d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="e6ca-c965-6c82-943b" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="97e3-df23-a0b7-35ca" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="85d7-7827-ff23-215d" name="Sulla Trebatius: Rogue Spellsword" hidden="false" targetId="2564-e09e-8058-ab5b" primary="false"/>
+        <categoryLink id="3906-d4c8-bd33-1588" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="9e4c-8b13-f044-addd" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="f9b9-2156-bdec-fb5c" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="be3e-45eb-6bb9-2437" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" collective="false" import="true" targetId="e041-76bc-db25-6ec1" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="d1df-3346-b476-73e1" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="6b7b-7176-9a28-60e7" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="e682-79b2-04cb-28a8" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="e0a9-6a93-250d-391b" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" targetId="3214-03da-4960-6e90" primary="false"/>
+        <categoryLink id="6fd3-3c87-24e1-da5a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="780c-c7ae-b5eb-29a5" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="56b3-5289-74b3-05a9" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="1bbf-ff75-9c99-e6a0" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="4da0-00e5-5092-7f1a" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="4311-caf7-653a-e045" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="779e-b34f-52ab-2e8e" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="967e-681c-c571-75c7" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="f37b-12be-46df-1eca" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="a5ae-b4a2-1337-f025" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="c38e-931b-70f6-67fa" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="83f3-8a4a-5f0a-818e" name="Priestess Of Arkay: Devout Healer" hidden="false" collective="false" import="true" targetId="d7f9-cad2-1ae1-8c02" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="7c51-82e9-997b-dc59" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="214c-40d7-c41f-98f0" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="aa65-b024-480a-d203" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="6ce9-0359-6f5d-6393" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="2fff-7c1c-3bd4-e1ad" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="b64f-7e64-f8fd-ddad" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="3b3b-e038-8435-ae61" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="70b1-aa31-0026-b30a" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="9c43-7907-634e-f367" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="27f0-4897-0ad4-febf" name="Imperial Mage: Spellsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -1148,4 +1264,7 @@ Light Armor</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="5563-a2cd-4201-fcc9" name="Adventurers" targetId="bed2-2069-45b8-9df1" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
 </catalogue>

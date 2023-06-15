@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3360-3f9c-126b-cb55" name="Thieves&apos; Guild (Placeholder)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="df36-4de8-934f-1ea1" name="Dunmer Thief: Ratway Regular" hidden="true" collective="false" import="true" targetId="c3ed-8feb-2819-1faf" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ead-7f3e-4bda-5072" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="bfd2-29f2-3ddc-d250" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="6d8e-c464-db18-8c8a" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="a931-a637-d8b6-b0ea" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="8ee6-0a1b-3595-5843" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="d860-e59a-5ca5-b02c" name="Thieves&apos; Guild" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
+        <categoryLink id="fbd0-ba58-fc17-a129" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="e133-dd0b-82bd-eb17" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="a91e-3112-0d1b-72ab" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
+        <categoryLink id="695a-2d78-e20e-3adb" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="5768-bca0-8124-466e" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="0ede-711f-1bcf-b0ce" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="247b-0acd-dc52-c5dc" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="d231-773c-bb40-5132" name="Neutrals" targetId="67ad-b57c-1fac-cf39" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>

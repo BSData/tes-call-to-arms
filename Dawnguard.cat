@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="58b7-2ec8-0e9d-b743" name="Dawnguard" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="6bec-164e-1258-c553" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6090-72d9-b73f-325b" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="651a-235e-19cc-ce06" name="Sorine Jurard: Dwemer Expert" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b4d-46de-d7e1-38d8" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="54a9-0a48-5a02-72c2" name="Durak: Dawnguard Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20d8-d8de-37c6-3706" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7f81-d3ca-f192-f255" name="Gunmar: Master Blacksmith" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c177-3a0f-8466-6c6d" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7c8f-0b59-d89d-cba1" name="Beleval: Vampire Hunter" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bc8b-bf2c-0b01-5fcf" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="11f6-da75-08a3-82d6" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="20df-881d-0dc6-3c36" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="20df-6519-0669-577b" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="a550-1b4b-7f01-c4d8" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="6032-8c37-dc7e-b177" name="Isran: Commander of the Dawnguard" hidden="false" targetId="6bec-164e-1258-c553" primary="false"/>
+        <categoryLink id="ff28-1c9d-526a-be6d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="6fbd-0cff-964e-a9b2" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="bebd-e4ba-c19a-7d0e" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="d5cc-28c7-3cc4-b428" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="e0d7-454e-038f-bb74" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="307d-3189-2104-901e" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="7fed-4dbd-e1e0-f15b" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="e0b8-4788-d574-7366" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="8f5d-f1f7-6265-f6bc" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="449a-387f-058d-089b" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
+        <categoryLink id="7be7-eeee-88e3-a70c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="b325-c883-d5be-d0dc" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="04aa-45df-e4a0-5b04" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="50fa-849e-2cd0-103e" name="Sorine Jurard: Dwemer Expert" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="290d-af99-e2f9-1b79" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="e860-e511-98fd-66fa" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="23f0-0a13-6b5c-eeab" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="f74e-9035-9297-1a23" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="4b10-42b6-76d8-4eae" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="14af-e57c-ba21-f2d5" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="8964-1d0c-7856-7e55" name="Sorine Jurard: Dwemer Expert" hidden="false" targetId="651a-235e-19cc-ce06" primary="false"/>
+        <categoryLink id="e039-a31a-f685-6582" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="ff74-9006-c250-ca74" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="20c1-c330-8604-0da4" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="b4d8-f96d-d3c3-095c" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b84f-dd24-9d31-7d8f" name="Durak: Dawnguard Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="6c47-ca46-75b3-5cfa" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="78eb-5a0f-999e-15b6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="6f0f-9788-2a6e-5946" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="89e9-1bb4-8e4f-7fe3" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="5490-e29e-a92d-8887" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="9a89-9467-2d3d-8b68" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="2f41-7f0b-81b5-4fe4" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="e2e1-5188-b03b-57c4" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="bdbd-0cfd-d70b-f646" name="Durak: Dawnguard Ranger" hidden="false" targetId="54a9-0a48-5a02-72c2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="255d-f37b-ee47-8796" name="Gunmar: Master Blacksmith" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8baa-0a8b-79c1-9c2f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="7612-8959-5a49-bb9b" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="9c2f-5504-74c3-3e47" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="9b52-7da8-79fc-4f98" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="038f-7d14-91b8-8931" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="db13-f93c-5a7d-d84b" name="Gunmar: Master Blacksmith" hidden="false" targetId="7f81-d3ca-f192-f255" primary="false"/>
+        <categoryLink id="63d0-e1bf-cede-bd3a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="b466-b73b-b723-8fe8" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink id="1649-fc00-8344-df76" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="d79c-9473-77ea-3123" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4f9f-0992-2023-91f5" name="Beleval: Vampire Hunter" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="dada-b2f0-5e0f-6ea5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="9732-3b67-2f9b-4bf6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="2082-b16b-8552-9906" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="5bc3-8676-aecd-25bf" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="7cd2-5af0-ac26-346c" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="2ee1-b4f1-a4b1-a0a2" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="1fa5-8fb9-a3a4-41d4" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="f514-428c-e968-0ecb" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="6378-2376-cbbd-8f52" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="6e73-6b27-7d69-1035" name="Beleval: Vampire Hunter" hidden="false" targetId="7c8f-0b59-d89d-cba1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="04dc-c0ad-1ae8-ddf0" name="The Dragonborn: Champion of the Dawnguard" hidden="false" collective="false" import="true" targetId="3213-e5af-02e0-727a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8f9d-07f7-3b95-62ee" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="e4b9-3de9-3f55-686e" name="New CategoryLink" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="e5b0-edc1-fc46-33d1" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="3e81-27a3-0dcd-ae45" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="c2b0-d953-3738-062e" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="d691-0e72-fc0e-7c33" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="1958-2170-4afd-8def" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="2fcc-71b5-8336-f677" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="0045-3b91-be16-17d0" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="67e2-3ba7-a3bb-b1e0" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="c41b-a5e5-a00e-99b5" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="03f3-f7da-b9a9-d97a" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="0eb6-6418-b47c-0c50" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="7c35-17c4-623b-5bc5" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="018c-c979-d1ac-950b" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="ce5b-b923-6f3c-d48e" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
+        <categoryLink id="eed5-2f7b-8c09-258d" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="20df-881d-0dc6-3c36" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="7a3c-6a3f-80c7-b0c6" name="Uncompromising Commander" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>Friendly Dawnguard Faction models gain the Bodyguard (Isran) keyword while within 3&quot; of Isran.  In addition, when Isran performs a Melee Attack [targeting] a Vampire, and there are any Civilians within 3&quot;, add [RED] to the Attack.  When the Attack is complere, roll the Skill Die - on a [CRITICAL FAIL], remove the nearest [Civilian] NPC Token as a casualty and lose 1VP.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="788f-db52-c577-4754" name="Isran: Commander of the Dawnguard" hidden="false" targetId="d339-e843-3db2-1706" type="profile"/>
+        <infoLink id="5430-7127-7caa-cbc8" name="Perk: Champion&apos;s Stance" hidden="false" targetId="6f94-83fa-5b4c-9114" type="rule"/>
+        <infoLink id="cdd8-634d-4618-196d" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="3bd2-0d98-565c-6249" name="Redguard" hidden="false" targetId="c7c8-72cb-039b-ec59" type="infoGroup"/>
+        <infoLink id="7615-71d3-8c04-35b4" name="Perk: Skullcrusher" hidden="false" targetId="6368-6e76-c532-efa1" type="rule"/>
+        <infoLink id="7eca-ee41-2c81-1ca3" name="Perk: Custom Fit" hidden="false" targetId="60eb-baf5-15f2-58ed" type="rule"/>
+        <infoLink id="652c-8ed4-ca87-5405" name="Perk: Well Fitted" hidden="false" targetId="1cd1-dafa-32a1-0e91" type="rule"/>
+        <infoLink id="d584-607e-9862-11f1" name="Born Leader" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="b3b2-596f-6613-7b5a" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d7e-e00c-a725-49f5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d13c-48be-532f-3841" name="Isran: Commander of the Dawnguard (Leveled)" hidden="false" targetId="9d8e-6bc8-8d8f-6dd4" type="profile"/>
+            <infoLink id="311d-a0e1-d4e8-06db" name="Perk: Fighting Stance" hidden="false" targetId="e23a-87f7-19e1-ad12" type="rule"/>
+            <infoLink id="4b64-4ed1-06f9-d077" name="Extra Damage" hidden="false" targetId="ce60-8109-69c9-3908" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f5d9-7b28-1061-12a2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="0678-4b48-c507-6d8e" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b238-7fbb-3a6d-3c0e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44d1-f4f0-0e79-05f1" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0521-810d-42d2-1db3" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="78.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="290d-af99-e2f9-1b79" name="Sorine Jurard: Dwemer Expert" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="1e17-7185-20eb-60ec" name="Dwemer Schematics" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>Friendly Dawnguard Faction models gain the Bodyguard (Isran) keyword while within 3&quot; of Isran.  In addition, when Isran performs a Melee Attack [targeting] a Vampire, and there are any Civilians within 3&quot;, add [RED] to the Attack.  When the Attack is complere, roll the Skill Die - on a [CRITICAL FAIL], remove the nearest [Civilian] NPC Token as a casualty and lose 1VP.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6382-29f9-4bf7-e56c" name="Sorine Jurard: Dwemer Expert" hidden="false" targetId="a158-793a-3e99-e4cb" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="91f2-0b5b-e74b-dfce" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="6b58-dd4b-1589-3d86" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+        <infoLink id="334a-b71a-8bb1-55f7" name="Perk: Bullseye" hidden="false" targetId="2957-6293-34c9-c462" type="rule"/>
+        <infoLink id="058a-eddb-b013-eb61" name="Perk: Merchant" hidden="false" targetId="a50d-245c-bebc-6404" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="3a87-9548-f4a4-033a" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="456f-d8d3-d4ec-abd8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0a10-11e5-13f0-f086" name="Sorine Jurard: Dwemer Expert (Leveled)" hidden="false" targetId="0b70-60b0-f9ef-4e49" type="profile"/>
+            <infoLink id="3e14-9fc7-a047-7ba2" name="Perk: Hack and Slash" hidden="false" targetId="2cf3-a74a-631e-7547" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6190-4730-dbf5-4845" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="22c7-ba92-4a98-652a" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19fe-d488-0e02-1988" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="129b-7b95-1f1f-f990" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c47-ca46-75b3-5cfa" name="Durak: Dawnguard Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="d7b3-3be2-d42b-3851" name="Durak: Dawnguard Ranger" hidden="false" targetId="9ae8-d179-5630-b82a" type="profile"/>
+        <infoLink id="3107-ec0a-068d-79c3" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="6dee-eec5-493b-6dbc" name="Orsimer" hidden="false" targetId="24d3-bf90-3495-ab2b" type="infoGroup"/>
+        <infoLink id="9f42-3a3c-0208-eea4" name="Perk: Critical Shot" hidden="false" targetId="224f-1058-8d02-76d4" type="rule"/>
+        <infoLink id="1925-6d1b-5312-f4be" name="Perk: Fighting Stance" hidden="false" targetId="e23a-87f7-19e1-ad12" type="rule"/>
+        <infoLink id="5d41-536b-f50b-e404" name="Perk: Hack and Slash" hidden="false" targetId="2cf3-a74a-631e-7547" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="1f0e-07b2-5e74-5bd8" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66ad-22b8-df55-d6f3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4b76-fdad-4a55-e7c6" name="Durak: Dawnguard Ranger (Leveled)" hidden="false" targetId="232e-f8d1-db5e-849e" type="profile"/>
+            <infoLink id="0cea-c59a-dafb-f11b" name="Perk: Custom Fit" hidden="false" targetId="60eb-baf5-15f2-58ed" type="rule"/>
+            <infoLink id="2bfc-ea0f-11db-efb6" name="Perk: Ranger" hidden="false" targetId="ff82-0769-0a4a-7153" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5976-a921-0541-7513" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="e0ca-c056-1d1c-6dc0" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd4-5259-890f-fcec" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="bf6a-6ff9-13c4-a24e" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8baa-0a8b-79c1-9c2f" name="Gunmar: Master Blacksmith" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <rules>
+        <rule id="2aca-8d45-ffdf-065f" name="Tamer of Trolls" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When Gunmar is in the Party, you may include one extra Armored Troll (in addition to the usual Familiar maximum).  Furthermore, whenever Gunmar issues a With Me! Command to a friendly Armored Troll, the Troll adds [YELLOW] to its Attacks for the rest of the round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6011-b1e3-2f0a-548e" name="Gunmar: Master Blacksmith" hidden="false" targetId="2f47-0382-0f3b-752c" type="profile"/>
+        <infoLink id="ce45-ac4a-f0e7-5aa8" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="3cc1-e8a0-098f-b7e5" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="2d97-190c-de84-d739" name="Perk: Smithing (Type)" hidden="false" targetId="433e-9827-e87e-fa56" type="rule"/>
+        <infoLink id="1334-a2ea-827d-238d" name="Perk: Arcane Blacksmith" hidden="false" targetId="62b5-4fa1-a986-a89e" type="rule"/>
+        <infoLink id="2c92-fa1d-f212-2460" name="Perk: Merchant" hidden="false" targetId="a50d-245c-bebc-6404" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="d499-16d3-7264-4a06" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7498-b148-110d-0a74" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fdc2-e559-d8a6-12f4" name="Gunmar: Master Blacksmith (Leveled)" hidden="false" targetId="b32e-31aa-5380-2640" type="profile"/>
+            <infoLink id="7cdc-5fd5-6eea-fedd" name="Extra Damage" hidden="false" targetId="ce60-8109-69c9-3908" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="99e3-5252-3701-4cac" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="9f76-f303-4ff4-0627" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fe7-f91c-bcac-b56f" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="994c-09f2-6ac6-eaed" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dada-b2f0-5e0f-6ea5" name="Beleval: Vampire Hunter" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <comment>Unleveled: done</comment>
+      <infoLinks>
+        <infoLink id="b62a-085c-ff59-4164" name="Beleval: Vampire Hunter" hidden="false" targetId="e911-4d78-113e-70b7" type="profile"/>
+        <infoLink id="40a9-3b79-8fdd-6c3e" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="15b0-6b5b-9c51-871d" name="Bosmer" hidden="false" targetId="eaff-569a-c577-973d" type="infoGroup"/>
+        <infoLink id="dd9e-3d4a-5f06-aac1" name="Perk: Agile Defender" hidden="false" targetId="c175-8d5e-9e3f-3736" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="549f-6a8a-1cbb-f7f4" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="174d-ce85-dcbe-ff1f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7134-7918-3dc5-b71f" name="Beleval: Vampire Hunter (Leveled)" hidden="false" targetId="7207-d902-b036-a863" type="profile"/>
+            <infoLink id="3238-cbf4-1443-029a" name="Perk: Steady Hand" hidden="false" targetId="f51b-1bcb-b1c1-7a57" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="250f-284a-6183-edb2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="1f82-0987-3a77-246a" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a4d-2843-530a-a696" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="3afe-d482-536e-b002" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="d339-e843-3db2-1706" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Redguard</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Champion&apos;s Stance, Custom Fit, Skullcrusher, Well-Fitted</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush, Born Leader</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Uncompromising Commander</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery
+Sneak
+Pickpocket</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dawnguard</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d8e-6bc8-8d8f-6dd4" name="Isran: Commander of the Dawnguard (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Champion&apos;s Stance, Custom Fit, Fighting Stance, Skullcrusher, Well-Fitted</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush, Born Leader, Extra Damage</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Uncompromising Commander</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery
+Sneak
+Pickpocket</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">6
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a158-793a-3e99-e4cb" name="Sorine Jurard: Dwemer Expert" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bullseye, Merchant</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Dwemer Schematics</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">2</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dawnguard</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0b70-60b0-f9ef-4e49" name="Sorine Jurard: Dwemer Expert (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bullseye, Hack and Slash, Merchant</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Dwemer Schematics</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dawnguard</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9ae8-d179-5630-b82a" name="Durak: Dawnguard Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Orsimer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Critical Shot, Fighting Stance, Hack and Slash</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Berserker Rage</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dawnguard</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="232e-f8d1-db5e-849e" name="Durak: Dawnguard Ranger (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Critical Shot, Custom Fit, Fighting Stance, Hack and Slash, Ranger</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Berserker Rage</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f47-0382-0f3b-752c" name="Gunmar: Master Blacksmith" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Arcane Blacksmith, Merchant, Smithing (Dawnguard)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Tamer of Trolls</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">2
+Pickpocket</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dawnguard</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b32e-31aa-5380-2640" name="Gunmar: Master Blacksmith (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Arcane Blacksmith, Merchant, Smithing (Dawnguard)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Extra Damage, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Tamer of Trolls</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Pickpocket</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e911-4d78-113e-70b7" name="Beleval: Vampire Hunter" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Bosmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Agile Defender</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Charm Animal, Resistance (Poison)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dawnguard</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7207-d902-b036-a863" name="Beleval: Vampire Hunter (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Agile Defender, Steady Hand</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Charm Animal, Resistance (Poison)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="63e0-f7ac-bc72-4368" name="Adventurers" targetId="bed2-2069-45b8-9df1" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>
