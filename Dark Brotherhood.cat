@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1f59-13be-d324-54f7" name="Dark Brotherhood" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1f59-13be-d324-54f7" name="Dark Brotherhood" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6159-ce11-1d38-3eb9" name="Astrid: Brotherhood Leader" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <comment>Leveled: Done</comment>
@@ -150,6 +150,7 @@
         <categoryLink id="ca32-07f0-eef8-e9ef" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="2ba6-c9f3-4e83-7d65" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="e6cc-67a3-4417-86a8" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="00c6-f4a8-132d-ee25" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b654-c02f-4171-fae1" name="Veezara: The Last Shadowscale" hidden="false" collective="false" import="true" targetId="74a9-35e8-bffe-3a98" type="selectionEntry">

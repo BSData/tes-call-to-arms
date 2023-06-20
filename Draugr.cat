@@ -21,6 +21,7 @@
         <categoryLink id="e550-c43a-83db-dd3f" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="2230-dba5-f787-e75e" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="ea89-99ca-c7a3-564c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="1c3e-d059-80b5-4434" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7f3e-a507-d94a-0cb0" name="Krosis: Dragon Priest" hidden="false" collective="false" import="true" targetId="9cb5-ba93-b866-dd4e" type="selectionEntry">
@@ -37,6 +38,7 @@
         <categoryLink id="1f20-d05b-181b-ba0d" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="0a76-7f86-5ad4-aa1d" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="fe93-5c8b-762b-40e3" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="fcd0-065a-7782-6c54" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9a21-fddd-0d12-f973" name="Draugr Deathlord: Crypt Master" hidden="false" collective="false" import="true" targetId="ee0c-e554-31e3-b770" type="selectionEntry">
@@ -54,6 +56,7 @@
         <categoryLink id="1036-1ab2-5d5d-750e" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="88eb-85fc-74e7-61dc" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="e7c9-81dd-4d88-95d4" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="26f0-daf2-b0df-aa2c" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0c43-21fd-7a62-fa57" name="Draugr Overlord: Bleak Falls Guardian" hidden="false" collective="false" import="true" targetId="b832-60ce-a59f-6f8e" type="selectionEntry">
@@ -71,6 +74,7 @@
         <categoryLink id="f987-cd33-cbe1-a816" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="6e39-2889-76e1-4b50" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="d7ab-ccd4-13df-3d82" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="845c-efbe-0d00-7394" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="20a2-f3d0-cd02-4ec3" name="Hulking Draugr: Armored Axeman" hidden="false" collective="false" import="true" targetId="ce4d-0597-4996-c4f8" type="selectionEntry">
@@ -78,6 +82,7 @@
         <categoryLink id="f0cd-c4fc-4eb4-c8d3" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="93f9-1806-61a5-5421" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="4110-2b49-cd8a-d472" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="f0c7-6ab1-efd4-0024" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="28e5-6372-8e78-46b0" name="Hulking Draugr: Armored Guardian" hidden="false" collective="false" import="true" targetId="67ce-e702-4eb3-9586" type="selectionEntry">
@@ -85,6 +90,7 @@
         <categoryLink id="d0f5-ba23-4441-7223" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="1af6-31d9-080b-19a4" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="9aad-0232-0f3a-cde3" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="db31-e3b9-f3ce-f205" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="943f-954c-afcc-733b" name="Skeleton: Archer" hidden="false" collective="false" import="true" targetId="d3f7-91d9-90e5-350a" type="selectionEntry">
@@ -92,6 +98,7 @@
         <categoryLink id="edfa-776b-4ce4-1e44" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="b931-9d29-82e8-7c86" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
         <categoryLink id="0519-4b2d-4dee-5303" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="e975-5495-21bd-16c5" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e3dd-9eb2-26c7-0171" name="Skeleton: Warrior" hidden="false" collective="false" import="true" targetId="392f-7cf6-da00-066b" type="selectionEntry">
@@ -99,6 +106,7 @@
         <categoryLink id="4666-5e80-f45a-112f" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="88a3-06dc-fd1c-e22b" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
         <categoryLink id="78f6-b452-2db2-fbe1" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="b018-9c09-af9b-7c09" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f16e-6a34-8df3-bedd" name="Draugr: Greatsword Warrior" hidden="false" collective="false" import="true" targetId="e91c-3201-d306-1099" type="selectionEntry">
@@ -106,6 +114,7 @@
         <categoryLink id="4252-46b6-b240-f9cc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="be4a-8311-7827-f886" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="6bd1-5920-f730-837c" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="2b60-c3ba-cd4b-e2ff" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0d94-a7eb-70ec-f3d0" name="Draugr: Warrior" hidden="false" collective="false" import="true" targetId="3510-b50a-d358-e194" type="selectionEntry">
@@ -113,6 +122,7 @@
         <categoryLink id="72dd-936b-19ce-b369" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="5e1c-f019-54bf-49a0" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="7a8d-0ba0-b236-d35a" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="febb-5fe1-376a-2fc7" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="50e9-17c6-be7a-e1de" name="Skeleton: Archer" hidden="false" collective="false" import="true" targetId="d3f7-91d9-90e5-350a" type="selectionEntry">
@@ -120,6 +130,7 @@
         <categoryLink id="5ac5-50b3-073b-8d93" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="2737-bd76-a1b5-33b4" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
         <categoryLink id="076f-ec4b-e87c-a831" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="609d-2c93-8458-c776" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5bd6-ad21-3a6e-f3ee" name="Restless Draugr: Barrow Guardian" hidden="false" collective="false" import="true" targetId="a293-da46-8672-5cf9" type="selectionEntry">
@@ -127,6 +138,7 @@
         <categoryLink id="875e-256d-b8bb-d0d8" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="ea1f-07d9-c721-7c82" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="570b-e7f7-e298-256b" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="c144-68f6-5a77-e28f" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="af26-82bf-4608-d05b" name="Restless Draugr: Frostblade" hidden="false" collective="false" import="true" targetId="1c51-73e0-5102-f65f" type="selectionEntry">
@@ -134,6 +146,7 @@
         <categoryLink id="e10d-7091-2911-0ca0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="e0ca-383b-cf33-7c7d" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="580a-4674-ee40-29be" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>
+        <categoryLink id="228f-d6a6-5fd8-78d5" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6a98-5e0c-a83c-3c6c" name="Krosis: Dragon Priest (Adversary)" hidden="false" collective="false" import="true" targetId="a4e5-cca3-1f68-4d52" type="selectionEntry">
@@ -144,6 +157,7 @@
         <categoryLink id="3912-9f72-94b6-e99d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="4e50-61e6-351e-5bfb" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
         <categoryLink id="ccbd-f743-7387-6d01" name="Krosis: Dragon Priest" hidden="false" targetId="132e-5ba6-5277-8586" primary="false"/>
+        <categoryLink id="e28d-c09f-f417-d823" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f0a3-50a2-f7dd-6417" name="Dragon Priest: Guardian Of The Word Wall (Adversary)" hidden="false" collective="false" import="true" targetId="760c-19c6-6c0d-9010" type="selectionEntry">
@@ -153,6 +167,7 @@
         <categoryLink id="c2b3-3d26-3cb3-6af1" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="99af-ff27-27ed-7ce1" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="e276-20e6-81f0-c6f1" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="02da-0337-015f-d895" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ba93-297c-3b16-81a2" name="Draugr Overlord: Bleak Falls Guardian (Adversary)" hidden="false" collective="false" import="true" targetId="1495-506e-0566-294a" type="selectionEntry">
@@ -163,6 +178,7 @@
         <categoryLink id="c600-a6bf-2a21-908d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="41f5-04af-17bc-8265" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="cf77-e93b-e174-d1fc" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="d3d6-9cd7-f57f-d01c" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

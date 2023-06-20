@@ -260,6 +260,7 @@
         <categoryLink id="29d9-c84a-5048-de78" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="43b4-4214-6b9f-c9e7" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="9fbd-85a1-9adb-d75e" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="85b8-a72a-8a2d-f82c" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4edf-0af7-a420-af3b" name="Lob: Orsimer Ranger" hidden="false" collective="false" import="true" targetId="200a-a201-3b78-78dd" type="selectionEntry">
@@ -1189,10 +1190,11 @@
         <categoryLink id="c273-ab5c-258a-9574" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="02db-d762-4ba8-253d" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="1e1e-f391-6abb-b38c" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
-        <categoryLink id="f15d-cbf4-1d6a-afb3" name="Redguard Warrior: Sheathed Blade" hidden="false" targetId="0ef1-acf5-5398-f94d" primary="false"/>
         <categoryLink id="1418-7054-a786-9525" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
         <categoryLink id="d3c8-ebc1-8f33-095d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="f338-879b-4838-7981" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="f1f5-1373-0b72-0eeb" name="Umana Equipment" hidden="false" targetId="73b3-09d7-4d9c-8be4" primary="false"/>
+        <categoryLink id="edc0-2534-6b97-dc58" name="Umana: Alftand Explorer" hidden="false" targetId="5e04-164b-eb1d-0f61" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2815,7 +2817,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="fdc5-8499-1322-0969" name="Redguard Warrior: Sheathed Blade" hidden="false" targetId="d592-a754-a31d-4aa2" type="profile">
+        <infoLink id="fdc5-8499-1322-0969" name="Umana: Alftand Explorer" hidden="false" targetId="6f98-32ac-0f29-143b" type="profile">
           <modifiers>
             <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
               <conditions>

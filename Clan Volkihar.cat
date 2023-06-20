@@ -44,6 +44,7 @@
         <categoryLink id="8182-59d9-9f7e-a4f9" name="Blood Magic Skill" hidden="false" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
         <categoryLink id="bc76-7385-fff2-1963" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="6fd6-5138-4c73-4486" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="4a37-d041-9c8a-fec4" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a23b-5d7e-c6c3-d583" name="The Dragonborn: Fist of Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="9218-63c2-9e88-dc4d" type="selectionEntry">
@@ -64,6 +65,7 @@
         <categoryLink id="9962-9b50-9783-892d" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="151e-2cb5-e9af-d730" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="0958-4518-eb78-6c54" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="4a5b-76f1-c03c-4cf9" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="989e-d695-ced9-ff78" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="4707-09e4-8041-d28c" type="selectionEntry">
@@ -85,6 +87,8 @@
         <categoryLink id="e93d-7abe-0781-b506" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
         <categoryLink id="e70f-67f3-3428-7a59" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
         <categoryLink id="6a88-5dd2-2004-ced0" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
+        <categoryLink id="3c29-c853-6803-2cdd" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
+        <categoryLink id="d892-d312-31a5-3256" name="Lord Harkon Equipment" hidden="false" targetId="67e1-7af2-adcb-147b" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ef3d-c946-d685-39f9" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="e3cc-9c6c-7980-ac7b" type="selectionEntry">
@@ -105,6 +109,7 @@
         <categoryLink id="f66b-71c1-fc72-aec9" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
         <categoryLink id="6902-a466-07f0-5e31" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
         <categoryLink id="328e-4c34-5067-08c9" name="Vingalmo: Volkihar Master Vampire" hidden="false" targetId="2aaf-aa48-8cc3-28c1" primary="false"/>
+        <categoryLink id="7e7d-2cfe-f99b-1bf3" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e035-9bed-c45f-a481" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="6c49-014b-85f6-324d" type="selectionEntry">
@@ -123,6 +128,7 @@
         <categoryLink id="82e7-838d-09af-348b" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="5a9f-26ed-e9c7-d8c9" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="4780-074e-7cf5-1f84" name="Orthjolf: Clan Advisor" hidden="false" targetId="1a76-122e-663f-1640" primary="false"/>
+        <categoryLink id="a6fd-9a09-bf59-4a0e" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="332f-45b8-fc7e-0c40" name="Ancient Vampire: Clan Elder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f778-9246-12e4-8343" type="selectionEntry">
@@ -138,6 +144,7 @@
         <categoryLink id="a218-76b9-1698-370b" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="61e9-edfa-96bd-121a" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
         <categoryLink id="c4e0-67c6-3c52-a5e2" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink id="87aa-d6bf-f9f3-d1b8" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4cf8-5f5d-1020-06d3" name="Vampire Mistwalker: Silent Killer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="cee2-c91f-f24f-0797" type="selectionEntry">
@@ -153,6 +160,7 @@
         <categoryLink id="0938-db60-69af-4133" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="c2e2-806f-ab4c-218f" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="7f95-09bd-fa99-c1cc" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="e6d1-3650-b798-6786" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

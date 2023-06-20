@@ -425,6 +425,7 @@
         <categoryLink id="ef81-2999-1f0b-378c" name="Blood Magic Skill" hidden="false" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
         <categoryLink id="fc8b-8e21-b26a-eea1" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="41aa-e1de-5ad3-7e48" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="ab7c-c14b-9767-8ada" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="638c-35eb-8a8e-8c20" name="Serana: Cured of Vampirism" hidden="false" collective="false" import="true" targetId="f444-e3aa-e9f1-7225" type="selectionEntry">
@@ -489,10 +490,11 @@
         <categoryLink id="678a-b424-2048-758d" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="0d35-8a90-224d-c177" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="1fde-d7c0-bcee-c7a5" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
-        <categoryLink id="46f3-01c2-5bb7-fb4d" name="Redguard Warrior: Sheathed Blade" hidden="false" targetId="0ef1-acf5-5398-f94d" primary="false"/>
         <categoryLink id="98ca-449f-d393-8451" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
         <categoryLink id="4f6c-9510-32d6-5bab" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="3fcf-6043-5972-2731" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="4ce6-7fef-175b-1f09" name="Umana: Alftand Explorer" hidden="false" targetId="5e04-164b-eb1d-0f61" primary="false"/>
+        <categoryLink id="5405-094e-57e1-6bc5" name="Umana Equipment" hidden="false" targetId="73b3-09d7-4d9c-8be4" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e6ae-e65e-f853-df54" name="Sven: The Minstrel" hidden="false" collective="false" import="true" targetId="1fa4-7b37-8c2f-0a9e" type="selectionEntry">
@@ -1427,7 +1429,6 @@
       <comment>Unleveled: done</comment>
       <rules>
         <rule id="1620-e6a5-b515-bbd7" name="Kindred Necromancer" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
-          <comment></comment>
           <description>Each time Serana removes an enemy as a casualty within 6&quot;, she may take a Conjuration [Skill] Test. If the test is successful, place one [Revenant] in contact with Serana.  This is a friendly Summoned Creature - place the Upkeep Token on the [Reanimated Corpse]&apos;s card. Serana cannot use this ability if she already has a Summoned Creature in play.</description>
         </rule>
       </rules>

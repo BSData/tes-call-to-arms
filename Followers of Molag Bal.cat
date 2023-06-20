@@ -39,7 +39,6 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f137-7662-8645-5c16" name="Mannimarco: King of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <rules>
         <rule id="0bdf-3d39-94ad-d3b2" name="Master of Undeath" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Mannimarco may have up to five Summoned Undead Creatures in play at the same time. Whenever one of Mannimarco’s summoned Undead Creatures is removed from play, restore 1 Magicka.</description>
@@ -86,7 +85,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="26d0-b83d-825c-e8d3" name="Mannimarco: King of Worms (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <rules>
         <rule id="7a96-04f9-34f1-9570" name="Staff Of Worms (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When Mannimarco activates, if he is unengaged and there are fewer than 5 Reanimated Corpse Adversaries in play, Spawn a Reanimated Corpse Adversary in contact with him.</description>
@@ -141,11 +139,11 @@ Speech</characteristic>
     </profile>
     <profile id="6e66-8ab9-e744-e605" name="The Staff of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="ad04-5a38-26ef-722a" typeName="Item">
       <characteristics>
-        <characteristic name="Effect" typeId="9021-607d-69ee-e981">Summoning. Place a Reanimated Corpse at the target point, and assign an Upkeep Token to it. Reanimated Corpses within 3” of this model when they activate require no Upkeep. MANNIMARCO ONLY.</characteristic>
+        <characteristic name="Effect" typeId="9021-607d-69ee-e981">Summoning. Place a Reanimated Corpse at the target point, and assign an Upkeep Token to it. Reanimated Corpses within 3” of this model when they activate require no Upkeep.</characteristic>
         <characteristic name="Skill" typeId="6687-619a-2e22-b1f1">Conjuration</characteristic>
         <characteristic name="Equip Slot" typeId="b47f-f562-ef73-ffce">8&quot;</characteristic>
-        <characteristic name="Keywords" typeId="f695-9131-851d-5734">Mannimarco only. Unique.</characteristic>
-        <characteristic name="Restrictions" typeId="f185-88fe-e033-7661"/>
+        <characteristic name="Keywords" typeId="f695-9131-851d-5734">None</characteristic>
+        <characteristic name="Restrictions" typeId="f185-88fe-e033-7661">Mannimarco only. Unique.</characteristic>
       </characteristics>
     </profile>
     <profile id="6168-ab88-4b5c-f1df" name="Mannimarco: King of Worms (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">

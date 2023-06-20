@@ -291,6 +291,18 @@ Low Priority: Adversaries</comment>
       </constraints>
     </categoryEntry>
     <categoryEntry id="7975-461a-3ea6-a65b" name="Elf" publicationId="4d6f-8c48-a5ea-e83c" hidden="false"/>
+    <categoryEntry id="73b3-09d7-4d9c-8be4" name="Umana Equipment" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a8a-9eac-aff5-dc65" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="84c5-1d46-80c8-1e38" name="Vampire" publicationId="fc6a-2d15-ff0e-9318" page="3" hidden="false"/>
+    <categoryEntry id="ed75-2909-edc9-7369" name="Undead (Non-Vampire)" hidden="false"/>
+    <categoryEntry id="67e1-7af2-adcb-147b" name="Lord Harkon Equipment" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e64-9681-104d-a525" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
@@ -581,7 +593,7 @@ A: Yes</description>
     </selectionEntry>
     <selectionEntry id="a102-1e2e-090d-8b38" name="Draugr: Staff Of Fireballs" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8b2f-0e16-615c-0955" name="Staff Of Fireballs" hidden="false" targetId="1524-c20e-106c-ff8f" type="profile"/>
+        <infoLink id="8b2f-0e16-615c-0955" name="Draugr: Staff Of Fireballs" hidden="false" targetId="1524-c20e-106c-ff8f" type="profile"/>
         <infoLink id="10c8-3535-1478-8073" name="Soul Charges (X)" hidden="false" targetId="f2b0-c6d4-69f2-eff6" type="rule"/>
       </infoLinks>
       <costs>
@@ -1646,7 +1658,7 @@ A: Yes</description>
     </selectionEntry>
     <selectionEntry id="354b-c2d2-333e-9a8f" name="Blades Sword" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3e64-e289-995f-805a" name="Blades Armor" hidden="false" targetId="efa5-9d29-cf50-9e34" type="profile"/>
+        <infoLink id="3e64-e289-995f-805a" name="Blades Sword" hidden="false" targetId="f212-7a67-e4ff-2775" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9.0"/>
@@ -2997,6 +3009,340 @@ A: Yes</description>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="418b-12fd-e6d1-0450" name="Armor Enchantment: Hauling" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94c3-18c2-49d9-4be5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="82d3-e4a2-40ba-06b6" name="Enchantment: Hauling" hidden="false" targetId="4a99-a212-c794-97a1" type="profile"/>
+        <infoLink id="87c6-fe32-87cf-a3db" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9ab-0096-21a2-2a26" name="Auriel&apos;s Shield" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71d7-77fc-a4e9-b0ae" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="64c0-615c-a226-8a02" name="Auriel&apos;s Shield" hidden="false" targetId="b8c3-c482-2b28-b507" type="profile"/>
+        <infoLink id="d420-d954-97fc-5c0b" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10d3-c65e-3331-2f1d" name="Targe of the Blooded" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f95-4ba2-ac42-3742" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b681-3857-9974-abf7" name="Targe of the Blooded" hidden="false" targetId="6e52-7530-dde5-c613" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87c8-e5ee-11c0-4e30" name="Dawnguard Shield" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c8ba-a697-23fa-148e" name="Dawnguard Shield" hidden="false" targetId="a384-251a-78f7-16be" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="088a-b5dd-a52d-366f" name="Vampire Royal Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c1c4-e674-1ed9-e490" name="Vampire Royal Armor" hidden="false" targetId="699b-8539-a7a0-21ce" type="profile"/>
+        <infoLink id="ac81-3d9a-0f4f-100f" name="Regenerate Magicka" hidden="false" targetId="a89f-5da7-acf9-ff3b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f11-66f2-8b6c-dc5c" name="Vampire Robes" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="947d-c0d6-bf86-f6f3" name="Vampire Robes" hidden="false" targetId="6330-e6a5-4bdb-df8a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04a2-97ed-ec44-1073" name="Vampire Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="04ef-0d98-9f48-fc8f" name="Vampire Armor" hidden="false" targetId="5d81-62d2-2779-113b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a1e-2d6d-35bc-31ba" name="Ancient Falmer Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="658e-a0a7-86d6-e10e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f42f-0ce6-bd8d-7220" name="Ancient Falmer Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="d334-1da8-71c4-1a7f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f405-032f-59d9-af6b" name="Dawnguard Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bde5-56a4-821a-6d4a" name="Dawnguard Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="f16f-f664-2312-9329" type="profile"/>
+        <infoLink id="b7e3-07bd-a7a3-a1ba" name="Dawnguard Armor" hidden="false" targetId="1876-7498-6402-603b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1e4-f58a-3973-e24a" name="Dawnguard Heavy Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5fc7-4be0-1acc-5277" name="Dawnguard Heavy Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="f1b5-d06d-1d94-c4d7" type="profile"/>
+        <infoLink id="5cb7-e9d9-b2dd-4bfc" name="Dawnguard Armor" hidden="false" targetId="1876-7498-6402-603b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="16d7-f02b-1a93-9fd0" name="Glass Shield" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f495-4e7e-4b14-9ae2" name="Glass Shield" publicationId="2733-0fd1-3311-3be2" hidden="false" targetId="2e16-e4f6-fa7e-82bb" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c42e-c3b4-d72b-3aaa" name="Scaled Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f282-38f5-6b38-c2af" name="Scaled Armor" hidden="false" targetId="4bee-c4cf-50ee-e366" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71c3-d50d-adbe-a98a" name="Elven Greatsword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a9cf-b900-005b-1e33" name="Elven Greatsword" hidden="false" targetId="054a-1ec4-fd43-b9e6" type="profile"/>
+        <infoLink id="f0de-08e3-1d44-9ebb" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f408-4eae-f9e1-5945" name="Auriel&apos;s Bow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7094-8e88-4d32-c6fe" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="aa6e-dd37-9ac6-4d51" name="Auriel&apos;s Bow" hidden="false" targetId="6476-1b8b-df82-8897" type="profile"/>
+        <infoLink id="d920-aacb-356b-5f93" name="Damage Type: Sun" hidden="false" targetId="fd98-d091-a076-05dd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0558-1936-a2a8-711f" name="Elven Bow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="aae6-1a83-39cf-773a" name="Elven Bow" hidden="false" targetId="cd29-e51c-b9a9-4f70" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fc9-767c-b519-e47d" name="Dawnguard Crossbow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="080b-44b8-cd90-9efb" name="Dawnguard Crossbow" hidden="false" targetId="a440-e9db-f4f7-65c1" type="profile"/>
+        <infoLink id="a9fb-e715-4172-c324" name="Dawnguard Weapon" hidden="false" targetId="13ac-5d7b-67c9-eb47" type="rule"/>
+        <infoLink id="195b-afcc-4407-70b0" name="Slow To Fire" hidden="false" targetId="a213-4c27-218f-13b3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="63a6-1d24-eaaf-bb7f" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62b9-cd71-c6a5-cbba" name="Dwarven Bow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="30bc-d384-462c-3ab1" name="Dwarven Bow" hidden="false" targetId="f37e-cd13-36d3-c518" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2ca3-d349-b5be-5b25" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da29-db60-0c5e-feb0" name="Dawnguard Warhammer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9977-d664-8616-bff9" name="Dawnguard Warhammer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="48d2-22d5-357d-edce" type="profile"/>
+        <infoLink id="63d3-d2cb-120f-7f4a" name="Dawnguard Weapon" hidden="false" targetId="13ac-5d7b-67c9-eb47" type="rule"/>
+        <infoLink id="c918-5dff-8957-0f9c" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="5f0e-4f87-a532-dedb" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="deab-0dfe-83ec-2c95" name="Nordic Greatsword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cef2-c9c9-b44d-f63c" name="Nordic Greatsword" hidden="false" targetId="daa8-198b-e797-63bd" type="profile"/>
+        <infoLink id="68b3-5928-8439-a24a" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="3df0-7d29-0da1-e70f" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2950-da7c-d9f9-165a" name="Dwarven Battleaxe" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b143-c3cb-d8a5-52fe" name="Dwarven Battleaxe" hidden="false" targetId="92cf-1dd7-0ca4-415f" type="profile"/>
+        <infoLink id="6460-cf00-0018-cdad" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="d79e-12d8-c94f-1c80" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4103-3fc3-a437-58ed" name="Dwarven Greatsword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b5f9-ea80-c462-af39" name="Dwarven Greatsword" hidden="false" targetId="30df-49aa-ba6b-0a59" type="profile"/>
+        <infoLink id="f3a3-0da0-85d2-4bdb" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="c817-838d-0108-3730" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7366-0080-f241-7936" name="Orcish Battleaxe" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8628-69ea-94e6-a5b7" name="Orcish Battleaxe" hidden="false" targetId="bf9d-223f-c051-f273" type="profile"/>
+        <infoLink id="b68c-e2a0-ec18-28a5" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="33d2-1b85-ecd6-4581" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af5b-aea4-c515-aed3" name="Glass Dagger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c078-41eb-e6f9-d4ca" name="Glass Dagger" publicationId="2733-0fd1-3311-3be2" hidden="false" targetId="7861-3369-9415-96d5" type="profile"/>
+        <infoLink id="6a42-60b0-7303-35ac" name="Lightweight" hidden="false" targetId="8195-f68e-fd76-784f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b83-8d65-561a-3556" name="Dragonbone Sword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="383d-47aa-3361-d4de" name="Dragonbone Sword" hidden="false" targetId="71de-9c95-332b-2762" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a6b-8239-aace-8978" name="Harkon&apos;s Sword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ab8-5b38-2460-a930" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c1d9-db45-12fa-13d2" name="Harkon&apos;s Sword" hidden="false" targetId="fd03-3fed-234b-1741" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="726b-4fe5-4e30-7d10" name="Dawnguard War Axe" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2f61-edfc-9b57-3d4c" name="Dawnguard War Axe" hidden="false" targetId="2a62-7f12-b416-e7d0" type="profile"/>
+        <infoLink id="b3c3-4402-37f2-8615" name="Dawnguard Weapon" hidden="false" targetId="13ac-5d7b-67c9-eb47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fa7-6aa1-03de-b3b9" name="Elven War Axe" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ace0-5648-1035-dbe3" name="Elven War Axe" hidden="false" targetId="602b-0a60-a9a8-0831" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae97-1524-0510-e863" name="Elven Mace" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bd46-a2d7-25ce-3506" name="Elven Mace" hidden="false" targetId="1fc3-a80d-91ec-6e5e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="effd-d722-cafd-231c" name="Staff Of Fireballs" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f66b-ee40-c87b-f10b" name="Staff of Fireballs" hidden="false" targetId="65f8-1293-bcbb-567c" type="profile"/>
+        <infoLink id="499c-518a-032d-8427" name="Damage Type: Fire" hidden="false" targetId="e311-031a-d0f0-985c" type="rule"/>
+        <infoLink id="f01a-da2c-b715-b648" name="Soul Charges (X)" hidden="false" targetId="f2b0-c6d4-69f2-eff6" type="rule"/>
+        <infoLink id="c529-c32c-98b9-3ce6" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="977f-e4e1-f05a-53c7" name="Potion of Blood" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7b99-19a4-fe60-24b4" name="Potion of Blood" hidden="false" targetId="26aa-df4d-456f-7c79" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78d0-e14e-0766-6941" name="Soul Gem" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b9d7-f989-ec05-25e1" name="Soul Gem" hidden="false" targetId="406e-f510-be07-1db0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7bc-b852-a584-7b97" name="Dwarven Bolts" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d8d2-dc39-3bde-bd1d" name="Dwarven Bolts" hidden="false" targetId="e916-b975-1cce-ab70" type="profile"/>
+        <infoLink id="30f5-e9be-2711-79c3" name="Special Ammunition" hidden="false" targetId="5d9b-00f8-bae4-19ee" type="rule"/>
+        <infoLink id="b6cd-b35d-2399-815f" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f5fc-192d-8d26-3cab" name="Aversion to Fire Poison" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="da36-87a3-51ad-d0bb" name="Aversion to Fire Poison" hidden="false" targetId="b80b-a193-6b1d-8282" type="profile"/>
+        <infoLink id="72db-f34c-0841-071d" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f832-7b65-0a27-49cf" name="Aversion to Shock Poison" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b682-3610-bce9-6dd7" name="Aversion to Shock Poison" hidden="false" targetId="1d3f-5643-e1d2-7d74" type="profile"/>
+        <infoLink id="c4c0-874b-73f7-40b7" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9620-03ac-adb2-d5ed" name="Aversion to Frost Poison" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1b03-a8da-b8c5-50ce" name="Aversion to Frost Poison" hidden="false" targetId="534d-709e-4b4e-0df1" type="profile"/>
+        <infoLink id="57b9-267c-ea79-ce89" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="77fb-6f37-f1df-9d41" name="Equipment" hidden="false" collective="false" import="true">
@@ -3418,6 +3764,20 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="0767-b7cd-8ac1-6502" name="Glass Dagger" hidden="false" collective="false" import="true" targetId="af5b-aea4-c515-aed3" type="selectionEntry"/>
+        <entryLink id="5f06-b9c1-d9e2-8a73" name="Dragonbone Sword" hidden="false" collective="false" import="true" targetId="1b83-8d65-561a-3556" type="selectionEntry"/>
+        <entryLink id="7e6e-041f-7477-b309" name="Harkon&apos;s Sword" hidden="true" collective="false" import="true" targetId="9a6b-8239-aace-8978" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="67e1-7af2-adcb-147b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="3f18-e805-99a9-98fd" name="Dawnguard War Axe" hidden="false" collective="false" import="true" targetId="726b-4fe5-4e30-7d10" type="selectionEntry"/>
+        <entryLink id="8bc3-922f-634c-aef1" name="Elven Mace" hidden="false" collective="false" import="true" targetId="ae97-1524-0510-e863" type="selectionEntry"/>
+        <entryLink id="1bdc-c5d4-a8a0-9fdf" name="Elven War Axe" hidden="false" collective="false" import="true" targetId="4fa7-6aa1-03de-b3b9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8a0d-94f4-f0f7-e285" name="One-Hand Spells" hidden="true" collective="false" import="true">
@@ -3632,6 +3992,7 @@ A: Yes</description>
         <entryLink id="1f7b-b818-04c8-2fc1" name="Armor Enchantment: Fortify Restoration" hidden="false" collective="false" import="true" targetId="fafd-fc7d-3447-fc86" type="selectionEntry"/>
         <entryLink id="43e4-b0c3-3fa3-1fdc" name="Armor Enchantment: Muffle" hidden="false" collective="false" import="true" targetId="e23c-1675-e116-f35c" type="selectionEntry"/>
         <entryLink id="fe3d-2dcf-b839-a245" name="Armor Enchantment: Poison Resistance" hidden="false" collective="false" import="true" targetId="5edf-abbd-5b2e-f33b" type="selectionEntry"/>
+        <entryLink id="5fb4-7065-bd43-615d" name="Armor Enchantment: Hauling" hidden="false" collective="false" import="true" targetId="418b-12fd-e6d1-0450" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="9dcd-bd06-1632-8ed1" name="Dragon Shouts" hidden="true" collective="false" import="true">
@@ -3790,6 +4151,26 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="4f0a-6051-501c-3b3a" name="Auriel&apos;s Shield" hidden="false" collective="false" import="true" targetId="c9ab-0096-21a2-2a26" type="selectionEntry"/>
+        <entryLink id="2a4a-4424-2517-8465" name="Targe of the Blooded" hidden="true" collective="false" import="true" targetId="10d3-c65e-3331-2f1d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="73b3-09d7-4d9c-8be4" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8daf-3edc-cf8e-56fe" name="Dawnguard Shield" hidden="true" collective="false" import="true" targetId="87c8-e5ee-11c0-4e30" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8efa-ca32-314e-1157" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6e54-eddd-3797-971b" name="Glass Shield" hidden="false" collective="false" import="true" targetId="16d7-f02b-1a93-9fd0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1c2b-98e7-da84-737a" name="Quick Slot Items" hidden="false" collective="false" import="true">
@@ -3801,6 +4182,16 @@ A: Yes</description>
         <entryLink id="5bab-15c3-a0a7-4972" name="Potion Of Minor Magicka" hidden="false" collective="false" import="true" targetId="06df-8e9d-42be-0aa0" type="selectionEntry"/>
         <entryLink id="c0b0-63cc-293d-d3f2" name="Potion Of Minor Stamina" hidden="false" collective="false" import="true" targetId="70ab-6089-0bde-c498" type="selectionEntry"/>
         <entryLink id="2ea9-d278-3337-e46d" name="Lesser Soul Gem" hidden="false" collective="false" import="true" targetId="238d-37b1-33a4-4b89" type="selectionEntry"/>
+        <entryLink id="5f67-1fca-e3e0-bba9" name="Potion of Blood" hidden="true" collective="false" import="true" targetId="977f-e4e1-f05a-53c7" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84c5-1d46-80c8-1e38" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="20e8-f9b6-a07b-e74a" name="Soul Gem" hidden="false" collective="false" import="true" targetId="78d0-e14e-0766-6941" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="eafc-7cdb-5712-6bca" name="Two-Handed Melee Weapons" hidden="true" collective="false" import="true">
@@ -3836,6 +4227,12 @@ A: Yes</description>
         <entryLink id="9731-f7eb-2a13-4a96" name="Steel Battleaxe" hidden="false" collective="false" import="true" targetId="b611-18eb-9060-fa1b" type="selectionEntry"/>
         <entryLink id="d8ce-9aea-aca9-50f4" name="Iron Battleaxe" hidden="false" collective="false" import="true" targetId="44d2-6c1c-0804-f3ee" type="selectionEntry"/>
         <entryLink id="8ba4-60f1-c13c-fd76" name="Dwarven Warhammer" hidden="false" collective="false" import="true" targetId="7a3f-d0ef-9b40-1a01" type="selectionEntry"/>
+        <entryLink id="ecb1-1f91-d28f-99f7" name="Elven Greatsword" hidden="false" collective="false" import="true" targetId="71c3-d50d-adbe-a98a" type="selectionEntry"/>
+        <entryLink id="69f0-13f8-b423-6afe" name="Dawnguard Warhammer" hidden="false" collective="false" import="true" targetId="da29-db60-0c5e-feb0" type="selectionEntry"/>
+        <entryLink id="f3c5-bf36-cc8a-374c" name="Nordic Greatsword" hidden="false" collective="false" import="true" targetId="deab-0dfe-83ec-2c95" type="selectionEntry"/>
+        <entryLink id="b519-78b0-ccf3-b8f0" name="Dwarven Battleaxe" hidden="false" collective="false" import="true" targetId="2950-da7c-d9f9-165a" type="selectionEntry"/>
+        <entryLink id="a133-0de9-6cae-4c71" name="Dwarven Greatsword" hidden="false" collective="false" import="true" targetId="4103-3fc3-a437-58ed" type="selectionEntry"/>
+        <entryLink id="e38b-9e6b-88a0-ba1e" name="Orcish Battleaxe" hidden="false" collective="false" import="true" targetId="7366-0080-f241-7936" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="06f5-97a8-3d86-613f" name="One-Handed Staves" hidden="false" collective="false" import="true">
@@ -3844,6 +4241,7 @@ A: Yes</description>
         <entryLink id="d34d-88b3-a839-5569" name="Staff Of Flames" hidden="false" collective="false" import="true" targetId="3330-46ba-83ea-5b52" type="selectionEntry"/>
         <entryLink id="8767-ae2f-0c09-7ddd" name="Staff Of Reanimation" hidden="false" collective="false" import="true" targetId="f3b8-e776-57ed-8a91" type="selectionEntry"/>
         <entryLink id="5914-dbc7-a5bd-7e6b" name="Aetherial Staff" hidden="false" collective="false" import="true" targetId="ca36-face-6f70-daca" type="selectionEntry"/>
+        <entryLink id="5d85-8261-87f4-0e7d" name="Staff Of Fireballs" hidden="false" collective="false" import="true" targetId="effd-d722-cafd-231c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="3ae5-f30b-7167-ffb3" name="Weapon Enchantments" hidden="true" collective="false" import="true">
@@ -3877,6 +4275,7 @@ A: Yes</description>
     <selectionEntryGroup id="5879-58a1-2038-2d2d" name="Weapon Attachments" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="1827-718e-b688-6e73" name="Glass Arrows" hidden="false" collective="false" import="true" targetId="d444-8501-0c27-c2c5" type="selectionEntry"/>
+        <entryLink id="6c97-1a28-6061-971e" name="Dwarven Bolts" hidden="false" collective="false" import="true" targetId="a7bc-b852-a584-7b97" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8f2f-1152-e0ab-6726" name="One-Handed Items" hidden="false" collective="false" import="true">
@@ -4383,12 +4782,17 @@ A: Yes</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="809e-c29f-519d-77f8" name="Bows" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="809e-c29f-519d-77f8" name="Bows/Crossbows" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d42-f7a9-a2ca-654e" type="instanceOf"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9797-61ac-cbe1-cccd" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d42-f7a9-a2ca-654e" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <entryLinks>
@@ -4415,6 +4819,23 @@ A: Yes</description>
         <entryLink id="0744-63ab-9054-0a86" name="Hunting Bow" hidden="false" collective="false" import="true" targetId="c007-1a17-926c-8f64" type="selectionEntry"/>
         <entryLink id="920e-25b5-8a0d-80dc" name="Ebony Bow" hidden="false" collective="false" import="true" targetId="a224-4bdc-ea63-e0ba" type="selectionEntry"/>
         <entryLink id="dc66-6f20-2184-c9f7" name="Longbow" hidden="false" collective="false" import="true" targetId="a30f-39ae-2b80-1dce" type="selectionEntry"/>
+        <entryLink id="9d3e-8a50-23fd-4ea3" name="Auriel&apos;s Bow" hidden="false" collective="false" import="true" targetId="f408-4eae-f9e1-5945" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84c5-1d46-80c8-1e38" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed75-2909-edc9-7369" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0310-ba4e-3f70-9000" name="Elven Bow" hidden="false" collective="false" import="true" targetId="0558-1936-a2a8-711f" type="selectionEntry"/>
+        <entryLink id="b065-da56-13c5-7670" name="Dawnguard Crossbow" hidden="false" collective="false" import="true" targetId="4fc9-767c-b519-e47d" type="selectionEntry"/>
+        <entryLink id="d506-bbd6-6ac8-1943" name="Dwarven Bow" hidden="false" collective="false" import="true" targetId="62b9-cd71-c6a5-cbba" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5ee8-ca30-00d2-7fb0" name="Robes" hidden="false" collective="false" import="true">
@@ -4436,6 +4857,15 @@ A: Yes</description>
             <modifier type="set" field="hidden" value="false">
               <conditions>
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f84-91ee-9af3-80ac" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="9135-4752-59c7-74f3" name="Vampire Robes" hidden="true" collective="false" import="true" targetId="1f11-66f2-8b6c-dc5c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84c5-1d46-80c8-1e38" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4534,6 +4964,35 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="c87e-c3de-d3dc-2c17" name="Vampire Royal Armor" hidden="true" collective="false" import="true" targetId="088a-b5dd-a52d-366f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84c5-1d46-80c8-1e38" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="3314-ffba-912a-4afa" name="Vampire Armor" hidden="true" collective="false" import="true" targetId="04a2-97ed-ec44-1073" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84c5-1d46-80c8-1e38" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="d00f-01a7-7d9f-51b5" name="Ancient Falmer Armor" hidden="false" collective="false" import="true" targetId="1a1e-2d6d-35bc-31ba" type="selectionEntry"/>
+        <entryLink id="5432-094a-eb59-6b7a" name="Dawnguard Armor" hidden="true" collective="false" import="true" targetId="f405-032f-59d9-af6b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8efa-ca32-314e-1157" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5986-2fc5-5e4f-60ab" name="Scaled Armor" hidden="false" collective="false" import="true" targetId="c42e-c3b4-d72b-3aaa" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5399-5acc-9828-57d4" name="Heavy Armors" hidden="true" collective="false" import="true">
@@ -4584,6 +5043,15 @@ A: Yes</description>
         <entryLink id="8040-ab96-9be1-0749" name="Orcish Armor" hidden="false" collective="false" import="true" targetId="a08a-986d-931d-c540" type="selectionEntry"/>
         <entryLink id="dd79-d717-e938-2ee6" name="Steel Armor" hidden="false" collective="false" import="true" targetId="2880-013a-5f87-8cbd" type="selectionEntry"/>
         <entryLink id="8fe1-742b-3054-ac6b" name="Steel Plate Armor" hidden="false" collective="false" import="true" targetId="17a1-2dd6-ac33-8cb9" type="selectionEntry"/>
+        <entryLink id="f5b0-b23c-f486-b71f" name="Dawnguard Heavy Armor" hidden="true" collective="false" import="true" targetId="c1e4-f58a-3973-e24a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8efa-ca32-314e-1157" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -4777,18 +5245,19 @@ Note: Heroes from the Path of Might can perform a Two-Handed Block even if they 
     <rule id="550d-354c-0e2a-c57b" name="Weakness (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="78" hidden="false">
       <description>Models that have a Weakness to a specific damage type suffer 1 additional point of damage whenever they lose one or more Health from an attack of the specified type. Damage must be caused in order for the extra damage to be inflicted.</description>
     </rule>
-    <rule id="c1df-67ea-e7cc-8134" name="Path of Might" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
+    <rule id="c1df-67ea-e7cc-8134" name="Path of Might" publicationId="4d6f-8c48-a5ea-e83c" page="105" hidden="false">
       <description>Heroes from the Path of Might may equip and use any Upgrade Card of the Melee Weapon, Shield or Armor types, even if they do not possess the required Skill. When required to perform a Skill Test of the associated type, they may take the corresponding Attribute Test instead. Remember that Attribute Tests do not trigger bonuses from Critical Hit rolls on the Skill Dice.
 
 Strength Attribute: Block, One-Handed, Two-Handed
 Endurance Attribute: Light Armor, Heavy Armor</description>
     </rule>
-    <rule id="84c9-50ff-86a3-2a8f" name="Path of Shadow" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
-      <description>Heroes from the Path of Shadow may Sneak, Lockpick, and Pickpocket (see p.84) even if they do not possess the associated Skills – simply take an Agility Attribute Test instead (remember that Attribute Tests do not trigger bonuses from [CRITICAL HIT] rolls on the Skill Dice). In addition, models from this path add [RED] to their Sneak Attacks instead of [YELLOW].
+    <rule id="84c9-50ff-86a3-2a8f" name="Path of Shadow" publicationId="4d6f-8c48-a5ea-e83c" page="105" hidden="false">
+      <description>Heroes from the Path of Shadow may Attack using the
+Archery Skill, Sneak, Lockpick, and Pickpocket (see p.84) even if they do not possess the associated Skills – simply take an Agility Attribute Test instead (remember that Attribute Tests do not trigger bonuses from [CRITICAL HIT] rolls on the Skill Dice). In addition, models from this path add [RED] to their Sneak Attacks instead of [YELLOW].
 
-Agility Attribute: Lockpicking, Pickpocket, Sneak</description>
+Agility Attribute: Archery, Lockpicking, Pickpocket, Sneak</description>
     </rule>
-    <rule id="46cd-27c4-0be4-976f" name="Path of Sorcery" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
+    <rule id="46cd-27c4-0be4-976f" name="Path of Sorcery" publicationId="4d6f-8c48-a5ea-e83c" page="105" hidden="false">
       <description>Heroes from the Path of Sorcery may equip and use any Spell Card, regardless of Skill. When a model uses a Spell for which it has no Skill, the School of Magic Skill Test is automatically substituted for the associated Attribute Test instead. Remember that Attribute Tests do not trigger bonuses from Critical Hit rolls on the Skill Dice.
 
 Intelligence Attribute: Alteration, Conjuration, Destruction, Illusion
@@ -5721,7 +6190,7 @@ Area Effect 2&quot;
     </profile>
     <profile id="58d1-0e22-b505-4f35" name="Staff Of Flames" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[RED] Fire.
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[RED] (Fire)
 Add [YELLOW] for each additional Soul Charge spent.</characteristic>
         <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Agility Attribute</characteristic>
         <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Soul Charges (3)</characteristic>
@@ -7648,6 +8117,362 @@ Blood Magic</characteristic>
         <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">3</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4a99-a212-c794-97a1" name="Enchantment: Hauling" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Gain one extra quick slot.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b8c3-c482-2b28-b507" name="Auriel&apos;s Shield" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
+      <characteristics>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[GREEN][YELLOW]
+[HELMET]: add [GREEN]
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Effect" typeId="6741-1328-7f47-6882">Keyword: Cumbersome</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">Unique.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6e52-7530-dde5-c613" name="Targe of the Blooded" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
+      <characteristics>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[RED][YELLOW]</characteristic>
+        <characteristic name="Effect" typeId="6741-1328-7f47-6882">When performing a Shield Bash, this model assigns a Bleed Token to the target enemy in addition to a Staggered Token.</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">Unique. Umana only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a384-251a-78f7-16be" name="Dawnguard Shield" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
+      <characteristics>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[RED][YELLOW]
+[HELMET]: add [GREEN]
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Effect" typeId="6741-1328-7f47-6882">On a successful Shield Bash [against an] enemy Vampire, [the] target loses 1 Health point (ignore [the target&apos;s] Armor Rating).</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">Dawnguard only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="699b-8539-a7a0-21ce" name="Vampire Royal Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[YELLOW][YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Light Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Keyword: Regenerate Magicka</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Vampire only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6330-e6a5-4bdb-df8a" name="Vampire Robes" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">None</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">None</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Reduce the Magicka cost of Blood Magic Spells by 1 point, to a minimum of 1.</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Vampire only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d81-62d2-2779-113b" name="Vampire Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[YELLOW] (1)</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Light Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">None</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Vampire only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d334-1da8-71c4-1a7f" name="Ancient Falmer Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[RED]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Light Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Add [GREEN] to Light Armor Skill Tests.</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Unique.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f16f-f664-2312-9329" name="Dawnguard Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[RED]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Light Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Keyword: Dawnguard Armor</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Dawnguard only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f1b5-d06d-1d94-c4d7" name="Dawnguard Heavy Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[RED][YELLOW]
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Keyword: Dawnguard Armor</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Dawnguard only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2e16-e4f6-fa7e-82bb" name="Glass Shield" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
+      <characteristics>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[GREEN][RED]
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Effect" typeId="6741-1328-7f47-6882">None</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4bee-c4cf-50ee-e366" name="Scaled Armor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[YELLOW]
+[HELMET]: add [YELLOW]
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Light Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">None</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="054a-1ec4-fd43-b9e6" name="Elven Greatsword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][RED]
+[HELMET]: Piercing (2)
+[SWORDS]: Follow-Up [1]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6476-1b8b-df82-8897" name="Auriel&apos;s Bow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">Enchanted</characteristic>
+        <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">10&quot;
+[GREEN][RED][YELLOW] (Sun)
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (2)</characteristic>
+        <characteristic name="Long Range" typeId="cb5b-fc11-6ecf-6f7d">30&quot;
+[GREEN][YELLOW][YELLOW] (Sun)
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (2)</characteristic>
+        <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
+        <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">Unique.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cd29-e51c-b9a9-4f70" name="Elven Bow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">None</characteristic>
+        <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">10&quot;
+[GREEN][RED][YELLOW]
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Long Range" typeId="cb5b-fc11-6ecf-6f7d">30&quot;
+[GREEN][YELLOW][YELLOW]
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
+        <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a440-e9db-f4f7-65c1" name="Dawnguard Crossbow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">Dawnguard Weapon, Slow to Fire</characteristic>
+        <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">12&quot;
+[GREEN][RED][YELLOW]
+[HELMET]: Piercing (2)
+[SWORDS]: Punishing (1)</characteristic>
+        <characteristic name="Long Range" typeId="cb5b-fc11-6ecf-6f7d">24&quot;
+[RED]
+[HELMET]: Piercing (2)
+[SWORDS]: Punishing (1)</characteristic>
+        <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
+        <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f37e-cd13-36d3-c518" name="Dwarven Bow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">None</characteristic>
+        <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">8&quot;
+[GREEN][RED]
+[HELMET]: Piercing (2)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Long Range" typeId="cb5b-fc11-6ecf-6f7d">16&quot;
+[RED]
+[HELMET]: Piercing (2)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
+        <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="48d2-22d5-357d-edce" name="Dawnguard Warhammer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[RED][RED]
+[HELMET]: Stagger
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Dawnguard Weapon,Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="daa8-198b-e797-63bd" name="Nordic Greatsword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][RED]
+[HELMET]: Piercing (2)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="92cf-1dd7-0ca4-415f" name="Dwarven Battleaxe" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
+[HELMET]: add [RED] and Bleed
+[SWORDS]: Piercing (2)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="30df-49aa-ba6b-0a59" name="Dwarven Greatsword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK]
+[HELMET]: Piercing (1)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bf9d-223f-c051-f273" name="Orcish Battleaxe" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[BLACK][YELLOW]
+[HELMET]: add [YELLOW] and Bleed
+[SWORDS]: add [GREEN] and Bleed</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7861-3369-9415-96d5" name="Glass Dagger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
+[HELMET]: Piercing (1)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Lightweight</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="71de-9c95-332b-2762" name="Dragonbone Sword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK][BLACK]
+[HELMET]: Restore 1 Stamina
+[SWORDS]: Piercing (2)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fd03-3fed-234b-1741" name="Harkon&apos;s Sword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK][YELLOW]
+[HELMET]: Absorb Health (1)
+[SWORDS]: Absorb Stamina (1)
+[OBLIVION] Absorb Magicka (1)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Enchanted</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Unique. Lord Harkon only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2a62-7f12-b416-e7d0" name="Dawnguard War Axe" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
+[HELMET]: Bleed
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Dawnguard Weapon</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="602b-0a60-a9a8-0831" name="Elven War Axe" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
+[HELMET]: add [BLACK] and Bleed
+[SWORDS] Follow-up [1]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1fc3-a80d-91ec-6e5e" name="Elven Mace" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
+[HELMET]: add [RED] and Stagger
+[SWORDS] Follow-up [1]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="65f8-1293-bcbb-567c" name="Staff of Fireballs" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <comment>Errata</comment>
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][YELLOW][YELLOW] (Fire)
+[HELMET]: add [RED]
+Area Effect (2&quot;)
+Add [YELLOW] for each additional Soul Charge spent.</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Agility Attribute</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Enchanted, Soul Charges (3)</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="26aa-df4d-456f-7c79" name="Potion of Blood" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Consumable</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">One Use. Free Action. Restore [RED] Health points.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Vampires only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="406e-f510-be07-1db0" name="Soul Gem" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Consumable</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">One Use. Free action. Discard this card to restore [RED] Soul Charges to a single upgrade card.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e916-b975-1cce-ab70" name="Dwarven Bolts" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Special Ammunition</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Increase the Piercing value of the attached weapon by 1.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">May only be attached to Crossbow Weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="534d-709e-4b4e-0df1" name="Aversion to Frost Poison" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Consumable</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">One Use. Discard this card when performing an attack with a non-Bound weapon. If the target suffers any damage from the attack, it gains the Weakness (Frost) keyword for the rest of the round. Models with Immunity (Frost) are immune to this poison.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b80b-a193-6b1d-8282" name="Aversion to Fire Poison" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Consumable</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">One Use. Discard this card when performing an attack with a non-Bound weapon. If the target suffers any damage from the attack, it gains the Weakness (Fire) keyword for the rest of the round. Models with Immunity (Fire) are immune to this poison.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1d3f-5643-e1d2-7d74" name="Aversion to Shock Poison" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Consumable</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">One Use. Discard this card when performing an attack with a non-Bound weapon. If the target suffers any damage from the attack, it gains the Weakness (Shock) keyword for the rest of the round. Models with Immunity (Shock) are immune to this poison.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
