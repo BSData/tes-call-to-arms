@@ -78,6 +78,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c5-e0b6-a7c7-5fc4" type="max"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink id="22fe-5be4-86ff-2db1" name="Elf is Champion (Orthjolf)" hidden="false" targetId="c413-2e33-e6e4-ffca" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>

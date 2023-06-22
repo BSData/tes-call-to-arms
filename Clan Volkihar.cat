@@ -113,6 +113,13 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="e035-9bed-c45f-a481" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="6c49-014b-85f6-324d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c413-2e33-e6e4-ffca" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="53f0-89a9-5e56-d6c3" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="c1bc-45da-4de4-8345" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
@@ -161,6 +168,62 @@
         <categoryLink id="c2e2-806f-ab4c-218f" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="7f95-09bd-fa99-c1cc" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
         <categoryLink id="e6d1-3650-b798-6786" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1f1e-8076-131d-b4c2" name="Gargoyle: Volkihar Sentinel" hidden="false" collective="false" import="true" targetId="6b2b-82ce-b864-2791" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="195f-f193-c08d-71e0" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="64d8-6044-ad7c-0327" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="be61-e212-62d0-c874" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0df4-2c31-a4ed-3921" name="Vampire: Outcast Dunmer" hidden="false" collective="false" import="true" targetId="4c46-3573-4e24-03bc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1990-8e90-4242-e1ed" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="4652-7377-fefd-58e1" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="bce6-06d2-ae3d-7dc5" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="ab74-19bd-fae8-6a40" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
+        <categoryLink id="f1cf-7858-2aec-c5ed" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d90c-4ca9-72fe-ab2e" name="Vampire: Outcast Altmer" hidden="false" collective="false" import="true" targetId="1ea3-9d20-4406-078e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9bde-fa56-607b-3f66" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="3750-228b-10ef-ef6b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="8bb0-c9d7-69df-e6a9" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="4183-ca8b-e471-aff8" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
+        <categoryLink id="ee1f-aec7-f831-549a" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="556d-ac0e-8baa-1073" name="Vampire: Outcast Imperial" hidden="false" collective="false" import="true" targetId="438e-4080-c3a7-2a0e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8a47-f043-4af8-1afe" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="642f-7768-e80c-8d1b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="382b-cf6c-f652-c053" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="77e5-cb9b-533f-1ece" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="22e7-a8bf-8096-b42a" name="Vampire Fledgling: Nord Neophyte" hidden="false" collective="false" import="true" targetId="f424-3fc0-4bf3-b691" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8e66-5f36-a397-4bdc" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="2911-dcbb-a6d0-81e6" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="99c0-3e6d-2bba-ab90" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="5294-7e32-7bec-263e" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="894c-d611-956d-d4d3" name="Vampire Fledgling: Breton Neophyte" hidden="false" collective="false" import="true" targetId="dec8-3018-6801-2f00" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f227-e591-1d5e-1897" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="b543-9a80-f83d-e23b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
+        <categoryLink id="770f-a5fe-0e56-7d5f" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="e8cf-0a63-bf81-2017" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6c13-780e-749b-7d0f" name="Death Hound: Crypt Beast" hidden="false" collective="false" import="true" targetId="f90f-dfd4-1127-74a0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="027c-1104-cd05-c618" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="902f-4c07-06e9-a98c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="b484-0417-1119-6fcc" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -321,7 +384,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac85-0844-757e-1cc8" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="c289-da34-fd18-5add" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="5479-6c20-a445-a631" name="Elf is Champion (Orthjolf)" hidden="false" targetId="c413-2e33-e6e4-ffca" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
@@ -461,6 +524,97 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b2b-82ce-b864-2791" name="Gargoyle: Volkihar Sentinel" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0e6c-e4db-94d0-b23b" name="Gargoyle: Volkihar Sentinel" hidden="false" targetId="d2e5-5e3e-9f48-ad8f" type="profile"/>
+        <infoLink id="87ee-9f37-5c95-8dcd" name="Fly" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
+        <infoLink id="c864-3b48-00dd-fc01" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="fb04-a9cd-a343-8edf" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="2438-c7a8-3e45-1c26" name="Immunity (Type)" hidden="false" targetId="7c88-fc5e-9fde-1261" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c46-3573-4e24-03bc" name="Vampire: Outcast Dunmer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="49cf-2eaf-b69e-53d5" name="Vampire: Outcast Dunmer" hidden="false" targetId="d318-207f-d594-b4ee" type="profile"/>
+        <infoLink id="dbb1-f1e5-eb0b-e25c" name="Dunmer" hidden="false" targetId="a0cb-51aa-e265-db37" type="infoGroup"/>
+        <infoLink id="355f-42f9-0621-2239" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="bb72-fd5b-612e-4503" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="b048-8527-1eb5-1d44" name="Absorb (Reserve) (X)" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="75e0-9768-5a27-b603" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ea3-9d20-4406-078e" name="Vampire: Outcast Altmer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fca0-e95b-349e-f71b" name="Vampire: Outcast Altmer" hidden="false" targetId="2073-4095-4b83-8bdd" type="profile"/>
+        <infoLink id="5817-48b4-1dc6-f9ca" name="Altmer" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink id="9ca1-9aab-eb6e-c0fc" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="3e17-3e5b-fa23-5700" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="c141-fc77-1d09-d07e" name="Absorb (Reserve) (X)" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="43c0-e3a1-db81-6c89" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="438e-4080-c3a7-2a0e" name="Vampire: Outcast Imperial" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c25a-fb82-a621-c012" name="Vampire: Outcast Imperial" hidden="false" targetId="56e5-aa2b-a44e-0fd7" type="profile"/>
+        <infoLink id="510e-39c4-479d-5a79" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="40b5-7598-f115-9305" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="17ca-774d-c0b0-776f" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="d52c-37ee-09fa-b7ca" name="Absorb (Reserve) (X)" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="cb6b-d97a-2474-6c8f" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f424-3fc0-4bf3-b691" name="Vampire Fledgling: Nord Neophyte" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="880d-ea29-3c84-7b4a" name="Vampire Fledgling: Nord Neophyte" hidden="false" targetId="3cd6-202e-eefb-d3f8" type="profile"/>
+        <infoLink id="7592-64b9-eaed-691b" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="7ef5-571f-93b9-1d2a" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="d050-6fd0-a6dc-32f9" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="74af-7b3a-ae22-b091" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="43e0-1d53-1cc1-e871" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dec8-3018-6801-2f00" name="Vampire Fledgling: Breton Neophyte" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="30b1-e249-fb77-7430" name="Vampire Fledgling: Breton Neophyte" hidden="false" targetId="1b8b-f1f9-f4e8-c53a" type="profile"/>
+        <infoLink id="1c1b-0e21-8fc7-0731" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+        <infoLink id="595b-aa19-42de-bf23" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="6842-0df9-ef35-f23f" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
+        <infoLink id="0f1c-168d-8643-5e86" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="adfd-2bc8-b93f-6acc" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
+        <infoLink id="3463-cf74-607d-d90b" name="Magicka Boost (X)" hidden="false" targetId="2597-fb44-57b8-5201" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f90f-dfd4-1127-74a0" name="Death Hound: Crypt Beast" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="2a05-5c13-eb13-88e3" name="Death Hound: Crypt Beast" hidden="false" targetId="bc07-dbed-935f-fd14" type="profile"/>
+        <infoLink id="d3b4-a5a4-b574-53c9" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
+        <infoLink id="501e-baf7-1f03-c5d0" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="5dc2-2046-51cb-d606" name="Familiar" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+        <infoLink id="c98e-d505-5410-b419" name="Acute Senses" hidden="false" targetId="547c-e6e5-64d4-a519" type="rule"/>
+        <infoLink id="ca6d-8a81-d459-3226" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -833,6 +987,175 @@ Illusion</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d318-207f-d594-b4ee" name="Vampire: Outcast Dunmer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Dunmer (Vampire)</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Blood Magic: Magicka Cost 1
+6&quot; [YELLOW][YELLOW]
+Absorb Health (1), Enchanted</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Immunity (Poison), Night Eye, Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">4
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">2</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Clan Volkihar</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2073-4095-4b83-8bdd" name="Vampire: Outcast Altmer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Altmer (Vampire)</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Blood Magic: Magicka Cost 1
+6&quot; [YELLOW][YELLOW]
+Absorb Health (1), Enchanted</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Immunity (Poison), Night Eye, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">4
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">2</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Clan Volkihar</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="56e5-aa2b-a44e-0fd7" name="Vampire: Outcast Imperial" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Imperial (Vampire)</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Blood Magic: Magicka Cost 1
+6&quot; [YELLOW][YELLOW]
+Absorb Health (1), Enchanted</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Immunity (Poison), Night Eye, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">4
+Blood Magic</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">2</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Clan Volkihar</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3cd6-202e-eefb-d3f8" name="Vampire Fledgling: Nord Neophyte" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord (Vampire)</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Destruction: Magicka Cost 1
+6&quot; [GREEN][YELLOW] (Frost)
+Enchanted</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Immunity (Poison), Night Eye, Resistance (Frost), Weakness (Fire)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">1</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Clan Volkihar</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1b8b-f1f9-f4e8-c53a" name="Vampire Fledgling: Breton Neophyte" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Breton (Vampire)</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Destruction: Magicka Cost 1
+6&quot; [GREEN][YELLOW] (Frost)
+Enchanted
+Magicka Boost (1): Add [YELLOW] per point</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Immunity (Poison), Night Eye, Resistance (Frost, Magic), Weakness (Fire)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">2</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Clan Volkihar</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bc07-dbed-935f-fd14" name="Death Hound: Crypt Beast" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Beast</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED]
+[HELMET]: add (Frost)
+[SWORDS]: give Slowed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">None</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Acute Senses, Familiar, Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">2</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">1</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Clan Volkihar</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

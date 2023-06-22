@@ -116,19 +116,6 @@
         <categoryLink id="f7f8-1d7a-e9ce-e8d3" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4325-8f0d-59be-4997" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f4d4-a805-0779-4374" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="ab75-80e4-c224-3ca0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
-        <categoryLink id="05dc-6c4c-01dc-59fe" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
-        <categoryLink id="64e0-975f-7181-e891" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="c936-5685-3c15-0b3c" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
-        <categoryLink id="22b9-f3c4-8865-af7b" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
-        <categoryLink id="e576-5363-670a-4079" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
-        <categoryLink id="bb7a-7e35-5653-f5ea" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
-        <categoryLink id="9de6-58c8-3230-08a6" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
-        <categoryLink id="3455-2991-2bd9-e995" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="73bf-c9d3-b47e-265b" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f4d4-a805-0779-4374" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="897e-fc25-c3e7-3974" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
@@ -144,6 +131,41 @@
         <categoryLink id="a330-dc5d-1790-e805" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="e458-759d-8b56-1c23" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
         <categoryLink id="94ca-f6d9-6fa4-6762" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c967-4d34-cf41-15dc" name="Bandit Plunderer: Nord Axeman" hidden="false" collective="false" import="true" targetId="1022-f408-89e4-8840" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="975c-4f92-2e45-00a0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="3bcc-8826-18f3-8327" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="c432-c3f0-0b93-4f23" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0eaa-0c2f-14e4-a0a9" name="Bandit Marauder: Nord Barbarian" hidden="false" collective="false" import="true" targetId="4842-defb-f766-aeb8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b2d5-3b8c-5155-b665" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="397b-f59d-f748-e962" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="cdc2-4206-815b-38e5" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="267e-80bc-668c-a340" name="Bandit Warrior: Nord Warrior" hidden="false" collective="false" import="true" targetId="b8ec-2bcb-2a23-ce21" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3451-f608-7280-cfcc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="5540-29e4-668c-aef9" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="3855-d8e2-0fc2-7361" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cb36-919a-28fe-d7d8" name="Bandit Outlaw: Nord Ranger" hidden="false" collective="false" import="true" targetId="637f-682a-e7e9-4010" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d5fa-2a3d-f274-52f3" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="8757-1006-f3fe-7cb6" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="3d1e-0292-f1e5-ccbb" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="00e5-2a98-c246-0169" name="Bandit Warrior: Orc Warrior" hidden="false" collective="false" import="true" targetId="556b-d9cb-69e3-7b90" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e9b8-b0c7-a6d4-e9b4" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="ac2b-a3ff-44e1-dcd5" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="d100-e4c4-ea94-b1cc" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -431,6 +453,63 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1022-f408-89e4-8840" name="Bandit Plunderer: Nord Axeman" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="3487-f7f2-4ef1-f768" name="Brigand" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>If this model removes an enemy as a casualty [as a result of] a Melee Attack and that enemy possessed any Treasure Cards when it was removed, roll the Skill die. On a [CRITICAL HIT], gain 1 bonus VP.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b980-4349-a63e-b38f" name="Bandit Plunderer: Nord Axeman" hidden="false" targetId="be3d-66b4-4e5e-31c8" type="profile"/>
+        <infoLink id="bd57-d69d-3502-0edc" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="c245-fcbf-16c4-5f63" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4842-defb-f766-aeb8" name="Bandit Marauder: Nord Barbarian" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8592-d48c-7f93-8416" name="Bandit Marauder: Nord Barbarian" hidden="false" targetId="451f-9163-74fe-52c9" type="profile"/>
+        <infoLink id="a1d0-20f0-05d1-4018" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="932e-8633-94fb-d28d" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="40f0-0766-a2f3-0ad5" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+        <infoLink id="929f-4739-e036-cfbc" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8ec-2bcb-2a23-ce21" name="Bandit Warrior: Nord Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="7ab2-c0be-b0d6-6267" name="Bandit Warrior: Nord Warrior" hidden="false" targetId="af95-21c4-2e8b-0fa2" type="profile"/>
+        <infoLink id="c43f-6dc0-85d2-0c20" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="cc64-534b-a788-6212" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="637f-682a-e7e9-4010" name="Bandit Outlaw: Nord Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8c65-b837-7469-cae2" name="Bandit Outlaw: Nord Ranger" hidden="false" targetId="e137-e3cd-fc26-5e30" type="profile"/>
+        <infoLink id="706a-8e48-9ff8-f5e1" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="f6bd-998f-2fa4-bcf9" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="556b-d9cb-69e3-7b90" name="Bandit Warrior: Orc Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="59e7-5d9d-ad8f-cf16" name="Bandit Warrior: Orc Warrior" hidden="false" targetId="9681-179c-10b3-05e8" type="profile"/>
+        <infoLink id="e328-4d36-5f88-c4eb" name="Orsimer" hidden="false" targetId="24d3-bf90-3495-ab2b" type="infoGroup"/>
+        <infoLink id="56e7-3704-f645-1434" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -817,6 +896,144 @@ Speech</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be3d-66b4-4e5e-31c8" name="Bandit Plunderer: Nord Axeman" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [RED]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost), Brigand</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">4</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="451f-9163-74fe-52c9" name="Bandit Marauder: Nord Barbarian" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Two-Handed: [RED][YELLOW]
+[HELMET]: Bleed
+[SWORDS]: add [GREEN]
+Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af95-21c4-2e8b-0fa2" name="Bandit Warrior: Nord Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e137-e3cd-fc26-5e30" name="Bandit Outlaw: Nord Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+8&quot;: [RED]
+24&quot;: [YELLOW]
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9681-179c-10b3-05e8" name="Bandit Warrior: Orc Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Orsimer</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Berserker Rage</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -26,6 +26,16 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bc8b-bf2c-0b01-5fcf" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="ed45-38f4-08d3-a930" name="Sceolang: Armored Hound" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="36fd-38f6-eeeb-ea89" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="552e-212d-c823-1f61" name="Bran: Armored Hound" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="911c-0375-5972-c9e9" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="11f6-da75-08a3-82d6" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="20df-881d-0dc6-3c36" type="selectionEntry">
@@ -159,6 +169,50 @@
         <categoryLink id="018c-c979-d1ac-950b" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="ce5b-b923-6f3c-d48e" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="eed5-2f7b-8c09-258d" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="de97-d986-300c-28d7" name="Dawnguard Vampire Hunter: Dawnguard Hammer" hidden="false" collective="false" import="true" targetId="a8f4-b653-fa4c-7592" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="953f-d19b-82c6-10dc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="d51a-b3eb-9f53-3eae" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="c9a6-0e0e-a7fe-f93a" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aa5d-df1a-698a-cf46" name="Dawnguard Warrior: Dawnguard Axeman" hidden="false" collective="false" import="true" targetId="d271-5904-40b2-f734" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b171-d665-3d53-feed" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="62f5-2208-690b-7ef5" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="d1f8-edb6-cd35-ed6e" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="61cb-d5c7-5cd6-dda6" name="Dawnguard Scout: Dawnguard Crossbow" hidden="false" collective="false" import="true" targetId="e6df-8a75-3664-c83d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ae29-fb76-f38a-451f" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="c86b-0e57-7589-de0f" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="5642-a03e-0c77-fd4b" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="58a5-5c31-fad7-36a5" name="Sceolang: Armored Hound" hidden="false" collective="false" import="true" targetId="dd27-6fc9-d25a-68ff" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="85fd-2ec7-cc0d-44eb" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="c3db-1f57-9ca5-ca42" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="4631-0e02-6af0-8b12" name="Sceolang: Armored Hound" hidden="false" targetId="ed45-38f4-08d3-a930" primary="false"/>
+        <categoryLink id="f728-01bc-063d-10b2" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5d3d-b0e9-e06a-11e1" name="Bran: Armored Hound" hidden="false" collective="false" import="true" targetId="52fe-1120-a78e-4143" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="016c-38e8-8dbe-2596" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="e6e7-14fd-1b5b-e71b" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="b470-e809-5f22-18b3" name="Bran: Armored Hound" hidden="false" targetId="552e-212d-c823-1f61" primary="false"/>
+        <categoryLink id="a2ba-8ba5-6b5f-d1b9" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4f6c-4042-e7ae-6b03" name="Armored Troll: Tamed Brute" hidden="false" collective="false" import="true" targetId="f957-5be5-e8ad-d117" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bec2-8b3e-a537-c5e8" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="e8f5-5864-a034-09ce" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="6311-221e-d46b-de53" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -383,7 +437,101 @@
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a8f4-b653-fa4c-7592" name="Dawnguard Vampire Hunter: Dawnguard Hammer" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="c1fa-5ebe-a719-7719" name="Dawnguard Vampire Hunter: Dawnguard Hammer" hidden="false" targetId="baf8-cecc-78fc-90b7" type="profile"/>
+        <infoLink id="d71e-4ffa-dae8-af18" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+        <infoLink id="f691-2a4f-8565-3838" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="3b8d-a2a9-9d7c-91bd" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="f36b-8741-42a4-8ca6" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="5660-3423-3bfe-7fff" name="Dawnguard Weapon" hidden="false" targetId="13ac-5d7b-67c9-eb47" type="rule"/>
+        <infoLink id="eb06-211a-c900-93fb" name="Dawnguard Armor" hidden="false" targetId="1876-7498-6402-603b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d271-5904-40b2-f734" name="Dawnguard Warrior: Dawnguard Axeman" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="0c4f-3bb7-21d3-594a" name="Dawnguard Warrior: Dawnguard Axeman" hidden="false" targetId="32e9-cd37-c447-f8b3" type="profile"/>
+        <infoLink id="452f-c798-9860-4a40" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="7bad-6559-2ddc-1997" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="2333-575a-893a-4bb1" name="Dawnguard Weapon" hidden="false" targetId="13ac-5d7b-67c9-eb47" type="rule"/>
+        <infoLink id="cce8-efde-f375-1456" name="Dawnguard Armor" hidden="false" targetId="1876-7498-6402-603b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e6df-8a75-3664-c83d" name="Dawnguard Scout: Dawnguard Crossbow" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="190a-185c-b963-476f" name="Dawnguard Scout: Dawnguard Crossbow" hidden="false" targetId="e07e-5f12-1a67-65a4" type="profile"/>
+        <infoLink id="c23c-ea27-8961-eb19" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="528b-85c1-c86f-1f33" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="90fa-aefa-9f19-bab0" name="Dawnguard Weapon" hidden="false" targetId="13ac-5d7b-67c9-eb47" type="rule"/>
+        <infoLink id="1fd9-2d6e-45c9-70f0" name="Dawnguard Armor" hidden="false" targetId="1876-7498-6402-603b" type="rule"/>
+        <infoLink id="56df-07cb-1a48-02a7" name="Slow To Fire" hidden="false" targetId="a213-4c27-218f-13b3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd27-6fc9-d25a-68ff" name="Sceolang: Armored Hound" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="d2de-981f-27e9-e803" name="Sceolang: Armored Hound" hidden="false" targetId="37cf-dea1-57fd-b060" type="profile"/>
+        <infoLink id="ef8b-babb-42c8-963e" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
+        <infoLink id="7457-e3c8-93ad-f772" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="1520-671a-ddda-ff0b" name="Familiar" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+        <infoLink id="9764-153d-edf7-bebb" name="Dawnguard Wardog" hidden="false" targetId="1384-0f66-5ca2-1eca" type="rule"/>
+        <infoLink id="cf50-7d3f-fc0b-d04a" name="Packmates" hidden="false" targetId="616e-28c2-9751-4ca8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52fe-1120-a78e-4143" name="Bran: Armored Hound" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="d2aa-30fd-1125-50ee" name="Sceolang: Armored Hound" hidden="false" targetId="37cf-dea1-57fd-b060" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Bran: Armored Hound"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="89d6-688c-8025-c5d4" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
+        <infoLink id="bd06-13fd-46f2-9586" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="5c16-5d19-aa6a-cdcb" name="Familiar" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+        <infoLink id="3fa4-389c-fab1-a9b3" name="Dawnguard Wardog" hidden="false" targetId="1384-0f66-5ca2-1eca" type="rule"/>
+        <infoLink id="df15-3e0b-d8d7-e147" name="Packmates" hidden="false" targetId="616e-28c2-9751-4ca8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d6a-36b6-7754-ab4c" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="f957-5be5-e8ad-d117" name="Armored Troll: Tamed Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6858-522c-2818-89ea" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="bbca-d957-d9f4-4eb3" name="Troll Strike" hidden="false" targetId="bc78-a08a-95b6-0c2b" type="rule"/>
+        <infoLink id="b35e-6f84-8d9b-513d" name="Follow-Up" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
+        <infoLink id="3a9b-e180-71ce-13c3" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="945c-8abd-59a5-06db" name="Armored Troll: Tamed Brute" hidden="false" targetId="4a89-8773-cc94-b347" type="profile"/>
+        <infoLink id="66cd-55d2-3a92-7bb7" name="Familiar" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="1384-0f66-5ca2-1eca" name="Dawnguard Wardog" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>If the target of [this model&apos;s] Melee Attack is a Vampire, the attack gains the Follow-Up (1) keyword.</description>
+    </rule>
+    <rule id="616e-28c2-9751-4ca8" name="Packmates" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>If both Bran and Sceolang are included in the same Party, they count as a single Familiar for the purposes of Force creation.</description>
+    </rule>
+    <rule id="bc78-a08a-95b6-0c2b" name="Troll Strike" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>When [this model] performs a Power Attack Boost, it adds [RED] instead of [YELLOW] to the attack roll.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="d339-e843-3db2-1706" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
@@ -656,6 +804,150 @@ Heavy Armor</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="baf8-cecc-78fc-90b7" name="Dawnguard Vampire Hunter: Dawnguard Hammer" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Two-Handed: [RED][RED]
+[HELMET]: Stagger
+[SWORDS]: add [YELLOW]
+Cumbersome, Dawnguard Weapon, Two-Handed Block</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Heavy Armor: [RED][YELLOW]
+Dawnguard Armor</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dawnguard</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="32e9-cd37-c447-f8b3" name="Dawnguard Warrior: Dawnguard Axeman" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[HELMET]: Bleed
+[SWORDS]: add [YELLOW]
+Dawnguard Weapon</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [RED]
+Dawnguard Armor</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [RED]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dawnguard</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e07e-5f12-1a67-65a4" name="Dawnguard Scout: Dawnguard Crossbow" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Imperial</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED]
+[HELMET]: Bleed
+[SWORDS]: add [YELLOW]
+Dawnguard Weapon</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+12&quot;: [GREEN][RED][YELLOW]
+24&quot;: [RED]
+[HELMET]: Piercing (2)
+[SWORDS]: Punishing (1)
+Dawnguard Weapon, Slow to Fire</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [RED]
+Dawnguard Armor</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dawnguard</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="37cf-dea1-57fd-b060" name="Sceolang: Armored Hound" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Unique)</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Beast</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][YELLOW][YELLOW]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW][YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Familiar, Fleet, Dawnguard Wardog, Packmates</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">1</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dawnguard</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4a89-8773-cc94-b347" name="Armored Troll: Tamed Brute" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Monster</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED]
+[HELMET]: Punishing (2)
+[SWORDS]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Heavy Armor: [BLACK]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Familiar, Terrifying, Troll Strike</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">6</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">3</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">3</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dawnguard</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

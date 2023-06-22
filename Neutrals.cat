@@ -1197,6 +1197,27 @@
         <categoryLink id="edc0-2534-6b97-dc58" name="Umana: Alftand Explorer" hidden="false" targetId="5e04-164b-eb1d-0f61" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="9ce6-f300-2870-992f" name="Nord Warrior: Mercenary" hidden="false" collective="false" import="true" targetId="59d2-c10e-381d-6702" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="482d-f5f9-ba0d-8dc7" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
+        <categoryLink id="046c-d9b3-c4f9-a5f0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="507a-2c39-0eaf-b385" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ca59-7a20-68f1-4f08" name="Nord Ranger: Mercenary" hidden="false" collective="false" import="true" targetId="1433-199b-3dda-e768" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bd91-db63-e1e4-dc26" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
+        <categoryLink id="1075-b725-0468-f4be" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="7095-f150-33cb-11a0" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a2a8-b195-83a5-6f22" name="Orc Warrior: Mercenary" hidden="false" collective="false" import="true" targetId="fc9f-2270-e1b5-811e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="51a0-1406-0c65-2f98" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
+        <categoryLink id="4cdd-2b1a-2b3e-47e9" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="7feb-d390-c7f9-09d6" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="1fa4-7b37-8c2f-0a9e" name="Sven: The Minstrel" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -2866,6 +2887,36 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59d2-c10e-381d-6702" name="Nord Warrior: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="4781-116f-4eb8-46fd" name="Nord Warrior: Mercenary" hidden="false" targetId="8560-4f47-8de2-5c41" type="profile"/>
+        <infoLink id="1404-b61d-eb49-fa02" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="e9f3-2e19-664f-17e6" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1433-199b-3dda-e768" name="Nord Ranger: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="b384-9df3-b8aa-c481" name="Nord Ranger: Mercenary" hidden="false" targetId="952d-3bef-4a88-a4a4" type="profile"/>
+        <infoLink id="1772-a87f-b393-8a2a" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="b948-4c9e-3b04-3d84" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc9f-2270-e1b5-811e" name="Orc Warrior: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="d580-492f-f12a-b96d" name="Orc Warrior: Mercenary" hidden="false" targetId="4528-41b1-9eb9-18a2" type="profile"/>
+        <infoLink id="7f3f-c931-7310-d814" name="Orsimer" hidden="false" targetId="24d3-bf90-3495-ab2b" type="infoGroup"/>
+        <infoLink id="4d74-696f-3b58-c629" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4726,6 +4777,89 @@ Heavy Armor</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8560-4f47-8de2-5c41" name="Nord Warrior: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="952d-3bef-4a88-a4a4" name="Nord Ranger: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+8&quot;: [RED]
+24&quot;: [YELLOW]
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutrals</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4528-41b1-9eb9-18a2" name="Orc Warrior: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Orsimer</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Berserker Rage</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutrals</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

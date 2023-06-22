@@ -18,23 +18,23 @@
     </entryLink>
     <entryLink id="7eea-2a98-6a78-d3f2" name="Hold Guard: Enforcer" hidden="false" collective="false" import="true" targetId="1454-24be-fa85-cba3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a0d0-cae3-6438-4671" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="1d67-187a-a6b6-4c9c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="7182-bbf5-0244-2c0d" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+        <categoryLink id="454b-4654-60d7-13d4" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="609c-34fa-f01c-6592" name="Hold Guard: Sentry" hidden="false" collective="false" import="true" targetId="a021-3155-c447-8086" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="108b-3d84-90ad-20c4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="e3db-50d3-041f-e48f" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
         <categoryLink id="f6f5-506e-1d16-5aa2" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="6815-975a-5ba7-a202" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1506-689a-2ef7-ae92" name="Hold Guard: Patroller" hidden="false" collective="false" import="true" targetId="0c8a-1c7f-7a54-4b64" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b285-7ef2-c758-63e4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="3261-8ee7-de52-dc28" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="b6d6-dbf9-f62d-1fe9" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+        <categoryLink id="58c7-aa67-e0e5-6176" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

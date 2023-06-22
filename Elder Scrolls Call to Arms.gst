@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="4" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Done: All Heroes, Draugr Upgrades, Chapter 2 Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers
-TODO: STAG Followers, Chapter 3 (All Non-Hero)
+  <comment>Done: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers*
+TODO: STAG Followers, Chapter 3 Followers (Almost Done)
 Low Priority: Adversaries</comment>
   <publications>
     <publication id="4d6f-8c48-a5ea-e83c" name="BRB (May 2023)" shortName="BRB (5-23)" publisher="The Elder Scrolls: Call to Arms Revised Rulebook (May 2023)" publicationDate="May 2023" publisherUrl="https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads"/>
@@ -303,6 +303,7 @@ Low Priority: Adversaries</comment>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e64-9681-104d-a525" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="c413-2e33-e6e4-ffca" name="Elf is Champion (Orthjolf)" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
@@ -605,7 +606,7 @@ A: Yes</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284e-4dfa-d32b-0a6e" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3efd-636a-29f2-96de" name="Draugr: Ice Storm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="37e5-2f66-87af-739b" type="profile"/>
+        <infoLink id="3efd-636a-29f2-96de" name="Ice Storm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="37e5-2f66-87af-739b" type="profile"/>
         <infoLink id="454e-3f0e-f3da-a054" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
         <infoLink id="8c6d-b2da-8fbc-a716" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
       </infoLinks>
@@ -715,7 +716,7 @@ A: Yes</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ab-9ecd-ae18-8810" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="bd32-364c-77a7-3224" name="Draugr: Disarm" hidden="false" targetId="c7a7-6484-3839-a549" type="profile"/>
+        <infoLink id="bd32-364c-77a7-3224" name="Disarm" hidden="false" targetId="c7a7-6484-3839-a549" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
@@ -2245,6 +2246,7 @@ A: Yes</description>
         <infoLink id="4629-f7c6-6c67-2ecb" name="Steadfast Ward (Spell Form)" hidden="false" targetId="2658-7040-739e-9a53" type="profile"/>
         <infoLink id="7146-b539-65fe-f79c" name="Steadfast Ward (Shield Form)" hidden="false" targetId="5895-e13f-33a4-0cf1" type="profile"/>
         <infoLink id="2e29-7215-c205-5aa9" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
+        <infoLink id="a700-6c85-b217-3e15" name="Upkeep" hidden="false" targetId="826a-0482-f398-9eb9" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12.0"/>
@@ -3343,6 +3345,210 @@ A: Yes</description>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="86d8-471e-ff8e-c663" name="Weapon Enchantment: Storms" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0472-fc9d-acf3-20c0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="48fa-cfd4-aa40-94bb" name="Enchantment: Storms" hidden="false" targetId="6eee-c16d-05dc-183b" type="profile"/>
+        <infoLink id="a4e6-3237-309d-2746" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="825e-f233-bf26-55b3" name="Damage Type: Shock" hidden="false" targetId="c757-1849-5b26-4b56" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0422-9e33-1a46-9d8f" name="Disarm" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e1f5-2984-7b8f-f21f" name="Disarm" hidden="false" targetId="c7a7-6484-3839-a549" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a55f-cc1a-d0bb-82a8" name="Ice Form" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6937-0a95-34d6-ce57" name="Ice Form" hidden="false" targetId="88b2-4311-4d72-4b40" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7993-6ddd-4a16-5323" name="Blood Magic: Drain Life" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="832f-99a8-bdc8-edbc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="70bb-17d6-0a26-4c2e" name="Absorb (Reserve) (X)" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="b9f8-84ce-e0d4-cf03" name="Blood Magic: Drain Life" hidden="false" targetId="be85-3a01-34ad-c7ae" type="profile"/>
+        <infoLink id="2b0f-0600-06d3-7172" name="Magicka Boost (X)" hidden="false" targetId="2597-fb44-57b8-5201" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a1f-c451-1962-243a" name="Blood Magic: Vampiric Grip" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b299-5598-d528-e35a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7606-1344-fdfe-f1cc" name="Blood Magic: Vampiric Grip" hidden="false" targetId="1472-18fb-48d5-bcf3" type="profile"/>
+        <infoLink id="19ee-1e03-3241-8124" name="Magicka Boost (X)" hidden="false" targetId="2597-fb44-57b8-5201" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eebb-0db0-5ef3-17dc" name="Blood Magic: Summon Gargoyle" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df6b-c529-068f-91ca" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="88cd-b917-a0bb-94af" name="Blood Magic: Summon Gargoyle" hidden="false" targetId="5ec0-5646-61df-3890" type="profile"/>
+        <infoLink id="2f3b-f2f5-5767-5faa" name="Summon Spell Type" hidden="false" targetId="2cf8-68b6-d491-56ce" type="infoGroup"/>
+        <infoLink id="f9b5-54aa-b4d3-e1bf" name="Gargoyle: Summoned Creature" hidden="false" targetId="535f-daa0-1b9b-b33f" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="713c-a467-864a-1f29" name="Blood Magic: Vampire&apos;s Servant" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c0f-13a8-c20f-9c59" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d0f6-a76d-b0fb-dd6c" name="Blood Magic: Vampire&apos;s Servant" hidden="false" targetId="a3a2-d267-54f6-02fe" type="profile"/>
+        <infoLink id="f3fd-12de-f2d2-75e8" name="Summon Spell Type" hidden="false" targetId="2cf8-68b6-d491-56ce" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="069e-3831-5fc2-eee6" name="Blood Magic: Corpse Curse" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30af-129d-ad65-a774" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b534-6d9e-bbdc-aa35" name="Blood Magic: Corpse Curse" hidden="false" targetId="bf81-5cf3-65db-bdba" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78d4-e729-5c47-f9a1" name="Ice Storm" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d336-a4fd-7428-598f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7b03-5b68-08a8-5ec8" name="Ice Storm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="37e5-2f66-87af-739b" type="profile"/>
+        <infoLink id="f086-1660-0d2c-9f42" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
+        <infoLink id="7c53-6351-ca05-9a51" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5769-c8a2-2b80-a76c" name="Vampire&apos;s Bane" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f48-85d6-44a1-7a07" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9e51-0f71-29d0-6c92" name="Vampire&apos;s Bane" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="87e7-cbca-18b5-ea12" type="profile"/>
+        <infoLink id="6fbe-6ced-246a-4b2f" name="Damage Type: Sun" hidden="false" targetId="fd98-d091-a076-05dd" type="rule"/>
+        <infoLink id="d593-17bb-65ea-d302" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf93-4395-318c-55d2" name="Sun Fire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3fa-5f3b-48cd-7106" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="16a3-25a2-ee5c-e11c" name="Sun Fire" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="f897-996e-a1d1-5edb" type="profile"/>
+        <infoLink id="ab65-f89e-2289-9ac5" name="Damage Type: Sun" hidden="false" targetId="fd98-d091-a076-05dd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b10f-b895-5755-784e" name="Bound Battleaxe (Spell)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="784c-e413-fa2b-83f1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5194-3ca2-ec59-8b30" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="6d61-79b4-fd56-e274" name="Bound Battleaxe (Spell Form)" hidden="false" targetId="9190-e3ed-3e88-303f" type="profile"/>
+        <infoLink id="7d11-172a-1df2-66cf" name="Bound Battleaxe (Weapon Form)" hidden="false" targetId="4365-c076-086c-0af4" type="profile"/>
+        <infoLink id="3dae-db4e-63ca-d75a" name="Bound Weapon" hidden="false" targetId="6faa-8b18-79f2-d7c1" type="rule"/>
+        <infoLink id="0bd8-6b59-71b9-04c4" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+        <infoLink id="0de1-c660-7bc6-1146" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0808-234c-942c-e5c3" name="Stendarr&apos;s Aura" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45f3-e0a7-b3a4-bb47" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b275-bde3-da43-6240" name="Stendarr&apos;s Aura" hidden="false" targetId="f104-dd49-905c-b944" type="profile"/>
+        <infoLink id="5de5-1e41-8399-93ad" name="Magicka Boost (X)" hidden="false" targetId="2597-fb44-57b8-5201" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcc1-70e9-5834-290b" name="Conjure Familiar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c6-f80f-1aee-66ad" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e0f0-acb9-edec-c234" name="Conjure Familiar" hidden="false" targetId="6d1d-5f3f-7e01-db86" type="profile"/>
+        <infoLink id="a689-38ff-851d-0d8e" name="Summon Spell Type" hidden="false" targetId="2cf8-68b6-d491-56ce" type="infoGroup"/>
+        <infoLink id="7c59-235a-beac-fc8b" name="Familiar: Summoned Creature" hidden="false" targetId="0fae-e459-a5f1-b0a9" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0421-4ba3-bcf2-4af5" name="Revenant (Spell)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a363-5892-0453-3d93" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9b8a-7268-841e-5006" name="Revenant (Spell)" hidden="false" targetId="e7eb-a121-2639-1c23" type="profile"/>
+        <infoLink id="97c2-5d00-5798-79ea" name="Summon Spell Type" hidden="false" targetId="2cf8-68b6-d491-56ce" type="infoGroup"/>
+        <infoLink id="657c-993c-7d78-a021" name="Revenant: Summoned Creature" hidden="false" targetId="9feb-3e87-0350-ca4b" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94bf-8e23-d09a-c323" name="Call to Arms" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e82-2dcb-2c6c-c4ce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bbed-1c96-01c5-8f7b" name="Call to Arms" hidden="false" targetId="feb2-1a38-86ae-82b4" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dbc2-101d-8638-c2f9" name="Pacify" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f5e-28ae-2bd3-1e0d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8025-a50d-7c56-4be2" name="Pacify" hidden="false" targetId="7251-99eb-1daf-8036" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="77fb-6f37-f1df-9d41" name="Equipment" hidden="false" collective="false" import="true">
@@ -3670,7 +3876,7 @@ A: Yes</description>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a2b-e663-e68d-6e2a" type="min"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="8700-d6b0-e4d9-3dd0" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="9bf4-6f7a-8d84-7054" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3792,6 +3998,7 @@ A: Yes</description>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="instanceOf"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="instanceOf"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e1-93b0-a99d-b6b1" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3969,6 +4176,80 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="8e90-6003-2f1e-2c55" name="Blood Magic: Drain Life" hidden="true" collective="false" import="true" targetId="7993-6ddd-4a16-5323" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e1-93b0-a99d-b6b1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8ea6-8f0e-ef73-d5c5" name="Blood Magic: Vampiric Grip" hidden="true" collective="false" import="true" targetId="1a1f-c451-1962-243a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e1-93b0-a99d-b6b1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="567c-fe38-f305-26ea" name="Ice Storm" hidden="false" collective="false" import="true" targetId="78d4-e729-5c47-f9a1" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6f13-1abd-8093-f9ab" name="Vampire&apos;s Bane" hidden="true" collective="false" import="true" targetId="5769-c8a2-2b80-a76c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8efa-ca32-314e-1157" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f704-7b19-8afe-3590" name="Sun Fire" hidden="true" collective="false" import="true" targetId="cf93-4395-318c-55d2" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8efa-ca32-314e-1157" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d8f4-6cca-bf2a-0106" name="Armor Enchantments" hidden="true" collective="false" import="true">
@@ -4106,6 +4387,30 @@ A: Yes</description>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2477-a98f-8af4-6459" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d6ed-a29e-2b34-e383" name="Disarm" hidden="false" collective="false" import="true" targetId="0422-9e33-1a46-9d8f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dd8-bb5c-d086-eacc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ff6d-78b3-4c37-5ed3" name="Ice Form" hidden="false" collective="false" import="true" targetId="a55f-cc1a-d0bb-82a8" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afd3-c06d-d93f-5dfe" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -4260,6 +4565,7 @@ A: Yes</description>
         <entryLink id="22cc-80c0-564a-4b75" name="Weapon Enchantment: Sparks" hidden="false" collective="false" import="true" targetId="8aa7-db3d-5224-7e8d" type="selectionEntry"/>
         <entryLink id="24c7-b324-86f2-52a5" name="Weapon Enchantment: Embers" hidden="false" collective="false" import="true" targetId="8854-53df-1cdb-c0ad" type="selectionEntry"/>
         <entryLink id="150a-6719-e854-2ad0" name="Weapon Enchantment: Frost" hidden="false" collective="false" import="true" targetId="c859-6f34-5674-d49a" type="selectionEntry"/>
+        <entryLink id="268e-6bc5-d60a-f1f7" name="Weapon Enchantment: Storms" hidden="false" collective="false" import="true" targetId="86d8-471e-ff8e-c663" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="752f-f14c-d0e4-1651" name="Armor Attachments" hidden="false" collective="false" import="true">
@@ -4292,7 +4598,8 @@ A: Yes</description>
         <entryLink id="97b9-38ef-f793-3147" name="Iron Throwing Knife" hidden="false" collective="false" import="true" targetId="7fe2-0639-9e62-7ca7" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5951-3d08-b70f-e0c2" name="Quick Slot Spells" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="5951-3d08-b70f-e0c2" name="Quick Slot &amp; Hybrid Spells" hidden="true" collective="false" import="true">
+      <comment>Includes bound spells</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -4300,10 +4607,11 @@ A: Yes</description>
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="instanceOf"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e1-93b0-a99d-b6b1" type="instanceOf"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2aea-a863-419f-ba90" type="instanceOf"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="instanceOf"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -4713,6 +5021,119 @@ A: Yes</description>
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8aeb-3b85-b85f-a7bc" name="Blood Magic: Summon Gargoyle" hidden="true" collective="false" import="true" targetId="eebb-0db0-5ef3-17dc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e1-93b0-a99d-b6b1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f347-c912-039b-2437" name="Blood Magic: Vampire&apos;s Servant" hidden="true" collective="false" import="true" targetId="713c-a467-864a-1f29" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e1-93b0-a99d-b6b1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ebc5-dd2c-bbcc-dfad" name="Blood Magic: Corpse Curse" hidden="true" collective="false" import="true" targetId="069e-3831-5fc2-eee6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e1-93b0-a99d-b6b1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0a98-46f4-a8c7-d4fc" name="Bound Battleaxe (Spell)" hidden="false" collective="false" import="true" targetId="b10f-b895-5755-784e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f744-d399-759f-a120" name="Stendarr&apos;s Aura" hidden="false" collective="false" import="true" targetId="0808-234c-942c-e5c3" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf">
+                      <comment>Errata?</comment>
+                    </condition>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="aa55-6933-e97b-93a9" name="Conjure Familiar" page="" hidden="false" collective="false" import="true" targetId="dcc1-70e9-5834-290b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6301-050d-181e-af5b" name="Revenant (Spell)" hidden="false" collective="false" import="true" targetId="0421-4ba3-bcf2-4af5" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ac9e-ffb4-edb2-96c6" name="Pacify" hidden="false" collective="false" import="true" targetId="dbc2-101d-8638-c2f9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="4edc-8b65-1e73-4d97" name="Call to Arms" hidden="false" collective="false" import="true" targetId="94bf-8e23-d09a-c323" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -5815,7 +6236,7 @@ of Skill test to use the upgrade. It also means that models without the specifie
 Skill icon may be used freely by anyone. Remember that a model’s path may allow it to equip certain Upgrades even if it does not possess the Skill (see
 ‘Paths’, p.90 [BRB]).</description>
     </rule>
-    <rule id="129d-f11e-1a4e-b30f" name="Familiars" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false">
+    <rule id="129d-f11e-1a4e-b30f" name="Familiar" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false">
       <description>Familiars are a special type of Follower. Players may choose no more than one Familiar for every Hero in their Party.</description>
     </rule>
     <rule id="21a9-2a71-b558-5118" name="Subraces" publicationId="fc6a-2d15-ff0e-9318" page="4" hidden="false">
@@ -5973,7 +6394,7 @@ Add [YELLOW] for each additional Soul Charge spent.</characteristic>
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="37e5-2f66-87af-739b" name="Draugr: Ice Storm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+    <profile id="37e5-2f66-87af-739b" name="Ice Storm" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
       <characteristics>
         <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
         <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged Attack</characteristic>
@@ -5983,10 +6404,10 @@ Add [YELLOW] for each additional Soul Charge spent.</characteristic>
         <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Damage: [GREEN][RED] (Frost)
 [HELMET]: add [YELLOW][YELLOW]
 [OBLIVION]: add [RED]
-Area Effect 2&quot;
+Area Effect (2&quot;)
 </characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
-        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
       </characteristics>
     </profile>
     <profile id="c711-3a07-14f6-7f55" name="Draugr: Ancient Nord Bow" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
@@ -6074,13 +6495,13 @@ Area Effect 2&quot;
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
       </characteristics>
     </profile>
-    <profile id="c7a7-6484-3839-a549" name="Draugr: Disarm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
+    <profile id="c7a7-6484-3839-a549" name="Disarm" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
       <characteristics>
         <characteristic name="Range" typeId="728c-7558-12ae-4725">6&quot;</characteristic>
-        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">Target with a value of up to 30 Septims must choose one weapon of their choice, and turn it face-down. It cannot be used until they use an Action to turn it face-up.</characteristic>
-        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">As above, but target may have a value of up to 50 Septims.</characteristic>
-        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">As above, but target has a value greater than 50 Septims.</characteristic>
-        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">Environment</characteristic>
+        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">Target with a value of up to 30 Septims [before upgrades] must choose one weapon of their choice, and flip it face-down. It cannot be used until they perform a Special Action to flip it face-up.</characteristic>
+        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">As above, but target may have a value of up to 50 Septims [before upgrades].</characteristic>
+        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">As above, but target [may have] a value greater than 50 Septims [before upgrades].</characteristic>
+        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">Ranged Attack</characteristic>
         <characteristic name="Attribute" typeId="d9be-48d4-da1d-da21">Strength</characteristic>
       </characteristics>
     </profile>
@@ -7399,7 +7820,7 @@ Strength 6+: [RED]</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
       </characteristics>
     </profile>
-    <profile id="857c-dde4-d41d-b17e" name="Bound Sword: Weapon Form" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+    <profile id="857c-dde4-d41d-b17e" name="Bound Sword (Weapon Form)" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
 [HELMET]: add [YELLOW]
@@ -7862,7 +8283,7 @@ Area Effect (3&quot;)</characteristic>
     </profile>
     <profile id="a345-22e4-55c1-762a" name="Frost Atronach: Summoned Creature" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
       <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
         <characteristic name="Race" typeId="1735-edc6-5600-9496">Daedra</characteristic>
         <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
         <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED] (Frost)
@@ -7886,7 +8307,7 @@ Area Effect (3&quot;)</characteristic>
     </profile>
     <profile id="604c-079f-8138-ccd3" name="Storm Atronach: Summoned Creature" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
       <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
         <characteristic name="Race" typeId="1735-edc6-5600-9496">Daedra</characteristic>
         <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
         <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Melee (Strength): [GREEN][YELLOW] (Shock)
@@ -8029,7 +8450,7 @@ Area Effect (3&quot;)</characteristic>
     </profile>
     <profile id="8a1d-ba3d-f78a-2739" name="Flame Atronach: Summoned Creature" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
       <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
         <characteristic name="Race" typeId="1735-edc6-5600-9496">Daedra</characteristic>
         <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
         <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][YELLOW]
@@ -8055,7 +8476,7 @@ Enchanted</characteristic>
     </profile>
     <profile id="14c5-856f-b423-28e8" name="Reanimated Corpse: Summoned Creature (Adversary)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
       <characteristics>
-        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Minion</characteristic>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Minion (Summoned Creature)</characteristic>
         <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Undead</characteristic>
         <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
         <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
@@ -8091,7 +8512,7 @@ Card missing from Chapter 3 pack. Free download available at https://www.modiphi
     </profile>
     <profile id="6ae2-10fd-b28e-b366" name="Vampire Lord: Winged Nightmare (Shapeshift)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
       <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Shapeshift Form</characteristic>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Shapeshift Form [Follower Card]</characteristic>
         <characteristic name="Race" typeId="1735-edc6-5600-9496">Monster (Vampire)</characteristic>
         <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
         <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED][RED]
@@ -8116,7 +8537,7 @@ Blood Magic</characteristic>
         <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">4</characteristic>
         <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">3</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
-        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Monsters</characteristic>
       </characteristics>
     </profile>
     <profile id="4a99-a212-c794-97a1" name="Enchantment: Hauling" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
@@ -8475,6 +8896,269 @@ Add [YELLOW] for each additional Soul Charge spent.</characteristic>
         <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
       </characteristics>
     </profile>
+    <profile id="6eee-c16d-05dc-183b" name="Enchantment: Storms" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Weapon</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">[HELMET]: add [BLACK] (Shock)</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="88b2-4311-4d72-4b40" name="Ice Form" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
+      <characteristics>
+        <characteristic name="Range" typeId="728c-7558-12ae-4725">3&quot;</characteristic>
+        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">Target enemy loses one Action [from] its next Activation.</characteristic>
+        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">All enemies in range lose one Action [each from] their next Activation.</characteristic>
+        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">All enemies in range lose one Action [each from] their next Activation and recieve a Slowed Token.</characteristic>
+        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">Curse</characteristic>
+        <characteristic name="Attribute" typeId="d9be-48d4-da1d-da21">Strength</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be85-3a01-34ad-c7ae" name="Blood Magic: Drain Life" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Melee/Ranged Attack</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+2</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">3&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Blood Magic</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[GREEN][YELLOW][YELLOW]
+Absorb Health (3), Absorb Magicka (3), Absorb Stamina (3)</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (2): Add [YELLOW] per point.</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1472-18fb-48d5-bcf3" name="Blood Magic: Vampiric Grip" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Curse</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+1</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">8&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Blood Magic</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Target model must take a Strength Attribute Test.  If failed, it must move 3&quot; directly towards the caster (as per Force damage [see BRB pg. 93]).  If this move ends within 3&quot; of the caster, target suffers [YELLOW] damage (ignore Armor Rating).</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (1): Add [YELLOW] to damage.</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ec0-5646-61df-3890" name="Blood Magic: Summon Gargoyle" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">3</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Summon</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+3</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Blood Magic</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Place on Gargoyle as a Summoned Creature at the target point.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d2e5-5e3e-9f48-ad8f" name="Gargoyle: Volkihar Sentinel" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Monster</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED]
+[HELMET]: Punishing (1)
+[SWORDS]: Absorb Health (1)
+Follow-Up [1]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [RED] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Fly, Immunity (Bleed, Poison)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">5</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Clan Volkihar</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a3a2-d267-54f6-02fe" name="Blood Magic: Vampire&apos;s Servant" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Summon</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+1</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Blood Magic</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Choose one Volkihar Thrall Follower previously removed as a casualty [that has] a Septim value of up to half the Caster&apos;s Septim value [before upgrades]. Return that model to play at the target point, treating it as a Summoned Creature thereafter.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bf81-5cf3-65db-bdba" name="Blood Magic: Corpse Curse" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">3</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Curse</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+3</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">8&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Blood Magic</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Target model must take a Wisdom Attribute Test. If this test is failed, the target is Incapicitated.  If the test is passed, the target [gains a] Slowed [Token] instead.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="87e7-cbca-18b5-ea12" name="Vampire&apos;s Bane" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">3</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged Attack</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+3</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">12&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Restoration</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Damage: [GREEN][RED][RED] (Sun)
+[OBLIVION]: add [YELLOW]
+Area Effect (2&quot;)
+This Spell only affects Undead and Vampire models within its area.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Restriction: Dawnguard [faction members] only.</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f897-996e-a1d1-5edb" name="Sun Fire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged Attack</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+2</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">12&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Restoration</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Damage: [GREEN][RED][RED] (Sun)
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Restriction: Dawnguard [faction members] only.</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9190-e3ed-3e88-303f" name="Bound Battleaxe (Spell Form)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Personal: Bound Weapon</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+0</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">None</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Conjuration
+</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[See Bound Battleaxe (Weapon Form)]
+</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4365-c076-086c-0af4" name="Bound Battleaxe (Weapon Form)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[BLACK][YELLOW]
+[HELMET]: add [GREEN] and Bleed
+[SWORDS]: add [GREEN][YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">[Two]-Handed or Strength Attribute</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Enchanted, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f104-dd49-905c-b944" name="Stendarr&apos;s Aura" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <comment>Errata</comment>
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Aura</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+1</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Restoration [Errata]</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">All Vampires within range must pass an Endurance Test or recieve a Burning Token.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (1): Vampires that fail the Endurance test suffer [YELLOW] damage, ignoring Armor Rating, [in addition to recieving a Burning Token].</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d1d-5f3f-7e01-db86" name="Conjure Familiar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">1</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Summon</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">-2</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Conjuration</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Place one Familiar as a Summoned Creature at the target point.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="30c1-5e94-f497-9dee" name="Familiar: Summoned Creature" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Daedra</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][YELLOW][YELLOW]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">None</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Ethereal, Familiar</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">1</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">1</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">1</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e7eb-a121-2639-1c23" name="Revenant (Spell)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Summon</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+1</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Conjuration</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Place one Revenant as a Summoned Creature at the target point.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b1aa-664d-0b16-3f16" name="Revenant: Summoned Creature" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Immunity (Bleed), Resistance (Frost, Poison)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7251-99eb-1daf-8036" name="Pacify" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Aura</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+2</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">3&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Illusion</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[Friendly or enemy] models with a [...] Wisdom value of 3 in range when [this] spell is cast cannot perform Attack Actions this round.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="feb2-1a38-86ae-82b4" name="Call to Arms" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">3</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Aura</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+4</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">3&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Illusion</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">The caster and all friendly models in range recieve a -2 modifier to Archery, One-Handed, and Two-Handed Skill Tests [as well as] Strength Attribute tests until the end of the round.</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="359b-c87f-d2ef-fa4f" name="Perks: Archery" publicationId="4d6f-8c48-a5ea-e83c" page="81" hidden="false">
@@ -8664,7 +9348,7 @@ Add [YELLOW] for each additional Soul Charge spent.</characteristic>
     <infoGroup id="f263-f92c-54ab-e087" name="Daedra" publicationId="4d6f-8c48-a5ea-e83c" page="89" hidden="false">
       <rules>
         <rule id="a12b-0bbf-b851-7462" name="Racial Bonus Keywords: Daedra" publicationId="4d6f-8c48-a5ea-e83c" page="89" hidden="false">
-          <description>All Daedra are immune to the effects of Illusion Spells. In addition, Daedra fall into one of the following three subtypes:
+          <description>All Daedra are immune to the effects of Illusion Spells. In addition, [many] Daedra fall into one of the following three subtypes:
 
 -Flame Daedra have Immunity (Fire), Weakness (Frost), and Death Explosion (Fire).
 -Frost Daedra have Immunity (Frost), Weakness (Fire), and Death Explosion (Frost)
@@ -9027,6 +9711,41 @@ Add [YELLOW] for each additional Soul Charge spent.</characteristic>
         <infoLink id="ab3e-cdee-7de4-76a5" name="Vampire Perk: Mist Form" hidden="false" targetId="9cad-8869-3c03-b530" type="rule"/>
         <infoLink id="00a9-dc9d-331c-90e5" name="Vampire Perk: Poison Talons" hidden="false" targetId="5ebf-9690-1a20-60fb" type="rule"/>
         <infoLink id="f880-bda3-f547-bcc6" name="Vampire Perk: Supernatural Reflexes" hidden="false" targetId="94fd-e062-7e6e-f31c" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="535f-daa0-1b9b-b33f" name="Gargoyle: Summoned Creature" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <infoLinks>
+        <infoLink id="1bdb-035c-4c62-d83f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="753b-94f0-4aa2-ac74" name="Fly" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
+        <infoLink id="f06d-82c8-15f2-e8f6" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="0e01-da5a-0f35-4dcd" name="Gargoyle: Volkihar Sentinel" hidden="false" targetId="d2e5-5e3e-9f48-ad8f" type="profile">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="d40a-cf47-d6a2-041b" value="Follower (Summoned Creature)"/>
+                <modifier type="set" field="name" value="Gargoyle: Volkihar Sentinel (Summoned Creature)"/>
+                <modifier type="set" field="cb06-ff53-da97-b966" value="None"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+        <infoLink id="4157-c08b-bfc7-188b" name="Immunity (Type)" hidden="false" targetId="7c88-fc5e-9fde-1261" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="0fae-e459-a5f1-b0a9" name="Familiar: Summoned Creature" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <infoLinks>
+        <infoLink id="16a1-e080-2ea2-62b4" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="c813-ba8d-4d69-2243" name="Daedra" hidden="false" targetId="f263-f92c-54ab-e087" type="infoGroup"/>
+        <infoLink id="a6a0-aa74-e13c-03a3" name="Familiar: Summoned Creature" hidden="false" targetId="30c1-5e94-f497-9dee" type="profile"/>
+        <infoLink id="db1f-3515-5373-3126" name="Ethereal" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+        <infoLink id="1fcd-1077-9cb2-b0aa" name="Familiar" hidden="false" targetId="129d-f11e-1a4e-b30f" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="9feb-3e87-0350-ca4b" name="Revenant: Summoned Creature" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <infoLinks>
+        <infoLink id="9c5a-9668-70a1-2ba3" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="1673-e800-265b-914a" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="88a9-b550-a845-adc1" name="Revenant: Summoned Creature" hidden="false" targetId="b1aa-664d-0b16-3f16" type="profile"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>

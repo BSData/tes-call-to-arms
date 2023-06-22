@@ -23,6 +23,7 @@
         <categoryLink id="a862-6c9e-eb2b-475e" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="8ad5-6662-ea35-38df" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
         <categoryLink id="88bb-ab32-dffe-5d11" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="634e-69f9-2353-a109" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1532-e8c3-91d2-6f7d" name="The Sorceress: Dominion Champion (Adversary)" hidden="false" collective="false" import="true" targetId="d1ed-5300-6d4b-1cb9" type="selectionEntry">
@@ -31,6 +32,7 @@
         <categoryLink id="7bdb-2371-7373-d8e5" name="The Sorceress" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
         <categoryLink id="e28e-63a6-179f-e40e" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="e3b6-a512-1c1d-5b82" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="fe59-9f76-d9c8-31d0" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
