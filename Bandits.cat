@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9615-d934-979e-7d79" name="Bandits" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9615-d934-979e-7d79" name="Bandits" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="be3e-40fb-d1db-de99" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
@@ -201,7 +201,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="95dd-8663-5805-9d28" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="4936-d5f3-7de2-5ded" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="4936-d5f3-7de2-5ded" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="337d-bde0-a286-33c5" type="max"/>
           </constraints>
@@ -247,7 +247,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="5cb9-8496-1e1d-cd64" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="7565-3b06-bfca-114d" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="7565-3b06-bfca-114d" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7cd-5837-c2dc-55c4" type="max"/>
           </constraints>
@@ -326,7 +326,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="9b08-cf0e-030c-923f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="0452-0768-b13a-bf0f" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="0452-0768-b13a-bf0f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce3-bb5e-dc9a-f74b" type="max"/>
           </constraints>
@@ -363,7 +363,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="8aca-223b-298f-855e" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="6e9e-7d28-c5b1-fb43" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="6e9e-7d28-c5b1-fb43" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59eb-eada-668f-0475" type="max"/>
           </constraints>
@@ -405,7 +405,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="3d18-1962-91e3-bd10" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="e6db-c7ac-3127-7a44" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="e6db-c7ac-3127-7a44" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884e-6320-8e88-efe8" type="max"/>
           </constraints>

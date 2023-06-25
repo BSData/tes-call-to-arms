@@ -2595,7 +2595,19 @@ A: Yes</description>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a298-5cc2-7a26-fd20" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="d6a3-9869-f1f0-db9f" name="Adventurers" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="d6a3-9869-f1f0-db9f" name="Adventurers" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="append" field="name" value="(INVALID: Check Party Composition)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" childId="ba61-d304-9352-ec15" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" childId="b1cc-bf06-8acb-dce0" type="lessThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd0e-69b7-c516-eaae" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e3-27e9-24d8-be8f" type="min"/>
@@ -2616,7 +2628,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="949d-3d53-f802-2bf3" name="Aldmeri Dominion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="949d-3d53-f802-2bf3" name="Aldmeri Dominion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d9-f0b3-035d-0393" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="213e-acaf-e7eb-d54c" type="min"/>
@@ -2638,7 +2650,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bca9-22d3-2c89-c812" name="Bandits" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="bca9-22d3-2c89-c812" name="Bandits" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e760-181e-b1ae-1208" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d65-c8cc-499e-1b63" type="min"/>
@@ -2672,7 +2684,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c6ee-751e-e8e5-492a" name="Daggerfall Covenant" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="c6ee-751e-e8e5-492a" name="Daggerfall Covenant" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27d3-410e-9ff1-ea04" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bd2-d31f-5ba1-4f59" type="min"/>
@@ -2693,7 +2705,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3838-ee29-fe4c-23d1" name="Dark Brotherhood" publicationId="2733-0fd1-3311-3be2" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="3838-ee29-fe4c-23d1" name="Dark Brotherhood" publicationId="2733-0fd1-3311-3be2" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf4-bd07-208e-d491" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a036-434b-cb5a-6e25" type="min"/>
@@ -2715,7 +2727,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5b13-d81a-9048-0fb2" name="Draugr (Faction)" publicationId="9ac9-edd2-53a7-2d58" page="1" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="5b13-d81a-9048-0fb2" name="Draugr (Faction)" publicationId="9ac9-edd2-53a7-2d58" page="1" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7826-490f-4795-89a5" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3977-b896-9641-83ee" type="min"/>
@@ -2744,7 +2756,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="03b8-d846-d949-fc55" name="Ebonheart Pact" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="03b8-d846-d949-fc55" name="Ebonheart Pact" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f15b-29df-131f-c885" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9fa-ffac-0257-2996" type="min"/>
@@ -2766,7 +2778,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6890-bf2c-fee7-ea81" name="Followers of Molag Bal" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="6890-bf2c-fee7-ea81" name="Followers of Molag Bal" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f27f-6ce4-e27b-09b6" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2060-842c-d90b-ebfc" type="min"/>
@@ -2787,7 +2799,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4a41-4348-2857-17c1" name="Hold Guard" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="4a41-4348-2857-17c1" name="Hold Guard" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6438-5921-65fc-92fd" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a5-f520-8315-c9d2" type="min"/>
@@ -2808,7 +2820,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a42d-5cd6-77d3-e140" name="Imperial Legion" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="a42d-5cd6-77d3-e140" name="Imperial Legion" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb2-9536-5dd5-5129" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f37-be60-4aad-3344" type="min"/>
@@ -2829,7 +2841,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="989b-4227-9d20-dbae" name="Nightingales" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="989b-4227-9d20-dbae" name="Nightingales" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b045-a56f-f1d5-79f1" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8338-c5e3-2aa4-5817" type="min"/>
@@ -2850,7 +2862,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="00de-a491-fd7e-bcca" name="Stormcloaks" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="00de-a491-fd7e-bcca" name="Stormcloaks" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f91a-7949-6010-cb6c" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="768c-e6b0-aaee-90fe" type="min"/>
@@ -2871,7 +2883,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2e3c-5b30-f710-890b" name="The Blades" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="2e3c-5b30-f710-890b" name="The Blades" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ac9-6aba-9591-a8f2" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9899-6fe3-cbac-1fa1" type="min"/>
@@ -2907,7 +2919,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b05e-c708-d617-0ccd" name="Neutrals (Debug)" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="true" collective="false" import="true" type="unit">
+        <selectionEntry id="b05e-c708-d617-0ccd" name="Neutrals (Debug)" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="true" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78eb-2c1d-4b03-fa7d" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e275-5cc6-f737-128f" type="min"/>
@@ -2920,7 +2932,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bbf7-abb8-4849-4da1" name="Adversary Force" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="bbf7-abb8-4849-4da1" name="Adversary Force" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd8e-bce1-c6da-e87a" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df92-4d22-e1ee-ebe4" type="min"/>
@@ -2933,7 +2945,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2793-630a-3b5a-9de9" name="Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="2793-630a-3b5a-9de9" name="Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fbd-e76d-55f0-126a" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f5-55ad-5cc7-52ac" type="min"/>
@@ -2955,7 +2967,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b7aa-4b7c-29c1-1bb5" name="Clan Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="b7aa-4b7c-29c1-1bb5" name="Clan Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b43-3dc4-beef-fffb" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7544-6940-9b5d-9888" type="min"/>
@@ -2977,7 +2989,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="57bb-6c49-490e-3f76" name="Cult of Boethiah" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="57bb-6c49-490e-3f76" name="Cult of Boethiah" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abcd-9f92-d8e6-5eec" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec59-3c1b-8491-2614" type="min"/>

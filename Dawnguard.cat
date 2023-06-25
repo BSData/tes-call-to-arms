@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="58b7-2ec8-0e9d-b743" name="Dawnguard" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="58b7-2ec8-0e9d-b743" name="Dawnguard" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6bec-164e-1258-c553" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
@@ -506,7 +506,11 @@
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d6a-36b6-7754-ab4c" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="8d6a-36b6-7754-ab4c" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="f957-5be5-e8ad-d117" name="Armored Troll: Tamed Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6858-522c-2818-89ea" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>

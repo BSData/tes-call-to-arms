@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5182-07ec-790b-ea1c" name="Clan Volkihar" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5182-07ec-790b-ea1c" name="Clan Volkihar" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3eae-7ac8-0da6-d1d7" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>

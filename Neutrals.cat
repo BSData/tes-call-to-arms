@@ -450,6 +450,7 @@
         <categoryLink id="3ee4-e94c-2397-8ef2" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
         <categoryLink id="a443-4664-3b73-43c7" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="7cd4-a344-f781-8665" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="2582-88d5-fdba-c5b8" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6caf-7823-4c4a-8720" name="Vigilance: War Dog" hidden="false" collective="false" import="true" targetId="da22-8c02-dd4c-6d0c" type="selectionEntry">
@@ -458,6 +459,7 @@
         <categoryLink id="7939-4ee2-1845-d02e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="75e2-2a21-022e-dd23" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="583d-beb3-bc4f-2310" name="Vigilance: War Dog" hidden="false" targetId="1261-c80e-1f7e-9e46" primary="false"/>
+        <categoryLink id="eedc-cd51-1906-141c" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7878-f3c5-7fce-63e1" name="War Dog: Loyal Hound" hidden="false" collective="false" import="true" targetId="4b76-5a0c-15e6-a742" type="selectionEntry">
@@ -465,6 +467,7 @@
         <categoryLink id="13d6-40b6-ba69-dbb2" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
         <categoryLink id="ec7f-cab8-9792-7785" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="38bb-6ee3-c1ba-c8d3" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="dc6e-ce2a-f3f0-d0c4" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1f8b-7d1b-d85c-15da" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" collective="false" import="true" targetId="bf15-71b2-fde4-e5d5" type="selectionEntry">
@@ -473,6 +476,7 @@
         <categoryLink id="1f7c-bd89-1da2-9256" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="9874-120c-e70e-a38d" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="02b2-48fc-7434-f069" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" targetId="8aa4-fea7-7d3c-2261" primary="false"/>
+        <categoryLink id="b7e5-c752-eb2d-cd8b" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ea87-2347-2b99-2467" name="Steadfast Dwarven Sphere: Friendly Construct" hidden="false" collective="false" import="true" targetId="7659-5c62-6d66-6a86" type="selectionEntry">
@@ -481,6 +485,7 @@
         <categoryLink id="a43d-32e7-bf85-6e00" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="3957-9ced-4b1a-b3bf" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="8bf8-2bf6-8b5c-9c10" name="Steadfast Dwarven Sphere: Friendly Construct" hidden="false" targetId="4e47-7aa0-ae5b-2efc" primary="false"/>
+        <categoryLink id="5684-9972-0c30-31f8" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e7c4-90d9-6711-4589" name="Altmer Illusionist: Sheathed Blade" hidden="true" collective="false" import="true" targetId="9fa2-5238-6eb7-ec69" type="selectionEntry">
@@ -1202,6 +1207,7 @@
         <categoryLink id="482d-f5f9-ba0d-8dc7" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
         <categoryLink id="046c-d9b3-c4f9-a5f0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="507a-2c39-0eaf-b385" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="42a8-47fd-b506-14a4" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ca59-7a20-68f1-4f08" name="Nord Ranger: Mercenary" hidden="false" collective="false" import="true" targetId="1433-199b-3dda-e768" type="selectionEntry">
@@ -1209,6 +1215,7 @@
         <categoryLink id="bd91-db63-e1e4-dc26" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
         <categoryLink id="1075-b725-0468-f4be" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="7095-f150-33cb-11a0" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="c159-6363-c521-f33b" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a2a8-b195-83a5-6f22" name="Orc Warrior: Mercenary" hidden="false" collective="false" import="true" targetId="fc9f-2270-e1b5-811e" type="selectionEntry">
@@ -1216,6 +1223,7 @@
         <categoryLink id="51a0-1406-0c65-2f98" name="New CategoryLink" hidden="false" targetId="03a4-6256-8b54-3dba" primary="true"/>
         <categoryLink id="4cdd-2b1a-2b3e-47e9" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="7feb-d390-c7f9-09d6" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="f8d5-cb8d-cda6-5a10" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
