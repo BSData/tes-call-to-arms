@@ -617,8 +617,7 @@ Sneak</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
 Light Armor
 Smithing</characteristic>
-        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
-Destruction</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
         <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
 Speech</characteristic>
         <characteristic name="Health" typeId="4d71-6d31-a8de-f417">2</characteristic>
