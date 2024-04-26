@@ -4222,7 +4222,7 @@ A: Yes</description>
         </entryLink>
         <entryLink id="6f13-1abd-8093-f9ab" name="Vampire&apos;s Bane" hidden="true" collective="false" import="true" targetId="5769-c8a2-2b80-a76c" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="set" field="hidden" value="false">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -4243,7 +4243,7 @@ A: Yes</description>
         </entryLink>
         <entryLink id="f704-7b19-8afe-3590" name="Sun Fire" hidden="true" collective="false" import="true" targetId="cf93-4395-318c-55d2" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="set" field="hidden" value="false">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -5087,7 +5087,7 @@ A: Yes</description>
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93b4-afa5-eb85-d8ec" type="notInstanceOf">
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf">
                       <comment>Errata?</comment>
                     </condition>
                   </conditions>
@@ -5095,6 +5095,15 @@ A: Yes</description>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <profiles>
+            <profile id="fcc0-7d40-3989-35bb" name="Stendarr&apos;s Aura" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+              <characteristics>
+                <characteristic name="Type" typeId="3a66-005b-fb72-a043"/>
+                <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1"/>
+                <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c"/>
+              </characteristics>
+            </profile>
+          </profiles>
         </entryLink>
         <entryLink id="aa55-6933-e97b-93a9" name="Conjure Familiar" page="" hidden="false" collective="false" import="true" targetId="dcc1-70e9-5834-290b" type="selectionEntry">
           <modifiers>
@@ -5607,7 +5616,7 @@ A Flying model moves 12”. This distance cannot be increased by Sprinting. A Fl
     <rule id="1b73-830e-6076-fc5c" name="Night Eye" publicationId="4d6f-8c48-a5ea-e83c" page="76" hidden="false">
       <description>In scenarios using the Darkness rules, this model can see an extra 6”.</description>
     </rule>
-    <rule id="45f6-0dbe-bc2c-ce4f" name="Poison" publicationId="4d6f-8c48-a5ea-e83c" page="76" hidden="false">
+    <rule id="45f6-0dbe-bc2c-ce4f" name="Poison (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="76" hidden="false">
       <description>A model suffering at least one point of damage from an attack with the Poison icon must place a Poison Token on its Character Card. Poison is applied in addition to a Weapon’s Damage Type (see p.79). On the Poison Token place an unnumbered Health, Stamina, or Magicka Token respectively to the type of Poison used. If a model has a Poison Token at the start of its Activation, it loses 1 Health for each Health Token on the Poison Token, 1 Magicka for each Magicka Token on the Poison Token, and 1 Stamina for each Stamina Token on the Poison Token. All of the damage of the same type is inflicted at once: so, if the removal of multiple Poison Tokens with Health Tokens on them causes a Hero to lose their last point of Health, only one Endurance Test for injury is made.</description>
     </rule>
     <rule id="b866-c968-6510-8b03" name="Piercing (X)" publicationId="4d6f-8c48-a5ea-e83c" page="76" hidden="false">
@@ -8508,7 +8517,7 @@ Enchanted</characteristic>
         <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="6807-565e-49d8-f432" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+    <profile id="6807-565e-49d8-f432" name="Blood Magic: Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
       <comment>Pending Errata?
 Card missing from Chapter 3 pack. Free download available at https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads.</comment>
       <characteristics>
@@ -8516,7 +8525,8 @@ Card missing from Chapter 3 pack. Free download available at https://www.modiphi
         <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged/Melee Attack</characteristic>
         <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">0</characteristic>
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">3&quot;</characteristic>
-        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction?
+[Blood Magic pending errata?]</characteristic>
         <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[YELLOW] Absorb Health (3)</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (2): Add [YELLOW] per point.</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>

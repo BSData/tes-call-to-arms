@@ -279,7 +279,8 @@ Follow-Up [1]</characteristic>
         <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
         <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [RED]</characteristic>
         <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
-        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Fleet, Teet And Claws, &quot;Bristleback Charge!&quot;</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Fleet, Teet And Claws
+&quot;Bristleback Charge!&quot;</characteristic>
         <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">5</characteristic>
         <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">2</characteristic>
         <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5</characteristic>

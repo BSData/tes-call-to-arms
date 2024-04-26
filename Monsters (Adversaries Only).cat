@@ -15,6 +15,33 @@
         <categoryLink id="263f-0f2e-48da-0e40" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="a20d-ef14-b04f-2005" name="Vengeful Spirit: Ghost of the Blades" hidden="false" collective="false" import="true" targetId="c2cc-6c9b-9149-9e1e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1652-3951-0b4d-b132" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="bd60-74d7-4677-4d85" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+        <categoryLink id="9f5f-a01a-2f28-6f0b" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="33e0-78f6-27fd-8f2a" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
+        <categoryLink id="34e8-0245-a65f-6ea1" name="Skyrim: The Adventure Game" hidden="false" targetId="9bab-4b58-ba6c-73d9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f915-c2fc-713c-4878" name="Spriggan Matron: Forest Guardian" hidden="false" collective="false" import="true" targetId="c5ea-8e6b-e435-5569" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9f48-5091-6340-0753" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+        <categoryLink id="e6d9-d8b6-e42a-8c34" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="bfa5-1bf8-2f19-37f0" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="3350-b03f-0366-3c33" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bc02-708e-e35e-8fde" name="Spriggan: Forest Spirit" hidden="false" collective="false" import="true" targetId="e30c-51e4-cc55-c59c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fa30-9a03-99ab-c695" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+        <categoryLink id="1a44-41e7-ceeb-653e" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="1fed-8fa9-8c55-c788" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="5370-571b-754f-424a" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
+        <categoryLink id="b636-e0e1-75e4-3168" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="a87c-4550-df9e-3ecd" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3714-59eb-b051-a675" name="Frost Troll: Fearsome Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -24,6 +51,7 @@
         <infoLink id="a311-ad5c-120f-904b" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
         <infoLink id="1799-2229-3a15-b1e8" name="Troll Strike" hidden="false" targetId="e0fa-05b5-4907-1a6e" type="rule"/>
         <infoLink id="1105-80cb-b3be-403f" name="Follow-Up" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
+        <infoLink id="bd04-1ea9-80c7-9110" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42.0"/>
@@ -35,15 +63,65 @@
         <infoLink id="4206-5dcb-ef65-97cb" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
         <infoLink id="bb06-ab76-0e70-36a7" name="Troll Strike" hidden="false" targetId="e0fa-05b5-4907-1a6e" type="rule"/>
         <infoLink id="8b60-8049-64d0-79d7" name="Follow-Up" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
+        <infoLink id="3820-7831-5326-437a" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2cc-6c9b-9149-9e1e" name="Vengeful Spirit: Ghost of the Blades" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6e31-4008-857f-ba50" name="Vengeful Spirit: Ghost of the Blades" hidden="false" targetId="d0a1-f084-0146-4d92" type="profile"/>
+        <infoLink id="fd6e-6c66-79d9-9f1d" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="bbf2-f901-36bb-9f9c" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="98d8-dd03-a876-f277" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+        <infoLink id="bc4f-2763-96b2-ccd9" name="Ethereal" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+        <infoLink id="757e-7f47-f718-30ba" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5ea-8e6b-e435-5569" name="Spriggan Matron: Forest Guardian" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="07c1-8150-d074-50dc" name="Spriggan Matron: Forest Guardian" hidden="false" targetId="1615-b440-9430-c635" type="profile"/>
+        <infoLink id="24e1-5fa8-02d9-0ddc" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="d7f8-9580-a136-5559" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="7a88-a9ae-ac1b-793b" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+        <infoLink id="9b00-c0b8-5ec7-70a6" name="Poison (Type)" hidden="false" targetId="45f6-0dbe-bc2c-ce4f" type="rule"/>
+        <infoLink id="4d52-40f8-64e3-e945" name="Regenerate Health" hidden="false" targetId="9093-1c12-08d9-ec7f" type="rule"/>
+        <infoLink id="7439-48ea-8af5-0fd2" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
+        <infoLink id="09fa-1f96-8a90-6c39" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
+        <infoLink id="f4cb-cddc-54dc-a0b8" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="f671-e4f9-8113-ac46" name="Natural Camouflage" hidden="false" targetId="f9f3-1104-5c5a-eca2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e30c-51e4-cc55-c59c" name="Spriggan: Forest Spirit" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ffea-42f8-b536-419b" name="Spriggan: Forest Spirit" hidden="false" targetId="959d-81e7-83e1-8f37" type="profile"/>
+        <infoLink id="99f0-8e10-7418-0db6" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
+        <infoLink id="0b11-8b7a-e698-8157" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="fd63-8261-e65a-13b6" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+        <infoLink id="6208-2b4c-51c4-7bf2" name="Poison (Type)" hidden="false" targetId="45f6-0dbe-bc2c-ce4f" type="rule"/>
+        <infoLink id="00d6-a7fc-9158-c6c0" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
+        <infoLink id="f2cf-5401-6420-d407" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
+        <infoLink id="9109-357d-5b0f-a672" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="787e-1318-35f4-5b39" name="Natural Camouflage" hidden="false" targetId="f9f3-1104-5c5a-eca2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="26.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="e0fa-05b5-4907-1a6e" name="Troll Strike" publicationId="6505-1b24-c5b0-6421" hidden="false">
       <description>When a Troll performs a Power Attack Boost, it adds [RED] instead of [YELLOW] to the attack roll.</description>
+    </rule>
+    <rule id="f9f3-1104-5c5a-eca2" name="Natural Camouflage" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <description>When [this model] is first deployed (and when it Spawns), it gains the Invisible keyword until the end of the round.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -83,6 +161,109 @@ Follow-Up [1]</characteristic>
         <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [YELLOW]</characteristic>
         <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
         <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Teeth And Claws, Terrifying, Troll Strike</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">6</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">2</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">3</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">4</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">3</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Monsters</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d0a1-f084-0146-4d92" name="Vengeful Spirit: Ghost of the Blades" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Undead</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(Strength): [GREEN][RED][YELLOW]
+[HELMET]: Bleed
+[SWORDS]: Follow-Up [1]
+Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [YELLOW] (1)
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Ethereal</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">6</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">4</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">8</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">3</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">5</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">4</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Monsters</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1615-b440-9430-c635" name="Spriggan Matron: Forest Guardian" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Elite</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Monster</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Shadow</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Ranged(Intelligence):
+8&quot; [GREEN][YELLOW][YELLOW]
+Area Effect (2&quot;), Enchanted, Poison (Health)</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Melee(Strength): [GREEN][RED]
+[HELMET]: Poison (Health)
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [RED] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Regenerate Health, Resistance (Poison), Weakness (Fire)
+Natural Camouflage</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">4</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">4
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">3</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">4</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">3</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">5</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Monsters</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="959d-81e7-83e1-8f37" name="Spriggan: Forest Spirit" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Minion</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Monster</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Shadow</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Ranged(Intelligence):
+8&quot; [GREEN][YELLOW][YELLOW]
+Area Effect (2&quot;), Enchanted, Poison (Health)</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Melee(Strength): [GREEN][YELLOW][YELLOW]
+[HELMET]: Poison (Health)</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Resistance (Poison), Weakness (Fire)
+Natural Camouflage</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">3
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">3
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">3</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">1</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Monsters</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="942a-967d-821c-7ffd" name="Dragonling: Matriarch" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Elite</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Monster</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Aggressive</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(Strength): [GREEN][RED]
+[SWORDS]: Punishing (2)
+Follow-Up [1]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">No Type: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Resistance (Frost), Teeth And Claws, Terrifying, Troll Strike</characteristic>
         <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">6</characteristic>
         <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
         <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">5</characteristic>
