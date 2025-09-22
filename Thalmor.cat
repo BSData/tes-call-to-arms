@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="aa1b-f476-a563-a931" name="Thalmor" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Thalmor Archer: Elven Bow" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="13b5-1482-5e30-c258" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Altmer</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED][YELLOW]
+[HELMET]: Piercing (2)</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+10&quot;: [GREEN][RED][YELLOW]
+30&quot;: [GREEN][YELLOW][YELLOW]
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW][YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Archery
+Sneak
+</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Thalmor</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thalmor Warrior: Elven Sword" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="5fcc-1daa-ba36-a672" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Altmer</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][RED][YELLOW]
+[HELMET]: Piercing (2)
+[SWORDS]: Follow-Up</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+10&quot;: [GREEN][RED][YELLOW]
+30&quot;: [GREEN][YELLOW][YELLOW]
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW][YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
+Archery
+</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Thalmor</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thalmor Wizard: Inquisitorial Spellcaster" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="7abd-dfcc-945d-cd5c" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Altmer</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Sorcery</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Destruction: Magicka Cost 1
+12&quot;: [GREEN][YELLOW][YELLOW]
+[HELMET]: add [RED]
+Enchanted, Shock</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Ward (Restoration), Personal:[RED]
+[HELMET]: add [YELLOW]
+Resistance (Magic)</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Regenerate Magicka, Healing Hands</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">4
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">3</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Thalmor</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Thalmor Archer: Elven Bow" hidden="false" id="2064-5c87-041f-4225" publicationId="1d0d-fac6-d336-636f">
+      <infoLinks>
+        <infoLink name="Thalmor Archer: Elven Bow" id="014c-a6f1-c3f8-a9db" hidden="false" type="profile" publicationId="1d0d-fac6-d336-636f" targetId="13b5-1482-5e30-c258"/>
+        <infoLink name="Path of Shadow" id="c9bc-f2a4-2611-51e1" hidden="false" type="rule" targetId="84c9-50ff-86a3-2a8f"/>
+        <infoLink name="Altmer" id="d0cf-d47e-336b-fcba" hidden="false" type="infoGroup" targetId="6846-5bf3-c280-fa14"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thalmor Warrior: Elven Sword" hidden="false" id="6310-d673-bdfe-554c" publicationId="1d0d-fac6-d336-636f">
+      <infoLinks>
+        <infoLink name="Thalmor Warrior: Elven Sword" id="8ec5-ff4b-6f6b-a4ec" hidden="false" type="profile" publicationId="1d0d-fac6-d336-636f" targetId="5fcc-1daa-ba36-a672"/>
+        <infoLink name="Path of Might" id="42b7-fdd3-52ec-de89" hidden="false" type="rule" targetId="c1df-67ea-e7cc-8134"/>
+        <infoLink name="Altmer" id="38ee-83dc-5105-7c42" hidden="false" type="infoGroup" targetId="6846-5bf3-c280-fa14"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thalmor Wizard: Inquisitorial Spellcaster" hidden="false" id="951b-6e1a-4cc2-4b78" publicationId="1d0d-fac6-d336-636f">
+      <infoLinks>
+        <infoLink name="Thalmor Wizard: Inquisitorial Spellcaster" id="26c1-399e-3643-9873" hidden="false" type="profile" publicationId="1d0d-fac6-d336-636f" targetId="7abd-dfcc-945d-cd5c"/>
+        <infoLink name="Path of Sorcery" id="1e40-f09e-8db9-574d" hidden="false" type="rule" targetId="46cd-27c4-0be4-976f"/>
+        <infoLink name="Altmer" id="552e-42f0-ea1f-b9ad" hidden="false" type="infoGroup" targetId="6846-5bf3-c280-fa14"/>
+        <infoLink name="Regenerate Magicka" id="6716-7c2d-efd8-1431" hidden="false" type="rule" targetId="a89f-5da7-acf9-ff3b"/>
+        <infoLink name="Healing Hands" id="cb04-de67-5586-c199" hidden="false" type="rule" targetId="ae1e-0d0b-9fad-4d39"/>
+        <infoLink name="Resistance (Type)" id="7dd8-8fc9-4945-3903" hidden="false" type="rule" targetId="b048-ffef-95a3-aaf9"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Thalmor Archer: Elven Bow" hidden="false" id="f2cb-e17f-58d1-2152" type="selectionEntry" targetId="2064-5c87-041f-4225">
+      <categoryLinks>
+        <categoryLink targetId="ba61-d304-9352-ec15" id="60a9-e853-8008-4de0" primary="false" name="Follower"/>
+        <categoryLink targetId="9797-61ac-cbe1-cccd" id="68c2-9414-119a-0305" primary="false" name="Path of Shadow"/>
+        <categoryLink targetId="4d42-f7a9-a2ca-654e" id="f16c-259f-5c68-1e24" primary="false" name="Archery Skill"/>
+        <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="5de4-4c0f-725d-5964" primary="false" name="Sneak Skill"/>
+        <categoryLink targetId="64bb-1eb1-1896-f36d" id="47d8-ebc8-a69e-caf1" primary="false" name="One-Handed Skill"/>
+        <categoryLink targetId="8af2-ae59-4a5c-98b8" id="486c-59f7-bd4a-631e" primary="false" name="Light Armor Skill"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thalmor Warrior: Elven Sword" hidden="false" id="d082-2b68-7420-79ff" type="selectionEntry" targetId="6310-d673-bdfe-554c">
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="3b3a-5e9f-f1cf-8aba" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink name="Archery Skill" hidden="false" id="ddc4-b268-4ee7-192c" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="7e50-9ddc-2e75-ba43" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Light Armor Skill" hidden="false" id="b546-ad0f-1508-d362" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink targetId="b1cc-bf06-8acb-dce0" id="0658-7015-c1fb-4d45" primary="false" name="Path of Might"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thalmor Wizard: Inquisitorial Spellcaster" hidden="false" id="7f0a-4958-dfdf-34df" type="selectionEntry" targetId="951b-6e1a-4cc2-4b78">
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="4b1e-e2f8-80c7-fd16" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="877e-62e2-a066-7954" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="8b22-d1f0-dcf8-83d7" id="29f2-180b-0d4f-1669" primary="false" name="Path of Sorcery"/>
+        <categoryLink targetId="4c5c-c1e0-77f2-cf34" id="c700-ef33-b888-edd6" primary="false" name="Destruction Skill"/>
+        <categoryLink targetId="b0b5-e13e-f45a-5045" id="8947-e7fd-581f-3d65" primary="false" name="Restoration Skill"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedRules>
+    <rule name="Healing Hands" id="ae1e-0d0b-9fad-4d39" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <description>Spell, Magicka 1: This is a Restoration Spell with a range of 6&quot;. Target restores 1 Health point, +1 additional point for each Magicka point spent after the first. Cannot target Atronachs, Undead, or Animunculi.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
