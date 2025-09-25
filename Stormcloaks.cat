@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="245b-f545-323f-330b" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <comment>Leveled: Done</comment>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ffc-7821-97af-0ea3" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ffc-7821-97af-0ea3" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="3b62-aa92-7cda-82e0" name="Ralof: Warrior Of The Resistance" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <comment>Leveled: Done</comment>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b86-5eff-70b9-8c14" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b86-5eff-70b9-8c14" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="d663-694a-6f31-7f05" name="Ulfric Stormcloak: Bear Of Markarth" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <comment>Leveled: Done</comment>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8790-3ed1-bd46-b4e4" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8790-3ed1-bd46-b4e4" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="cc0b-c103-c496-4e5d" name="Thorygg Sun-Killer: Commander Of Falkreath" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <comment>Leveled: Done</comment>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4a9e-51cb-bacf-087b" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4a9e-51cb-bacf-087b" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="b504-9250-f3b7-26c6" name="Gonnar Oath-Giver: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <comment>Leveled: Done</comment>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="10bb-5fdb-7274-7a42" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="10bb-5fdb-7274-7a42" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="63b7-3654-8668-ff1b" name="Galmar Stone-Fist: Chosen Of Ulfric" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <comment>Leveled: Done</comment>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="640c-6c58-8aaf-cebf" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="640c-6c58-8aaf-cebf" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="19a1-246b-f53f-d612" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" targetId="4f5f-c3f1-751e-ae24" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="54c7-26ef-1219-c175" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="54c7-26ef-1219-c175" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="f5e6-9114-f4bd-f9fe" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="41c8-3a8d-b279-a738" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="5341-a75c-6295-2c87" name="Yrsarald Thrice-Pierced: Stormcloak Commander" hidden="false" targetId="245b-f545-323f-330b" primary="false"/>
@@ -55,7 +55,7 @@
     </entryLink>
     <entryLink id="9555-1bf2-b2e8-ea0a" name="Ralof: Warrior Of The Resistance" hidden="false" collective="false" import="true" targetId="21a6-9354-a670-7d61" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="05aa-8c27-c75e-7830" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="05aa-8c27-c75e-7830" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="c570-1100-6a37-b349" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="306d-3000-ec98-ce21" name="Ralof: Warrior Of The Resistance" hidden="false" targetId="3b62-aa92-7cda-82e0" primary="false"/>
         <categoryLink id="6c0e-baf7-ab32-6795" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
@@ -69,7 +69,7 @@
     </entryLink>
     <entryLink id="b2bf-245d-2324-6d0d" name="Ulfric Stormcloak: Bear Of Markarth" hidden="false" collective="false" import="true" targetId="cce6-1ffb-f196-25c2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0be4-d607-54ed-a732" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="0be4-d607-54ed-a732" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="d843-3f66-611d-cc90" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="2b60-f607-514e-3e14" name="Ulfric Stormcloak: Bear Of Markarth" hidden="false" targetId="d663-694a-6f31-7f05" primary="false"/>
         <categoryLink id="1775-ace0-1961-9f88" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
@@ -85,7 +85,7 @@
     </entryLink>
     <entryLink id="738e-ccd6-a40d-54ca" name="Thorygg Sun-Killer: Commander Of Falkreath" hidden="false" collective="false" import="true" targetId="a953-b8fa-102e-2208" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5a89-d87a-2418-50f0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="5a89-d87a-2418-50f0" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="8cf2-1790-df26-531b" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="0327-5500-b623-3272" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="3029-0431-e037-350b" name="Thorygg Sun-Killer: Commander Of Falkreath" hidden="false" targetId="cc0b-c103-c496-4e5d" primary="false"/>
@@ -98,7 +98,7 @@
     </entryLink>
     <entryLink id="5f3f-bd91-d597-ee47" name="Stormcloak General: True Son Of Skyrim" hidden="false" collective="false" import="true" targetId="228f-2ebc-e6d7-6c10" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c2de-33b3-963b-da8a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="c2de-33b3-963b-da8a" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="aef8-007c-395a-6cff" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="e47c-284e-f78f-6278" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="038d-6a3f-d799-836c" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
@@ -111,7 +111,7 @@
     </entryLink>
     <entryLink id="edd1-250b-f147-8164" name="Gonnar Oath-Giver: Commander Of The Rift" hidden="false" collective="false" import="true" targetId="b3e1-defb-8c00-0929" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="02f8-2989-84fe-2c6a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="02f8-2989-84fe-2c6a" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="0f74-0d60-ecaa-ef74" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="ac82-7a7b-7eb6-d44e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="1fba-00e5-679d-20a0" name="Gonnar Oath-Giver: Commander Of The Rift" hidden="false" targetId="b504-9250-f3b7-26c6" primary="false"/>
@@ -127,7 +127,7 @@
     </entryLink>
     <entryLink id="d6dd-a0f8-c780-f661" name="Galmar Stone-Fist: Chosen Of Ulfric" hidden="false" collective="false" import="true" targetId="7451-dfba-1edf-bd47" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3b88-a5c0-0225-96dd" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="3b88-a5c0-0225-96dd" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="1d55-9916-44dd-f08b" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="8300-a166-9e39-ce14" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="c2f3-c3e3-a5af-efc8" name="Galmar Stone-Fist: Chosen Of Ulfric" hidden="false" targetId="63b7-3654-8668-ff1b" primary="false"/>
@@ -142,13 +142,13 @@
       <categoryLinks>
         <categoryLink id="eaf1-68e8-4774-5ced" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="7e7c-bf8d-ab23-94f0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="7997-3846-b9d3-1334" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="7997-3846-b9d3-1334" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e9da-dbb7-9d24-1bf3" name="Stormcloak Soldier: Huntsman" hidden="false" collective="false" import="true" targetId="a2f2-3da2-08d5-a868" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="47bd-0f69-2900-6071" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
-        <categoryLink id="5f80-4db3-cc89-944e" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="5f80-4db3-cc89-944e" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="1ead-9486-1216-04ed" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -156,48 +156,48 @@
       <categoryLinks>
         <categoryLink id="71ae-187c-ebcd-a653" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="c052-1be7-a9cc-24c8" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="0db0-2ed9-a377-c2b6" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="0db0-2ed9-a377-c2b6" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="dddb-ea83-7f4e-1bf3" name="Stormcloak Soldier: Linebreaker" hidden="false" collective="false" import="true" targetId="b089-2476-8b56-5629" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1f04-7d19-81cc-b8d8" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="8712-918b-0026-479a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="bb18-3e83-5ea9-c2af" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="bb18-3e83-5ea9-c2af" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4485-2871-5181-78df" name="Stormcloak Soldier: Axe-Fighter" hidden="false" collective="false" import="true" targetId="d2ce-9d7f-a09a-58da" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9d38-5e66-a926-60b5" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="0d6b-9f14-9d7e-5515" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="f6f8-eba7-779f-d798" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="f6f8-eba7-779f-d798" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="31a6-e99b-df9d-a720" name="Stormcloak Soldier: Dual Wielding Swords" hidden="false" collective="false" import="true" targetId="9326-a58e-87d8-067b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="91f3-d5c2-d569-32d1" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="e4d5-b4a5-ce9f-a49d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="9a6d-e112-26ed-caa5" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="9a6d-e112-26ed-caa5" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f55c-0c0e-015b-abb7" name="Stormcloak Soldier: Shieldbearer" hidden="false" collective="false" import="true" targetId="b4bd-0065-60dd-dd07" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="db28-748d-b6fc-645f" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="faac-635f-2162-ba30" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="b7c6-3ac7-a7fd-42be" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="b7c6-3ac7-a7fd-42be" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8283-431e-33fd-58dc" name="Stormcloak Soldier: Swordsman" hidden="false" collective="false" import="true" targetId="bf73-1f9d-e16f-ae65" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="99e0-8e19-dd76-4875" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="61a1-e787-8cad-4fdc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="deaa-d590-ac94-907b" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="deaa-d590-ac94-907b" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f013-cee2-1f71-2192" name="Stormcloak Soldier: Archer" hidden="false" collective="false" import="true" targetId="ee9d-a8bf-9386-34e1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a059-ca66-c048-430e" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
-        <categoryLink id="3f6b-7cff-0fbb-2823" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="3f6b-7cff-0fbb-2823" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="d75b-4028-3b99-7bcb" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -210,26 +210,13 @@
         <categoryLink id="6a6f-9ead-d01c-5ff3" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="2d33-a6e6-a7be-81ad" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="3a24-529a-840b-2378" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
-        <categoryLink id="4d68-4ee5-3b77-1245" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="4d68-4ee5-3b77-1245" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="aba0-70fd-7089-5a00" name="The Dragonborn: Champion of Skyrim" hidden="false" collective="false" import="true" targetId="2038-fbad-32c1-0729" type="selectionEntry">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
-        <categoryLink id="2e06-ca40-9dbb-0e86" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
-        <categoryLink id="e140-5945-bb98-c0d2" name="New CategoryLink" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="2e06-ca40-9dbb-0e86" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="e140-5945-bb98-c0d2" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="1b42-d80c-5365-7be4" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="cd69-294c-7018-4ba1" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="cca6-ab9b-826c-e2f6" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
@@ -248,12 +235,29 @@
         <categoryLink id="30fc-b952-8129-372b" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="cc0a-14ba-fb64-7b50" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="57f4-e435-d2fa-5de7" name="Stormcloak Quartermaster: Master Provisioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" targetId="691f-648b-af0e-0158" type="selectionEntry">
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
@@ -262,7 +266,7 @@
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="b1ee-8543-1287-8463" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="b1ee-8543-1287-8463" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="df63-0302-84b3-1be2" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="a476-f218-9919-f538" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="51a3-947f-469b-76a0" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
@@ -278,16 +282,17 @@
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="e2ac-7409-b1e5-1e06" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="e2ac-7409-b1e5-1e06" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="6dbe-53da-44eb-0151" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="d5fb-b015-3d6c-5684" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="3969-eaaf-9f90-d33f" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
@@ -304,16 +309,17 @@
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="9ffe-1d13-8c09-0a28" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="9ffe-1d13-8c09-0a28" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="5761-20b1-a03e-48d9" name="Heimskr: Priest Of Talos" hidden="false" targetId="5237-2165-4772-5555" primary="false"/>
         <categoryLink id="f35a-f6c8-3c40-6e96" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="1d49-4f9d-de65-281f" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
@@ -344,27 +350,28 @@
       <selectionEntries>
         <selectionEntry id="5bbd-5f27-164e-bec4" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b31-e413-2031-97e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b31-e413-2031-97e4" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="01a4-5ede-85cf-680b" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Leveled)" hidden="false" targetId="0cb8-da82-0c83-0888" type="profile"/>
             <infoLink id="c04a-3fd0-5601-debe" name="Perk: Critical Charge" hidden="false" targetId="bedf-8612-7883-a004" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="33a9-e2fd-923e-f595" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="cc6e-1ac7-c1bd-03ce" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="cc6e-1ac7-c1bd-03ce" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a2-18ef-b04b-d62e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a2-18ef-b04b-d62e" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="52.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="52"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21a6-9354-a670-7d61" name="Ralof: Warrior Of The Resistance" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -378,7 +385,7 @@
       <selectionEntries>
         <selectionEntry id="7b09-5c48-c368-a02c" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a20-ccf7-4f0c-374d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a20-ccf7-4f0c-374d" type="max"/>
           </constraints>
           <rules>
             <rule id="6e8e-8dc9-d894-a2ea" name="Vanguard (Leveled)" publicationId="bcdd-038f-9aa1-3237" hidden="false">
@@ -390,20 +397,21 @@
             <infoLink id="0981-b022-5c00-71a0" name="Perk: Steady Hand" hidden="false" targetId="f51b-1bcb-b1c1-7a57" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="9c71-2996-24ff-11f3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="b615-ddd9-ce3b-4f04" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="b615-ddd9-ce3b-4f04" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee9-f710-4738-749f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee9-f710-4738-749f" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cce6-1ffb-f196-25c2" name="Ulfric Stormcloak: Bear Of Markarth" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -427,28 +435,29 @@
       <selectionEntries>
         <selectionEntry id="81cc-1f4e-8175-e487" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8215-8882-1db4-8048" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8215-8882-1db4-8048" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="3a62-8d23-98ab-1feb" name="Ulfric Stormcloak: Bear Of Markarth (Leveled)" hidden="false" targetId="8245-649d-5e8a-055e" type="profile"/>
             <infoLink id="2b27-d64b-a327-77f4" name="Perk: Armsman" hidden="false" targetId="f765-fb99-5b29-1171" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="29e1-ebec-4898-4697" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="1db7-56f2-989a-94bb" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="1db7-56f2-989a-94bb" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d45-ee03-1390-82ed" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd3-19b1-e9fc-8926" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d45-ee03-1390-82ed" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd3-19b1-e9fc-8926" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="78.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="78"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a953-b8fa-102e-2208" name="Thorygg Sun-Killer: Commander Of Falkreath" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -467,27 +476,28 @@
       <selectionEntries>
         <selectionEntry id="49f5-3490-f483-4ac1" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c610-93e4-c945-746a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c610-93e4-c945-746a" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="a8dc-e2b2-250a-1872" name="Thorygg Sun-Killer: Commander Of Falkreath (Leveled)" hidden="false" targetId="bcc4-8abd-c3c5-1296" type="profile"/>
             <infoLink id="be51-5062-e478-d7f3" name="Perk: Barbarian" hidden="false" targetId="075c-5345-7cb8-f820" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="1739-df02-88cf-884c" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="c4f7-f638-5d68-f976" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="c4f7-f638-5d68-f976" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f07f-a57b-dd3e-aed7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f07f-a57b-dd3e-aed7" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="228f-2ebc-e6d7-6c10" name="Stormcloak General: True Son Of Skyrim" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -505,27 +515,28 @@
       <selectionEntries>
         <selectionEntry id="b434-3735-cab0-0c5b" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de7-693a-5904-a9ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de7-693a-5904-a9ad" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="b3c3-4555-54da-33db" name="Stormcloak General: True Son Of Skyrim (Leveled)" hidden="false" targetId="0e4f-d0ae-35b5-df5e" type="profile"/>
             <infoLink id="daf5-b5ec-f073-f74d" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="eb33-ce32-3015-7eb9" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="a04b-2875-f060-17cb" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="a04b-2875-f060-17cb" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81cd-93d3-7553-60e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81cd-93d3-7553-60e4" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3e1-defb-8c00-0929" name="Gonnar Oath-Giver: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -543,27 +554,28 @@
       <selectionEntries>
         <selectionEntry id="599b-8334-29f5-1e37" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c683-922a-b27e-3c2f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c683-922a-b27e-3c2f" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="8754-7857-0afe-dd74" name="Gonnar Oath-Giver: Commander Of The Rift (Leveled)" hidden="false" targetId="5827-fdb6-221c-bd53" type="profile"/>
             <infoLink id="3ac0-11b1-ad69-3ab5" name="Perk: Battle-Rush" hidden="false" targetId="f974-3fee-a45f-998f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="c8f1-07d6-dea2-0f56" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="c953-3c4a-7bc7-458f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="c953-3c4a-7bc7-458f" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a1-6e68-1995-aab2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a1-6e68-1995-aab2" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7451-dfba-1edf-bd47" name="Galmar Stone-Fist: Chosen Of Ulfric" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -584,27 +596,28 @@
       <selectionEntries>
         <selectionEntry id="1286-b7f0-72b7-6910" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5301-db0b-bf47-3c3e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5301-db0b-bf47-3c3e" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="833a-ee20-05e4-b2f1" name="Galmar Stone-Fist: Chosen Of Ulfric (Leveled)" hidden="false" targetId="4493-4233-13d7-6570" type="profile"/>
             <infoLink id="a05d-4021-af89-0e17" name="Perk: Great Critical Charge" hidden="false" targetId="258a-d5df-32d0-0f14" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="e94e-143c-027f-f8a2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="366b-2d6b-6f21-4340" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="366b-2d6b-6f21-4340" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf0-bcce-ff6b-a8e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf0-bcce-ff6b-a8e0" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="65.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="65"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="48fe-6e1d-fafb-db4f" name="Stormcloak Soldier: Greatsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -616,7 +629,8 @@
         <infoLink id="88f9-8802-d15c-c2c9" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2f2-3da2-08d5-a868" name="Stormcloak Soldier: Huntsman" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -626,7 +640,8 @@
         <infoLink id="0227-db26-ce97-7240" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f5e-b8e4-d276-f2f3" name="Stormcloak Soldier: Dual Wielding Axes" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -636,7 +651,8 @@
         <infoLink id="f489-c9da-5699-286a" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b089-2476-8b56-5629" name="Stormcloak Soldier: Linebreaker" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -646,7 +662,8 @@
         <infoLink id="c034-33ab-5c5d-a8db" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2ce-9d7f-a09a-58da" name="Stormcloak Soldier: Axe-Fighter" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -656,7 +673,8 @@
         <infoLink id="d9e1-c113-f80b-07ea" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9326-a58e-87d8-067b" name="Stormcloak Soldier: Dual Wielding Swords" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -666,7 +684,8 @@
         <infoLink id="1475-0f30-ed96-b71b" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4bd-0065-60dd-dd07" name="Stormcloak Soldier: Shieldbearer" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -676,7 +695,8 @@
         <infoLink id="1e58-3947-c1a9-2f76" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf73-1f9d-e16f-ae65" name="Stormcloak Soldier: Swordsman" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -686,7 +706,8 @@
         <infoLink id="ba48-88a7-c066-1ace" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee9d-a8bf-9386-34e1" name="Stormcloak Soldier: Archer" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -696,7 +717,8 @@
         <infoLink id="6235-22ec-2d44-59a7" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3695-1b03-32b6-9748" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -711,7 +733,8 @@
         <infoLink id="6cb5-d2bd-7419-12b7" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

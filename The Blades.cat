@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="612d-d6be-e14b-5247" name="The Blades" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="612d-d6be-e14b-5247" name="The Blades" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <comment>HEROES DONE</comment>
   <categoryEntries>
     <categoryEntry id="143c-025e-9602-885e" name="Delphine: The Hidden Blade" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a74-67ac-da6c-524f" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a74-67ac-da6c-524f" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="5db9-fb53-ea6c-fdc1" name="Delphine: The Hidden Blade" hidden="false" collective="false" import="true" targetId="2d26-4a6f-8456-21dd" type="selectionEntry">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="27e4-7da5-ccad-681b" name="Delphine: The Hidden Blade" hidden="false" targetId="143c-025e-9602-885e" primary="false"/>
-        <categoryLink id="b37f-7b0d-f821-b74a" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="b37f-7b0d-f821-b74a" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="a7ea-d2d5-12ad-0b02" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="9ad9-2edc-590b-b7a1" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="3891-a21c-0aa2-c662" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
@@ -31,24 +24,39 @@
         <categoryLink id="4830-cc5c-b510-e4d3" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="92b7-6327-4cb6-5055" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="5f5b-c253-895e-762c" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink targetId="c06c-5d0a-f27a-3385" id="219b-7057-bc9f-6468" primary="true" name="Hireling Hero"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="4c31-3e5f-8788-adb1" primary="false" name="Hireling Count"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="b9a4-31a5-b4ed-b4c7" field="category"/>
+            <modifier type="remove" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="6b29-ac07-853e-f273" name="Altmer Illusionist: Sheathed Blade" hidden="true" collective="false" import="true" targetId="9fa2-5238-6eb7-ec69" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -61,32 +69,34 @@
         <categoryLink id="c688-bcee-f141-8d1a" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="4f7f-1789-5e64-8f1f" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="cab6-0b79-023e-0bee" name="Altmer Illusionist: Sheathed Blade" hidden="false" targetId="fb5f-97b0-9254-af52" primary="false"/>
-        <categoryLink id="387b-0842-6fac-30f6" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="387b-0842-6fac-30f6" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="3a49-af80-cbdb-d5a2" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="8b51-8093-8b78-e72f" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="6359-15c3-0510-e753" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bb5c-5e69-4fa3-ae15" name="Altmer Legionary: Sheathed Blade" hidden="true" collective="false" import="true" targetId="2cd9-3741-75ff-64bf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="3ec3-fa81-933f-d95e" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="3ec3-fa81-933f-d95e" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="e2e5-05d7-f9d8-0055" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="fce0-6032-5c18-bee3" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="464a-7d23-120b-136c" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
@@ -98,36 +108,38 @@
         <categoryLink id="695c-7411-61f1-4417" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="31df-83bf-dff6-03d0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="8982-2453-8642-c1ab" name="Altmer Legionary: Sheathed Blade" hidden="false" targetId="3aa6-e07b-c103-209d" primary="false"/>
-        <categoryLink id="6e0e-2ce2-c17a-b747" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="6e0e-2ce2-c17a-b747" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="d584-7df9-b1f5-5574" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="478d-973d-594e-edd9" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bba4-efe1-d70e-28f8" name="Argonian Cutthroat: Sheathed Blade" hidden="true" collective="false" import="true" targetId="d397-52b6-f1f6-4b24" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="74ee-5062-a7af-d1a1" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="74ee-5062-a7af-d1a1" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="06c9-bbdd-a679-e344" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="d7f9-593a-29df-3c88" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="1e82-e25c-387c-87b6" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="4d0e-cfc2-af7d-d43f" name="Altmer Legionary: Sheathed Blade" hidden="false" targetId="3aa6-e07b-c103-209d" primary="false"/>
-        <categoryLink id="4bc5-dde0-4f20-c73e" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="4bc5-dde0-4f20-c73e" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="33e1-a224-177b-eb3e" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="5c05-3425-a10e-7702" name="Argonian Cutthroat: Sheathed Blade" hidden="false" targetId="7319-d0a4-a1fe-90bb" primary="false"/>
         <categoryLink id="e234-822c-5077-25c1" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
@@ -136,33 +148,35 @@
         <categoryLink id="ff5d-643d-dcca-1f76" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="e964-8ec5-cf96-331e" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="4c07-f6b4-1240-28f0" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="fbb4-82d0-a40d-84ff" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1a7a-6362-d45b-ae6f" name="Argonian Miner: Sheathed Blade" hidden="true" collective="false" import="true" targetId="3bfc-d050-ca3a-f009" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="1754-b816-6497-73bf" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="1754-b816-6497-73bf" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="e566-61d6-b68c-b5f6" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="12c9-92ce-f6b7-cdaa" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="c979-fdd1-fffc-4d07" name="Altmer Legionary: Sheathed Blade" hidden="false" targetId="3aa6-e07b-c103-209d" primary="false"/>
-        <categoryLink id="edab-70b2-cb50-5561" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="edab-70b2-cb50-5561" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="ce81-c784-78fa-ff1b" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="4aa5-e500-7e40-7a46" name="Argonian Cutthroat: Sheathed Blade" hidden="false" targetId="7319-d0a4-a1fe-90bb" primary="false"/>
         <categoryLink id="5d27-91d4-e9bf-58d4" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
@@ -172,34 +186,36 @@
         <categoryLink id="988b-0e5c-795e-0020" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="c468-d638-8579-4c99" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
         <categoryLink id="60a0-4e26-5aed-096b" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="d926-f9e0-de98-8a9d" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ecbd-bc3c-33f1-63bf" name="Bosmer Stalker: Sheathed Blade" hidden="true" collective="false" import="true" targetId="ad3e-ccf7-a5bc-3ca6" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="25f6-9890-44c1-51e6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="25f6-9890-44c1-51e6" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="cf89-23ea-9295-dc30" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="5ad6-e18c-6c70-6036" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="0448-8d45-abde-28cb" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="7c17-6ef3-6010-0983" name="Altmer Legionary: Sheathed Blade" hidden="false" targetId="3aa6-e07b-c103-209d" primary="false"/>
-        <categoryLink id="9a6c-238d-2851-fd78" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="9a6c-238d-2851-fd78" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="b9f4-fd08-fad3-3427" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="8415-df0d-c578-3f0f" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="7424-2a15-96f9-dd87" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
@@ -207,34 +223,36 @@
         <categoryLink id="b12a-ca9d-a69f-0ed2" name="Bosmer Stalker: Sheathed Blade" hidden="false" targetId="856a-a132-ff81-9474" primary="false"/>
         <categoryLink id="2b77-ad79-62ff-d342" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="fe1c-c3c3-c42c-62a3" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="64bd-02b6-5f87-8556" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5183-f1be-2232-4aef" name="Bosmer Vigil: Sheathed Blade" hidden="true" collective="false" import="true" targetId="1090-812f-d203-f854" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="d163-4deb-da7f-3bcb" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="d163-4deb-da7f-3bcb" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="a77b-b999-b73c-b6c1" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="a015-0dbc-3c07-d3c9" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="0048-df78-e26d-7d3b" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="5305-45fc-5f6a-d5aa" name="Altmer Legionary: Sheathed Blade" hidden="false" targetId="3aa6-e07b-c103-209d" primary="false"/>
-        <categoryLink id="ea94-4768-d1df-b929" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="ea94-4768-d1df-b929" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="ada3-80ec-7f7a-5060" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="ba88-9f3e-056e-70e7" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="863e-7428-8b7b-69be" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
@@ -243,32 +261,34 @@
         <categoryLink id="5035-ba8f-7590-90ae" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="36e7-90f0-2084-2359" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="f88a-2afb-1669-7551" name="Bosmer Vigil: Sheathed Blade" hidden="false" targetId="b22d-4638-c152-65ac" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="5240-1407-6e10-5746" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5a33-d975-5e74-d84d" name="Breton Destruction Mage: Sheathed Blade" hidden="true" collective="false" import="true" targetId="5e9d-3f8e-4d31-ecd3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="ce7f-fbf4-f7f7-4ba4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="ce7f-fbf4-f7f7-4ba4" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="10fe-77e4-2f50-afcd" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="cbca-4acd-38cd-467a" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
-        <categoryLink id="eb7f-08c2-fb7f-52e7" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="eb7f-08c2-fb7f-52e7" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="93bd-3a88-ada8-2450" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="52b0-5386-94a0-4c02" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="4e05-35c8-75f4-6bd3" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
@@ -276,61 +296,65 @@
         <categoryLink id="7cb0-6650-400b-f828" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="58fb-d23c-e4d1-acb4" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="9486-8416-eade-8280" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="9883-c814-a601-f41e" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6358-1e18-e724-649d" name="Breton Stalker: Sheathed Blade" hidden="true" collective="false" import="true" targetId="6235-2700-8afc-7712" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="2821-8e4c-7de9-6075" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="2821-8e4c-7de9-6075" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="d3de-ad3b-db43-b255" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="6754-38e3-e3a6-413a" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
-        <categoryLink id="f2e4-a3e6-082b-4efe" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="f2e4-a3e6-082b-4efe" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="8dc0-d959-6ddc-4d94" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="af27-0a7e-a267-1998" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="9ca9-65fb-ee88-b129" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="94a9-0363-ee28-212d" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="656f-aac8-1b31-3da3" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="fcc8-82b8-898c-9992" name="Breton Stalker: Sheathed Blade" hidden="false" targetId="d6b2-99e2-29a7-cf12" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="41f7-0681-7403-026d" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7b3b-2fab-03e4-8a9f" name="Dunmer Sellsword: Sheathed Blade" hidden="true" collective="false" import="true" targetId="9e05-a245-0151-9b6c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="9ddc-ead6-d0c9-29ad" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="9ddc-ead6-d0c9-29ad" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="1bca-6bc5-a23e-af8a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="6dcb-d456-fd59-2091" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="8057-c9e4-e827-76b6" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
@@ -338,36 +362,38 @@
         <categoryLink id="5118-b27c-4130-b370" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="26d4-8c7b-d7fd-2087" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="26d3-47a5-2cb9-36d2" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="9d80-7c1b-a5e8-5fe4" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="9d80-7c1b-a5e8-5fe4" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="1f7b-c004-724a-b98e" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="fd3a-2f03-5e15-1c27" name="Dunmer Sellsword: Sheathed Blade" hidden="false" targetId="fe27-728c-0790-59d4" primary="false"/>
         <categoryLink id="8bd3-55a4-74d0-f309" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="0116-c984-09f3-abe7" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="5c0b-f32e-49f0-fd33" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5578-cfd8-2730-a98c" name="Dunmer Twinblade: Sheathed Blade" hidden="true" collective="false" import="true" targetId="87e4-15d3-4105-7b8d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="b4f9-b2ea-dbbf-8a8d" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="b4f9-b2ea-dbbf-8a8d" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="5e95-d770-70fc-a3ff" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
-        <categoryLink id="7c1b-2c9a-fb4c-db18" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="7c1b-2c9a-fb4c-db18" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="be90-d2ac-f9b1-9872" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="be67-8df8-54a7-fd75" name="Dunmer Twinblade: Sheathed Blade" hidden="false" targetId="2782-5fa0-f7f0-3b9b" primary="false"/>
         <categoryLink id="226f-ee7f-8c56-6b1b" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
@@ -378,32 +404,34 @@
         <categoryLink id="e678-aac4-ee6b-2d9d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="9e73-a9c3-dc33-42ee" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="00f3-a619-43cb-6276" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="50d4-28ea-3a6d-b0a4" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4573-e64e-2e63-df0b" name="Imperial Destruction Mage: Sheathed Blade" hidden="true" collective="false" import="true" targetId="a5a3-5e5f-8530-6ecf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="63c9-06fe-a480-ee15" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="63c9-06fe-a480-ee15" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="a246-aebe-5657-a332" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="9909-9fd1-f46e-dca4" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
-        <categoryLink id="d285-f812-52d3-663b" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="d285-f812-52d3-663b" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="ec50-fb53-dde6-1fac" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="046e-81a6-9cd7-8beb" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="684d-ea9c-8f00-0b62" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
@@ -411,66 +439,70 @@
         <categoryLink id="9ecd-06dc-a7fc-ac09" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="4f87-2cd2-c350-5ede" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
         <categoryLink id="aa64-d0f5-f03c-68d2" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="5a54-d99a-eecb-ef47" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9f15-81b6-2173-c9bc" name="Imperial Legionary: Sheathed Blade" hidden="true" collective="false" import="true" targetId="6779-0479-443e-4d05" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="e20d-893c-b2d9-f3d3" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="e20d-893c-b2d9-f3d3" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="1b10-7682-e205-46c4" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="a85d-1204-16eb-18ff" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="92de-417f-34a8-7270" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="991b-2fb3-62f8-983b" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="2571-bb15-1130-ba15" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="1966-417b-de2f-d8f5" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="e90f-233f-0db5-a383" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="e90f-233f-0db5-a383" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="f7b7-1e07-ed5c-efe1" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="3f94-fb3c-220e-7b72" name="Imperial Legionary: Sheathed Blade" hidden="false" targetId="a0eb-ca72-590e-29bc" primary="false"/>
         <categoryLink id="5a56-17b3-1cbf-21b7" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
         <categoryLink id="257a-5e1d-b280-21bc" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="b42f-4c1c-0329-c820" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="ac24-f4ee-72db-7ce7" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9717-2739-ea99-c8b0" name="Khajiit Twinblade: Sheathed Blade" hidden="true" collective="false" import="true" targetId="f6e9-c228-7190-289f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="d908-4b15-4e17-4023" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="d908-4b15-4e17-4023" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="5cc8-61a2-c89f-22eb" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
-        <categoryLink id="9385-d162-d1aa-53c5" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="9385-d162-d1aa-53c5" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="2c11-f020-38f9-a98f" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="508d-cbbc-2aa3-62b3" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="10df-1957-4881-5ace" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
@@ -480,36 +512,38 @@
         <categoryLink id="446b-9beb-8fcc-491b" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
         <categoryLink id="0180-29af-724c-6974" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="c6bd-fa97-ab48-b45a" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="0e3a-59bc-d204-6f56" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="df52-b3b5-7922-2a01" name="Khajiit Warrior: Sheathed Blade" hidden="true" collective="false" import="true" targetId="71e4-e3e3-60f5-b8b8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="b26f-2edd-07f3-59a9" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="b26f-2edd-07f3-59a9" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="c59b-a497-ce9c-87ee" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="32ee-85ce-6337-f285" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="7c11-4874-9b2c-5615" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="56f2-c7ac-d5f5-a7c3" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="f818-ed9a-1744-2dca" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="1624-9dd6-15c5-f7b1" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="9ace-bc87-518f-f9b8" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="9ace-bc87-518f-f9b8" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="b5b9-7382-485f-759c" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="e538-bca5-d0ed-c005" name="Khajiit Warrior: Sheathed Blade" hidden="false" targetId="deec-6414-ff83-8202" primary="false"/>
         <categoryLink id="f682-c315-d931-1301" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
@@ -517,35 +551,37 @@
         <categoryLink id="8c1e-4e71-f876-a8e5" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="71bd-26aa-8234-1268" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="da5d-9491-4a4c-061e" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="bf7b-b5df-e289-03dc" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="09d9-3d45-ed73-e416" name="Nord Warrior: Sheathed Blade" hidden="true" collective="false" import="true" targetId="4977-b3ce-00a6-a6e6" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="daf2-f32a-d39b-dd89" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="daf2-f32a-d39b-dd89" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="cb5b-a561-8ee1-2fee" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="5b0c-474e-61d7-8d6b" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="054d-90df-3859-e7b9" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="7576-8c36-81e0-df8f" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="5b7f-d4d1-8f8e-589b" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="4b4c-ebab-9994-8fd0" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="4b4c-ebab-9994-8fd0" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="cdd6-caf9-52f6-a0a2" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="826d-efbf-ded3-9d1d" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="396a-df99-2acd-55af" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
@@ -555,34 +591,36 @@
         <categoryLink id="98a1-d300-b4b7-853d" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="7bd7-5dec-c9fa-f2a0" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="bf8d-5d79-ae48-da54" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="d949-42dc-fd61-7d60" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7d1a-4124-5093-6b1e" name="Orc Headsman: Sheathed Blade" hidden="true" collective="false" import="true" targetId="2462-e405-f4ca-61f5" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="f0ae-53c6-19f4-3e2d" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="f0ae-53c6-19f4-3e2d" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="3037-bdf0-4892-62e6" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="8e60-9321-db18-b3bd" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="6466-b66a-3fdc-2a95" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="db37-6cba-db36-6d96" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="e223-70b0-3b49-f317" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="e223-70b0-3b49-f317" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="8103-4538-a80c-36ae" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="a1fa-9623-d3ce-c0a3" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="e56c-7018-1e2a-8e8a" name="Orc Headsman: Sheathed Blade" hidden="false" targetId="2a0a-0e49-7868-df8c" primary="false"/>
@@ -590,65 +628,69 @@
         <categoryLink id="f868-e9e3-ba7a-0f24" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
         <categoryLink id="f4a1-56ec-785b-8732" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="d1c0-24a3-18da-5d3b" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="fe0b-62e2-6f6b-fac7" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="84c9-d199-b787-1e68" name="Orc Warrior: Sheathed Blade" hidden="true" collective="false" import="true" targetId="89c6-a728-3819-76cb" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="0457-7218-38c2-95e5" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="0457-7218-38c2-95e5" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="a89d-1662-37f0-b95a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="0701-b78b-5c85-e68a" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="233a-05aa-8026-5531" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="7409-ff46-babf-bea5" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="a340-7a76-7fb1-8a5d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="29bd-2c13-c4e9-d4f7" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="29bd-2c13-c4e9-d4f7" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="4d17-7543-70be-5579" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="879a-8b3b-792f-0c02" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="c89b-e554-9ddf-3ccc" name="Orc Warrior: Sheathed Blade" hidden="false" targetId="9305-6164-727a-05f2" primary="false"/>
         <categoryLink id="1cfb-41f9-1104-1bf6" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="5aa6-c860-c9f5-b899" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="9a91-ef95-d434-9c7d" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1f4f-9b4f-6109-ca6f" name="Redguard Sellsword: Sheathed Blade" hidden="true" collective="false" import="true" targetId="e781-9f8d-4b25-e208" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="683d-a4cb-ef79-8ad2" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="683d-a4cb-ef79-8ad2" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="e74e-0ba9-6a46-62a7" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
-        <categoryLink id="fe44-f6f3-abc3-00e2" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="fe44-f6f3-abc3-00e2" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="85ac-57d7-efcc-12ff" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="9e0c-062e-f20b-f09b" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="3933-ad2c-5f39-cef8" name="Redguard Sellsword: Sheathed Blade" hidden="false" targetId="0a79-b8ba-2a57-1e7d" primary="false"/>
@@ -660,39 +702,42 @@
         <categoryLink id="1c0e-f908-db29-75ef" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="d307-20d1-3375-73c7" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="3ee8-feef-bff2-d786" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="87ae-0449-27c8-5cea" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b94d-f5b7-e8a4-cc38" name="Redguard Warrior: Sheathed Blade" hidden="true" collective="false" import="true" targetId="5880-3d33-e6d4-5a06" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2512-932f-0a3c-7322" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="8ad7-5ff5-6577-9d2e" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="8ad7-5ff5-6577-9d2e" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="0c48-98d8-0f70-635d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="b562-7496-8687-f70d" name="The Blades" hidden="false" targetId="33d2-88f5-d917-7106" primary="false"/>
         <categoryLink id="b80c-4804-d451-d4a3" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="65c8-749e-f95d-751f" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
-        <categoryLink id="0e17-a7c7-07ba-62ef" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="0e17-a7c7-07ba-62ef" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="fed7-f81f-8be6-0bbc" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="e18e-ee68-7d95-5634" name="Redguard Warrior: Sheathed Blade" hidden="false" targetId="0ef1-acf5-5398-f94d" primary="false"/>
         <categoryLink id="7b19-792a-66e2-5a03" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
         <categoryLink id="4b4b-375b-791c-2600" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="39a6-5eac-aec2-4fd3" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="3374-0031-b768-ce08" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -708,7 +753,7 @@
           <modifiers>
             <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e3c-5b30-f710-890b" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e3c-5b30-f710-890b" type="lessThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -722,37 +767,38 @@
       <selectionEntries>
         <selectionEntry id="a64c-6d7b-5e5c-d311" name="Include Leveled Profile" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365c-7452-9f84-0ff1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365c-7452-9f84-0ff1" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="cf60-e7dd-344c-5999" name="Delphine: The Hidden Blade (Leveled)" hidden="false" targetId="9fa5-6ab6-fdcb-7989" type="profile"/>
             <infoLink id="1c58-74bb-97c6-dcb4" name="Perk: Conditioning" hidden="false" targetId="6486-0fbf-504b-ff6f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="b609-8276-4c7d-55de" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="9cd7-7ea0-d0f7-33bb" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="9cd7-7ea0-d0f7-33bb" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e3c-5b30-f710-890b" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0313-7e8c-dac8-5615" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0313-7e8c-dac8-5615" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="bbbc-c4b6-9bf0-9fca" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="bbbc-c4b6-9bf0-9fca" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

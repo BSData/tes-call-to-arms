@@ -167,6 +167,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -183,6 +184,7 @@
         <categoryLink id="a3ef-0a63-c85c-f4a4" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="a1c6-d1e6-6809-743a" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="1799-50b9-fa4a-ef53" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="785d-417a-dcf1-ed27" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2fb1-9d34-6fd6-705c" name="Heimskr: Priest Of Talos" hidden="false" collective="false" import="true" targetId="c6be-6be8-c7d4-a098" type="selectionEntry">
@@ -194,6 +196,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -209,6 +212,7 @@
         <categoryLink id="c908-5a62-750b-2e66" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="0763-cd17-a946-06db" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="ad42-f999-f44f-a3dc" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="7b36-c5f1-01d2-6762" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cf65-0fc6-bc69-a284" name="Pantea Ateia: Master Vocalist" hidden="false" collective="false" import="true" targetId="cd43-e14d-0ee4-20a1" type="selectionEntry">
@@ -220,6 +224,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -234,6 +239,7 @@
         <categoryLink id="696f-8612-a250-628a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="f3a6-9dd0-8914-0d86" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="ef68-cd14-6ccc-805d" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="4fdb-c3b9-bf8d-4c94" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="06ab-d55c-b012-264c" name="Katria: Nord Spirit" hidden="false" collective="false" import="true" targetId="35b4-9427-1dd1-c693" type="selectionEntry">
@@ -245,6 +251,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -261,6 +268,7 @@
         <categoryLink id="43b4-4214-6b9f-c9e7" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="9fbd-85a1-9adb-d75e" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="85b8-a72a-8a2d-f82c" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="cf81-9c4a-80f9-ff4f" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4edf-0af7-a420-af3b" name="Lob: Orsimer Ranger" hidden="false" collective="false" import="true" targetId="200a-a201-3b78-78dd" type="selectionEntry">
@@ -272,6 +280,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -288,6 +297,7 @@
         <categoryLink id="162e-4866-64bc-1191" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="4d84-2c2c-fd22-518b" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="dfe9-fbc9-a41a-f2ff" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="8543-e629-dffd-8aae" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f972-2d38-9e1d-a852" name="Dunmer Thief: Ratway Regular" hidden="true" collective="false" import="true" targetId="c3ed-8feb-2819-1faf" type="selectionEntry">
@@ -299,6 +309,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -315,6 +326,7 @@
         <categoryLink id="2815-ec12-ed71-0b1c" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="fe0c-b9b8-a99b-9bc5" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="3a66-dd61-b7ea-f813" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="d485-38ed-c23a-8b70" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8a8e-f505-00da-e14c" name="Breton Fire Mage: Gifted Student" hidden="false" collective="false" import="true" targetId="9e30-8da4-9c08-b897" type="selectionEntry">
@@ -326,6 +338,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -338,6 +351,7 @@
         <categoryLink id="c099-eec1-1421-a090" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="03ac-8686-34d3-ce86" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="75b9-cb02-ee03-0428" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="ca2f-b456-3673-b05e" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4556-6c46-5f77-9f0d" name="Nura Snow-Shod: Priestess Of Talos" hidden="false" collective="false" import="true" targetId="c6d5-9c4c-9e32-ceb5" type="selectionEntry">
@@ -349,6 +363,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -364,6 +379,7 @@
         <categoryLink id="274c-04cc-7d14-e718" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
         <categoryLink id="77f3-f1cd-3931-4fd2" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="5c19-1bb6-6754-7ee0" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="ed3e-dced-a66c-5d53" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a937-f7d8-263f-646d" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" collective="false" import="true" targetId="e041-76bc-db25-6ec1" type="selectionEntry">
@@ -375,6 +391,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -394,6 +411,7 @@
         <categoryLink id="3f89-5895-92fc-9004" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
         <categoryLink id="8aa9-a826-ddae-a52c" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
         <categoryLink id="137e-6098-96b2-f1e8" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="0aef-bc28-d5be-2330" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="648f-ff87-5424-0cb7" name="Priestess Of Arkay: Devout Healer" hidden="false" collective="false" import="true" targetId="d7f9-cad2-1ae1-8c02" type="selectionEntry">
@@ -405,6 +423,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -418,6 +437,7 @@
         <categoryLink id="2de4-8528-6d35-6af9" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="ae07-499f-2924-c5a5" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="33ef-f577-92e8-96be" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="a1c5-7a14-2eb4-4c50" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4689-c94b-33f1-4259" name="Stormcloak Quartermaster: Master Provisioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" targetId="691f-648b-af0e-0158" type="selectionEntry">
@@ -429,6 +449,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -443,6 +464,7 @@
         <categoryLink id="12d9-5cc8-b771-029d" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="eab2-cf38-c8e3-32b9" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
         <categoryLink id="0599-fda7-c9d8-bf67" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="e021-835e-e329-fb45" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="01b0-fead-8867-49ea" name="Courier: Letter Carrier" hidden="false" collective="false" import="true" targetId="c8b2-2608-6e54-2e93" type="selectionEntry">
@@ -451,6 +473,7 @@
         <categoryLink id="a443-4664-3b73-43c7" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="7cd4-a344-f781-8665" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="2582-88d5-fdba-c5b8" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="958d-f514-38da-f9a9" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6caf-7823-4c4a-8720" name="Vigilance: War Dog" hidden="false" collective="false" import="true" targetId="da22-8c02-dd4c-6d0c" type="selectionEntry">
@@ -460,6 +483,7 @@
         <categoryLink id="75e2-2a21-022e-dd23" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="583d-beb3-bc4f-2310" name="Vigilance: War Dog" hidden="false" targetId="1261-c80e-1f7e-9e46" primary="false"/>
         <categoryLink id="eedc-cd51-1906-141c" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="ea90-506d-680e-e251" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7878-f3c5-7fce-63e1" name="War Dog: Loyal Hound" hidden="false" collective="false" import="true" targetId="4b76-5a0c-15e6-a742" type="selectionEntry">
@@ -468,6 +492,7 @@
         <categoryLink id="ec7f-cab8-9792-7785" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="38bb-6ee3-c1ba-c8d3" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="dc6e-ce2a-f3f0-d0c4" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="9518-f28a-7cfe-ccc0" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1f8b-7d1b-d85c-15da" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" collective="false" import="true" targetId="bf15-71b2-fde4-e5d5" type="selectionEntry">
@@ -477,6 +502,7 @@
         <categoryLink id="9874-120c-e70e-a38d" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="02b2-48fc-7434-f069" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" targetId="8aa4-fea7-7d3c-2261" primary="false"/>
         <categoryLink id="b7e5-c752-eb2d-cd8b" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="0bbb-7ead-513b-c3d7" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ea87-2347-2b99-2467" name="Steadfast Dwarven Sphere: Friendly Construct" hidden="false" collective="false" import="true" targetId="7659-5c62-6d66-6a86" type="selectionEntry">
@@ -486,6 +512,7 @@
         <categoryLink id="3957-9ced-4b1a-b3bf" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="8bf8-2bf6-8b5c-9c10" name="Steadfast Dwarven Sphere: Friendly Construct" hidden="false" targetId="4e47-7aa0-ae5b-2efc" primary="false"/>
         <categoryLink id="5684-9972-0c30-31f8" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="ff46-28c7-488c-d945" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e7c4-90d9-6711-4589" name="Altmer Illusionist: Sheathed Blade" hidden="true" collective="false" import="true" targetId="9fa2-5238-6eb7-ec69" type="selectionEntry">
@@ -504,6 +531,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -519,6 +547,7 @@
         <categoryLink id="7d3a-5891-8f61-202f" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="b172-9a35-e7be-2f61" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="9659-756c-9853-cbba" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="6813-a62b-933a-b37c" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f871-7f9d-8cad-a095" name="Altmer Legionary: Sheathed Blade" hidden="true" collective="false" import="true" targetId="2cd9-3741-75ff-64bf" type="selectionEntry">
@@ -537,6 +566,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -555,6 +585,7 @@
         <categoryLink id="c513-b80e-f469-c809" name="Altmer Legionary: Sheathed Blade" hidden="false" targetId="3aa6-e07b-c103-209d" primary="false"/>
         <categoryLink id="6c7c-ac83-c6bf-8fcd" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="dc25-039b-8807-932f" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="9d6b-273d-c060-451f" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="26a4-9031-60fc-75a4" name="Argonian Cutthroat: Sheathed Blade" hidden="true" collective="false" import="true" targetId="d397-52b6-f1f6-4b24" type="selectionEntry">
@@ -573,6 +604,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -591,6 +623,7 @@
         <categoryLink id="a5d4-abfc-277a-b97f" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="99ee-97f0-3703-d230" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="96cc-a808-a15c-71cc" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="c717-8d10-8266-47f5" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4205-1a51-5107-71e3" name="Argonian Miner: Sheathed Blade" hidden="true" collective="false" import="true" targetId="3bfc-d050-ca3a-f009" type="selectionEntry">
@@ -609,6 +642,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -627,6 +661,7 @@
         <categoryLink id="9130-e7d4-4b83-2f80" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="5967-c589-caac-9e5e" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
         <categoryLink id="c621-5678-6e18-ad47" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="a172-e067-664b-9b55" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0e87-8397-5706-b1f1" name="Bosmer Stalker: Sheathed Blade" hidden="true" collective="false" import="true" targetId="ad3e-ccf7-a5bc-3ca6" type="selectionEntry">
@@ -645,6 +680,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -662,6 +698,7 @@
         <categoryLink id="d571-e5bb-a355-8e26" name="Bosmer Stalker: Sheathed Blade" hidden="false" targetId="856a-a132-ff81-9474" primary="false"/>
         <categoryLink id="0d71-e4dd-9a70-0588" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="ffb8-8b3c-d768-1501" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="dc21-520c-5c4d-d2c5" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a0bb-2383-2739-95c8" name="Bosmer Vigil: Sheathed Blade" hidden="true" collective="false" import="true" targetId="1090-812f-d203-f854" type="selectionEntry">
@@ -680,6 +717,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -698,6 +736,7 @@
         <categoryLink id="94ca-c44a-1160-ffba" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="2053-2b77-a1f9-da0d" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="c4b1-81a5-7e79-941a" name="Bosmer Vigil: Sheathed Blade" hidden="false" targetId="b22d-4638-c152-65ac" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="ba70-47f6-c51e-5c45" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e799-fa3a-cede-6d6b" name="Breton Destruction Mage: Sheathed Blade" hidden="true" collective="false" import="true" targetId="5e9d-3f8e-4d31-ecd3" type="selectionEntry">
@@ -716,6 +755,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -731,6 +771,7 @@
         <categoryLink id="19f4-37e5-8681-6cea" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="78cf-dfe6-e687-fbee" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="584d-4483-12e7-942d" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="3933-c7fa-3a0a-885a" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="13cd-9613-0899-ef61" name="Breton Stalker: Sheathed Blade" hidden="true" collective="false" import="true" targetId="6235-2700-8afc-7712" type="selectionEntry">
@@ -749,6 +790,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -763,6 +805,7 @@
         <categoryLink id="fe98-3b91-2db0-793f" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="9817-c1cc-9923-8c08" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="d973-296a-3898-a734" name="Breton Stalker: Sheathed Blade" hidden="false" targetId="d6b2-99e2-29a7-cf12" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="162d-b2cc-7471-09fe" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c27b-41cc-64b9-2d20" name="Dunmer Sellsword: Sheathed Blade" hidden="true" collective="false" import="true" targetId="9e05-a245-0151-9b6c" type="selectionEntry">
@@ -781,6 +824,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -798,6 +842,7 @@
         <categoryLink id="c449-6a55-bc7c-4ea9" name="Dunmer Sellsword: Sheathed Blade" hidden="false" targetId="fe27-728c-0790-59d4" primary="false"/>
         <categoryLink id="3148-a7d7-549d-54f1" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="7a29-72c3-3600-468d" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="d1b8-81b9-1e9b-5940" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5128-e696-4c08-2997" name="Dunmer Twinblade: Sheathed Blade" hidden="true" collective="false" import="true" targetId="87e4-15d3-4105-7b8d" type="selectionEntry">
@@ -816,6 +861,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -833,6 +879,7 @@
         <categoryLink id="402e-434f-70f2-dc47" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="736f-aab5-e7bb-f6eb" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="f963-a6cb-a3f4-b57d" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="d024-47b3-92a5-d674" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cdeb-f1d7-32e4-f95e" name="Imperial Destruction Mage: Sheathed Blade" hidden="true" collective="false" import="true" targetId="a5a3-5e5f-8530-6ecf" type="selectionEntry">
@@ -851,6 +898,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -866,6 +914,7 @@
         <categoryLink id="c402-df02-378c-662b" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="9f7b-a3ac-05d9-42a2" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
         <categoryLink id="2080-e0ad-fe36-4dbd" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="f38d-42b8-c82e-d884" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1eb8-2793-84f4-90b3" name="Imperial Legionary: Sheathed Blade" hidden="true" collective="false" import="true" targetId="6779-0479-443e-4d05" type="selectionEntry">
@@ -884,6 +933,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -901,6 +951,7 @@
         <categoryLink id="ef92-a76e-0de2-f366" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
         <categoryLink id="b620-bb48-bdc2-e126" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="d1fb-2aad-45e7-fe1c" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="992a-eda1-2ee9-3382" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cc82-2f84-aceb-82fa" name="Khajiit Twinblade: Sheathed Blade" hidden="true" collective="false" import="true" targetId="f6e9-c228-7190-289f" type="selectionEntry">
@@ -919,6 +970,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -935,6 +987,7 @@
         <categoryLink id="0249-8589-ce37-4444" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
         <categoryLink id="53e5-a48e-3534-5b50" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="d5f4-b831-467d-e94d" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="a9e1-a80d-790f-3f42" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5437-e3a2-43da-7e62" name="Khajiit Warrior: Sheathed Blade" hidden="true" collective="false" import="true" targetId="71e4-e3e3-60f5-b8b8" type="selectionEntry">
@@ -953,6 +1006,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -972,6 +1026,7 @@
         <categoryLink id="0921-c054-8cb7-7923" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="f3b1-e48d-f8ce-4541" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="6622-280d-e508-7f98" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="457a-63f2-871a-f593" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a946-e707-c68f-ec5e" name="Nord Warrior: Sheathed Blade" hidden="true" collective="false" import="true" targetId="4977-b3ce-00a6-a6e6" type="selectionEntry">
@@ -990,6 +1045,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1010,6 +1066,7 @@
         <categoryLink id="f72f-1e5b-ffc9-3ebb" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="8a6c-64ab-e947-1d27" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="dd71-2111-db37-510f" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="eea6-7345-ab6e-5f31" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4428-9fda-fc46-d88b" name="Orc Warrior: Sheathed Blade" hidden="true" collective="false" import="true" targetId="89c6-a728-3819-76cb" type="selectionEntry">
@@ -1028,6 +1085,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1044,6 +1102,7 @@
         <categoryLink id="9830-ae5b-4fd1-20ef" name="Orc Warrior: Sheathed Blade" hidden="false" targetId="9305-6164-727a-05f2" primary="false"/>
         <categoryLink id="7a37-4b5f-9e88-a628" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="bac2-fed0-833a-35cc" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="060a-adc0-2581-5a47" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="50e1-b6ea-fd8c-65fa" name="Orc Headsman: Sheathed Blade" hidden="true" collective="false" import="true" targetId="2462-e405-f4ca-61f5" type="selectionEntry">
@@ -1062,6 +1121,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1079,6 +1139,7 @@
         <categoryLink id="a595-a311-2a1c-2f22" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
         <categoryLink id="2a8e-0652-b665-c0e1" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="8d73-cef5-d0bf-7236" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="2f74-0b53-0a78-f44d" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="dd00-84e1-b257-42e3" name="Redguard Warrior: Sheathed Blade" hidden="true" collective="false" import="true" targetId="5880-3d33-e6d4-5a06" type="selectionEntry">
@@ -1097,6 +1158,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1112,6 +1174,7 @@
         <categoryLink id="25d3-e702-09e1-a608" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
         <categoryLink id="ba2b-77ff-5f51-f179" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="7ab7-b01f-0042-9728" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="c6eb-0a5b-7afa-402e" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="fbcc-def7-7e93-f952" name="Redguard Sellsword: Sheathed Blade" hidden="true" collective="false" import="true" targetId="e781-9f8d-4b25-e208" type="selectionEntry">
@@ -1130,6 +1193,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1148,6 +1212,7 @@
         <categoryLink id="9767-ad56-f0cc-7c13" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="b0f7-8399-081d-e616" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="8560-baa1-241c-c8e7" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="bfda-eaaa-59be-e2fe" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6f55-0611-8349-3bec" name="Sulla Trebatius: Rogue Spellsword" hidden="false" collective="false" import="true" targetId="4c95-92ab-1b31-8e1f" type="selectionEntry">
@@ -1159,6 +1224,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1174,6 +1240,7 @@
         <categoryLink id="8bcd-60cc-6e4f-30e4" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="c266-5e05-b338-3e14" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="c076-f563-494d-663a" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="0e57-9557-95a4-6785" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="df70-d7d3-8cfe-cf42" name="Umana: Alftand Explorer" hidden="true" collective="false" import="true" targetId="b9e6-1800-ab0c-955d" type="selectionEntry">
@@ -1185,6 +1252,7 @@
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1200,6 +1268,7 @@
         <categoryLink id="f338-879b-4838-7981" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="f1f5-1373-0b72-0eeb" name="Umana Equipment" hidden="false" targetId="73b3-09d7-4d9c-8be4" primary="false"/>
         <categoryLink id="edc0-2534-6b97-dc58" name="Umana: Alftand Explorer" hidden="false" targetId="5e04-164b-eb1d-0f61" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="7069-352c-423a-3328" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9ce6-f300-2870-992f" name="Nord Warrior: Mercenary" hidden="false" collective="false" import="true" targetId="59d2-c10e-381d-6702" type="selectionEntry">
@@ -1208,6 +1277,7 @@
         <categoryLink id="046c-d9b3-c4f9-a5f0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="507a-2c39-0eaf-b385" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="42a8-47fd-b506-14a4" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="7cc6-62d4-a4d7-17f5" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ca59-7a20-68f1-4f08" name="Nord Ranger: Mercenary" hidden="false" collective="false" import="true" targetId="1433-199b-3dda-e768" type="selectionEntry">
@@ -1216,6 +1286,7 @@
         <categoryLink id="1075-b725-0468-f4be" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="7095-f150-33cb-11a0" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="c159-6363-c521-f33b" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="0b1c-94d6-adcc-7047" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a2a8-b195-83a5-6f22" name="Orc Warrior: Mercenary" hidden="false" collective="false" import="true" targetId="fc9f-2270-e1b5-811e" type="selectionEntry">
@@ -1224,6 +1295,7 @@
         <categoryLink id="4cdd-2b1a-2b3e-47e9" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="7feb-d390-c7f9-09d6" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="f8d5-cb8d-cda6-5a10" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="6d46-78dd-3a9a-98a7" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1263,6 +1335,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6be-6be8-c7d4-a098" name="Heimskr: Priest Of Talos" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1306,6 +1379,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd43-e14d-0ee4-20a1" name="Pantea Ateia: Master Vocalist" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1347,6 +1421,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35b4-9427-1dd1-c693" name="Katria: Nord Spirit" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1395,6 +1470,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="59"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="200a-a201-3b78-78dd" name="Lob: Orsimer Ranger" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1432,6 +1508,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="59"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3ed-8feb-2819-1faf" name="Dunmer Thief: Ratway Regular" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1469,6 +1546,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e30-8da4-9c08-b897" name="Breton Fire Mage: Gifted Student" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1505,6 +1583,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6d5-9c4c-9e32-ceb5" name="Nura Snow-Shod: Priestess Of Talos" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1547,6 +1626,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e041-76bc-db25-6ec1" name="Adelaisa Vendicci: East Empire Company Agent" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1589,6 +1669,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7f9-cad2-1ae1-8c02" name="Priestess Of Arkay: Devout Healer" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1632,6 +1713,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="691f-648b-af0e-0158" name="Stormcloak Quartermaster: Master Provisioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -1668,6 +1750,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c8b2-2608-6e54-2e93" name="Courier: Letter Carrier" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1683,6 +1766,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da22-8c02-dd4c-6d0c" name="Vigilance: War Dog" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1694,6 +1778,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4b76-5a0c-15e6-a742" name="War Dog: Loyal Hound" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1705,6 +1790,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf15-71b2-fde4-e5d5" name="Steadfast Dwarven Spider: Friendly Construct" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1716,6 +1802,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7659-5c62-6d66-6a86" name="Steadfast Dwarven Sphere: Friendly Construct" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -1729,10 +1816,10 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9fa2-5238-6eb7-ec69" name="Altmer Illusionist: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="7ded-d969-0c10-0e4d" name="Illusion Master" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>If the Altmer Illusionist is not engaged at the end of its activation, spend 2 Magicka to perform an Illusion Skill Test.  If successful, the Altmer Illusionist is Terrifying until it next activates.</description>
@@ -1768,7 +1855,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="31ed-89b3-9c0c-a3f8" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="f77d-e5d6-252b-b1b1" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="f77d-e5d6-252b-b1b1" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1780,16 +1867,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a874-adba-374f-854d" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="c94a-dae4-75b1-dc3d" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="c94a-dae4-75b1-dc3d" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2cd9-3741-75ff-64bf" name="Altmer Legionary: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="275f-ffe7-5d64-edad" name="Healing Spells" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>If the Altmer Legionary is not engaged at the end of its activation, spend 2 Magicka to perform a Restoration Skill Test.  If successful, restore 2 Health.</description>
@@ -1825,7 +1912,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="618b-ebac-d994-bff5" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="b9b4-96fd-a775-e566" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="b9b4-96fd-a775-e566" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1837,16 +1924,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83ba-307b-0144-7fec" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="9dc2-b94c-d478-1a4f" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="9dc2-b94c-d478-1a4f" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d397-52b6-f1f6-4b24" name="Argonian Cutthroat: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="205d-22f1-f57c-7691" name="Argonian Cutthroat: Sheathed Blade" hidden="false" targetId="cf0c-031a-88de-4671" type="profile">
           <modifiers>
@@ -1877,7 +1964,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="0829-e097-9cba-aa72" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="a86b-2aff-d68c-d4f1" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="a86b-2aff-d68c-d4f1" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1889,16 +1976,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb27-98f6-2a13-6cd2" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="2c96-9ef9-04a8-5fe4" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="2c96-9ef9-04a8-5fe4" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bfc-d050-ca3a-f009" name="Argonian Miner: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="b5fe-bc64-745b-5118" name="Argonian Miner: Sheathed Blade" hidden="false" targetId="cc31-4df0-3f42-a0fc" type="profile">
           <modifiers>
@@ -1929,7 +2016,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="75ac-c617-ed74-9190" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="e3b5-610c-38e9-6ea0" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="e3b5-610c-38e9-6ea0" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1941,16 +2028,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101a-c317-0d56-6a2d" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="0944-0a27-323e-7c90" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="0944-0a27-323e-7c90" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad3e-ccf7-a5bc-3ca6" name="Bosmer Stalker: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="ffd8-116a-87e9-42ad" name="Forester" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>This model does not suffer the Difficult Terrain penalty when moving through Area Terrain of the woodland type.</description>
@@ -1986,7 +2073,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="34ba-4d45-a252-0af1" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="1a41-8fc6-bf26-6462" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="1a41-8fc6-bf26-6462" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1998,16 +2085,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f71-287f-5c65-983e" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="f295-1388-ed36-d398" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="f295-1388-ed36-d398" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1090-812f-d203-f854" name="Bosmer Vigil: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="22f8-2545-e011-8f03" name="Light of Stendarr" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>If at the end of an activation the Bosmer Vigil is within 6&quot; of any Enemy Undead or Vampire models, spend 3 Magicka and perform a Restoration Skill Test.  If successful, [deal] 1 damage [to] all Undead or Vampire models within 6&quot;.</description>
@@ -2043,7 +2130,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="b155-fe84-c8f3-0279" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="8d61-d8ab-92d9-1729" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="8d61-d8ab-92d9-1729" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2055,16 +2142,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f89-2556-ef2d-d6c0" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="69d9-287f-6e7d-95a3" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="69d9-287f-6e7d-95a3" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="35"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e9d-3f8e-4d31-ecd3" name="Breton Destruction Mage: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="a7cd-b2d8-9296-4e74" name="Potion of Magicka [*]" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>Once per game, at the beginning of its activation (before replenishing reserves) if the Breton Destruction Mage has no points remaining in its Magicka Reserve, restore it to full.</description>
@@ -2100,7 +2187,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="066c-a13c-a2c4-5c42" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="bfc4-e8ce-b17b-05a4" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="bfc4-e8ce-b17b-05a4" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2112,16 +2199,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b34-c7d4-2382-5416" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="0651-a9ef-6304-6718" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="0651-a9ef-6304-6718" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="37"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6235-2700-8afc-7712" name="Breton Stalker: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="ac60-4822-30ff-ae3d" name="Illusionist" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>If the Breton Stalker ends an activation unengaged and not within Clear Line of Sight of an Enemy model, take an Illusion Skill Test.  If successful, assign a Hidden Token to the Breton Stalker.</description>
@@ -2157,7 +2244,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="5a08-be8a-ac8d-a4dd" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="7c01-c330-7bdf-a583" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="7c01-c330-7bdf-a583" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2169,16 +2256,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d09-b0a4-7ac5-805f" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="344a-8898-966a-5e40" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="344a-8898-966a-5e40" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e05-a245-0151-9b6c" name="Dunmer Sellsword: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="ec3f-1af3-a229-e4a2" name="Dunmer Sellsword: Sheathed Blade" hidden="false" targetId="dd47-c906-e26c-76f2" type="profile">
           <modifiers>
@@ -2210,7 +2297,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="aeda-3fe9-f672-0703" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="73f6-ce61-e51e-0bfa" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="73f6-ce61-e51e-0bfa" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2222,16 +2309,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee2-7d15-3bf3-4249" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="6f83-9291-a5c1-ba47" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="6f83-9291-a5c1-ba47" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="43"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87e4-15d3-4105-7b8d" name="Dunmer Twinblade: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="972c-6d77-7eb2-f156" name="Dual Wielder" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>If the Dunmer Twinblade is engaged with multiple enemy models, add [GREEN] to all Melee Attacks.</description>
@@ -2267,7 +2354,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="208e-d1ac-6238-175e" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="c0da-dfdc-3de7-f32d" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="c0da-dfdc-3de7-f32d" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2279,16 +2366,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07be-b692-73ba-518f" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="644a-8f60-f0e5-a898" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="644a-8f60-f0e5-a898" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="35"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5a3-5e5f-8530-6ecf" name="Imperial Destruction Mage: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="ee87-7493-8afa-3d3d" name="Potion of Magicka [*]" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>Once per game, at the beginning of its activation (before replenishing reserves) if the Imperial Destruction Mage has no points remaining in its Magicka Reserve, restore it to full.</description>
@@ -2324,7 +2411,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="425f-249e-d67b-04d2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="4f73-0f38-4b8a-15e5" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="4f73-0f38-4b8a-15e5" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2336,16 +2423,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5203-da87-16f7-66dc" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="8330-0f8a-1032-2284" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="8330-0f8a-1032-2284" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6779-0479-443e-4d05" name="Imperial Legionary: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="429c-e662-1854-82e5" name="Shield Drills" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>When performing a Shield Bash against an enemy model, spend an additional point of Stamina to deal [YELLOW] damage to the target.</description>
@@ -2381,7 +2468,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="7c51-2547-335a-361f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="b4a6-f299-619e-fd1e" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="b4a6-f299-619e-fd1e" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2393,16 +2480,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d0c-fde7-7b0e-11d6" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="2042-45bd-2612-ac0d" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="2042-45bd-2612-ac0d" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6e9-c228-7190-289f" name="Khajiit Twinblade: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="9ce3-6960-8e5b-29a6" name="Throwing Dagger [*]" publicationId="2ee0-173b-47e1-7ff1" hidden="false">
           <description>If at the end of its activation the Khajiit Twinblade is within 6&quot; of any enemy model, perform an Archery Skill Test.  If successful, [deal] [YELLOW][YELLOW] damage [to] the target. [RAI: against each? Needs official clarification.]</description>
@@ -2438,7 +2525,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="62e4-ab04-2ab1-0ca2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="0411-86c8-1b02-c5d9" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="0411-86c8-1b02-c5d9" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2450,16 +2537,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46e9-6311-32c4-dd2c" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="18de-96a8-8147-5084" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="18de-96a8-8147-5084" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71e4-e3e3-60f5-b8b8" name="Khajiit Warrior: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="7bc9-cc4f-614a-a862" name="Khajiit Warrior: Sheathed Blade" hidden="false" targetId="24cd-fd3b-4d96-fea2" type="profile">
           <modifiers>
@@ -2491,7 +2578,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="c963-75bc-e619-911c" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="e3c1-f4ce-de2b-0fa2" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="e3c1-f4ce-de2b-0fa2" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2503,16 +2590,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31bd-1bb6-2956-508a" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="4160-3664-89c0-e553" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="4160-3664-89c0-e553" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4977-b3ce-00a6-a6e6" name="Nord Warrior: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="363d-fa7a-7091-726e" name="Nord Warrior: Sheathed Blade" hidden="false" targetId="716b-34d5-e78d-768f" type="profile">
           <modifiers>
@@ -2544,7 +2631,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="0d94-3209-b244-fc72" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="5d9e-335c-ea56-4877" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="5d9e-335c-ea56-4877" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2556,16 +2643,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf73-4aec-953d-0360" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="88a6-ea0f-55e4-8246" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="88a6-ea0f-55e4-8246" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89c6-a728-3819-76cb" name="Orc Warrior: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="fcbf-6e1a-d438-95ed" name="Orc Warrior: Sheathed Blade" hidden="false" targetId="af73-9318-6318-9e3a" type="profile">
           <modifiers>
@@ -2597,7 +2684,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="1f9b-c4d2-8c42-1d86" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="2753-c79c-39f4-c5cb" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="2753-c79c-39f4-c5cb" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2609,16 +2696,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e7-0d60-19f8-96ba" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="18d7-a4d1-8908-870c" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="18d7-a4d1-8908-870c" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2462-e405-f4ca-61f5" name="Orc Headsman: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="eb53-bdad-52e6-4500" name="Headsman" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>If at the end of its Activation the Orc Headsman is within 3&quot; of an enemy Incapacitated model, perform a Two-Handed Skill Test.  If successful, remove the enemy model as a casualty.</description>
@@ -2654,7 +2741,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="d70c-0faa-63c6-489c" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="f301-5e5f-677d-095f" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="f301-5e5f-677d-095f" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2666,16 +2753,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4829-5e03-6514-65f9" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="9bd9-8a57-c393-3ad0" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="9bd9-8a57-c393-3ad0" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5880-3d33-e6d4-5a06" name="Redguard Warrior: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="6157-97eb-661f-3e93" name="Redguard Warrior: Sheathed Blade" hidden="false" targetId="d592-a754-a31d-4aa2" type="profile">
           <modifiers>
@@ -2707,7 +2794,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="9820-161a-71f7-ab5a" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="794e-cb98-37e6-ad70" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="794e-cb98-37e6-ad70" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2719,16 +2806,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d3f-8bb2-a63f-a2de" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="6918-5f51-2536-3211" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="6918-5f51-2536-3211" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e781-9f8d-4b25-e208" name="Redguard Sellsword: Sheathed Blade" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="2388-9b50-747e-3037" name="Redguard Warrior: Sheathed Blade" hidden="false" targetId="d592-a754-a31d-4aa2" type="profile">
           <modifiers>
@@ -2760,7 +2847,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="f2bd-3732-9a19-8ba9" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="1484-8223-e6e3-0164" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="1484-8223-e6e3-0164" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2772,12 +2859,13 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1551-06d0-7377-3abd" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="590d-69d0-7828-d494" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="590d-69d0-7828-d494" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c95-92ab-1b31-8e1f" name="Sulla Trebatius: Rogue Spellsword" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -2818,7 +2906,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="046b-ea95-3d09-c98b" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="f1e3-3d57-1e14-c5eb" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="f1e3-3d57-1e14-c5eb" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2830,16 +2918,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0909-efe2-581b-7899" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="6888-d2eb-623c-f1df" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="6888-d2eb-623c-f1df" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="52"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9e6-1800-ab0c-955d" name="Umana: Alftand Explorer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="4eed-5143-e5cc-3c81" name="Reluctant Companion" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Umana has the Bodyguard keyword, but only targeting a friendly Sulla Trebatius model, even if he is not the Party Champion.  However, if Umana ever recieves damage as a result of Sulla&apos;s [Unpredictable Behaviour] special rule, [Umana loses] this rule for the rest of the game.</description>
@@ -2877,7 +2965,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="02bb-2fe9-0e39-5196" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="af35-61ca-2539-3acb" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="af35-61ca-2539-3acb" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2889,12 +2977,13 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bbb-7ba3-a7a8-6fa0" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="63f8-08c8-13dc-fefe" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="63f8-08c8-13dc-fefe" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59d2-c10e-381d-6702" name="Nord Warrior: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -2905,6 +2994,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1433-199b-3dda-e768" name="Nord Ranger: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -2915,6 +3005,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc9f-2270-e1b5-811e" name="Orc Warrior: Mercenary" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -2925,6 +3016,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

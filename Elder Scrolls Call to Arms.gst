@@ -11,7 +11,6 @@ Low Priority: Adversaries</comment>
     <publication id="a37b-3a3b-faf7-0732" name="Chapter 1 Cards"/>
     <publication id="2733-0fd1-3311-3be2" name="Chapter 2 Cards"/>
     <publication id="bcdd-038f-9aa1-3237" name="Core Set Cards"/>
-    <publication id="9ac9-edd2-53a7-2d58" name="Draugr Faction (BETA)" publisher="Draugr Faction Rules"/>
     <publication id="c5ed-9e8c-ec28-4def" name="HotE I: TSR" shortName="HotE I: TSR" publisher="Histories of the Empire Vol. I: The Stormcloak Rebellion"/>
     <publication id="7808-76cd-3ab8-6f86" name="FAQ (v1.2)" publisher="FAQ (v1.2)"/>
     <publication id="6505-1b24-c5b0-6421" name="Into The Dark Cards" shortName="ITD Cards" publisher="Into The Dark Cards"/>
@@ -21,6 +20,7 @@ Low Priority: Adversaries</comment>
   </publications>
   <costTypes>
     <costType id="c61a-51a3-370d-bf55" name=" Septims" defaultCostLimit="-1" hidden="false"/>
+    <costType name="Model Count" id="b1c3-7317-4f6a-a8b9" defaultCostLimit="-1"/>
   </costTypes>
   <profileTypes>
     <profileType id="350c-2ddd-8a24-377b" name="Hero">
@@ -197,7 +197,7 @@ Low Priority: Adversaries</comment>
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry id="ea16-f8fd-dd67-9fad" name="Champion" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false"/>
+    <categoryEntry id="ea16-f8fd-dd67-9fad" name="Party Champion" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false"/>
     <categoryEntry id="6a5a-a22b-d68a-2675" name="Army Faction" publicationId="4d6f-8c48-a5ea-e83c" page="91" hidden="false"/>
     <categoryEntry id="c06c-5d0a-f27a-3385" name="Hireling Hero" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false">
       <infoLinks>
@@ -324,12 +324,17 @@ Low Priority: Adversaries</comment>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e64-9681-104d-a525" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="c413-2e33-e6e4-ffca" name="Elf is Champion (Orthjolf)" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
+    <categoryEntry id="c413-2e33-e6e4-ffca" name="Elf is Party Champion (Orthjolf)" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
     <categoryEntry id="5a63-c7de-3c2a-78cb" name="The Companions" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
     <categoryEntry id="51b3-8593-8f15-b9f5" name="The Silver Hand" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
     <categoryEntry name="Thalmor" id="ff7a-e4f7-2845-6f78" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
     <categoryEntry name="Werewolf" id="f71c-90c3-abdf-17ee" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
     <categoryEntry name="Epic Creature" id="c983-f514-755f-f01a" hidden="false" publicationId="1d0d-fac6-d336-636f" page="10"/>
+    <categoryEntry name="Hireling Count" id="065c-f392-0c98-91f5" hidden="false"/>
+    <categoryEntry name="Penitus Oculatus" id="856b-0e17-335e-7258" hidden="false" publicationId="2733-0fd1-3311-3be2">
+      <comment>referenced only</comment>
+    </categoryEntry>
+    <categoryEntry name="Commander Maro (Character)" id="b3c9-7fc0-a758-b922" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
@@ -345,7 +350,7 @@ Low Priority: Adversaries</comment>
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink id="a40f-b709-d084-d1de" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false">
+        <categoryLink id="a40f-b709-d084-d1de" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="139f-9c43-f37b-a8c5" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="076c-23b0-3d7f-ca04" type="min"/>
@@ -2622,18 +2627,6 @@ A: Yes</description>
       </constraints>
       <selectionEntries>
         <selectionEntry id="d6a3-9869-f1f0-db9f" name="Adventurers" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="append" field="name" value="(INVALID: Check Party Composition)">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="25" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" childId="ba61-d304-9352-ec15" type="lessThan"/>
-                    <condition field="selections" scope="roster" value="25" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" childId="b1cc-bf06-8acb-dce0" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd0e-69b7-c516-eaae" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e3-27e9-24d8-be8f" type="min"/>
@@ -2641,6 +2634,7 @@ A: Yes</description>
           <rules>
             <rule id="fcbc-4579-d15a-5bcb" name="Adventurers Party Composition" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
               <description>No more than half (50%) of the models in the Party may be from the same path, unless it is the same path as the Party Champion. Models with the Adventurers faction icon may be included as Hirelings in another Party, unless that Party’s composition restrictions specify otherwise.</description>
+              <alias>Adventurers</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2653,6 +2647,14 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="Adventurer Party Composition restrictions not supported by app" field="warning">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d6a3-9869-f1f0-db9f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>not possible to implement party restrictions</comment>
         </selectionEntry>
         <selectionEntry id="949d-3d53-f802-2bf3" name="Aldmeri Dominion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2662,6 +2664,7 @@ A: Yes</description>
           <rules>
             <rule id="3eb4-a8e2-5e03-da5d" name="Aldmeri Dominion Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>At least half (50%) of the models in the Party must be Heroes.</description>
+              <alias>Aldmeri Dominion</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2675,6 +2678,19 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in Aldmeri Dominion Party must be Heroes" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="949d-3d53-f802-2bf3" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b9a4-31a5-b4ed-b4c7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <comment>done</comment>
         </selectionEntry>
         <selectionEntry id="bca9-22d3-2c89-c812" name="The Companions" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2684,6 +2700,8 @@ A: Yes</description>
           <rules>
             <rule id="c1a2-3f8b-14f2-6d97" name="The Companions Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
               <description>At least half (50%) of the models in the Party must be from the Path of Might. At least a quarter (25%) of the models in the Party must be Heroes. No more than a quarter (25%) of the Party&apos;s models may be Hirelings. Models with the Companions Faction icon may be included as Hirelings in another party, unless that party&apos;s composition restrictions specify otherwise.</description>
+              <alias>The Companions</alias>
+              <alias>Companion</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2698,6 +2716,38 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in The Companions Party must have Path of Might." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="bca9-22d3-2c89-c812" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b1cc-bf06-8acb-dce0" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 25% of models in The Companions Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="bca9-22d3-2c89-c812" shared="true"/>
+                    <condition type="atLeast" value="26" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="At least 25% of models in The Companions Party must be Heroes." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="bca9-22d3-2c89-c812" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b9a4-31a5-b4ed-b4c7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="f675-28a6-b947-2dd1" name="College Of Winterhold" page="TBD" hidden="true" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2714,12 +2764,45 @@ A: Yes</description>
           <rules>
             <rule name="College of Winterhold Party Composition" id="3ae3-6fea-9975-40ca" hidden="false" publicationId="1d0d-fac6-d336-636f">
               <description>At least half (50%) of the models in the party must be from the Path of Sorcery. At least a quarter (25%) of the models in the party must be Heroes. Up to half (50%) of the models in the party may be Hirelings. Models with the College of Winterhold faction icon may be included as Hirelings in another party, unless that party&apos;s composition restrictions specify otherwise.</description>
+              <alias>College of Winterhold</alias>
             </rule>
           </rules>
           <infoLinks>
             <infoLink name="Directed Study" id="05cb-1c6f-4fee-0ccd" hidden="false" type="rule" targetId="8e93-1da4-2cdc-ef3c"/>
             <infoLink name="Magical Nexus" id="48a8-3792-5f89-65b2" hidden="false" type="rule" targetId="5d80-3f20-6650-6471"/>
           </infoLinks>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in College of Winterhold Party must have Path of Sorcery" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f675-28a6-b947-2dd1" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8b22-d1f0-dcf8-83d7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="At least 25% of models in College of Winterhold Party must be Heroes." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f675-28a6-b947-2dd1" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b9a4-31a5-b4ed-b4c7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 50% of models in College of Winterhold Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f675-28a6-b947-2dd1" shared="true"/>
+                    <condition type="atLeast" value="51" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="c6ee-751e-e8e5-492a" name="Daggerfall Covenant" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2729,6 +2812,7 @@ A: Yes</description>
           <rules>
             <rule id="d1ff-bb62-1f59-7922" name="Daggerfall Covenant Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>At least a quarter (25%) of the models in the Party must be from the Path of Might. With the exception of the Champion, Daggerfall Covenant Parties may not include more Heroes than Followers (so a Party may contain one Champion, two Heroes, and two  followers models, for example). No more than a quarter (25%) of the party’s models may be Hirelings.</description>
+              <alias>Daggerfall Covenant</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2741,6 +2825,27 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="RAW Daggerfall Party Composition Impossible without more releases" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="c6ee-751e-e8e5-492a" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b1cc-bf06-8acb-dce0" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                        <condition type="atLeast" value="26" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                        <condition type="atLeast" value="51" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b9a4-31a5-b4ed-b4c7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <comment>cant make legal party without more faction models released</comment>
         </selectionEntry>
         <selectionEntry id="3838-ee29-fe4c-23d1" name="Dark Brotherhood" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2750,6 +2855,7 @@ A: Yes</description>
           <rules>
             <rule id="c543-f93e-19a1-cc8b" name="Dark Brotherhood Party Composition" publicationId="2733-0fd1-3311-3be2" hidden="false">
               <description>At least half (50%) of the models in the party must be from the Path of Shadow. At least a quarter (25%) of the models in the party must be Heroes.  Models with the Dark Brotherhood faction icon may be included as Hirelings in another party, unless that party&apos;s composition restrictions specify otherwise.  Dark Brotherhood models cannot be included in the same party as Commander Maro or any Penitus Oculatus model.</description>
+              <alias>Dark Brotherhood</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2763,8 +2869,50 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in Dark Brotherhood Party must have Path of Shadow" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3838-ee29-fe4c-23d1" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="9797-61ac-cbe1-cccd" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="At least 25% of models in Dark Brotherhood Party must be Heroes." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3838-ee29-fe4c-23d1" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b9a4-31a5-b4ed-b4c7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Dark Brotherhood Party cannot contain Penitus Oculatus models " field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3838-ee29-fe4c-23d1" shared="true"/>
+                    <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="856b-0e17-335e-7258" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Dark Brotherhood Party cannot contain Commander Maro" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3838-ee29-fe4c-23d1" shared="true"/>
+                    <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b3c9-7fc0-a758-b922" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
-        <selectionEntry id="5b13-d81a-9048-0fb2" name="Draugr (Faction)" publicationId="9ac9-edd2-53a7-2d58" page="1" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5b13-d81a-9048-0fb2" name="Draugr" publicationId="1d0d-fac6-d336-636f" page="1" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7826-490f-4795-89a5" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3977-b896-9641-83ee" type="min"/>
@@ -2772,6 +2920,7 @@ A: Yes</description>
           <rules>
             <rule id="1bfb-5787-6351-5fc1" name="Draugr Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
               <description>The Party Champion must be the faction Hero with the highest total Septim value, unless a model has the Born Leader rule. If several Eligible models have the Born Leader rule, the one with the highest total Septim cost takes precedence. Draugr Parties cannot include Hirelings except for Necromancers, Dragons, and Frostbite Spiders. No more than a quarter (25%) of the Party’s models may be Hirelings.</description>
+              <alias>Draugr</alias>
             </rule>
           </rules>
           <categoryLinks>
@@ -2786,6 +2935,19 @@ A: Yes</description>
             <infoLink name="Limited Shouts" id="560b-1c8f-3ce3-4ca0" hidden="false" type="rule" targetId="1472-d522-b6c0-8aae"/>
             <infoLink name="Mysterious Purpose" id="4eac-c0e9-eb78-ecfe" hidden="false" type="rule" targetId="5824-c51c-0e91-d0f7"/>
           </infoLinks>
+          <comment>need to implement highest cost champion and hide all non dragon/frostbite spider/necro hirelings</comment>
+          <modifiers>
+            <modifier type="add" value="No more than 25% of models in Draugr Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5b13-d81a-9048-0fb2" shared="true"/>
+                    <condition type="atLeast" value="26" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="03b8-d846-d949-fc55" name="Ebonheart Pact" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2795,6 +2957,7 @@ A: Yes</description>
           <rules>
             <rule id="1931-fe74-c8cd-422c" name="Ebonheart Pact Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>The party may include no more than one Hireling model for every Faction Hero.  The party may not include any models from the House Telvanni Faction.</description>
+              <alias>Ebonheart Pact</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2808,6 +2971,24 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="Ebonheart Pact Party cannot contain House Telvanni models " field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="03b8-d846-d949-fc55" shared="true"/>
+                    <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="de22-5937-1643-4522" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Manually check # Hireling &lt;= # Ebonheart Pact Heroes" field="warning">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="03b8-d846-d949-fc55" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>cannot fully implement</comment>
         </selectionEntry>
         <selectionEntry id="6890-bf2c-fee7-ea81" name="Followers of Molag Bal" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2817,6 +2998,7 @@ A: Yes</description>
           <rules>
             <rule id="5de2-da8b-8392-a766" name="Followers of Molag Bal Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>The Followers of Molag Bal treat all Undead, Vampire, and Necromancer models in the Party as Faction Heroes or Followers. Up to one Hero of the Adventurers faction may be recruited as a Faction Hero. This Party may not recruit models from the Aldmeri Dominion, Daggerfall Covenant, or Ebonheart Pact Factions, even if those models might ordinarily be recruited (because they share a Faction such as Adventurers, for example).</description>
+              <alias>Followers of Molag Bal</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2829,6 +3011,39 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="Followers of Molag Bal Party cannot contain Aldmeri Dominion models " field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6890-bf2c-fee7-ea81" shared="true"/>
+                    <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="7a4b-b0a8-af97-404b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Followers of Molag Bal Party cannot contain Daggerfall Covenant models " field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6890-bf2c-fee7-ea81" shared="true"/>
+                    <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="f5a6-4501-1cef-61bd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Followers of Molag Bal Party cannot contain Ebonheart Pact models " field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6890-bf2c-fee7-ea81" shared="true"/>
+                    <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="328b-1d75-65e2-424b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <comment>need to implement Faction Hero conversion mechanic from Composition Rules</comment>
         </selectionEntry>
         <selectionEntry id="4a41-4348-2857-17c1" name="Hold Guard" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2836,8 +3051,9 @@ A: Yes</description>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a5-f520-8315-c9d2" type="min"/>
           </constraints>
           <rules>
-            <rule id="47ed-3ab7-288a-36b1" name="Hold Guard Party Composition" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false">
+            <rule name="Hold Guard Party Composition" id="1a5d-613a-6ced-0c1d" hidden="false" publicationId="4d6f-8c48-a5ea-e83c" page="73">
               <description>At least half (50%) of the models in the Party must be from the Path of Might. At least half (50%) of the models in the Party must be Followers. No more than half (50%) of the models in the Party may be Hirelings.</description>
+              <alias>Hold Guard</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2850,6 +3066,38 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in Hold Guard Party must be Followers" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="4a41-4348-2857-17c1" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 50% of models in Hold Guard Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="4a41-4348-2857-17c1" shared="true"/>
+                    <condition type="atLeast" value="51" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="At least 50% of models in Hold Guard Party must have Path of Might." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="4a41-4348-2857-17c1" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b1cc-bf06-8acb-dce0" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="a42d-5cd6-77d3-e140" name="Imperial Legion" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2859,6 +3107,7 @@ A: Yes</description>
           <rules>
             <rule id="3971-e95e-bfe4-2678" name="Imperial Legion Party Composition" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
               <description>At least a quarter (25%) of the models in the Party must be from the Path of Might.  With the exception of the Champion, Imperial Legion parties may not include more Heroes than Followers (for example, a Party may contain one Champion, two Heroes, and two Followers models).  No more than a quarter (25%) of the Party’s models may be Hirelings.  No model in an Imperial Legion Party may purchase an Amulet of Talos, nor may they ever benefit from a Blessing of Talos.</description>
+              <alias>Imperial Legion</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2871,6 +3120,34 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 25% of models in Imperial Legion Party must have Path of Might." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a42d-5cd6-77d3-e140" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b1cc-bf06-8acb-dce0" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 25% of models in Imperial Legion Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a42d-5cd6-77d3-e140" shared="true"/>
+                    <condition type="atLeast" value="26" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Manually check # Followers &gt;= # Heroes (exclude Champion)" field="warning">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a42d-5cd6-77d3-e140" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>cannot fully implement</comment>
         </selectionEntry>
         <selectionEntry id="989b-4227-9d20-dbae" name="Nightingales" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2880,6 +3157,8 @@ A: Yes</description>
           <rules>
             <rule id="1ee2-64d9-ab43-cfad" name="Nightingales Party Composition" publicationId="2733-0fd1-3311-3be2" hidden="false">
               <description>Only three Heroes bear the Nightingales faction icon.  A party that includes all three Nightingales Heroes must choose Nightingales as its Primary Faction. A Nightingales party may select any number of Follower Hirelings but may not include any other Heroes. Models with the Nightingales faction icon may be included as hirelings in another party, unless that party&apos;s composition restrictions specify otherwise.</description>
+              <alias>Nightingales</alias>
+              <alias>Nightingale</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2892,6 +3171,28 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="Nightingales may not include any Hireling Heroes" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="989b-4227-9d20-dbae" shared="true"/>
+                    <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="c06c-5d0a-f27a-3385" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Party with all 3 Nightingales must have Nightingale Faction" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="989b-4227-9d20-dbae" shared="true"/>
+                    <condition type="equalTo" value="3" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="5594-acf1-76dc-5206" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="00de-a491-fd7e-bcca" name="Stormcloaks" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2901,6 +3202,7 @@ A: Yes</description>
           <rules>
             <rule id="e3ca-19c6-73e6-8c80" name="Stormcloaks Party Composition" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
               <description>At least half (50%) of the models in the Party must be from the Path of Might. At least a quarter (25%) of the models in the Party must be Followers. The Party may include no more than one Hireling model for every Faction Hero. No more than a quarter (25%) of the models in the Party may be of the Dunmer (Dark Elves) race.</description>
+              <alias>Stormcloaks</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2913,6 +3215,39 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in Stormcloaks Party must have Path of Might." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="00de-a491-fd7e-bcca" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b1cc-bf06-8acb-dce0" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="At least 25% of models in Stormcloaks Party must be Followers." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="00de-a491-fd7e-bcca" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 1 Hireling per Faction Hero in Stormcloaks Party." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="00de-a491-fd7e-bcca" shared="true"/>
+                    <condition type="atLeast" value="37.6" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <comment>need to implement dunmer category</comment>
         </selectionEntry>
         <selectionEntry id="2e3c-5b30-f710-890b" name="The Blades" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2922,6 +3257,7 @@ A: Yes</description>
           <rules>
             <rule id="a79e-6be4-4205-006b" name="The Blades Party Composition" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
               <description>At lest half (50%) of the models in the Party must be Heroes. Models with the Blades faction icon may be included as Hirelings in another Party, unless that Party’s composition restrictions specify otherwise. Blades models cannot be included in the same party as a Thalmor, Third Aldmeri Dominion, or a Dragon model.</description>
+              <alias>The Blades</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -2935,6 +3271,18 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in The Blades Party must be Heroes." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e3c-5b30-f710-890b" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b9a4-31a5-b4ed-b4c7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="3ead-7f3e-4bda-5072" name="The Thieves&apos; Guild" hidden="false" collective="false" import="true" type="upgrade" publicationId="1d0d-fac6-d336-636f">
           <constraints>
@@ -2951,12 +3299,46 @@ A: Yes</description>
           <rules>
             <rule name="Thieves&apos; Guild Party Composition" id="d153-00e8-5e4b-0571" hidden="false" publicationId="1d0d-fac6-d336-636f">
               <description>At least half (50%) of the models in the party must be from the Path of Shadow. At least a quarter (25%) of the models in the party must be Heroes. Up to half (50%) of the models in the party may be Hirelings. Models with the Thieves&apos; Guild faction icon may be included as Hirelings in another party, unless that party&apos;s composition restrictions specify otherwise.</description>
+              <alias>The Thieves&apos; Guild</alias>
+              <alias>Thieves&apos; Guild</alias>
             </rule>
           </rules>
           <infoLinks>
             <infoLink name="Eyes on the Prize" id="0d63-be73-6cf7-757c" hidden="false" type="rule" targetId="2d39-9f44-137d-1e77"/>
             <infoLink name="Shadowmarks" id="ed49-7e70-909d-2365" hidden="false" type="rule" targetId="1caf-f6c5-5cc2-054d"/>
           </infoLinks>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in The Thieves&apos; Guild must have Path of Shadow" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3ead-7f3e-4bda-5072" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="9797-61ac-cbe1-cccd" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="At least 25% of models in The Thieves&apos; Guild Party must be Heroes" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3ead-7f3e-4bda-5072" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b9a4-31a5-b4ed-b4c7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 50% of models in The Thieves&apos; Guild Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3ead-7f3e-4bda-5072" shared="true"/>
+                    <condition type="atLeast" value="51" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="b05e-c708-d617-0ccd" name="Neutrals (Debug)" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="true" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2978,7 +3360,7 @@ A: Yes</description>
           </constraints>
           <categoryLinks>
             <categoryLink id="d049-bdd4-b75a-7f67" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
-            <categoryLink id="8683-c988-e038-cdb7" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="8683-c988-e038-cdb7" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
@@ -2992,6 +3374,7 @@ A: Yes</description>
           <rules>
             <rule id="8673-d2f4-2b47-d598" name="Dawnguard Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>At least a quarter (25%) of the models in the Party must Heroes. Up to half (50%) of the party’s models may be Hirelings.  Dawnguard models cannot be included in the same Party as a Vampire (with the exception of Serana).</description>
+              <alias>Dawnguard</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -3005,6 +3388,29 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 25% of models in Dawnguard Party must be Heroes." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2793-630a-3b5a-9de9" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b9a4-31a5-b4ed-b4c7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 50% of models in Dawnguard Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2793-630a-3b5a-9de9" shared="true"/>
+                    <condition type="atLeast" value="51" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <comment>need to hide all vampires except serana</comment>
         </selectionEntry>
         <selectionEntry id="b7aa-4b7c-29c1-1bb5" name="Clan Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3014,6 +3420,8 @@ A: Yes</description>
           <rules>
             <rule id="22e4-6c61-753e-9756" name="Clan Volkihar Party Composition" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
               <description>The Party may include up to two Familiars per Hero instead of the usual one.  No more than half (50%) of [the models in] the Party may be Volkihar Thralls.  Clan Volkihar Parties may not recruit any Hirelings, except as detailed in the Volkihar Thralls special rule.</description>
+              <alias>Clan Volkihar</alias>
+              <alias>Volkihar</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -3027,6 +3435,14 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <comment>need to implement Volkihar Thralls and Familiar restrictions</comment>
+          <modifiers>
+            <modifier type="add" value="Clan Volkihar Party Composition restrictions not yet implemented" field="warning">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d6a3-9869-f1f0-db9f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="57bb-6c49-490e-3f76" name="Cult of Boethiah" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3066,6 +3482,8 @@ A: Yes</description>
           <rules>
             <rule name="Bandit Party Composition" id="c7aa-e744-7a86-4d7e" hidden="false" publicationId="fc6a-2d15-ff0e-9318">
               <description>At least a quarter (25%) of the models in the Party must be from the Path of Might. At least a quarter (25%) of the models in the Party must be Followers. Bandit parties may not recruit any Hireling that is either unique (*), or that belongs to more than one faction (unless one of [those] Factions is also Bandits).</description>
+              <alias>Bandit</alias>
+              <alias>Bandits</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -3078,6 +3496,29 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 25% of models in Bandits Party must have Path of Might." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="34c6-abbe-c8fe-2420" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="b1cc-bf06-8acb-dce0" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="At least 25% of models in Bandits Party must be Followers." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="34c6-abbe-c8fe-2420" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <comment>need to hide all Unique and multi-faction (non-Bandit) hirelings</comment>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Thalmor" hidden="false" id="ccb3-0925-8a2a-6ab7" publicationId="1d0d-fac6-d336-636f" collective="false">
           <constraints>
@@ -3087,6 +3528,7 @@ A: Yes</description>
           <rules>
             <rule name="Thalmor Party Composition" id="7048-910c-00ec-6bbc" hidden="false" publicationId="fc6a-2d15-ff0e-9318">
               <description>At least half (50%) of the models in the party must be from the Path of Sorcery. Hirelings may only be included in a Thalmor party if they are Elves (Altmer, Bosmer, or Dunmer) or Khajiit. No more than a quarter (25%) of the party&apos;s models may be Hirelings.  No model with the Stormcloak Faction icon can ever be included in a Thalmor Party. [The icon for the Thalmor faction and the Aldmeri Dominion faction are the same, however the only AD model is from the ESO pack and thematically would be long dead by the timeline of TES V. Still, this will hopefully be addressed in future errata.  For now, it is safest to assume any models with this icon are Thalmor if they aren&apos;t from ESO].</description>
+              <alias>Thalmor</alias>
             </rule>
           </rules>
           <infoLinks>
@@ -3100,6 +3542,39 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="At least 50% of models in Thalmor Party must have Path of Sorcery" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ccb3-0925-8a2a-6ab7" shared="true"/>
+                    <condition type="atMost" value="49" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8b22-d1f0-dcf8-83d7" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 25% of models in Thalmor Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ccb3-0925-8a2a-6ab7" shared="true"/>
+                    <condition type="atLeast" value="26" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Thalmor Party cannot include Stormcloaks models" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ccb3-0925-8a2a-6ab7" shared="true"/>
+                    <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="d77c-5e80-37d4-883b" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <comment>need to hide non-Elf or Khajiit hirelings</comment>
         </selectionEntry>
         <selectionEntry id="e7f1-7d01-d4aa-bb0b" name="The Silver Hand" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3109,6 +3584,8 @@ A: Yes</description>
           <rules>
             <rule id="7d06-352b-1345-b6b5" name="The Silver Hand Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
               <description>At least a quarter (25%) of the models in the Party must be Followers. No more than half (50%) of the Party&apos;s models may be Hirelings. Models with the Silver Hand Faction icon may never be included in the same Party as a Werewolf, or a model with the &quot;Shapeshift (Werewolf)&quot; Keyword.</description>
+              <alias>The Silver Hand</alias>
+              <alias>Silver Hand</alias>
             </rule>
           </rules>
           <categoryLinks>
@@ -3119,12 +3596,22 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
           <modifiers>
-            <modifier type="append" value="(INVALID: Check Party Composition)" field="name">
+            <modifier type="add" value="At least 25% of models in The Silver Hand Party must be Followers" field="error">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="f71c-90c3-abdf-17ee" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="atMost" value="25" field="selections" scope="roster" childId="ba61-d304-9352-ec15" shared="true" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7f1-7d01-d4aa-bb0b" shared="true"/>
+                    <condition type="atMost" value="24" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 50% of models in The Silver Hand Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7f1-7d01-d4aa-bb0b" shared="true"/>
+                    <condition type="atLeast" value="51" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3135,6 +3622,18 @@ A: Yes</description>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="The Silver Hand models can never join Party with Werewolf or Shapeshift(Werewolf)" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="51b3-8593-8f15-b9f5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="f71c-90c3-abdf-17ee" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="418b-12fd-e6d1-0450" name="Armor Enchantment: Hauling" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3990,18 +4489,18 @@ A: Yes</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="89f7-ba66-4381-aa6d" name="Champion" publicationId="4d6f-8c48-a5ea-e83c" page="91" hidden="false" collective="false" import="true" defaultSelectionEntryId="9bb6-43ae-1f58-ba79">
+    <selectionEntryGroup id="89f7-ba66-4381-aa6d" name="Party Champion" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" defaultSelectionEntryId="9bb6-43ae-1f58-ba79">
       <categoryLinks>
-        <categoryLink id="14aa-5666-7dc0-12fe" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="true"/>
+        <categoryLink id="14aa-5666-7dc0-12fe" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9bb6-43ae-1f58-ba79" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9bb6-43ae-1f58-ba79" name="Party Champion" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c4d-a76d-91a8-71fb" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a2b-e663-e68d-6e2a" type="min"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="9bf4-6f7a-8d84-7054" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="9bf4-6f7a-8d84-7054" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
@@ -6381,8 +6880,7 @@ If playing against the Dark Brotherhood as Adversaries, assign contract cards as
       <description>Blades models gain the Piercing (1) keyword for any melee attack against models at least double their own Size [correction: Height]. If the attack already has the Piercing keyword, increase the value in the parentheses by 1.</description>
     </rule>
     <rule id="7ec1-e792-1736-a30e" name="Elves" publicationId="4d6f-8c48-a5ea-e83c" page="104" hidden="false">
-      <description>The Altmer, Bosmer, and Dunmer make up the ancient kindreds of Elves across Tamriel. In addition, their dark and twisted kin, the Falmer, bear a common ancestry, though it pains other Elves to admit it. If ever a Special Rule applies to ‘Elves’, it applies to all
-four of these races.</description>
+      <description>The Altmer, Bosmer, and Dunmer make up the ancient kindreds of Elves across Tamriel. In addition, their dark and twisted kin, the Falmer, bear a common ancestry, though it pains other Elves to admit it. If ever a Special Rule applies to ‘Elves’, it applies to all four of these races.</description>
     </rule>
     <rule id="a21e-31de-c0b9-4402" name="Hirelings" publicationId="4d6f-8c48-a5ea-e83c" page="118" hidden="false">
       <description>Any model (Hero or Follower) from a different faction that is able to be included in the Party is called a ‘Hireling’. Normally, these will be models with the Adventurers or Neutral faction icons. Hirelings cannot benefit from their Party’s Faction Special Rule and can never use the Party Champion’s Wisdom value for Morale Checks.</description>
@@ -6394,8 +6892,7 @@ four of these races.</description>
       <description>Any Hold Guard model within 3&quot; of the party Champion that would gain [GREEN] for outnumbering an enemy model also adds [YELLOW] to melee [attacks].</description>
     </rule>
     <rule id="4e83-4131-382d-d901" name="Bound Armor" publicationId="4d6f-8c48-a5ea-e83c" page="56" hidden="false">
-      <description>Bound Armor is a subtype of Personal Spell. As a Special Action, a Hero model may cast the Spell, targeting itself. Spend the Magicka, and take the Skill Test, with the usual Difficulty modifier. If the Test is successful, Equip the Bound Armor to the Body Slot – any Upgrade Card already Equipped to the Body Slot is placed in the model’s Inventory. [...] While the Spell is Equipped to the Body Slot, the Bound Armor is used exactly like a normal Armor Card [...] Skill Tests using Bound Armor use the Light Armor or Heavy Armor Skill [... see BRB pg. 56 for full description]
-</description>
+      <description>Bound Armor is a subtype of Personal Spell. As a Special Action, a Hero model may cast the Spell, targeting itself. Spend the Magicka, and take the Skill Test, with the usual Difficulty modifier. If the Test is successful, Equip the Bound Armor to the Body Slot – any Upgrade Card already Equipped to the Body Slot is placed in the model’s Inventory. [...] While the Spell is Equipped to the Body Slot, the Bound Armor is used exactly like a normal Armor Card [...] Skill Tests using Bound Armor use the Light Armor or Heavy Armor Skill [... see BRB pg. 56 for full description]</description>
     </rule>
     <rule id="6faa-8b18-79f2-d7c1" name="Bound Weapon" publicationId="4d6f-8c48-a5ea-e83c" page="55" hidden="false">
       <description>A Bound Weapon is a subtype of Personal Spell. As a Special Action, a Hero may cast the Spell, targeting itself. Spend the Magicka, and take the Skill Test, with the
@@ -6545,8 +7042,7 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
       <description>All damage is Physical unless a rule specifically states otherwise. There are no special rules covering Physical damage.</description>
     </rule>
     <rule name="Dragons and Movement" id="5bb1-e560-23b7-d679" hidden="false" publicationId="1d0d-fac6-d336-636f" page="12">
-      <description>In every even-numbered round, beginning in round 2 (so rounds 2, 4, 6, and so on), this model gains the Fly keyword for the duration of any Move or Fall Back Response it is required to take. This also applies to any Ancient Dragon and Mirmulnir.
-</description>
+      <description>In every even-numbered round, beginning in round 2 (so rounds 2, 4, 6, and so on), this model gains the Fly keyword for the duration of any Move or Fall Back Response it is required to take. This also applies to any Ancient Dragon and Mirmulnir.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -9620,7 +10116,7 @@ One-Handed</characteristic>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="40e1-ccf6-99b3-dae3" name="Teeth &amp; Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
+        <infoLink id="40e1-ccf6-99b3-dae3" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
         <infoLink id="8fef-67b3-66f4-8088" name="Night Eye" hidden="false" targetId="1b73-830e-6076-fc5c" type="rule"/>
         <infoLink id="a8ad-4ebb-c31f-d089" name="Teeth And Claws" hidden="false" targetId="90cf-86d1-e95f-6cd3" type="profile"/>
       </infoLinks>
@@ -9698,7 +10194,7 @@ One-Handed</characteristic>
       </rules>
       <infoLinks>
         <infoLink id="b71a-ef24-c48e-bfb9" name="Fleet" hidden="false" targetId="a1e3-4e0b-f7c2-eb59" type="rule"/>
-        <infoLink id="d54e-d4db-d534-5276" name="Teeth &amp; Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
+        <infoLink id="d54e-d4db-d534-5276" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
         <infoLink id="a90c-5e19-9d7c-a25a" name="Teeth And Claws" hidden="false" targetId="90cf-86d1-e95f-6cd3" type="profile"/>
       </infoLinks>
     </infoGroup>
@@ -9710,7 +10206,7 @@ One-Handed</characteristic>
       </rules>
       <infoLinks>
         <infoLink id="a473-3a23-f82f-c959" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
-        <infoLink id="0061-e7cb-47cb-47f2" name="Teeth &amp; Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
+        <infoLink id="0061-e7cb-47cb-47f2" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
         <infoLink id="e7b3-b317-0045-4db6" name="Teeth And Claws" hidden="false" targetId="90cf-86d1-e95f-6cd3" type="profile"/>
       </infoLinks>
     </infoGroup>
@@ -10009,9 +10505,9 @@ One-Handed</characteristic>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="fd03-d69e-babc-b598" name="Subraces" hidden="false" targetId="21a9-2a71-b558-5118" type="rule"/>
+        <infoLink id="fd03-d69e-babc-b598" name="Subrace" hidden="false" targetId="21a9-2a71-b558-5118" type="rule"/>
         <infoLink id="f1ed-af55-44e5-06ec" name="Immunity (Type)" hidden="false" targetId="7c88-fc5e-9fde-1261" type="rule"/>
-        <infoLink id="4aff-b513-2f8a-7337" name="Teeth &amp; Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
+        <infoLink id="4aff-b513-2f8a-7337" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
         <infoLink id="d454-309e-bca7-2e09" name="Night Eye" hidden="false" targetId="1b73-830e-6076-fc5c" type="rule"/>
         <infoLink id="720e-488b-d855-db9b" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
         <infoLink id="c03b-0c66-ed0b-49e7" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>

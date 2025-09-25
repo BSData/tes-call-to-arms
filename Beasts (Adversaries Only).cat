@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7826-8284-5582-9483" name="Beasts (Adversaries Only)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7826-8284-5582-9483" name="Beasts (Adversaries Only)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="5b04-d5b5-a0fb-4e4a" name="Wolf: Apex Predator" hidden="false" collective="false" import="true" targetId="b441-f476-8d5b-b7bd" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3336-a1de-15a4-2c92" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
+        <categoryLink id="3336-a1de-15a4-2c92" name="Adversary Minion" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
         <categoryLink id="9f00-a2d9-3584-beea" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="de65-fcec-1096-2d8e" name="Beasts" hidden="false" targetId="74ec-8318-3e2a-8195" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f5ca-4343-c766-f8e0" name="Ice Wolf: Pack Alpha" hidden="false" collective="false" import="true" targetId="e4d5-50e5-fcd0-7a08" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5b1b-abe8-de67-df2d" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
+        <categoryLink id="5b1b-abe8-de67-df2d" name="Adversary Minion" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
         <categoryLink id="3601-913d-eb8d-b841" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="06b6-d440-1643-7815" name="Beasts" hidden="false" targetId="74ec-8318-3e2a-8195" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9cbc-0ae4-1543-1f11" name="Frostbite Spider: Web-Weaver" hidden="false" collective="false" import="true" targetId="249d-6fe3-c3fb-84e8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a7d0-caee-f0dc-4c4f" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
+        <categoryLink id="a7d0-caee-f0dc-4c4f" name="Adversary Minion" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
         <categoryLink id="cc9e-5d81-a81e-18aa" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="9564-3925-f1df-4634" name="Beasts" hidden="false" targetId="74ec-8318-3e2a-8195" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a308-e266-8939-540e" name="Skeever: Overgrown Pest" hidden="false" collective="false" import="true" targetId="332a-69da-24f0-04ba" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3856-a229-1f0a-8cf4" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
+        <categoryLink id="3856-a229-1f0a-8cf4" name="Adversary Minion" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
         <categoryLink id="2bc2-51f6-5d4e-8513" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="5eaa-c90c-f7cc-57b7" name="Beasts" hidden="false" targetId="74ec-8318-3e2a-8195" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f2f8-372a-a811-802d" name="Snow Bear: Solitary Creature" hidden="false" collective="false" import="true" targetId="da1b-43fc-9d16-ce80" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5d4a-a30b-9f3c-4072" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="5d4a-a30b-9f3c-4072" name="Adversary Elite" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
         <categoryLink id="2309-4308-d20f-c057" name="Beasts" hidden="false" targetId="74ec-8318-3e2a-8195" primary="false"/>
         <categoryLink id="d1c4-1fa9-e6a6-e6f9" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="acd8-5a6d-91f3-1499" name="Bristleback: Timid Charger" hidden="false" collective="false" import="true" targetId="1714-afb0-7459-c125" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ea7a-71e3-e350-3482" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="ea7a-71e3-e350-3482" name="Adversary Elite" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
         <categoryLink id="55b1-dd9d-0920-4892" name="Beasts" hidden="false" targetId="74ec-8318-3e2a-8195" primary="false"/>
         <categoryLink id="d1ee-7671-13b6-c9e4" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
       </categoryLinks>
@@ -47,12 +47,12 @@
       <categoryLinks>
         <categoryLink id="92b3-5a5f-1f40-2b76" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="a815-fab4-c744-9e49" name="Beasts" hidden="false" targetId="74ec-8318-3e2a-8195" primary="false"/>
-        <categoryLink id="36fe-3060-46eb-4dc1" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="36fe-3060-46eb-4dc1" name="Adversary Elite" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="28e0-993f-3b15-43d3" name="Cave Bear: Formidable Beast" hidden="false" collective="false" import="true" targetId="2d8b-b54a-cb2a-4669" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c819-317f-7983-161a" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="c819-317f-7983-161a" name="Adversary Elite" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
         <categoryLink id="ad11-5117-3cbc-0666" name="Beasts" hidden="false" targetId="74ec-8318-3e2a-8195" primary="false"/>
         <categoryLink id="8f95-60ab-b34e-c49c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
       </categoryLinks>
@@ -65,7 +65,8 @@
         <infoLink id="98b0-2d76-61cc-2470" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4d5-50e5-fcd0-7a08" name="Ice Wolf: Pack Alpha" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -75,7 +76,8 @@
         <infoLink id="ddbc-0e87-bab4-e4e2" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="13.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="13"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="249d-6fe3-c3fb-84e8" name="Frostbite Spider: Web-Weaver" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -85,7 +87,8 @@
         <infoLink id="d952-a735-93cf-4b6c" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="332a-69da-24f0-04ba" name="Skeever: Overgrown Pest" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -95,7 +98,8 @@
         <infoLink id="b992-5606-e33d-8063" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da1b-43fc-9d16-ce80" name="Snow Bear: Solitary Creature" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -106,7 +110,8 @@
         <infoLink id="6302-7770-1ee6-17d9" name="Follow-Up" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="41.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="41"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1714-afb0-7459-c125" name="Bristleback: Timid Charger" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -117,7 +122,8 @@
         <infoLink id="268e-d2ef-ad41-20b3" name="Follow-Up" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd3d-383b-fb5c-b9bb" name="Giant Frostbite Spider: Broodmother" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -127,7 +133,8 @@
         <infoLink id="ba18-1013-5f92-5793" name="Beast" hidden="false" targetId="8739-3e70-8c57-7bea" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d8b-b54a-cb2a-4669" name="Cave Bear: Formidable Beast" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -137,7 +144,8 @@
         <infoLink id="3566-0801-e4c8-4737" name="Follow-Up" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

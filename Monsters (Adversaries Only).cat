@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="14a9-0fb6-a27d-8cc6" name="Monsters" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="14a9-0fb6-a27d-8cc6" name="Monsters (Adversaries Only)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="e1b0-72af-2bba-bba6" name="Frost Troll: Fearsome Brute" hidden="false" collective="false" import="true" targetId="3714-59eb-b051-a675" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e7a9-3c01-b8b5-5f1a" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="e7a9-3c01-b8b5-5f1a" name="Adversary Elite" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
         <categoryLink id="8144-ca76-a439-2f04" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="24d5-ec54-fa11-67bd" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="16df-f62e-7d42-004d" name="Troll: Raging Brute" hidden="false" collective="false" import="true" targetId="ee7b-31b9-a888-9bfa" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="350d-a8b5-7550-c624" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="350d-a8b5-7550-c624" name="Adversary Elite" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
         <categoryLink id="536f-ea06-e47c-403c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="263f-0f2e-48da-0e40" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
       </categoryLinks>
@@ -27,7 +27,7 @@
     <entryLink id="f915-c2fc-713c-4878" name="Spriggan Matron: Forest Guardian" hidden="false" collective="false" import="true" targetId="c5ea-8e6b-e435-5569" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9f48-5091-6340-0753" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
-        <categoryLink id="e6d9-d8b6-e42a-8c34" name="New CategoryLink" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
+        <categoryLink id="e6d9-d8b6-e42a-8c34" name="Adversary Elite" hidden="false" targetId="668a-03f2-10e2-1f0d" primary="true"/>
         <categoryLink id="bfa5-1bf8-2f19-37f0" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="3350-b03f-0366-3c33" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
       </categoryLinks>
@@ -37,7 +37,7 @@
         <categoryLink id="fa30-9a03-99ab-c695" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
         <categoryLink id="1a44-41e7-ceeb-653e" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="1fed-8fa9-8c55-c788" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
-        <categoryLink id="5370-571b-754f-424a" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
+        <categoryLink id="5370-571b-754f-424a" name="Adversary Minion" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
         <categoryLink id="b636-e0e1-75e4-3168" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="a87c-4550-df9e-3ecd" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
       </categoryLinks>
@@ -54,7 +54,8 @@
         <infoLink id="bd04-1ea9-80c7-9110" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee7b-31b9-a888-9bfa" name="Troll: Raging Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -66,7 +67,8 @@
         <infoLink id="3820-7831-5326-437a" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="39.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="39"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c2cc-6c9b-9149-9e1e" name="Vengeful Spirit: Ghost of the Blades" publicationId="2ee0-173b-47e1-7ff1" hidden="false" collective="false" import="true" type="unit">
@@ -79,7 +81,8 @@
         <infoLink id="757e-7f47-f718-30ba" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="65.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="65"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5ea-8e6b-e435-5569" name="Spriggan Matron: Forest Guardian" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -88,7 +91,7 @@
         <infoLink id="24e1-5fa8-02d9-0ddc" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
         <infoLink id="d7f8-9580-a136-5559" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
         <infoLink id="7a88-a9ae-ac1b-793b" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
-        <infoLink id="9b00-c0b8-5ec7-70a6" name="Poison (Type)" hidden="false" targetId="45f6-0dbe-bc2c-ce4f" type="rule"/>
+        <infoLink id="9b00-c0b8-5ec7-70a6" name="Poison" hidden="false" targetId="45f6-0dbe-bc2c-ce4f" type="rule"/>
         <infoLink id="4d52-40f8-64e3-e945" name="Regenerate Health" hidden="false" targetId="9093-1c12-08d9-ec7f" type="rule"/>
         <infoLink id="7439-48ea-8af5-0fd2" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
         <infoLink id="09fa-1f96-8a90-6c39" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
@@ -96,7 +99,8 @@
         <infoLink id="f671-e4f9-8113-ac46" name="Natural Camouflage" hidden="false" targetId="f9f3-1104-5c5a-eca2" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e30c-51e4-cc55-c59c" name="Spriggan: Forest Spirit" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -105,14 +109,15 @@
         <infoLink id="99f0-8e10-7418-0db6" name="Monster" hidden="false" targetId="98ec-665b-cecc-6709" type="infoGroup"/>
         <infoLink id="0b11-8b7a-e698-8157" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
         <infoLink id="fd63-8261-e65a-13b6" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
-        <infoLink id="6208-2b4c-51c4-7bf2" name="Poison (Type)" hidden="false" targetId="45f6-0dbe-bc2c-ce4f" type="rule"/>
+        <infoLink id="6208-2b4c-51c4-7bf2" name="Poison" hidden="false" targetId="45f6-0dbe-bc2c-ce4f" type="rule"/>
         <infoLink id="00d6-a7fc-9158-c6c0" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
         <infoLink id="f2cf-5401-6420-d407" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
         <infoLink id="9109-357d-5b0f-a672" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
         <infoLink id="787e-1318-35f4-5b39" name="Natural Camouflage" hidden="false" targetId="f9f3-1104-5c5a-eca2" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="26.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="26"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

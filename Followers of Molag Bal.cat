@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7750-c5b0-be85-2679" name="Followers of Molag Bal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7750-c5b0-be85-2679" name="Followers of Molag Bal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="b70d-fbd4-c46f-81b8" name="Mannimarco: King of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b801-4a2d-f211-c486" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b801-4a2d-f211-c486" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="5352-dca6-78b4-3441" name="Mannimarco: King of Worms" hidden="false" collective="false" import="true" targetId="f137-7662-8645-5c16" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f76f-047a-1f10-9e80" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="f76f-047a-1f10-9e80" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="aac6-4246-59f1-7c43" name="Followers of Molag Bal" hidden="false" targetId="89c7-846f-c20d-7174" primary="false"/>
-        <categoryLink id="d36e-80c7-3a79-32ba" name="Mannimarco, King of Worms" hidden="false" targetId="b70d-fbd4-c46f-81b8" primary="false"/>
+        <categoryLink id="d36e-80c7-3a79-32ba" name="Mannimarco: King of Worms" hidden="false" targetId="b70d-fbd4-c46f-81b8" primary="false"/>
         <categoryLink id="cae7-158b-d088-4e5d" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="c71c-afef-94a7-2577" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="4ab7-7078-225d-b79f" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
@@ -27,13 +27,13 @@
     <entryLink id="9fd3-25b4-ab8a-8139" name="Mannimarco: King of Worms (Adversary)" hidden="false" collective="false" import="true" targetId="26d0-b83d-825c-e8d3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="fa29-24a2-7834-2dcb" name="Followers of Molag Bal" hidden="false" targetId="89c7-846f-c20d-7174" primary="false"/>
-        <categoryLink id="7ba7-e7ee-0204-d291" name="Mannimarco, King of Worms" hidden="false" targetId="b70d-fbd4-c46f-81b8" primary="false"/>
+        <categoryLink id="7ba7-e7ee-0204-d291" name="Mannimarco: King of Worms" hidden="false" targetId="b70d-fbd4-c46f-81b8" primary="false"/>
         <categoryLink id="b550-ea80-4099-367a" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="d487-f52d-dd33-e54f" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="8fc8-98b5-d63a-bc52" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="01aa-e3c0-eb22-3487" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="7df1-bca7-ef8a-d6a4" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
-        <categoryLink id="a6e4-92ea-7748-b35c" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="a6e4-92ea-7748-b35c" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -61,30 +61,31 @@
       <selectionEntries>
         <selectionEntry id="8506-de9d-9cc3-a5a3" name="Include Leveled Profile" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bda-3718-ac0c-22f2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bda-3718-ac0c-22f2" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="51fa-10a6-2c31-5d33" name="Mannimarco: King of Worms (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="6168-ab88-4b5c-f1df" type="profile"/>
             <infoLink id="d302-5083-779e-a214" name="Perk: Force Siphon" hidden="false" targetId="4359-9375-5bec-94d9" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="b2c6-f383-b9f0-8553" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="4d26-b63d-2b80-3072" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="4d26-b63d-2b80-3072" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c5-e0b6-a7c7-5fc4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c5-e0b6-a7c7-5fc4" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="22fe-5be4-86ff-2db1" name="Elf is Champion (Orthjolf)" hidden="false" targetId="c413-2e33-e6e4-ffca" primary="false"/>
+            <categoryLink id="22fe-5be4-86ff-2db1" name="Elf is Party Champion (Orthjolf)" hidden="false" targetId="c413-2e33-e6e4-ffca" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="92.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="92"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="26d0-b83d-825c-e8d3" name="Mannimarco: King of Worms (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -106,7 +107,8 @@
         <infoLink id="1439-9792-2c02-662c" name="Reanimated Corpse: Summoned Creature (Adversary)" hidden="false" targetId="219e-c885-6f59-be85" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="120.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="120"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

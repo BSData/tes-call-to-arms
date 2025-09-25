@@ -59,13 +59,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="50fa-849e-2cd0-103e" name="Sorine Jurard: Dwemer Expert" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="290d-af99-e2f9-1b79" type="selectionEntry">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="e860-e511-98fd-66fa" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="23f0-0a13-6b5c-eeab" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
@@ -80,13 +73,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="b84f-dd24-9d31-7d8f" name="Durak: Dawnguard Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="6c47-ca46-75b3-5cfa" type="selectionEntry">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="78eb-5a0f-999e-15b6" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="6f0f-9788-2a6e-5946" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
@@ -99,13 +85,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="255d-f37b-ee47-8796" name="Gunmar: Master Blacksmith" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8baa-0a8b-79c1-9c2f" type="selectionEntry">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="7612-8959-5a49-bb9b" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="9c2f-5504-74c3-3e47" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
@@ -119,13 +98,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="4f9f-0992-2023-91f5" name="Beleval: Vampire Hunter" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="dada-b2f0-5e0f-6ea5" type="selectionEntry">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="9732-3b67-2f9b-4bf6" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="2082-b16b-8552-9906" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
@@ -139,18 +111,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="04dc-c0ad-1ae8-ddf0" name="The Dragonborn: Champion of the Dawnguard" hidden="false" collective="false" import="true" targetId="3213-e5af-02e0-727a" type="selectionEntry">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2793-630a-3b5a-9de9" type="lessThan"/>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="8f9d-07f7-3b95-62ee" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="e4b9-3de9-3f55-686e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
@@ -170,6 +130,22 @@
         <categoryLink id="ce5b-b923-6f3c-d48e" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
         <categoryLink id="eed5-2f7b-8c09-258d" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="de97-d986-300c-28d7" name="Dawnguard Vampire Hunter: Dawnguard Hammer" hidden="false" collective="false" import="true" targetId="a8f4-b653-fa4c-7592" type="selectionEntry">
       <categoryLinks>
@@ -218,7 +194,6 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="20df-881d-0dc6-3c36" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="7a3c-6a3f-80c7-b0c6" name="Uncompromising Commander" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Friendly Dawnguard Faction models gain the Bodyguard (Isran) keyword while within 3&quot; of Isran.  In addition, when Isran performs a Melee Attack [targeting] a Vampire, and there are any Civilians within 3&quot;, add [RED] to the Attack.  When the Attack is complere, roll the Skill Die - on a [CRITICAL FAIL], remove the nearest [Civilian] NPC Token as a casualty and lose 1VP.</description>
@@ -251,22 +226,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="f5d9-7b28-1061-12a2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="0678-4b48-c507-6d8e" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="0678-4b48-c507-6d8e" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b238-7fbb-3a6d-3c0e" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44d1-f4f0-0e79-05f1" type="min"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="0521-810d-42d2-1db3" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="0521-810d-42d2-1db3" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="78"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="290d-af99-e2f9-1b79" name="Sorine Jurard: Dwemer Expert" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="1e17-7185-20eb-60ec" name="Dwemer Schematics" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Friendly Dawnguard Faction models gain the Bodyguard (Isran) keyword while within 3&quot; of Isran.  In addition, when Isran performs a Melee Attack [targeting] a Vampire, and there are any Civilians within 3&quot;, add [RED] to the Attack.  When the Attack is complere, roll the Skill Die - on a [CRITICAL FAIL], remove the nearest [Civilian] NPC Token as a casualty and lose 1VP.</description>
@@ -303,21 +277,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="6190-4730-dbf5-4845" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="22c7-ba92-4a98-652a" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="22c7-ba92-4a98-652a" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19fe-d488-0e02-1988" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="129b-7b95-1f1f-f990" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="129b-7b95-1f1f-f990" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="31"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c47-ca46-75b3-5cfa" name="Durak: Dawnguard Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="d7b3-3be2-d42b-3851" name="Durak: Dawnguard Ranger" hidden="false" targetId="9ae8-d179-5630-b82a" type="profile"/>
         <infoLink id="3107-ec0a-068d-79c3" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
@@ -343,21 +317,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="5976-a921-0541-7513" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="e0ca-c056-1d1c-6dc0" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="e0ca-c056-1d1c-6dc0" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd4-5259-890f-fcec" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="bf6a-6ff9-13c4-a24e" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="bf6a-6ff9-13c4-a24e" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8baa-0a8b-79c1-9c2f" name="Gunmar: Master Blacksmith" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="2aca-8d45-ffdf-065f" name="Tamer of Trolls" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When Gunmar is in the Party, you may include one extra Armored Troll (in addition to the usual Familiar maximum).  Furthermore, whenever Gunmar issues a With Me! Command to a friendly Armored Troll, the Troll adds [YELLOW] to its Attacks for the rest of the round.</description>
@@ -387,21 +361,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="99e3-5252-3701-4cac" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="9f76-f303-4ff4-0627" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="9f76-f303-4ff4-0627" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fe7-f91c-bcac-b56f" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="994c-09f2-6ac6-eaed" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="994c-09f2-6ac6-eaed" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dada-b2f0-5e0f-6ea5" name="Beleval: Vampire Hunter" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="b62a-085c-ff59-4164" name="Beleval: Vampire Hunter" hidden="false" targetId="e911-4d78-113e-70b7" type="profile"/>
         <infoLink id="40a9-3b79-8fdd-6c3e" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
@@ -424,17 +398,18 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="250f-284a-6183-edb2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="1f82-0987-3a77-246a" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="1f82-0987-3a77-246a" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a4d-2843-530a-a696" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="3afe-d482-536e-b002" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="3afe-d482-536e-b002" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8f4-b653-fa4c-7592" name="Dawnguard Vampire Hunter: Dawnguard Hammer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -449,6 +424,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="27"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d271-5904-40b2-f734" name="Dawnguard Warrior: Dawnguard Axeman" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -461,6 +437,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6df-8a75-3664-c83d" name="Dawnguard Scout: Dawnguard Crossbow" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -474,6 +451,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd27-6fc9-d25a-68ff" name="Sceolang: Armored Hound" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -487,6 +465,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52fe-1120-a78e-4143" name="Bran: Armored Hound" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -504,11 +483,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8d6a-36b6-7754-ab4c" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f957-5be5-e8ad-d117" name="Armored Troll: Tamed Brute" publicationId="6505-1b24-c5b0-6421" hidden="false" collective="false" import="true" type="unit">
@@ -522,6 +497,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

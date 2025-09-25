@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9615-d934-979e-7d79" name="Bandits" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9615-d934-979e-7d79" name="Bandits" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="be3e-40fb-d1db-de99" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="980d-2ae1-244d-1b6e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="980d-2ae1-244d-1b6e" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="307b-2ebf-97f5-1271" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f16-5f18-6830-97d9" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f16-5f18-6830-97d9" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="2aad-00cf-05c1-104e" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b054-cf5d-3402-c9df" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b054-cf5d-3402-c9df" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="ea7c-546f-4c04-3e92" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ba6-7f4c-f181-80fa" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ba6-7f4c-f181-80fa" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="f101-c96e-0e0e-e7f6" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="be84-b6fb-5163-0b8e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="be84-b6fb-5163-0b8e" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="6851-e904-fc73-32d0" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4163-8111-00cd-b4d6" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4163-8111-00cd-b4d6" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="a277-7b77-18a6-2076" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8f48-bf78-6d7f-8df7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8917-a2c7-ebcb-81b6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="8917-a2c7-ebcb-81b6" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="844e-eba6-c184-251f" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="8084-b76d-a7dc-4892" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="8164-8d81-adaf-f740" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
@@ -49,7 +49,7 @@
     </entryLink>
     <entryLink id="a9c2-7205-2355-6c8b" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="dced-cff2-068d-3337" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="260f-1fa0-7099-fc85" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="260f-1fa0-7099-fc85" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="4136-f09c-a2df-2d5c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="c32a-2dea-981f-7587" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="9299-9bdc-1886-413d" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
@@ -63,7 +63,7 @@
     </entryLink>
     <entryLink id="b3b1-fe13-fa90-a077" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8585-8ea8-6135-de0c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="eaf4-f2eb-e70c-1963" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="eaf4-f2eb-e70c-1963" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="dad3-9b11-11ab-f950" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="2196-67b6-2277-6282" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
         <categoryLink id="fb60-0720-71ff-bf46" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
@@ -76,7 +76,7 @@
     </entryLink>
     <entryLink id="027c-97e5-6b03-4add" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="5bee-e608-df02-ce3f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d219-0683-537e-6c61" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="d219-0683-537e-6c61" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="5485-754c-342a-07c8" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="532b-eef8-5324-bf44" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
         <categoryLink id="b188-c87f-ab77-4796" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
@@ -88,7 +88,7 @@
     </entryLink>
     <entryLink id="d2bd-9c8a-09b0-a81f" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="b2c1-c5d8-2dba-86de" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1cf7-f99d-c5df-2dd5" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="1cf7-f99d-c5df-2dd5" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="76e3-d6b5-cb80-e29c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="97a9-9011-22a0-7fee" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="4b17-ea95-e157-58c3" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
@@ -101,7 +101,7 @@
     </entryLink>
     <entryLink id="d066-1c04-6309-9743" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="221d-f091-32ad-c539" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a069-1b77-d47b-30f5" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="a069-1b77-d47b-30f5" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="8eec-02ac-5352-4338" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="57ad-92e4-b84b-d9b8" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="bfd1-b34c-a873-e23f" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
@@ -118,7 +118,7 @@
     </entryLink>
     <entryLink id="73bf-c9d3-b47e-265b" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f4d4-a805-0779-4374" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="897e-fc25-c3e7-3974" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="897e-fc25-c3e7-3974" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="4c13-d9d3-d7ac-c036" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="c09a-3cc5-4187-5f50" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="38ad-64d5-c7ac-ac6a" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
@@ -136,27 +136,27 @@
     <entryLink id="c967-4d34-cf41-15dc" name="Bandit Plunderer: Nord Axeman" hidden="false" collective="false" import="true" targetId="1022-f408-89e4-8840" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="975c-4f92-2e45-00a0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="3bcc-8826-18f3-8327" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="3bcc-8826-18f3-8327" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="c432-c3f0-0b93-4f23" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0eaa-0c2f-14e4-a0a9" name="Bandit Marauder: Nord Barbarian" hidden="false" collective="false" import="true" targetId="4842-defb-f766-aeb8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b2d5-3b8c-5155-b665" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="397b-f59d-f748-e962" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="397b-f59d-f748-e962" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="cdc2-4206-815b-38e5" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="267e-80bc-668c-a340" name="Bandit Warrior: Nord Warrior" hidden="false" collective="false" import="true" targetId="b8ec-2bcb-2a23-ce21" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3451-f608-7280-cfcc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="5540-29e4-668c-aef9" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="5540-29e4-668c-aef9" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="3855-d8e2-0fc2-7361" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cb36-919a-28fe-d7d8" name="Bandit Outlaw: Nord Ranger" hidden="false" collective="false" import="true" targetId="637f-682a-e7e9-4010" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d5fa-2a3d-f274-52f3" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="d5fa-2a3d-f274-52f3" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="8757-1006-f3fe-7cb6" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
         <categoryLink id="3d1e-0292-f1e5-ccbb" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
       </categoryLinks>
@@ -164,14 +164,13 @@
     <entryLink id="00e5-2a98-c246-0169" name="Bandit Warrior: Orc Warrior" hidden="false" collective="false" import="true" targetId="556b-d9cb-69e3-7b90" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e9b8-b0c7-a6d4-e9b4" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
-        <categoryLink id="ac2b-a3ff-44e1-dcd5" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="ac2b-a3ff-44e1-dcd5" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="d100-e4c4-ea94-b1cc" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8f48-bf78-6d7f-8df7" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="c0f0-20da-51ed-a403" name="Devastating Assault" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When Butcher is the Party Champion, friendly models within 6&quot; of Butcher that benefit from the Bandit&apos;s Strength in Numbers [rule] may choose to add [RED] to their Melee Attacks instead of [GREEN].</description>
@@ -188,34 +187,34 @@
       <selectionEntries>
         <selectionEntry id="6f0d-beec-36d8-22d9" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="760a-bdbd-a933-69a8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="760a-bdbd-a933-69a8" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="2218-4b70-6f90-9f9c" name="Butcher: Cragslane Boss (Leveled)" hidden="false" targetId="e113-1c1f-9629-ae21" type="profile"/>
             <infoLink id="74c8-78f5-db28-5959" name="Perk: Revitalize" hidden="false" targetId="a6f5-80cc-4900-cc71" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="95dd-8663-5805-9d28" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="4936-d5f3-7de2-5ded" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="4936-d5f3-7de2-5ded" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="337d-bde0-a286-33c5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="337d-bde0-a286-33c5" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="ab1f-6a89-27e3-251e" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="ab1f-6a89-27e3-251e" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="69.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="69"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dced-cff2-068d-3337" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="3f8e-6dff-0548-591d" name="Imperial Enmity (1)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When targeting a model with the Imperial Legion Faction [icon] with an Attack, Rigel may reroll the Skill Die [once] if she fails to hit.</description>
@@ -234,34 +233,34 @@
       <selectionEntries>
         <selectionEntry id="3c5f-889f-d9a3-b317" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0484-ce4e-a05f-f54b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0484-ce4e-a05f-f54b" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="3236-3b6b-a40c-6098" name="Rigel Strong-Arm: Bandit Chieftain (Leveled)" hidden="false" targetId="4ebe-6dac-faca-e098" type="profile"/>
             <infoLink id="7bb4-460a-3288-ee86" name="Perk: Deadly Bash" hidden="false" targetId="ab65-0d0a-eccb-e33c" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="5cb9-8496-1e1d-cd64" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="7565-3b06-bfca-114d" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="7565-3b06-bfca-114d" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7cd-5837-c2dc-55c4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7cd-5837-c2dc-55c4" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="0e3a-bb7e-663b-a070" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="0e3a-bb7e-663b-a070" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8585-8ea8-6135-de0c" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="02ab-8176-e3b6-53ab" name="Knife in the Belly" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When targeting a model with the Imperial Legion Faction [icon] with an Attack, Rigel may reroll the Skill Die if she fails to hit.</description>
@@ -276,34 +275,34 @@
       <selectionEntries>
         <selectionEntry id="1b0d-2903-6dce-3f57" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="873d-7f58-2dff-798a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="873d-7f58-2dff-798a" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="d93c-e648-f00c-0c81" name="Deeja: Blackblood Assassin (Leveled)" hidden="false" targetId="0a2c-1e58-7dda-80d7" type="profile"/>
             <infoLink id="2e06-ad75-cec3-74f8" name="Perk: Paralyzing Strike" hidden="false" targetId="0059-18b6-5cde-54bb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="f6cd-f4a9-59b8-6df3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="4262-b068-e3ac-bae2" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="4262-b068-e3ac-bae2" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b09-7939-9e26-7fca" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b09-7939-9e26-7fca" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="4cba-2e70-e1fd-8b43" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="4cba-2e70-e1fd-8b43" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="29.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="29"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5bee-e608-df02-ce3f" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="4b74-2b6e-0cc6-a100" name="Raj&apos;irr: White River Rogue" hidden="false" targetId="a56c-bb66-54af-25f0" type="profile"/>
         <infoLink id="d657-d703-1c0f-3e8e" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
@@ -313,34 +312,34 @@
       <selectionEntries>
         <selectionEntry id="761b-0c64-ba68-b136" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9581-e158-d3d6-c52c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9581-e158-d3d6-c52c" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="b335-3d17-f9a7-34c0" name="Raj&apos;irr: White River Rogue (Leveled)" hidden="false" targetId="2014-1809-d6bd-e60a" type="profile"/>
             <infoLink id="23d2-0e30-7fa9-b56e" name="Perk: Timely Escape" hidden="false" targetId="de14-14f0-2811-08f4" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="9b08-cf0e-030c-923f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="0452-0768-b13a-bf0f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="0452-0768-b13a-bf0f" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce3-bb5e-dc9a-f74b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce3-bb5e-dc9a-f74b" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="35ad-5aed-3a30-186d" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="35ad-5aed-3a30-186d" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2c1-c5d8-2dba-86de" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <infoLinks>
         <infoLink id="94b6-14f9-87c6-993b" name="Elisa Blackthorn: Frostmere Raider" hidden="false" targetId="c112-2556-9b3a-95bf" type="profile"/>
         <infoLink id="8ee0-0aa4-5adc-cd50" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
@@ -350,34 +349,34 @@
       <selectionEntries>
         <selectionEntry id="a30d-099a-dce0-c06d" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5c-f67b-3809-5357" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5c-f67b-3809-5357" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="bdcc-2259-aaef-6c84" name="Elisa Blackthorn: Frostmere Raider (Leveled)" hidden="false" targetId="bdc2-e491-7dd9-db25" type="profile"/>
             <infoLink id="446f-e6f8-d37e-b2ff" name="Perk: Wind Walker" hidden="false" targetId="986d-0c2c-6f55-86f8" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="8aca-223b-298f-855e" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="6e9e-7d28-c5b1-fb43" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="6e9e-7d28-c5b1-fb43" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59eb-eada-668f-0475" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59eb-eada-668f-0475" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="b50a-a53b-893b-03d5" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="b50a-a53b-893b-03d5" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="221d-f091-32ad-c539" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="0f69-23ba-71f2-8d2a" name="Gangmaster" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When Haldyn is the Party Champion, friendly Followers within 3&quot; of Butcher that benefit from the Bandit&apos;s Strength in Numbers rule [add] [YELLOW] to their Melee Attacks in addition to the usual [GREEN].</description>
@@ -393,29 +392,30 @@
       <selectionEntries>
         <selectionEntry id="40e6-0f05-f7a1-9c4d" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9824-0e5f-dd85-befa" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9824-0e5f-dd85-befa" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="3f24-f097-3dff-90c2" name="Haldyn: Pirate Battlemage (Leveled)" hidden="false" targetId="637f-38c7-abba-67d6" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="3d18-1962-91e3-bd10" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="e6db-c7ac-3127-7a44" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="e6db-c7ac-3127-7a44" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884e-6320-8e88-efe8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884e-6320-8e88-efe8" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="9176-9abe-d86b-cdcc" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="9176-9abe-d86b-cdcc" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4d4-a805-0779-4374" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -433,26 +433,27 @@
       <selectionEntries>
         <selectionEntry id="c055-792d-68ca-0338" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd4c-fb8e-3484-fbe3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd4c-fb8e-3484-fbe3" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="9fba-33d3-3ed0-d79d" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="20fb-435a-5018-5fb9" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="34ad-fb5f-d6f0-5f33" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="34ad-fb5f-d6f0-5f33" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c322-4857-88d0-c7f6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c322-4857-88d0-c7f6" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1022-f408-89e4-8840" name="Bandit Plunderer: Nord Axeman" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -467,7 +468,8 @@
         <infoLink id="c245-fcbf-16c4-5f63" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4842-defb-f766-aeb8" name="Bandit Marauder: Nord Barbarian" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -479,7 +481,8 @@
         <infoLink id="929f-4739-e036-cfbc" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8ec-2bcb-2a23-ce21" name="Bandit Warrior: Nord Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -489,7 +492,8 @@
         <infoLink id="cc64-534b-a788-6212" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="637f-682a-e7e9-4010" name="Bandit Outlaw: Nord Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -499,7 +503,8 @@
         <infoLink id="f6bd-998f-2fa4-bcf9" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="556b-d9cb-69e3-7b90" name="Bandit Warrior: Orc Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
@@ -509,7 +514,8 @@
         <infoLink id="56e7-3704-f645-1434" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

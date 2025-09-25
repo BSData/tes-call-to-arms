@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fbc8-e2e4-eabc-8490" name="Ebonheart Pact" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fbc8-e2e4-eabc-8490" name="Ebonheart Pact" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="5b96-65c1-73cd-15bf" name="The Nord: Champion Of The Pact" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c19-5224-4453-a6f4" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c19-5224-4453-a6f4" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
@@ -11,7 +11,7 @@
     <entryLink id="fe6d-62b9-d4d2-a37f" name="The Nord: Champion Of The Pact" hidden="false" collective="false" import="true" targetId="4802-b7fe-2b9b-3578" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3dbb-f700-0e1b-79aa" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
-        <categoryLink id="8c58-313f-50ac-d80e" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="8c58-313f-50ac-d80e" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="26b1-3012-1245-afee" name="Ebonheart Pact" hidden="false" targetId="328b-1d75-65e2-424b" primary="false"/>
         <categoryLink id="9941-5ff9-8299-d74f" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="e812-33a4-0c0a-7ae1" name="The Nord: Champion Of The Pact" hidden="false" targetId="5b96-65c1-73cd-15bf" primary="false"/>
@@ -29,14 +29,13 @@
         <categoryLink id="015d-069a-8acb-44a2" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="7756-3ce9-aa6b-04c4" name="The Nord: Champion Of The Pact" hidden="false" targetId="5b96-65c1-73cd-15bf" primary="false"/>
         <categoryLink id="aebe-ed91-5f8e-4e60" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
-        <categoryLink id="8899-239b-780d-fcba" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="8899-239b-780d-fcba" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
         <categoryLink id="9794-67af-f68b-7866" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4802-b7fe-2b9b-3578" name="The Nord: Champion Of The Pact" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Need to implement Two-Handed Perks</comment>
       <rules>
         <rule id="3090-026f-8368-883e" name="Troll&apos;s Strength" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When making a Power Attack using a weapon with the Cumbersome keyword, this model may choose to ignore the [RED] bonus dice and instead gain Follow-Up (1) [see BRB page 75] on the attack.</description>
@@ -55,41 +54,41 @@
       <selectionEntries>
         <selectionEntry id="7c86-6d8f-7bf7-0725" name="Include Leveled Profile" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba95-54fd-62f9-2827" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba95-54fd-62f9-2827" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="fa90-8d90-ca8f-a0bb" name="The Nord: Champion Of The Pact (Leveled)" hidden="false" targetId="97b1-9b18-ade4-a5d6" type="profile"/>
             <infoLink id="6d4a-08a1-98df-a21b" name="Perk: Great Critical Charge" hidden="false" targetId="258a-d5df-32d0-0f14" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="8fcc-f94e-e7da-4888" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="f496-b157-c6fe-b8a9" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="f496-b157-c6fe-b8a9" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="03b8-d846-d949-fc55" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="03b8-d846-d949-fc55" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab56-5d2b-5392-45a4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab56-5d2b-5392-45a4" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="3ff7-66b1-aede-f0d0" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="3ff7-66b1-aede-f0d0" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8882-d48e-b40e-62ea" name="The Nord: Champion Of The Pact (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Need to implement Two-Handed Perks</comment>
       <infoLinks>
         <infoLink id="97d5-9d5e-93d0-4126" name="The Nord: Champion Of The Pact (Adversary)" hidden="false" targetId="2201-d921-18ff-6b78" type="profile"/>
         <infoLink id="9b79-e1a9-9c50-6a50" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
@@ -98,7 +97,8 @@
         <infoLink id="3c0f-69c6-3904-cd77" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="80.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="80"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

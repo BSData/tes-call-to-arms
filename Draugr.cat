@@ -262,7 +262,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="b244-307f-f1bc-9fad" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="b244-307f-f1bc-9fad" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac1-d22d-fa58-e9fe" type="max"/>
           </constraints>
@@ -271,6 +271,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="68"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee0c-e554-31e3-b770" name="Draugr Deathlord: Crypt Master" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
@@ -324,7 +325,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ff46-c90e-c9e7-deb4" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="ff46-c90e-c9e7-deb4" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b09-7de5-32b0-3d26" type="max"/>
           </constraints>
@@ -333,6 +334,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="80"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a5e-2c2a-7612-d71d" name="Dragon Priest: Guardian Of The Word Wall" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
@@ -402,7 +404,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="da28-5e78-e95e-abdd" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="da28-5e78-e95e-abdd" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90ab-95fc-eb63-3c14" type="max"/>
           </constraints>
@@ -411,6 +413,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="80"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9cb5-ba93-b866-dd4e" name="Krosis: Dragon Priest" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
@@ -489,7 +492,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="0709-fda4-ede8-d68c" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="0709-fda4-ede8-d68c" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bd1-92ce-4008-620b" type="max"/>
           </constraints>
@@ -498,6 +501,7 @@
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="115"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce4d-0597-4996-c4f8" name="Hulking Draugr: Imposing Axe Warrior" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
@@ -508,6 +512,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67ce-e702-4eb3-9586" name="Hulking Draugr: Undead Bulwark" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
@@ -518,6 +523,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3f7-91d9-90e5-350a" name="Skeleton: Archer" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
@@ -529,6 +535,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="392f-7cf6-da00-066b" name="Skeleton: Warrior" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
@@ -540,6 +547,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e91c-3201-d306-1099" name="Draugr: Greatsword Warrior" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
@@ -551,6 +559,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3510-b50a-d358-e194" name="Draugr: Warrior" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
@@ -561,6 +570,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="829c-3cd2-cb09-16cf" name="Draugr: Archer" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
@@ -571,6 +581,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="21"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a293-da46-8672-5cf9" name="Restless Draugr: Barrow Guardian" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
@@ -581,6 +592,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
       <rules>
         <rule name="Barrow Guardian C4 Errors" id="c9fb-ded3-6fc5-66b5" hidden="false" publicationId="1d0d-fac6-d336-636f">
@@ -596,6 +608,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
       <rules>
         <rule name="Frostblade C4 Errors" id="a70a-3b07-7231-62b1" hidden="false" publicationId="1d0d-fac6-d336-636f">
@@ -622,6 +635,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="120"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="760c-19c6-6c0d-9010" name="Dragon Priest: Guardian Of The Word Wall (Adversary)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
@@ -636,6 +650,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="110"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1495-506e-0566-294a" name="Draugr Overlord: Bleak Falls Guardian (Adversary)" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="unit">
@@ -648,6 +663,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f911-83ce-27c7-d309" name="Skeleton: Battleaxe Warrior" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
@@ -661,6 +677,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Draugr Scourge: Soldier of Thu&apos;um" hidden="false" id="a29b-b0c7-0ade-d017" publicationId="1d0d-fac6-d336-636f" collective="false">
@@ -673,6 +690,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Draugr Scourge: Soldier of Thu&apos;um (Adversary)" hidden="true" id="8f27-7658-4425-4de5" publicationId="1d0d-fac6-d336-636f" collective="false">
@@ -682,6 +700,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
       <rules>
         <rule name="Reactive Shout" id="2e79-d4f4-e8a3-559e" hidden="false" publicationId="1d0d-fac6-d336-636f">
@@ -699,6 +718,7 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1460,8 +1480,7 @@ One-Handed</characteristic>
 Archery</characteristic>
         <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
 Light Armor</characteristic>
-        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2
-</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
         <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">4</characteristic>
         <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
         <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>

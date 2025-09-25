@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ec55-df7e-efd2-0e38" name="College of Winterhold (Placeholder)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ec55-df7e-efd2-0e38" name="College of Winterhold" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="e71d-53a0-02d0-7768" name="Breton Fire Mage: Gifted Student" hidden="false" collective="false" import="true" targetId="9e30-8da4-9c08-b897" type="selectionEntry">
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f675-28a6-b947-2dd1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f675-28a6-b947-2dd1" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
@@ -14,7 +14,7 @@
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="4f3e-68b9-6c80-cd29" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="4f3e-68b9-6c80-cd29" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="646a-036b-64a5-990f" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="7591-d01b-35cd-9c71" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="1970-4aec-9300-e53c" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>

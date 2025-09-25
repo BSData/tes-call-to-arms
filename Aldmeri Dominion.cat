@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f57f-127b-a7be-bbc2" name="Aldmeri Dominion" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f57f-127b-a7be-bbc2" name="Aldmeri Dominion" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="9720-15f3-7997-3025" name="The Sorceress: Dominion Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f06-7777-632c-4721" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f06-7777-632c-4721" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
@@ -12,7 +12,7 @@
       <categoryLinks>
         <categoryLink id="1451-d078-8c57-4039" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="2390-21b8-3849-5bbf" name="Aldmeri Dominion" hidden="false" targetId="7a4b-b0a8-af97-404b" primary="false"/>
-        <categoryLink id="7589-bc81-e88c-8399" name="The Sorceress" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
+        <categoryLink id="7589-bc81-e88c-8399" name="The Sorceress: Dominion Champion" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
         <categoryLink id="885d-1c8f-3588-3769" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
         <categoryLink id="c5e2-9526-e83b-a2bf" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="d24b-0520-5ca2-cf91" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
@@ -29,16 +29,15 @@
     <entryLink id="1532-e8c3-91d2-6f7d" name="The Sorceress: Dominion Champion (Adversary)" hidden="false" collective="false" import="true" targetId="d1ed-5300-6d4b-1cb9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a59f-67d6-a563-33c4" name="Aldmeri Dominion" hidden="false" targetId="7a4b-b0a8-af97-404b" primary="false"/>
-        <categoryLink id="7bdb-2371-7373-d8e5" name="The Sorceress" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
+        <categoryLink id="7bdb-2371-7373-d8e5" name="The Sorceress: Dominion Champion" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
         <categoryLink id="e28e-63a6-179f-e40e" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
-        <categoryLink id="e3b6-a512-1c1d-5b82" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="e3b6-a512-1c1d-5b82" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
         <categoryLink id="fe59-9f76-d9c8-31d0" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="1651-661c-4fbb-42cb" name="The Sorceress: Dominion Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: Done</comment>
       <rules>
         <rule id="4ab4-d0e4-2c1f-0bb6" name="Impulse Control" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When casting any Destruction Spell with the Shock effect, the Sorceress may spend 1 extra Magicka as a Boost to add the Force keyword to the Spell.</description>
@@ -54,41 +53,41 @@
       <selectionEntries>
         <selectionEntry id="f1c9-50ac-d2f8-c902" name="Include Leveled Profile" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd98-5111-c1eb-d2d3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd98-5111-c1eb-d2d3" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="cf57-86e8-3a90-77a1" name="The Sorceress: Dominion Champion (Leveled)" hidden="false" targetId="e5cb-b54d-d799-0d2c" type="profile"/>
             <infoLink id="ad68-f552-0d7f-39bf" name="Perk: Disintegrate" hidden="false" targetId="9ccb-96d1-a56b-453d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="3df4-9410-c3ed-ace5" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="5e29-01d6-bf17-5ae4" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="5e29-01d6-bf17-5ae4" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="949d-3d53-f802-2bf3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="949d-3d53-f802-2bf3" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa1-dd0b-851b-7626" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa1-dd0b-851b-7626" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="2be7-9179-b137-cb04" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="2be7-9179-b137-cb04" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1ed-5300-6d4b-1cb9" name="The Sorceress: Dominion Champion (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: Done</comment>
       <rules>
         <rule id="e6ca-5771-1f71-61be" name="Impulse Retribution" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Each time this model suffers damage from an Attack (but is not removed from play), the attacker must pass an Endurance Attribute Test or become Staggered.</description>
@@ -101,7 +100,8 @@
         <infoLink id="09e1-3864-96ed-6c1c" name="Damage Type: Shock" hidden="false" targetId="c757-1849-5b26-4b56" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

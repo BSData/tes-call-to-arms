@@ -20,8 +20,7 @@
 One-Handed</characteristic>
         <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
 Archery
-Sneak
-</characteristic>
+Sneak</characteristic>
         <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
 Light Armor</characteristic>
         <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
@@ -52,8 +51,7 @@ Light Armor</characteristic>
         <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
 One-Handed</characteristic>
         <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3
-Archery
-</characteristic>
+Archery</characteristic>
         <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
 Light Armor</characteristic>
         <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
@@ -82,8 +80,7 @@ Resistance (Magic)</characteristic>
         <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Regenerate Magicka, Healing Hands</characteristic>
         <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
 One-Handed</characteristic>
-        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
-</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4</characteristic>
         <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3</characteristic>
         <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">4
 Destruction</characteristic>
@@ -106,6 +103,7 @@ Restoration</characteristic>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Thalmor Warrior: Elven Sword" hidden="false" id="6310-d673-bdfe-554c" publicationId="1d0d-fac6-d336-636f">
@@ -116,6 +114,7 @@ Restoration</characteristic>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Thalmor Wizard: Inquisitorial Spellcaster" hidden="false" id="951b-6e1a-4cc2-4b78" publicationId="1d0d-fac6-d336-636f">
@@ -129,6 +128,7 @@ Restoration</characteristic>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

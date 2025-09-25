@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="ea8e-4fe3-e4a5-c93b" name="Hadvar: Hero Of Helgen" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b56d-282b-7a6d-f737" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b56d-282b-7a6d-f737" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="3256-29d2-dfc3-d509" name="General Tullius: Imperial Governor" publicationId="a37b-3a3b-faf7-0732" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86b3-48a5-94e0-9003" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86b3-48a5-94e0-9003" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="527a-9b3a-c39f-3225" name="Legate Rikke: Chief Legate" publicationId="a37b-3a3b-faf7-0732" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f916-6f63-e7c0-80d3" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f916-6f63-e7c0-80d3" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="c113-4d4c-dc87-446c" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="65d4-b57c-8d3b-3e63" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="65d4-b57c-8d3b-3e63" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="a368-d578-6bc0-83e0" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="db81-bb3f-d22d-c3a8" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="db81-bb3f-d22d-c3a8" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="fafb-8832-9f19-047c" name="Imperial Headsman: Grim Executioner" publicationId="a37b-3a3b-faf7-0732" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="15ba-ccdc-f400-4d49" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="15ba-ccdc-f400-4d49" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="029b-ef6d-cb9d-da0f" name="Imperial Mage: Spellsword" hidden="false" collective="false" import="true" targetId="27f0-4897-0ad4-febf" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="38ea-1e5e-0f59-b634" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="38ea-1e5e-0f59-b634" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="7133-3b6b-18c2-d988" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="e6b3-14d1-5056-20a7" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="5f2c-7628-5e2d-a92f" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
@@ -49,7 +49,7 @@
     </entryLink>
     <entryLink id="a63e-a0e5-e1d8-295f" name="Hadvar: Hero Of Helgen" hidden="false" collective="false" import="true" targetId="8be8-d241-f20f-ebc9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4de6-8a78-cd42-7f6a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="4de6-8a78-cd42-7f6a" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="9ee4-34a2-8889-2ef0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="bbe9-65b9-2d56-1a59" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="f481-24c7-84d3-4f9a" name="Hadvar: Hero Of Helgen" hidden="false" targetId="ea8e-4fe3-e4a5-c93b" primary="false"/>
@@ -79,7 +79,7 @@
     </entryLink>
     <entryLink id="e13c-ea90-fe40-ddbd" name="Legate Rikke: Chief Legate" hidden="false" collective="false" import="true" targetId="1014-5819-0aac-b059" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="253e-3079-ce52-0522" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="253e-3079-ce52-0522" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="5be8-b279-364c-7897" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="4668-09be-835a-4388" name="Legate Rikke: Chief Legate" hidden="false" targetId="527a-9b3a-c39f-3225" primary="false"/>
         <categoryLink id="5b6f-4b96-d654-e631" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
@@ -94,7 +94,7 @@
     </entryLink>
     <entryLink id="e2dd-5903-52b7-05c3" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="8cff-5b1e-1e85-34e4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7ab2-c35c-bfd7-8a6d" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="7ab2-c35c-bfd7-8a6d" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="0e08-0c0a-fcd9-35d8" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="675e-ee9c-d0f4-5f10" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="3f69-18c2-aeed-23af" name="Legate Fasendil: Commander Of The Rift" hidden="false" targetId="c113-4d4c-dc87-446c" primary="false"/>
@@ -108,7 +108,7 @@
     </entryLink>
     <entryLink id="0b3b-562b-aec2-8550" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="0895-0dae-ed96-6aa6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="61c3-9ab8-c035-75e0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="61c3-9ab8-c035-75e0" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="fd0d-7d2e-07cc-85ce" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="efcb-405c-f2b8-9b3a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="8a3b-2716-89e4-162e" name="Captain Aldis: Defender Of Solitude" hidden="false" targetId="a368-d578-6bc0-83e0" primary="false"/>
@@ -123,7 +123,7 @@
     </entryLink>
     <entryLink id="d6bf-664a-42bb-2800" name="Imperial Headsman: Grim Executioner" hidden="false" collective="false" import="true" targetId="d737-af1a-f6d7-226a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0c9d-abfd-03b7-e1e6" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="0c9d-abfd-03b7-e1e6" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="051b-1599-982e-56e6" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="ef82-bb93-a1d6-e6c7" name="Imperial Headsman: Grim Executioner" hidden="false" targetId="fafb-8832-9f19-047c" primary="false"/>
         <categoryLink id="d150-bfe3-9b81-8315" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
@@ -134,7 +134,7 @@
     </entryLink>
     <entryLink id="5057-a51e-4f9a-22f1" name="Imperial Captain: Garrison Commander" hidden="false" collective="false" import="true" targetId="e764-5fa7-0ea8-958e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="bce8-0338-d6a8-2c3a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="bce8-0338-d6a8-2c3a" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="2d71-a45a-f939-65cb" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="da1e-9b9b-4fb6-92a5" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="0fce-f9a6-3680-01a1" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
@@ -180,33 +180,20 @@
         <categoryLink id="c003-2923-b606-0de4" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="c56e-6cb8-f2cf-aec9" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="9544-c613-ce8d-0f51" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
-        <categoryLink id="bf91-9727-aec7-57c3" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink id="bf91-9727-aec7-57c3" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ce0d-c5d6-817d-48b0" name="Imperial Soldier: Swordsman (Adversary)" hidden="false" collective="false" import="true" targetId="5873-1ffb-182f-4d0b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="414c-2e61-2458-981e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="9b0f-b64b-e109-7418" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
-        <categoryLink id="2b31-503a-2227-0355" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
+        <categoryLink id="2b31-503a-2227-0355" name="Adversary Minion" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6ae1-2d95-fea7-670f" name="The Dragonborn: Champion of Skyrim" hidden="false" collective="false" import="true" targetId="2038-fbad-32c1-0729" type="selectionEntry">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
-        <categoryLink id="a814-43ff-4455-91ed" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
-        <categoryLink id="2202-6a9a-fede-49fc" name="New CategoryLink" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="a814-43ff-4455-91ed" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="2202-6a9a-fede-49fc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="3236-682d-8694-f62f" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="bf7b-289b-5ab2-a9e3" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="c693-b568-b87a-c5a1" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
@@ -225,21 +212,39 @@
         <categoryLink id="4b38-8ac7-07a8-23bc" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="0eec-96dc-84c2-a9d0" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="39af-9c79-d791-46f0" name="Sulla Trebatius: Rogue Spellsword" hidden="false" collective="false" import="true" targetId="4c95-92ab-1b31-8e1f" type="selectionEntry">
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="7f5c-e062-7fd8-bdd5" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="7f5c-e062-7fd8-bdd5" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="d353-57d4-c0e0-9e1b" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="1b0b-fdf2-734a-1ac3" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="945d-3331-4bb1-f6ed" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
@@ -250,22 +255,24 @@
         <categoryLink id="3906-d4c8-bd33-1588" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
         <categoryLink id="9e4c-8b13-f044-addd" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="f9b9-2156-bdec-fb5c" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="ca53-d37a-0473-0817" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="be3e-45eb-6bb9-2437" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" collective="false" import="true" targetId="e041-76bc-db25-6ec1" type="selectionEntry">
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="d1df-3346-b476-73e1" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="d1df-3346-b476-73e1" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="6b7b-7176-9a28-60e7" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="e682-79b2-04cb-28a8" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="e0a9-6a93-250d-391b" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" targetId="3214-03da-4960-6e90" primary="false"/>
@@ -280,22 +287,24 @@
         <categoryLink id="f37b-12be-46df-1eca" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
         <categoryLink id="a5ae-b4a2-1337-f025" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
         <categoryLink id="c38e-931b-70f6-67fa" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="2121-3a3a-c978-cad3" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="83f3-8a4a-5f0a-818e" name="Priestess Of Arkay: Devout Healer" hidden="false" collective="false" import="true" targetId="d7f9-cad2-1ae1-8c02" type="selectionEntry">
       <modifierGroups>
         <modifierGroup>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="7c51-82e9-997b-dc59" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="7c51-82e9-997b-dc59" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="214c-40d7-c41f-98f0" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="aa65-b024-480a-d203" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="6ce9-0359-6f5d-6393" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
@@ -304,6 +313,7 @@
         <categoryLink id="3b3b-e038-8435-ae61" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="70b1-aa31-0026-b30a" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="9c43-7907-634e-f367" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="065c-f392-0c98-91f5" id="449a-0914-1aef-02db" primary="false" name="Hireling Count"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -319,27 +329,28 @@
       <selectionEntries>
         <selectionEntry id="3f57-1986-40f3-ae8f" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8f8-1023-c995-6288" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8f8-1023-c995-6288" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="ca06-a99c-c019-eceb" name="Imperial Mage: Spellsword (Leveled)" hidden="false" targetId="4a10-7c5e-0d82-0d17" type="profile"/>
             <infoLink id="82cd-dbe5-8e18-9613" name="Perk: Impact" hidden="false" targetId="4da0-edd2-25f8-ce8a" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="28c7-6f26-836d-53ae" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="28c7-6f26-836d-53ae" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a79-d660-a72b-fade" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a79-d660-a72b-fade" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="e65b-7c58-68c5-cca7" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8be8-d241-f20f-ebc9" name="Hadvar: Hero Of Helgen" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -358,27 +369,28 @@
       <selectionEntries>
         <selectionEntry id="a018-4fc4-1b87-c20f" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f169-1395-1aa3-dc2f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f169-1395-1aa3-dc2f" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="aa30-275e-f99d-2095" name="Hadvar: Hero Of Helgen (Leveled)" hidden="false" targetId="4737-416e-f247-ec34" type="profile"/>
             <infoLink id="555c-eda6-905c-1a1b" name="Perk: Tower of Strength" hidden="false" targetId="9489-c41b-efeb-4897" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="37d6-0b04-51a5-b87e" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="37d6-0b04-51a5-b87e" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db80-2895-8e18-02ac" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db80-2895-8e18-02ac" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="8674-9d63-d652-7101" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="821f-2b39-4456-871d" name="General Tullius: Imperial Governor" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -399,27 +411,28 @@
       <selectionEntries>
         <selectionEntry id="540e-7a12-bd9a-0238" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fc-37f9-932a-3d88" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fc-37f9-932a-3d88" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="38d3-f36e-c2f0-ebe2" name="General Tullius: Imperial Governor (Leveled)" hidden="false" targetId="00fe-4cd5-b892-f854" type="profile"/>
             <infoLink id="2a35-3184-9335-7945" name="Perk: Reflect Blows" hidden="false" targetId="a61b-4473-cc8c-ffe2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="68cd-415f-e6a6-f171" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="68cd-415f-e6a6-f171" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7b-4636-69c8-a6c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7b-4636-69c8-a6c9" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="cc31-b979-24aa-2e9f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="74.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="74"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1014-5819-0aac-b059" name="Legate Rikke: Chief Legate" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -439,27 +452,28 @@
       <selectionEntries>
         <selectionEntry id="82fb-2681-1e0d-eed8" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1550-0d48-373b-be32" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1550-0d48-373b-be32" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="7b1b-786a-1e39-a3f0" name="Legate Rikke: Chief Legate (Leveled)" hidden="false" targetId="060d-c306-2044-fa67" type="profile"/>
             <infoLink id="9395-3d0d-406a-7293" name="Perk: Critical Charge" hidden="false" targetId="bedf-8612-7883-a004" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="8abe-e6c8-7584-c3bf" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="8abe-e6c8-7584-c3bf" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0625-beb1-e7c3-f782" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0625-beb1-e7c3-f782" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="5815-1e09-89de-c2f8" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="68.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="68"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8cff-5b1e-1e85-34e4" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -478,27 +492,28 @@
       <selectionEntries>
         <selectionEntry id="86d8-f7ae-b567-eb0d" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7395-d624-bf72-e8f0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7395-d624-bf72-e8f0" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="7bae-0a9e-a34e-8825" name="Legate Fasendil: Commander Of The Rift (Leveled" hidden="false" targetId="e99d-1eba-7592-6c83" type="profile"/>
+            <infoLink id="7bae-0a9e-a34e-8825" name="Legate Fasendil: Commander Of The Rift (Leveled)" hidden="false" targetId="e99d-1eba-7592-6c83" type="profile"/>
             <infoLink id="bb97-810b-d2c7-3b55" name="Perk: Ranger" hidden="false" targetId="ff82-0769-0a4a-7153" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1202-2e12-c254-fe4b" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="1202-2e12-c254-fe4b" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9de-2bf7-01bc-627b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9de-2bf7-01bc-627b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="22e3-3dcd-a5c4-cb47" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0895-0dae-ed96-6aa6" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -517,23 +532,24 @@
       <selectionEntries>
         <selectionEntry id="8bc1-f7ae-ecd2-c05f" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5c-ff27-b484-ecf8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5c-ff27-b484-ecf8" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="36b9-afc3-e698-21a5" name="Captain Aldis: Defender Of Solitude (Leveled)" hidden="false" targetId="53aa-b80e-877d-376a" type="profile"/>
             <infoLink id="ed1e-1581-1278-0bd6" name="Perk: Momentum" hidden="false" targetId="44cc-389d-4766-9e73" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="8da8-30b6-a183-4791" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup"/>
+        <entryLink id="8da8-30b6-a183-4791" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup"/>
         <entryLink id="d5b8-7e2e-7360-be8d" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d737-af1a-f6d7-226a" name="Imperial Headsman: Grim Executioner" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -546,27 +562,28 @@
       <selectionEntries>
         <selectionEntry id="5cda-eac0-b190-282c" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f81-2915-82e0-8e8a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f81-2915-82e0-8e8a" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="4b6d-8e98-dc26-f210" name="Imperial Headsman: Grim Executioner (Leveled)" hidden="false" targetId="bd00-dd11-1dc4-1fd1" type="profile"/>
             <infoLink id="fb52-912f-87e8-28a9" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c23f-bf55-aa84-b8f6" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="c23f-bf55-aa84-b8f6" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b71-9edb-219a-8968" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b71-9edb-219a-8968" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f421-8254-65a3-ac6f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e764-5fa7-0ea8-958e" name="Imperial Captain: Garrison Commander" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -584,27 +601,28 @@
       <selectionEntries>
         <selectionEntry id="6b2d-a8a5-ea73-fe29" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43cd-1f36-66d2-09f4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43cd-1f36-66d2-09f4" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="940f-2725-9db0-9768" name="Imperial Captain: Garrison Commander (Leveled)" hidden="false" targetId="8bfe-2031-2b47-a858" type="profile"/>
             <infoLink id="528c-6ebf-3dd3-48c1" name="Perk: Defensive Posture" hidden="false" targetId="fd4f-3ef9-2082-4adf" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fac8-42f3-377e-41d1" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="fac8-42f3-377e-41d1" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a359-3eff-dfc9-f0fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a359-3eff-dfc9-f0fb" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="5324-a6c9-dd1f-3fef" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e723-610d-0c0f-f5cb" name="Imperial Soldier: Sword And Shield" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -614,7 +632,8 @@
         <infoLink id="7a75-f4c0-8799-7725" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f440-aaa7-8814-f988" name="Imperial Soldier: Heavy Armor" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -624,7 +643,8 @@
         <infoLink id="c3e7-e3bb-2ade-647c" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dca6-c5f7-43c9-aff9" name="Imperial Soldier: Archer" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="unit">
@@ -634,7 +654,8 @@
         <infoLink id="d405-52ff-7ad7-aada" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b350-a774-e96d-43bf" name="Imperial Recruit: Drillyard Trainee" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -644,7 +665,8 @@
         <infoLink id="b8ee-b224-b26e-1015" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="19.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="19"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5aeb-1597-85dc-a277" name="Hadvar: Hero Of Helgen (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -659,7 +681,8 @@
         <infoLink id="4515-95fd-d5ae-953f" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5873-1ffb-182f-4d0b" name="Imperial Soldier: Swordsman (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
@@ -669,7 +692,8 @@
         <infoLink id="4032-e3cc-b1e1-ddf5" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

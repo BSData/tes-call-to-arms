@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5182-07ec-790b-ea1c" name="Clan Volkihar" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5182-07ec-790b-ea1c" name="Clan Volkihar" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="3eae-7ac8-0da6-d1d7" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bd3-aa6a-2420-99fe" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bd3-aa6a-2420-99fe" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="2aaf-aa48-8cc3-28c1" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f1e-c57c-4c19-3cca" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f1e-c57c-4c19-3cca" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="1a76-122e-663f-1640" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b206-2ed2-0040-6c70" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b206-2ed2-0040-6c70" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
@@ -24,15 +24,15 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b7aa-4b7c-29c1-1bb5" type="lessThan"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b7aa-4b7c-29c1-1bb5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a619-a279-a694-39aa" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="a619-a279-a694-39aa" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="a3e5-8615-62f2-0a89" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
         <categoryLink id="4761-785a-6d9e-8403" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="f6be-1f71-dc3a-806f" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
@@ -49,7 +49,7 @@
     </entryLink>
     <entryLink id="a23b-5d7e-c6c3-d583" name="The Dragonborn: Fist of Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="9218-63c2-9e88-dc4d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7fd5-da89-8c1c-66f7" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="7fd5-da89-8c1c-66f7" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="5413-b326-20c8-4c86" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
         <categoryLink id="2f47-c43e-3ac2-51cc" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
         <categoryLink id="9194-15b0-2f4c-9b8a" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
@@ -70,7 +70,7 @@
     </entryLink>
     <entryLink id="989e-d695-ced9-ff78" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="4707-09e4-8041-d28c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8da4-a0e4-7d8f-0b12" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="8da4-a0e4-7d8f-0b12" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="484d-3874-4ca8-3b0b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="b0f4-4754-a9da-4277" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="25fd-b871-8a72-eb84" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
@@ -93,7 +93,7 @@
     </entryLink>
     <entryLink id="ef3d-c946-d685-39f9" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="e3cc-9c6c-7980-ac7b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b769-61ef-673e-1a90" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="b769-61ef-673e-1a90" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="2ede-9c30-61a0-f2c5" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="847c-4e76-4e66-da35" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="445f-f617-fc42-5b7a" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
@@ -116,12 +116,12 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c413-2e33-e6e4-ffca" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c413-2e33-e6e4-ffca" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="53f0-89a9-5e56-d6c3" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="53f0-89a9-5e56-d6c3" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="c1bc-45da-4de4-8345" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="9d37-4c90-d561-fa15" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="e029-9c61-4a82-f8fd" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
@@ -140,7 +140,7 @@
     </entryLink>
     <entryLink id="332f-45b8-fc7e-0c40" name="Ancient Vampire: Clan Elder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f778-9246-12e4-8343" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2df8-042a-eb72-e6e0" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="2df8-042a-eb72-e6e0" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="ecff-bbca-6226-d1cb" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="1cc3-9631-e3d7-4a36" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="8c49-d374-0522-5da1" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
@@ -156,7 +156,7 @@
     </entryLink>
     <entryLink id="4cf8-5f5d-1020-06d3" name="Vampire Mistwalker: Silent Killer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="cee2-c91f-f24f-0797" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="52af-9681-dbea-3ba8" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="52af-9681-dbea-3ba8" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="87a6-6a1b-40a3-d3fb" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="4368-fc24-f298-239b" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="9464-650f-dc49-cd20" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
@@ -172,14 +172,14 @@
     </entryLink>
     <entryLink id="1f1e-8076-131d-b4c2" name="Gargoyle: Volkihar Sentinel" hidden="false" collective="false" import="true" targetId="6b2b-82ce-b864-2791" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="195f-f193-c08d-71e0" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="195f-f193-c08d-71e0" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="64d8-6044-ad7c-0327" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="be61-e212-62d0-c874" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0df4-2c31-a4ed-3921" name="Vampire: Outcast Dunmer" hidden="false" collective="false" import="true" targetId="4c46-3573-4e24-03bc" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1990-8e90-4242-e1ed" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="1990-8e90-4242-e1ed" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="4652-7377-fefd-58e1" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="bce6-06d2-ae3d-7dc5" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="ab74-19bd-fae8-6a40" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
@@ -188,7 +188,7 @@
     </entryLink>
     <entryLink id="d90c-4ca9-72fe-ab2e" name="Vampire: Outcast Altmer" hidden="false" collective="false" import="true" targetId="1ea3-9d20-4406-078e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9bde-fa56-607b-3f66" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="9bde-fa56-607b-3f66" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="3750-228b-10ef-ef6b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="8bb0-c9d7-69df-e6a9" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="4183-ca8b-e471-aff8" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
@@ -197,7 +197,7 @@
     </entryLink>
     <entryLink id="556d-ac0e-8baa-1073" name="Vampire: Outcast Imperial" hidden="false" collective="false" import="true" targetId="438e-4080-c3a7-2a0e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8a47-f043-4af8-1afe" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="8a47-f043-4af8-1afe" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="642f-7768-e80c-8d1b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="382b-cf6c-f652-c053" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="77e5-cb9b-533f-1ece" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
@@ -205,7 +205,7 @@
     </entryLink>
     <entryLink id="22e7-a8bf-8096-b42a" name="Vampire Fledgling: Nord Neophyte" hidden="false" collective="false" import="true" targetId="f424-3fc0-4bf3-b691" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8e66-5f36-a397-4bdc" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="8e66-5f36-a397-4bdc" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="2911-dcbb-a6d0-81e6" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="99c0-3e6d-2bba-ab90" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="5294-7e32-7bec-263e" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
@@ -213,7 +213,7 @@
     </entryLink>
     <entryLink id="894c-d611-956d-d4d3" name="Vampire Fledgling: Breton Neophyte" hidden="false" collective="false" import="true" targetId="dec8-3018-6801-2f00" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f227-e591-1d5e-1897" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="f227-e591-1d5e-1897" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="b543-9a80-f83d-e23b" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
         <categoryLink id="770f-a5fe-0e56-7d5f" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="e8cf-0a63-bf81-2017" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
@@ -221,7 +221,7 @@
     </entryLink>
     <entryLink id="6c13-780e-749b-7d0f" name="Death Hound: Crypt Beast" hidden="false" collective="false" import="true" targetId="f90f-dfd4-1127-74a0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="027c-1104-cd05-c618" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="027c-1104-cd05-c618" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="902f-4c07-06e9-a98c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="b484-0417-1119-6fcc" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
       </categoryLinks>
@@ -229,7 +229,6 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9218-63c2-9e88-dc4d" name="The Dragonborn: Fist of Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="c33c-18a6-a223-a468" name="Enemy of the Dawn" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>The Dragonborn adds [GREEN] to all Attacks performed against members of the Dawnguard Faction.</description>
@@ -244,51 +243,51 @@
         <infoLink id="bc58-4dc2-ea46-022b" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
         <infoLink id="50ce-b1dc-e4a9-815b" name="Vampire Perk: Supernatural Reflexes" hidden="false" targetId="94fd-e062-7e6e-f31c" type="rule"/>
         <infoLink id="1cab-b4c2-8229-0090" name="Perk: Treasure Hunter" hidden="false" targetId="20be-2e12-0782-2057" type="rule"/>
-        <infoLink id="d088-eab8-e028-b29d" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+        <infoLink id="d088-eab8-e028-b29d" name="Blood Magic: Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
         <infoLink id="df54-6c21-f3fa-b8ae" name="Shapeshift (X)" hidden="false" targetId="c372-6973-ecac-b0d8" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="82f7-292f-547d-9dc8" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ae-8e89-d3b8-3782" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ae-8e89-d3b8-3782" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="237b-8a41-3ebb-4cd7" name="The Dragonborn: Fist of Volkihar (Leveled)" hidden="false" targetId="96eb-b91b-e2ff-049a" type="profile"/>
             <infoLink id="d641-9a12-6077-29af" name="Perk: Stealth" hidden="false" targetId="97cc-1221-1a57-177f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f7bd-62c8-b6e7-4f87" name="Include Shapeshift Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8d-c58a-6b07-848e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8d-c58a-6b07-848e" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="852a-5574-0e36-ae0a" name="Vampire Lord: Winged Nightmare (Shapeshift)" hidden="false" targetId="de7a-88f8-b261-5b3a" type="infoGroup"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="250c-735b-df82-763a" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="724e-00f8-569b-4fb9" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="724e-00f8-569b-4fb9" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45a4-0e0d-1037-3039" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45a4-0e0d-1037-3039" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="ac21-cf9d-e4d2-d5c9" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="ac21-cf9d-e4d2-d5c9" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="90.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="90"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4707-09e4-8041-d28c" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="37a0-1989-1c23-28bb" name="Power Takes Precedence" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Lord Harkon may not be included in the same party as any model that is not either a member of the Clan Volkihar Faction or Neutral.  Furthermore, Harkon and any friendly Vampire within 6&quot; may add [GREEN] to their Blood Magic Skill Tests.</description>
@@ -308,46 +307,46 @@
       <selectionEntries>
         <selectionEntry id="824a-10b6-7cfa-947a" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd03-7670-5ea0-8acf" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd03-7670-5ea0-8acf" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="ac6e-e9f2-5511-dea0" name="Lord Harkon: Progenitor of the Volkihar (Leveled)" hidden="false" targetId="cdd1-b4a0-4061-ad42" type="profile"/>
             <infoLink id="80a3-a98a-d1ad-5e77" name="Perk: Bladesman" hidden="false" targetId="3988-d2f2-407a-a3b9" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eb7a-c2e5-e156-1031" name="Include Shapeshift Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c82-60d9-ffc8-0298" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c82-60d9-ffc8-0298" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="eae0-3413-75dd-23ba" name="Vampire Lord: Winged Nightmare (Shapeshift)" hidden="false" targetId="de7a-88f8-b261-5b3a" type="infoGroup"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="221f-ac83-295f-df0b" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="19d8-8654-568a-434b" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="19d8-8654-568a-434b" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96b0-aca9-a825-dc89" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d7-74a3-a333-7f43" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96b0-aca9-a825-dc89" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d7-74a3-a333-7f43" type="min"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="0e66-341c-a903-94fb" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="0e66-341c-a903-94fb" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="95.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="95"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3cc-9c6c-7980-ac7b" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="fe85-9fa8-6e93-984c" name="Know Your Place..." publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>When Vingalmo performs the Rally Command, he may immediately reassign the removed Shaken token to any enemy Follower or Minion Adversary within 6&quot; and Line of Sight.</description>
@@ -361,39 +360,39 @@
         <infoLink id="53af-127f-3e60-f52e" name="Perk: Augmented Frost" hidden="false" targetId="f130-7877-e9aa-a998" type="rule"/>
         <infoLink id="ff0a-686e-a6f0-4f4e" name="Perk: Necromancy" hidden="false" targetId="226e-8404-87c8-a2ff" type="rule"/>
         <infoLink id="1c95-3970-ee67-0b94" name="Perk: Dark Souls" hidden="false" targetId="901a-859d-c87e-4262" type="rule"/>
-        <infoLink id="fcbf-28d0-633a-ac89" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+        <infoLink id="fcbf-28d0-633a-ac89" name="Blood Magic: Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="887f-8d41-4715-358b" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d39-f6ba-9854-a913" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d39-f6ba-9854-a913" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="8c5e-fe8a-73c1-ca87" name="Vingalmo: Volkihar Master Vampire (Leveled)" hidden="false" targetId="cc4d-3f9b-86ce-a92f" type="profile"/>
             <infoLink id="c3ee-5e95-3333-a98a" name="Perk: Wind Walker" hidden="false" targetId="986d-0c2c-6f55-86f8" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="363e-ebfa-868e-9b2a" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="870a-fdb8-4d92-f6b7" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="870a-fdb8-4d92-f6b7" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac85-0844-757e-1cc8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac85-0844-757e-1cc8" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="5479-6c20-a445-a631" name="Elf is Champion (Orthjolf)" hidden="false" targetId="c413-2e33-e6e4-ffca" primary="false"/>
+            <categoryLink id="5479-6c20-a445-a631" name="Elf is Party Champion (Orthjolf)" hidden="false" targetId="c413-2e33-e6e4-ffca" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c49-014b-85f6-324d" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="4774-0de6-cb67-fb08" name="Elf Enmity (1)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Orthjolf may not be included in any Party if the Champion is an Elf. [...] Furthermore, when targeting an enemy Elf with an Attack or Spell, Orthjolf may reroll the Skill die once if he scores a [CRITICAL FAIL].</description>
@@ -406,39 +405,39 @@
         <infoLink id="6b4f-0ee5-ed87-2b69" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
         <infoLink id="38be-4462-027b-d945" name="Perk: Persuasion" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
         <infoLink id="0f7f-4c74-3863-0ea7" name="Vampire Perk: Power Bite" hidden="false" targetId="b31c-1f51-58a2-139b" type="rule"/>
-        <infoLink id="4db7-fe22-b83c-5341" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+        <infoLink id="4db7-fe22-b83c-5341" name="Blood Magic: Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="af18-5dcc-0885-678b" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d63-713a-4c62-d063" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d63-713a-4c62-d063" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="9ae1-c6c0-4b60-e05e" name="Orthjolf: Clan Advisor (Leveled)" hidden="false" targetId="7a1d-95c1-a055-6f76" type="profile"/>
             <infoLink id="9163-5cb4-6414-c4b0" name="Perk: Bribery" hidden="false" targetId="35b9-e58d-5f20-caa7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="94cd-6c9d-1011-442b" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="a7eb-4a6e-eb1a-e5e3" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="a7eb-4a6e-eb1a-e5e3" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0276-3f58-236f-0468" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0276-3f58-236f-0468" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="1c6e-b0b6-59f0-1904" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="1c6e-b0b6-59f0-1904" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f778-9246-12e4-8343" name="Ancient Vampire: Clan Elder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="0ce2-9958-8119-a876" name="Thrall Master" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>Friendly Clan Volkihar Thralls add [YELLOW] to Attacks if within 6&quot; of an Ancient Vampire which does not have a full Health Reserve.</description>
@@ -451,39 +450,39 @@
         <infoLink id="fc03-c768-8f21-106b" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
         <infoLink id="24e0-d8e9-8e47-1abe" name="Vampire Perk: Detect Creatures" hidden="false" targetId="8792-767e-1e78-bd0f" type="rule"/>
         <infoLink id="5d2d-43d3-538d-c73a" name="Perk: Necromancy" hidden="false" targetId="226e-8404-87c8-a2ff" type="rule"/>
-        <infoLink id="658e-afa7-4b87-1595" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+        <infoLink id="658e-afa7-4b87-1595" name="Blood Magic: Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="eb6e-a64a-f091-bee1" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5dd-1f09-5c67-09e8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5dd-1f09-5c67-09e8" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="03a8-12f7-0f14-9b47" name="Ancient Vampire: Clan Elder (Leveled)" hidden="false" targetId="b853-b6b1-de1c-b718" type="profile"/>
             <infoLink id="bd1e-5381-e2c7-f0ba" name="Perk: Fighting Stance" hidden="false" targetId="e23a-87f7-19e1-ad12" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="2856-7a8b-1faf-398c" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="921c-fe6e-f252-3315" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="921c-fe6e-f252-3315" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a13d-e066-f4fd-c35d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a13d-e066-f4fd-c35d" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="9be4-7526-3f5e-171a" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="9be4-7526-3f5e-171a" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cee2-c91f-f24f-0797" name="Vampire Mistwalker: Silent Killer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
-      <comment>Unleveled: done</comment>
       <rules>
         <rule id="86a4-6fc2-6f9b-29e7" name="Thrall Feeder" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
           <description>As a Special Action, the Vampire Mistwalker may target one Volkihar Thrall within 3&quot; and Line of Sight.  The target Thrall suffers [YELLOW] damage (ignoring Armor Rating), then the Vampire Mistwalker restores 1 point to each of its Reserves.</description>
@@ -495,35 +494,36 @@
         <infoLink id="6726-a0e6-08d3-15d9" name="Vampire Mistwalker: Silent Killer" hidden="false" targetId="adcb-4db1-f397-cc76" type="profile"/>
         <infoLink id="bd7e-28ae-705d-9c37" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
         <infoLink id="f08a-5548-76dc-8409" name="Perk: Necromancy" hidden="false" targetId="226e-8404-87c8-a2ff" type="rule"/>
-        <infoLink id="f1f6-8169-fd08-811c" name="Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" page="" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
+        <infoLink id="f1f6-8169-fd08-811c" name="Blood Magic: Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="6807-565e-49d8-f432" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="f0c0-ca77-0270-46e1" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51b5-b281-58ca-b95d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51b5-b281-58ca-b95d" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="1081-f8a1-3c67-6a38" name="Vampire Mistwalker: Silent Killer (Leveled)" hidden="false" targetId="bb9c-da55-b9c4-81e9" type="profile"/>
             <infoLink id="b267-d1a4-fe57-8980" name="Vampire Perk: Embrace of Shadows" hidden="false" targetId="1746-e9fc-41db-4247" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="188f-6280-b450-a4c3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="b415-e11f-608b-d9e9" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="b415-e11f-608b-d9e9" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e1-2815-a0c7-9c31" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e1-2815-a0c7-9c31" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="8a7c-294c-fc31-01c3" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+            <categoryLink id="8a7c-294c-fc31-01c3" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b2b-82ce-b864-2791" name="Gargoyle: Volkihar Sentinel" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
@@ -535,7 +535,8 @@
         <infoLink id="2438-c7a8-3e45-1c26" name="Immunity (Type)" hidden="false" targetId="7c88-fc5e-9fde-1261" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c46-3573-4e24-03bc" name="Vampire: Outcast Dunmer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
@@ -548,7 +549,8 @@
         <infoLink id="75e0-9768-5a27-b603" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ea3-9d20-4406-078e" name="Vampire: Outcast Altmer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
@@ -561,7 +563,8 @@
         <infoLink id="43c0-e3a1-db81-6c89" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="438e-4080-c3a7-2a0e" name="Vampire: Outcast Imperial" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
@@ -574,7 +577,8 @@
         <infoLink id="cb6b-d97a-2474-6c8f" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f424-3fc0-4bf3-b691" name="Vampire Fledgling: Nord Neophyte" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
@@ -587,7 +591,8 @@
         <infoLink id="43e0-1d53-1cc1-e871" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dec8-3018-6801-2f00" name="Vampire Fledgling: Breton Neophyte" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
@@ -601,7 +606,8 @@
         <infoLink id="3463-cf74-607d-d90b" name="Magicka Boost (X)" hidden="false" targetId="2597-fb44-57b8-5201" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f90f-dfd4-1127-74a0" name="Death Hound: Crypt Beast" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="unit">
@@ -614,7 +620,8 @@
         <infoLink id="ca6d-8a81-d459-3226" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18.0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
