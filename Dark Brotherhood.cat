@@ -49,7 +49,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -87,7 +87,7 @@
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifierGroup>
       </modifierGroups>
@@ -110,7 +110,7 @@
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifierGroup>
       </modifierGroups>
@@ -133,7 +133,7 @@
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifierGroup>
       </modifierGroups>
@@ -161,7 +161,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
             </conditionGroup>
@@ -188,7 +188,7 @@
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifierGroup>
       </modifierGroups>
@@ -206,7 +206,7 @@
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifierGroup>
       </modifierGroups>
@@ -224,7 +224,7 @@
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifierGroup>
       </modifierGroups>
@@ -243,7 +243,7 @@
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifierGroup>
       </modifierGroups>
