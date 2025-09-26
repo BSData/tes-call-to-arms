@@ -151,6 +151,7 @@
         <categoryLink id="2ba6-c9f3-4e83-7d65" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="e6cc-67a3-4417-86a8" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
         <categoryLink id="00c6-f4a8-132d-ee25" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
+        <categoryLink name="Blood Magic Skill" hidden="false" id="ecf4-61be-8116-a207" targetId="16e1-93b0-a99d-b6b1" primary="false"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -449,7 +450,7 @@
         <infoLink id="8346-b6a0-ba61-742d" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
         <infoLink id="ffc5-2e4f-643f-8d0d" name="Acute Senses" hidden="false" targetId="547c-e6e5-64d4-a519" type="rule"/>
         <infoLink id="8fbd-8aae-f593-371b" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
-        <infoLink id="3ba7-293b-90d9-cc8a" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
+        <infoLink id="3ba7-293b-90d9-cc8a" name="Breton" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
         <infoLink id="eca5-74a7-640d-246b" name="Perk: Benefactor" hidden="false" targetId="7e8c-c565-61a2-0c5b" type="rule"/>
         <infoLink id="89fa-b6cf-94d5-c0db" name="Teeth And Claws" hidden="false" targetId="90cf-86d1-e95f-6cd3" type="profile"/>
         <infoLink id="cc52-d325-1384-0bf2" name="Babette: Un-Child" hidden="false" targetId="4801-0236-95e1-29b9" type="profile">
@@ -461,6 +462,7 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="b174-5f92-5833-90a1" name="Subrace: Vampire" hidden="false" targetId="38ae-4f26-9328-defe" type="infoGroup"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="8083-9602-c003-cfbb" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">

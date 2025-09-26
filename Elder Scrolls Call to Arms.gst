@@ -3690,6 +3690,19 @@ A: Yes</description>
       <modifiers>
         <modifier type="set" value="Hauling" field="name"/>
       </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hauling Bonus Quick Slot (max 1)" id="9d3b-bcd9-b53b-1462" hidden="false" collective="false" import="true" collapsible="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71d8-961b-26bd-d13e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a477-c80d-0355-f216" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Quick Slot Items" hidden="false" id="7df7-3e7d-ca0b-53d6" collective="false" targetId="1c2b-98e7-da84-737a" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Dragon Shouts" hidden="false" id="6221-7292-7142-fe10" collective="false" targetId="9dcd-bd06-1632-8ed1" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Quick Slot &amp; Hybrid Spells" hidden="false" id="ce2e-b4d2-348d-9c36" collective="false" targetId="5951-3d08-b70f-e0c2" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="c9ab-0096-21a2-2a26" name="Auriel&apos;s Shield" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3985,6 +3998,9 @@ A: Yes</description>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67a2-6c2e-606e-061f"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="f5fc-192d-8d26-3cab" name="Aversion to Fire Poison" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -4217,46 +4233,9 @@ A: Yes</description>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="3cd3-6592-6977-713b" collective="false" defaultAmount="0">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ec4-c247-8bd9-0321" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Armor Enchantments" hidden="false" id="c978-8544-5045-68a5" collective="false" targetId="d8f4-6cca-bf2a-0106" type="selectionEntryGroup">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95f4-797d-1a47-cb3d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5166-23ec-d46b-b853" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Armor Attachments" hidden="false" id="e32e-9b30-aa72-47e6" collective="false" targetId="752f-f14c-d0e4-1651" type="selectionEntryGroup" collapsible="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a45e-62d9-394e-8378" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1cc4-a6c0-3733-677d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="a187-eceb-308f-fa75" collective="false" defaultAmount="0">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0612-7009-1b59-94f6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Weapon Enchantments" hidden="false" id="e7e5-a03c-6b08-c90d" collective="false" targetId="3ae5-f30b-7167-ffb3" type="selectionEntryGroup" flatten="true" collapsible="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9e0-cbea-12b7-fa7b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="77fb-6f37-f1df-9d41" name="Equipment" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="77fb-6f37-f1df-9d41" name="Equipment" hidden="false" collective="false" import="true" flatten="true">
       <infoLinks>
         <infoLink id="b95c-5701-7a35-9a8e" name="Equipment Skill Restriction" hidden="false" targetId="4b68-6303-f6f3-baab" type="rule"/>
       </infoLinks>
@@ -4272,22 +4251,10 @@ A: Yes</description>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ece-6213-1e3c-df77" type="max"/>
                   </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="b3c7-0a86-4236-9b3b" name="Additional Weapon Attachments" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f17-8560-a8da-0b88" type="max"/>
-                      </constraints>
-                      <entryLinks>
-                        <entryLink id="be95-1064-ecc4-7d8a" name="Weapon Attachments" hidden="false" collective="false" import="true" targetId="5879-58a1-2038-2d2d" type="selectionEntryGroup"/>
-                      </entryLinks>
-                      <costs>
-                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
                   <entryLinks>
                     <entryLink id="f198-38e6-804d-1785" name="One-Handed Weapons" hidden="false" collective="false" import="true" targetId="99eb-4c90-424e-ecd2" type="selectionEntryGroup"/>
                     <entryLink id="3a7f-220b-083a-f829" name="Two-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="eafc-7cdb-5712-6bca" type="selectionEntryGroup"/>
+                    <entryLink import="true" name="Bows/Crossbows" hidden="false" id="a796-2134-798f-af0a" type="selectionEntryGroup" targetId="809e-c29f-519d-77f8"/>
                   </entryLinks>
                   <costs>
                     <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
@@ -4297,22 +4264,10 @@ A: Yes</description>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdb6-55b2-d886-49a3" type="max"/>
                   </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="24b5-ceb9-22af-becd" name="Additional Armor Attachments" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f3-7abc-7645-590a" type="max"/>
-                      </constraints>
-                      <entryLinks>
-                        <entryLink id="013f-2f38-426c-414f" name="Armor Attachments" hidden="false" collective="false" import="true" targetId="752f-f14c-d0e4-1651" type="selectionEntryGroup"/>
-                      </entryLinks>
-                      <costs>
-                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
                   <entryLinks>
                     <entryLink id="961e-8bbf-ad03-ed48" name="Light Armors" hidden="false" collective="false" import="true" targetId="67df-582a-bb94-4c3a" type="selectionEntryGroup"/>
                     <entryLink id="9644-eee8-0490-e63c" name="Heavy Armors" hidden="false" collective="false" import="true" targetId="5399-5acc-9828-57d4" type="selectionEntryGroup"/>
+                    <entryLink import="true" name="Robes" hidden="false" id="50a2-837a-427f-e71b" type="selectionEntryGroup" targetId="5ee8-ca30-00d2-7fb0"/>
                   </entryLinks>
                   <costs>
                     <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
@@ -4389,72 +4344,6 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Hand Slots" hidden="false" id="5050-5803-a422-3d53" defaultAmount="1">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Show One-Handed" hidden="false" id="3a82-952a-057d-0ba1">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="One-Handed Slot (max 2)" id="ba3c-b441-d36a-8bee" hidden="false" collective="false" import="true" collapsible="true">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ee8f-bea7-90ca-21bc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d4a7-d766-2928-948f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b0a1-83a5-336e-6dec" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="One-Handed Weapons" hidden="false" id="22f5-0ab2-8375-1dd4" collective="false" targetId="99eb-4c90-424e-ecd2" type="selectionEntryGroup" collapsible="true"/>
-                    <entryLink import="true" name="One-Hand Spells" hidden="false" id="92cb-dd58-22c3-4fda" collective="false" targetId="8a0d-94f4-f0f7-e285" type="selectionEntryGroup" collapsible="true"/>
-                    <entryLink import="true" name="One-Handed Staves" hidden="false" id="72f2-0570-95e8-61cc" collective="false" targetId="06f5-97a8-3d86-613f" type="selectionEntryGroup" collapsible="true"/>
-                    <entryLink import="true" name="Shields" hidden="false" id="048d-1bc1-0d37-c46a" collective="false" targetId="60ed-daf2-01db-e86e" type="selectionEntryGroup" collapsible="true">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c70-6038-e752-1465" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b513-dfef-9071-8d85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="One-Handed Items" hidden="false" id="2269-32c1-aaac-38d3" collective="false" targetId="8f2f-1152-e0ab-6726" type="selectionEntryGroup" collapsible="true"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45bf-c635-1cd6-cc5c"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Show Ranged/Two-Handed (if Skilled)" hidden="false" id="531c-b0f4-8b7f-9107" collapsible="true">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Two-Handed Slot (max 1)" id="ee8f-bea7-90ca-21bc" hidden="false" collective="false" import="true" collapsible="true">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0e9-0349-8a10-66d1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1cec-6de9-6031-726c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Two-Handed Melee Weapons" hidden="false" id="356f-67b6-a7e6-ad97" collective="false" targetId="eafc-7cdb-5712-6bca" type="selectionEntryGroup" collapsible="true">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfe6-ef77-fa41-6bd6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5f84-4bd1-d2c8-daa9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Bows/Crossbows" hidden="false" id="45ef-c03c-01c0-7f09" collective="false" targetId="809e-c29f-519d-77f8" type="selectionEntryGroup" collapsible="true">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7103-6236-dee7-945b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="98c6-658d-dc18-bde5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ecd-17a3-d4f4-396e"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="def3-f977-fc53-5e0d"/>
-          </constraints>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="e836-50ba-0759-d032" name="Armor Slot (max 1)" hidden="false" collective="false" import="true">
@@ -4478,6 +4367,9 @@ A: Yes</description>
               </constraints>
             </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c421-3802-44a9-5b01"/>
+          </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup id="4a37-0412-3046-f46a" name="Quick Slots (max 2)" hidden="false" collective="false" import="true">
           <modifierGroups>
@@ -4509,6 +4401,65 @@ A: Yes</description>
             <entryLink id="c18c-65df-8b9b-87bf" name="Dragon Shouts" hidden="false" collective="false" import="true" targetId="9dcd-bd06-1632-8ed1" type="selectionEntryGroup"/>
             <entryLink id="aca1-fa9b-2243-232c" name="Quick Slot &amp; Hybrid Spells" hidden="false" collective="false" import="true" targetId="5951-3d08-b70f-e0c2" type="selectionEntryGroup"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Hand Slots" id="8134-7bd3-1d78-5e19" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Two-Handed Slot (max 1)" id="ee8f-bea7-90ca-21bc" hidden="false" collective="false" import="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0e9-0349-8a10-66d1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1cec-6de9-6031-726c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Two-Handed Melee Weapons" hidden="false" id="356f-67b6-a7e6-ad97" collective="false" targetId="eafc-7cdb-5712-6bca" type="selectionEntryGroup" collapsible="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfe6-ef77-fa41-6bd6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5f84-4bd1-d2c8-daa9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Bows/Crossbows" hidden="false" id="45ef-c03c-01c0-7f09" collective="false" targetId="809e-c29f-519d-77f8" type="selectionEntryGroup" collapsible="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7103-6236-dee7-945b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="98c6-658d-dc18-bde5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="One-Handed Slot (max 2)" id="ba3c-b441-d36a-8bee" hidden="false" collective="false" import="true" collapsible="true">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ee8f-bea7-90ca-21bc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d4a7-d766-2928-948f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b0a1-83a5-336e-6dec" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="One-Handed Weapons" hidden="false" id="22f5-0ab2-8375-1dd4" collective="false" targetId="99eb-4c90-424e-ecd2" type="selectionEntryGroup" collapsible="true"/>
+                <entryLink import="true" name="One-Hand Spells" hidden="false" id="92cb-dd58-22c3-4fda" collective="false" targetId="8a0d-94f4-f0f7-e285" type="selectionEntryGroup" collapsible="true"/>
+                <entryLink import="true" name="One-Handed Staves" hidden="false" id="72f2-0570-95e8-61cc" collective="false" targetId="06f5-97a8-3d86-613f" type="selectionEntryGroup" collapsible="true"/>
+                <entryLink import="true" name="Shields" hidden="false" id="048d-1bc1-0d37-c46a" collective="false" targetId="60ed-daf2-01db-e86e" type="selectionEntryGroup" collapsible="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c70-6038-e752-1465" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b513-dfef-9071-8d85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="One-Handed Items" hidden="false" id="2269-32c1-aaac-38d3" collective="false" targetId="8f2f-1152-e0ab-6726" type="selectionEntryGroup" collapsible="true"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3347-9ef8-c2c1-a030"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="3347-9ef8-c2c1-a030">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="ee8f-bea7-90ca-21bc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
@@ -4563,7 +4514,7 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="ef0a-78ff-3fc9-d3e2" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="1548-d273-765e-f943" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="5cc7-ff32-3ce4-14eb" name="Orcish Sword" hidden="false" collective="false" import="true" targetId="3daf-5734-5be8-0e02" type="selectionEntry">
@@ -4571,82 +4522,82 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="fd16-8ab4-20aa-c839" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="4e48-5464-70b4-c4cb" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="a485-a8b1-2b3b-15cb" name="Ebony Dagger" hidden="false" collective="false" import="true" targetId="c11d-a4ea-0258-ea1e" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="15e7-f6e0-6f26-cfb3" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="ad8f-ed93-7f33-9cc4" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="cf59-558d-81ca-c7c2" name="Skyforge Dagger" hidden="false" collective="false" import="true" targetId="2ead-75e0-855d-cd0f" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="ae11-7ea7-ebf3-d6b9" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="73cc-7792-685e-8a7f" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="efeb-0f64-35a0-23af" name="Scimitar" hidden="false" collective="false" import="true" targetId="127a-fc06-225d-66ea" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="135b-997a-d6c2-79cf" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="6c8e-dd1a-4f69-ad97" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="c549-2bf4-6e34-a389" name="Skyforge Sword" hidden="false" collective="false" import="true" targetId="4dc7-8d71-e109-1be6" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="3c77-ca4b-c5a3-5370" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="b065-6a6a-19e2-d1f5" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="3ea1-fe29-f4a9-4e92" name="Orcish Dagger" hidden="false" collective="false" import="true" targetId="764f-845a-3cb6-f327" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="7362-4595-c721-d6a8" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="8456-67c5-dc4c-d995" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="5ac2-7061-0e0c-bc77" name="Skyforge War Axe" hidden="false" collective="false" import="true" targetId="3b98-ca83-2e72-bbc0" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="8089-9ddd-8690-e02a" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="98ca-7b6a-413e-4e51" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="4e95-24e0-06e8-fee9" name="Orcish War Axe" hidden="false" collective="false" import="true" targetId="43fc-95e2-2268-8428" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="6af9-0c21-7804-77f8" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="8696-d71f-017d-593d" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="e0f9-6c84-ee51-f5a9" name="Iron War Axe" hidden="false" collective="false" import="true" targetId="87ab-5fdd-3138-73bf" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="b178-b478-9efb-1937" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9eb6-5050-90c1-d92d" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="23a7-2283-236f-2d05" name="Dwarven Dagger" hidden="false" collective="false" import="true" targetId="7532-5a5f-ff50-7d9a" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="08cc-1fa3-a590-3add" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9882-88d8-8673-3fcd" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="4a8a-aab0-44db-9207" name="Iron Dagger" hidden="false" collective="false" import="true" targetId="db5b-f220-e2e2-c1f1" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="66af-550d-4637-acd7" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="0a01-42b5-7ba6-7e0a" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="0fd7-5752-dd39-f50c" name="Steel War Axe" hidden="false" collective="false" import="true" targetId="4671-0f73-311d-d607" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="60b9-b5f3-59d9-02ad" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9a79-66fc-5a72-06cd" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="f519-933d-a05a-2db6" name="Iron Sword" hidden="false" collective="false" import="true" targetId="833c-3b30-8c53-3578" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="3b12-c9d7-3697-6d87" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3f3f-14df-288c-5abe" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="15d8-89fd-cce5-a80c" name="Steel Mace" hidden="false" collective="false" import="true" targetId="4602-6a9e-831d-6a85" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="f71b-13ac-2cf0-b3b2" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="7138-d078-4b71-84a9" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="6d87-7ac5-c521-b201" name="Iron Mace" hidden="false" collective="false" import="true" targetId="07f8-2c13-c089-966f" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="4a79-5e81-ead7-0d48" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="4083-2cbd-d7a4-cad6" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="edef-bf02-679f-26af" name="Pickaxe" hidden="false" collective="false" import="true" targetId="62d5-e118-a3a6-2175" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="6803-6236-5b45-3756" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="752a-69a2-c435-f04b" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="4aec-cd2d-c5a7-61e9" name="Imperial Sword" hidden="false" collective="false" import="true" targetId="175f-ac7e-d359-1824" type="selectionEntry">
@@ -4658,42 +4609,42 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="dcf6-f08d-2e21-7a87" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9646-5863-ecde-a422" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="95d2-062b-b379-6bf6" name="Steel Dagger" hidden="false" collective="false" import="true" targetId="943c-58dc-288a-8805" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="5368-9a43-4f1c-d332" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="15f4-9c79-4e97-beee" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="43b7-7501-6697-ef8c" name="Elven Sword" hidden="false" collective="false" import="true" targetId="c5c3-80e2-17d4-f0d0" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="d782-85f6-fbb2-6641" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="252d-00f1-8897-af65" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="9b62-2bcf-fce7-13bc" name="Orcish Mace" hidden="false" collective="false" import="true" targetId="6667-4bc9-11d3-57f9" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="575b-901e-ed33-656d" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="ffdb-e786-9148-1a38" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="3fc5-4f73-9f60-ca3d" name="Elven Dagger" hidden="false" collective="false" import="true" targetId="276f-8bbc-5214-0e4e" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="e91d-590c-d8e7-5954" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="2e44-ca9a-cdee-6725" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="d7ed-7008-fddf-6313" name="Dwarven Sword" hidden="false" collective="false" import="true" targetId="ddbd-0d3f-02fb-2959" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="b38c-83c7-c25d-e4ce" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="096f-c6d3-aa34-9521" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="0501-f1a0-3f04-eb4b" name="Dwarven Mace" hidden="false" collective="false" import="true" targetId="6b52-21aa-c4f1-b721" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="6be3-878d-66c5-84de" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="e070-8127-6199-320a" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="7fb8-a887-a5f7-7cb7" name="Dwarven War Axe" hidden="false" collective="false" import="true" targetId="7f20-c16b-a32b-54db" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="bd00-60c5-3b4c-5fed" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="d971-6d52-47b8-caec" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="504a-5505-d7fe-05f6" name="Steel War Axe Of Cowardice" hidden="true" collective="false" import="true" targetId="65ad-968c-d60a-3b47" type="selectionEntry">
@@ -4716,12 +4667,12 @@ A: Yes</description>
         </entryLink>
         <entryLink id="0767-b7cd-8ac1-6502" name="Glass Dagger" hidden="false" collective="false" import="true" targetId="af5b-aea4-c515-aed3" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="98a5-deec-52df-244e" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="91fb-b7b8-db11-728c" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="5f06-b9c1-d9e2-8a73" name="Dragonbone Sword" hidden="false" collective="false" import="true" targetId="1b83-8d65-561a-3556" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="193e-310f-c7b0-adc5" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="5e7c-ae7e-51aa-b596" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="7e6e-041f-7477-b309" name="Harkon&apos;s Sword" hidden="true" collective="false" import="true" targetId="9a6b-8239-aace-8978" type="selectionEntry">
@@ -4733,22 +4684,22 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="8ee4-b0e2-a4e1-aa18" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="61a4-0b2c-4a38-4364" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="3f18-e805-99a9-98fd" name="Dawnguard War Axe" hidden="false" collective="false" import="true" targetId="726b-4fe5-4e30-7d10" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="d0fa-7a49-25bd-d982" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="e689-3fcf-db48-f8d7" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="8bc3-922f-634c-aef1" name="Elven Mace" hidden="false" collective="false" import="true" targetId="ae97-1524-0510-e863" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="bf5a-37c5-4246-262c" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3502-ac9d-3e48-79ee" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="1bdc-c5d4-a8a0-9fdf" name="Elven War Axe" hidden="false" collective="false" import="true" targetId="4fa7-6aa1-03de-b3b9" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="fc70-9b2b-d879-ff78" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3d6c-b67b-23d1-a289" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -5019,7 +4970,7 @@ A: Yes</description>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d8f4-6cca-bf2a-0106" name="Armor Enchantments" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="d8f4-6cca-bf2a-0106" name="Armor Enchantments" hidden="true" collective="false" import="true" collapsible="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -5047,8 +4998,11 @@ A: Yes</description>
         <entryLink id="fe3d-2dcf-b839-a245" name="Armor Enchantment: Poison Resistance" hidden="false" collective="false" import="true" targetId="5edf-abbd-5b2e-f33b" type="selectionEntry"/>
         <entryLink id="5fb4-7065-bd43-615d" name="Armor Enchantment: Hauling" hidden="false" collective="false" import="true" targetId="418b-12fd-e6d1-0450" type="selectionEntry"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf7e-1058-1b80-6cae"/>
+      </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9dcd-bd06-1632-8ed1" name="Dragon Shouts" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="9dcd-bd06-1632-8ed1" name="Dragon Shouts" hidden="true" collective="false" import="true" collapsible="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -5250,26 +5204,38 @@ A: Yes</description>
         <entryLink id="6e54-eddd-3797-971b" name="Glass Shield" hidden="false" collective="false" import="true" targetId="16d7-f02b-1a93-9fd0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1c2b-98e7-da84-737a" name="Quick Slot Items" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="efa8-e5eb-4f55-bf1d" name="Weak Magicka Poison" hidden="false" collective="false" import="true" targetId="fdf1-d957-5172-8704" type="selectionEntry"/>
-        <entryLink id="c9ba-f7d0-96f7-6496" name="Weak Vigor Poison" hidden="false" collective="false" import="true" targetId="f332-b276-2161-f329" type="selectionEntry"/>
-        <entryLink id="8e1d-db2d-a9c2-4713" name="Weak Health Poison" hidden="false" collective="false" import="true" targetId="a6ef-df32-aa04-5591" type="selectionEntry"/>
-        <entryLink id="c433-827c-fb21-4ae3" name="Potion Of Minor Healing" hidden="false" collective="false" import="true" targetId="9e8a-9c0b-8185-a8e5" type="selectionEntry"/>
-        <entryLink id="5bab-15c3-a0a7-4972" name="Potion Of Minor Magicka" hidden="false" collective="false" import="true" targetId="06df-8e9d-42be-0aa0" type="selectionEntry"/>
-        <entryLink id="c0b0-63cc-293d-d3f2" name="Potion Of Minor Stamina" hidden="false" collective="false" import="true" targetId="70ab-6089-0bde-c498" type="selectionEntry"/>
-        <entryLink id="2ea9-d278-3337-e46d" name="Lesser Soul Gem" hidden="false" collective="false" import="true" targetId="238d-37b1-33a4-4b89" type="selectionEntry"/>
-        <entryLink id="5f67-1fca-e3e0-bba9" name="Potion of Blood" hidden="true" collective="false" import="true" targetId="977f-e4e1-f05a-53c7" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84c5-1d46-80c8-1e38" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="20e8-f9b6-a07b-e74a" name="Soul Gem" hidden="false" collective="false" import="true" targetId="78d0-e14e-0766-6941" type="selectionEntry"/>
-      </entryLinks>
+    <selectionEntryGroup id="1c2b-98e7-da84-737a" name="Quick Slot Items" hidden="false" collective="false" import="true" collapsible="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Potions" id="1c37-7795-197b-7f11" hidden="false" collapsible="true">
+          <entryLinks>
+            <entryLink import="true" name="Potion of Blood" hidden="true" id="5f67-1fca-e3e0-bba9" collective="false" targetId="977f-e4e1-f05a-53c7" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="84c5-1d46-80c8-1e38" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Potion Of Minor Healing" hidden="false" id="c433-827c-fb21-4ae3" collective="false" targetId="9e8a-9c0b-8185-a8e5" type="selectionEntry"/>
+            <entryLink import="true" name="Potion Of Minor Magicka" hidden="false" id="5bab-15c3-a0a7-4972" collective="false" targetId="06df-8e9d-42be-0aa0" type="selectionEntry"/>
+            <entryLink import="true" name="Potion Of Minor Stamina" hidden="false" id="c0b0-63cc-293d-d3f2" collective="false" targetId="70ab-6089-0bde-c498" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Poisons" id="ce20-4e74-1075-7558" hidden="false" collapsible="true">
+          <entryLinks>
+            <entryLink import="true" name="Weak Health Poison" hidden="false" id="d37a-b9dc-31f5-b158" collective="false" targetId="a6ef-df32-aa04-5591" type="selectionEntry"/>
+            <entryLink import="true" name="Weak Magicka Poison" hidden="false" id="6b50-87d3-2e10-83fc" collective="false" targetId="fdf1-d957-5172-8704" type="selectionEntry"/>
+            <entryLink import="true" name="Weak Vigor Poison" hidden="false" id="047b-8bcb-8b8e-4909" collective="false" targetId="f332-b276-2161-f329" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Soul Gems" id="c6e5-c7fe-5995-077c" hidden="false" collapsible="true">
+          <entryLinks>
+            <entryLink import="true" name="Lesser Soul Gem" hidden="false" id="2ea9-d278-3337-e46d" collective="false" targetId="238d-37b1-33a4-4b89" type="selectionEntry"/>
+            <entryLink import="true" name="Soul Gem" hidden="false" id="20e8-f9b6-a07b-e74a" collective="false" targetId="78d0-e14e-0766-6941" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="eafc-7cdb-5712-6bca" name="Two-Handed Melee Weapons" hidden="true" collective="false" import="true" collapsible="true" flatten="true">
       <modifiers>
@@ -5294,87 +5260,87 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="da3f-edfa-1314-9690" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="25bc-cbfc-b17c-4ee2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="2fa9-fce4-c0fd-d026" name="Orcish Greatsword" hidden="false" collective="false" import="true" targetId="d7b7-e6c2-6a40-5e86" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="b753-e769-cc1e-3544" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="fd77-438f-34ca-d30e" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="02e5-beb3-fd63-c598" name="Steel Greatsword" hidden="false" collective="false" import="true" targetId="acd3-b67c-d86a-dd02" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="6975-92c0-57f9-e279" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="7028-9ac3-fc3d-d8b3" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="a199-f0ff-c295-604e" name="Skyforge Greatsword" hidden="false" collective="false" import="true" targetId="d07d-bec7-0a43-7b91" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="1a4f-6a26-d09a-b8ca" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="1c58-1b53-cffc-665a" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="cd2c-5d84-5aa8-757b" name="Iron Warhammer" hidden="false" collective="false" import="true" targetId="b6dd-f10f-39e3-2f58" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="5c98-5713-7ddb-c684" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="2973-9e19-63d2-f20d" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="1e53-eb23-a58b-8bc4" name="Skyforge Battleaxe" hidden="false" collective="false" import="true" targetId="f67d-da4e-6914-881a" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="019a-380b-4a9a-f082" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="ad06-a50c-0b92-079c" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="4bcb-8eeb-9dc3-dba5" name="Steel Warhammer" hidden="false" collective="false" import="true" targetId="c10a-26e0-8a61-853d" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="40b6-8565-ac44-7048" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="6a2e-ab75-b2b0-2508" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="0c49-b2d0-86cc-9164" name="Iron Greatsword" hidden="false" collective="false" import="true" targetId="a6bb-6d59-f69e-1d57" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="f2a0-f5ed-0be5-ec96" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="c505-c954-b8fc-531a" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="9731-f7eb-2a13-4a96" name="Steel Battleaxe" hidden="false" collective="false" import="true" targetId="b611-18eb-9060-fa1b" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="e9d7-838c-3b17-a72e" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3b11-79d5-55bb-ed51" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="d8ce-9aea-aca9-50f4" name="Iron Battleaxe" hidden="false" collective="false" import="true" targetId="44d2-6c1c-0804-f3ee" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="bd49-7595-2fd5-82a2" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="7639-b056-7fdb-76ea" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="8ba4-60f1-c13c-fd76" name="Dwarven Warhammer" hidden="false" collective="false" import="true" targetId="7a3f-d0ef-9b40-1a01" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="4677-f78b-aea8-f305" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="0d56-0dca-3a0f-e397" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="ecb1-1f91-d28f-99f7" name="Elven Greatsword" hidden="false" collective="false" import="true" targetId="71c3-d50d-adbe-a98a" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="7e26-c0c0-c14c-0676" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="b49f-9bc4-9987-a529" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="69f0-13f8-b423-6afe" name="Dawnguard Warhammer" hidden="false" collective="false" import="true" targetId="da29-db60-0c5e-feb0" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="d374-0c70-6374-e43e" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="fac2-ab3b-facd-ba31" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="f3c5-bf36-cc8a-374c" name="Nordic Greatsword" hidden="false" collective="false" import="true" targetId="deab-0dfe-83ec-2c95" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="4c66-c804-a59e-fb09" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="e46f-91f3-955f-032d" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="b519-78b0-ccf3-b8f0" name="Dwarven Battleaxe" hidden="false" collective="false" import="true" targetId="2950-da7c-d9f9-165a" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="0ecd-0495-9191-17d0" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="f2ea-82fe-5b13-8ffd" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="a133-0de9-6cae-4c71" name="Dwarven Greatsword" hidden="false" collective="false" import="true" targetId="4103-3fc3-a437-58ed" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="adf4-d0f8-fe06-486a" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="23bd-2c07-3154-0a46" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="e38b-9e6b-88a0-ba1e" name="Orcish Battleaxe" hidden="false" collective="false" import="true" targetId="7366-0080-f241-7936" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="ccac-031f-4782-e91a" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="fe10-8386-17c9-49fa" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -5402,17 +5368,52 @@ A: Yes</description>
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink id="086c-5f92-6bc8-4902" name="Weapon Enchantment: Winnowing" hidden="false" collective="false" import="true" targetId="1419-9485-38a6-3fb7" type="selectionEntry"/>
-        <entryLink id="164d-6700-5330-7b5a" name="Weapon Enchantment: Reaping" hidden="false" collective="false" import="true" targetId="2b21-d444-a9be-e070" type="selectionEntry"/>
-        <entryLink id="d34b-a6b8-fa9f-fc09" name="Weapon Enchantment: Leeching" hidden="false" collective="false" import="true" targetId="d84b-c592-726a-4431" type="selectionEntry"/>
-        <entryLink id="b1e0-e61b-d49f-4986" name="Weapon Enchantment: Turn Undead" hidden="false" collective="false" import="true" targetId="2076-ff4f-755e-bbe0" type="selectionEntry"/>
-        <entryLink id="22cc-80c0-564a-4b75" name="Weapon Enchantment: Sparks" hidden="false" collective="false" import="true" targetId="8aa7-db3d-5224-7e8d" type="selectionEntry"/>
-        <entryLink id="24c7-b324-86f2-52a5" name="Weapon Enchantment: Embers" hidden="false" collective="false" import="true" targetId="8854-53df-1cdb-c0ad" type="selectionEntry"/>
-        <entryLink id="150a-6719-e854-2ad0" name="Weapon Enchantment: Frost" hidden="false" collective="false" import="true" targetId="c859-6f34-5674-d49a" type="selectionEntry"/>
-        <entryLink id="268e-6bc5-d60a-f1f7" name="Weapon Enchantment: Storms" hidden="false" collective="false" import="true" targetId="86d8-471e-ff8e-c663" type="selectionEntry"/>
+        <entryLink id="086c-5f92-6bc8-4902" name="Weapon Enchantment: Winnowing" hidden="false" collective="false" import="true" targetId="1419-9485-38a6-3fb7" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Storms" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="164d-6700-5330-7b5a" name="Weapon Enchantment: Reaping" hidden="false" collective="false" import="true" targetId="2b21-d444-a9be-e070" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Reaping" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="d34b-a6b8-fa9f-fc09" name="Weapon Enchantment: Leeching" hidden="false" collective="false" import="true" targetId="d84b-c592-726a-4431" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Leeching" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b1e0-e61b-d49f-4986" name="Weapon Enchantment: Turn Undead" hidden="false" collective="false" import="true" targetId="2076-ff4f-755e-bbe0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Turn Undead" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="22cc-80c0-564a-4b75" name="Weapon Enchantment: Sparks" hidden="false" collective="false" import="true" targetId="8aa7-db3d-5224-7e8d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Sparks" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="24c7-b324-86f2-52a5" name="Weapon Enchantment: Embers" hidden="false" collective="false" import="true" targetId="8854-53df-1cdb-c0ad" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Embers" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="150a-6719-e854-2ad0" name="Weapon Enchantment: Frost" hidden="false" collective="false" import="true" targetId="c859-6f34-5674-d49a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Frost" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="268e-6bc5-d60a-f1f7" name="Weapon Enchantment: Storms" hidden="false" collective="false" import="true" targetId="86d8-471e-ff8e-c663" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Storms" field="name"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3425-c466-4375-befa"/>
+      </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup id="752f-f14c-d0e4-1651" name="Armor Attachments" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="752f-f14c-d0e4-1651" name="Armor Attachments" hidden="false" collective="false" import="true" collapsible="true">
       <entryLinks>
         <entryLink id="05bd-680b-8aaa-e906" name="Aetherial Crown" hidden="false" collective="false" import="true" targetId="0b64-00c0-4f13-c407" type="selectionEntry"/>
         <entryLink id="a717-3b00-d27f-f5ff" name="Amulet Of Zenithar" hidden="false" collective="false" import="true" targetId="4779-2f19-885b-0e5c" type="selectionEntry"/>
@@ -5421,6 +5422,9 @@ A: Yes</description>
         <entryLink id="1c25-21a4-1756-7ff5" name="Amulet Of Talos" hidden="false" collective="false" import="true" targetId="1a8e-b0d3-a657-f36b" type="selectionEntry"/>
         <entryLink id="decd-66b9-810e-19e7" name="Amulet Of Arkay" hidden="false" collective="false" import="true" targetId="e667-b875-6519-a7b6" type="selectionEntry"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0073-1ab6-f3c8-8466"/>
+      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup id="5879-58a1-2038-2d2d" name="Weapon Attachments" hidden="false" collective="false" import="true">
       <entryLinks>
@@ -5442,7 +5446,7 @@ A: Yes</description>
         <entryLink id="97b9-38ef-f793-3147" name="Iron Throwing Knife" hidden="false" collective="false" import="true" targetId="7fe2-0639-9e62-7ca7" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5951-3d08-b70f-e0c2" name="Quick Slot &amp; Hybrid Spells" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="5951-3d08-b70f-e0c2" name="Quick Slot &amp; Hybrid Spells" hidden="true" collective="false" import="true" collapsible="true">
       <comment>Includes bound spells</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -5883,9 +5887,14 @@ A: Yes</description>
         <entryLink id="f347-c912-039b-2437" name="Blood Magic: Vampire&apos;s Servant" hidden="true" collective="false" import="true" targetId="713c-a467-864a-1f29" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e1-93b0-a99d-b6b1" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="16e1-93b0-a99d-b6b1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="3987-ed35-2c6f-2464" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -6080,19 +6089,19 @@ A: Yes</description>
           </modifiers>
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="02fb-fbcb-01b6-0f71" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="662d-a82c-7331-3eb4" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="d625-97e8-d873-c029" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="0f86-05d5-42e7-f41b" name="Orcish Bow" hidden="false" collective="false" import="true" targetId="9308-862a-2f0d-e5bc" type="selectionEntry">
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="4b5a-3861-01dd-4bc2" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="e3d8-512b-0596-938c" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="029e-17bb-48ef-fae2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="978e-08e7-e989-fd8b" name="Nord Hero Bow" hidden="false" collective="false" import="true" targetId="2297-0370-40ef-9f88" type="selectionEntry">
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="e18c-f556-2ddd-90bf" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="e7e1-2317-e177-5372" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3bb8-9440-4c62-1d7d" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="eda9-bbc4-e4ed-b407" name="Imperial Bow" hidden="false" collective="false" import="true" targetId="effd-8804-2124-b497" type="selectionEntry">
@@ -6105,25 +6114,25 @@ A: Yes</description>
           </modifiers>
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="a112-86b6-19c9-2b88" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="af24-d302-ffbf-dd54" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="6666-0f87-309a-f4b2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="0744-63ab-9054-0a86" name="Hunting Bow" hidden="false" collective="false" import="true" targetId="c007-1a17-926c-8f64" type="selectionEntry">
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="268d-21bb-e0a0-7254" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="f5d1-880d-ed9e-3632" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="b017-ff04-0a53-f30c" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="920e-25b5-8a0d-80dc" name="Ebony Bow" hidden="false" collective="false" import="true" targetId="a224-4bdc-ea63-e0ba" type="selectionEntry">
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="375b-b3f0-ecb2-b7b7" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="11bf-ba87-1b27-a916" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3a7c-b74e-6afc-ed3e" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="dc66-6f20-2184-c9f7" name="Longbow" hidden="false" collective="false" import="true" targetId="a30f-39ae-2b80-1dce" type="selectionEntry">
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="9a14-2567-278f-3755" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="57f8-79db-23fa-fde7" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="778d-0248-7cd1-dac9" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="9d3e-8a50-23fd-4ea3" name="Auriel&apos;s Bow" hidden="false" collective="false" import="true" targetId="f408-4eae-f9e1-5945" type="selectionEntry">
@@ -6141,24 +6150,25 @@ A: Yes</description>
           </modifiers>
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="213f-5f46-e0f2-3c36" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="8d07-040f-6498-252b" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9218-576c-c0bb-77d2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="0310-ba4e-3f70-9000" name="Elven Bow" hidden="false" collective="false" import="true" targetId="0558-1936-a2a8-711f" type="selectionEntry">
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="18a9-97f6-af7c-5fd0" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="7c2a-1a0b-0fcf-a641" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="7bef-b5f0-6ce6-c7dc" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="b065-da56-13c5-7670" name="Dawnguard Crossbow" hidden="false" collective="false" import="true" targetId="4fc9-767c-b519-e47d" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="4613-9e4f-2a39-d699" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Dwarven Bolts" hidden="false" id="acf5-0e15-b4a3-d3de" type="selectionEntry" targetId="a7bc-b852-a584-7b97"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="1098-1487-8ab4-d30a" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
         <entryLink id="d506-bbd6-6ac8-1943" name="Dwarven Bow" hidden="false" collective="false" import="true" targetId="62b9-cd71-c6a5-cbba" type="selectionEntry">
           <entryLinks>
             <entryLink import="true" name="Glass Arrows" hidden="false" id="6f2d-c53d-7332-df22" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Show Weapon Enchantments (if Skilled)" hidden="false" id="a7e7-6293-4d47-dc7d" type="selectionEntry" targetId="a187-eceb-308f-fa75"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="68b4-3b0a-dab6-d011" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -6174,22 +6184,41 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="ae92-78cf-fb96-27b5" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="3270-5d39-7b90-5b4e" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="11da-4b35-764c-4097" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="0eae-3221-eabe-5f2d" name="Necromancer Robes" hidden="false" collective="false" import="true" targetId="1ea3-79c8-afd2-5b46" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="1ec7-f0cd-a8b3-6fd9" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="3d6c-19d4-8600-f270" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="3e7c-3f97-7dac-23ba" collective="false" targetId="d8f4-6cca-bf2a-0106" type="selectionEntryGroup">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24e6-b0d0-9ce1-cd6b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7171-bb4e-d522-c91f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </entryLink>
         <entryLink id="4840-8fd5-8f4a-0f72" name="Monk&apos;s Robes" hidden="false" collective="false" import="true" targetId="441b-ea68-216e-3324" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="4b5a-2af6-ae25-83e1" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="aeed-ae5d-a0e0-f5fd" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="178d-c27c-9a66-0acb" collective="false" targetId="d8f4-6cca-bf2a-0106" type="selectionEntryGroup">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="389d-c573-ead2-276a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="19d7-1b03-9b91-da2d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </entryLink>
         <entryLink id="c11c-8cd8-2175-0fb1" name="Mage Robes" hidden="false" collective="false" import="true" targetId="0b31-fdbc-cea8-f8a0" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="4ecf-4a65-9d7e-70b3" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="c760-c413-014c-5d5c" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="c978-8544-5045-68a5" collective="false" targetId="d8f4-6cca-bf2a-0106" type="selectionEntryGroup">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95f4-797d-1a47-cb3d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5166-23ec-d46b-b853" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </entryLink>
         <entryLink id="d1bd-979d-fd6f-6129" name="Shrouded Armor" hidden="true" collective="false" import="true" targetId="f3e5-ded2-02d8-a579" type="selectionEntry">
@@ -6201,7 +6230,13 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="a8c9-9ec1-c763-497b" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="2297-374d-7e94-7a4d" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="d918-454e-8562-68f8" collective="false" targetId="d8f4-6cca-bf2a-0106" type="selectionEntryGroup">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ada5-df7d-2fd0-cb02" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="20df-1ac5-8f40-fdaa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </entryLink>
         <entryLink id="9135-4752-59c7-74f3" name="Vampire Robes" hidden="true" collective="false" import="true" targetId="1f11-66f2-8b6c-dc5c" type="selectionEntry">
@@ -6213,7 +6248,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="dba2-eef4-8dda-c44e" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="3182-0dfb-580f-4e34" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="8f84-7516-1c36-8a28" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -6234,7 +6270,8 @@ A: Yes</description>
       <entryLinks>
         <entryLink id="b75c-269c-23ef-0fee" name="Elven Light Armor" hidden="false" collective="false" import="true" targetId="a9e2-120e-debc-07a0" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="6f85-6884-eb4f-62f9" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="f78a-b010-7c2a-4c7d" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="c66d-b31b-3d63-e60f" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="cda2-2b6f-621b-86e6" name="Executioner&apos;s Clothes" hidden="true" collective="false" import="true" targetId="cd87-4c92-33bd-87b0" type="selectionEntry">
@@ -6246,22 +6283,26 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="cb76-c5b3-e9e8-ba32" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="0947-4959-76fb-b82e" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="9d86-dd56-e45c-56d2" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="fccf-7cf0-19c5-8585" name="Fur Armor" hidden="false" collective="false" import="true" targetId="5166-f909-4bde-b4bf" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="6629-ff4c-8896-a100" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="3434-8b25-d83f-689c" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="4e1c-e4c5-241f-cd09" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="c023-0487-a5fe-243a" name="Hide Armor" hidden="false" collective="false" import="true" targetId="ea41-f1a5-ac4b-8b9c" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="e5de-afb0-de27-677a" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="4b57-2498-e707-39a8" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="d4c3-5c6a-c78a-cf57" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="eeb5-14ac-4862-2e62" name="Hold Guard&apos;s Armor" hidden="false" collective="false" import="true" targetId="14b8-2870-5fb1-2848" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="fb20-97f7-6544-02ed" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="dffc-b4f5-e496-c726" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="b59d-e0a5-b7e5-6653" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="1cb7-240a-b70e-e647" name="Imperial Light Armor" hidden="false" collective="false" import="true" targetId="240f-902c-2853-4905" type="selectionEntry">
@@ -6273,12 +6314,14 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="a665-b2d3-d042-8364" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="c2c6-51e9-51e5-4282" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="9053-f52b-f44e-16a6" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="48cc-03a1-e5f8-2d06" name="Leather Armor" hidden="false" collective="false" import="true" targetId="7e47-a7b5-1058-dd9d" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="e91f-8931-6c45-5514" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="a0fa-4eee-4552-ad33" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="9062-bc43-f1c3-9524" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="d73e-1acd-fb43-d5c1" name="Nightingale Armor" hidden="true" collective="false" import="true" targetId="833f-eef5-23a7-f6c0" type="selectionEntry">
@@ -6290,7 +6333,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="7f39-451b-4664-614a" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="3b97-6622-8500-2ac5" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="50ef-9a88-8865-d548" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="9924-db43-75f5-0789" name="Penitus Oculatus Armor" hidden="false" collective="false" import="true" targetId="0ae0-8617-0638-ce11" type="selectionEntry">
@@ -6302,7 +6346,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="efd3-fff9-2129-d9f5" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="1676-1ee4-ec40-2438" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="aea1-a7ec-0e20-d55c" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="6b24-549e-ec38-3d73" name="Stormcloak Cuirass" hidden="false" collective="false" import="true" targetId="da18-f25f-d4e3-3ebf" type="selectionEntry">
@@ -6314,7 +6359,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="2810-fe5b-d699-2496" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="756d-9d8d-f977-2f8f" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="a2b8-25bd-683c-cf2e" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="858e-8cc9-af61-bb3a" name="Stormcloak Officer Armor" hidden="false" collective="false" import="true" targetId="1bd6-f7aa-b9b9-f353" type="selectionEntry">
@@ -6326,12 +6372,14 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="4954-d24d-2b79-d1a5" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="68e8-e269-1577-ee25" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="1c1f-936f-cd17-1f2d" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="cb6e-090f-2a4b-299a" name="Studded Armor" hidden="false" collective="false" import="true" targetId="8e77-df7d-85d7-89a6" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="28cc-1e4a-f42c-89cf" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="bb9f-cb37-cfb1-3112" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="abbd-2f7b-9790-9186" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="6d4b-9e7d-3ba3-ce19" name="Thieves&apos; Guild Armor" hidden="true" collective="false" import="true" targetId="d18f-469d-1ab4-6465" type="selectionEntry">
@@ -6343,7 +6391,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="2afb-420f-d6ef-3551" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="1049-eae7-2502-673d" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="a178-0f6b-fbf8-9fbc" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="b4ed-438c-22fe-be10" name="Ulfric&apos;s Clothes" hidden="true" collective="false" import="true" targetId="b824-758d-8374-5dac" type="selectionEntry">
@@ -6355,7 +6404,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="4836-1c1b-4a73-4fd6" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="70f5-8428-647e-8f23" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="3ae8-60b0-b5cd-0378" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="c87e-c3de-d3dc-2c17" name="Vampire Royal Armor" hidden="true" collective="false" import="true" targetId="088a-b5dd-a52d-366f" type="selectionEntry">
@@ -6367,7 +6417,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="3b5c-88b6-bdee-d2b3" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="df32-1fa7-3c0e-26a0" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="c24d-dad2-4dfa-3a6a" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="3314-ffba-912a-4afa" name="Vampire Armor" hidden="true" collective="false" import="true" targetId="04a2-97ed-ec44-1073" type="selectionEntry">
@@ -6379,12 +6430,14 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="248a-b114-0438-9149" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="9761-1621-02f0-cba5" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="7dd6-9f86-0664-afd4" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="d00f-01a7-7d9f-51b5" name="Ancient Falmer Armor" hidden="false" collective="false" import="true" targetId="1a1e-2d6d-35bc-31ba" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="4c51-aea2-9e1c-29ef" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="0952-8f5a-d7d3-2492" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="e022-4858-f969-451c" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="5432-094a-eb59-6b7a" name="Dawnguard Armor" hidden="true" collective="false" import="true" targetId="f405-032f-59d9-af6b" type="selectionEntry">
@@ -6396,12 +6449,14 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="292f-d287-db77-145e" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="c366-2594-f066-3e04" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="7941-024b-2ed6-e860" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="5986-2fc5-5e4f-60ab" name="Scaled Armor" hidden="false" collective="false" import="true" targetId="c42e-c3b4-d72b-3aaa" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="2355-a363-6264-95be" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="4c68-a1db-1ee4-84f2" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="2592-b9b7-9dc1-405b" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -6422,7 +6477,8 @@ A: Yes</description>
       <entryLinks>
         <entryLink id="7082-0173-f266-45ca" name="Banded Iron Armor" hidden="false" collective="false" import="true" targetId="0d87-1f1e-d917-76e8" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="1ad6-1eab-b894-321b" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="01e4-8207-1e38-90bf" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="27fc-ea9f-728c-011e" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="ccd5-a280-cbbf-8766" name="Blades Armor" hidden="true" collective="false" import="true" targetId="4056-a125-06c6-6a0c" type="selectionEntry">
@@ -6434,12 +6490,14 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="6f5a-a419-abf7-75fc" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="b6d8-0429-dfe5-c5c6" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="e211-fe4f-e494-2d9a" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="ffe6-08aa-53ee-2049" name="Dwarven Armor" hidden="false" collective="false" import="true" targetId="c241-5844-839f-d862" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="cacc-2a30-1d17-eaaa" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="ab90-dcb8-200c-d78b" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="6a8b-f2f4-026e-1895" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="b34d-9674-bc48-9a70" name="General Tullius&apos; Armor" hidden="true" collective="false" import="true" targetId="753e-4509-492b-b709" type="selectionEntry">
@@ -6451,7 +6509,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="fb3b-0868-6a74-2c98" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="7d30-2dfd-3423-b45b" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="ca67-2804-4cb9-0c98" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="9376-48a3-01c0-1d56" name="Imperial Armor" hidden="false" collective="false" import="true" targetId="8b68-3998-1b86-f012" type="selectionEntry">
@@ -6463,32 +6522,38 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="0802-3f86-9035-6e12" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="28c0-5d04-cf67-b576" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="e160-55bf-3ca0-5308" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="2d1a-30ef-15d1-7c00" name="Iron Armor" hidden="false" collective="false" import="true" targetId="b795-395d-6f00-b54d" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="37c2-be45-812f-b31f" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="94bf-d6b2-3a29-76e7" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="a0ee-376e-0328-790f" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="3f68-1c47-2cbc-738f" name="Nordic Carved Armor" hidden="false" collective="false" import="true" targetId="20c2-bf71-842d-b340" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="572f-642e-8162-0f50" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="1249-328c-4b57-201b" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="d595-0f85-c0da-52da" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="8040-ab96-9be1-0749" name="Orcish Armor" hidden="false" collective="false" import="true" targetId="a08a-986d-931d-c540" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="cd4f-a783-0435-f00d" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="9436-815c-18a9-8c8b" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="8662-8871-cf11-c458" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="dd79-d717-e938-2ee6" name="Steel Armor" hidden="false" collective="false" import="true" targetId="2880-013a-5f87-8cbd" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="90aa-d0b6-0778-2c40" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="7664-2bed-b2e4-ff26" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="0592-5935-22b0-b1c1" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="8fe1-742b-3054-ac6b" name="Steel Plate Armor" hidden="false" collective="false" import="true" targetId="17a1-2dd6-ac33-8cb9" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="4a84-045f-e0e1-b56e" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="6d32-1f89-4800-a55e" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="11cd-9e5c-c81f-cc5e" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
         <entryLink id="f5b0-b23c-f486-b71f" name="Dawnguard Heavy Armor" hidden="true" collective="false" import="true" targetId="c1e4-f58a-3973-e24a" type="selectionEntry">
@@ -6500,7 +6565,8 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Show Armor Enchantments/Attachments (if Skilled)" hidden="false" id="b25d-6492-3db9-b3e7" type="selectionEntry" targetId="3cd3-6592-6977-713b"/>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="06d5-66ab-5e33-7520" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="d83c-e620-dc6d-ac99" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -6663,13 +6729,13 @@ Note: Strong Armor (X) cannot be negated by Piercing (X). [See BRB pg. 89 for ex
       <description>When an Attack with this Keyword reduces a Hero or Adversary Master to less than one Health, the target must modify its Endurance Attribute Test for Injury by +(X).</description>
     </rule>
     <rule id="9093-1c12-08d9-ec7f" name="Regenerate Health" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
-      <description>This model restores one lost Health point at the end of each Round, unless it is Incapacitated.</description>
+      <description>This model restores one lost Health point at the end of each Round, unless it is Incapacitated. [Does not stack, confirmed by Modiphius designer].</description>
     </rule>
     <rule id="a89f-5da7-acf9-ff3b" name="Regenerate Magicka" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
-      <description>This model restores one lost Magicka point at the end of each Round, unless it is Incapacitated.</description>
+      <description>This model restores one lost Magicka point at the end of each Round, unless it is Incapacitated. [Does not stack, confirmed by Modiphius designer].</description>
     </rule>
     <rule id="b431-ba9d-efd1-adf6" name="Regenerate Stamina" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
-      <description>This model restores one lost Stamina point at the end of each Round, unless it is Incapacitated.</description>
+      <description>This model restores one lost Stamina point at the end of each Round, unless it is Incapacitated. [Does not stack, confirmed by Modiphius designer].</description>
     </rule>
     <rule id="7f50-9282-bb89-a177" name="Relentless" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
       <description>This model can never receive a Staggered Token. If it would be assigned a Staggered Token as a result of Injury, it simply remains in play with 1 Health and no token. If a model gains Relentless while it has a Staggered Token, remove the Staggered Token.</description>
@@ -6713,8 +6779,8 @@ damage from an Attack with the slowed Keyword. The slowed effect is applied in 
     <rule id="f57f-8ba9-4e6b-459c" name="Staggered" publicationId="4d6f-8c48-a5ea-e83c" page="49" hidden="false">
       <description>A model with a Staggered Token cannot use Stamina Boosts of any kind. In addition, an Attacker gains a bonus -2 modifier to the Attack roll when targeting a model with a Staggered Token with a Melee Attack.</description>
     </rule>
-    <rule id="d79f-0962-6e0a-d20d" name="Teeth and Claws" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
-      <description>When this model makes a Melee Attack while Unarmed, it uses the Teeth and Claws card instead of the Unarmed card (p. 23 [BRB]).</description>
+    <rule id="d79f-0962-6e0a-d20d" name="Teeth and Claws" publicationId="4d6f-8c48-a5ea-e83c" page="130" hidden="false">
+      <description>When this model makes a Melee Attack while Unarmed, it uses the Teeth and Claws card instead of the Unarmed card (pg. 130 [BRB]).</description>
     </rule>
     <rule id="2204-0557-819c-8afb" name="Terrifying" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
       <description>This model prompts a Morale Check for any enemy model that wishes to Engage it. It also prompts a Morale Check for any model it makes a Melee Attack against. Models with this Keyword are immune to this effect.</description>
@@ -7202,6 +7268,7 @@ If the line from the Attacker to the new target location passes through any Ter
     </rule>
     <rule id="e311-031a-d0f0-985c" name="Damage Type: Fire" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>If an attack of the Fire type causes any damage but does not cause the target to be removed from play, the target gains a Burning Token. A model may only have one Burning Token at any time. A model with a Burning Token can Activate and perform Actions as normal. However, if a model has a Burning Token at the start of its Activation, it suffers 1 damage (with no Armor Roll). [...]  If a model with a Burning Token ever becomes incapacitated, it is removed from play.[see BRB pg. 94].</description>
+      <alias>Fire</alias>
     </rule>
     <rule id="1c80-ddbe-173a-056e" name="Damage Type: Force" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>If an Attack of the Force type causes any damage but does not cause the target to be removed from play, the target model is moved in a straight line directly away from the Attacker (on a line drawn center-to-center between both models’ bases). The distance
@@ -7209,6 +7276,7 @@ moved is equal to the damage inflicted plus a roll of [BLACK] in inches. Someti
     </rule>
     <rule id="0950-f010-d90b-9765" name="Damage Type: Frost" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>If an Attack of the Frost type causes any damage but does not cause the target to be removed from play, the target cannot use any Boosts until the end of its next activation. This can be tracked by placing a spare token next to the model. If the target had a Burning Token, the Burning Token is removed.</description>
+      <alias>Frost</alias>
     </rule>
     <rule id="90d7-eca3-d313-21d4" name="Damage Type: Magic" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>The Magic Damage Type inflicts no extra effects, as usually magical Attacks will also confer one of the 3 elemental Damage Types (Fire, Frost, or Shock). The Magic Damage Type is unique in that Magical Attacks can be both the Magic Damage Type and one
@@ -7216,6 +7284,7 @@ additional Damage Type. All Spells and Dragon Shouts gain the Magic Damage Typ
     </rule>
     <rule id="c757-1849-5b26-4b56" name="Damage Type: Shock" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>If an Attack of the Shock type causes any damage but does not cause the target to be removed from play, the target gains a +2 modifier to all Alteration, Conjuration, Destruction, Illusion and Restoration Skill Tests until the end of its next activation. This can be tracked by placing a spare token next to the model.</description>
+      <alias>Shock</alias>
     </rule>
     <rule id="1a30-f550-3ee9-bcc7" name="Limited Use Abilities [X]" publicationId="4d6f-8c48-a5ea-e83c" page="84" hidden="false">
       <description>A model’s character card may include a Keyword, Perk or Special Ability followed with a number in Square Brackets [X]. These rules are Limited Use Abilities meaning they can only be used the amount of times shown within the bracket.
@@ -8704,7 +8773,7 @@ Models with a Wisdom Value of 4 or less that suffer 1 or more points of damage f
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="90cf-86d1-e95f-6cd3" name="Teeth And Claws" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+    <profile id="90cf-86d1-e95f-6cd3" name="Teeth And Claws" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon" page="130">
       <characteristics>
         <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">Strength 1-5: [GREEN][YELLOW]
 Strength 6+: [GREEN][YELLOW]</characteristic>
@@ -8714,7 +8783,7 @@ Strength 6+: [GREEN][YELLOW]</characteristic>
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Models with Teeth And Claws Keyword only. Cannot purchase (innate).</characteristic>
       </characteristics>
     </profile>
-    <profile id="8ad2-3d1d-b9ca-9d65" name="Unarmed" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+    <profile id="8ad2-3d1d-b9ca-9d65" name="Unarmed" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon" page="130">
       <characteristics>
         <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">Strength 1-5: [YELLOW]
 Strength 6+: [RED]</characteristic>
@@ -9637,16 +9706,14 @@ Enchanted</characteristic>
         <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="6807-565e-49d8-f432" name="Blood Magic: Vampiric Drain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
-      <comment>Pending Errata?
-Card missing from Chapter 3 pack. Free download available at https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads.</comment>
+    <profile id="6807-565e-49d8-f432" name="Blood Magic: Vampiric Drain" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell" page="130">
       <characteristics>
         <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">1</characteristic>
         <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged/Melee Attack</characteristic>
         <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">0</characteristic>
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">3&quot;</characteristic>
-        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction?
-[Blood Magic pending errata?]</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction
+</characteristic>
         <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[YELLOW] Absorb Health (3)</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (2): Add [YELLOW] per point.</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
@@ -10896,6 +10963,7 @@ One-Handed</characteristic>
         </rule>
         <rule id="5854-e0a3-effe-f011" name="Vampire Abilities" publicationId="4d6f-8c48-a5ea-e83c" page="104" hidden="false">
           <description>Vampires add +1 to their Strength and Edurance Attributes while the Darkness rules are in effect. Vampire Heroes can always take the Vampiric Drain Spell. Vampires have access to the Vampire Perk list and the Blood Magic Skill. Consumables that restore Health do not work on Vampires unless their rules specify otherwise.</description>
+          <alias>Vampire</alias>
         </rule>
         <rule id="eb62-9cb7-7bb4-3013" name="Blood Magic Skill" publicationId="fc6a-2d15-ff0e-9318" page="5" hidden="false">
           <description>Exclusive to the Vampire Subrace. Blood Magic Skill Tests are tested against the Intelligence Attribute.</description>
@@ -10904,10 +10972,11 @@ One-Handed</characteristic>
       <infoLinks>
         <infoLink id="fd03-d69e-babc-b598" name="Subrace" hidden="false" targetId="21a9-2a71-b558-5118" type="rule"/>
         <infoLink id="f1ed-af55-44e5-06ec" name="Immunity (Type)" hidden="false" targetId="7c88-fc5e-9fde-1261" type="rule"/>
-        <infoLink id="4aff-b513-2f8a-7337" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
+        <infoLink id="4aff-b513-2f8a-7337" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule" page=""/>
         <infoLink id="d454-309e-bca7-2e09" name="Night Eye" hidden="false" targetId="1b73-830e-6076-fc5c" type="rule"/>
         <infoLink id="720e-488b-d855-db9b" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
         <infoLink id="c03b-0c66-ed0b-49e7" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
+        <infoLink name="Blood Magic: Vampiric Drain" id="dced-5ace-1265-652c" hidden="false" type="profile" targetId="6807-565e-49d8-f432"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="de7a-88f8-b261-5b3a" name="Vampire Lord: Winged Nightmare (Shapeshift)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
