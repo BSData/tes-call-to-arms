@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9615-d934-979e-7d79" name="Bandits" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
+  <categoryEntries>
+    <categoryEntry id="be3e-40fb-d1db-de99" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="980d-2ae1-244d-1b6e" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="307b-2ebf-97f5-1271" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f16-5f18-6830-97d9" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="2aad-00cf-05c1-104e" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b054-cf5d-3402-c9df" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="ea7c-546f-4c04-3e92" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ba6-7f4c-f181-80fa" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="f101-c96e-0e0e-e7f6" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="be84-b6fb-5163-0b8e" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="6851-e904-fc73-32d0" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4163-8111-00cd-b4d6" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="a277-7b77-18a6-2076" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8f48-bf78-6d7f-8df7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8917-a2c7-ebcb-81b6" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="844e-eba6-c184-251f" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="8084-b76d-a7dc-4892" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="8164-8d81-adaf-f740" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="8983-0b36-d073-628d" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="9d81-eb60-fb84-501f" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="6a28-9958-c40c-4cb2" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="ee79-0919-d00d-67a9" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="103d-9920-f89a-9b6c" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="ed9c-ab73-8889-e9e2" name="Butcher: Cragslane Boss" hidden="false" targetId="be3e-40fb-d1db-de99" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="a9c2-7205-2355-6c8b" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="dced-cff2-068d-3337" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="260f-1fa0-7099-fc85" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="4136-f09c-a2df-2d5c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="c32a-2dea-981f-7587" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="9299-9bdc-1886-413d" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="ea67-8bac-aef5-811b" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="43a1-24d4-8b88-36c1" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="d886-bb1f-7321-66dd" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="7173-4d43-1793-626c" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="7749-5572-c3f8-3c9d" name="Rigel Strong-Arm: Bandit Chieftain" hidden="false" targetId="307b-2ebf-97f5-1271" primary="false"/>
+        <categoryLink id="0cd3-3c42-2fec-8094" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="b3b1-fe13-fa90-a077" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8585-8ea8-6135-de0c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eaf4-f2eb-e70c-1963" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="dad3-9b11-11ab-f950" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="2196-67b6-2277-6282" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="fb60-0720-71ff-bf46" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="77f8-995e-4650-3a37" name="Deeja: Blackblood Assassin" hidden="false" targetId="2aad-00cf-05c1-104e" primary="false"/>
+        <categoryLink id="5415-c1e2-f5b3-a505" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="a8f1-7899-77c3-51f1" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="16b9-7ad9-ac8f-b162" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink id="f7f7-2d28-85d9-88ed" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="027c-97e5-6b03-4add" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="5bee-e608-df02-ce3f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d219-0683-537e-6c61" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="5485-754c-342a-07c8" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="532b-eef8-5324-bf44" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="b188-c87f-ab77-4796" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="0ef7-7219-0576-5960" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="e517-ba53-6a2e-7df6" name="Raj&apos;irr: White River Rogue" hidden="false" targetId="ea7c-546f-4c04-3e92" primary="false"/>
+        <categoryLink id="dd69-a245-75c7-87f8" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="b5cc-f376-f4e5-523f" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="d2bd-9c8a-09b0-a81f" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="b2c1-c5d8-2dba-86de" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1cf7-f99d-c5df-2dd5" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="76e3-d6b5-cb80-e29c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="97a9-9011-22a0-7fee" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="4b17-ea95-e157-58c3" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="3d74-ca3a-4c0f-7446" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="8207-be3e-e3a4-d300" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="a883-4383-0407-e23c" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="b19f-8af6-0fc4-5de2" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="2e0d-5c90-310c-ebe8" name="Elisa Blackthorn: Frostmere Raider" hidden="false" targetId="f101-c96e-0e0e-e7f6" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="d066-1c04-6309-9743" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="221d-f091-32ad-c539" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a069-1b77-d47b-30f5" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="8eec-02ac-5352-4338" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="57ad-92e4-b84b-d9b8" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="bfd1-b34c-a873-e23f" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="ecaa-3e6f-0ca3-cc36" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="4bde-305e-cb0d-e74e" name="Haldyn: Pirate Battlemage" hidden="false" targetId="6851-e904-fc73-32d0" primary="false"/>
+        <categoryLink id="da19-5a29-f8dd-9500" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="cebf-70c1-278f-f6ef" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="9ff5-f51e-3e28-700c" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink id="1853-bfa2-ee51-2aae" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="6612-033f-3344-94ca" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="b8d8-dbb1-ed4b-27af" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+        <categoryLink id="f7f8-1d7a-e9ce-e8d3" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="73bf-c9d3-b47e-265b" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f4d4-a805-0779-4374" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="897e-fc25-c3e7-3974" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="4c13-d9d3-d7ac-c036" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="c09a-3cc5-4187-5f50" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="38ad-64d5-c7ac-ac6a" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="fbcf-594b-28b0-ea3a" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="0263-8201-5066-38ae" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="d98d-ce76-be06-13f2" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="5da7-f39e-22a7-62dc" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="473c-0e2a-af98-8e6a" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="c2be-e97d-c454-74e3" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="a330-dc5d-1790-e805" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
+        <categoryLink id="e458-759d-8b56-1c23" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="94ca-f6d9-6fa4-6762" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="c967-4d34-cf41-15dc" name="Bandit Plunderer: Nord Axeman" hidden="false" collective="false" import="true" targetId="1022-f408-89e4-8840" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="975c-4f92-2e45-00a0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="3bcc-8826-18f3-8327" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="c432-c3f0-0b93-4f23" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="0eaa-0c2f-14e4-a0a9" name="Bandit Marauder: Nord Barbarian" hidden="false" collective="false" import="true" targetId="4842-defb-f766-aeb8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b2d5-3b8c-5155-b665" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="397b-f59d-f748-e962" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="cdc2-4206-815b-38e5" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="267e-80bc-668c-a340" name="Bandit Warrior: Nord Warrior" hidden="false" collective="false" import="true" targetId="b8ec-2bcb-2a23-ce21" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3451-f608-7280-cfcc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="5540-29e4-668c-aef9" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="3855-d8e2-0fc2-7361" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="cb36-919a-28fe-d7d8" name="Bandit Outlaw: Nord Ranger" hidden="false" collective="false" import="true" targetId="637f-682a-e7e9-4010" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d5fa-2a3d-f274-52f3" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="8757-1006-f3fe-7cb6" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+        <categoryLink id="3d1e-0292-f1e5-ccbb" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="00e5-2a98-c246-0169" name="Bandit Warrior: Orc Warrior" hidden="false" collective="false" import="true" targetId="556b-d9cb-69e3-7b90" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e9b8-b0c7-a6d4-e9b4" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="ac2b-a3ff-44e1-dcd5" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+        <categoryLink id="d100-e4c4-ea94-b1cc" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="8f48-bf78-6d7f-8df7" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="c0f0-20da-51ed-a403" name="Devastating Assault" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When Butcher is the Party Champion, friendly models within 6&quot; of Butcher that benefit from the Bandit&apos;s Strength in Numbers [rule] may choose to add [RED] to their Melee Attacks instead of [GREEN].</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9c4a-a3d0-ca6b-041e" name="Butcher: Cragslane Boss" hidden="false" targetId="e1e6-8234-36bc-634b" type="profile"/>
+        <infoLink id="52ec-48a4-4c18-8e95" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="c5a9-ef4e-b35f-d2bc" name="Dunmer" hidden="false" targetId="a0cb-51aa-e265-db37" type="infoGroup"/>
+        <infoLink id="4c34-f4bf-3639-49e0" name="Perk: Barbarian" hidden="false" targetId="075c-5345-7cb8-f820" type="rule"/>
+        <infoLink id="a638-76a2-084d-24ee" name="Perk: Conditioning" hidden="false" targetId="6486-0fbf-504b-ff6f" type="rule"/>
+        <infoLink id="3505-1853-75d4-158a" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="6f0d-beec-36d8-22d9" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="760a-bdbd-a933-69a8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2218-4b70-6f90-9f9c" name="Butcher: Cragslane Boss (Leveled)" hidden="false" targetId="e113-1c1f-9629-ae21" type="profile"/>
+            <infoLink id="74c8-78f5-db28-5959" name="Perk: Revitalize" hidden="false" targetId="a6f5-80cc-4900-cc71" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="95dd-8663-5805-9d28" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="4936-d5f3-7de2-5ded" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="337d-bde0-a286-33c5" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="ab1f-6a89-27e3-251e" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="69"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dced-cff2-068d-3337" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="3f8e-6dff-0548-591d" name="Imperial Enmity (1)" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When targeting a model with the Imperial Legion Faction [icon] with an Attack, Rigel may reroll the Skill Die [once] if she fails to hit.</description>
+        </rule>
+        <rule id="6a7b-effb-198d-72b7" name="Little Sabrecat" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When Rigel inflicts damage via a Melee Attack, she gains the Piercing (2) keyword in addition to any [other] special effects [and] all friendly Bandit Faction models within 6&quot; yet to activate add Piercing (1) to their Attacks for the rest of the round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9031-7079-aa00-aa18" name="Rigel Strong-Arm: Bandit Chieftain" hidden="false" targetId="486a-2e22-8fe2-f159" type="profile"/>
+        <infoLink id="0c36-91ce-b0d1-0941" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="736e-6f7e-8589-03a8" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="fb7c-b55f-0a7e-1b27" name="Perk: Sword and Board" hidden="false" targetId="6dcb-4217-410a-0a0f" type="rule"/>
+        <infoLink id="d115-7da6-1ddb-43cf" name="Perk: Conditioning" hidden="false" targetId="6486-0fbf-504b-ff6f" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="3c5f-889f-d9a3-b317" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0484-ce4e-a05f-f54b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3236-3b6b-a40c-6098" name="Rigel Strong-Arm: Bandit Chieftain (Leveled)" hidden="false" targetId="4ebe-6dac-faca-e098" type="profile"/>
+            <infoLink id="7bb4-460a-3288-ee86" name="Perk: Deadly Bash" hidden="false" targetId="ab65-0d0a-eccb-e33c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5cb9-8496-1e1d-cd64" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="7565-3b06-bfca-114d" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7cd-5837-c2dc-55c4" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0e3a-bb7e-663b-a070" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8585-8ea8-6135-de0c" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="02ab-8176-e3b6-53ab" name="Knife in the Belly" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When targeting a model with the Imperial Legion Faction [icon] with an Attack, Rigel may reroll the Skill Die if she fails to hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9e33-35b8-40b8-fd16" name="Deeja: Blackblood Assassin" hidden="false" targetId="2754-a31d-af30-f737" type="profile"/>
+        <infoLink id="7629-89ad-7009-b5a0" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="f581-582d-871b-01a6" name="Argonian" hidden="false" targetId="4b92-92cf-5195-7fbb" type="infoGroup"/>
+        <infoLink id="74c6-3cc8-49de-7c82" name="Perk: Assassin&apos;s Blade" hidden="false" targetId="eea3-bb51-672c-9dac" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="1b0d-2903-6dce-3f57" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="873d-7f58-2dff-798a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d93c-e648-f00c-0c81" name="Deeja: Blackblood Assassin (Leveled)" hidden="false" targetId="0a2c-1e58-7dda-80d7" type="profile"/>
+            <infoLink id="2e06-ad75-cec3-74f8" name="Perk: Paralyzing Strike" hidden="false" targetId="0059-18b6-5cde-54bb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f6cd-f4a9-59b8-6df3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="4262-b068-e3ac-bae2" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b09-7939-9e26-7fca" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="4cba-2e70-e1fd-8b43" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="29"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bee-e608-df02-ce3f" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="4b74-2b6e-0cc6-a100" name="Raj&apos;irr: White River Rogue" hidden="false" targetId="a56c-bb66-54af-25f0" type="profile"/>
+        <infoLink id="d657-d703-1c0f-3e8e" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="0519-587f-ad42-6992" name="Khajiit" hidden="false" targetId="79c0-88d5-843b-8055" type="infoGroup"/>
+        <infoLink id="0bac-bb02-c794-dbd2" name="Perk: Treasure Hunter" hidden="false" targetId="20be-2e12-0782-2057" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="761b-0c64-ba68-b136" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9581-e158-d3d6-c52c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b335-3d17-f9a7-34c0" name="Raj&apos;irr: White River Rogue (Leveled)" hidden="false" targetId="2014-1809-d6bd-e60a" type="profile"/>
+            <infoLink id="23d2-0e30-7fa9-b56e" name="Perk: Timely Escape" hidden="false" targetId="de14-14f0-2811-08f4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9b08-cf0e-030c-923f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="0452-0768-b13a-bf0f" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce3-bb5e-dc9a-f74b" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="35ad-5aed-3a30-186d" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2c1-c5d8-2dba-86de" name="Eisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="94b6-14f9-87c6-993b" name="Eisa Blackthorn: Frostmere Raider" hidden="false" targetId="c112-2556-9b3a-95bf" type="profile"/>
+        <infoLink id="8ee0-0aa4-5adc-cd50" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="2ac5-c07e-6fa0-256a" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="4c1a-28f2-2e79-0d8d" name="Perk: Hack and Slash" hidden="false" targetId="2cf3-a74a-631e-7547" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a30d-099a-dce0-c06d" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5c-f67b-3809-5357" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="bdcc-2259-aaef-6c84" name="Elisa Blackthorn: Frostmere Raider (Leveled)" hidden="false" targetId="bdc2-e491-7dd9-db25" type="profile"/>
+            <infoLink id="446f-e6f8-d37e-b2ff" name="Perk: Wind Walker" hidden="false" targetId="986d-0c2c-6f55-86f8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8aca-223b-298f-855e" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="6e9e-7d28-c5b1-fb43" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59eb-eada-668f-0475" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="b50a-a53b-893b-03d5" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="221d-f091-32ad-c539" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="0f69-23ba-71f2-8d2a" name="Gangmaster" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When Haldyn is the Party Champion, friendly Followers within 3&quot; of Butcher that benefit from the Bandit&apos;s Strength in Numbers rule [add] [YELLOW] to their Melee Attacks in addition to the usual [GREEN].</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="cc70-8910-f76a-fa66" name="Haldyn: Pirate Battlemage" hidden="false" targetId="21b8-cb06-133e-efd1" type="profile"/>
+        <infoLink id="dd5b-63be-788f-37b3" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="cd48-f17f-3d52-f6da" name="Redguard" hidden="false" targetId="c7c8-72cb-039b-ec59" type="infoGroup"/>
+        <infoLink id="5c03-8c8d-ea78-4aa2" name="Perk: Augmented Shock" hidden="false" targetId="410f-7c19-be99-af07" type="rule"/>
+        <infoLink id="db6e-193e-2daf-a235" name="Perk: Storm Enchanter" hidden="false" targetId="8667-275a-e6ea-5ca0" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="40e6-0f05-f7a1-9c4d" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9824-0e5f-dd85-befa" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3f24-f097-3dff-90c2" name="Haldyn: Pirate Battlemage (Leveled)" hidden="false" targetId="637f-38c7-abba-67d6" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3d18-1962-91e3-bd10" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="e6db-c7ac-3127-7a44" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884e-6320-8e88-efe8" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="9176-9abe-d86b-cdcc" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4d4-a805-0779-4374" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="34cc-8a75-6434-6103" name="Brutal Leader" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When a friendly Bandit Faction model within 3&quot; is forced to Flee, you may instead remove the fleeing model from play as a casualty.  This model and all friendly Bandit Faction models within 6&quot; yet to activate add [YELLOW] to their Attacks for the rest of the round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="dbcf-cc17-ed49-6f0e" name="Perk: Custom Fit" hidden="false" targetId="60eb-baf5-15f2-58ed" type="rule"/>
+        <infoLink id="66c9-10ba-9e8d-f31c" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="8dd3-ac50-d271-5b31" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="c472-e639-66d6-59b4" name="Perk: Uppercut" hidden="false" targetId="db1e-693f-0bcc-c7db" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="c055-792d-68ca-0338" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd4c-fb8e-3484-fbe3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9fba-33d3-3ed0-d79d" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="20fb-435a-5018-5fb9" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="34ad-fb5f-d6f0-5f33" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c322-4857-88d0-c7f6" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="44"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1022-f408-89e4-8840" name="Bandit Plunderer: Nord Axeman" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="3487-f7f2-4ef1-f768" name="Brigand" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>If this model removes an enemy as a casualty [as a result of] a Melee Attack and that enemy possessed any Treasure Cards when it was removed, roll the Skill die. On a [CRITICAL HIT], gain 1 bonus VP.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b980-4349-a63e-b38f" name="Bandit Plunderer: Nord Axeman" hidden="false" targetId="be3d-66b4-4e5e-31c8" type="profile"/>
+        <infoLink id="bd57-d69d-3502-0edc" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="c245-fcbf-16c4-5f63" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4842-defb-f766-aeb8" name="Bandit Marauder: Nord Barbarian" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8592-d48c-7f93-8416" name="Bandit Marauder: Nord Barbarian" hidden="false" targetId="451f-9163-74fe-52c9" type="profile"/>
+        <infoLink id="a1d0-20f0-05d1-4018" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="932e-8633-94fb-d28d" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="40f0-0766-a2f3-0ad5" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+        <infoLink id="929f-4739-e036-cfbc" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="34"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8ec-2bcb-2a23-ce21" name="Bandit Warrior: Nord Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="7ab2-c0be-b0d6-6267" name="Bandit Warrior: Nord Warrior" hidden="false" targetId="af95-21c4-2e8b-0fa2" type="profile"/>
+        <infoLink id="c43f-6dc0-85d2-0c20" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="cc64-534b-a788-6212" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="637f-682a-e7e9-4010" name="Bandit Outlaw: Nord Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8c65-b837-7469-cae2" name="Bandit Outlaw: Nord Ranger" hidden="false" targetId="e137-e3cd-fc26-5e30" type="profile"/>
+        <infoLink id="706a-8e48-9ff8-f5e1" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="f6bd-998f-2fa4-bcf9" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="556b-d9cb-69e3-7b90" name="Bandit Warrior: Orc Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="59e7-5d9d-ad8f-cf16" name="Bandit Warrior: Orc Warrior" hidden="false" targetId="9681-179c-10b3-05e8" type="profile"/>
+        <infoLink id="e328-4d36-5f88-c4eb" name="Orsimer" hidden="false" targetId="24d3-bf90-3495-ab2b" type="infoGroup"/>
+        <infoLink id="56e7-3704-f645-1434" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="e1e6-8234-36bc-634b" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Dunmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Barbarian, Conditioning, Intimidation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Devastating Assault</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Bandits</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e113-1c1f-9629-ae21" name="Butcher: Cragslane Boss (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Barbarian, Conditioning, Intimidation, Revitalize</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Devastating Assault</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="486a-2e22-8fe2-f159" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Conditioning, Sword and Board</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Imperial Enmity, Little Sabrecat</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Bandits</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ebe-6dac-faca-e098" name="Rigel Strong-Arm: Bandit Chieftain (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Conditioning, Deadly Bash, Sword and Board</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Imperial Enmity, Little Sabrecat</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">6</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2754-a31d-af30-f737" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Argonian</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Assassin&apos;s Blade</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Histskin, Waterbreathing</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Knife in the Belly</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Bandits</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a2c-1e58-7dda-80d7" name="Deeja: Blackblood Assassin (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Assassin&apos;s Blade, Paralyzing Strike</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Histskin, Waterbreathing</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Knife in the Belly</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a56c-bb66-54af-25f0" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Khajiit</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Treasure Hunter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Night Eye, Teeth &amp; Claws</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Bandits</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2014-1809-d6bd-e60a" name="Raj&apos;irr: White River Rogue (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Timely Escape, Treasure Hunter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Night Eye, Teeth &amp; Claws</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c112-2556-9b3a-95bf" name="Eisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Hack and Slash</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Bandits</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bdc2-e491-7dd9-db25" name="Eisa Blackthorn: Frostmere Raider (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Hack and Slash, Wind Walker</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="21b8-cb06-133e-efd1" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Redguard</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Shock, Storm Enchanter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Gangmaster</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Destruction
+Conjuration
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Enchanting</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Bandits</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="637f-38c7-abba-67d6" name="Haldyn: Pirate Battlemage (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Shock, Storm Enchanter</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Gangmaster</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Destruction
+Conjuration
+Alteration</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Enchanting</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9f98-125d-c357-993d" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Custom Fit, Uppercut</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Brutal Leader</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery
+Lockpicking
+Sneak
+Pickpocket</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Bandits</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9a4d-27f4-86e1-6407" name="Bandit Chief: Vicious Marauder (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Custom Fit, Intimidation, Uppercut</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Brutal Leader</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+Two-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery
+Lockpicking
+Sneak
+Pickpocket</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be3d-66b4-4e5e-31c8" name="Bandit Plunderer: Nord Axeman" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [RED]
+[HELMET]: Bleed</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [RED]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost), Brigand</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">4</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="451f-9163-74fe-52c9" name="Bandit Marauder: Nord Barbarian" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Two-Handed: [RED][YELLOW]
+[HELMET]: Bleed
+[SWORDS]: add [GREEN]
+Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [RED]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af95-21c4-2e8b-0fa2" name="Bandit Warrior: Nord Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">3</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e137-e3cd-fc26-5e30" name="Bandit Outlaw: Nord Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Nord</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Shadow</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [GREEN][YELLOW]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">Archery
+8&quot;: [RED]
+24&quot;: [YELLOW]
+[HELMET]: add [GREEN]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW] (1)</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Resistance (Frost)</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">3</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">2</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9681-179c-10b3-05e8" name="Bandit Warrior: Orc Warrior" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+      <comment>The real Hero here!</comment>
+      <characteristics>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Hireling Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">Orsimer</characteristic>
+        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
+        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">One-Handed: [YELLOW][YELLOW]
+[HELMET]: add [GREEN]</characteristic>
+        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
+        <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW]</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Berserker Rage</characteristic>
+        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">4
+Block
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2</characteristic>
+        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
+        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">2</characteristic>
+        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">3</characteristic>
+        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">2</characteristic>
+        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
+        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Bandits</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

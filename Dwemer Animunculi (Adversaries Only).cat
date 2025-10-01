@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7077-96c5-9680-f751" name="Dwemer Animunculi (Adversaries Only)" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" authorName="sapphicmoon" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Forgemaster: Lava Centurion" typeId="13d3-4e22-de74-27a4" typeName="Epic Creature" hidden="false" id="cbe2-ff10-6e87-08e6" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Race" typeId="b0e3-4005-9d4e-a996">Monster</characteristic>
+        <characteristic name="Attitude" typeId="dd44-73e1-d6e0-5812">Aggressive</characteristic>
+        <characteristic name="Attacks" typeId="f82b-2be9-8434-72cd">See Forgemaster Attack Profiles</characteristic>
+        <characteristic name="Armor" typeId="8856-0073-7582-124b">No Type: [BLACK] (2)</characteristic>
+        <characteristic name="Keywords" typeId="e7c5-6dfa-2015-ef09">Epic Creature, Immunity (Bleed, Fire, Poison), Resistance (Magic), Shambling, Weakness (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="1b12-952b-2436-a83c">Forged Mind</characteristic>
+        <characteristic name="Strength" typeId="fb49-1ec9-8b68-1423">7
+</characteristic>
+        <characteristic name="Agility" typeId="b489-6dff-b74d-f72b">3</characteristic>
+        <characteristic name="Endurance" typeId="1fb9-2ec5-d6cd-5048">7
+</characteristic>
+        <characteristic name="Intelligence" typeId="7c66-db49-3e04-f5b9">2</characteristic>
+        <characteristic name="Wisdom" typeId="7f35-99bd-41e5-cf1d">3</characteristic>
+        <characteristic name="Health" typeId="fb9c-d714-46de-bcab">12</characteristic>
+        <characteristic name="Height" typeId="9705-84c5-abb5-a968">5</characteristic>
+        <characteristic name="Primary Faction" typeId="33fa-d0ea-d0c6-f092">Dwemer Animunculi</characteristic>
+      </characteristics>
+      <alias>Forgemaster</alias>
+    </profile>
+    <profile name="Forgemaster Attack Profiles (EC)" typeId="3eed-cdfe-6697-1378" typeName="EC: Attack List" hidden="true" id="2145-daff-8181-b883" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Melee Attack 1" typeId="4528-fe72-9af8-eb63">Piledriver (Strength):
+[GREEN][BLACK]
+[HELMET]: Piercing (1)
+[SWORDS]: Follow-Up</characteristic>
+        <characteristic name="Melee Attack 2" typeId="6027-b54c-adcd-0843">Animunculi Stomp (Endurance):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Shaken</characteristic>
+        <characteristic name="Melee Attack 3" typeId="819c-6f62-6841-fa43">Hammer Strike (Strength):
+[GREEN][RED][YELLOW]
+[HELMET]: add [YELLOW]
+[SWORDS]: add (Fire)
+[OBLIVION]: Stagger</characteristic>
+        <characteristic name="Melee Attack 4" typeId="14c2-f947-a031-aa35">Steam Blast (Wisdom):
+[YELLOW][YELLOW] (Fire)
+[HELMET]: Area Effect (3&quot;)
+</characteristic>
+        <characteristic name="Melee Attack 5" typeId="ac4e-f617-91b6-a440">Hammer Slam (Strength):
+[GREEN][RED][YELLOW] (Force +3&quot; Pushback)
+[HELMET]: Punishing (1)
+[SWORDS]: add (Fire)</characteristic>
+        <characteristic name="Ranged Attack 1" typeId="2b79-2169-5fb0-ee08">Centurion Fireball (Agility):
+10&quot; [GREEN][RED][YELLOW] (Fire)
+[HELMET]: Area Effect (2&quot;)
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Ranged Attack 2" typeId="0f23-e8a4-9c13-0798">Gout of Flame (Strength):
+6&quot; [GREEN][YELLOW][YELLOW][YELLOW] (Fire)
+[HELMET]: Area Effect (2&quot;)</characteristic>
+        <characteristic name="Ranged Attack 3" typeId="1b3e-90f4-668d-88f0">None</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="cd24-72a5-d8b3-ffe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Forgemaster Response Matrix (EC)" typeId="1549-97d8-74cf-5961" typeName="EC: Response Matrix" hidden="true" id="fd26-6432-e1a8-80b5" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="[HELMET]" typeId="dd82-a030-a39d-3378">First: Attack
+Second: Objective
+Third: Defend</characteristic>
+        <characteristic name="[DOTS]" typeId="d176-4ed5-d2ff-403a">First: Objective
+Second: Attack
+Third: Objective</characteristic>
+        <characteristic name="[SWORDS/OBLIVION]" typeId="f105-1cce-b7c8-ffc1">First: Move
+Second: Move
+Third: Attack</characteristic>
+        <characteristic name="Target Priority" typeId="d168-4ef7-1042-e358">1: Nearest
+2: Fastest
+3: Most Dangerous</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="ec3c-7c34-5e74-089d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Forgemaster: Lava Centurion" hidden="false" id="72c4-0134-ee37-8189" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <infoLinks>
+        <infoLink name="Forgemaster: Lava Centurion" id="a661-2fc2-e80d-e4b9" hidden="false" targetId="cbe2-ff10-6e87-08e6" type="profile"/>
+        <infoLink name="Epic Creature" id="a2df-89a1-2661-2150" hidden="false" type="infoGroup" targetId="2993-1576-f2b7-2e90"/>
+        <infoLink name="Forgemaster Attack Profiles (EC)" id="2c42-4b37-c816-c5c1" hidden="false" type="profile" targetId="2145-daff-8181-b883"/>
+        <infoLink name="Forgemaster Response Matrix (EC)" id="8856-ba0e-1c7e-4f26" hidden="false" type="profile" targetId="fd26-6432-e1a8-80b5"/>
+        <infoLink name="Dwemer Animunculi" id="aff0-c020-c46d-c2e9" hidden="false" type="infoGroup" targetId="dd22-8ea1-6516-926d"/>
+        <infoLink name="Shambling" id="d180-4504-245e-f45c" hidden="false" type="rule" targetId="0a08-aeef-9ff3-c86c"/>
+        <infoLink name="Weakness (Type)" id="424e-37aa-eaa5-d0b1" hidden="false" type="rule" targetId="550d-354c-0e2a-c57b"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="195"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Forgemaster Situation Table (EC)" id="242f-0277-c4da-86a4" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>[see pg. 12 in Chapter 4 Booklet for priority explanation]
+- Not Engaged &amp; Enemy model in LOS -&gt; Centurion Fireball
+- Enemy model within LOS and 6&quot; -&gt; Gout of Flame
+- Engaged with 1 model -&gt; Piledriver
+- Engaged with 2 models -&gt; Animunculi Stomp
+- Engaged with 1 model -&gt; Hammer Strike
+- Engaged with 3+ models -&gt; Steam Blast
+- Not Engaged or Engaged -&gt; Hammer Slam</description>
+        </rule>
+        <rule name="Forged Mind" id="f5cc-f325-9a96-d7e3" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>This model cannot be targeted by Illusion Spells.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Forgemaster: Lava Centurion" hidden="false" id="bff1-92b5-6709-cd3b" collective="false" targetId="72c4-0134-ee37-8189" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Epic Creature" hidden="false" id="d677-53e9-eded-eafb" targetId="c983-f514-755f-f01a" primary="true"/>
+        <categoryLink name="Adversary Master" hidden="false" id="cfc8-1365-2620-593c" targetId="e4f3-19d3-b4a8-4788" primary="false"/>
+        <categoryLink targetId="bf1c-d3be-f263-40a1" id="1e40-d189-bc4f-f5ae" primary="false" name="Dwemer Animunculi"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+</catalogue>

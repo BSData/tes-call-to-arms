@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f57f-127b-a7be-bbc2" name="Aldmeri Dominion" revision="2" battleScribeVersion="2.03" authorName="sapphicmoon" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+  <categoryEntries>
+    <categoryEntry id="9720-15f3-7997-3025" name="The Sorceress: Dominion Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f06-7777-632c-4721" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink import="true" name="The Sorceress: Dominion Champion (Adversary)" hidden="false" id="1532-e8c3-91d2-6f7d" collective="false" targetId="d1ed-5300-6d4b-1cb9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Aldmeri Dominion" hidden="false" id="a59f-67d6-a563-33c4" targetId="7a4b-b0a8-af97-404b" primary="false"/>
+        <categoryLink name="The Sorceress: Dominion Champion" hidden="false" id="7bdb-2371-7373-d8e5" targetId="9720-15f3-7997-3025" primary="false"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="e28e-63a6-179f-e40e" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Adversary Master" hidden="false" id="e3b6-a512-1c1d-5b82" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink name="Elf" hidden="false" id="fe59-9f76-d9c8-31d0" targetId="7975-461a-3ea6-a65b" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="The Sorceress: Dominion Champion" hidden="false" id="bc73-c97b-1876-7e03" collective="false" targetId="1651-661c-4fbb-42cb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="1451-d078-8c57-4039" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Aldmeri Dominion" hidden="false" id="2390-21b8-3849-5bbf" targetId="7a4b-b0a8-af97-404b" primary="false"/>
+        <categoryLink name="The Sorceress: Dominion Champion" hidden="false" id="7589-bc81-e88c-8399" targetId="9720-15f3-7997-3025" primary="false"/>
+        <categoryLink name="Adventurers" hidden="false" id="885d-1c8f-3588-3769" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="c5e2-9526-e83b-a2bf" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="d24b-0520-5ca2-cf91" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Light Armor Skill" hidden="false" id="6ba1-6149-8b89-efc1" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="6445-ab75-a37a-4213" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Conjuration Skill" hidden="false" id="0ba6-3490-0e60-b402" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink name="Destruction Skill" hidden="false" id="223d-4933-becd-a549" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink name="Illusion Skill" hidden="false" id="a862-6c9e-eb2b-475e" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink name="Alchemy Skill" hidden="false" id="8ad5-6662-ea35-38df" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="88bb-ab32-dffe-5d11" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="Elf" hidden="false" id="634e-69f9-2353-a109" targetId="7975-461a-3ea6-a65b" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="949d-3d53-f802-2bf3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="1651-661c-4fbb-42cb" name="The Sorceress: Dominion Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="4ab4-d0e4-2c1f-0bb6" name="Impulse Control" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>When casting any Destruction Spell with the Shock effect, the Sorceress may spend 1 extra Magicka as a Boost to add the Force keyword to the Spell.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="708f-23cd-16bf-5b46" name="The Sorceress: Dominion Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="a307-7eff-e470-1b65" type="profile"/>
+        <infoLink id="ac9a-91b0-4438-9d75" name="Altmer" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink id="8b00-d7cd-390a-4b1a" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="fe5c-e530-718b-0524" name="Perk: Augmented Shock" hidden="false" targetId="410f-7c19-be99-af07" type="rule"/>
+        <infoLink id="01e1-f83e-0660-f17b" name="Perk: Evocation" hidden="false" targetId="c7c8-2d41-68e3-f434" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="f1c9-50ac-d2f8-c902" name="Include Leveled Profile" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd98-5111-c1eb-d2d3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cf57-86e8-3a90-77a1" name="The Sorceress: Dominion Champion (Leveled)" hidden="false" targetId="e5cb-b54d-d799-0d2c" type="profile"/>
+            <infoLink id="ad68-f552-0d7f-39bf" name="Perk: Disintegrate" hidden="false" targetId="9ccb-96d1-a56b-453d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3df4-9410-c3ed-ace5" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="5e29-01d6-bf17-5ae4" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="949d-3d53-f802-2bf3" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa1-dd0b-851b-7626" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2be7-9179-b137-cb04" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1ed-5300-6d4b-1cb9" name="The Sorceress: Dominion Champion (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="e6ca-5771-1f71-61be" name="Impulse Retribution" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
+          <description>Each time this model suffers damage from an Attack (but is not removed from play), the attacker must pass an Endurance Attribute Test or become Staggered.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0ea1-40e8-e8ea-f02e" name="The Sorceress: Dominion Champion (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" targetId="4485-18b5-f961-477a" type="profile"/>
+        <infoLink id="69f4-6214-b260-cf95" name="Altmer" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink id="1395-a6fb-92c3-bbd8" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink id="09e1-3864-96ed-6c1c" name="Damage Type: Shock" hidden="false" targetId="c757-1849-5b26-4b56" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="a307-7eff-e470-1b65" name="The Sorceress: Dominion Champion" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Altmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Shock, Evocation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Impulse Control</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Destruction
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Alchemy
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Aldmeri Dominion</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e5cb-b54d-d799-0d2c" name="The Sorceress: Dominion Champion (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Shock, Disintegrate, Evocation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Impulse Control</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Destruction
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Alchemy
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4485-18b5-f961-477a" name="The Sorceress: Dominion Champion (Adversary)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Altmer</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Sorcery</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Ranged(Destruction):
+12&quot;: [GREEN][RED] (Shock)
+[HELMET]: Force
+[SWORDS]: add [YELLOW]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">Melee(One-Handed): [GREEN][RED]
+[HELMET]: Piercing (2)
+[SWORDS]: Follow-Up [1]</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Shield (Block): [BLACK]</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Regenerate Magicka, Impulse Retribution</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">4</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">6
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">5</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">3</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Aldmeri Dominion</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
