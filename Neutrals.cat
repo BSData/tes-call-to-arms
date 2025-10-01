@@ -1851,7 +1851,7 @@
         <modifierGroup type="and">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
-            <modifier type="prepend" value="(Arondil&apos;s Entourage)" field="name" join=" "/>
+            <modifier type="append" value="(Arondil&apos;s Entourage)" field="name" join=" "/>
             <modifier type="set" value="3" field="defaultAmount"/>
             <modifier type="set" value="3" field="195f-def8-337d-ed4f-min"/>
             <modifier type="set" value="3" field="195f-def8-337d-ed4f-max"/>
