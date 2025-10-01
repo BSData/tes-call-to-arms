@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ec55-df7e-efd2-0e38" name="College of Winterhold" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="ec55-df7e-efd2-0e38" name="College of Winterhold" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <entryLinks>
     <entryLink id="e71d-53a0-02d0-7768" name="Breton Fire Mage: Gifted Student" hidden="false" collective="false" import="true" targetId="9e30-8da4-9c08-b897" type="selectionEntry">
       <modifierGroups>
@@ -24,8 +24,969 @@
         <categoryLink id="32b0-c7e6-e920-edc6" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Savos Aren: Arch-Mage" hidden="false" id="303a-d530-1b5e-cd52" collective="false" targetId="23b3-3776-3cf2-9791" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="0d20-20be-1284-436a" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="2cb1-6858-1b4a-f21a" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="2277-3fea-f447-520a" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Destruction Skill" hidden="false" id="8300-1e09-afb6-ae63" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="2ea4-0e6c-8910-244f" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="a914-ede2-6b78-d313" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="d885-1bd2-82bb-42a1" id="85c1-a4a4-ec67-9f56" primary="false" name="Savos Aren: Arch-Mage"/>
+        <categoryLink targetId="917c-eb56-30eb-a720" id="88d3-4e2b-c744-89c6" primary="false" name="Born Leader"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="fb91-ea2a-2dc6-cd57" primary="false" name="Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="e107-1d1f-3a3c-b23d" primary="false" name="Elf"/>
+        <categoryLink targetId="f1a5-f2a8-0691-3c85" id="d275-b3fc-1d8a-b8fd" primary="false" name="Conjuration Skill"/>
+        <categoryLink targetId="93b4-afa5-eb85-d8ec" id="5d7d-cf1c-0f7e-4800" primary="false" name="Illusion Skill"/>
+        <categoryLink targetId="37d3-238a-d08a-1589" id="587d-da61-792d-3ed7" primary="false" name="Alchemy Skill"/>
+        <categoryLink targetId="dd8f-4143-9e14-8e73" id="752f-d222-6e65-dff4" primary="false" name="Speech Skill"/>
+        <categoryLink targetId="2b0f-1265-0b4f-1046" id="ca8c-808c-1035-fcec" primary="false" name="College Of Winterhold"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Faralda: College Guardian" hidden="false" id="1cc0-db12-2e1b-043b" collective="false" targetId="0538-46c6-fc5d-a892" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="0bc6-46da-8df9-7a72" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="7910-6b4c-c088-2aac" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="d52b-3ab3-6c60-a399" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Destruction Skill" hidden="false" id="31aa-fd4a-799c-03e0" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="69b0-7141-9fd7-f7d6" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="86e7-f935-1139-0dec" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="e1b8-c890-7102-f844" primary="false" name="Elf"/>
+        <categoryLink targetId="4d42-f7a9-a2ca-654e" id="badd-3467-8f58-3a62" primary="false" name="Archery Skill"/>
+        <categoryLink targetId="ce1e-5b7d-d29b-2ecb" id="1f72-098c-98b4-625c" primary="false" name="Faralda: College Guardian"/>
+        <categoryLink targetId="8af2-ae59-4a5c-98b8" id="6be5-212d-500d-41de" primary="false" name="Light Armor Skill"/>
+        <categoryLink targetId="2b0f-1265-0b4f-1046" id="d669-2da6-23ad-3591" primary="false" name="College Of Winterhold"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Ancano: Advisor to the Arch-Mage" hidden="false" id="478d-e142-6743-c148" collective="false" targetId="88a8-6554-c94b-d98b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="e21f-c4e9-439b-071e" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="465c-2315-17c5-41c1" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="aaff-52fc-ca47-289d" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="e777-621a-027b-95a1" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="d370-c8b6-17c9-b0c5" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="b1db-30b9-c635-4378" primary="false" name="Elf"/>
+        <categoryLink targetId="2b0f-1265-0b4f-1046" id="53db-d436-fdb7-1d98" primary="false" name="College Of Winterhold"/>
+        <categoryLink targetId="2f0f-28c6-ba4f-353f" id="e9aa-690f-db32-9ae6" primary="false" name="Ancano: Advisor to the Arch-Mage"/>
+        <categoryLink targetId="ff7a-e4f7-2845-6f78" id="bb3c-b813-59e4-3dc7" primary="false" name="Thalmor"/>
+        <categoryLink targetId="f1a5-f2a8-0691-3c85" id="c7f4-7fa3-c3f4-a991" primary="false" name="Conjuration Skill"/>
+        <categoryLink targetId="93b4-afa5-eb85-d8ec" id="6b7b-9380-1339-3e99" primary="false" name="Illusion Skill"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Mirabelle Ervine: Elemental Mage" hidden="false" id="b20c-bb09-7ce9-f69d" collective="false" targetId="b05b-c501-0504-aeaf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="8081-79b3-89c2-b0e4" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="410f-e73a-fcde-cc8d" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="3e28-9eaf-9d96-9b52" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Destruction Skill" hidden="false" id="d539-91cd-9099-1e21" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="4478-efcd-8bc7-3c77" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="5c48-1c0a-9a2d-6e98" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="2b0f-1265-0b4f-1046" id="e480-5c4f-9f41-341d" primary="false" name="College Of Winterhold"/>
+        <categoryLink targetId="bd44-7cfb-66fc-b016" id="a3a6-8f0c-89ae-549e" primary="false" name="Mirabelle Ervine: Elemental Mage"/>
+        <categoryLink targetId="dd8f-4143-9e14-8e73" id="1a93-3c6b-0605-4763" primary="false" name="Speech Skill"/>
+        <categoryLink targetId="f1a5-f2a8-0691-3c85" id="b1ee-5782-a423-9b18" primary="false" name="Conjuration Skill"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Colette Marence: Restoration Master" hidden="false" id="83c8-251d-17e7-d55e" collective="false" targetId="a3fe-7c50-4f7c-97bd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="b63d-01a1-9ccb-65f8" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="5927-025e-33ed-3f48" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="4548-08ab-9341-94ac" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="4405-7d2f-89fc-6f96" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="5ff4-18fa-35d2-52a4" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="2b0f-1265-0b4f-1046" id="c54a-4ed7-0122-582c" primary="false" name="College Of Winterhold"/>
+        <categoryLink targetId="f1a5-f2a8-0691-3c85" id="72e9-de5b-3164-057f" primary="false" name="Conjuration Skill"/>
+        <categoryLink targetId="93b4-afa5-eb85-d8ec" id="78f5-65e0-4201-87a0" primary="false" name="Illusion Skill"/>
+        <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="51b3-75e7-2b8d-c11b" primary="false" name="Sneak Skill"/>
+        <categoryLink targetId="61ca-b131-10b5-d2bc" id="a042-ec59-3436-c6c9" primary="false" name="Colette Marence: Restoration Master"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="J&apos;Zargo: Ambitious Apprentice" hidden="false" id="41da-ae8a-7960-714f" collective="false" targetId="7890-e0ab-81b1-d882" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Adventurers" hidden="false" id="1365-b8d0-357a-6358" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="b715-6ff0-f4c0-6ccf" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="College Of Winterhold" hidden="false" id="8ffe-e015-f508-7889" targetId="2b0f-1265-0b4f-1046" primary="false"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="ab8a-a848-c2f7-8a03" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="9352-209d-7eef-ae4b" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Light Armor Skill" hidden="false" id="a34c-59f3-ee60-aa95" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink name="Heavy Armor Skill" hidden="false" id="05b8-efbc-d8b6-ed32" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink name="Conjuration Skill" hidden="false" id="a973-f4f5-578d-7363" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="4f36-571b-6cf7-a7ad" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Illusion Skill" hidden="false" id="22d4-ce4e-3958-3e39" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="d771-a952-b5c7-bcbc" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink targetId="650f-7a60-895e-4f01" id="3a09-1524-016e-e4e5" primary="false" name="J&apos;Zargo: Ambitious Apprentice"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="076d-be0a-831b-a0ec" name="Neutrals" targetId="67ad-b57c-1fac-cf39" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
+  <sharedProfiles>
+    <profile name="Savos Aren: Arch-Mage" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="fbd4-2e7f-4155-9aac" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Dunmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Destruction Mastery, Mage Armor, Master of the Mind, Recovery, Summoner, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Meticulous Planning, Master Mage</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Destruction
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Alchemy
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">6</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">College of Winterhold</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+      <alias>Savos Aren</alias>
+      <alias>Savos</alias>
+    </profile>
+    <profile name="Savos Aren: Arch-Mage (Leveled)" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="a21b-bb19-793f-49c5" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Atromancy, Destruction Mastery, Mage Armor, Master of the Mind, Recovery, Summoner, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Born Leader, Resistance (Fire)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Meticulous Planning, Master Mage</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">7
+Alteration
+Conjuration
+Destruction
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">7
+Alchemy
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">6</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Faralda: College Guardian" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="1aca-bd2c-5429-ad31" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Altmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Shock, Destruction Mastery, Mage Armor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">More Power!</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">2
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">College of Winterhold</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+      <alias>Faralda</alias>
+    </profile>
+    <profile name="Faralda: College Guardian (Leveled)" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="af1f-d513-0bf4-dfe6" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Shock, Destruction Mastery, Mage Armor, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">More Power!</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ancano: Advisor to the Arch-Mage" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="4666-d32b-2800-1c17" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Altmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Atromancy, Augmented Flames, Augmented Shock, Respite</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Antagonistic, Duplicity</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">College of Winterhold</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Thalmor</characteristic>
+      </characteristics>
+      <alias>Ancano</alias>
+    </profile>
+    <profile name="Ancano: Advisor to the Arch-Mage (Leveled)" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="4563-3e92-9ed9-a1c7" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Atromancy, Augmented Flames, Augmented Shock, Mage Armor, Respite</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Antagonistic, Duplicity</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">7
+Alteration
+Conjuration
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>Ancano</alias>
+    </profile>
+    <profile name="Mirabelle Ervine: Elemental Mage" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="3e33-9e4c-2b06-f6df" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Flames, Mage Armor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">College Administrator</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">College of Winterhold</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+      <alias>Mirabelle</alias>
+    </profile>
+    <profile name="Mirabelle Ervine: Elemental Mage (Leveled)" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="5eb3-6cf9-d80d-f27c" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Flames, Mage Armor, Regeneration</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">College Administrator</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Conjuration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>Mirabelle</alias>
+    </profile>
+    <profile name="Colette Marence: Restoration Master" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="fc82-e200-7357-5d10" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Breton</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Mage Armor, Regeneration, Restoration Mastery</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Peace-Loving Spriggan-Hugger</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Conjuration
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">College of Winterhold</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+      <alias>Colette</alias>
+    </profile>
+    <profile name="Colette Marence: Restoration Master (Leveled)" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="1e83-b02f-2225-0f8d" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Grand Healing, Mage Armor, Regeneration, Restoration Mastery</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Magic)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Peace-Loving Spriggan-Hugger</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">2
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>Colette</alias>
+    </profile>
+    <profile name="J&apos;Zargo: Ambitious Apprentice" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="c56e-3fac-6a11-a5fe" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Khajiit</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Disintegrate, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Night Eye, Teeth and Claws</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Overconfident</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Conjuration
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers, College of Winterhold</characteristic>
+      </characteristics>
+      <alias>J&apos;Zargo</alias>
+    </profile>
+    <profile name="J&apos;Zargo: Ambitious Apprentice (Leveled)" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="58b3-cd54-3108-aecb" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Shock, Disintegrate, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Night Eye, Teeth and Claws</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Overconfident</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Conjuration
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>J&apos;Zargo</alias>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Savos Aren: Arch-Mage" hidden="false" id="23b3-3776-3cf2-9791" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <infoLinks>
+        <infoLink name="Savos Aren: Arch-Mage" id="e823-bdda-d2ab-cbf0" hidden="false" targetId="fbd4-2e7f-4155-9aac" type="profile"/>
+        <infoLink name="Perk: Mage Armor" id="f1ab-ab0d-791d-9527" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink name="Path of Sorcery" id="4a6a-97bf-6264-0c14" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink name="Dunmer" id="fd74-7345-6608-16fa" hidden="false" targetId="a0cb-51aa-e265-db37" type="infoGroup"/>
+        <infoLink name="Perk: Destruction Mastery" id="378a-485b-829f-715a" hidden="false" targetId="eae7-ee7c-9f43-386d" type="rule"/>
+        <infoLink name="Perk: Master Of The Mind" id="2313-3f2b-96e1-cc1e" hidden="false" targetId="99a5-2602-b986-e417" type="rule"/>
+        <infoLink name="Perk: Recovery" id="ce87-caed-7575-3cd5" hidden="false" targetId="85b5-86b0-993b-2f70" type="rule"/>
+        <infoLink name="Perk: Summoner" id="1451-fb55-9bae-7ac0" hidden="false" targetId="b5f0-a443-b8ee-c115" type="rule"/>
+        <infoLink name="Perk: Ward Absorb" id="01ca-dc5e-943e-0f8d" hidden="false" targetId="167f-9166-06e4-262e" type="rule"/>
+        <infoLink name="Born Leader" id="c5f0-41b7-a9ad-ca99" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Include Leveled Profile" hidden="false" id="894a-5fc3-9f3c-f6df" publicationId="a37b-3a3b-faf7-0732" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec6c-3712-e017-aa61" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Savos Aren: Arch-Mage (Leveled)" id="ef67-ba31-3070-ea04" hidden="false" publicationId="a37b-3a3b-faf7-0732" targetId="a21b-bb19-793f-49c5" type="profile"/>
+            <infoLink name="Perk: Atromancy" id="778f-140c-d9c2-098a" hidden="false" targetId="b2ff-de27-90e2-c153" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="fb10-5909-8ca9-7489" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="false" id="e55f-a9ef-1fee-7093" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3430-a8e7-1355-08ee" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="e774-ae14-6a32-5c36" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="88"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Meticulous Planning" id="ff4c-76cb-f493-8445" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Once per game, you may draw three Event Cards instead of one. Choose your preferred card and reshuffle the others into the deck.</description>
+        </rule>
+        <rule name="Master Mage" id="34e9-87fa-bc61-b9f8" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Once per round, after successfully casting a Spell, Savos may cast the same Spell again as a Free Action (as long as he has sufficient Magicka).</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Faralda: College Guardian" hidden="false" id="0538-46c6-fc5d-a892" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <infoLinks>
+        <infoLink name="Faralda: College Guardian" id="b089-5846-053f-c9e3" hidden="false" targetId="1aca-bd2c-5429-ad31" type="profile">
+          <modifiers>
+            <modifier type="set" value="Hireling Hero (Unique)" field="ebd4-07c2-9286-b2eb">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Perk: Mage Armor" id="513e-2e19-4b0d-9b92" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink name="Path of Sorcery" id="69ac-06be-7603-2ac8" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink name="Altmer" id="0769-69d6-1082-2b82" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink name="Perk: Destruction Mastery" id="4c6b-2105-ba85-1ed6" hidden="false" targetId="eae7-ee7c-9f43-386d" type="rule"/>
+        <infoLink name="Perk: Augmented Shock" id="f6af-7df1-56b6-b983" hidden="false" targetId="410f-7c19-be99-af07" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Include Leveled Profile" hidden="false" id="90a0-ad87-de02-688d" publicationId="a37b-3a3b-faf7-0732" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dc0-d70d-7cbb-33d1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Faralda: College Guardian (Leveled)" id="05f5-7fa0-22a6-d993" hidden="false" publicationId="a37b-3a3b-faf7-0732" targetId="af1f-d513-0bf4-dfe6" type="profile"/>
+            <infoLink name="Perk: Ward Absorb" id="0e06-c09a-db11-0ffb" hidden="false" targetId="167f-9166-06e4-262e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="181d-1be0-c540-0c28" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="29b4-bf2f-9eee-cab5" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f58-ca93-eba2-6c09" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="600e-73d5-7f8a-b60f" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="More Power!" id="1fea-ee69-ede7-ba98" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>When casting Destruction Spells, Faralda may treat every point of Magicka that she spends on Boosts as 2 points.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ancano: Advisor to the Arch-Mage" hidden="false" id="88a8-6554-c94b-d98b" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <infoLinks>
+        <infoLink name="Ancano: Advisor to the Arch-Mage" id="601d-7a55-11ec-6cca" hidden="false" targetId="4666-d32b-2800-1c17" type="profile">
+          <modifiers>
+            <modifier type="set" value="Hireling Hero (Unique)" field="ebd4-07c2-9286-b2eb">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Perk: Respite" id="103d-4a3c-1848-60ff" hidden="false" targetId="7d81-5691-f973-2977" type="rule"/>
+        <infoLink name="Path of Sorcery" id="8cfa-1094-e058-c917" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink name="Altmer" id="826d-0380-c59f-cb27" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink name="Perk: Atromancy" id="44f7-ed39-62f6-4c31" hidden="false" targetId="b2ff-de27-90e2-c153" type="rule"/>
+        <infoLink name="Perk: Augmented Shock" id="399e-f474-204d-9861" hidden="false" targetId="410f-7c19-be99-af07" type="rule"/>
+        <infoLink name="Perk: Augmented Flames" id="dae5-d810-65c8-6f98" hidden="false" targetId="5cde-bd5c-95c1-757d" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Include Leveled Profile" hidden="false" id="18e6-8c1a-408a-e929" publicationId="a37b-3a3b-faf7-0732" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdfb-4df1-5f5a-b4b0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ancano: Advisor to the Arch-Mage (Leveled)" id="576b-01b5-c9f0-a3aa" hidden="false" publicationId="a37b-3a3b-faf7-0732" targetId="4563-3e92-9ed9-a1c7" type="profile"/>
+            <infoLink name="Perk: Mage Armor" id="98aa-d8d1-3ad8-13ae" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="8c6c-5829-b935-3586" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="ea16-7587-e134-8597" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="953c-e8f6-0681-d8f4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="9727-cd59-3f6b-b9f9" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="62"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Antagonistic" id="cf0c-14ec-f624-d65b" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>When included in a College of Winterhold Party, Ancano cannot be the Champion, not can he issue Commands.</description>
+        </rule>
+        <rule name="Duplicity" id="4998-deb6-45f9-3b7a" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>When Ancano is targeted by a Ranged Attack, he may take an Intelligence Attribute Test. If this test is passed, choose a friendly model within 3&quot; of Ancano to take the attack on his behalf, even if it was not in range or Line of Sight [of the Attacker].</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mirabelle Ervine: Elemental Mage" hidden="false" id="b05b-c501-0504-aeaf" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <infoLinks>
+        <infoLink name="Mirabelle Ervine: Elemental Mage" id="8109-8e33-c356-534e" hidden="false" targetId="3e33-9e4c-2b06-f6df" type="profile">
+          <modifiers>
+            <modifier type="set" value="Hireling Hero (Unique)" field="ebd4-07c2-9286-b2eb">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Perk: Mage Armor" id="b267-af0b-c4fc-6a3a" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink name="Path of Sorcery" id="bf20-b0e4-0c83-3556" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink name="Breton" id="9cbf-f806-ee3a-55d6" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+        <infoLink name="Perk: Augmented Flames" id="6ebc-ac0d-5973-586b" hidden="false" targetId="5cde-bd5c-95c1-757d" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Include Leveled Profile" hidden="false" id="b1b8-274d-79b1-40fd" publicationId="a37b-3a3b-faf7-0732" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fbf-3de6-ffc2-3f22" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Mirabelle Ervine: Elemental Mage (Leveled)" id="f304-0c63-0c63-6aae" hidden="false" publicationId="a37b-3a3b-faf7-0732" targetId="5eb3-6cf9-d80d-f27c" type="profile"/>
+            <infoLink name="Perk: Regeneration" id="8b1a-190b-6657-2e94" hidden="false" targetId="f8ea-6250-0c28-33f6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="3e70-5707-5cb6-0513" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="ff1f-f1c0-8aaa-44e4" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f82a-b4ce-915b-bb85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="287d-ed29-c441-0359" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="College Administrator" id="587d-4987-f209-f7d4" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>At the start of the game, take one [RED] for each friendly College of Winterhold Hero in the Party (including Mirabelle), and use them to form a special dice pool on this card. At the start of each of her activations, Mirabelle may assign one of these dice to herself or a single friendly Hero within 6&quot;, to be added to any Skill Test they take that round. If the die is not used before the end of the round, it is lost.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Colette Marence: Restoration Master" hidden="false" id="a3fe-7c50-4f7c-97bd" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <infoLinks>
+        <infoLink name="Colette Marence: Restoration Master" id="bb6b-852a-102b-ade7" hidden="false" targetId="fc82-e200-7357-5d10" type="profile">
+          <modifiers>
+            <modifier type="set" value="Hireling Hero (Unique)" field="ebd4-07c2-9286-b2eb">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Perk: Regeneration" id="6547-afd4-d3e3-8b0a" hidden="false" targetId="f8ea-6250-0c28-33f6" type="rule"/>
+        <infoLink name="Path of Sorcery" id="4cd3-c937-5412-f427" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink name="Breton" id="703d-0422-db12-f73a" hidden="false" targetId="dd8e-535b-c433-c693" type="infoGroup"/>
+        <infoLink name="Perk: Mage Armor" id="c72a-d223-ae6a-c8a2" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink name="Perk: Restoration Mastery" id="e9f4-e1fc-1d1a-d898" hidden="false" targetId="b037-27c9-fd1c-b3e5" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Include Leveled Profile" hidden="false" id="65eb-b6c6-3f15-57d9" publicationId="a37b-3a3b-faf7-0732" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="303d-ec98-7e51-2770" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Colette Marence: Restoration Master (Leveled)" id="ec96-01e1-9f62-7493" hidden="false" publicationId="a37b-3a3b-faf7-0732" targetId="1e83-b02f-2225-0f8d" type="profile"/>
+            <infoLink name="Perk: Grand Healing" id="1904-348b-2d2e-e7b5" hidden="false" targetId="5301-e0c6-db92-6b91" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="0f29-1ce3-d155-ab59" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="dbf0-20ce-e64f-2234" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9931-a083-4a0f-5d30" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="a558-2350-76b9-9125" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Peace-Loving Spriggan-Hugger" id="4a15-7286-7be3-9aed" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Colette does not receive a Critical Hit bonus when rolling [CRITICAL] for an Attack. Treat the roll as a score of 1.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="J&apos;Zargo: Ambitious Apprentice" hidden="false" id="7890-e0ab-81b1-d882" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <infoLinks>
+        <infoLink name="J&apos;Zargo: Ambitious Apprentice" id="0824-41e3-937e-5536" hidden="false" targetId="c56e-3fac-6a11-a5fe" type="profile">
+          <modifiers>
+            <modifier type="set" value="Hireling Hero (Unique)" field="ebd4-07c2-9286-b2eb">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Perk: Disintegrate" id="6292-f1e1-2241-d4e9" hidden="false" targetId="9ccb-96d1-a56b-453d" type="rule"/>
+        <infoLink name="Path of Sorcery" id="9cab-c8cb-8105-d1aa" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink name="Khajiit" id="2c31-ef72-5a8b-1bdf" hidden="false" targetId="79c0-88d5-843b-8055" type="infoGroup"/>
+        <infoLink name="Perk: Ward Absorb" id="a61a-5be4-bc7f-da96" hidden="false" targetId="167f-9166-06e4-262e" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Include Leveled Profile" hidden="false" id="696c-d682-7894-9645" publicationId="a37b-3a3b-faf7-0732" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="093c-852d-6c9b-0783" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="J&apos;Zargo: Ambitious Apprentice (Leveled)" id="5e79-6fdf-3ddb-1896" hidden="false" publicationId="a37b-3a3b-faf7-0732" targetId="58b3-cd54-3108-aecb" type="profile"/>
+            <infoLink name="Perk: Augmented Shock" id="0d3f-30e1-f72d-c8c6" hidden="false" targetId="410f-7c19-be99-af07" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="7aaa-76fd-fb59-e242" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="167d-ed41-7955-023a" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27f3-f7d0-fb76-79b3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="2007-01ba-b4ed-aba3" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Overconfident" id="370c-3ee8-7bac-1b12" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>The first time J&apos;Zargo rolls a [CRITICAL] for a Skill Test in each round, after resolving the Test he must take a Wisdom Attribute Test. If this is passed, J&apos;Zargo gains a Ready Token (even if he already Attacked this round). If the Test is failed, however, J&apos;Zargo loses 1 Stamina point.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Savos Aren: Arch-Mage" id="d885-1bd2-82bb-42a1" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="db69-7850-90b2-9182" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Faralda: College Guardian" id="ce1e-5b7d-d29b-2ecb" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3523-9bb5-7d18-9bbb" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Ancano: Advisor to the Arch-Mage" id="2f0f-28c6-ba4f-353f" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="42da-da9e-c535-f9f4" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Mirabelle Ervine: Elemental Mage" id="bd44-7cfb-66fc-b016" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b831-4197-33b6-2edf" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Colette Marence: Restoration Master" id="61ca-b131-10b5-d2bc" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c77b-d5d6-aac3-bedd" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="J&apos;Zargo: Ambitious Apprentice" id="650f-7a60-895e-4f01" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ccd1-978d-a69e-39ba" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
 </catalogue>

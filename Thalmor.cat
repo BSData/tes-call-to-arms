@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="aa1b-f476-a563-a931" name="Thalmor" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="aa1b-f476-a563-a931" name="Thalmor" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="sapphicmoon">
   <sharedProfiles>
     <profile name="Thalmor Archer: Elven Bow" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="13b5-1482-5e30-c258" publicationId="1d0d-fac6-d336-636f">
       <characteristics>
@@ -93,6 +93,70 @@ Restoration</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Thalmor</characteristic>
       </characteristics>
     </profile>
+    <profile name="Thalmor Justiciar: Altmeri Interrogator" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="9092-2d75-fe49-d95f" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Altmer</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Mage Armor, Persuasion, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">High Inquisitor</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Destruction
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Alchemy
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Thalmor</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thalmor Justiciar: Altmeri Interrogator (Leveled)" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="6f46-c913-c4f6-457b" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Disintegrate, Mage Armor, Persuasion, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Regenerate Magicka</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">High Inquisitor</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">6
+Alteration
+Conjuration
+Destruction
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">6
+Alchemy
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Thalmor Archer: Elven Bow" hidden="false" id="2064-5c87-041f-4225" publicationId="1d0d-fac6-d336-636f">
@@ -123,11 +187,54 @@ Restoration</characteristic>
         <infoLink name="Path of Sorcery" id="1e40-f09e-8db9-574d" hidden="false" type="rule" targetId="46cd-27c4-0be4-976f"/>
         <infoLink name="Altmer" id="552e-42f0-ea1f-b9ad" hidden="false" type="infoGroup" targetId="6846-5bf3-c280-fa14"/>
         <infoLink name="Regenerate Magicka" id="6716-7c2d-efd8-1431" hidden="false" type="rule" targetId="a89f-5da7-acf9-ff3b"/>
-        <infoLink name="Healing Hands" id="cb04-de67-5586-c199" hidden="false" type="rule" targetId="ae1e-0d0b-9fad-4d39"/>
         <infoLink name="Resistance (Type)" id="7dd8-8fc9-4945-3903" hidden="false" type="rule" targetId="b048-ffef-95a3-aaf9"/>
+        <infoLink name="Healing Hands" id="949e-c8a3-dcf1-896e" hidden="false" type="profile" targetId="b3e9-4d33-a165-597f"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Thalmor Justiciar: Altmeri Interrogator" hidden="false" id="04ee-16ad-9971-d138" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <rules>
+        <rule name="High Inquisitor" id="7479-4a1e-48fc-50da" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>When the Justiciar makes an enemy Incapacitated, the Justiciar may immediately assign a Shaken Token to one enemy within 6&quot; and Line of Sight.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Altmer" id="4803-0b10-c84d-716f" hidden="false" targetId="6846-5bf3-c280-fa14" type="infoGroup"/>
+        <infoLink name="Path of Sorcery" id="c1dc-b4da-77ba-4a4e" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink name="Perk: Mage Armor" id="57b8-16c9-5140-3a8b" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink name="Perk: Persuasion" id="d2f5-78b0-9a00-26a6" hidden="false" targetId="2734-97c2-54f3-fb62" type="rule"/>
+        <infoLink name="Perk: Ward Absorb" id="10f9-b005-2b77-cfd0" hidden="false" targetId="167f-9166-06e4-262e" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Include Leveled Profile" hidden="false" id="8607-1169-1e59-0c3b" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ceef-89f3-0bae-3197" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Perk: Disintegrate" id="c5e9-cc25-13b2-b375" hidden="false" targetId="9ccb-96d1-a56b-453d" type="rule"/>
+            <infoLink name="Thalmor Justiciar: Altmeri Interrogator (Leveled)" id="05e6-ee32-26a0-ea2f" hidden="false" type="profile" targetId="6f46-c913-c4f6-457b"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="6fa8-1809-96e2-8cb3" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="false" id="95d3-b3e5-530c-21d0" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="296e-aa20-09bb-ed27" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="6770-6305-1a7f-d375" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="58"/>
         <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
@@ -135,36 +242,136 @@ Restoration</characteristic>
   <entryLinks>
     <entryLink import="true" name="Thalmor Archer: Elven Bow" hidden="false" id="f2cb-e17f-58d1-2152" type="selectionEntry" targetId="2064-5c87-041f-4225">
       <categoryLinks>
-        <categoryLink targetId="ba61-d304-9352-ec15" id="60a9-e853-8008-4de0" primary="false" name="Follower"/>
+        <categoryLink targetId="ba61-d304-9352-ec15" id="60a9-e853-8008-4de0" primary="true" name="Follower"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="68c2-9414-119a-0305" primary="false" name="Path of Shadow"/>
         <categoryLink targetId="4d42-f7a9-a2ca-654e" id="f16c-259f-5c68-1e24" primary="false" name="Archery Skill"/>
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="5de4-4c0f-725d-5964" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="64bb-1eb1-1896-f36d" id="47d8-ebc8-a69e-caf1" primary="false" name="One-Handed Skill"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="486c-59f7-bd4a-631e" primary="false" name="Light Armor Skill"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="866b-d740-ed23-aa8d" primary="false" name="Elf"/>
+        <categoryLink targetId="ff7a-e4f7-2845-6f78" id="6a57-4344-6f1f-fd0f" primary="false" name="Thalmor"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Thalmor Warrior: Elven Sword" hidden="false" id="d082-2b68-7420-79ff" type="selectionEntry" targetId="6310-d673-bdfe-554c">
       <categoryLinks>
-        <categoryLink name="Follower" hidden="false" id="3b3a-5e9f-f1cf-8aba" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink name="Follower" hidden="false" id="3b3a-5e9f-f1cf-8aba" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink name="Archery Skill" hidden="false" id="ddc4-b268-4ee7-192c" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink name="One-Handed Skill" hidden="false" id="7e50-9ddc-2e75-ba43" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink name="Light Armor Skill" hidden="false" id="b546-ad0f-1508-d362" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink targetId="b1cc-bf06-8acb-dce0" id="0658-7015-c1fb-4d45" primary="false" name="Path of Might"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="5949-51d2-1610-903f" primary="false" name="Elf"/>
+        <categoryLink targetId="ff7a-e4f7-2845-6f78" id="cac7-d952-b324-0597" primary="false" name="Thalmor"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Thalmor Wizard: Inquisitorial Spellcaster" hidden="false" id="7f0a-4958-dfdf-34df" type="selectionEntry" targetId="951b-6e1a-4cc2-4b78">
       <categoryLinks>
-        <categoryLink name="Follower" hidden="false" id="4b1e-e2f8-80c7-fd16" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink name="Follower" hidden="false" id="4b1e-e2f8-80c7-fd16" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink name="One-Handed Skill" hidden="false" id="877e-62e2-a066-7954" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink targetId="8b22-d1f0-dcf8-83d7" id="29f2-180b-0d4f-1669" primary="false" name="Path of Sorcery"/>
         <categoryLink targetId="4c5c-c1e0-77f2-cf34" id="c700-ef33-b888-edd6" primary="false" name="Destruction Skill"/>
         <categoryLink targetId="b0b5-e13e-f45a-5045" id="8947-e7fd-581f-3d65" primary="false" name="Restoration Skill"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="5fb9-2ebc-fea5-973b" primary="false" name="Elf"/>
+        <categoryLink targetId="ff7a-e4f7-2845-6f78" id="abb2-1d7e-f1d5-8299" primary="false" name="Thalmor"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Thalmor Justiciar: Altmeri Interrogator" hidden="false" id="7b2e-0628-0c25-8291" type="selectionEntry" targetId="04ee-16ad-9971-d138">
+      <categoryLinks>
+        <categoryLink name="Archery Skill" hidden="false" id="68c3-1467-2e91-97bc" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink name="Sneak Skill" hidden="false" id="db65-cdd0-d36b-9b65" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="e253-db66-d382-b11c" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Light Armor Skill" hidden="false" id="8d0a-33c0-4dd1-060d" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink name="Elf" hidden="false" id="f19e-84dd-01f7-5bbd" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink targetId="b9a4-31a5-b4ed-b4c7" id="685e-0e28-b8c8-256b" primary="true" name="Hero"/>
+        <categoryLink targetId="ff7a-e4f7-2845-6f78" id="9ce4-fb27-574a-6502" primary="false" name="Thalmor"/>
+        <categoryLink targetId="8b22-d1f0-dcf8-83d7" id="956c-05ed-aac7-5c9c" primary="false" name="Path of Sorcery"/>
+        <categoryLink targetId="f1a5-f2a8-0691-3c85" id="766e-34a6-b443-a503" primary="false" name="Conjuration Skill"/>
+        <categoryLink targetId="4c5c-c1e0-77f2-cf34" id="b8bd-18a7-05d2-c6c6" primary="false" name="Destruction Skill"/>
+        <categoryLink targetId="2aea-a863-419f-ba90" id="4a1e-d142-88eb-fbd2" primary="false" name="Alteration Skill"/>
+        <categoryLink targetId="37d3-238a-d08a-1589" id="a62e-9af8-acb1-7c1e" primary="false" name="Alchemy Skill"/>
+        <categoryLink targetId="93b4-afa5-eb85-d8ec" id="e505-a2e7-f9b3-ecbe" primary="false" name="Illusion Skill"/>
+        <categoryLink targetId="b0b5-e13e-f45a-5045" id="cbee-bcca-f17e-ec51" primary="false" name="Restoration Skill"/>
+        <categoryLink targetId="dd8f-4143-9e14-8e73" id="114e-4cd1-6e39-1ed0" primary="false" name="Speech Skill"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="c413-2e33-e6e4-ffca" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="9bb6-43ae-1f58-ba79" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Ancano: Advisor to the Arch-Mage" hidden="false" id="9868-c9d4-c1fd-db0d" collective="false" targetId="88a8-6554-c94b-d98b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="aa32-0fd8-cd87-ce9e" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="b7f7-4eb7-dbc9-5708" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="b2a4-6908-1eb7-d1c1" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="ccb3-f010-00ee-c7b3" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="03b2-c858-b313-edf9" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Elf" hidden="false" id="5008-0174-83b5-3c8f" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink name="College Of Winterhold" hidden="false" id="d6e7-237f-8e6f-7e30" targetId="2b0f-1265-0b4f-1046" primary="false"/>
+        <categoryLink name="Ancano: Advisor to the Arch-Mage" hidden="false" id="3f78-40e9-1a48-270f" targetId="2f0f-28c6-ba4f-353f" primary="false"/>
+        <categoryLink name="Thalmor" hidden="false" id="d556-c616-6212-012e" targetId="ff7a-e4f7-2845-6f78" primary="false"/>
+        <categoryLink name="Conjuration Skill" hidden="false" id="5ac3-e111-a254-195e" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink name="Illusion Skill" hidden="false" id="a920-19a2-4851-2cd6" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
-  <sharedRules>
-    <rule name="Healing Hands" id="ae1e-0d0b-9fad-4d39" hidden="false" publicationId="1d0d-fac6-d336-636f">
-      <description>Spell, Magicka 1: This is a Restoration Spell with a range of 6&quot;. Target restores 1 Health point, +1 additional point for each Magicka point spent after the first. Cannot target Atronachs, Undead, or Animunculi.</description>
-    </rule>
-  </sharedRules>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="College of Winterhold" id="a86e-5f78-1763-22f2" targetId="ec55-df7e-efd2-0e38"/>
+  </catalogueLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5182-07ec-790b-ea1c" name="Clan Volkihar" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5182-07ec-790b-ea1c" name="Clan Volkihar" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <categoryEntries>
     <categoryEntry id="3eae-7ac8-0da6-d1d7" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
@@ -26,6 +26,7 @@
               <conditions>
                 <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b7aa-4b7c-29c1-1bb5" type="lessThan"/>
                 <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -67,6 +68,18 @@
         <categoryLink id="0958-4518-eb78-6c54" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="4a5b-76f1-c03c-4cf9" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="989e-d695-ced9-ff78" name="Lord Harkon: Progenitor of the Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="4707-09e4-8041-d28c" type="selectionEntry">
       <categoryLinks>
@@ -90,6 +103,13 @@
         <categoryLink id="3c29-c853-6803-2cdd" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
         <categoryLink id="d892-d312-31a5-3256" name="Lord Harkon Equipment" hidden="false" targetId="67e1-7af2-adcb-147b" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="ef3d-c946-d685-39f9" name="Vingalmo: Volkihar Master Vampire" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="e3cc-9c6c-7980-ac7b" type="selectionEntry">
       <categoryLinks>
@@ -111,13 +131,30 @@
         <categoryLink id="328e-4c34-5067-08c9" name="Vingalmo: Volkihar Master Vampire" hidden="false" targetId="2aaf-aa48-8cc3-28c1" primary="false"/>
         <categoryLink id="7e7d-2cfe-f99b-1bf3" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="e035-9bed-c45f-a481" name="Orthjolf: Clan Advisor" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="6c49-014b-85f6-324d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c413-2e33-e6e4-ffca" type="atLeast"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c413-2e33-e6e4-ffca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <categoryLinks>
@@ -153,6 +190,18 @@
         <categoryLink id="c4e0-67c6-3c52-a5e2" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
         <categoryLink id="87aa-d6bf-f9f3-d1b8" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="4cf8-5f5d-1020-06d3" name="Vampire Mistwalker: Silent Killer" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="cee2-c91f-f24f-0797" type="selectionEntry">
       <categoryLinks>
@@ -169,6 +218,18 @@
         <categoryLink id="7f95-09bd-fa99-c1cc" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
         <categoryLink id="e6d1-3650-b798-6786" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="1f1e-8076-131d-b4c2" name="Gargoyle: Volkihar Sentinel" hidden="false" collective="false" import="true" targetId="6b2b-82ce-b864-2791" type="selectionEntry">
       <categoryLinks>
@@ -176,6 +237,13 @@
         <categoryLink id="64d8-6044-ad7c-0327" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="be61-e212-62d0-c874" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="0df4-2c31-a4ed-3921" name="Vampire: Outcast Dunmer" hidden="false" collective="false" import="true" targetId="4c46-3573-4e24-03bc" type="selectionEntry">
       <categoryLinks>
@@ -185,6 +253,18 @@
         <categoryLink id="ab74-19bd-fae8-6a40" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
         <categoryLink id="f1cf-7858-2aec-c5ed" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="d90c-4ca9-72fe-ab2e" name="Vampire: Outcast Altmer" hidden="false" collective="false" import="true" targetId="1ea3-9d20-4406-078e" type="selectionEntry">
       <categoryLinks>
@@ -194,6 +274,18 @@
         <categoryLink id="4183-ca8b-e471-aff8" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
         <categoryLink id="ee1f-aec7-f831-549a" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="556d-ac0e-8baa-1073" name="Vampire: Outcast Imperial" hidden="false" collective="false" import="true" targetId="438e-4080-c3a7-2a0e" type="selectionEntry">
       <categoryLinks>
@@ -202,6 +294,18 @@
         <categoryLink id="382b-cf6c-f652-c053" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="77e5-cb9b-533f-1ece" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="22e7-a8bf-8096-b42a" name="Vampire Fledgling: Nord Neophyte" hidden="false" collective="false" import="true" targetId="f424-3fc0-4bf3-b691" type="selectionEntry">
       <categoryLinks>
@@ -210,6 +314,18 @@
         <categoryLink id="99c0-3e6d-2bba-ab90" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="5294-7e32-7bec-263e" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="894c-d611-956d-d4d3" name="Vampire Fledgling: Breton Neophyte" hidden="false" collective="false" import="true" targetId="dec8-3018-6801-2f00" type="selectionEntry">
       <categoryLinks>
@@ -218,6 +334,18 @@
         <categoryLink id="770f-a5fe-0e56-7d5f" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="e8cf-0a63-bf81-2017" name="Vampire" hidden="false" targetId="84c5-1d46-80c8-1e38" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="6c13-780e-749b-7d0f" name="Death Hound: Crypt Beast" hidden="false" collective="false" import="true" targetId="f90f-dfd4-1127-74a0" type="selectionEntry">
       <categoryLinks>
@@ -225,6 +353,13 @@
         <categoryLink id="902f-4c07-06e9-a98c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="b484-0417-1119-6fcc" name="Clan Volkihar" hidden="false" targetId="3987-ed35-2c6f-2464" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -259,7 +394,7 @@
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f7bd-62c8-b6e7-4f87" name="Include Shapeshift Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f7bd-62c8-b6e7-4f87" name="Include Shapeshift Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model" defaultAmount="1">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8d-c58a-6b07-848e" type="max"/>
           </constraints>
@@ -317,12 +452,12 @@
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="eb7a-c2e5-e156-1031" name="Include Shapeshift Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry type="model" import="true" name="Include Shapeshift Profile" hidden="false" id="eb7a-c2e5-e156-1031" publicationId="4d6f-8c48-a5ea-e83c" collective="false" defaultAmount="1">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c82-60d9-ffc8-0298" type="max"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c82-60d9-ffc8-0298" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <infoLinks>
-            <infoLink id="eae0-3413-75dd-23ba" name="Vampire Lord: Winged Nightmare (Shapeshift)" hidden="false" targetId="de7a-88f8-b261-5b3a" type="infoGroup"/>
+            <infoLink name="Vampire Lord: Winged Nightmare (Shapeshift)" id="eae0-3413-75dd-23ba" hidden="false" targetId="de7a-88f8-b261-5b3a" type="infoGroup"/>
           </infoLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>

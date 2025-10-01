@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="58b7-2ec8-0e9d-b743" name="Dawnguard" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="58b7-2ec8-0e9d-b743" name="Dawnguard" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <categoryEntries>
     <categoryEntry id="6bec-164e-1258-c553" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
@@ -36,6 +36,11 @@
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="911c-0375-5972-c9e9" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="dfbc-ad9b-1e08-d3b0" name="Ingjard: Vampire Hunter" publicationId="1d0d-fac6-d336-636f" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fea-e411-111e-58fa" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="11f6-da75-08a3-82d6" name="Isran: Commander of the Dawnguard" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="20df-881d-0dc6-3c36" type="selectionEntry">
@@ -57,6 +62,13 @@
         <categoryLink id="b325-c883-d5be-d0dc" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="04aa-45df-e4a0-5b04" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="50fa-849e-2cd0-103e" name="Sorine Jurard: Dwemer Expert" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="290d-af99-e2f9-1b79" type="selectionEntry">
       <categoryLinks>
@@ -71,6 +83,13 @@
         <categoryLink id="20c1-c330-8604-0da4" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="b4d8-f96d-d3c3-095c" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="b84f-dd24-9d31-7d8f" name="Durak: Dawnguard Ranger" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="6c47-ca46-75b3-5cfa" type="selectionEntry">
       <categoryLinks>
@@ -83,6 +102,13 @@
         <categoryLink id="e2e1-5188-b03b-57c4" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink id="bdbd-0cfd-d70b-f646" name="Durak: Dawnguard Ranger" hidden="false" targetId="54a9-0a48-5a02-72c2" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="255d-f37b-ee47-8796" name="Gunmar: Master Blacksmith" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8baa-0a8b-79c1-9c2f" type="selectionEntry">
       <categoryLinks>
@@ -96,6 +122,13 @@
         <categoryLink id="1649-fc00-8344-df76" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="d79c-9473-77ea-3123" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="4f9f-0992-2023-91f5" name="Beleval: Vampire Hunter" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="dada-b2f0-5e0f-6ea5" type="selectionEntry">
       <categoryLinks>
@@ -108,7 +141,15 @@
         <categoryLink id="f514-428c-e968-0ecb" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="6378-2376-cbbd-8f52" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="6e73-6b27-7d69-1035" name="Beleval: Vampire Hunter" hidden="false" targetId="7c8f-0b59-d89d-cba1" primary="false"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="216f-5b9c-7770-587e" primary="false" name="Elf"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="04dc-c0ad-1ae8-ddf0" name="The Dragonborn: Champion of the Dawnguard" hidden="false" collective="false" import="true" targetId="3213-e5af-02e0-727a" type="selectionEntry">
       <categoryLinks>
@@ -153,6 +194,13 @@
         <categoryLink id="d51a-b3eb-9f53-3eae" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
         <categoryLink id="c9a6-0e0e-a7fe-f93a" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="aa5d-df1a-698a-cf46" name="Dawnguard Warrior: Dawnguard Axeman" hidden="false" collective="false" import="true" targetId="d271-5904-40b2-f734" type="selectionEntry">
       <categoryLinks>
@@ -160,6 +208,13 @@
         <categoryLink id="62f5-2208-690b-7ef5" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
         <categoryLink id="d1f8-edb6-cd35-ed6e" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="61cb-d5c7-5cd6-dda6" name="Dawnguard Scout: Dawnguard Crossbow" hidden="false" collective="false" import="true" targetId="e6df-8a75-3664-c83d" type="selectionEntry">
       <categoryLinks>
@@ -167,6 +222,13 @@
         <categoryLink id="c86b-0e57-7589-de0f" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="5642-a03e-0c77-fd4b" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="58a5-5c31-fad7-36a5" name="Sceolang: Armored Hound" hidden="false" collective="false" import="true" targetId="dd27-6fc9-d25a-68ff" type="selectionEntry">
       <categoryLinks>
@@ -175,6 +237,13 @@
         <categoryLink id="4631-0e02-6af0-8b12" name="Sceolang: Armored Hound" hidden="false" targetId="ed45-38f4-08d3-a930" primary="false"/>
         <categoryLink id="f728-01bc-063d-10b2" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="5d3d-b0e9-e06a-11e1" name="Bran: Armored Hound" hidden="false" collective="false" import="true" targetId="52fe-1120-a78e-4143" type="selectionEntry">
       <categoryLinks>
@@ -183,6 +252,13 @@
         <categoryLink id="b470-e809-5f22-18b3" name="Bran: Armored Hound" hidden="false" targetId="552e-212d-c823-1f61" primary="false"/>
         <categoryLink id="a2ba-8ba5-6b5f-d1b9" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="4f6c-4042-e7ae-6b03" name="Armored Troll: Tamed Brute" hidden="false" collective="false" import="true" targetId="f957-5be5-e8ad-d117" type="selectionEntry">
       <categoryLinks>
@@ -190,6 +266,35 @@
         <categoryLink id="e8f5-5864-a034-09ce" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="6311-221e-d46b-de53" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d47a-4f2d-21be-9dcc" name="Ingjard: Vampire Hunter" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" targetId="ec40-6053-1b00-0bd8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f74e-a33a-bcc2-639c" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="c6ae-8b61-e686-e2f7" name="Dawnguard" hidden="false" targetId="8efa-ca32-314e-1157" primary="false"/>
+        <categoryLink id="bb47-f5cd-2a94-4467" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="3ddc-662e-ed67-fd96" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="e0e8-6d9b-1410-9dc0" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="767c-bfdc-06e6-a488" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="19bd-c707-bec4-4dae" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="7c3a-c80d-49d2-4a1f" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink targetId="dfbc-ad9b-1e08-d3b0" id="f5db-5d7c-398b-f96c" primary="false" name="Ingjard: Vampire Hunter"/>
+        <categoryLink targetId="c65e-1c8e-613b-dc01" id="611c-ebd8-3141-da15" primary="false" name="Block Skill"/>
+        <categoryLink targetId="dd8f-4143-9e14-8e73" id="9feb-2716-dacd-bc78" primary="false" name="Speech Skill"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -499,6 +604,50 @@
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="50"/>
         <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="ec40-6053-1b00-0bd8" name="Ingjard: Vampire Hunter" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="28a3-4276-fd14-ae1a" name="Ingjard: Vampire Hunter" hidden="false" targetId="a788-4554-ec62-c697" type="profile"/>
+        <infoLink id="fea2-810b-ef86-bc8e" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="8e4a-c6fb-6c94-b745" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="eec2-df4e-b8bb-0367" name="Perk: Bullseye" hidden="false" targetId="2957-6293-34c9-c462" type="rule"/>
+        <infoLink id="f6e2-a419-cd63-5f72" name="Perk: Champion&apos;s Stance" hidden="false" targetId="6f94-83fa-5b4c-9114" type="rule"/>
+        <infoLink id="72ff-b793-a86a-2c68" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="4a4d-cff3-acc7-c89b" name="Include Leveled Profile" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d625-19c5-a95a-d909" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9e32-5829-e385-1930" name="Ingjard: Vampire Hunter (Leveled)" hidden="false" targetId="64f6-a649-97e8-4cfd" type="profile"/>
+            <infoLink id="fe74-5995-4d8e-5708" name="Perk: Uppercut" hidden="false" targetId="db1e-693f-0bcc-c7db" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="23bd-eb95-22f4-e95b" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="122b-fb1a-e0dc-d5c2" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef1e-22b9-af4a-ec97" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="238b-a1d9-8210-0211" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="43"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Quick Hands" id="12f3-bcd6-edf8-72a5" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Ingjard may exchange an equipped Crossbow for another Weapon in her inventory as a Free Action, even while Engaged.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -928,6 +1077,64 @@ Heavy Armor</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">3</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dawnguard</characteristic>
       </characteristics>
+    </profile>
+    <profile id="a788-4554-ec62-c697" name="Ingjard: Vampire Hunter" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bullseye, Champion&apos;s Stance, Intimidation</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Quick Hands</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dawnguard</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+      <alias>Ingjard</alias>
+    </profile>
+    <profile id="64f6-a649-97e8-4cfd" name="Ingjard: Vampire Hunter (Leveled)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Bullseye, Champion&apos;s Stance, Intimidation, Uppercut</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Quick Hands</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Archery</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>Ingjard</alias>
     </profile>
   </sharedProfiles>
   <catalogueLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="d13b-b60d-5b97-72c9" name="Stormcloaks" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <categoryEntries>
     <categoryEntry id="245b-f545-323f-330b" name="Yrsarald Thrice-Pierced: Stormcloak Commander" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <comment>Leveled: Done</comment>
@@ -52,6 +52,13 @@
         <categoryLink id="fa97-e05b-bf86-f5bc" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="1fba-1dbf-ef21-55d2" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="9555-1bf2-b2e8-ea0a" name="Ralof: Warrior Of The Resistance" hidden="false" collective="false" import="true" targetId="21a6-9354-a670-7d61" type="selectionEntry">
       <categoryLinks>
@@ -66,6 +73,13 @@
         <categoryLink id="859a-4ffb-723a-699f" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="1ea6-98c9-1e20-42e8" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="b2bf-245d-2324-6d0d" name="Ulfric Stormcloak: Bear Of Markarth" hidden="false" collective="false" import="true" targetId="cce6-1ffb-f196-25c2" type="selectionEntry">
       <categoryLinks>
@@ -82,6 +96,13 @@
         <categoryLink id="0a00-2312-9d2e-2599" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="76d2-dbab-6411-71e2" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="738e-ccd6-a40d-54ca" name="Thorygg Sun-Killer: Commander Of Falkreath" hidden="false" collective="false" import="true" targetId="a953-b8fa-102e-2208" type="selectionEntry">
       <categoryLinks>
@@ -95,6 +116,13 @@
         <categoryLink id="cc1a-daac-040a-7a7c" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="a6cf-a74f-e883-6d79" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="5f3f-bd91-d597-ee47" name="Stormcloak General: True Son Of Skyrim" hidden="false" collective="false" import="true" targetId="228f-2ebc-e6d7-6c10" type="selectionEntry">
       <categoryLinks>
@@ -108,6 +136,13 @@
         <categoryLink id="ab39-18d6-455e-413f" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="eec9-b000-b2c3-15d5" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="edd1-250b-f147-8164" name="Gonnar Oath-Giver: Commander Of The Rift" hidden="false" collective="false" import="true" targetId="b3e1-defb-8c00-0929" type="selectionEntry">
       <categoryLinks>
@@ -124,6 +159,13 @@
         <categoryLink id="392c-f3e7-83e1-e066" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="d475-ef2c-2186-cbb7" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="d6dd-a0f8-c780-f661" name="Galmar Stone-Fist: Chosen Of Ulfric" hidden="false" collective="false" import="true" targetId="7451-dfba-1edf-bd47" type="selectionEntry">
       <categoryLinks>
@@ -137,6 +179,13 @@
         <categoryLink id="043a-4682-4d01-3ade" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="9dce-9613-d16b-e855" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="f165-e91a-36c8-07cf" name="Stormcloak Soldier: Greatsword" hidden="false" collective="false" import="true" targetId="48fe-6e1d-fafb-db4f" type="selectionEntry">
       <categoryLinks>
@@ -144,6 +193,13 @@
         <categoryLink id="7e7c-bf8d-ab23-94f0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="7997-3846-b9d3-1334" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="e9da-dbb7-9d24-1bf3" name="Stormcloak Soldier: Huntsman" hidden="false" collective="false" import="true" targetId="a2f2-3da2-08d5-a868" type="selectionEntry">
       <categoryLinks>
@@ -151,6 +207,13 @@
         <categoryLink id="5f80-4db3-cc89-944e" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="1ead-9486-1216-04ed" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="cf96-828f-4622-3551" name="Stormcloak Soldier: Dual Wielding Axes" hidden="false" collective="false" import="true" targetId="2f5e-b8e4-d276-f2f3" type="selectionEntry">
       <categoryLinks>
@@ -158,6 +221,13 @@
         <categoryLink id="c052-1be7-a9cc-24c8" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="0db0-2ed9-a377-c2b6" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="dddb-ea83-7f4e-1bf3" name="Stormcloak Soldier: Linebreaker" hidden="false" collective="false" import="true" targetId="b089-2476-8b56-5629" type="selectionEntry">
       <categoryLinks>
@@ -165,6 +235,13 @@
         <categoryLink id="8712-918b-0026-479a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="bb18-3e83-5ea9-c2af" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="4485-2871-5181-78df" name="Stormcloak Soldier: Axe-Fighter" hidden="false" collective="false" import="true" targetId="d2ce-9d7f-a09a-58da" type="selectionEntry">
       <categoryLinks>
@@ -172,6 +249,13 @@
         <categoryLink id="0d6b-9f14-9d7e-5515" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="f6f8-eba7-779f-d798" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="31a6-e99b-df9d-a720" name="Stormcloak Soldier: Dual Wielding Swords" hidden="false" collective="false" import="true" targetId="9326-a58e-87d8-067b" type="selectionEntry">
       <categoryLinks>
@@ -179,6 +263,13 @@
         <categoryLink id="e4d5-b4a5-ce9f-a49d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="9a6d-e112-26ed-caa5" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="f55c-0c0e-015b-abb7" name="Stormcloak Soldier: Shieldbearer" hidden="false" collective="false" import="true" targetId="b4bd-0065-60dd-dd07" type="selectionEntry">
       <categoryLinks>
@@ -186,6 +277,13 @@
         <categoryLink id="faac-635f-2162-ba30" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="b7c6-3ac7-a7fd-42be" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="8283-431e-33fd-58dc" name="Stormcloak Soldier: Swordsman" hidden="false" collective="false" import="true" targetId="bf73-1f9d-e16f-ae65" type="selectionEntry">
       <categoryLinks>
@@ -193,6 +291,13 @@
         <categoryLink id="61a1-e787-8cad-4fdc" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="deaa-d590-ac94-907b" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="f013-cee2-1f71-2192" name="Stormcloak Soldier: Archer" hidden="false" collective="false" import="true" targetId="ee9d-a8bf-9386-34e1" type="selectionEntry">
       <categoryLinks>
@@ -200,6 +305,13 @@
         <categoryLink id="3f6b-7cff-0fbb-2823" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="d75b-4028-3b99-7bcb" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="9b41-9891-a451-75d3" name="Yrsarald Thrice-Pierced: Stormcloak Commander (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" targetId="3695-1b03-32b6-9748" type="selectionEntry">
       <categoryLinks>
@@ -212,6 +324,13 @@
         <categoryLink id="3a24-529a-840b-2378" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="4d68-4ee5-3b77-1245" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="aba0-70fd-7089-5a00" name="The Dragonborn: Champion of Skyrim" hidden="false" collective="false" import="true" targetId="2038-fbad-32c1-0729" type="selectionEntry">
       <categoryLinks>

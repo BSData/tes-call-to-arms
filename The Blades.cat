@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="612d-d6be-e14b-5247" name="The Blades" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="612d-d6be-e14b-5247" name="The Blades" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <comment>HEROES DONE</comment>
   <categoryEntries>
     <categoryEntry id="143c-025e-9602-885e" name="Delphine: The Hidden Blade" publicationId="2733-0fd1-3311-3be2" hidden="false">
@@ -73,6 +73,7 @@
         <categoryLink id="3a49-af80-cbdb-d5a2" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="8b51-8093-8b78-e72f" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="6359-15c3-0510-e753" primary="false" name="Hireling Count"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="abba-b761-cc2a-bd40" primary="false" name="Elf"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bb5c-5e69-4fa3-ae15" name="Altmer Legionary: Sheathed Blade" hidden="true" collective="false" import="true" targetId="2cd9-3741-75ff-64bf" type="selectionEntry">
@@ -111,6 +112,7 @@
         <categoryLink id="6e0e-2ce2-c17a-b747" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
         <categoryLink id="d584-7df9-b1f5-5574" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="478d-973d-594e-edd9" primary="false" name="Hireling Count"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="c2e9-e09f-44b7-a829" primary="false" name="Elf"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bba4-efe1-d70e-28f8" name="Argonian Cutthroat: Sheathed Blade" hidden="true" collective="false" import="true" targetId="d397-52b6-f1f6-4b24" type="selectionEntry">
@@ -224,6 +226,7 @@
         <categoryLink id="2b77-ad79-62ff-d342" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="fe1c-c3c3-c42c-62a3" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="64bd-02b6-5f87-8556" primary="false" name="Hireling Count"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="d631-fdaa-c347-f92b" primary="false" name="Elf"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5183-f1be-2232-4aef" name="Bosmer Vigil: Sheathed Blade" hidden="true" collective="false" import="true" targetId="1090-812f-d203-f854" type="selectionEntry">
@@ -262,6 +265,7 @@
         <categoryLink id="36e7-90f0-2084-2359" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="f88a-2afb-1669-7551" name="Bosmer Vigil: Sheathed Blade" hidden="false" targetId="b22d-4638-c152-65ac" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="5240-1407-6e10-5746" primary="false" name="Hireling Count"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="b4ce-6499-7831-ca87" primary="false" name="Elf"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5a33-d975-5e74-d84d" name="Breton Destruction Mage: Sheathed Blade" hidden="true" collective="false" import="true" targetId="5e9d-3f8e-4d31-ecd3" type="selectionEntry">
@@ -368,6 +372,8 @@
         <categoryLink id="8bd3-55a4-74d0-f309" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="0116-c984-09f3-abe7" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="5c0b-f32e-49f0-fd33" primary="false" name="Hireling Count"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="08aa-14d7-0f23-9b19" primary="false" name="Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="de20-155b-9be0-3256" primary="false" name="Elf"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5578-cfd8-2730-a98c" name="Dunmer Twinblade: Sheathed Blade" hidden="true" collective="false" import="true" targetId="87e4-15d3-4105-7b8d" type="selectionEntry">
@@ -405,6 +411,8 @@
         <categoryLink id="9e73-a9c3-dc33-42ee" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="00f3-a619-43cb-6276" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="50d4-28ea-3a6d-b0a4" primary="false" name="Hireling Count"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="dac6-b8d0-a4e6-b3a4" primary="false" name="Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="a87f-f842-7568-a436" primary="false" name="Elf"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4573-e64e-2e63-df0b" name="Imperial Destruction Mage: Sheathed Blade" hidden="true" collective="false" import="true" targetId="a5a3-5e5f-8530-6ecf" type="selectionEntry">

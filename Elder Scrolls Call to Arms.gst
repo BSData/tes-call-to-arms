@@ -4,7 +4,7 @@
 
 Prior releases: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers*
 
-TODO: STAG Followers, Chapter 3 Followers (Double-check?)
+TODO: Chapter 3 Followers (Double-check?)
 Low Priority: Adversaries</comment>
   <publications>
     <publication id="4d6f-8c48-a5ea-e83c" name="BRB (2025)" shortName="BRB (5-23)" publisher="The Elder Scrolls: Call to Arms Revised Rulebook (May 2023)" publicationDate="2025" publisherUrl="https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads"/>
@@ -164,18 +164,38 @@ Low Priority: Adversaries</comment>
       <characteristicTypes>
         <characteristicType name="Race" id="b0e3-4005-9d4e-a996"/>
         <characteristicType name="Attitude" id="dd44-73e1-d6e0-5812"/>
-        <characteristicType name="Attack Profile Table" id="f82b-2be9-8434-72cd"/>
+        <characteristicType name="Attacks" id="f82b-2be9-8434-72cd"/>
         <characteristicType name="Armor" id="8856-0073-7582-124b"/>
-        <characteristicType name="Additional Defenses" id="e4ef-cacf-817d-fe47"/>
         <characteristicType name="Keywords" id="e7c5-6dfa-2015-ef09"/>
-        <characteristicType name="Strength" id="1b12-952b-2436-a83c"/>
-        <characteristicType name="Agility" id="fb49-1ec9-8b68-1423"/>
-        <characteristicType name="Endurance" id="b489-6dff-b74d-f72b"/>
-        <characteristicType name="Intelligence" id="1fb9-2ec5-d6cd-5048"/>
-        <characteristicType name="Wisdom" id="7c66-db49-3e04-f5b9"/>
-        <characteristicType name="Health" id="7f35-99bd-41e5-cf1d"/>
-        <characteristicType name="Height" id="fb9c-d714-46de-bcab"/>
-        <characteristicType name="Primary Faction" id="9705-84c5-abb5-a968"/>
+        <characteristicType name="Abilities" id="1b12-952b-2436-a83c"/>
+        <characteristicType name="Strength" id="fb49-1ec9-8b68-1423"/>
+        <characteristicType name="Agility" id="b489-6dff-b74d-f72b"/>
+        <characteristicType name="Endurance" id="1fb9-2ec5-d6cd-5048"/>
+        <characteristicType name="Intelligence" id="7c66-db49-3e04-f5b9"/>
+        <characteristicType name="Wisdom" id="7f35-99bd-41e5-cf1d"/>
+        <characteristicType name="Health" id="fb9c-d714-46de-bcab"/>
+        <characteristicType name="Height" id="9705-84c5-abb5-a968"/>
+        <characteristicType name="Primary Faction" id="33fa-d0ea-d0c6-f092"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="EC: Attack List" id="3eed-cdfe-6697-1378" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Melee Attack 1" id="4528-fe72-9af8-eb63"/>
+        <characteristicType name="Melee Attack 2" id="6027-b54c-adcd-0843"/>
+        <characteristicType name="Melee Attack 3" id="819c-6f62-6841-fa43"/>
+        <characteristicType name="Melee Attack 4" id="14c2-f947-a031-aa35"/>
+        <characteristicType name="Melee Attack 5" id="ac4e-f617-91b6-a440"/>
+        <characteristicType name="Ranged Attack 1" id="2b79-2169-5fb0-ee08"/>
+        <characteristicType name="Ranged Attack 2" id="0f23-e8a4-9c13-0798"/>
+        <characteristicType name="Ranged Attack 3" id="1b3e-90f4-668d-88f0"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="EC: Response Matrix" id="1549-97d8-74cf-5961" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="[HELMET]" id="dd82-a030-a39d-3378"/>
+        <characteristicType name="[DOTS]" id="d176-4ed5-d2ff-403a"/>
+        <characteristicType name="[SWORDS/OBLIVION]" id="f105-1cce-b7c8-ffc1"/>
+        <characteristicType name="Target Priority" id="d168-4ef7-1042-e358"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -228,7 +248,7 @@ Low Priority: Adversaries</comment>
       </constraints>
     </categoryEntry>
     <categoryEntry id="33d2-88f5-d917-7106" name="The Blades" publicationId="2733-0fd1-3311-3be2" hidden="false"/>
-    <categoryEntry id="54df-deb0-bc89-bd29" name="Bonus Quick Slot: Thieves&apos; Guild" hidden="false"/>
+    <categoryEntry id="54df-deb0-bc89-bd29" name="Bonus Quick Slot: Thieves&apos; Guild Armor" hidden="false"/>
     <categoryEntry id="2b0f-1265-0b4f-1046" name="College Of Winterhold" hidden="false"/>
     <categoryEntry id="b7fd-4d1f-7ee7-2c7b" name="Bonus Quick Slot: Perk: Extra Pockets" hidden="false"/>
     <categoryEntry id="917c-eb56-30eb-a720" name="Born Leader" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false"/>
@@ -239,7 +259,7 @@ Low Priority: Adversaries</comment>
     </categoryEntry>
     <categoryEntry id="ca71-7b4a-9967-eaae" name="Dragon Shouts" publicationId="4d6f-8c48-a5ea-e83c" page="74" hidden="false"/>
     <categoryEntry id="6119-a6c8-2eb1-6092" name="Dragon Shouts: Ulfric" hidden="false"/>
-    <categoryEntry id="4347-a391-1fca-ce31" name="The Thieves&apos; Guild" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
+    <categoryEntry id="4347-a391-1fca-ce31" name="Thieves&apos; Guild" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
     <categoryEntry id="e991-bd09-65f0-2451" name="Bow" hidden="false"/>
     <categoryEntry id="6f69-9fe1-93c1-2909" name="Imperial Headsman Equipment" publicationId="a37b-3a3b-faf7-0732" hidden="false">
       <constraints>
@@ -325,7 +345,7 @@ Low Priority: Adversaries</comment>
       </constraints>
     </categoryEntry>
     <categoryEntry id="c413-2e33-e6e4-ffca" name="Elf is Party Champion (Orthjolf)" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
-    <categoryEntry id="5a63-c7de-3c2a-78cb" name="The Companions" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
+    <categoryEntry id="5a63-c7de-3c2a-78cb" name="Companions" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
     <categoryEntry id="51b3-8593-8f15-b9f5" name="The Silver Hand" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
     <categoryEntry name="Thalmor" id="ff7a-e4f7-2845-6f78" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
     <categoryEntry name="Werewolf" id="f71c-90c3-abdf-17ee" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
@@ -335,12 +355,93 @@ Low Priority: Adversaries</comment>
       <comment>referenced only</comment>
     </categoryEntry>
     <categoryEntry name="Commander Maro (Character)" id="b3c9-7fc0-a758-b922" hidden="false"/>
+    <categoryEntry id="8f46-4e02-54b3-0331" name="Red Eagle is Champion (First Among Reachmen)" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
+    <categoryEntry name="Dunmer" id="6df4-3d08-99df-65d2" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Dragon Priest Mask: Nahkriin" id="22fb-a470-48da-9dd0" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6193-291e-f25d-7c3b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Otar" id="2139-8728-fb79-6aec" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e578-6047-567c-b461" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Rahgot" id="0f2b-d6bf-5377-35f4" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d8ce-ad5b-5ec3-0511" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Vokun" id="6d2e-faf9-c872-6cf6" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4213-44bc-b47d-92ce" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Volsung" id="30a9-816d-c4b7-9678" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f863-cdc8-75f6-9d1b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Hevnoraak" id="b919-38cd-0d67-c2e2" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6166-fe8e-fe87-ec45" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Krosis" id="1af6-bd22-f674-9a5b" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="738f-f75d-cf8f-27e4" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Morokei" id="1d6e-cdf4-53b0-bc9a" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4433-653f-ed2e-311e" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest" id="a7bc-d0b1-60c3-565c" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
+    <categoryEntry id="b81f-c895-63cc-6f92" name="Erandur Signature Loot" publicationId="a37b-3a3b-faf7-0732" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="342c-1811-f671-668a" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="4a66-c927-fa25-461c" name="Red Eagle Signature Loot" publicationId="1d0d-fac6-d336-636f" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3273-a216-5e85-448c" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="f893-d9d8-91f2-431e" name="DB Champ. of Mehrunes Dagon Signature Loot" publicationId="1d0d-fac6-d336-636f" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c713-9cd1-a71a-ff9a" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="6a3b-af04-871d-c135" name="Sigdis Gauldurson Signature Loot" publicationId="1d0d-fac6-d336-636f" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d498-6494-e7be-082f" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="05b9-89b4-2f50-4ec6" name="DB Champ. of Boethia Signature Loot" publicationId="1d0d-fac6-d336-636f" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dd2-8943-435c-c74c" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="bfba-eee6-2dc7-9e75" name="Arondil Spell" publicationId="1d0d-fac6-d336-636f" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a09a-56a8-2ea5-6f49" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Crossbow" id="cf38-09fe-916f-c394" hidden="false" publicationId="fc6a-2d15-ff0e-9318"/>
+    <categoryEntry name="Entourage" id="93a3-401a-3569-2893" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
       <categoryLinks>
         <categoryLink id="d5be-41bd-807a-4bd8" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="false"/>
         <categoryLink id="0c8c-a792-3d9b-7bef" name="Reference" hidden="false" targetId="322e-38ea-bf3e-c785" primary="false"/>
+        <categoryLink id="a40f-b709-d084-d1de" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="139f-9c43-f37b-a8c5" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="076c-23b0-3d7f-ca04" type="min"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="2917-ac51-3fdc-e3f4" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -350,12 +451,7 @@ Low Priority: Adversaries</comment>
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink id="a40f-b709-d084-d1de" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="139f-9c43-f37b-a8c5" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="076c-23b0-3d7f-ca04" type="min"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink name="Entourage" hidden="false" id="2029-c378-3517-534e" targetId="93a3-401a-3569-2893"/>
         <categoryLink id="16ed-aaab-4536-c160" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="false">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -420,7 +516,7 @@ Low Priority: Adversaries</comment>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="4c5a-74b5-7ae8-4547" name="Include FAQ" publicationId="7808-76cd-3ab8-6f86" hidden="false" collective="false" type="upgrade" defaultAmount="0">
+    <selectionEntry id="4c5a-74b5-7ae8-4547" name="Include FAQ" publicationId="7808-76cd-3ab8-6f86" hidden="true" collective="false" type="upgrade" defaultAmount="0">
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7ac-2b12-7857-d5cc" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f2-649b-7e41-b1f0" type="max"/>
@@ -536,6 +632,66 @@ A: Yes</description>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Include Epic Creature Response Matrices in Rules Summary" hidden="true" id="ec3c-7c34-5e74-089d" publicationId="1d0d-fac6-d336-636f" collective="false" defaultAmount="0">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dde1-ec79-13c7-2bbc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bb7-dc2a-6fc1-8379" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="99e4-1cf4-d34b-5316" targetId="322e-38ea-bf3e-c785" primary="true"/>
+        <categoryLink name="Configuration" hidden="false" id="8e1e-8fd4-84d1-6c45" targetId="fb89-efb1-54e4-59c5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Include Epic Creature Situation Tables in Profiles" hidden="true" id="dae1-93bd-7ee1-fee0" publicationId="1d0d-fac6-d336-636f" collective="false" defaultAmount="0">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c92f-bf21-ffe9-2b7f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f364-0e41-3db7-f69a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="d683-6c1e-060e-a6a4" targetId="322e-38ea-bf3e-c785" primary="true"/>
+        <categoryLink name="Configuration" hidden="false" id="7403-b66d-3dbe-0a46" targetId="fb89-efb1-54e4-59c5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Include Epic Creature Attack Profiles in Rules Summary" hidden="true" id="cd24-72a5-d8b3-ffe4" publicationId="1d0d-fac6-d336-636f" collective="false" defaultAmount="0">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8fe0-12ce-1d61-669b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae35-6cc8-2517-4d5b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="9d87-fb3f-fc42-52ad" targetId="322e-38ea-bf3e-c785" primary="true"/>
+        <categoryLink name="Configuration" hidden="false" id="42c8-9cc1-0b3d-a31a" targetId="fb89-efb1-54e4-59c5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="1626-96ed-31f6-7b05" name="Army Faction" hidden="false" collective="false" import="true" targetId="c133-8449-d9b5-c18b" type="selectionEntry">
@@ -545,30 +701,6 @@ A: Yes</description>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="bd0c-e99d-1db7-781f" name="Draugr: Ancient Nord Sword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="2e14-41d0-1440-9b00" name="Draugr: Ancient Nord Sword" hidden="false" targetId="fbc4-9bd5-aac2-45d7" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="972b-2934-b04f-d553" name="Draugr: Steel Shield" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="7c02-b397-80dd-332e" name="Draugr: Steel Shield" hidden="false" targetId="b204-c0b4-3787-f593" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4463-fb08-a70c-d685" name="Draugr: Studded Leather" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="3d2c-d244-8151-0990" name="Draugr: Studded Leather" hidden="false" targetId="0dc2-8dc6-c1e0-1766" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="7d00-747c-e971-04ef" name="Draugr: Ancient Nord Greatsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1ad3-b36b-7258-7e12" name="Draugr: Ancient Nord Greatsword" hidden="false" targetId="1319-ba3d-ce04-a418" type="profile"/>
@@ -576,75 +708,8 @@ A: Yes</description>
         <infoLink id="5ec2-c200-b6a2-63c8" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="918d-0dd5-1b7e-f33c" name="Draugr: Ancient Nord Armor" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="d21e-3233-6a95-d0a3" name="Draugr: Ancient Nord Armor" hidden="false" targetId="dcdc-facd-8a0b-72a3" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6f7d-406a-a58b-9971" name="Draugr: Greater Ward" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e391-bdc3-fcc7-b2b8" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="81f4-30d0-85e4-817c" name="Draugr: Greater Ward (Spell Form)" hidden="false" targetId="8e6d-1993-1da8-9c5b" type="profile"/>
-        <infoLink id="97d9-aad8-1803-513f" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
-        <infoLink id="d494-7b36-bfa0-b6a7" name="Ward" hidden="false" targetId="3d9c-60d6-c292-9672" type="rule"/>
-        <infoLink id="f37e-74e1-ec80-46de" name="Draugr: Greater Ward (Shield Form)" hidden="false" targetId="c60a-1eab-880b-79b7" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7490-251c-5e96-911b" name="Draugr: Command Daedra" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Unique?</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92b2-6381-ee24-e92c" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="0a65-7d52-14d1-b2c8" name="Draugr: Command Daedra" hidden="false" targetId="43cd-ec0e-ac00-9b01" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7b4b-2a8f-5e6b-fa8a" name="Draugr: Ice Spike" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adfa-563a-69d5-1e2c" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="821e-16b4-b87d-1fe8" name="Ice Spike" hidden="false" targetId="cc87-e3a2-8cf6-1ac4" type="profile"/>
-        <infoLink id="0cc3-36eb-b785-131e" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a102-1e2e-090d-8b38" name="Draugr: Staff Of Fireballs" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="8b2f-0e16-615c-0955" name="Draugr: Staff Of Fireballs" hidden="false" targetId="1524-c20e-106c-ff8f" type="profile"/>
-        <infoLink id="10c8-3535-1478-8073" name="Soul Charges (X)" hidden="false" targetId="f2b0-c6d4-69f2-eff6" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b420-fb43-3267-e702" name="Draugr: Ice Storm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284e-4dfa-d32b-0a6e" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="3efd-636a-29f2-96de" name="Ice Storm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="37e5-2f66-87af-739b" type="profile"/>
-        <infoLink id="454e-3f0e-f3da-a054" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
-        <infoLink id="8c6d-b2da-8fbc-a716" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb20-7999-4652-5e2d" name="Draugr: Ancient Nord Bow" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
@@ -655,142 +720,8 @@ A: Yes</description>
         <categoryLink id="a3d6-a790-2ad5-c3b3" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e033-f3d4-26dc-4dd5" name="Draugr: Weapon Enchantment: Ancient Nord Weapon" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="7ae4-caee-a0cb-ae8c" name="Draugr: Enchantment: Ancient Nord Weapon" hidden="false" targetId="5afc-0284-bd98-43cf" type="profile"/>
-        <infoLink id="62ba-3258-9b18-dc10" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6cf7-9dbb-3d17-005a" name="Draugr: Weapon Upgrade: Honed Nord Weapon" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>unused</comment>
-      <infoLinks>
-        <infoLink id="6ebf-0c7b-2cc8-ec85" name="Draugr: Upgrade: Honed Nord Weapon" hidden="false" targetId="39c3-9584-90a0-6e8a" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="55bc-1e6a-56d2-25da" name="Draugr: Ebony Sword" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e0f6-5a5b-d56a-7e6c" name="Draugr: Ebony Sword" hidden="false" targetId="2051-5777-1151-6f6f" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8437-23d7-d63a-0fb4" name="Draugr: Ebony War Axe" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="cedd-8b92-3b96-a1fc" name="Draugr: Ebony War Axe" hidden="false" targetId="06c6-4539-7cdf-242f" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="7"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="62eb-18d7-1506-fba0" name="Draugr: Ebony Greatsword" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="dfe9-c8db-0b35-a07d" name="Draugr: Ebony Greatsword" hidden="false" targetId="bbce-236f-de13-7336" type="profile"/>
-        <infoLink id="7860-aa85-6517-c3db" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
-        <infoLink id="237d-2e57-ed71-d6cc" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
-      </infoLinks>
-      <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8b01-d412-cfc1-1417" name="Draugr: Ebony Battleaxe" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="445e-627b-8615-b527" name="Draugr: Ebony Battleaxe" hidden="false" targetId="0fba-382a-7938-2a06" type="profile"/>
-        <infoLink id="c1ed-5c03-f329-12c0" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
-        <infoLink id="c469-f87b-03e0-d885" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="054e-82eb-d5c7-2d74" name="Draugr: Conjure Frost Atronach" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc4-87b5-bd4f-ea55" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="d4ab-6b96-164e-2276" name="Draugr: Conjure Frost Atronach" hidden="false" targetId="39f0-06d2-1866-d14f" type="profile"/>
-        <infoLink id="8a05-2615-b647-6f04" name="Summon Spell Type" hidden="false" targetId="2cf8-68b6-d491-56ce" type="infoGroup"/>
-        <infoLink id="a604-044f-1872-b2c6" name="Frost Atronach: Summoned Creature" hidden="false" targetId="1ce8-87b6-e792-7578" type="infoGroup"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b75e-85a2-62e8-672f" name="Draugr: Frostbite" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c2f-3bdc-cb0a-7839" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="6530-0aee-48c9-dec0" name="Frostbite" hidden="false" targetId="04fb-9a51-55d9-bd16" type="profile"/>
-        <infoLink id="cdf3-bc9b-6594-5fb9" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="44b3-0ce2-44ab-2368" name="Draugr: Disarm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ab-9ecd-ae18-8810" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="bd32-364c-77a7-3224" name="Disarm" hidden="false" targetId="c7a7-6484-3839-a549" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="afe1-9d24-b32f-72a9" name="Draugr: Frost Breath" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ffe-0cb8-aaa5-de3a" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="0c5d-668c-dfb8-a9f7" name="Frost Breath" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="f129-fc81-20c8-f3b7" type="profile"/>
-        <infoLink id="ef68-9252-c581-8f34" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6ffa-b2e1-f2a1-6400" name="Draugr: Unrelenting Force" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f8-0df3-36eb-5dce" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="9038-2aac-b7b2-8573" name="Unrelenting Force" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="46a9-5ec2-208d-5031" type="profile"/>
-        <infoLink id="0a0d-6bd8-f68c-42d8" name="Damage Type: Force" hidden="false" targetId="1c80-ddbe-173a-056e" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e23c-1675-e116-f35c" name="Armor Enchantment: Muffle" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
@@ -1222,7 +1153,7 @@ A: Yes</description>
         <infoLink id="5ffc-ab8c-a69f-9beb" name="Thieves&apos; Guild Armor" hidden="false" targetId="5a3f-268b-66e6-1a8a" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="02bf-4840-ab60-e676" name="Bonus Quick Slot: Thieves&apos; Guild" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
+        <categoryLink id="02bf-4840-ab60-e676" name="Bonus Quick Slot: Thieves&apos; Guild Armor" hidden="false" targetId="54df-deb0-bc89-bd29" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="13"/>
@@ -1263,7 +1194,6 @@ A: Yes</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="753e-4509-492b-b709" name="General Tullius&apos; Armor" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Implement Restrictions</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12df-b05a-1a2c-ff5e" type="max"/>
       </constraints>
@@ -1545,8 +1475,8 @@ A: Yes</description>
     </selectionEntry>
     <selectionEntry id="2ebc-d860-e111-a849" name="Become Ethereal" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a7ba-a60a-a843-0ab5" name="Ethereal" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
         <infoLink id="b089-bd92-2bdc-ba24" name="Become Ethereal" hidden="false" targetId="e71b-e54f-981a-a6e7" type="profile"/>
+        <infoLink name="Ethereal" id="0542-3bcd-8cd6-6b9f" hidden="false" type="rule" targetId="0550-3332-7a93-ab5b"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14"/>
@@ -1694,6 +1624,7 @@ A: Yes</description>
       </constraints>
       <infoLinks>
         <infoLink id="bea2-8779-bb99-9f62" name="Zephyr" hidden="false" targetId="6ae8-291a-e924-0456" type="profile"/>
+        <infoLink name="Enchanted" id="9b3d-d55d-9cca-f7ee" hidden="false" type="rule" targetId="1875-9b07-2a07-aacc"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0cad-f1ca-8e9b-a64a" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
@@ -1703,7 +1634,6 @@ A: Yes</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="48a1-e1cb-7be6-c378" name="Grimsever" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Implement Restrictions</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7311-752b-492d-185f" type="max"/>
       </constraints>
@@ -1881,7 +1811,7 @@ A: Yes</description>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4dc7-8d71-e109-1be6" name="Skyforge Sword" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4dc7-8d71-e109-1be6" name="Skyforge (Steel) Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e44b-3997-7f03-ef56" name="Skyforge Sword" hidden="false" targetId="142f-78a3-0eed-4702" type="profile"/>
       </infoLinks>
@@ -2001,7 +1931,7 @@ A: Yes</description>
     </selectionEntry>
     <selectionEntry id="276f-8bbc-5214-0e4e" name="Elven Dagger" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c785-8dd3-c737-8913" name="Orcish Dagger" hidden="false" targetId="26d8-af5b-a3dd-f75a" type="profile"/>
+        <infoLink id="c785-8dd3-c737-8913" name="Elven Dagger" hidden="false" targetId="e5c6-c5f8-4e82-f87b" type="profile"/>
         <infoLink id="293e-4dc5-254e-e30f" name="Lightweight" hidden="false" targetId="8195-f68e-fd76-784f" type="rule"/>
       </infoLinks>
       <costs>
@@ -2143,18 +2073,6 @@ A: Yes</description>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ecce-3b6e-1347-25ac" name="Draugr: Frost Cloak" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Unique?</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ac-359e-5544-4151" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="b2b6-4bd5-120e-4f26" name="Draugr: Frost Cloak" hidden="false" targetId="a0df-04b5-7a9c-336e" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="909f-ed2e-331d-8703" name="Bound Sword (Spell)" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
@@ -2733,13 +2651,13 @@ A: Yes</description>
           </modifiers>
           <comment>done</comment>
         </selectionEntry>
-        <selectionEntry id="bca9-22d3-2c89-c812" name="The Companions" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bca9-22d3-2c89-c812" name="Companions" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e760-181e-b1ae-1208" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d65-c8cc-499e-1b63" type="min"/>
           </constraints>
           <rules>
-            <rule id="c1a2-3f8b-14f2-6d97" name="The Companions Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
+            <rule id="c1a2-3f8b-14f2-6d97" name="Companions Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
               <description>At least half (50%) of the models in the Party must be from the Path of Might. At least a quarter (25%) of the models in the Party must be Heroes. No more than a quarter (25%) of the Party&apos;s models may be Hirelings. Models with the Companions Faction icon may be included as Hirelings in another party, unless that party&apos;s composition restrictions specify otherwise.</description>
               <alias>The Companions</alias>
               <alias>Companion</alias>
@@ -2758,7 +2676,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
           <modifiers>
-            <modifier type="add" value="At least 50% of models in The Companions Party must have Path of Might." field="error">
+            <modifier type="add" value="At least 50% of models in Companions Party must have Path of Might." field="error">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -2768,7 +2686,7 @@ A: Yes</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="add" value="No more than 25% of models in The Companions Party can be Hirelings." field="error">
+            <modifier type="add" value="No more than 25% of models in Companions Party can be Hirelings." field="error">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -2778,7 +2696,7 @@ A: Yes</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="add" value="At least 25% of models in The Companions Party must be Heroes." field="error">
+            <modifier type="add" value="At least 25% of models in Companions Party must be Heroes." field="error">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -2962,6 +2880,21 @@ A: Yes</description>
             <rule id="1bfb-5787-6351-5fc1" name="Draugr Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
               <description>The Party Champion must be the faction Hero with the highest total Septim value, unless a model has the Born Leader rule. If several Eligible models have the Born Leader rule, the one with the highest total Septim cost takes precedence. Draugr Parties cannot include Hirelings except for Necromancers, Dragons, and Frostbite Spiders. No more than a quarter (25%) of the Party’s models may be Hirelings.</description>
               <alias>Draugr</alias>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="The Party Champion must be the faction Hero with the highest total Septim value, unless a model has the Born Leader rule. If several Eligible models have the Born Leader rule, the one with the highest total Septim cost takes precedence.
+
+[The Party Champion is Red Eagle: Ancient One, which changes the Composition rules to the following:
+- This Party can only include Necromancer, Dragon, Frostbite Spider, and Bandits Faction models as Hirelings
+- No more than half (50%) of the Party’s models may be Hirelings.]" field="description"/>
+                    <modifier type="set" value="Draugr Party Composition (First Among Reachmen)" field="name"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
             </rule>
           </rules>
           <categoryLinks>
@@ -2976,7 +2909,7 @@ A: Yes</description>
             <infoLink name="Limited Shouts" id="560b-1c8f-3ce3-4ca0" hidden="false" type="rule" targetId="1472-d522-b6c0-8aae"/>
             <infoLink name="Mysterious Purpose" id="4eac-c0e9-eb78-ecfe" hidden="false" type="rule" targetId="5824-c51c-0e91-d0f7"/>
           </infoLinks>
-          <comment>need to implement highest cost champion and hide all non dragon/frostbite spider/necro hirelings</comment>
+          <comment>need to implement highest cost champion</comment>
           <modifiers>
             <modifier type="add" value="No more than 25% of models in Draugr Party can be Hirelings." field="error">
               <conditionGroups>
@@ -2984,6 +2917,18 @@ A: Yes</description>
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="5b13-d81a-9048-0fb2" shared="true"/>
                     <condition type="atLeast" value="26" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                    <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 50% of models in Red Eagle-led Draugr Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5b13-d81a-9048-0fb2" shared="true"/>
+                    <condition type="atLeast" value="51" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3228,7 +3173,7 @@ A: Yes</description>
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="lessThan" value="1" field="selections" scope="parent" childId="989b-4227-9d20-dbae" shared="true"/>
-                    <condition type="equalTo" value="3" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="5594-acf1-76dc-5206" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
+                    <condition type="atLeast" value="3" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="5594-acf1-76dc-5206" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3325,14 +3270,14 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="3ead-7f3e-4bda-5072" name="The Thieves&apos; Guild" hidden="false" collective="false" import="true" type="upgrade" publicationId="1d0d-fac6-d336-636f">
+        <selectionEntry id="3ead-7f3e-4bda-5072" name="Thieves&apos; Guild" hidden="false" collective="false" import="true" type="upgrade" publicationId="1d0d-fac6-d336-636f">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a2b-d533-eeda-428e" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b3a-36d5-b332-4245" type="min"/>
           </constraints>
           <categoryLinks>
             <categoryLink id="e667-1128-fd8e-13c6" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
-            <categoryLink id="011b-8b99-e7fa-b0c3" name="The Thieves&apos; Guild" hidden="false" targetId="4347-a391-1fca-ce31" primary="false"/>
+            <categoryLink id="011b-8b99-e7fa-b0c3" name="Thieves&apos; Guild" hidden="false" targetId="4347-a391-1fca-ce31" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
@@ -3451,7 +3396,6 @@ A: Yes</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <comment>need to hide all vampires except serana</comment>
         </selectionEntry>
         <selectionEntry id="b7aa-4b7c-29c1-1bb5" name="Clan Volkihar" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3491,7 +3435,15 @@ A: Yes</description>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec59-3c1b-8491-2614" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f5ab-f1c3-aa35-efed" name="Enemies of Molag Bal" hidden="false" targetId="48c9-7ce2-5d87-1035" type="rule"/>
+            <infoLink id="f5ab-f1c3-aa35-efed" name="Enemies of Molag Bal" hidden="false" targetId="48c9-7ce2-5d87-1035" type="rule">
+              <modifiers>
+                <modifier type="set" value="All Cult of Boethiah Heroes add [YELLOW] to their Attacks versus models with the Followers of Molag Bal Faction icon." field="description">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="57bb-6c49-490e-3f76" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="1cf4-3719-1863-b5d9" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
@@ -3559,7 +3511,6 @@ A: Yes</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <comment>need to hide all Unique and multi-faction (non-Bandit) hirelings</comment>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Thalmor" hidden="false" id="ccb3-0925-8a2a-6ab7" publicationId="1d0d-fac6-d336-636f" collective="false">
           <constraints>
@@ -3615,7 +3566,6 @@ A: Yes</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <comment>need to hide non-Elf or Khajiit hirelings</comment>
         </selectionEntry>
         <selectionEntry id="e7f1-7d01-d4aa-bb0b" name="The Silver Hand" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4233,6 +4183,880 @@ A: Yes</description>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="740a-2c70-0c34-38fd" name="Draugr: Dented Iron Shield" publicationId="9ac9-edd2-53a7-2d58" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5167-b85a-6b8b-b739" name="Draugr: Dented Iron Shield" hidden="false" targetId="b204-c0b4-3787-f593" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3bdb-1e30-ea92-e6cf" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="3"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d49-26eb-583d-c13f" name="Draugr: Ancient Nord Battleaxe" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0d5e-56cc-6410-3554" name="Draugr: Ancient Nord Battleaxe" hidden="false" targetId="b4d8-cab2-e391-5a6b" type="profile"/>
+        <infoLink id="4945-0756-f573-621a" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="8b51-cf9d-e4ee-ef69" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="17"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="635a-4614-c3c7-db79" name="Dragon Priest Mask: Krosis" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae1-38b8-fbc1-b32a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5043-12f4-bf7f-f106" name="Dragon Priest Mask: Krosis" hidden="false" targetId="1846-bad7-4bce-4ff2" type="profile">
+          <modifiers>
+            <modifier type="set" value="Krosis" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="532d-df44-5900-2626" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+        <infoLink name="Perk: Deep Freeze" id="0d9c-15df-526e-a9df" hidden="false" type="rule" targetId="1a54-171e-0148-e420"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="1af6-bd22-f674-9a5b" id="94fd-0ed3-5ca8-a908" primary="false" name="Dragon Priest Mask: Krosis"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="7"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ff6-4092-8751-c87c" name="Dragon Priest Mask: Hevnoraak" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ca-438a-cdd2-8c21" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0e51-8af1-8640-fe04" name="Dragon Priest Mask: Hevnoraak" hidden="false" targetId="75e1-c4c6-d41f-db93" type="profile">
+          <modifiers>
+            <modifier type="set" value="Hevnoraak" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="843c-9897-5108-3ccc" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+        <infoLink name="Immunity (Type)" id="87cf-a53c-17b8-4e4b" hidden="false" type="rule" targetId="7c88-fc5e-9fde-1261"/>
+        <infoLink name="Signature Loot (X)" id="1d81-e0f3-9a9a-5081" hidden="false" type="rule" targetId="1377-d28e-5608-a161"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="b919-38cd-0d67-c2e2" id="11e4-3507-3512-2a0a" primary="false" name="Dragon Priest Mask: Hevnoraak"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5520-eb45-dcef-19cc" name="Signature Loot: Hevnoraak&apos;s Staff" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="33d3-9237-1240-eacf" name="Signature Loot: Hevnoraak&apos;s Staff" hidden="false" targetId="8019-f501-8f2a-3703" type="profile"/>
+        <infoLink name="Soul Charges (X)" id="ae4a-7ca8-9b51-abbb" hidden="false" type="rule" targetId="f2b0-c6d4-69f2-eff6"/>
+        <infoLink name="Damage Type: Shock" id="1142-59cb-2645-97f3" hidden="false" type="rule" targetId="c757-1849-5b26-4b56"/>
+        <infoLink name="Area Effect (X&quot;)" id="5f96-5c44-5f9d-d1e7" hidden="false" type="rule" targetId="8b30-4913-1be7-6809"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="baae-19af-1947-6432" name="Dragon Priest Mask: Volsung" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f4-e395-f1a3-07fe" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="054d-30ad-4e4c-3ee4" name="Dragon Priest Mask: Volsung" hidden="false" targetId="5d1e-0201-0fc5-3725" type="profile">
+          <modifiers>
+            <modifier type="set" value="Volsung" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8eb8-660b-196e-1eb4" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="30a9-816d-c4b7-9678" id="5908-25f8-40df-e806" primary="false" name="Dragon Priest Mask: Volsung"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31a9-505e-4030-fb34" name="Dragon Priest Mask: Vokun" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb4-181f-8835-5da2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9fd2-4e67-6e4d-1605" name="Dragon Priest Mask: Vokun" hidden="false" targetId="eac3-247d-4df8-ee85" type="profile">
+          <modifiers>
+            <modifier type="set" value="Vokun" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="40a8-d54a-6f05-c4f2" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="6d2e-faf9-c872-6cf6" id="d00e-2ca5-746a-2f65" primary="false" name="Dragon Priest Mask: Vokun"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36dc-b10f-3010-9009" name="Dragon Priest Mask: Rahgot" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9646-e0e8-f7d4-e913" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9fbb-1110-48d4-6701" name="Dragon Priest Mask: Rahgot" hidden="false" targetId="0ba1-b60b-953c-9fb8" type="profile">
+          <modifiers>
+            <modifier type="set" value="Rahgot" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ffc5-3cc2-9fd3-ecc6" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+        <infoLink name="Regenerate Stamina" id="41aa-d468-49ac-01c3" hidden="false" type="rule" targetId="b431-ba9d-efd1-adf6"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="0f2b-d6bf-5377-35f4" id="de29-d86c-8f31-4af8" primary="false" name="Dragon Priest Mask: Rahgot"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e044-6d62-b4c1-a9ad" name="Dragon Priest Mask: Otar" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c0-58d8-3353-2c0b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6c19-9b25-166b-007b" name="Dragon Priest Mask: Otar" hidden="false" targetId="5e41-56e8-7288-dba3" type="profile">
+          <modifiers>
+            <modifier type="set" value="Otar" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a706-e1ab-2bc9-7b5c" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2139-8728-fb79-6aec" id="6fe3-9614-3aad-8c88" primary="false" name="Dragon Priest Mask: Otar"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f5a-a919-c768-514d" name="Dragon Priest Mask: Morokei" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed3c-8dd6-2b01-270f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a916-d1cc-373c-a95f" name="Dragon Priest Mask: Morokei" hidden="false" targetId="373d-53d0-89c1-3721" type="profile">
+          <modifiers>
+            <modifier type="set" value="Morokei" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b5cb-4b8d-4846-734d" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+        <infoLink name="Regenerate Magicka" id="60e0-de90-c551-88ae" hidden="false" type="rule" targetId="a89f-5da7-acf9-ff3b"/>
+        <infoLink name="Signature Loot (X)" id="ca43-d6a1-11c8-e219" hidden="false" type="rule" targetId="1377-d28e-5608-a161"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="1d6e-cdf4-53b0-bc9a" id="1198-887c-f430-38c9" primary="false" name="Dragon Priest Mask: Morokei"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25b9-6944-89bd-01b5" name="Signature Loot: The Staff of Magnus" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="369e-37e9-77b5-4f07" name="Signature Loot: The Staff of Magnus" hidden="false" targetId="d824-9e75-b363-29f4" type="profile"/>
+        <infoLink name="Damage Type: Shock" id="385f-0030-4304-152e" hidden="false" type="rule" targetId="c757-1849-5b26-4b56"/>
+        <infoLink name="Soul Charges (X)" id="7176-b5df-9cdf-681c" hidden="false" type="rule" targetId="f2b0-c6d4-69f2-eff6"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+      <rules>
+        <rule name="Staff of Magnus Ability" id="dc64-06cd-f655-6e88" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>If a model hit by this Attack has no Magicka (or is reduced to 0 Magicka as a result of [this] Attack), it automatically suffers [YELLOW] damage.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="9bbc-5a99-82f3-e64b" name="Dragon Priest Mask: Nahkriin" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2386-b731-0bb8-a8bb" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6437-6edb-1ec9-d7be" name="Dragon Priest Mask: Nahkriin" hidden="false" targetId="4bcd-fd87-4204-42e3" type="profile">
+          <modifiers>
+            <modifier type="set" value="Nahkriin" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="11bf-e761-478d-6176" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="22fb-a470-48da-9dd0" id="ad17-6620-b6d8-11ef" primary="false" name="Dragon Priest Mask: Nahkriin"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Signature Loot: Vaermina&apos;s Torpor" hidden="false" id="db33-f361-604f-858c" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f51-e478-bc06-2336"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Signature Loot: Vaermina&apos;s Torpor" id="c5ff-937d-9eaa-c47e" hidden="false" type="profile" targetId="c921-73be-5329-3f27"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Signature Loot: Red Eagle&apos;s Fury" hidden="false" id="2b28-10c8-8b0d-8b99" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d789-ad5d-6f71-81e1-max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Signature Loot: Red Eagle&apos;s Fury" id="900e-e5c5-e653-fb37" hidden="false" type="profile" targetId="f3c6-9f50-3c52-98ea"/>
+        <infoLink name="Enchanted" id="dc31-c0b5-e0c7-a75f" hidden="false" type="rule" targetId="1875-9b07-2a07-aacc"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Signature Loot: Mehrunes&apos; Razor" hidden="false" id="d7d6-561a-e870-c07f" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fce1-da04-2261-12c5"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Signature Loot: Mehrunes&apos; Razor" id="28f2-60ec-5589-5030" hidden="false" type="profile" targetId="6a97-3a03-80c0-d8c3"/>
+        <infoLink name="Enchanted" id="7104-4b8e-8236-4802" hidden="false" type="rule" targetId="1875-9b07-2a07-aacc"/>
+        <infoLink name="Lightweight" id="a0c9-457f-fc40-18f1" hidden="false" type="rule" targetId="8195-f68e-fd76-784f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Signature Loot: Ebony Mail" hidden="false" id="0fb4-18c3-6289-0b25" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f167-3fc7-e5b7-af46"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Signature Loot: Ebony Mail" id="6857-c078-9328-f8b0" hidden="false" type="profile" targetId="d6e8-1dc1-9421-07ec"/>
+        <infoLink name="Muffled" id="f053-c732-0a67-99eb" hidden="false" type="rule" targetId="1079-877c-0f70-eaf8"/>
+        <infoLink name="Resistance (Type)" id="9cf1-9bce-2613-8ce5" hidden="false" type="rule" targetId="b048-ffef-95a3-aaf9"/>
+        <infoLink name="Poison" id="ead4-ef06-7896-9307" hidden="false" type="rule" targetId="45f6-0dbe-bc2c-ce4f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Signature Loot: Gauldur Blackbow" hidden="false" id="8175-ed48-b9ef-80f3" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ff0-2a76-1023-4d28"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Signature Loot: Gauldur Blackbow" id="8cdd-ef93-9d54-fbb3" hidden="false" type="profile" targetId="0f1c-2d3a-bc54-36e4"/>
+        <infoLink name="Enchanted" id="c66f-f7c2-d3a2-12f4" hidden="false" type="rule" targetId="1875-9b07-2a07-aacc"/>
+        <infoLink name="Absorb (Reserve) (X)" id="a5a6-3f4f-c66b-ba1c" hidden="false" type="rule" targetId="db98-339e-d0a2-e042"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2c30-dbd7-aa28-c334" name="Armor Enchantment: Disease Immunity" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4832-261b-5735-dfc8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8902-070d-7c49-5db6" name="Enchantment: Disease Immunity" hidden="false" targetId="ca90-e8de-a699-5244" type="profile"/>
+        <infoLink id="3663-b02d-cf42-95db" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="Disease Immunity" field="name"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry id="eb6d-adf7-c549-bfe6" name="Weapon Enchantment: Harvesting" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d05-a6e3-9dd6-41cd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e7cb-3af2-40ef-a5b3" name="Enchantment: Harvesting" hidden="false" targetId="150d-f88b-b563-4939" type="profile"/>
+        <infoLink id="3fc1-431e-650f-f5df" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="418b-89d8-be24-f9df" name="Absorb (Reserve) (X)" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8da5-67d4-84e0-95f1" name="Weapon Enchantment: Devouring" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d8-8ae2-639b-5e04" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="264e-0537-c045-fbe6" name="Enchantment: Devouring" hidden="false" targetId="ac9e-03da-79ba-2639" type="profile"/>
+        <infoLink id="a3f6-1b32-73d4-7902" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+        <infoLink id="15a4-eccd-a7fe-f04b" name="Absorb (Reserve) (X)" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c80a-8b35-3b36-3331" name="Weapon Enchantment: Terror" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b962-1119-aaa8-185b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="724d-fe14-e4f5-1675" name="Enchantment: Terror" hidden="false" targetId="849a-6c9f-fbfa-851a" type="profile"/>
+        <infoLink id="0b42-9284-4533-9382" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b53-9239-71ce-bd23" name="Slow Time" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b085-7b27-4bfc-aa4b" name="Slow Time" hidden="false" targetId="0500-def5-9dd0-a4b2" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d1b-b5a5-7df6-1c72" name="Bend Will" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4b1b-ed9b-1531-fc67" name="Bend Will" hidden="false" targetId="e14b-1416-16c8-6f7e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d8cb-3834-8379-c09c" name="Dragon Aspect" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="622c-227d-4a88-1f37" name="Dragon Aspect" hidden="false" targetId="4c0c-d0cd-c193-328d" type="profile"/>
+        <infoLink name="Resistance (Type)" id="9fc7-3f56-8147-8f90" hidden="false" type="rule" targetId="b048-ffef-95a3-aaf9"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9351-ccf0-ebf5-2533" name="Dismaying Shout" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6863-796e-4092-e6a6" name="Dismaying Shout" hidden="false" targetId="e806-87a5-f2ca-0f50" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c720-c20d-abb6-5799" name="Dragonrend" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6b00-ed1f-185c-c3b9" name="Dragonrend" hidden="false" targetId="162c-b831-6edf-0495" type="profile"/>
+        <infoLink name="Ponderous" id="1a64-4005-ebd0-1a92" hidden="false" type="rule" targetId="00c2-1d16-0911-9a98"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97b3-d71e-1217-6d5d" name="Call Dragon" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="155a-1283-1053-e808" name="Call Dragon" hidden="false" targetId="e00d-290b-b819-1f43" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="100"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8351-a8b3-3196-59ca" name="Thunderbolt" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="472d-ee6b-9581-524a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f268-4ddd-ab69-e74a" name="Thunderbolt" hidden="false" targetId="ebfe-4e40-a97a-c444" type="profile"/>
+        <infoLink name="Damage Type: Shock" id="a46c-124c-5f05-d4a4" hidden="false" type="rule" targetId="c757-1849-5b26-4b56"/>
+        <infoLink name="Magicka Boost (X)" id="0420-c81b-0194-46b4" hidden="false" type="rule" targetId="2597-fb44-57b8-5201"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f68-dcf8-d805-b4a0" name="Greater Ward" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4a6-dbc3-35ed-e7c6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6193-e3ef-7708-c712" name="Ward" hidden="false" targetId="3d9c-60d6-c292-9672" type="rule"/>
+        <infoLink id="fc53-f991-5c6f-6eb5" name="Greater Ward (Spell Form)" hidden="false" targetId="5f23-c986-5339-43cc" type="profile"/>
+        <infoLink id="73ef-f201-c1ac-e2a3" name="Greater Ward (Shield Form)" hidden="false" targetId="2e64-4ed7-7ff9-321b" type="profile"/>
+        <infoLink id="2dd5-4ba8-5fb9-b459" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
+        <infoLink id="2ab4-2aaa-ac2a-5b16" name="Upkeep" hidden="false" targetId="826a-0482-f398-9eb9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e5b-3e92-ed35-a474" name="Wall of Flames" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaac-3f08-1154-013e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9e72-5e36-38ab-be85" name="Wall of Flames" hidden="false" targetId="0c2e-b003-fb00-93ba" type="profile"/>
+        <infoLink id="fecd-eba3-4b16-3e52" name="Damage Type: Fire" hidden="false" targetId="e311-031a-d0f0-985c" type="rule"/>
+        <infoLink id="821f-f184-5117-503c" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c32-5b45-a9f2-19fa" name="Wall of Storms" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa2-f6fe-d02d-b184" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3c78-f9ab-fcc2-58f0" name="Wall of Storms" hidden="false" targetId="6df5-adb7-7062-01d9" type="profile"/>
+        <infoLink id="3eeb-2e8f-6b89-6284" name="Damage Type: Shock" hidden="false" targetId="c757-1849-5b26-4b56" type="rule"/>
+        <infoLink id="5730-7e22-65f4-82bb" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="814b-88df-f2d9-ce6b" name="Wall of Frost" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="629e-52fa-ec3d-798a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c1c1-5dd9-0e19-676c" name="Wall of Frost" hidden="false" targetId="365a-408f-ea2f-91cf" type="profile"/>
+        <infoLink id="38eb-95a3-5db1-f053" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
+        <infoLink id="8fb3-d566-7d69-70e5" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="24"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af87-d0bf-fe68-2dc9" name="Conjure Frost Atronach" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3b8-35a5-1549-f153" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="04eb-751c-569f-580d" name="Conjure Frost Atronach" hidden="false" targetId="39f0-06d2-1866-d14f" type="profile"/>
+        <infoLink id="23bd-b48d-4fd3-2c33" name="Summon Spell Type" hidden="false" targetId="2cf8-68b6-d491-56ce" type="infoGroup"/>
+        <infoLink id="eb39-42df-eb3c-1e37" name="Frost Atronach: Daedric Construct" hidden="false" targetId="1ce8-87b6-e792-7578" type="infoGroup">
+          <modifiers>
+            <modifier type="set" value="Frost Atronach: Summoned Creature" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85be-d5d4-8b79-43c1" name="Command Daedra" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc85-e06a-e2f0-4f12" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ac0b-df70-4396-21eb" name="Command Daedra" hidden="false" targetId="43cd-ec0e-ac00-9b01" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53c3-7c38-4478-b789" name="Summon Yngvild Ghost" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8395-4af0-f43a-c05a" type="max"/>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="965f-f0d4-419e-60d8" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cd83-5e87-1fe2-b5c5" name="Summon Yngvild Ghost" hidden="false" targetId="90cd-95d4-0190-de15" type="profile"/>
+        <infoLink id="fd83-5e94-5f92-f9b2" name="Summon Spell Type" hidden="false" targetId="2cf8-68b6-d491-56ce" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="818b-3018-da7d-829e" name="Potion Of Plentiful Healing" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c42e-537c-3e4e-dcec" name="Potion Of Plentiful Healing" hidden="false" targetId="9ef1-55cd-8696-fc37" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3630-4848-e7ff-93d5" name="Potion Of Plentiful Magicka" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2b49-7538-dcba-c1b5" name="Potion Of Plentiful Magicka" hidden="false" targetId="9094-70ff-066b-4d51" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d398-9570-600a-5c4b" name="Potion Of Plentiful Stamina" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="befb-8473-9cd8-f8e3" name="Potion Of Plentiful Stamina" hidden="false" targetId="4c7b-236e-c26c-75af" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25bf-d690-e0e7-4de9" name="Dragonbone Arrows" hidden="false" collective="false" import="true" type="upgrade" publicationId="1d0d-fac6-d336-636f">
+      <infoLinks>
+        <infoLink id="cca8-e0e5-6bb3-d535" name="Dragonbone Arrows" hidden="false" targetId="af5e-54d8-27dd-b0ce" type="profile"/>
+        <infoLink id="652e-d17f-b93d-8df1" name="Special Ammunition" hidden="false" targetId="5d9b-00f8-bae4-19ee" type="rule"/>
+        <infoLink id="32ad-8a3f-d8a9-1b5f" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4933-96c1-2771-607e"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="0729-8416-1973-95cb" name="Nightingale Bow" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa5-a1b4-c8dd-555f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9494-91d1-15d3-8aad" name="Nightingale Bow" hidden="false" targetId="67ed-e0bd-a3a1-7d22" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17f8-902d-7369-bf73" name="Glass Bow" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a3d4-e86c-a621-8edb" name="Glass Bow" hidden="false" targetId="07e7-954a-a974-216e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3c3e-46f6-f271-4f5b" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8e5-7dc5-2607-69d8" name="Nordic Bow" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="18b9-4a41-fbe5-5ca9" name="Nordic Bow" hidden="false" targetId="ad1f-1cd8-9cff-1b96" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6632-8934-d624-b519" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ec1-7592-535a-877c" name="Nordic Battleaxe" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cf96-386c-6c89-c936" name="Nordic Battleaxe" hidden="false" targetId="d463-081f-4860-c78f" type="profile"/>
+        <infoLink id="3c3e-a65b-01e9-56a9" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="ad9a-bf86-2e32-0f7a" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff8f-9b80-7017-f16f" name="Silver Greatsword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6de6-5844-360e-ac64" name="Silver Greatsword" hidden="false" targetId="8d09-2cf8-ba0d-c5cc" type="profile"/>
+        <infoLink id="9994-e633-d63d-3919" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="f636-372e-be69-c7da" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed59-1969-af2e-472d" name="Nord Hero Greatsword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="aad2-c84d-1495-9338" name="Nord Hero Greatsword" hidden="false" targetId="ac7f-2517-004d-3609" type="profile"/>
+        <infoLink id="a055-d1ff-60e6-87ad" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="7cb1-7525-72c1-35fa" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5efa-a7bf-ed00-6413" name="Elven Warhammer" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5f10-2ab5-d0ac-046a" name="Elven Warhammer" hidden="false" targetId="8212-be39-43da-b7da" type="profile"/>
+        <infoLink id="ffee-3762-5613-b30f" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="9229-50b1-3731-1a7f" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="13"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82d2-16d6-c68e-164b" name="Steel Battleaxe" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="07bb-a52f-39b0-c142" name="Steel Battleaxe" hidden="false" targetId="f567-9d31-f97b-0c85" type="profile"/>
+        <infoLink id="3123-4d95-558a-93ea" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="d683-6159-3647-8807" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc22-f665-e7f5-7471" name="Silver Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b93a-a1fd-9468-7188" name="Silver Sword" hidden="false" targetId="69ab-659a-7c48-c24a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7404-68a1-6b35-e20e" name="Yokudan Steel Arming Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="400f-48fb-ecec-0a31" name="Yokudan Steel Arming Sword" hidden="false" targetId="276b-1dc1-9c04-c779" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+      <rules>
+        <rule name="Knightly Blade" id="d049-0307-3d64-f5b3" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>When equipped, gain a -2 modifier to all Heavy Armor, Smithing, and Speech Skill Tests.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="0c6d-9954-6055-26b8" name="Dragonbone War Axe" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8479-61c8-e41a-8ebc" name="Dragonbone War Axe" hidden="false" targetId="a7b3-7999-55a3-f5a4" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="26"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a7a-38bc-34d8-914d" name="Dragonbone Dagger" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="784b-59f0-e154-da07" name="Dragonbone Dagger" hidden="false" targetId="5223-a4fe-b712-4130" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="05c5-d553-d6ba-86fa" name="Ebony Mace" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4a1f-44fb-1149-fd25" name="Ebony Mace" hidden="false" targetId="702c-4a08-cbf4-f56f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8dba-0cab-2214-a0e2" name="Ebony Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="333a-30e5-8f85-4f86" name="Draugr: Ebony Sword" hidden="false" targetId="2051-5777-1151-6f6f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f3b-a20f-82e1-02f3" name="Glass Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6dfc-c945-b954-4c89" name="Glass Sword" publicationId="2733-0fd1-3311-3be2" hidden="false" targetId="5509-da73-30d0-4e70" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab64-ac7a-2708-58e1" name="Glass War Axe" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c559-b513-5dc7-e552" name="Glass War Axe" publicationId="2733-0fd1-3311-3be2" hidden="false" targetId="87e9-9219-789a-194f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00c0-ba71-9927-0db6" name="Glass Mace" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="15df-155f-9550-c1fb" name="Glass Mace" publicationId="2733-0fd1-3311-3be2" hidden="false" targetId="2430-97f5-c547-9510" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1cfb-db06-e55b-55d9" name="Ancient Nord Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b329-5050-4baf-54db" name="Ancient Nord Sword" hidden="false" targetId="5c70-a5b7-01e9-1d5d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c6e-ef9f-a519-6d67" name="Nordic War Axe" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="72b0-2a33-a4f9-8afa" name="Nordic War Axe" hidden="false" targetId="fa65-e48e-4bbe-7f66" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65e7-59b8-2813-65f0" name="Nordic Mace" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7c83-2d25-8482-45f3" name="Nordic Mace" hidden="false" targetId="2b68-4a12-0c63-f7fb" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="053d-502c-aece-fb1d" name="Nordic Dagger" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e2ee-e4eb-9999-d4af" name="Nordic Dagger" hidden="false" targetId="b1f7-eb72-45b8-e8a8" type="profile"/>
+        <infoLink name="Lightweight" id="15ed-0b47-a24e-ab92" hidden="false" type="rule" targetId="8195-f68e-fd76-784f"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56f0-0d1f-a03d-16b6" name="Nordic Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="130a-b68d-8bba-0c1a" name="Nordic Sword" hidden="false" targetId="9462-2e88-c04f-1003" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="702b-b12a-a4df-7b73" name="Guildmaster&apos;s Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="aad9-f28d-212e-bf16" name="Guildmaster&apos;s Armor" hidden="false" targetId="9937-0e12-6c8c-8fa4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f390-7d51-a38d-a41f" name="Bonus Quick Slot: Thieves&apos; Guild Armor" hidden="false" targetId="54df-deb0-bc89-bd29" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9f95-25d3-32a7-79e8" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="3676-d5cb-7102-d5e8" name="Dragonscale Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dcd6-2a03-1ef5-8d9a" name="Dragonscale Armor" hidden="false" targetId="7f66-afbd-1d39-84d7" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="21"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="699f-c16e-d002-57a7" name="Ebony Mail" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="eb91-9ea1-2015-15ad" name="Ebony Mail" hidden="false" targetId="ddde-4e8a-f06f-e0cd" type="profile"/>
+        <infoLink name="Muffled" id="e633-ddfa-3cf6-6272" hidden="false" type="rule" targetId="1079-877c-0f70-eaf8"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d91b-d6d2-ff14-beb8" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="8725-f9f7-1124-58ba" name="Dragonplate Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4d9f-e66e-6dc2-bf45" name="Dragonplate Armor" hidden="false" targetId="fe6d-06b6-4ff9-2a84" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="81f1-27d9-64f6-6e38" name="Wolf Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="89a7-f3ec-8b5b-95bb" name="Wolf Armor" hidden="false" targetId="7560-da54-6741-08ea" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46d3-393f-b814-2966" name="Ancient Nord Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="76de-67e8-35bb-8688" name="Dragonscale Armor" hidden="false" targetId="7f66-afbd-1d39-84d7" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6329-3ad6-5e8f-9638" name="Nordic Shield" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ff3e-190c-5a16-c259" name="Nordic Shield" hidden="false" targetId="4571-7e1a-c28b-e40c" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7ff-36b8-cd5d-08b3" name="Dragonplate Shield" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3ddc-777c-5b35-4f4e" name="Dragonplate Shield" hidden="false" targetId="cd57-e810-90f0-30b5" type="profile"/>
+        <infoLink name="Cumbersome" id="c5a9-6f93-4cfa-e227" hidden="false" type="rule" targetId="be29-25db-e215-b3b0"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="18"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d066-a31a-9040-aee6" name="Steel Shield" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2183-a368-9d36-3f44" name="Steel Shield" hidden="false" targetId="d263-aa47-42a4-d0cb" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="500d-d451-51ae-bed6" name="Dragonscale Shield" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8855-b874-bf89-112d" name="Dragonscale Shield" hidden="false" targetId="24c1-705c-d499-40a5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="21"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a8e1-8967-639a-ce4f" name="Mythic Dawn Robes" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2a49-1001-f9e1-01d4" name="Mythic Dawn Robes" hidden="false" targetId="c179-463d-4eff-de95" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19e2-3a62-7664-2391" name="Thalmor Robes" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c425-b7f7-b5f0-7b79" name="Thalmor Robes" hidden="false" targetId="5ed6-e982-0f42-c799" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="77fb-6f37-f1df-9d41" name="Equipment" hidden="false" collective="false" import="true" flatten="true">
@@ -4378,18 +5202,27 @@ A: Yes</description>
                 <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7fd-4d1f-7ee7-2c7b" type="instanceOf"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="name" value="Quick Slots (max 3)"/>
-                <modifier type="set" field="6964-a886-61ec-1a70" value="3"/>
+                <modifier type="increment" value="1" field="6964-a886-61ec-1a70"/>
+                <modifier type="set" value="Quick Slots (max increased &gt; 2)" field="name"/>
               </modifiers>
             </modifierGroup>
             <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54df-deb0-bc89-bd29" type="instanceOf"/>
-              </conditions>
               <modifiers>
                 <modifier type="increment" field="6964-a886-61ec-1a70" value="1"/>
                 <modifier type="set" field="name" value="Quick Slots (max increased &gt; 2)"/>
               </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="54df-deb0-bc89-bd29" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="6964-a886-61ec-1a70" value="1"/>
+                <modifier type="set" field="name" value="Quick Slots (max increased &gt; 2)"/>
+              </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="30a9-816d-c4b7-9678" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
             </modifierGroup>
           </modifierGroups>
           <constraints>
@@ -4479,6 +5312,18 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="Cannot have more than one model with Born Leader in Party" field="error">
+              <conditions>
+                <condition type="greaterThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="917c-eb56-30eb-a720" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Primary Faction Clarification" id="3428-9855-6612-c64e" hidden="false">
+              <description>[The current official ruling is that, if a model has multiple Faction icons and none are highlighted in gold, the leftmost Faction icon is considered Primary].</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -4702,9 +5547,132 @@ A: Yes</description>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3d6c-b67b-23d1-a289" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Signature Loot: Red Eagle&apos;s Fury" hidden="true" id="7ff8-4bcd-6ca6-66c1" collective="false" targetId="2b28-10c8-8b0d-8b99" type="selectionEntry" defaultAmount="0">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="defaultAmount"/>
+                <modifier type="set" value="1" field="e659-77f8-83b3-a9e6"/>
+              </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4a66-c927-fa25-461c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0878-e6bd-a7e7-9387"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e659-77f8-83b3-a9e6"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Signature Loot: Mehrunes&apos; Razor" hidden="true" id="5004-82e7-fb6c-a945" collective="false" targetId="d7d6-561a-e870-c07f" type="selectionEntry" defaultAmount="0">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="defaultAmount"/>
+                <modifier type="set" value="1" field="72ea-82e0-2085-64d7"/>
+              </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f893-d9d8-91f2-431e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9335-b116-8af8-327d"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="72ea-82e0-2085-64d7"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1714-0890-9172-8fc8" name="Silver Sword" hidden="true" collective="false" import="true" targetId="dc22-f665-e7f5-7471" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="c6f7-c329-1f8b-05bb" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="51b3-8593-8f15-b9f5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f22f-06b0-4a17-25b9" name="Steel Sword" hidden="false" collective="false" import="true" targetId="5f7b-3dc3-cdd5-33f6" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="b33f-eaf7-e7ec-3751" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="c645-b2b4-ea98-8872" name="Yokudan Steel Arming Sword" hidden="false" collective="false" import="true" targetId="7404-68a1-6b35-e20e" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="b07c-349f-a8ca-1d9b" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="7ee8-cf63-4dd6-f505" name="Elven War Axe" hidden="false" collective="false" import="true" targetId="4fa7-6aa1-03de-b3b9" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="f832-d242-0e94-f6d4" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="30b5-506f-4eb7-92a8" name="Dragonbone War Axe" hidden="false" collective="false" import="true" targetId="0c6d-9954-6055-26b8" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="ae06-2378-4859-67a3" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="e945-e2cd-65ef-0f7b" name="Dragonbone Dagger" hidden="false" collective="false" import="true" targetId="0a7a-38bc-34d8-914d" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="1cb7-666d-ddf8-8c91" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="7759-4460-0463-98eb" name="Ebony Mace" hidden="false" collective="false" import="true" targetId="05c5-d553-d6ba-86fa" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="6ab5-c37a-9fcf-5aa9" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="33df-f3d2-5e58-1ff0" name="Ebony Sword" hidden="false" collective="false" import="true" targetId="8dba-0cab-2214-a0e2" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="2fd0-39c6-8534-41a9" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="3804-a715-e4f5-c231" name="Glass Sword" hidden="false" collective="false" import="true" targetId="8f3b-a20f-82e1-02f3" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9ee1-47bc-d41e-b669" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="5b1e-82f4-4a76-69be" name="Glass War Axe" hidden="false" collective="false" import="true" targetId="ab64-ac7a-2708-58e1" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9a99-1fae-3c3c-8cd2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="ef5e-fb0f-3649-920a" name="Glass Mace" hidden="false" collective="false" import="true" targetId="00c0-ba71-9927-0db6" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="2995-8512-9e2a-ef65" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="6bce-affc-bd93-5e85" name="Ancient Nord Sword" hidden="false" collective="false" import="true" targetId="1cfb-db06-e55b-55d9" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="426c-2baf-a276-57c6" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="38d0-20b1-31c8-37c7" name="Nordic War Axe" hidden="false" collective="false" import="true" targetId="6c6e-ef9f-a519-6d67" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="2ed2-e7fe-22b7-2c27" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="fab0-16bd-c6ff-5f71" name="Nordic Mace" hidden="false" collective="false" import="true" targetId="65e7-59b8-2813-65f0" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="c636-ab9a-6492-a867" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="51f2-b672-03f4-fcc6" name="Nordic Dagger" hidden="false" collective="false" import="true" targetId="053d-502c-aece-fb1d" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="37df-2a9d-0664-df19" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="196b-683f-4aa8-f13b" name="Nordic Sword" hidden="false" collective="false" import="true" targetId="56f0-0d1f-a03d-16b6" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="87ea-a72d-62ee-f7c2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8a0d-94f4-f0f7-e285" name="One-Hand Spells" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="8a0d-94f4-f0f7-e285" name="One-Handed Spells" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -4968,6 +5936,62 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="8d60-bdef-1845-5fbf" name="Thunderbolt" hidden="false" collective="false" import="true" targetId="8351-a8b3-3196-59ca" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f286-4280-fd39-3927" name="Wall of Flames" hidden="false" collective="false" import="true" targetId="9e5b-3e92-ed35-a474" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2677-374e-0719-a68e" name="Wall of Storms" hidden="false" collective="false" import="true" targetId="3c32-5b45-a9f2-19fa" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8bb8-fd15-c0db-4672" name="Wall of Frost" hidden="false" collective="false" import="true" targetId="814b-88df-f2d9-ce6b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d8f4-6cca-bf2a-0106" name="Armor Enchantments" hidden="true" collective="false" import="true" collapsible="true">
@@ -4997,6 +6021,7 @@ A: Yes</description>
         <entryLink id="43e4-b0c3-3fa3-1fdc" name="Armor Enchantment: Muffle" hidden="false" collective="false" import="true" targetId="e23c-1675-e116-f35c" type="selectionEntry"/>
         <entryLink id="fe3d-2dcf-b839-a245" name="Armor Enchantment: Poison Resistance" hidden="false" collective="false" import="true" targetId="5edf-abbd-5b2e-f33b" type="selectionEntry"/>
         <entryLink id="5fb4-7065-bd43-615d" name="Armor Enchantment: Hauling" hidden="false" collective="false" import="true" targetId="418b-12fd-e6d1-0450" type="selectionEntry"/>
+        <entryLink id="da29-ac12-f51b-795a" name="Armor Enchantment: Disease Immunity" hidden="false" collective="false" import="true" targetId="2c30-dbd7-aa28-c334" type="selectionEntry"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf7e-1058-1b80-6cae"/>
@@ -5021,10 +6046,15 @@ A: Yes</description>
         </entryLink>
         <entryLink id="52a3-565b-4554-736c" name="Fire Breath" hidden="false" collective="false" import="true" targetId="8217-69b7-79c4-2ea7" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
-              </conditions>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -5045,10 +6075,15 @@ A: Yes</description>
         </entryLink>
         <entryLink id="97f5-c937-5fd8-dcfe" name="Whirlwind Sprint" hidden="false" collective="false" import="true" targetId="747a-3c2a-8cdb-9605" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
-              </conditions>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -5057,10 +6092,15 @@ A: Yes</description>
         </entryLink>
         <entryLink id="0ecd-2c81-82a3-09fe" name="Become Ethereal" hidden="false" collective="false" import="true" targetId="2ebc-d860-e111-a849" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
-              </conditions>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -5069,10 +6109,15 @@ A: Yes</description>
         </entryLink>
         <entryLink id="3a7b-e434-c879-9d71" name="Elemental Fury" hidden="false" collective="false" import="true" targetId="8196-1d2a-faeb-ba7f" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
-              </conditions>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -5081,10 +6126,15 @@ A: Yes</description>
         </entryLink>
         <entryLink id="591a-5a3b-1c70-32e9" name="Aura Whisper" hidden="false" collective="false" import="true" targetId="482d-5769-7110-30ea" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
-              </conditions>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -5093,10 +6143,15 @@ A: Yes</description>
         </entryLink>
         <entryLink id="061e-3ec7-28a5-9a00" name="Animal Allegiance" hidden="false" collective="false" import="true" targetId="5d20-6c7c-76a7-880a" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
-              </conditions>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -5106,9 +6161,14 @@ A: Yes</description>
         <entryLink id="f8fb-4fcb-c651-3feb" name="Throw Voice" hidden="false" collective="false" import="true" targetId="663f-f67b-4f79-6fcf" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -5129,14 +6189,121 @@ A: Yes</description>
         </entryLink>
         <entryLink id="ff6d-78b3-4c37-5ed3" name="Ice Form" hidden="false" collective="false" import="true" targetId="a55f-cc1a-d0bb-82a8" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6119-a6c8-2eb1-6092" type="instanceOf"/>
-              </conditions>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afd3-c06d-d93f-5dfe" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7bce-7cb0-3b07-dc27" name="Slow Time" hidden="false" collective="false" import="true" targetId="1b53-9239-71ce-bd23" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d8-17c2-b56e-5e14" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0f2e-b88e-a0cd-c1c8" name="Bend Will" hidden="false" collective="false" import="true" targetId="1d1b-b5a5-7df6-1c72" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5268-0d35-aef1-c30b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b1f8-61f5-8280-da3e" name="Dragon Aspect" hidden="false" collective="false" import="true" targetId="d8cb-3834-8379-c09c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="206f-a8de-6d61-994b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="834c-90f0-b905-8199" name="Dismaying Shout" hidden="false" collective="false" import="true" targetId="9351-ccf0-ebf5-2533" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf8-b7e9-79a5-c752" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3fca-c713-561a-7e9f" name="Dragonrend" hidden="false" collective="false" import="true" targetId="c720-c20d-abb6-5799" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="531f-6cbd-276f-201c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a322-3aab-4d7e-f03c" name="Call Dragon" hidden="false" collective="false" import="true" targetId="97b3-d71e-1217-6d5d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6119-a6c8-2eb1-6092" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c70-9afd-9f5a-b0a5" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -5202,6 +6369,18 @@ A: Yes</description>
           </modifiers>
         </entryLink>
         <entryLink id="6e54-eddd-3797-971b" name="Glass Shield" hidden="false" collective="false" import="true" targetId="16d7-f02b-1a93-9fd0" type="selectionEntry"/>
+        <entryLink id="a4cb-32e8-b2db-3026" name="Draugr: Dented Iron Shield" hidden="false" collective="false" import="true" targetId="740a-2c70-0c34-38fd" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a590-cfa6-8898-88e9" name="Dragonplate Shield" hidden="false" collective="false" import="true" targetId="a7ff-36b8-cd5d-08b3" type="selectionEntry"/>
+        <entryLink id="dbd5-c60b-9376-42c3" name="Dragonscale Shield" hidden="false" collective="false" import="true" targetId="500d-d451-51ae-bed6" type="selectionEntry"/>
+        <entryLink id="03de-79de-ded9-0d90" name="Nordic Shield" hidden="false" collective="false" import="true" targetId="6329-3ad6-5e8f-9638" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1c2b-98e7-da84-737a" name="Quick Slot Items" hidden="false" collective="false" import="true" collapsible="true">
@@ -5219,7 +6398,28 @@ A: Yes</description>
             </entryLink>
             <entryLink import="true" name="Potion Of Minor Healing" hidden="false" id="c433-827c-fb21-4ae3" collective="false" targetId="9e8a-9c0b-8185-a8e5" type="selectionEntry"/>
             <entryLink import="true" name="Potion Of Minor Magicka" hidden="false" id="5bab-15c3-a0a7-4972" collective="false" targetId="06df-8e9d-42be-0aa0" type="selectionEntry"/>
-            <entryLink import="true" name="Potion Of Minor Stamina" hidden="false" id="c0b0-63cc-293d-d3f2" collective="false" targetId="70ab-6089-0bde-c498" type="selectionEntry"/>
+            <entryLink import="true" name="Potion Of Plentiful Stamina" hidden="false" id="c0b0-63cc-293d-d3f2" collective="false" targetId="d398-9570-600a-5c4b" type="selectionEntry"/>
+            <entryLink import="true" name="Signature Loot: Vaermina&apos;s Torpor" hidden="true" id="e8d8-ef7b-4d62-3cf5" collective="false" targetId="db33-f361-604f-858c" type="selectionEntry" defaultAmount="0">
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                    <modifier type="set" value="1" field="3f4a-fa79-af35-477a"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b81f-c895-63cc-6f92" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bbc-9f40-dee0-1d13"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3f4a-fa79-af35-477a"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Potion Of Plentiful Healing" hidden="false" id="00a0-697b-8d9a-cec5" collective="false" targetId="818b-3018-da7d-829e" type="selectionEntry"/>
+            <entryLink import="true" name="Potion Of Minor Stamina" hidden="false" id="d2c4-4f13-9274-96a4" collective="false" targetId="70ab-6089-0bde-c498" type="selectionEntry"/>
+            <entryLink import="true" name="Potion Of Plentiful Magicka" hidden="false" id="676f-ff2f-7819-f607" collective="false" targetId="3630-4848-e7ff-93d5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Poisons" id="ce20-4e74-1075-7558" hidden="false" collapsible="true">
@@ -5343,6 +6543,57 @@ A: Yes</description>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="fe10-8386-17c9-49fa" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Draugr: Ancient Nord Greatsword" hidden="false" id="c044-87b2-cdd2-0226" collective="false" targetId="7d00-747c-e971-04ef" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="88fd-5683-c276-7257" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Draugr: Ancient Nord Battleaxe" hidden="false" id="c705-7b52-abc3-56a9" collective="false" targetId="5d49-26eb-583d-c13f" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="485e-3c49-d182-0dd1" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5384-3434-ddaa-3c62" name="Nord Hero Greatsword" hidden="false" collective="false" import="true" targetId="ed59-1969-af2e-472d" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="4251-6e6d-7982-8e4d" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="a77c-885e-ab59-2ec2" name="Nordic Battleaxe" hidden="false" collective="false" import="true" targetId="9ec1-7592-535a-877c" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="8b6b-a725-02b1-6889" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="4458-b057-bb55-da34" name="Elven Warhammer" hidden="false" collective="false" import="true" targetId="5efa-a7bf-ed00-6413" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="dc6a-c30f-1290-58b0" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="a472-f01b-7a7f-274a" name="Silver Greatsword" hidden="true" collective="false" import="true" targetId="ff8f-9b80-7017-f16f" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="d031-a741-a943-c134" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="51b3-8593-8f15-b9f5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="06f5-97a8-3d86-613f" name="One-Handed Staves" hidden="false" collective="false" import="true">
@@ -5352,9 +6603,49 @@ A: Yes</description>
         <entryLink id="8767-ae2f-0c09-7ddd" name="Staff Of Reanimation" hidden="false" collective="false" import="true" targetId="f3b8-e776-57ed-8a91" type="selectionEntry"/>
         <entryLink id="5914-dbc7-a5bd-7e6b" name="Aetherial Staff" hidden="false" collective="false" import="true" targetId="ca36-face-6f70-daca" type="selectionEntry"/>
         <entryLink id="5d85-8261-87f4-0e7d" name="Staff Of Fireballs" hidden="false" collective="false" import="true" targetId="effd-d722-cafd-231c" type="selectionEntry"/>
+        <entryLink id="5a71-42e6-54ae-3724" name="Signature Loot: The Staff of Magnus" hidden="true" collective="false" import="true" targetId="25b9-6944-89bd-01b5" type="selectionEntry" defaultAmount="0">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="defaultAmount"/>
+                <modifier type="set" value="1" field="b58c-39ed-d524-473f"/>
+              </modifiers>
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="6f5a-a919-c768-514d" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89c6-18b0-7a50-fd6a"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b58c-39ed-d524-473f"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Signature Loot: Hevnoraak&apos;s Staff" hidden="true" id="81d1-635f-ad2e-d1b2" collective="false" targetId="5520-eb45-dcef-19cc" type="selectionEntry" defaultAmount="0">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="defaultAmount"/>
+                <modifier type="set" value="1" field="9555-a05f-18a4-3c4f"/>
+              </modifiers>
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="1ff6-4092-8751-c87c" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cce-4607-5a79-2c5c"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9555-a05f-18a4-3c4f"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Area Effect (X&quot;)" id="d8e5-c713-08e9-96e5" hidden="false" type="rule" targetId="8b30-4913-1be7-6809"/>
+            <infoLink name="Damage Type: Shock" id="01d1-e226-2f0f-07db" hidden="false" type="rule" targetId="c757-1849-5b26-4b56"/>
+          </infoLinks>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3ae5-f30b-7167-ffb3" name="Weapon Enchantments" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="3ae5-f30b-7167-ffb3" name="Weapon Enchantments" hidden="true" collective="false" import="true" collapsible="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -5368,17 +6659,17 @@ A: Yes</description>
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink id="086c-5f92-6bc8-4902" name="Weapon Enchantment: Winnowing" hidden="false" collective="false" import="true" targetId="1419-9485-38a6-3fb7" type="selectionEntry">
+        <entryLink id="086c-5f92-6bc8-4902" name="Weapon Enchantment: Winnowing" hidden="false" collective="false" import="true" targetId="1419-9485-38a6-3fb7" type="selectionEntry" sortIndex="">
           <modifiers>
             <modifier type="set" value="Storms" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="164d-6700-5330-7b5a" name="Weapon Enchantment: Reaping" hidden="false" collective="false" import="true" targetId="2b21-d444-a9be-e070" type="selectionEntry">
+        <entryLink id="164d-6700-5330-7b5a" name="Weapon Enchantment: Reaping" hidden="false" collective="false" import="true" targetId="2b21-d444-a9be-e070" type="selectionEntry" sortIndex="">
           <modifiers>
             <modifier type="set" value="Reaping" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="d34b-a6b8-fa9f-fc09" name="Weapon Enchantment: Leeching" hidden="false" collective="false" import="true" targetId="d84b-c592-726a-4431" type="selectionEntry">
+        <entryLink id="d34b-a6b8-fa9f-fc09" name="Weapon Enchantment: Leeching" hidden="false" collective="false" import="true" targetId="d84b-c592-726a-4431" type="selectionEntry" sortIndex="">
           <modifiers>
             <modifier type="set" value="Leeching" field="name"/>
           </modifiers>
@@ -5388,24 +6679,39 @@ A: Yes</description>
             <modifier type="set" value="Turn Undead" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="22cc-80c0-564a-4b75" name="Weapon Enchantment: Sparks" hidden="false" collective="false" import="true" targetId="8aa7-db3d-5224-7e8d" type="selectionEntry">
+        <entryLink id="22cc-80c0-564a-4b75" name="Weapon Enchantment: Sparks" hidden="false" collective="false" import="true" targetId="8aa7-db3d-5224-7e8d" type="selectionEntry" sortIndex="">
           <modifiers>
             <modifier type="set" value="Sparks" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="24c7-b324-86f2-52a5" name="Weapon Enchantment: Embers" hidden="false" collective="false" import="true" targetId="8854-53df-1cdb-c0ad" type="selectionEntry">
+        <entryLink id="24c7-b324-86f2-52a5" name="Weapon Enchantment: Embers" hidden="false" collective="false" import="true" targetId="8854-53df-1cdb-c0ad" type="selectionEntry" sortIndex="">
           <modifiers>
             <modifier type="set" value="Embers" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="150a-6719-e854-2ad0" name="Weapon Enchantment: Frost" hidden="false" collective="false" import="true" targetId="c859-6f34-5674-d49a" type="selectionEntry">
+        <entryLink id="150a-6719-e854-2ad0" name="Weapon Enchantment: Frost" hidden="false" collective="false" import="true" targetId="c859-6f34-5674-d49a" type="selectionEntry" sortIndex="">
           <modifiers>
             <modifier type="set" value="Frost" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="268e-6bc5-d60a-f1f7" name="Weapon Enchantment: Storms" hidden="false" collective="false" import="true" targetId="86d8-471e-ff8e-c663" type="selectionEntry">
+        <entryLink id="268e-6bc5-d60a-f1f7" name="Weapon Enchantment: Storms" hidden="false" collective="false" import="true" targetId="86d8-471e-ff8e-c663" type="selectionEntry" sortIndex="">
           <modifiers>
             <modifier type="set" value="Storms" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="222c-20e9-f428-c884" name="Weapon Enchantment: Harvesting" hidden="false" collective="false" import="true" targetId="eb6d-adf7-c549-bfe6" type="selectionEntry" sortIndex="">
+          <modifiers>
+            <modifier type="set" value="Harvesting" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="83bf-0ac4-8489-c418" name="Weapon Enchantment: Devouring" hidden="false" collective="false" import="true" targetId="8da5-67d4-84e0-95f1" type="selectionEntry" sortIndex="">
+          <modifiers>
+            <modifier type="set" value="Devouring" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="d605-6dcf-9be3-1d34" name="Weapon Enchantment: Terror" hidden="false" collective="false" import="true" targetId="c80a-8b35-3b36-3331" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="Terror" field="name"/>
           </modifiers>
         </entryLink>
       </entryLinks>
@@ -5421,15 +6727,120 @@ A: Yes</description>
         <entryLink id="e098-f931-07db-6454" name="Amulet Of Akatosh" hidden="false" collective="false" import="true" targetId="0603-991a-1a28-413d" type="selectionEntry"/>
         <entryLink id="1c25-21a4-1756-7ff5" name="Amulet Of Talos" hidden="false" collective="false" import="true" targetId="1a8e-b0d3-a657-f36b" type="selectionEntry"/>
         <entryLink id="decd-66b9-810e-19e7" name="Amulet Of Arkay" hidden="false" collective="false" import="true" targetId="e667-b875-6519-a7b6" type="selectionEntry"/>
+        <entryLink import="true" name="Dragon Priest Mask: Krosis" hidden="true" id="978e-8730-746e-506a" collective="false" targetId="635a-4614-c3c7-db79" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Morokei" hidden="true" id="1a68-4056-d4ab-dc9d" collective="false" targetId="6f5a-a919-c768-514d" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Otar" hidden="true" id="f906-3729-83d6-2e64" collective="false" targetId="e044-6d62-b4c1-a9ad" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Volsung" hidden="true" id="055b-9c31-4191-4283" collective="false" targetId="baae-19af-1947-6432" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Rahgot" hidden="true" id="5035-9d7b-186a-089f" collective="false" targetId="36dc-b10f-3010-9009" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Vokun" hidden="true" id="8fa3-baaa-793a-589d" collective="false" targetId="31a9-505e-4030-fb34" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Hevnoraak" hidden="true" id="8d65-c953-8306-1754" collective="false" targetId="1ff6-4092-8751-c87c" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Nahkriin" hidden="true" id="1d84-19b2-c8b7-a754" collective="false" targetId="9bbc-5a99-82f3-e64b" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0073-1ab6-f3c8-8466"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5879-58a1-2038-2d2d" name="Weapon Attachments" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="5879-58a1-2038-2d2d" name="Special Ammunition" hidden="false" collective="false" import="true" collapsible="true">
       <entryLinks>
-        <entryLink id="1827-718e-b688-6e73" name="Glass Arrows" hidden="false" collective="false" import="true" targetId="d444-8501-0c27-c2c5" type="selectionEntry"/>
-        <entryLink id="6c97-1a28-6061-971e" name="Dwarven Bolts" hidden="false" collective="false" import="true" targetId="a7bc-b852-a584-7b97" type="selectionEntry"/>
+        <entryLink id="1827-718e-b688-6e73" name="Glass Arrows" hidden="false" collective="false" import="true" targetId="d444-8501-0c27-c2c5" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e991-bd09-65f0-2451" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6c97-1a28-6061-971e" name="Dwarven Bolts" hidden="false" collective="false" import="true" targetId="a7bc-b852-a584-7b97" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="cf38-09fe-916f-c394" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0605-e6fa-cfea-233e" name="Dragonbone Arrows" hidden="false" collective="false" import="true" targetId="25bf-d690-e0e7-4de9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e991-bd09-65f0-2451" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8f2f-1152-e0ab-6726" name="One-Handed Items" hidden="false" collective="false" import="true">
@@ -6002,6 +7413,61 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="1e3a-de3b-71a2-2ea0" name="Greater Ward" hidden="false" collective="false" import="true" targetId="2f68-dcf8-d805-b4a0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0b5-e13e-f45a-5045" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f22e-1b05-500d-374e" name="Conjure Frost Atronach" hidden="false" collective="false" import="true" targetId="af87-d0bf-fe68-2dc9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="fc4e-a266-6860-d94b" name="Command Daedra" hidden="false" collective="false" import="true" targetId="85be-d5d4-8b79-43c1" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="badb-3870-e5fb-2d65" name="Summon Yngvild Ghost" hidden="true" collective="false" import="true" targetId="53c3-7c38-4478-b789" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="965f-f0d4-419e-60d8"/>
+              </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="bfba-eee6-2dc7-9e75" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6a15-c5d8-a667-7a4b" name="Nightingales: Agent Ability" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true">
@@ -6088,21 +7554,29 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="02fb-fbcb-01b6-0f71" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="d625-97e8-d873-c029" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="9fbe-defe-03d2-d065" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="4feb-8177-d6e5-b3af" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="0f86-05d5-42e7-f41b" name="Orcish Bow" hidden="false" collective="false" import="true" targetId="9308-862a-2f0d-e5bc" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="4b5a-3861-01dd-4bc2" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="029e-17bb-48ef-fae2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="bcc4-36c3-43be-3cae" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="16d9-7a3b-63fc-f007" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="978e-08e7-e989-fd8b" name="Nord Hero Bow" hidden="false" collective="false" import="true" targetId="2297-0370-40ef-9f88" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="e18c-f556-2ddd-90bf" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3bb8-9440-4c62-1d7d" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="25bb-fa88-1220-c638" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="53cf-b96c-09b4-9403" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="eda9-bbc4-e4ed-b407" name="Imperial Bow" hidden="false" collective="false" import="true" targetId="effd-8804-2124-b497" type="selectionEntry">
           <modifiers>
@@ -6113,27 +7587,39 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="a112-86b6-19c9-2b88" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="6666-0f87-309a-f4b2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="c5ac-11cc-170f-b389" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="9999-7dac-9090-da79" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="0744-63ab-9054-0a86" name="Hunting Bow" hidden="false" collective="false" import="true" targetId="c007-1a17-926c-8f64" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="268d-21bb-e0a0-7254" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="b017-ff04-0a53-f30c" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="9288-f549-ca64-c0d0" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="ef2e-ebc9-c7d7-7756" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="920e-25b5-8a0d-80dc" name="Ebony Bow" hidden="false" collective="false" import="true" targetId="a224-4bdc-ea63-e0ba" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="375b-b3f0-ecb2-b7b7" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="3a7c-b74e-6afc-ed3e" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="a44b-5276-6349-d5b7" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="629e-3e03-2cda-f4f1" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="dc66-6f20-2184-c9f7" name="Longbow" hidden="false" collective="false" import="true" targetId="a30f-39ae-2b80-1dce" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="9a14-2567-278f-3755" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="778d-0248-7cd1-dac9" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="654b-4cf9-1ab3-9033" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="bab7-7eb5-2a70-56a3" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="9d3e-8a50-23fd-4ea3" name="Auriel&apos;s Bow" hidden="false" collective="false" import="true" targetId="f408-4eae-f9e1-5945" type="selectionEntry">
           <modifiers>
@@ -6149,27 +7635,111 @@ A: Yes</description>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="213f-5f46-e0f2-3c36" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
-            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9218-576c-c0bb-77d2" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="0b8e-2e66-e768-f7a4" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="db58-4a2c-d8d7-9139" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="0310-ba4e-3f70-9000" name="Elven Bow" hidden="false" collective="false" import="true" targetId="0558-1936-a2a8-711f" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="18a9-97f6-af7c-5fd0" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="7bef-b5f0-6ce6-c7dc" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="cc7c-72ad-c69d-4e92" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="c604-cb87-c0f7-0b0b" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="b065-da56-13c5-7670" name="Dawnguard Crossbow" hidden="false" collective="false" import="true" targetId="4fc9-767c-b519-e47d" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Dwarven Bolts" hidden="false" id="acf5-0e15-b4a3-d3de" type="selectionEntry" targetId="a7bc-b852-a584-7b97"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="1098-1487-8ab4-d30a" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="76be-a1d8-899c-c360" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="cf38-09fe-916f-c394" id="b92d-98be-8b67-683f" primary="true" name="Crossbow"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="d506-bbd6-6ac8-1943" name="Dwarven Bow" hidden="false" collective="false" import="true" targetId="62b9-cd71-c6a5-cbba" type="selectionEntry">
           <entryLinks>
-            <entryLink import="true" name="Glass Arrows" hidden="false" id="6f2d-c53d-7332-df22" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="68b4-3b0a-dab6-d011" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="07a7-d418-f5a1-df9b" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="8c86-22b6-a302-02e8" primary="true" name="Bow"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="afca-621d-07c9-48a2" name="Draugr: Ancient Nord Bow" hidden="false" collective="false" import="true" targetId="eb20-7999-4652-5e2d" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="fc1c-e4fd-9ce0-6299" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="20e3-6eba-d194-c227" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="7eef-b425-dbd0-6667" primary="true" name="Bow"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Signature Loot: Gauldur Blackbow" hidden="true" id="1ccb-7a38-8691-8418" collective="false" targetId="8175-ed48-b9ef-80f3" type="selectionEntry" defaultAmount="0">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="defaultAmount"/>
+                <modifier type="set" value="1" field="03ec-80bb-41af-a084"/>
+              </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6a3b-af04-871d-c135" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0955-7f7f-8e28-3e06"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="03ec-80bb-41af-a084"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="0c8a-1212-7874-88cf" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="b611-45e4-b689-07e6" primary="true" name="Bow"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="913d-1966-e017-edb1" name="Nightingale Bow" hidden="false" collective="false" import="true" targetId="0729-8416-1973-95cb" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="5594-acf1-76dc-5206" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="d31e-460f-bf90-34ad" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="e676-deab-79db-396a" primary="true" name="Bow"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="2de4-e402-20da-a87b" name="Glass Bow" hidden="false" collective="false" import="true" targetId="17f8-902d-7369-bf73" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="9931-9164-04e5-b44d" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="382b-58fc-a62d-9240" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="e0ce-8013-6a2f-b598" primary="true" name="Bow"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="a0de-e6bd-ecea-4420" name="Nordic Bow" hidden="false" collective="false" import="true" targetId="b8e5-7dc5-2607-69d8" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="b469-babc-68ee-5d86" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+            <entryLink import="true" name="Special Ammunition" hidden="false" id="46f9-1e0b-4406-0781" type="selectionEntryGroup" targetId="5879-58a1-2038-2d2d"/>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e991-bd09-65f0-2451" id="06b2-7f16-3b97-c678" primary="true" name="Bow"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -6252,6 +7822,35 @@ A: Yes</description>
             <entryLink import="true" name="Armor Enchantments" hidden="false" id="8f84-7516-1c36-8a28" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
+        <entryLink id="b5c1-76d5-9cf5-2ac1" name="Mythic Dawn Robes" hidden="false" collective="false" import="true" targetId="a8e1-8967-639a-ce4f" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="3e52-dc90-8254-9450" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="af10-410e-277f-fe9c" collective="false" targetId="d8f4-6cca-bf2a-0106" type="selectionEntryGroup">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73a0-ad67-8184-ef7d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0466-a9f9-33c8-2370" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="cf4d-e69d-4f5f-b476" name="Thalmor Robes" hidden="true" collective="false" import="true" targetId="19e2-3a62-7664-2391" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="769c-039c-d3b5-32b3" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="6ade-96af-ee74-11fb" collective="false" targetId="d8f4-6cca-bf2a-0106" type="selectionEntryGroup">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a9a-0e72-88b9-d0df" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c977-1877-9ea4-d93f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ff7a-e4f7-2845-6f78" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="67df-582a-bb94-4c3a" name="Light Armors" hidden="false" collective="false" import="true" collapsible="true" flatten="true">
@@ -6266,6 +7865,7 @@ A: Yes</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="append" value="(Armor)" field="name" join=" "/>
       </modifiers>
       <entryLinks>
         <entryLink id="b75c-269c-23ef-0fee" name="Elven Light Armor" hidden="false" collective="false" import="true" targetId="a9e2-120e-debc-07a0" type="selectionEntry">
@@ -6459,6 +8059,65 @@ A: Yes</description>
             <entryLink import="true" name="Armor Enchantments" hidden="false" id="2592-b9b7-9dc1-405b" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
+        <entryLink id="c055-9a84-2d0c-d981" name="Dragon Priest Mask: Otar" hidden="true" collective="false" import="true" targetId="e044-6d62-b4c1-a9ad" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f246-6b7b-cd55-2b32" name="Dragon Priest Mask: Morokei" hidden="true" collective="false" import="true" targetId="6f5a-a919-c768-514d" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="72df-868a-cb44-ac88" name="Dragon Priest Mask: Krosis" hidden="true" collective="false" import="true" targetId="635a-4614-c3c7-db79" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="7e9d-038f-3cd1-ce0d" name="Dragon Priest Mask: Volsung" hidden="true" collective="false" import="true" targetId="baae-19af-1947-6432" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="447e-f4fe-c084-f304" name="Guildmaster&apos;s Armor" hidden="true" collective="false" import="true" targetId="702b-b12a-a4df-7b73" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4347-a391-1fca-ce31" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="de8e-0b9c-29f5-e77e" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="d590-fd2e-af64-67a1" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="02af-e14f-e7a7-33df" name="Dragonscale Armor" hidden="false" collective="false" import="true" targetId="3676-d5cb-7102-d5e8" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="b5e6-5c21-8b68-22b3" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="3a82-8a2f-06f4-83da" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5399-5acc-9828-57d4" name="Heavy Armors" hidden="true" collective="false" import="true" collapsible="true" flatten="true">
@@ -6569,12 +8228,103 @@ A: Yes</description>
             <entryLink import="true" name="Armor Enchantments" hidden="false" id="d83c-e620-dc6d-ac99" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
+        <entryLink id="d8cc-09af-4e9d-b9e5" name="Dragon Priest Mask: Hevnoraak" hidden="true" collective="false" import="true" targetId="1ff6-4092-8751-c87c" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="7f6b-2c9c-044b-5b68" name="Dragon Priest Mask: Vokun" hidden="true" collective="false" import="true" targetId="31a9-505e-4030-fb34" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8ac1-5b0a-4eb8-3705" name="Dragon Priest Mask: Rahgot" hidden="true" collective="false" import="true" targetId="36dc-b10f-3010-9009" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b8b5-a2db-7186-ef9a" name="Dragon Priest Mask: Nahkriin" hidden="true" collective="false" import="true" targetId="9bbc-5a99-82f3-e64b" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Signature Loot: Ebony Mail" hidden="true" id="0fc7-b002-0be3-bc17" collective="false" targetId="0fb4-18c3-6289-0b25" type="selectionEntry" defaultAmount="0">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="defaultAmount"/>
+                <modifier type="set" value="1" field="210d-38f3-534f-2d48"/>
+              </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="05b9-89b4-2f50-4ec6" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="794d-546d-76b5-bc21"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="210d-38f3-534f-2d48"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="92e3-82b8-df7d-5312" name="Ebony Mail" hidden="false" collective="false" import="true" targetId="699f-c16e-d002-57a7" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="05b9-89b4-2f50-4ec6" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="23a9-0617-e1f0-9201" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="dbec-0090-a2d3-5064" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="41cc-9073-2acb-e91b" name="Dragonplate Armor" hidden="false" collective="false" import="true" targetId="8725-f9f7-1124-58ba" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="a3bd-24ee-2ede-d7e1" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="eb31-d980-b875-668c" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="b649-d152-c4ac-5824" name="Wolf Armor" hidden="false" collective="false" import="true" targetId="81f1-27d9-64f6-6e38" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="18ce-d263-5d10-d86e" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="89da-39f6-55da-76fe" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="c52e-a108-e0ff-90b9" name="Ancient Nord Armor" hidden="false" collective="false" import="true" targetId="46d3-393f-b814-2966" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Armor Attachments" hidden="false" id="0a92-7ec2-3d74-02e6" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
+            <entryLink import="true" name="Armor Enchantments" hidden="false" id="0791-41e3-9e59-d9ba" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="db98-339e-d0a2-e042" name="Absorb (Reserve) (X)" publicationId="4d6f-8c48-a5ea-e83c" page="84" hidden="false">
       <description>If an Attack with this Keyword inflicts any damage, the Attacker immediately restores a number of points of the specified Reserve (Health, Stamina, or Magicka), equal to the amount of damage inflicted on the target, up to a maximum of X. If the specified Reserve is already full, this rule has no effect.</description>
+      <alias>Absorb</alias>
     </rule>
     <rule id="8529-c5c2-53c2-94bb" name="Adrenaline Rush" publicationId="4d6f-8c48-a5ea-e83c" page="84" hidden="false">
       <description>Heroes only. This model begins the game with a single Adrenaline Rush Token. Once per game, during one of their Activations, the Hero may discard the Adrenaline Rush Token as a Free Action to restore their Stamina to maximum.</description>
@@ -6630,6 +8380,7 @@ Note: Models within an enclosed space (such as a chamber or house) with a Height
     <rule id="0d4b-7a76-d266-bcc1" name="Death Explosion (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="87" hidden="false">
       <description>When this model is removed from play, before removing it from the battlefield, first measure an Area Effect 3&quot; from the model. All models, friendly and enemy, within the radius immediately suffer [RED] damage – Armor Ratings may negate damage as
 normal, but models cannot discard a Block Token to take a Block Skill Test. This damage normally has a Type (such as Fire) in parentheses.</description>
+      <alias>Death Explosion</alias>
     </rule>
     <rule id="c091-97f7-8640-5e56" name="Disease" publicationId="4d6f-8c48-a5ea-e83c" page="87" hidden="false">
       <description>If an attack with this keyword causes one or more points of damage, the target immediately gains a Diseased Diminishing Effect card. A model cannot have more than one Diseased Diminishing Effect Card at any one time.</description>
@@ -6661,6 +8412,7 @@ an Enchanted item, or a certain foe might be resistant to or vulnerable to Ench
     </rule>
     <rule id="e2ae-574a-94ab-3550" name="Attachment (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="85" hidden="false">
       <description>A card with this Keyword can be ‘attached’ to another item of a specific Type, and does not take up an Equipment Slot of its own (although any Attachment card with an Equipment Slot icon of its own can be equipped in its own right without the need for an attached item). Place it under the attached item to show that it is attached. Attachments can be removed and changed with the Swap Items Action as normal. Each Equipment Slot can only have one Attachment at any time. Attachments may never be assigned to Bound Spells.</description>
+      <alias>Attachment</alias>
     </rule>
     <rule id="0d50-532c-9a8a-a28f" name="Bodyguard" publicationId="4d6f-8c48-a5ea-e83c" page="86" hidden="false">
       <description>This model may never be the Party Champion. As long as this model is Unengaged and not Incapacitated, if the Party Champion is within 3&quot; and Line of Sight of this model, and is targeted by a Ranged Attack, this model may choose to become the target of the Attack, even if they were not in Range or Line of Sight of the Attacker.
@@ -6680,6 +8432,7 @@ Activated this round, and even if it already Moved). This special Move follows 
     </rule>
     <rule id="7c88-fc5e-9fde-1261" name="Immunity (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="88" hidden="false">
       <description>This model has Immunity to a specific damage type. They disregard all damage inflicted of the specified Type, and never receive a token or Diminishing Effect card of that type. If a model gains Immunity (Type), remove all tokens of that type from it.</description>
+      <alias>Immunity</alias>
     </rule>
     <rule id="fa33-4d26-ecd4-c35d" name="Imperial Luck" publicationId="4d6f-8c48-a5ea-e83c" page="88" hidden="false">
       <description>Imperial Heroes only. Once per game, before rolling the Skill Dice, this model may declare use of this ability to automatically score 1 on the test (this score may still be modified).</description>
@@ -6698,6 +8451,7 @@ Activated this round, and even if it already Moved). This special Move follows 
     </rule>
     <rule id="2597-fb44-57b8-5201" name="Magicka Boost (X)" publicationId="4d6f-8c48-a5ea-e83c" page="89" hidden="false">
       <description>A Spell with this Keyword may be Boosted when cast by using up to X Magicka (in addition to the Spell’s Magicka Cost). This keyword is always accompanied by an additional effect, describing what happens when the extra Magicka is used. If the Magicka Boost value is [INFINITY], as much Magicka as remains may be expended.</description>
+      <alias>Magicka Boost</alias>
     </rule>
     <rule id="3e76-470e-5d3d-00e3" name="Mounted" publicationId="4d6f-8c48-a5ea-e83c" page="89" hidden="false">
       <description>This model rides to battle on the back of a steed of some description. A Mounted model is treated as a single model for all rules purposes, and any bonuses gained from the mount are incorporated into the model’s Attributes and Special Rules [... see BRB pg. 89].</description>
@@ -6718,6 +8472,7 @@ All of the damage of the same type is inflicted at once, so, if multiple Poison
     <rule id="b866-c968-6510-8b03" name="Piercing (X)" publicationId="4d6f-8c48-a5ea-e83c" page="89" hidden="false">
       <description>Attacks with this Keyword negate X Successes from the target’s Armor roll.
 Note: Strong Armor (X) cannot be negated by Piercing (X). [See BRB pg. 89 for example].</description>
+      <alias>Piercing</alias>
     </rule>
     <rule id="00c2-1d16-0911-9a98" name="Ponderous" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
       <description>This model has a Basic Move Allowance of 4” rather than 6”.</description>
@@ -6727,6 +8482,7 @@ Note: Strong Armor (X) cannot be negated by Piercing (X). [See BRB pg. 89 for ex
     </rule>
     <rule id="9e63-a1b2-0708-e4b6" name="Punishing (X)" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
       <description>When an Attack with this Keyword reduces a Hero or Adversary Master to less than one Health, the target must modify its Endurance Attribute Test for Injury by +(X).</description>
+      <alias>Punishing</alias>
     </rule>
     <rule id="9093-1c12-08d9-ec7f" name="Regenerate Health" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
       <description>This model restores one lost Health point at the end of each Round, unless it is Incapacitated. [Does not stack, confirmed by Modiphius designer].</description>
@@ -6743,8 +8499,8 @@ Note: Strong Armor (X) cannot be negated by Piercing (X). [See BRB pg. 89 for ex
     <rule id="b048-ffef-95a3-aaf9" name="Resistance (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
       <description>This model has a Resistance to a specific Damage Type. They add [RED] Armor Rating against Attacks of that Type. If a model would ever be assigned a Token that it is Resistant to (i.e. Fire or Poison), it must take an Endurance Attribute Test. If the Test is passed, no Token is assigned.
 
-
 If a model ever has two or more Resistance types, it can only use one of these Resistances to add to its Armor Rating. This is most commonly seen against magical Attacks that have multiple Damage Types.</description>
+      <alias>Resistance</alias>
     </rule>
     <rule id="fb8c-8d7e-9a59-e4a4" name="Sailor&apos;s Repose" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
       <description>Each time this model is successfully targeted by a Spell or Potion that restores lost Health; it restores 1 bonus Health.</description>
@@ -6763,6 +8519,7 @@ A model’s Reserves are transferred between the two forms. If one form has a hi
 
 
 If a model that starts a Scenario with a Hero Character Card Shapeshifts, and their Character Card is replaced with a Follower Card, that model is still considered to be a Hero. [see BRB p. 91 for full explanation].</description>
+      <alias>Shapeshift</alias>
     </rule>
     <rule id="a213-4c27-218f-13b3" name="Slow To Fire" publicationId="4d6f-8c48-a5ea-e83c" page="91" hidden="false">
       <description>Weapons with the Slow to Fire Keyword receive a Special Token to show they must
@@ -6775,6 +8532,7 @@ damage from an Attack with the slowed Keyword. The slowed effect is applied in 
     </rule>
     <rule id="f2b0-c6d4-69f2-eff6" name="Soul Charges (X)" publicationId="4d6f-8c48-a5ea-e83c" page="91" hidden="false">
       <description>Items with this Keyword (notably Staffs) begin the game with a limited number of Soul Charges, equal to X. This is marked on the Upgrade Card by means of Soul Charge Tokens, which are used to track expended Charges much like a model’s Reserves. One Soul Charge is expended each time the item is used (some items allow the expenditure of additional Charges to increase the effects). Soul Charges may never be increased  above the starting value (X).</description>
+      <alias>Soul Charges</alias>
     </rule>
     <rule id="f57f-8ba9-4e6b-459c" name="Staggered" publicationId="4d6f-8c48-a5ea-e83c" page="49" hidden="false">
       <description>A model with a Staggered Token cannot use Stamina Boosts of any kind. In addition, an Attacker gains a bonus -2 modifier to the Attack roll when targeting a model with a Staggered Token with a Melee Attack.</description>
@@ -6787,6 +8545,7 @@ damage from an Attack with the slowed Keyword. The slowed effect is applied in 
     </rule>
     <rule id="bfae-6be1-0c2e-0b1f" name="Turn Undead (X)" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
       <description>When a Target Undead model with a Wisdom value of X or less suffers one or more points of damage from an Attack with this Keyword, it immediately Flees. No Morale Check can be taken to avoid this effect.</description>
+      <alias>Turn Undead</alias>
     </rule>
     <rule id="aa94-2a05-4635-c76b" name="Two-Handed Block" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
       <description>A model with an item with this Keyword Equipped may perform the Block Action (and gain a Block Token) even if they do not have a Shield.
@@ -6802,6 +8561,7 @@ If a model with a Block Token and no Equipped shield loses or Unequips all weapo
     </rule>
     <rule id="550d-354c-0e2a-c57b" name="Weakness (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="92" hidden="false">
       <description>This model has a Weakness to a specific Damage Type. They suffer 1 additional damage whenever they lose one or more Health from an Attack of the specified Type. At least one damage must be caused in order for the extra damage to be inflicted.</description>
+      <alias>Weakness</alias>
     </rule>
     <rule id="c1df-67ea-e7cc-8134" name="Path of Might" publicationId="4d6f-8c48-a5ea-e83c" page="106" hidden="false">
       <description>Heroes from the Path of Might may Equip and use any Melee Weapon, Shield, or Armor Upgrade cards, even if they do not possess the required Skill. When required to perform a Skill Test of the associated type, they may make the corresponding Attribute Test instead. Remember that Attribute Tests do not trigger bonuses from [CRIT] rolls on the Skill Dice.
@@ -6822,210 +8582,278 @@ Wisdom Attribute: Alchemy, Enchanting, Restoration, Speech</description>
     </rule>
     <rule id="2957-6293-34c9-c462" name="Perk: Bullseye" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When this model inflicts 1 or more points of damage with a Ranged Weapon, the target loses [YELLOW] Stamina.</description>
+      <alias>Bullseye</alias>
     </rule>
     <rule id="f765-fb99-5b29-1171" name="Perk: Armsman" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>This model adds [YELLOW] to its Melee Attacks with One-Handed Weapons.</description>
+      <alias>Armsman</alias>
     </rule>
     <rule id="3988-d2f2-407a-a3b9" name="Perk: Bladesman" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>This model adds [GREEN] to its Melee Attack[s] with Swords.</description>
+      <alias>Bladesman</alias>
     </rule>
     <rule id="99da-de32-8e63-1a52" name="Perk: Bonebreaker" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>This model adds [GREEN] to its Melee Attack[s] with Maces.</description>
+      <alias>Bonebreaker</alias>
     </rule>
     <rule id="bedf-8612-7883-a004" name="Perk: Critical Charge" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>If this model performs a Melee Attack with a One-Handed Weapon after performing a Move Action in the same Activation, it adds [RED] to the Attack.</description>
+      <alias>Critical Charge</alias>
     </rule>
     <rule id="fd4f-3ef9-2082-4adf" name="Perk: Defensive Posture" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When Equipped with a One-Handed Weapon, if this model is successfully hit by an enemy Melee Attack, this model may use 1 Stamina to force the Attacker to reroll the Skill Test.</description>
+      <alias>Defensive Posture</alias>
     </rule>
     <rule id="b75c-66f4-b5b4-5308" name="Perk: Dual Savagery" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When this model performs a Dual Wield Strike, it adds [YELLOW] to the extra strike with the Secondary Weapon.</description>
+      <alias>Dual Savagery</alias>
     </rule>
     <rule id="e23a-87f7-19e1-ad12" name="Perk: Fighting Stance" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When this model spends a Ready Token to make a Melee Attack with a One-Handed Weapon, it adds [GREEN] to the Attack.</description>
+      <alias>Fighting Stance</alias>
     </rule>
     <rule id="d591-10a9-f15e-6b20" name="Perk: Flurry" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When this model is Equipped with two One-Handed Weapons and rolls a [CRIT] on a Melee Attack, it may immediately perform a Follow-Up (see [BRB] p.88) with the same Weapon instead of adding [BLACK] to the attack. Only one Follow-Up may be gained this way per Weapon in a single Activation.</description>
+      <alias>Flurry</alias>
     </rule>
     <rule id="2cf3-a74a-631e-7547" name="Perk: Hack and Slash" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>This model adds [GREEN] to its Melee Attacks with War Axes.</description>
+      <alias>Hack and Slash</alias>
     </rule>
     <rule id="4ed4-75bd-da20-3fe2" name="Perk: Low Slash" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>Melee Attack Boost. When declaring an attack with a One-Handed Weapon, this model may spend 1 Stamina to add the Slowed Keyword to the Attack.</description>
+      <alias>Low Slash</alias>
     </rule>
     <rule id="0059-18b6-5cde-54bb" name="Perk: Paralyzing Strike" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When this model declares a Melee Attack with a One-Handed Weapon, the Weapon gains the [HELMET] Special Effect: Incapacitate, for the duration of the Attack, in addition to any other Special Effect already listed.</description>
+      <alias>Paralyzing Strike</alias>
     </rule>
     <rule id="458d-6f19-41aa-6961" name="Perk: Puncture" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>Melee Attack Boost. When attacking with a Sword, this model may spend 1 Stamina to add the Bleed Keyword to the Attack.</description>
+      <alias>Puncture</alias>
     </rule>
     <rule id="6dcb-4217-410a-0a0f" name="Perk: Sword and Board" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When this model is Equipped with both a Sword and a Shield, it may spend a Block Token when making a Melee Attack with the Sword to add [GREEN][YELLOW] to the Attack.</description>
+      <alias>Sword and Board</alias>
     </rule>
     <rule id="947e-a191-297f-95e5" name="Perk: Twin Slashes" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When this model is equipped with two One-Handed Weapons, it may add [BLACK] to any Melee Attack with the Primary Weapon instead of performing an extra strike with the Secondary Weapon.</description>
+      <alias>Twin Slashes</alias>
     </rule>
     <rule id="224f-1058-8d02-76d4" name="Perk: Critical Shot" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>This model&apos;s ranged attacks gain the Piercing (1) Keyword. If the Attack already has the Piercing rule, the Piercing value is increased by 1 to a maximum of Piercing (3).</description>
+      <alias>Critical Shot</alias>
     </rule>
     <rule id="87d1-a80a-f7db-b60c" name="Perk: Eagle Eye" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>This model increases the Long Range of any Ranged Weapon it uses by 6”.</description>
+      <alias>Eagle Eye</alias>
     </rule>
     <rule id="e7a2-df68-fe8b-bd85" name="Perk: Hasty Retreat" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>When this model successfully Withdraws from Engagement, it may immediately Shoot as a Free Action with a Ranged Weapon, even if it has already Attacked this round.</description>
+      <alias>Hasty Retreat</alias>
     </rule>
     <rule id="62f6-ffd4-b223-df57" name="Perk: Hunter&apos;s Discipline" publicationId="4d6f-8c48-a5ea-e83c" page="95" hidden="false">
       <description>This model never runs out of Special Ammunition.</description>
+      <alias>Hunter&apos;s Discipline</alias>
     </rule>
     <rule id="381d-ce1c-00d2-59eb" name="Perk: Long Shots" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>Shoot Attack Boost. When Attacking at Long Range, this model may spend 1 Stamina point to add [YELLOW] to the Attack.</description>
+      <alias>Long Shots</alias>
     </rule>
     <rule id="0003-a957-471d-4ce0" name="Perk: Overdraw" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>This model adds [YELLOW] to its Ranged Attacks with a Bow.</description>
+      <alias>Overdraw</alias>
     </rule>
     <rule id="ad1e-6109-2c63-c660" name="Perk: Power Shot" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>Shoot Attack Boost. When this model makes an Attack with a Bow at Short Range, the Weapon gains the [HELMET] Special Effect: Stagger.</description>
+      <alias>Power Shot</alias>
     </rule>
     <rule id="8cc1-5dcf-1215-7ee2" name="Perk: Quick Shot" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>This model may perform two Shoot Actions with the same Bow in a single Activation.</description>
+      <alias>Quick Shot</alias>
     </rule>
     <rule id="ff82-0769-0a4a-7153" name="Perk: Ranger" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When it is Engaged, this model may exchange an Equipped Bow for another Weapon in its inventory as a Free Action.</description>
+      <alias>Ranger</alias>
     </rule>
     <rule id="f51b-1bcb-b1c1-7a57" name="Perk: Steady Hand" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When performing an Aimed Shot Boost, this model may add [YELLOW] as well as [GREEN] to the Attack.</description>
+      <alias>Steady Hand</alias>
     </rule>
     <rule id="5cde-bd5c-95c1-757d" name="Perk: Augmented Flames" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>Any Destruction Spell cast as an Attack by this model that causes Fire Type damage adds [YELLOW] to the attack.</description>
+      <alias>Augmented Flames</alias>
     </rule>
     <rule id="eae7-ee7c-9f43-386d" name="Perk: Destruction Mastery" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>This model adds [GREEN] to all Destruction Skill Tests.</description>
+      <alias>Destruction Mastery</alias>
     </rule>
     <rule id="9ccb-96d1-a56b-453d" name="Perk: Disintegrate" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>When this model makes an Attack with a Destruction Spell that causes Shock Type damage, the Attack gains the Punishing (1) Keyword. If the Attack already has the Punishing Keyword, the Punishing value is increased by 1 to a maximum of Punishing (3).</description>
+      <alias>Disintegrate</alias>
     </rule>
     <rule id="410f-7c19-be99-af07" name="Perk: Augmented Shock" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>Any Destruction Spell cast as an Attack by this model that causes Shock Type damage adds [YELLOW] to the attack.</description>
+      <alias>Augmented Shock</alias>
     </rule>
     <rule id="f130-7877-e9aa-a998" name="Perk: Augmented Frost" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>Any Destruction Spell cast as an Attack by this model that causes Frost Type damage adds [YELLOW] to the attack.</description>
+      <alias>Augmented Frost</alias>
     </rule>
     <rule id="1a54-171e-0148-e420" name="Perk: Deep Freeze" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>Any Destruction Spell cast by this model that causes Frost Type Damage gains the Incapacitate Keyword.</description>
+      <alias>Deep Freeze</alias>
     </rule>
     <rule id="997c-17c8-a48c-d0ad" name="Perk: Avoid Death" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>The first time each game this model is forced to take an Endurance Attribute Test as a result of Injury, it does not need to roll, and treats the result as [CRIT].</description>
+      <alias>Avoid Death</alias>
     </rule>
     <rule id="4da0-edd2-25f8-ce8a" name="Perk: Impact" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>When this model inflicts any damage with a Destruction Spell, the target gains a Staggered Token.</description>
+      <alias>Impact</alias>
     </rule>
     <rule id="6257-3746-fa77-501f" name="Perk: Impulse" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>When this model suffers damage, and is not removed from play or Incapacitated, choose an enemy model within 3” of it. The enemy model suffers [RED] damage with the Force Damage Type (reduced by Armor Rating as normal).</description>
+      <alias>Impulse</alias>
     </rule>
     <rule id="5f58-029c-f75b-2f40" name="Perk: Intense Flames" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>When this model causes an enemy model to gain a Burning Token as a result of an Attack with a Destruction spell, the enemy model must take a Morale Check.</description>
+      <alias>Intense Flames</alias>
     </rule>
     <rule id="0ae8-a920-874e-0a7a" name="Perk: Rune Master" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>This model doubles the Range at which its Rune Spells can be placed.</description>
+      <alias>Rune Master</alias>
     </rule>
     <rule id="f8ea-6250-0c28-33f6" name="Perk: Regeneration" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>Any Restoration Spell cast by this model that restores Health restores an extra [YELLOW] Health to the target.</description>
+      <alias>Regeneration</alias>
     </rule>
     <rule id="c175-8d5e-9e3f-3736" name="Perk: Agile Defender" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>This model adds [YELLOW] to the Armor Rating of any Light Armor it has Equipped.</description>
+      <alias>Agile Defender</alias>
     </rule>
     <rule id="0830-3a1b-ea49-5b38" name="Perk: Annulment" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>When this model has Light Armor Equipped, it may make a Light Armor Skill Test as a Special Action. If the Test is passed, it gains the Resistance (Magic) Keyword until the end of the round.</description>
+      <alias>Annulment</alias>
     </rule>
     <rule id="60eb-baf5-15f2-58ed" name="Perk: Custom Fit" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>When this model has Light Armor Equipped, it may make a Light Armor Skill Test each  time it is targeted by an Attack. If successful, add [YELLOW] to the Armor Rating versus that Attack.</description>
+      <alias>Custom Fit</alias>
     </rule>
     <rule id="0b47-a02d-7096-e30f" name="Perk: Deft Movement" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>When this model has Light Armor Equipped, it gains -1 to Agility Attribute Tests.</description>
+      <alias>Deft Movement</alias>
     </rule>
     <rule id="c7c8-2d41-68e3-f434" name="Perk: Evocation" hidden="false" publicationId="4d6f-8c48-a5ea-e83c" page="98">
       <description>This model gains the Regenerate Magicka keyword while it has Light Armor Equipped.</description>
+      <alias>Evocation</alias>
     </rule>
     <rule id="6328-1297-dc27-6bd2" name="Perk: Prodigy" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>This model adds [GREEN] to all Skill and Attribute Tests taken to cast Spells while it has Light Armor Equipped</description>
+      <alias>Prodigy</alias>
     </rule>
     <rule id="986d-0c2c-6f55-86f8" name="Perk: Wind Walker" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>This model gains the Regenerate Stamina Keyword while it has Light Armor Equipped.</description>
+      <alias>Wind Walker</alias>
     </rule>
     <rule id="9157-2d9d-af98-739c" name="Perk: Necromage" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>The Magicka cost of all Spells cast by this model [is] reduced by 1 if the target is Undead (to a minimum of 0).</description>
+      <alias>Necromage</alias>
     </rule>
     <rule id="4359-9375-5bec-94d9" name="Perk: Force Siphon" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>If an Attack [made by this model] causes Damage, the enemy model must make a Wisdom Attribute Test. If they fail they lose 1 Health and the caster immediately restores 1 Health.</description>
+      <alias>Force Siphon</alias>
     </rule>
     <rule id="5301-e0c6-db92-6b91" name="Perk: Grand Healing" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>Each time this model restores 2 or more Health to itself or a friendly model with a Staff or Restoration Spell, all friendly models within 3” restore 1 Health.</description>
+      <alias>Grand Healing</alias>
     </rule>
     <rule id="85b5-86b0-993b-2f70" name="Perk: Recovery" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>This model can use a Special Action to restore [RED] Magicka to itself.</description>
+      <alias>Recovery</alias>
     </rule>
     <rule id="7d81-5691-f973-2977" name="Perk: Respite" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>Any Restoration Spell cast by this model that restores Health also restores [YELLOW] Stamina to the target.</description>
+      <alias>Respite</alias>
     </rule>
     <rule id="b037-27c9-fd1c-b3e5" name="Perk: Restoration Mastery" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>This model adds [GREEN] to all Restoration Skill Tests.</description>
+      <alias>Restoration Mastery</alias>
     </rule>
     <rule id="901a-859d-c87e-4262" name="Perk: Dark Souls" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>All Zombies summoned by this model are summoned with one extra Health.</description>
+      <alias>Dark Souls</alias>
     </rule>
     <rule id="167f-9166-06e4-262e" name="Perk: Ward Absorb" publicationId="4d6f-8c48-a5ea-e83c" page="101" hidden="false">
       <description>If this model has a Ward Spell Equipped [after casting it], it restores 1 Magicka to itself each time it is successfully hit by an enemy Attack (whether or not the Attack causes damage).</description>
+      <alias>Ward Absorb</alias>
     </rule>
     <rule id="b2ff-de27-90e2-c153" name="Perk: Atromancy" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>All Atronachs summoned by this model add [YELLOW] to their Armor Rating.</description>
+      <alias>Atromancy</alias>
     </rule>
     <rule id="fb17-6720-0693-caff" name="Perk: Conjuration Mastery" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model adds [GREEN] to all Conjuration Skill Tests.</description>
+      <alias>Conjuration Mastery</alias>
     </rule>
     <rule id="df9a-3df4-6dbf-ded5" name="Perk: Soul Stealer" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>Each time this model damages an enemy with an attack from a Bound Weapon, it restores 1 Soul Charge to an Equipped item with the Soul Charge Keyword.</description>
+      <alias>Soul Stealer</alias>
     </rule>
     <rule id="8351-f93d-1e82-85d1" name="Perk: Elemental Potency" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>All Atronachs Summoned by this model gain one extra Action in their first Activation.</description>
+      <alias>Elemental Potency</alias>
     </rule>
     <rule id="7ec2-ea26-88b2-355d" name="Perk: Mystic Binding" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model’s adds [YELLOW] to Melee Attacks with Bound Weapons.</description>
+      <alias>Mystic Binding</alias>
     </rule>
     <rule id="226e-8404-87c8-a2ff" name="Perk: Necromancy" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>Any Spell cast by this model that Summons Zombies does not receive an Upkeep Token. The Zombies remain in play until [this model] is removed from play, chooses to end the Spell, or casts the same Spell again.</description>
+      <alias>Necromancy</alias>
     </rule>
     <rule id="f61c-866a-81c3-c123" name="Perk: Oblivion Binding" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>If this model damages an enemy Summoned creature with a Bound Weapon, it may choose to cancel all damage inflicted. Instead, the target creature is treated as a friendly model (under the control of this model&apos;s player and not requiring Upkeep to be paid) until the end of the creature’s next Activation, after which it reverts to the control of the caster [who originally Summoned the creature].</description>
+      <alias>Oblivion Binding</alias>
     </rule>
     <rule id="b5f0-a443-b8ee-c115" name="Perk: Summoner" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model doubles the Range of Summoning Spells it casts.</description>
+      <alias>Summoner</alias>
     </rule>
     <rule id="c170-33e5-e214-1922" name="Perk: Twin Souls" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model may have up to two Summoned creatures in play at any time.</description>
+      <alias>Twin Souls</alias>
     </rule>
     <rule id="ae94-7051-3180-08a2" name="Perk: Alteration Mastery" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model adds [GREEN] to all Alteration Skill Tests.</description>
+      <alias>Alteration Mastery</alias>
     </rule>
     <rule id="12c8-9614-e6e3-e056" name="Perk: Atronach" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model restores +1 Magicka whenever it is the target of a Spell.</description>
     </rule>
     <rule id="0a16-c005-2c89-da26" name="Perk: Mage Armor" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>As long as this model has no Armor Equipped, it gains an Armor Rating of [RED].</description>
+      <alias>Mage Armor</alias>
     </rule>
     <rule id="3394-de27-bd45-ae53" name="Perk: Stability" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>Each time this model must pay 1 Magicka for a Spell’s Upkeep, take an Alteration Skill Test. If successful, no Magicka is expended, and the Spell remains in play.</description>
+      <alias>Stability</alias>
     </rule>
     <rule id="cd85-c3c8-0fff-f4cd" name="Perk: Fire Enchanter" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>When this model makes an Attack with a weapon that has an Enchantment that causes Fire Damage, add [YELLOW] to the Attack.</description>
+      <alias>Fire Enchanter</alias>
     </rule>
     <rule id="8667-275a-e6ea-5ca0" name="Perk: Storm Enchanter" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>When this model makes an Attack with a weapon that has an Enchantment that causes Shock Damage, add [YELLOW] to the Attack.</description>
+      <alias>Storm Enchanter</alias>
     </rule>
     <rule id="98e2-e476-8d5f-31cb" name="Perk: Frost Enchanter" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>When this model makes an Attack with a weapon that has an Enchantment that causes Frost Damage, add [YELLOW] to the Attack.</description>
+      <alias>Frost Enchanter</alias>
     </rule>
     <rule id="7d3d-0609-a24c-db98" name="Perk: Extra Effect" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>This model may attach up to two Enchantments to a single Weapon or Armor Card.</description>
+      <alias>Extra Effect</alias>
     </rule>
     <rule id="433e-9827-e87e-fa56" name="Perk: Smithing (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>When using a Weapon made of a specific material (i.e., Steel, which will always be listed in the Weapon name [or on the Weapon card]), this model adds [GREEN] to the attack.
@@ -7035,223 +8863,297 @@ Wisdom Attribute: Alchemy, Enchanting, Restoration, Speech</description>
     </rule>
     <rule id="62b5-4fa1-a986-a89e" name="Perk: Arcane Blacksmith" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>When this model adds an Enchantment Card to a Weapon, it may choose to add either [GREEN] or [YELLOW] each time it Attacks with that Weapon.</description>
+      <alias>Arcane Blacksmith</alias>
     </rule>
     <rule id="87fe-b62d-ddfe-6246" name="Perk: Alchemist" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>Each time this model uses a Potion or Poison Card, take an Alchemy Skill Test. If the test is passed, the card is not discarded.</description>
+      <alias>Alchemist</alias>
     </rule>
     <rule id="7e8c-c565-61a2-0c5b" name="Perk: Benefactor" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>Any Potion with a Diminishing Effect used by this model remains at the final stage of the effect for one additional round.</description>
+      <alias>Benefactor</alias>
     </rule>
     <rule id="299a-976a-7a37-6214" name="Perk: Concentrated Poison" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>When this model applies Poison to a Weapon, add [RED] to the next Attack performed with that Weapon.</description>
+      <alias>Concentrated Poison</alias>
     </rule>
     <rule id="669a-5649-9928-2d12" name="Perk: Experimenter" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>Each time this model draws a Treasure or Master Treasure Card, it may make an Alchemy Skill Test. If the test is successful, this model restores 1 point of Health, Stamina or Magicka (player’s choice).</description>
+      <alias>Experimenter</alias>
     </rule>
     <rule id="9614-e4da-11e3-6640" name="Perk: Physician" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>Potions that restore Health, Stamina, or Magicka used by this model (either on itself or as an Aid Action) restore [YELLOW] additional points.</description>
+      <alias>Physician</alias>
     </rule>
     <rule id="5228-4dae-e45b-40b7" name="Perk: Snakeblood" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model gains Resistance (Poison).</description>
+      <alias>Snakeblood</alias>
     </rule>
     <rule id="17da-adc8-59a7-7616" name="Perk: Intimidation" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model may use a Special Action to become Terrifying until the end of the round.</description>
+      <alias>Intimidation</alias>
     </rule>
     <rule id="a50d-245c-bebc-6404" name="Perk: Merchant" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>When this model draws an Upgrade Card from the Treasure Deck, it may discard the card to gain 1 VP.</description>
+      <alias>Merchant</alias>
     </rule>
     <rule id="eb67-8629-d619-bf14" name="Perk: Poisoner" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>When this model causes a Poison Token to be assigned to an enemy, add one additional token of the same type to the Poison Token.</description>
+      <alias>Poisoner</alias>
     </rule>
     <rule id="35b9-e58d-5f20-caa7" name="Perk: Bribery" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model may discard any one Equipment Card when performing a Speech Skill Test to add [GREEN] to the test.</description>
+      <alias>Bribery</alias>
     </rule>
     <rule id="2734-97c2-54f3-fb62" name="Perk: Persuasion" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model may perform the Rally Command Action even if it is not the Party Champion. In addition, when it does so, this model and the initial target model each restore 1 Stamina.</description>
+      <alias>Persuasion</alias>
     </rule>
     <rule id="e7c5-6117-3024-24bc" name="Perk: Expert Locks (X)" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>When this model attempts to pick a lock, the Complexity is reduced by X, to a minimum of 1.</description>
+      <alias>Expert Locks</alias>
     </rule>
     <rule id="1cc5-678b-fbfa-4c26" name="Perk: Golden Touch" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>Each time this model successfully Searches a Treasure Token or Master Chest, it gains 1 VP.</description>
+      <alias>Golden Touch</alias>
     </rule>
     <rule id="a0a9-6f4b-4447-abe9" name="Perk: Locksmith" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model adds [GREEN] to its Lockpick Skill Tests.</description>
+      <alias>Locksmith</alias>
     </rule>
     <rule id="20be-2e12-0782-2057" name="Perk: Treasure Hunter" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>When this model searches a Treasure Token, it may draw an extra Treasure Card. This Perk does not apply to Master Chests.</description>
+      <alias>Treasure Hunter</alias>
     </rule>
     <rule id="0382-d77c-a09a-6784" name="Perk: Wax Key" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model automatically succeeds in opening Locked Doors.</description>
+      <alias>Wax Key</alias>
     </rule>
     <rule id="f974-3fee-a45f-998f" name="Perk: Battle-Rush" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When performing a Melee Attack with a Two-Handed Weapon, this model restores 1 Stamina for every 3 points of damage inflicted on the target. This Perk is cumulative with the Absorb Stamina keyword.</description>
+      <alias>Battle-Rush</alias>
     </rule>
     <rule id="075c-5345-7cb8-f820" name="Perk: Barbarian" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>This model adds [YELLOW] to its Melee Attacks with Two-Handed Weapons.</description>
+      <alias>Barbarian</alias>
     </rule>
     <rule id="6f94-83fa-5b4c-9114" name="Perk: Champion&apos;s Stance" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>This model adds [GREEN] to Melee Attacks with Two-Handed Weapons when spending a Ready Token.</description>
+      <alias>Champion&apos;s Stance</alias>
     </rule>
     <rule id="1df4-d415-809d-282c" name="Perk: Deep Wounds" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When this model makes a Melee Attack with a Greatsword, the Attack gains the Punishing (1) Keyword. If the Attack already has the Punishing rule, the Punishing value is increased by 1 to a maximum of Punishing (3).</description>
+      <alias>Deep Wounds</alias>
     </rule>
     <rule id="8104-8c79-c19e-4b99" name="Perk: Limbsplitter" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When this model makes a Melee Attack with a Battleaxe, the Attack gains the Punishing (1) Keyword. If the Attack already has the Punishing rule, the Punishing value is increased by 1 to a maximum of Punishing (3).</description>
+      <alias>Limbsplitter</alias>
     </rule>
     <rule id="44cc-389d-4766-9e73" name="Perk: Momentum" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When performing a Melee Attack with a Two-Handed Weapon, this model restores 1 Health for every 3 points of damage inflicted on the target.</description>
+      <alias>Momentum</alias>
     </rule>
     <rule id="6368-6e76-c532-efa1" name="Perk: Skullcrusher" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When this model makes a Melee Attack with a Warhammer, the Attack gains the Punishing (1) Keyword. If the Attack already has the Punishing rule, the Punishing  value is increased by 1 to a maximum of Punishing (3).</description>
+      <alias>Skullcrusher</alias>
     </rule>
     <rule id="ef5a-bdc6-5744-5b1e" name="Perk: Devastating Blow" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When this model scores a Critical Hit on a Melee Attack with a Two-Handed Weapon, it gains a bonus [YELLOW] in addition to [BLACK].</description>
+      <alias>Devastating Blow</alias>
     </rule>
     <rule id="258a-d5df-32d0-0f14" name="Perk: Great Critical Charge" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When this model performs a Melee Attack with a Two-Handed Weapon after performing a Move Action in the same Activation, it adds [RED] to the Attack.</description>
+      <alias>Great Critical Charge</alias>
     </rule>
     <rule id="6abd-5574-d4a0-c5f9" name="Perk: Sweep" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>When Attacking with a Two-Handed Weapon, if the target is removed from play or incapacitated, this model may immediately make an extra Attack with the same Weapon against a new, non-incapacitated enemy it is Engaged with. Treat this exactly as a Follow-Up (see [BRB] page 88). If the target of this Attack is removed from play or incapacitated as a result of the new Attack, choose another non-incapacitated enemy this model is Engaged with and Attack again, and so on, until this model is no longer  Engaged with any non-incapacitated enemies or makes an Attack which does not  incapacitate or remove an enemy model from play.</description>
+      <alias>Sweep</alias>
     </rule>
     <rule id="db1e-693f-0bcc-c7db" name="Perk: Uppercut" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>Melee Attack Boost. When Attacking with a Two-Handed Weapon, this model may use 1 Stamina to add the Force Damage Type to the attack.</description>
+      <alias>Uppercut</alias>
     </rule>
     <rule id="76b4-20d7-406d-e54b" name="Perk: Warmaster" publicationId="4d6f-8c48-a5ea-e83c" page="96" hidden="false">
       <description>This model does not have to pay the additional Stamina cost for Power Attacks for Two-Handed Weapons with the Cumbersome Keyword. This model still gains the [RED] dice [from performing a Power Attack affected by the Cumbersome Keyword].</description>
+      <alias>Warmaster</alias>
     </rule>
     <rule id="f7bb-d34f-130c-c992" name="Perk: Cutpurse" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>When this model performs a Pickpocket Skill Test, it may choose not to take an item, but instead gain 1 VP.</description>
+      <alias>Cutpurse</alias>
     </rule>
     <rule id="22ae-12bc-c878-5ae0" name="Perk: Extra Pockets" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model has one extra Quick Slot (make sure the extra card is clearly separate from the model’s Inventory).</description>
+      <alias>Extra Pockets</alias>
     </rule>
     <rule id="a2d9-a9bb-2870-142c" name="Perk: Light Fingers" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model adds [GREEN] to its Pickpocket Skill Tests.</description>
+      <alias>Light Fingers</alias>
     </rule>
     <rule id="544c-e5db-fb40-b822" name="Perk: Night Thief" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model gains -2 to its Pickpocket and Sneak Skill Tests when the Darkness scenario rules are in effect.</description>
+      <alias>Night Thief</alias>
     </rule>
     <rule id="0bc2-227a-04b2-44f1" name="Perk: Perfect Touch" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>When this model performs a Pickpocket Skill Test, it may add the target’s Equipped items to the draw pile (remember to put all items back in the correct slots when the Pickpocket Action is finished).</description>
+      <alias>Perfect Touch</alias>
     </rule>
     <rule id="4132-550d-a061-fb55" name="Perk: Poisoned Pocket" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>When this model performs a Pickpocket Skill Test, it may choose not to take an item, but instead place a single Poison Token on the target (choose a Health, Stamina or Magicka token to put on the Poison token as normal).</description>
+      <alias>Poisoned Pocket</alias>
     </rule>
     <rule id="e37a-4550-0ecf-e918" name="Perk: Misdirection" publicationId="4d6f-8c48-a5ea-e83c" page="99" hidden="false">
       <description>This model can choose which Upgrade Card to Pickpocket instead of drawing randomly.</description>
+      <alias>Misdirection</alias>
     </rule>
     <rule id="6486-0fbf-504b-ff6f" name="Perk: Conditioning" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>While Sprinting, this model counts as wearing no Armor for the purposes of calculating its movement, no matter the actual type of Armor it has Equipped.</description>
+      <alias>Conditioning</alias>
     </rule>
     <rule id="67ea-4fbe-5055-2f3b" name="Perk: Constitution" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>While it has Heavy Armor Equipped, this model may take a Heavy Armor Skill Test as
 a Special Action. If the Test is passed, the model restores 1 point of its choice of Health, Stamina, or Magicka.</description>
+      <alias>Constitution</alias>
     </rule>
     <rule id="de7f-3ae1-70ef-0a9b" name="Perk: Cushioned" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>This model treats Falling Damage as if it were 1 Height Level lower if it has Heavy Armor Equipped.</description>
+      <alias>Cushioned</alias>
     </rule>
     <rule id="de46-1004-a7e4-f348" name="Perk: Fists of Steel" hidden="false" publicationId="4d6f-8c48-a5ea-e83c" page="97">
       <description>This model adds [YELLOW] to Unarmed Attacks if it has Heavy Armor Equipped.</description>
+      <alias>Fists of Steel</alias>
     </rule>
     <rule id="cf30-bf63-5856-b9ca" name="Perk: Invulnerable" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>When this model has Heavy Armor Equipped, it may spend a Ready Token when it is Attacked to add [BLACK] to its Armor Rating until the end of the current round.</description>
+      <alias>Invulnerable</alias>
     </rule>
     <rule id="a61b-4473-cc8c-ffe2" name="Perk: Reflect Blows" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>When this model has Heavy Armor Equipped and survives an enemy Melee Attack without being incapacitated or removed from play, it may make a Heavy Armor Skill Test, rolling its Armor Rating as though it were a Melee Attack, targeting the enemy that Attacked it. No Special Effects can be applied to this Attack. The enemy model may defend itself as normal.</description>
+      <alias>Reflect Blows</alias>
     </rule>
     <rule id="52d8-41a3-c1e3-c7eb" name="Perk: Juggernaut" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>This model adds [YELLOW] to the Armor Rating of any Heavy Armor it has Equipped.</description>
+      <alias>Juggernaut</alias>
     </rule>
     <rule id="a6f5-80cc-4900-cc71" name="Perk: Revitalize" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>Once per round, when this model suffers any damage while it has Heavy Armor Equipped, it may take a Heavy Armor Skill Test. If the Test is passed, this model adds [YELLOW] to all of its Attacks until the end of the round.</description>
+      <alias>Revitalize</alias>
     </rule>
     <rule id="9489-c41b-efeb-4897" name="Perk: Tower of Strength" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>When this model has Heavy Armor Equipped, it may take a Heavy Armor Skill Test each time it would be assigned a Staggered Token. If the test is successful, the Staggered Token is ignored [i.e., removed]. If a model gains Tower of Strength while Staggered, remove the Staggered Token.</description>
+      <alias>Tower of Strength</alias>
     </rule>
     <rule id="1cd1-dafa-32a1-0e91" name="Perk: Well Fitted" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>When this model has Heavy Armor Equipped, it may take a Heavy Armor Skill Test each time it is Attacked. If successful, add [RED] to its Armor Rating for the duration of that Attack.</description>
+      <alias>Well Fitted</alias>
+      <alias>Well-Fitted</alias>
     </rule>
     <rule id="27e3-92af-bd86-e478" name="Perk: Block Runner" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>This model may Sprint while it has a Block Token.</description>
+      <alias>Block Runner</alias>
     </rule>
     <rule id="ab65-0d0a-eccb-e33c" name="Perk: Deadly Bash" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>If this model successfully performs the Shield Bash Boost, the attacker suffers [=[YELLOW][YELLOW] damage. Armor Rating is deducted as normal.</description>
+      <alias>Deadly Bash</alias>
     </rule>
     <rule id="64cb-3bdc-efa0-3be7" name="Perk: Deflect Arrows" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>This model may spend a Block Token to defend against a Ranged Attack, exactly as if defending against a Melee Attack. Note: It may not Shield Bash.</description>
+      <alias>Deflect Arrows</alias>
     </rule>
     <rule id="2097-e208-fbb3-34a9" name="Perk: Disarming Bash" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>After this model successfully performs a Shield Bash against an enemy Hero, it may make a Strength Attribute Test. If successful, the target of the Shield Bash must choose one Equipped Melee Weapon of their choice, if they had one, and flip it face-down. The Weapon may not be used while it is face-down. The model must spend an Action to turn the Weapon face-up again. Note that only Melee Weapons may be flipped, never a Bound Weapon or other Spell.</description>
+      <alias>Disarming Bash</alias>
     </rule>
     <rule id="9257-1ee9-bf2a-a2fe" name="Perk: Elemental Protection" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>While this model has a Block Token, it gains Resistance (Fire, Frost, Shock).</description>
+      <alias>Elemental Protection</alias>
     </rule>
     <rule id="3909-d1e3-2d0a-a52b" name="Perk: Fortress" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>While this model has a Block Token, it adds [RED] to its Armor Rating instead of [YELLOW].</description>
+      <alias>Fortress</alias>
     </rule>
     <rule id="e5a0-ed0a-d20a-b5c9" name="Perk: Power Bash" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>If this model performs a Shield Bash, the target is pushed directly away as if it had been damaged by an Attack with the Force [Damage] Type.</description>
+      <alias>Power Bash</alias>
     </rule>
     <rule id="195a-2802-482e-6e22" name="Perk: Quick Reflexes" publicationId="4d6f-8c48-a5ea-e83c" page="97" hidden="false">
       <description>Each time this model spends a Block Token, as long as it is not Incapacitated, it may take a Block Skill Test. If successful, the Block Token is not removed and may be used again.</description>
+      <alias>Quick Reflexes</alias>
     </rule>
     <rule id="562a-b734-7f2d-e333" name="Perk: Shield Charge" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>Move Boost. When this model has a Shield Equipped, it may nominate a target enemy in Line of Sight and within its maximum Move Distance (including the Sprint distance if it has any Stamina), taking Terrain into account. This model then moves in the most direct route possible into base contact with the target enemy. It may Move through intervening enemy models (it still may not end its move overlapping another model’s base). If this move successfully ends in base contact with the target enemy, every enemy model moved through en route [to the target] with a Strength value lower than this model’s Strength receives a Staggered Token.</description>
+      <alias>Shield Charge</alias>
     </rule>
     <rule id="8e3a-c72d-0196-1862" name="Perk: Shield Wall" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>This model gains [GREEN] to its Block Skill Tests while it has a Shield equipped.</description>
+      <alias>Shield Wall</alias>
     </rule>
     <rule id="eea3-bb51-672c-9dac" name="Perk: Assassin&apos;s Blade" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>When this model makes a Melee Sneak Attack with a Dagger, it adds [GREEN] to the Skill Test.</description>
+      <alias>Assassin&apos;s Blade</alias>
     </rule>
     <rule id="3c8f-df29-73c0-e515" name="Perk: Backstab" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>This model gains one extra [YELLOW] on its Melee Sneak Attacks.</description>
+      <alias>Backstab</alias>
     </rule>
     <rule id="4980-56a9-9a6f-13c4" name="Perk: Caltrops" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>Once per game, this model may drop Caltrops as a Special Action. Until the end of the Round, any enemy model that moves within 3&quot; of this model must pass an Agility Attribute Test or end its Move immediately. Models with the Fly Keyword are immune to this effect.</description>
+      <alias>Caltrops</alias>
     </rule>
     <rule id="cc74-2edd-269b-887d" name="Perk: Deadly Aim" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>This model gains one extra [YELLOW] on its Ranged Sneak Attacks.</description>
+      <alias>Deadly Aim</alias>
     </rule>
     <rule id="4910-f086-8b34-6e47" name="Perk: Light Foot" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>When this model is affected by any type of Trap Event, it may take an Agility Attribute Test. If the Test is passed, this model is not affected by the Trap (if it is an Area Effect Trap, other models within the Area of Effect will still be affected).</description>
+      <alias>Light Foot</alias>
     </rule>
     <rule id="7acd-c308-9598-3de2" name="Perk: Shadow Warrior" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>If this model is Unengaged, it may perform the Hide Action even if there are enemies within 6” and Line of Sight.</description>
+      <alias>Shadow Warrior</alias>
     </rule>
     <rule id="3dc1-d09e-2d25-1abb" name="Perk: Silence" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>When this model is Hidden, enemy models add +2 to the Attribute Test when rolling to Detect it (this is cumulative with the Muffled Keyword).</description>
+      <alias>Silence</alias>
     </rule>
     <rule id="1be2-5932-9952-b01b" name="Perk: Silent Roll" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>This model may Sprint while Hidden.</description>
+      <alias>Silent Roll</alias>
     </rule>
     <rule id="97cc-1221-1a57-177f" name="Perk: Stealth" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>This model adds [GREEN] to its Sneak Skill Tests.</description>
+      <alias>Stealth</alias>
     </rule>
     <rule id="de14-14f0-2811-08f4" name="Perk: Timely Escape" publicationId="4d6f-8c48-a5ea-e83c" page="98" hidden="false">
       <description>When this model successfully Withdraws, it may Hide as a Free Action if it meets the criteria [for Hiding].</description>
+      <alias>Timely Escape</alias>
     </rule>
     <rule id="7c6f-dc37-36f9-ae64" name="Perk: Illusion Mastery" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model adds [GREEN] to all Illusion Skill Tests.</description>
+      <alias>Illusion Mastery</alias>
     </rule>
     <rule id="4dd8-b9c2-4359-df4b" name="Perk: Animage" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model adds +1 to the maximum Wisdom restriction of Illusion Spells when targeting Beasts.</description>
+      <alias>Animage</alias>
     </rule>
     <rule id="60f6-7ab3-eae4-f4f6" name="Perk: Hypnotic Gaze" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model adds +1 to the maximum Wisdom restriction of Illusion Spells when targeting Followers, Minions, and Elite Adversaries.</description>
+      <alias>Hypnotic Gaze</alias>
     </rule>
     <rule id="eb59-3b76-9035-8f75" name="Perk: Quiet Casting" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model may use Illusion Spells while Hidden without the need for a Sneak Skill Test.</description>
+      <alias>Quiet Casting</alias>
     </rule>
     <rule id="99a5-2602-b986-e417" name="Perk: Master Of The Mind" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model reduces the Magicka cost of all Illusion Spells by -1 (to a minimum of 0).</description>
+      <alias>Master Of The Mind</alias>
     </rule>
     <rule id="c5f6-eea4-71a3-aab6" name="Perk: Aspect of Terror" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>Any Illusion Spell cast by this model that causes the target to Flee adds +2 to the maximum Wisdom restriction.</description>
+      <alias>Aspect of Terror</alias>
     </rule>
     <rule id="0c28-7559-bb9f-ddcb" name="Perk: Kindred Mage" publicationId="4d6f-8c48-a5ea-e83c" page="100" hidden="false">
       <description>This model adds +1 to the maximum Wisdom restriction of the targets when casting Illusion Spells.</description>
+      <alias>Kindred Mage</alias>
     </rule>
     <rule id="0558-ad5c-1f75-75e0" name="Scatter" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false">
       <description>When a Skill Test fails while using an Attack with the Scatter Keyword, it deviates from the intended target to a new location. [...] The distance of the scatter is equal to the amount by which the modified Skill Dice result failed, to a maximum of 6&quot;. [...] If a [FAILURE] is rolled, the scatter distance is 6&quot;.
@@ -7265,6 +9167,7 @@ If the line from the Attacker to the new target location passes through any Ter
     </rule>
     <rule id="8b30-4913-1be7-6809" name="Area Effect (X&quot;)" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false">
       <description>Any Attack with the Area Effect rule is accompanied by a range in inches (X”), which indicates the radius of the Area Effect... [see BRB pg. 93]</description>
+      <alias>Area Effect</alias>
     </rule>
     <rule id="e311-031a-d0f0-985c" name="Damage Type: Fire" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>If an attack of the Fire type causes any damage but does not cause the target to be removed from play, the target gains a Burning Token. A model may only have one Burning Token at any time. A model with a Burning Token can Activate and perform Actions as normal. However, if a model has a Burning Token at the start of its Activation, it suffers 1 damage (with no Armor Roll). [...]  If a model with a Burning Token ever becomes incapacitated, it is removed from play.[see BRB pg. 94].</description>
@@ -7293,6 +9196,7 @@ Unless a rule states that the Limited Use is [X] per action, per round or per ga
     <rule id="390c-dae7-e7fd-e895" name="Template (X)" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" page="92">
       <description>A Template Attack is a special ranged attack, which has its range defined by a teardrop-shaped template of width X”. When performing the attack, do not declare a target, place the narrow end of the template in contact with the attacker’s base and position the wide end directly away. There must be at least one non-hidden enemy model in clear or obscured Line of Sight at least partially under the template (You may roll to detect Hidden models as normal). Once the template is positioned, roll an attack separately against every model at least partially under the template unless that model is behind LoS Blocking terrain of at least an equal Height Level to the attacker. Cover applies as
 normal to obscured models.</description>
+      <alias>Template</alias>
     </rule>
     <rule id="086f-6ac1-f2fd-cffe" name="Adversaries And Wards" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" page="82">
       <description>Some Adversaries prefer the use of magic over steel to defend themselves. If an Adversary’s Defense slot shows they have a Ward Equipped (where it would usually state Shield), when it performs a response that instructs it to Block, it instead casts a Ward. This is always successful, and a Block Token is assigned to the activating Adversary model. In addition to the standard rules for models with a Block Token (page 32), casting a Ward grants the Resistance (Magic) Keyword (page 90) to the caster until the Block Token is discarded. Adversaries may not gain more than one Block Token from Wards.
@@ -7317,7 +9221,7 @@ If playing against the Dark Brotherhood as Adversaries, assign contract cards as
       <description>Models from this Party within 3” of an Objective or Special Objective add [YELLOW] to their Armor Rating. In addition, if this Party ever contests control of an Objective, they automatically win it instead.</description>
     </rule>
     <rule id="48c9-7ce2-5d87-1035" name="Enemies of Molag Bal" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
-      <description>All [Aldmeri Dominion and/or Cult of Boethiah] Heroes add [YELLOW] to their Attacks versus models with the Followers of Molag Bal Faction icon.  [See S:TAG Cards for the Cult of Boethiah Faction rules].</description>
+      <description>All Aldmeri Dominion Heroes add [YELLOW] to their Attacks versus models with the Followers of Molag Bal Faction icon.</description>
     </rule>
     <rule id="b5dd-ffeb-b252-0aaa" name="Victory Through Unity" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <description>[A Daggerfall Covenant] Party’s Heroes benefit from the following special rules:
@@ -7377,12 +9281,9 @@ While the model has a Block Token, the Special Rules on the Ward Card are in ef
 Unlike normal shields, a model may Equip a Ward to each Hand Slot, forgoing offensive capability in exchange for defense [...]. A model so Equipped may perform a Block Action while it already has a Block Token. This is the only way that a model can possess two Block Tokens at the same time[... see BRB pg. 57].</description>
     </rule>
     <rule id="af30-da4b-6b37-7cdb" name="Summon" publicationId="4d6f-8c48-a5ea-e83c" page="56" hidden="false">
-      <description>Summoning Spells are subtypes of Environment Spells. When a Spell with this subtype is successfully cast, it results in a model being placed on the board, in accordance with the Environment Targeting Types Rules. These models (or Summoned Creatures) are
-treated exactly like friendly Followers while the Spell has an Upkeep Token. Summoned Creatures cannot be placed in base contact with an enemy model when first Summoned, but may otherwise be placed anywhere within Range of the Caster.
-
+      <description>Summoning Spells are subtypes of Environment Spells. When a Spell with this subtype is successfully cast, it results in a model being placed on the board, in accordance with the Environment Targeting Types Rules. These models (or Summoned Creatures) are treated exactly like friendly Followers while the Spell has an Upkeep Token. Summoned Creatures cannot be placed in base contact with an enemy model when first Summoned, but may otherwise be placed anywhere within Range of the Caster.
 
 When a Summoned Creature appears, it must Activate as soon as the caster’s Activation is complete, ignoring the usual sequence of play. In subsequent rounds, the creature activates as a normal member of the Party, with the exceptions noted below [in BRB].
-
 
 Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike normal Upkeep, 1 Magicka must be paid each time the creature Activates, not the Caster. The Upkeep is not paid in the Round in which the creature is Summoned. [... see BRB pg. 56].</description>
     </rule>
@@ -7400,6 +9301,7 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     </rule>
     <rule id="115f-5de9-4155-040e" name="Adversary Shapeshift (X)" publicationId="4d6f-8c48-a5ea-e83c" page="85" hidden="false">
       <description>[...] &apos;X&apos; is the name of the alternate form Advesary Card. [...] Each time this Adversary activates, roll [SKILL DIE]. On a [FAILURE], the model transforms into the alternate form, replacing the model with the alternate version. [...] An Adversary&apos;s Reserves (if any) are transferred between the two forms. If one form has a higher maximum value in any pool than the other when the model Shapeshifts, it must be reduced accordingly so as to not exceed the maximum value. Repeat this same process for the alternate form when it next activates [see BRB p. 85 for full explanation].</description>
+      <alias>Adversary Shapeshift</alias>
     </rule>
     <rule id="1876-7498-6402-603b" name="Dawnguard Armor" publicationId="4d6f-8c48-a5ea-e83c" page="87" hidden="false">
       <description>This model adds [YELLOW] to its Armor Rating against any damage inflicted by an enemy Vampire.</description>
@@ -7415,24 +9317,31 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     </rule>
     <rule id="8792-767e-1e78-bd0f" name="Vampire Perk: Detect Creatures" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>As a Special Action, this model may spend any number of Stamina points to remove Hidden Tokens from enemy models within 6&quot; and Line of Sight at a cost of 1 Stamina point per Hidden Token removed.</description>
+      <alias>Detect Creatures</alias>
     </rule>
     <rule id="1746-e9fc-41db-4247" name="Vampire Perk: Embrace of Shadows" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>As a Special Action, this model may spend 1 Health point to gain the Invisible keyword until the start of its next activation.</description>
+      <alias>Embrace of Shadows</alias>
     </rule>
     <rule id="9cad-8869-3c03-b530" name="Vampire Perk: Mist Form" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>As a Special Action, this model may spend 2 Health points to gain the Ethereal keyword until the start of its next activation.</description>
+      <alias>Mist Form</alias>
     </rule>
     <rule id="2264-2f2b-e122-2305" name="Vampire Perk: Night Cloak" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>As a Special Action, this model may spend 1 Health point to make enemy models suffer a +2 penalty to Attack Tests that target this model until the end of the round.</description>
+      <alias>Night Cloak</alias>
     </rule>
     <rule id="5ebf-9690-1a20-60fb" name="Vampire Perk: Poison Talons" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>Melee Attack Boost.  This model may spend 1 Stamina point during a Melee Attack with Teeth &amp; Claws to add the Poison (Health) keyword [to the Attack].</description>
+      <alias>Poison Talons</alias>
     </rule>
     <rule id="b31c-1f51-58a2-139b" name="Vampire Perk: Power Bite" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>Melee Attack Boost.  This model may spend 2 Stamina points during a Melee Attack to add the Bleed and Absorb Health (2) keywords to the Attack.</description>
+      <alias>Power Bite</alias>
     </rule>
     <rule id="94fd-e062-7e6e-f31c" name="Vampire Perk: Supernatural Reflexes" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>This model may spend 1 Health, 1 Stamina, and 1 Magicka points at the beginning of its Activation to gain the Extra Attack Keyword until the end of its Activation.</description>
+      <alias>Supernatural Reflexes</alias>
     </rule>
     <rule id="3856-2cfd-bc03-b674" name="Strength of the Bloodline" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <description>Clan Volkihar models may [spend] 1 Stamina point to add [GREEN] to any Blood Magic spell they attempt to cast.  Furthermore, if any Blood Magic test scores a [CRITICAL HIT], the model may immediate restore 1 Health, Magick, or Stamina point to itself or a friendly model within 3&quot;, in addition to any other effect[s of the test].</description>
@@ -7454,6 +9363,7 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     </rule>
     <rule name="Entourage (MODEL) (X)" id="daeb-abc9-075b-98fe" hidden="false" publicationId="4d6f-8c48-a5ea-e83c" page="87">
       <description>This model always begins the game accompanied by X models of the specified type, which are included in its septim cost. The Entourage models must be deployed at the same time as this model, within 3&quot; of it. If this model is a Party Champion, all members of the Entourage have the Bodyguard keyword. If this model is an Adversary that begins play in the Spawn Pool, its Entourage will only deploy when this model Spawns. The Entourage models are counted as a single Adversary for Spawning and for Activating via drawing a Number Token. The Activation of one Entourage model is always completed before starting another.</description>
+      <alias>Entourage</alias>
     </rule>
     <rule name="Ghostly Strike" id="ee6d-1304-6c85-e728" hidden="false" publicationId="4d6f-8c48-a5ea-e83c" page="88">
       <description>This model adds the Enchanted and Piercing (1) keywords to its Unarmed Melee Attacks.</description>
@@ -7463,6 +9373,7 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     </rule>
     <rule name="Signature Loot (X)" id="1377-d28e-5608-a161" hidden="false" publicationId="4d6f-8c48-a5ea-e83c" page="91">
       <description>At the start of the game, this model equips the specified Treasure card (X) - the card’s Septim value is included in the model’s own cost. When this model is removed as a casualty by means of a Melee Attack,  the attacking model immediately gains the specified Treasure card. If the model is an Adversary Master, the card is not equipped, but this effect replaces the usual random Treasure card draw for removing the model as a casualty.</description>
+      <alias>Signature Loot</alias>
     </rule>
     <rule name="Guardians of Ancient Treasures" id="4e9f-ec9b-7691-bc73" hidden="false" publicationId="1d0d-fac6-d336-636f">
       <description>Draugr never acquire Treasure Cards during play (searched Treasure and Master Treasure tokens are still removed from play). If a Draugr model is instructed to gain a Treasure or Master Treasure Card, they instead gain [YELLOW] VP for their side and restore 1 point to a Reserve of their choice.</description>
@@ -7510,25 +9421,20 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     <rule name="Dragons and Movement" id="5bb1-e560-23b7-d679" hidden="false" publicationId="1d0d-fac6-d336-636f" page="12">
       <description>In every even-numbered round, beginning in round 2 (so rounds 2, 4, 6, and so on), this model gains the Fly keyword for the duration of any Move or Fall Back Response it is required to take. This also applies to any Ancient Dragon and Mirmulnir.</description>
     </rule>
+    <rule name="Talos Guide You" id="f557-12b1-08a1-d174" hidden="false" publicationId="2733-0fd1-3311-3be2">
+      <description>As a Special Action, target one friendly model with the Dragon Shouts keyword within 3&quot; and line of sight. That model restores 1 Thu&apos;um.</description>
+    </rule>
+    <rule name="Slow to Anger" id="2bfc-f089-6e43-ba4d" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <description>As soon as this model or a friendly Giant or Mammoth within 6&quot; takes any damage, this model&apos;s Attitude becomes Agressive for the rest of the game.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="fbc4-9bd5-aac2-45d7" name="Draugr: Ancient Nord Sword" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+    <profile id="b204-c0b4-3787-f593" name="Draugr: Dented Iron Shield" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
       <characteristics>
-        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][YELLOW][YELLOW]
-[HELMET]: add Punishing (1)</characteristic>
-        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">None</characteristic>
-        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
-        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b204-c0b4-3787-f593" name="Draugr: Steel Shield" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
-      <characteristics>
-        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[RED]
-[HELMET]: add [YELLOW]
-[OBLIVION]: add [GREEN]</characteristic>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
         <characteristic name="Effect" typeId="6741-1328-7f47-6882">None</characteristic>
-        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">None</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">Draugr Only</characteristic>
       </characteristics>
     </profile>
     <profile id="0dc2-8dc6-c1e0-1766" name="Draugr: Studded Leather" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
@@ -7539,23 +9445,23 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
         <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="1319-ba3d-ce04-a418" name="Draugr: Ancient Nord Greatsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+    <profile id="1319-ba3d-ce04-a418" name="Draugr: Ancient Nord Greatsword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
-[HELMET]: add Piercing (1)
-[SWORDS]: add Punishing (1)</characteristic>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][RED]
+[HELMET]: add Piercing (2)
+[SWORDS]: add [YELLOW]</characteristic>
         <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Steel, Two-Handed Block</characteristic>
         <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
-        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Draugr only.</characteristic>
       </characteristics>
     </profile>
-    <profile id="dcdc-facd-8a0b-72a3" name="Draugr: Ancient Nord Armor" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+    <profile id="dcdc-facd-8a0b-72a3" name="Ancient Nord Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
       <characteristics>
         <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[BLACK](1)
 [OBLIVION]: add [YELLOW]</characteristic>
         <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Heavy Armor</characteristic>
-        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">None</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Steel</characteristic>
         <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
       </characteristics>
     </profile>
@@ -7571,14 +9477,14 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
       </characteristics>
     </profile>
-    <profile id="43cd-ec0e-ac00-9b01" name="Draugr: Command Daedra" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+    <profile id="43cd-ec0e-ac00-9b01" name="Command Daedra" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
       <characteristics>
         <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
         <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Curse</characteristic>
-        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+2</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">2</characteristic>
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
         <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Conjuration</characteristic>
-        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Target enemy Daedra/Atronach model must pass a Wisdom Attribute Test or immediately perform an Action as though it were a friendly model on your side, acting as an Adversary with the Attack Response. You choose the target.</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Target enemy Daedra model must pass a Wisdom Attribute Test or immediately activate as though it were a friendly model on your side, following the Adversary Attack Response, with a target of your choice. If the target Daedra [has] yet to activate this round, mark it as activated.</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
       </characteristics>
@@ -7597,16 +9503,6 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
       </characteristics>
     </profile>
-    <profile id="1524-c20e-106c-ff8f" name="Draugr: Staff Of Fireballs" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
-      <characteristics>
-        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
-Add [YELLOW] for each additional Soul Charge spent.</characteristic>
-        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Agility</characteristic>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Soul Charges (3)</characteristic>
-        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
-        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
-      </characteristics>
-    </profile>
     <profile id="37e5-2f66-87af-739b" name="Ice Storm" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
       <characteristics>
         <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
@@ -7622,10 +9518,10 @@ Area Effect (2&quot;)</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
       </characteristics>
     </profile>
-    <profile id="c711-3a07-14f6-7f55" name="Draugr: Ancient Nord Bow" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+    <profile id="c711-3a07-14f6-7f55" name="Draugr: Ancient Nord Bow" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
-        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">None</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">Steel</characteristic>
         <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">8&quot;
 [GREEN][YELLOW][YELLOW]
 [HELMET]: add Piercing (1)</characteristic>
@@ -7634,7 +9530,7 @@ Area Effect (2&quot;)</characteristic>
 [HELMET]: add Piercing (1)</characteristic>
         <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
         <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
-        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">None</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">Draugr only.</characteristic>
       </characteristics>
     </profile>
     <profile id="5afc-0284-bd98-43cf" name="Draugr: Enchantment: Ancient Nord Weapon" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
@@ -7651,13 +9547,13 @@ Area Effect (2&quot;)</characteristic>
         <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c"/>
       </characteristics>
     </profile>
-    <profile id="2051-5777-1151-6f6f" name="Draugr: Ebony Sword" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+    <profile id="2051-5777-1151-6f6f" name="Ebony Sword" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK][YELLOW]
 [HELMET]: Restore 1 Stamina
 [SWORDS] Piercing (2)</characteristic>
         <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">None</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Ebony</characteristic>
         <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
@@ -7695,14 +9591,14 @@ Area Effect (2&quot;)</characteristic>
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="39f0-06d2-1866-d14f" name="Draugr: Conjure Frost Atronach" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+    <profile id="39f0-06d2-1866-d14f" name="Conjure Frost Atronach" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
       <characteristics>
         <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
         <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Summon</characteristic>
-        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">+1</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">1</characteristic>
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
         <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Conjuration</characteristic>
-        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Place one Frost Atronach at the target point. [The placed model counts as a Summoned Creature].</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Place one Frost Atronach Summoned Creature at the target point.</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">[Upkeep (from Summon)]</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
       </characteristics>
@@ -8155,7 +10051,7 @@ Add [YELLOW] for each additional Soul Charge spent.</characteristic>
         <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[BLACK][YELLOW]
 [OBLIVION]: add [YELLOW]</characteristic>
         <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Heavy Armor</characteristic>
-        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Add [GREEN] to Heavy Armor Skill Tests.</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">[Steel]. Add [GREEN] to Heavy Armor Skill Tests.</characteristic>
         <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
       </characteristics>
     </profile>
@@ -8624,7 +10520,7 @@ Models with a Wisdom Value of 4 or less that suffer 1 or more points of damage f
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="7fe2-8597-e5bf-aa93" name="Ebony Dagger" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+    <profile id="7fe2-8597-e5bf-aa93" name="Ebony Dagger" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK]
 [HELMET]: Piercing (1)
@@ -8734,9 +10630,9 @@ Models with a Wisdom Value of 4 or less that suffer 1 or more points of damage f
     <profile id="2139-efe0-5e3f-3bdf" name="Scimitar" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][YELLOW][YELLOW]
-[HELMET]: Follow-Up [1]</characteristic>
+[HELMET]: Follow-Up (1)</characteristic>
         <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Lightweight</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Steel. Lightweight</characteristic>
         <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
@@ -8904,17 +10800,6 @@ Strength 6+: [RED]</characteristic>
 [SWORDS]: Incapacitate</characteristic>
         <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
         <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">None</characteristic>
-        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
-        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1cf8-7f21-a5a0-f67a" name="Elven Dagger" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
-      <characteristics>
-        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
-[HELMET]: Piercing (1)
-[SWORDS]: Follow-Up [1]</characteristic>
-        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Lightweight</characteristic>
         <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
@@ -9161,7 +11046,7 @@ Area Effect (2&quot;)</characteristic>
         <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">0</characteristic>
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
         <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Restoration</characteristic>
-        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Target restores 1 Health point, +1 additional [Health] point for each Magicka point spent after the first. Cannot Target Atronachs, Undead, or Animunculi.</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Target restores 1 Health point, +1 additional point for each Magicka point spent after the first. Cannot Target Atronachs, Undead, or Animunculi.</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (Infinite)</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
       </characteristics>
@@ -9491,10 +11376,10 @@ Area Effect (3&quot;)</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="a345-22e4-55c1-762a" name="Frost Atronach: Summoned Creature" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+    <profile id="a345-22e4-55c1-762a" name="Frost Atronach: Daedric Construct" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
       <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
-        <characteristic name="Race" typeId="1735-edc6-5600-9496">Daedra</characteristic>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">[Daedra]</characteristic>
         <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
         <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED] (Frost)
 [HELMET]: Follow-Up (1)
@@ -9512,7 +11397,7 @@ Area Effect (3&quot;)</characteristic>
         <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">1</characteristic>
         <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">3</characteristic>
-        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="604c-079f-8138-ccd3" name="Storm Atronach: Summoned Creature" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
@@ -9712,8 +11597,7 @@ Enchanted</characteristic>
         <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged/Melee Attack</characteristic>
         <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">0</characteristic>
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">3&quot;</characteristic>
-        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction
-</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
         <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[YELLOW] Absorb Health (3)</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (2): Add [YELLOW] per point.</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
@@ -9944,7 +11828,7 @@ Blood Magic</characteristic>
 [HELMET]: Piercing (2)
 [SWORDS]: add [YELLOW]</characteristic>
         <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">[Steel]. Cumbersome, Two-Handed Block</characteristic>
         <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
@@ -10389,33 +12273,9 @@ This Spell only affects Undead and Vampire models within its area.</characterist
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
       </characteristics>
     </profile>
-    <profile name="Frost Atronach: Summoned Creature" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="74f4-405e-1f69-93cc" publicationId="9ac9-edd2-53a7-2d58">
-      <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
-        <characteristic name="Race" typeId="1735-edc6-5600-9496">Daedra</characteristic>
-        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
-        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED] (Frost)
-[HELMET]: Follow-Up (1)
-[SWORDS] add [YELLOW][YELLOW]</characteristic>
-        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
-        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [YELLOW]</characteristic>
-        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
-        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Death Explosion (Frost), Immunity (Frost), Relentless, Shambling, Terrifying, Weakness (Fire)</characteristic>
-        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">6</characteristic>
-        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2</characteristic>
-        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">6</characteristic>
-        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
-        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
-        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">6</characteristic>
-        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">1</characteristic>
-        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
-        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">3</characteristic>
-        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Yngvild Ghost: Bound Spirit" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="9891-3b46-6658-28ea" publicationId="1d0d-fac6-d336-636f">
       <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
         <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
         <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
         <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED]
@@ -10435,6 +12295,750 @@ One-Handed</characteristic>
         <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutrals, Draugr</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Summon Yngvild Ghost" typeId="031c-1555-fc2c-3d40" typeName="Spell" hidden="false" id="90cd-95d4-0190-de15" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">1</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Summon</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">1</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Conjuration</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Place one Yngvild Ghost at the target point. [Per Arondil&apos;s Necroanimus rule, these do not count as Summoned Creatures, and do not count against his Summon Limit.]</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">[Unclear if this requires Upkeep, see Arondil&apos;s Necroanimus rule.]</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot. Arondil only. Unique.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b4d8-cab2-e391-5a6b" name="Draugr: Ancient Nord Battleaxe" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][RED]
+[HELMET]: Bleed
+[SWORDS]: Punishing [1]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Steel, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Draugr only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dragon Priest Mask: Krosis" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="1846-bad7-4bce-4ff2" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Iron. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [YELLOW]
+Wearer gains the Lockpicking Skill and the Deep Freeze Perk.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. [Unique.]</characteristic>
+      </characteristics>
+      <alias>Krosis</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Hevnoraak" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="75e1-c4c6-d41f-db93" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Iron. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Immunity (Disease, Poison), Signature Loot (Hevnoraak&apos;s Staff)</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Hevnoraak</alias>
+    </profile>
+    <profile id="8019-f501-8f2a-3703" name="Signature Loot: Hevnoraak&apos;s Staff" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">12&quot;
+[GREEN][YELLOW][YELLOW][YELLOW] (Shock)
+[HELMET]: add [RED]
+Area Effect (2&quot;)
+Add [RED] for each additional Soul Charge spent.</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Intelligence</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Soul Charges (3)</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Signature Loot/Master Treasure only.</characteristic>
+      </characteristics>
+      <alias>Hevnoraak&apos;s Staff</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Volsung" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="5d1e-0201-0fc5-3725" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Steel. Attachment: Body or Light Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [YELLOW]
+Gain one additional Quick Slot while equipped.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Volsung</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Vokun" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="eac3-247d-4df8-ee85" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Steel. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [YELLOW]
+Add [GREEN] to all Alteration, Conjuration, and Illusion Skill Tests.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Vokun</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Rahgot" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="0ba1-b60b-953c-9fb8" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Orcish. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [RED]
+Regenerate Stamina</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Rahgot</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Otar" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="5e41-56e8-7288-dba3" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Glass. Attachment: Body or Light Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [RED]
+Wearer[&apos;s Attacks ignore] Resistance (Fire, Shock).</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Otar</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Morokei" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="373d-53d0-89c1-3721" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Elven. Attachment: Body or Light Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [YELLOW]
+Regenerate Magicka, Signature Loot (The Staff of Magnus)</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Morokei</alias>
+    </profile>
+    <profile id="d824-9e75-b363-29f4" name="Signature Loot: The Staff of Magnus" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">12&quot;
+[GREEN][RED] (Shock)
+[HELMET]: add [RED]
+[see attached Staff of Magnus Ability]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Intelligence</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Soul Charges (3)</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Signature Loot/Master Treasure only.</characteristic>
+      </characteristics>
+      <alias>The Staff of Magnus</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Nahkriin" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="4bcd-fd87-4204-42e3" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Ebony. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [BLACK]
+Wearer reduces the Magicka cost of Destruction and Restoration Spells by 1 point, to a minimum of 1.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Nahkriin</alias>
+    </profile>
+    <profile name="Signature Loot: Vaermina&apos;s Torpor" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="c921-73be-5329-3f27">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Potion</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Free Action. Mark this model&apos;s position, then remove it from the gaming area. Place the model within 8&quot; of the marker, then remove the marker. Take a Wisdom Attribute Test. If passed, the model adds [RED] to its Armor Rating until the end of the round. On [FAILURE], the model is Staggered.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">One use. Signature Loot/Master Treasure only.</characteristic>
+      </characteristics>
+      <alias>Vaermina&apos;s Torpor</alias>
+    </profile>
+    <profile name="Signature Loot: Red Eagle&apos;s Fury" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon" hidden="false" id="f3c6-9f50-3c52-98ea" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
+[HELMET]: add [YELLOW] and (Fire)
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Enchanted</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Signature Loot/Master Treasure only.</characteristic>
+      </characteristics>
+      <alias>Red Eagle&apos;s Fury</alias>
+    </profile>
+    <profile name="Signature Loot: Mehrunes&apos; Razor" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon" hidden="false" id="6a97-3a03-80c0-d8c3" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][YELLOW][YELLOW]
+[HELMET]: Piercing (1)
+2x [HELMET]: also add [BLACK][BLACK]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Enchanted, Lightweight</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Signature Loot/Master Treasure only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Signature Loot: Ebony Mail" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor" hidden="false" id="d6e8-1dc1-9421-07ec" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[BLACK] (1)
+[HELMET]: add [YELLOW]
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Muffled, Resistance (Magic).
+At the end of the round, each enemy engaged with this model must pass an Endurance Attribute Test or receive one [POISON: HEALTH].</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Signature Loot/Master Treasure only.</characteristic>
+      </characteristics>
+      <alias>Ebony Mail</alias>
+    </profile>
+    <profile id="0f1c-2d3a-bc54-36e4" name="Signature Loot: Gauldur Blackbow" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">Absorb Magicka (3), Enchanted</characteristic>
+        <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">8&quot;
+[GREEN][RED][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Long Range" typeId="cb5b-fc11-6ecf-6f7d">16&quot;
+[GREEN][YELLOW][YELLOW]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
+        <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">Signature Loot/Master Treasure only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ca90-e8de-a699-5244" name="Enchantment: Disease Immunity" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">This model can never receive a Disease Diminishing Effect card.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="150d-f88b-b563-4939" name="Enchantment: Harvesting" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Weapon</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Keyword: Absorb Stamina (2)</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ac9e-03da-79ba-2639" name="Enchantment: Devouring" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Weapon</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Keyword: Absorb Health (2)</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="849a-6c9f-fbfa-851a" name="Enchantment: Terror" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Weapon</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Targets with a Wisdom value of 6 or less that suffer damage from this Attack must Flee! (Models immune to Terrifying are immune to this effect.)</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0500-def5-9dd0-a4b2" name="Slow Time" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
+      <characteristics>
+        <characteristic name="Range" typeId="728c-7558-12ae-4725">None</characteristic>
+        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">May perform the same Action twice this round.</characteristic>
+        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">Gain one extra Action. May perform the same Action twice this round.</characteristic>
+        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">Gain one extra Action. May perform the same Action twice this round. In addition, all enemy models within 3&quot; receive a Slowed Token.</characteristic>
+        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">Personal</characteristic>
+        <characteristic name="Attribute" typeId="d9be-48d4-da1d-da21">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e14b-1416-16c8-6f7e" name="Bend Will" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
+      <characteristics>
+        <characteristic name="Range" typeId="728c-7558-12ae-4725">8&quot;</characteristic>
+        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">One Use. Upon a successful hit, target model of the Dragon race will treat members of this model&apos;s Party as friendly, and all other models as enemies, until the end of this model&apos;s next activation.</characteristic>
+        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">None</characteristic>
+        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">None</characteristic>
+        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">[Curse]</characteristic>
+        <characteristic name="Attribute" typeId="d9be-48d4-da1d-da21">Strength</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c0c-d0cd-c193-328d" name="Dragon Aspect" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
+      <characteristics>
+        <characteristic name="Range" typeId="728c-7558-12ae-4725">None</characteristic>
+        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">Add [RED] to Melee Attacks this round.</characteristic>
+        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">Add [RED] to Melee Attacks and Armor Rating this round.</characteristic>
+        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">Add [RED] to Melee Attacks and Armor Rating, and gain Resistance (Fire, Frost) for the rest of the round.</characteristic>
+        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">Personal</characteristic>
+        <characteristic name="Attribute" typeId="d9be-48d4-da1d-da21">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e806-87a5-f2ca-0f50" name="Dismaying Shout" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
+      <characteristics>
+        <characteristic name="Range" typeId="728c-7558-12ae-4725">6&quot;</characteristic>
+        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">Target with a base value (not including Upgrades) of up to 30 Septims must Flee!</characteristic>
+        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">Target with a base value (not including Upgrades) of up to 45 Septims must Flee!</characteristic>
+        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">Target with a base value (not including Upgrades) of up to 60 Septims must Flee!</characteristic>
+        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">[Curse]</characteristic>
+        <characteristic name="Attribute" typeId="d9be-48d4-da1d-da21">Strength</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="162c-b831-6edf-0495" name="Dragonrend" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
+      <characteristics>
+        <characteristic name="Range" typeId="728c-7558-12ae-4725">18&quot;</characteristic>
+        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">Target model of the Dragon race loses the Fly Keyword and gains the Ponderous Keyword for the remainder of the round.</characteristic>
+        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">None</characteristic>
+        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">None</characteristic>
+        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">[Curse]</characteristic>
+        <characteristic name="Attribute" typeId="d9be-48d4-da1d-da21">Strength</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e00d-290b-b819-1f43" name="Call Dragon" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="0585-9a52-3803-5739" typeName="Dragon Shout">
+      <characteristics>
+        <characteristic name="Range" typeId="728c-7558-12ae-4725">None</characteristic>
+        <characteristic name="Level 1" typeId="a798-1ccc-3c31-f107">One Use. At the start of the following round, a non-unique Dragon Adversary enters play exactly as if it were a friendly Reinforcement. It activates as an Epic Creature Adversary, treating your Party as friendly, and all other models as enemies. As soon as the model takes any Health damage, it leaves the battle (it does not count as a casualty).</characteristic>
+        <characteristic name="Level 2" typeId="7089-1600-7d6a-b431">None</characteristic>
+        <characteristic name="Level 3" typeId="2db0-46d0-b68a-945a">None</characteristic>
+        <characteristic name="Targeting Type" typeId="f840-7129-8cdb-d54a">Personal</characteristic>
+        <characteristic name="Attribute" typeId="d9be-48d4-da1d-da21">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ebfe-4e40-a97a-c444" name="Thunderbolt" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">3</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged Attack</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">2</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">12&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[GREEN][RED][YELLOW] (Shock)
+[HELMET]: add [YELLOW]
+[OBLIVION]: Stagger
+</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (1): add Area Effect (2&quot;)</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f23-c986-5339-43cc" name="Greater Ward (Spell Form)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Personal</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">1</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">None</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Restoration</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[See Greater Ward: Shield Form]</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Resistance (Magic), Upkeep</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2e64-4ed7-7ff9-321b" name="Greater Ward (Shield Form)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">2</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Personal</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">1</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">None</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Block or Strength Attribute</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[BLACK]
+[HELMET]: add [GREEN]
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Resistance (Magic), Upkeep</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0c2e-b003-fb00-93ba" name="Wall of Flames" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">3</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">[Environment]</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">4</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">12&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[GREEN][RED][YELLOW] (Fire)
+[HELMET]: add [YELLOW][YELLOW]
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Area Effect (3&quot;)</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6df5-adb7-7062-01d9" name="Wall of Storms" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">3</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">[Environment]</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">4</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">12&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[GREEN][YELLOW][YELLOW][YELLOW] (Shock)
+[HELMET]: add [BLACK]
+</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Area Effect (3&quot;)</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="365a-408f-ea2f-91cf" name="Wall of Frost" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Spell">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">3</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">[Environment]</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">4</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">12&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[GREEN][BLACK] (Frost)
+[HELMET]: add [BLACK]
+
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Area Effect (3&quot;)</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9ef1-55cd-8696-fc37" name="Potion Of Plentiful Healing" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Potion</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">One Use. Free Action. Restore [BLACK] Health points.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9094-70ff-066b-4d51" name="Potion Of Plentiful Magicka" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Potion</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">One Use. Free Action. Restore [BLACK] Magicka points.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c7b-236e-c26c-75af" name="Potion Of Plentiful Stamina" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Potion</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">One Use. Free Action. Restore [BLACK] Stamina points.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af5e-54d8-27dd-b0ce" name="Dragonbone Arrows" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Special Ammunition</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Short Range: add [RED]
+Long Range: add [YELLOW]
+[HELMET]: Piercing (2)
+If the attack already has the Piercing Keyword, increase the value in the parentheses by 2.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">May only be attached to Bow Weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="67ed-e0bd-a3a1-7d22" name="Nightingale Bow" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">Ebony</characteristic>
+        <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">10&quot;
+[GREEN][BLACK][YELLOW]
+[HELMET]: add [YELLOW] (Frost)
+[SWORDS]: add [YELLOW] (Shock)
+[OBLIVION]: Slowed</characteristic>
+        <characteristic name="Long Range" typeId="cb5b-fc11-6ecf-6f7d">20&quot;
+[GREEN][YELLOW][YELLOW]
+[HELMET]: add [YELLOW] (Frost)
+[SWORDS]: add [YELLOW] (Shock)
+[OBLIVION]: Slowed</characteristic>
+        <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">After resolving a [CRITICAL HIT] for an attack performed with this weapon, immediately perform another, free attack with Zephyr.</characteristic>
+        <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">Nightingales only. Unique.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="07e7-954a-a974-216e" name="Glass Bow" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">Glass</characteristic>
+        <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">10&quot;
+[GREEN][RED][YELLOW]
+[HELMET]: Piercing (2)
+[SWORDS]: add [GREEN][YELLOW]</characteristic>
+        <characteristic name="Long Range" typeId="cb5b-fc11-6ecf-6f7d">20&quot;
+[YELLOW][YELLOW]
+[HELMET]: Piercing (2)
+[SWORDS]: add [GREEN][YELLOW]</characteristic>
+        <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
+        <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ad1f-1cd8-9cff-1b96" name="Nordic Bow" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">[Steel]</characteristic>
+        <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">10&quot;
+[GREEN][RED][YELLOW]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Long Range" typeId="cb5b-fc11-6ecf-6f7d">20&quot;
+[GREEN][YELLOW]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
+        <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d463-081f-4860-c78f" name="Nordic Battleaxe" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK]
+[HELMET]: add [BLACK]
+[SWORDS]: Bleed</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">[Steel]. Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ac7f-2517-004d-3609" name="Nord Hero Greatsword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][RED]
+[HELMET]: Piercing (2)
+[SWORDS]: Restore 1 Stamina</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Steel. Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8212-be39-43da-b7da" name="Elven Warhammer" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK][YELLOW]
+[HELMET]: add [RED] and Stagger
+[SWORDS]: Follow-Up</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Elven. Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d09-2cf8-ba0d-c5cc" name="Silver Greatsword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
+[HELMET]: Piercing (1)
+[SWORDS]: add [YELLOW]
+(add [RED] vs Undead and Werewolves)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Silver. Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Silver Hand only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="69ab-659a-7c48-c24a" name="Silver Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][YELLOW][YELLOW]
+[HELMET]: Restore 1 Stamina
+(add [RED] vs Undead and Werewolves)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">[One-Handed]</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Silver.</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">[One Hand]</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Silver Hand only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9462-2e88-c04f-1003" name="Nordic Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
+[HELMET]: add [YELLOW]
+[SWORDS]: Piercing (2)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">[Steel]</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b1f7-eb72-45b8-e8a8" name="Nordic Dagger" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
+[HELMET]: Piercing (1)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">[Steel]. Lightweight</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b68-4a12-0c63-f7fb" name="Nordic Mace" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[RED][YELLOW]
+[HELMET]: add [RED]
+[SWORDS]: Stagger</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">[Steel]</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fa65-e48e-4bbe-7f66" name="Nordic War Axe" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
+[HELMET]: add [RED]
+[SWORDS]: Bleed</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">[Steel]</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5c70-a5b7-01e9-1d5d" name="Ancient Nord Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][YELLOW][YELLOW]
+[HELMET]: Punishing [1]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Steel</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2430-97f5-c547-9510" name="Glass Mace" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[RED][RED]
+[HELMET]: Stagger
+[SWORDS]: add [BLACK]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Glass</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="87e9-9219-789a-194f" name="Glass War Axe" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
+[HELMET]: add [YELLOW] and Bleed
+[SWORDS]: add [BLACK]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Glass</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5509-da73-30d0-4e70" name="Glass Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
+[HELMET]: Restore 1 Stamina
+[SWORDS]: add [YELLOW] and Piercing (2)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Glass</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="702c-4a08-cbf4-f56f" name="Ebony Mace" publicationId="a37b-3a3b-faf7-0732" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[BLACK][YELLOW]
+[HELMET]: add [YELLOW] and Stagger
+[SWORDS]: add [BLACK]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Ebony</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e5c6-c5f8-4e82-f87b" name="Elven Dagger" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
+[HELMET]: Piercing (1)
+[SWORDS]: Follow-Up [1]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Lightweight</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5223-a4fe-b712-4130" name="Dragonbone Dagger" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK]
+[HELMET]: Piercing (2)
+[SWORDS]: add [BLACK]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Dragonbone</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a7b3-7999-55a3-f5a4" name="Dragonbone War Axe" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][BLACK][BLACK]
+[HELMET]: Bleed
+[SWORDS]: add [RED]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Dragonbone</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3791-b09b-e721-486e" name="Scimitar" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][YELLOW][YELLOW]
+[HELMET]: Follow-Up (1)</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Steel. Lightweight</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="276b-1dc1-9c04-c779" name="Yokudan Steel Arming Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
+[HELMET]: add [YELLOW]
+[SWORDS]: Incapacitate
+[OBLIVION]: Follow-Up [1]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Steel. Enchanted, Knightly Blade</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73a9-1e87-c91c-b459" name="Skyforge (Steel) Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED]
+[HELMET]: add [YELLOW]
+[SWORDS]: Restore 1 Stamina</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">One-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Steel</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+      </characteristics>
+      <comment>steel added to name in chapter 4</comment>
+    </profile>
+    <profile name="Ebony Mail" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor" hidden="false" id="ddde-4e8a-f06f-e0cd" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[BLACK][YELLOW] (1)
+[HELMET]: add [YELLOW]
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Ebony. Muffled
+At the end of the round, each enemy engaged with this model must pass an Endurance Attribute Test or receive one [POISON: HEALTH].</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Unique.</characteristic>
+      </characteristics>
+      <alias>Ebony Mail</alias>
+    </profile>
+    <profile id="9937-0e12-6c8c-8fa4" name="Guildmaster&apos;s Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[RED] (1)
+[HELMET]: add [YELLOW]
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Light Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Leather. Gain one additional Quick Slot while equipped.</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Unique. Thieves&apos; Guild only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f66-afbd-1d39-84d7" name="Dragonscale Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[RED][RED] (1)
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Light Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Dragonscale.</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fe6d-06b6-4ff9-2a84" name="Dragonplate Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[RED][RED] (2)
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Dragonbone.</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7560-da54-6741-08ea" name="Wolf Armor" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">[RED] (1)
+[HELMET]: add [RED]</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Steel</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4571-7e1a-c28b-e40c" name="Nordic Shield" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
+      <characteristics>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[GREEN][YELLOW]
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Effect" typeId="6741-1328-7f47-6882">Steel</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cd57-e810-90f0-30b5" name="Dragonplate Shield" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
+      <characteristics>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[GREEN][RED] (+1)
+[HELMET]: add [YELLOW]
+[OBLIVION]: add [RED]</characteristic>
+        <characteristic name="Effect" typeId="6741-1328-7f47-6882">Dragonbone. Keyword: Cumbersome</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="24c1-705c-d499-40a5" name="Dragonscale Shield" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
+      <characteristics>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[BLACK][RED]
+[HELMET]: add [GREEN]
+[OBLIVION]: add [YELLOW]</characteristic>
+        <characteristic name="Effect" typeId="6741-1328-7f47-6882">Dragonscale</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c179-463d-4eff-de95" name="Mythic Dawn Robes" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">None</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">None</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Destruction Spells cost 1 less Magicka to cast, to a minimum of 1.</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ed6-e982-0f42-c799" name="Thalmor Robes" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
+      <characteristics>
+        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877">None</characteristic>
+        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d">None</characteristic>
+        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618">Add [GREEN] to Destruction Skill Tests.</characteristic>
+        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">Thalmor only.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -10878,11 +13482,6 @@ One-Handed</characteristic>
         <infoLink id="a1e3-9c94-cf53-0402" name="Elves" hidden="false" targetId="7ec1-e792-1736-a30e" type="rule"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="f129-7d01-44c4-4809" name="Weapons" hidden="false">
-      <infoLinks>
-        <infoLink id="b71b-1aa8-2603-1a77" name="Draugr: Ancient Nord Sword" hidden="false" targetId="fbc4-9bd5-aac2-45d7" type="profile"/>
-      </infoLinks>
-    </infoGroup>
     <infoGroup id="102b-cf45-e998-89d6" name="Armor" hidden="false">
       <infoLinks>
         <infoLink id="98a3-fe3c-3f11-61c5" name="Draugr: Studded Leather" hidden="false" targetId="0dc2-8dc6-c1e0-1766" type="profile"/>
@@ -10890,7 +13489,7 @@ One-Handed</characteristic>
     </infoGroup>
     <infoGroup id="9f3c-d7c6-1909-0bed" name="Shield" hidden="false">
       <infoLinks>
-        <infoLink id="4f51-10d5-9e51-770f" name="Draugr: Steel Shield" hidden="false" targetId="b204-c0b4-3787-f593" type="profile"/>
+        <infoLink id="4f51-10d5-9e51-770f" name="Draugr: Dented Iron Shield" hidden="false" targetId="b204-c0b4-3787-f593" type="profile"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="2cf8-68b6-d491-56ce" name="Summon Spell Type" publicationId="4d6f-8c48-a5ea-e83c" page="48" hidden="false">
@@ -10907,11 +13506,11 @@ One-Handed</characteristic>
         <infoLink id="27ec-6c89-82b0-9af4" name="Zombie: Summoned Creature" hidden="false" targetId="3aa1-ffdc-8358-0bf5" type="profile"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="1ce8-87b6-e792-7578" name="Frost Atronach: Summoned Creature" publicationId="2733-0fd1-3311-3be2" hidden="false">
+    <infoGroup id="1ce8-87b6-e792-7578" name="Frost Atronach: Daedric Construct" publicationId="1d0d-fac6-d336-636f" hidden="false">
       <infoLinks>
         <infoLink id="3df0-35c9-cb7b-4a8f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
         <infoLink id="4b77-c699-40b4-cff9" name="Daedra" hidden="false" targetId="f263-f92c-54ab-e087" type="infoGroup"/>
-        <infoLink id="ec97-e933-05d6-1beb" name="Frost Atronach: Summoned Creature" hidden="false" targetId="a345-22e4-55c1-762a" type="profile"/>
+        <infoLink id="ec97-e933-05d6-1beb" name="Frost Atronach: Daedric Construct" hidden="false" targetId="a345-22e4-55c1-762a" type="profile"/>
         <infoLink id="3c9f-02c0-1eb5-36bb" name="Relentless" hidden="false" targetId="7f50-9282-bb89-a177" type="rule"/>
         <infoLink id="693a-d20d-4991-1e4b" name="Shambling" hidden="false" targetId="0a08-aeef-9ff3-c86c" type="rule"/>
         <infoLink id="9c4a-6d6f-0aa4-5236" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>
@@ -10972,7 +13571,7 @@ One-Handed</characteristic>
       <infoLinks>
         <infoLink id="fd03-d69e-babc-b598" name="Subrace" hidden="false" targetId="21a9-2a71-b558-5118" type="rule"/>
         <infoLink id="f1ed-af55-44e5-06ec" name="Immunity (Type)" hidden="false" targetId="7c88-fc5e-9fde-1261" type="rule"/>
-        <infoLink id="4aff-b513-2f8a-7337" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule" page=""/>
+        <infoLink id="4aff-b513-2f8a-7337" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
         <infoLink id="d454-309e-bca7-2e09" name="Night Eye" hidden="false" targetId="1b73-830e-6076-fc5c" type="rule"/>
         <infoLink id="720e-488b-d855-db9b" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
         <infoLink id="c03b-0c66-ed0b-49e7" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>
@@ -11045,17 +13644,7 @@ One-Handed</characteristic>
     <infoGroup name="Yngvild Ghost: Bound Spirit" id="4712-2cfb-c145-c02a" hidden="false" publicationId="1d0d-fac6-d336-636f">
       <infoLinks>
         <infoLink name="Path of Might" id="584e-36b1-0458-eec1" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
-        <infoLink name="Yngvild Ghost: Bound Spirit" id="37d8-2432-bbf4-bd74" hidden="false" targetId="9891-3b46-6658-28ea" type="profile">
-          <modifierGroups>
-            <modifierGroup type="and">
-              <modifiers>
-                <modifier type="set" value="Follower (Summoned Creature)" field="d40a-cf47-d6a2-041b"/>
-                <modifier type="set" value="Gargoyle: Volkihar Sentinel (Summoned Creature)" field="name"/>
-                <modifier type="set" value="None" field="cb06-ff53-da97-b966"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-        </infoLink>
+        <infoLink name="Yngvild Ghost: Bound Spirit" id="37d8-2432-bbf4-bd74" hidden="false" targetId="9891-3b46-6658-28ea" type="profile"/>
         <infoLink name="Undead" id="f298-eb56-7a68-78c0" hidden="false" type="infoGroup" targetId="5a42-7fa4-1f69-f039"/>
         <infoLink name="Ethereal" id="7836-0e88-6f3a-7dc8" hidden="false" type="rule" targetId="0550-3332-7a93-ab5b"/>
         <infoLink name="Enchanted" id="c3f9-d93a-0010-9886" hidden="false" type="rule" targetId="1875-9b07-2a07-aacc"/>
@@ -11070,7 +13659,7 @@ One-Handed</characteristic>
 
 - Epic Creatures cannot perform Reactions.
 
-- Epic Creatures cannot be slowed, shaken, or staggered.
+- Epic Creatures cannot be Slowed, Shaken, or Staggered.
 
 - Epic Creatures cannot be Incapacitated. If an Epic Creature would pass an Endurance Attribute Test via becoming Injured, it remains in play with 1 Health remaining.
 
@@ -11098,21 +13687,158 @@ Epic Creatures largely perform their Responses like any other Adversary model, 
     </infoGroup>
     <infoGroup name="Dragon (Epic)" id="de9c-d4e8-42ec-483f" hidden="false" publicationId="1d0d-fac6-d336-636f" page="10-12">
       <rules>
-        <rule name="Dragon Soul" id="3297-c7ae-f90e-cfa9" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
-        <rule name="Thu&apos;um Weakness" id="0c49-3350-2357-48cd" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
-        <rule name="Undead Thralls" id="c8a3-7800-13c3-cf3a" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
+        <rule name="Dragon Soul" id="3297-c7ae-f90e-cfa9" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>This model cannot be the target of a Spell or effect that would recharge a Weapon with the Soul Charges (X) Keyword or the Soul Trap Spell. Models with the Dragon Shouts special rule restore 1 Thu&apos;um if this model is removed from play within 6&quot; [of them].</description>
+        </rule>
+        <rule name="Thu&apos;um Weakness" id="0c49-3350-2357-48cd" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Unlike other Epic Creatures, this model can be Slowed, Shaken, or Staggered, but only if the condition is applied via a Dragon Shout.</description>
+        </rule>
+        <rule name="Undead Thralls" id="c8a3-7800-13c3-cf3a" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Any Adversary force that includes this model may also include Draugr Adversaries, even if the rest of the force is from a different Faction.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink name="Epic Creature" id="71de-68e7-eddf-388f" hidden="false" type="infoGroup" targetId="2993-1576-f2b7-2e90"/>
         <infoLink name="Dragons and Movement" id="d8b7-4e83-c835-37d8" hidden="false" type="rule" targetId="5bb1-e560-23b7-d679"/>
-        <infoLink name="Monster" id="3a0e-a0c9-c775-cb2b" hidden="false" type="infoGroup" targetId="98ec-665b-cecc-6709"/>
+        <infoLink name="Terrifying" id="7136-cc35-ca31-500c" hidden="false" type="rule" targetId="2204-0557-819c-8afb"/>
+        <infoLink name="Shambling" id="c7cf-e6d3-e231-9ffd" hidden="false" type="rule" targetId="0a08-aeef-9ff3-c86c"/>
       </infoLinks>
+      <profiles>
+        <profile name="Dragon Attack Profiles (EC)" typeId="3eed-cdfe-6697-1378" typeName="EC: Attack List" hidden="true" id="bf7a-1a7d-a221-2580" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="Melee Attack 1" typeId="4528-fe72-9af8-eb63">Slash (Strength):
+[GREEN][RED]
+[HELMET]: add [YELLOW]
+[SWORDS]: Bleed</characteristic>
+            <characteristic name="Melee Attack 2" typeId="6027-b54c-adcd-0843">Stomp (Endurance):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Shaken</characteristic>
+            <characteristic name="Melee Attack 3" typeId="819c-6f62-6841-fa43">Bite (Strength):
+[GREEN][BLACK]
+[HELMET]: add [YELLOW]
+[SWORDS]: Piercing (2)</characteristic>
+            <characteristic name="Melee Attack 4" typeId="14c2-f947-a031-aa35">Sweep (Agility):
+[YELLOW][YELLOW] (Force)
+[HELMET]: Area Effect (3&quot;)</characteristic>
+            <characteristic name="Melee Attack 5" typeId="ac4e-f617-91b6-a440">Swipe (Strength):
+[GREEN][YELLOW][YELLOW]
+[HELMET]: Punishing (1)</characteristic>
+            <characteristic name="Ranged Attack 1" typeId="2b79-2169-5fb0-ee08">Fireball (Intelligence):
+12&quot; [GREEN][BLACK] (Fire)
+[HELMET]: Area Effect (2&quot;)
+[OBLIVION]: add [RED]</characteristic>
+            <characteristic name="Ranged Attack 2" typeId="0f23-e8a4-9c13-0798">Flame Breath (Wisdom):
+6&quot; [GREEN][YELLOW][YELLOW][YELLOW] (Fire)
+[HELMET]: Area Effect (2&quot;)</characteristic>
+            <characteristic name="Ranged Attack 3" typeId="1b3e-90f4-668d-88f0">Unrelenting Force (Strength):
+6&quot; [GREEN][RED][YELLOW] (Force +3&quot; Pushback)
+Enchanted</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="cd24-72a5-d8b3-ffe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Dragon Response Matrix (EC)" typeId="1549-97d8-74cf-5961" typeName="EC: Response Matrix" hidden="true" id="c086-4d02-f6f2-2062" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="[HELMET]" typeId="dd82-a030-a39d-3378">First: Objective
+Second: Attack
+Third: Attack</characteristic>
+            <characteristic name="[DOTS]" typeId="d176-4ed5-d2ff-403a">First: Move
+Second: Objective
+Third: Fall Back</characteristic>
+            <characteristic name="[SWORDS/OBLIVION]" typeId="f105-1cce-b7c8-ffc1">First: Attack
+Second: Attack
+Third: Attack</characteristic>
+            <characteristic name="Target Priority" typeId="d168-4ef7-1042-e358">1: Nearest
+2: Vulnerable
+3: Wounded</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="ec3c-7c34-5e74-089d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
     </infoGroup>
     <infoGroup name="Dragon (Non-Epic)" id="0c1d-7e83-15a4-f61c" hidden="false" publicationId="2ee0-173b-47e1-7ff1">
       <infoLinks>
         <infoLink name="Dragons and Movement" id="d3c1-d34b-8d54-71e4" hidden="false" type="rule" targetId="5bb1-e560-23b7-d679"/>
         <infoLink name="Monster" id="05df-df7a-12a6-7dfd" hidden="false" type="infoGroup" targetId="98ec-665b-cecc-6709"/>
       </infoLinks>
+    </infoGroup>
+    <infoGroup name="Giant (Epic)" id="f0f0-8791-6843-648e" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <infoLinks>
+        <infoLink name="Epic Creature" id="1c09-716c-509b-83f3" hidden="false" type="infoGroup" targetId="2993-1576-f2b7-2e90"/>
+        <infoLink name="Terrifying" id="4672-a9e1-5925-d129" hidden="false" type="rule" targetId="2204-0557-819c-8afb"/>
+        <infoLink name="Shambling" id="8fbb-714e-29cf-08d8" hidden="false" type="rule" targetId="0a08-aeef-9ff3-c86c"/>
+        <infoLink name="Slow to Anger" id="6473-5628-a75b-9afe" hidden="false" type="rule" targetId="2bfc-f089-6e43-ba4d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Giant Attack Profiles (EC)" typeId="3eed-cdfe-6697-1378" typeName="EC: Attack List" hidden="true" id="2fa5-7181-c156-0d0f" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="Melee Attack 1" typeId="4528-fe72-9af8-eb63">Squeeze (Strength):
+[GREEN][RED]
+[HELMET]: add [YELLOW]
+[SWORDS]: Incapacitate</characteristic>
+            <characteristic name="Melee Attack 2" typeId="6027-b54c-adcd-0843">Giant Stomp (Endurance):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Shaken</characteristic>
+            <characteristic name="Melee Attack 3" typeId="819c-6f62-6841-fa43">Club Whack (One-Handed):
+[GREEN][BLACK]
+[HELMET]: add [YELLOW]
+[SWORDS]: Punishing (2)
+Keywords: Stagger</characteristic>
+            <characteristic name="Melee Attack 4" typeId="14c2-f947-a031-aa35">Club Sweep (One-Handed):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Force
+Keywords: Follow-Up</characteristic>
+            <characteristic name="Melee Attack 5" typeId="ac4e-f617-91b6-a440">Club Slam (One-Handed):
+[GREEN][YELLOW][YELLOW] (Force)
+[HELMET]: Punishing (1)
+Keywords: Area Effect (3&quot;)</characteristic>
+            <characteristic name="Ranged Attack 1" typeId="2b79-2169-5fb0-ee08">None</characteristic>
+            <characteristic name="Ranged Attack 2" typeId="0f23-e8a4-9c13-0798">None</characteristic>
+            <characteristic name="Ranged Attack 3" typeId="1b3e-90f4-668d-88f0">None</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="cd24-72a5-d8b3-ffe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Giant Response Matrix (EC)" typeId="1549-97d8-74cf-5961" typeName="EC: Response Matrix" hidden="true" id="41b8-929a-c701-b346" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="[HELMET]" typeId="dd82-a030-a39d-3378">First: Defend
+Second: Attack
+Third: Attack</characteristic>
+            <characteristic name="[DOTS]" typeId="d176-4ed5-d2ff-403a">First: Move
+Second: Objective
+Third: Move</characteristic>
+            <characteristic name="[SWORDS/OBLIVION]" typeId="f105-1cce-b7c8-ffc1">First: Attack
+Second: Defend
+Third: Attack</characteristic>
+            <characteristic name="Target Priority" typeId="d168-4ef7-1042-e358">1: Nearest
+2: Largest
+3: Engaged</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="ec3c-7c34-5e74-089d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
     </infoGroup>
   </sharedInfoGroups>
 </gameSystem>

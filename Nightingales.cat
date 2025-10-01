@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="794b-70b9-b49c-f888" name="Nightingales" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="794b-70b9-b49c-f888" name="Nightingales" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <entryLinks>
     <entryLink id="2dbc-8d89-5956-8e39" name="The Dragonborn: Nightingale" hidden="false" collective="false" import="true" targetId="6259-fe84-67ba-0f6c" type="selectionEntry">
       <modifiers>
@@ -33,8 +33,100 @@
         <categoryLink id="f707-0b5e-9ecf-45c8" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Mercer Frey: Guildmaster" hidden="false" id="3890-7f88-e5f1-e1f6" collective="false" targetId="6488-5400-15bd-48c8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="f65a-50f8-ab26-e096" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="5ee3-5371-4a59-1cb4" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Archery Skill" hidden="false" id="daa2-a367-f512-ef84" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink name="Sneak Skill" hidden="false" id="81bb-10da-74e5-68e8" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink name="Lockpicking Skill" hidden="false" id="3150-3e2e-3243-e27b" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink name="Light Armor Skill" hidden="false" id="f166-5b07-60f7-b9a9" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink name="Path of Shadow" hidden="false" id="a1bc-ade3-daae-fb60" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink name="The Thieves&apos; Guild" hidden="false" id="b574-78fd-7a2f-cf4b" targetId="4347-a391-1fca-ce31" primary="false"/>
+        <categoryLink name="Nightingales" hidden="false" id="e727-4538-a21a-2d8f" targetId="5594-acf1-76dc-5206" primary="false"/>
+        <categoryLink name="Mercer Frey: Guildmaster" hidden="false" id="3745-55d2-b89c-71d4" targetId="cd5e-b5a1-1eb7-27fa" primary="false"/>
+        <categoryLink name="Block Skill" hidden="false" id="46a1-b481-6e03-965c" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink name="Pickpocket Skill" hidden="false" id="101b-2ca0-7c55-6d72" targetId="7f96-4899-973e-0e11" primary="false"/>
+        <categoryLink name="Speech Skill" hidden="false" id="a3fd-a746-1eef-59ce" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ead-7f3e-4bda-5072" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="989b-4227-9d20-dbae" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Karliah: The Outcast" hidden="false" id="f1b7-dce5-a6f1-09ee" collective="false" targetId="4282-a510-3515-d843" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="b71b-1aa2-436e-c00f" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="ab8e-35cd-9f5f-aec8" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Elf" hidden="false" id="fe57-afb2-f4c2-6832" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink name="Karliah: The Outcast" hidden="false" id="26b9-25e9-bcd8-8537" targetId="8a28-7b3b-a05f-2a2f" primary="false"/>
+        <categoryLink name="Dunmer" hidden="false" id="62ff-5db8-9d9a-ef16" targetId="6df4-3d08-99df-65d2" primary="false"/>
+        <categoryLink name="Archery Skill" hidden="false" id="b2bc-50d5-627e-e93a" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink name="Sneak Skill" hidden="false" id="dbb6-8038-aec9-85bd" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink name="Lockpicking Skill" hidden="false" id="d9f9-a9f0-e8e9-2802" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink name="Light Armor Skill" hidden="false" id="3416-f711-6d2f-a5b3" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink name="Alchemy Skill" hidden="false" id="c55f-dd94-aff8-4251" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink name="Path of Shadow" hidden="false" id="2255-54c3-3583-6ab5" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink name="The Thieves&apos; Guild" hidden="false" id="79cc-ad98-1198-d0e8" targetId="4347-a391-1fca-ce31" primary="false"/>
+        <categoryLink name="Nightingales" hidden="false" id="f609-5ee2-2731-898e" targetId="5594-acf1-76dc-5206" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ead-7f3e-4bda-5072" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="989b-4227-9d20-dbae" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="f9da-0245-f6bb-57f4" name="Adventurers" targetId="bed2-2069-45b8-9df1" type="catalogue" importRootEntries="false"/>
+    <catalogueLink type="catalogue" name="Thieves&apos; Guild" id="75ce-1eb8-a509-5536" targetId="3360-3f9c-126b-cb55"/>
   </catalogueLinks>
 </catalogue>

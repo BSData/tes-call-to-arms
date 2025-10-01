@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1f59-13be-d324-54f7" name="Dark Brotherhood" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="1f59-13be-d324-54f7" name="Dark Brotherhood" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <categoryEntries>
     <categoryEntry id="6159-ce11-1d38-3eb9" name="Astrid: Brotherhood Leader" publicationId="2733-0fd1-3311-3be2" hidden="false">
-      <comment>Leveled: Done</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ac8-bcf7-a27c-b042" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="7799-5379-6d26-b00c" name="Festus Krex: Remorseless Killer" publicationId="2733-0fd1-3311-3be2" hidden="false">
-      <comment>Leveled: Done</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d96-4147-db27-5ffb" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="a00f-eac6-7c21-23e9" name="Nazir: Alik&apos;r Assassin" publicationId="2733-0fd1-3311-3be2" hidden="false">
-      <comment>Leveled: Done</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c83-0918-cb17-57ec" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="a720-e046-0736-e54c" name="Gabriella: Doom&apos;s Herald" publicationId="2733-0fd1-3311-3be2" hidden="false">
-      <comment>Leveled: Done</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ace7-0580-c913-6050" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="4056-a429-ec03-9047" name="Babette: Un-Child" publicationId="2733-0fd1-3311-3be2" hidden="false">
-      <comment>Leveled: Done</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5eb7-734a-9db6-37a0" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="af54-8621-742b-9b7b" name="Veezara: The Last Shadowscale" publicationId="2733-0fd1-3311-3be2" hidden="false">
-      <comment>Leveled: Done</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e5d2-e40f-04a4-0053" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="20c8-1287-1712-3742" name="Lis: Frost Spider" publicationId="2733-0fd1-3311-3be2" hidden="false">
-      <comment>Leveled: Done</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ab4-2d90-4c9d-3956" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="3ef1-80a4-0961-9b8a" name="Cicero: Dark Brotherhood Keeper" publicationId="1d0d-fac6-d336-636f" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1eb5-d5d2-fec9-a5d9" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="c09c-471e-77ee-470f" name="Arnbjorn: Sanctuary Enforcer" publicationId="2733-0fd1-3311-3be2" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f65c-411a-b629-ac4e" type="max"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
@@ -91,6 +94,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="0a06-2f93-ed15-7010" name="Nazir: Alik&apos;r Assassin" hidden="false" collective="false" import="true" targetId="9aaa-e526-4a4c-c726" type="selectionEntry">
       <categoryLinks>
@@ -114,6 +130,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="f408-21cc-e5f2-d118" name="Gabriella: Doom&apos;s Herald" hidden="false" collective="false" import="true" targetId="17f3-5b34-a5b4-8323" type="selectionEntry">
       <categoryLinks>
@@ -125,6 +154,7 @@
         <categoryLink id="8b6f-7554-65cf-2bdc" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="310d-e8f5-8f86-9e92" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="0b2b-7ba6-2153-4c5c" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="c078-302e-5d76-07cb" primary="false" name="Dunmer"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -137,6 +167,18 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="4192-1911-8285-fd0b" name="Babette: Un-Child" hidden="false" collective="false" import="true" targetId="19c0-8c75-191d-40a4" type="selectionEntry">
       <categoryLinks>
@@ -169,6 +211,19 @@
           </conditionGroups>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="2793-630a-3b5a-9de9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="b654-c02f-4171-fae1" name="Veezara: The Last Shadowscale" hidden="false" collective="false" import="true" targetId="74a9-35e8-bffe-3a98" type="selectionEntry">
       <categoryLinks>
@@ -193,6 +248,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="252b-5f11-58b1-043b" name="Dark Brotherhood Initiate: Assassin In Training" hidden="false" collective="false" import="true" targetId="f195-c6d4-332e-b7f7" type="selectionEntry">
       <categoryLinks>
@@ -211,6 +279,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="03dc-f183-b86d-96cc" name="Dark Brotherhood Assassin: Twin Daggers" hidden="false" collective="false" import="true" targetId="0a5c-bc41-625f-e2af" type="selectionEntry">
       <categoryLinks>
@@ -229,6 +310,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="f0b7-e8be-6347-7f9d" name="Lis: Frost Spider" hidden="false" collective="false" import="true" targetId="6a62-6839-a21e-24df" type="selectionEntry">
       <categoryLinks>
@@ -248,6 +342,95 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9193-3fad-49a7-ed17" name="Cicero: Dark Brotherhood Keeper" hidden="false" collective="false" import="true" targetId="7dcc-d7f3-9f9c-5b19" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f06a-c0bf-74d1-73c4" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="c497-7ac7-4d0f-6a48" name="Dark Brotherhood" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="1fb3-542f-b103-f77c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="68aa-6f99-3876-18d5" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="e88d-2866-82eb-0b95" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink targetId="9797-61ac-cbe1-cccd" id="c001-89a3-f4e7-61bb" primary="false" name="Path of Shadow"/>
+        <categoryLink targetId="8af2-ae59-4a5c-98b8" id="1eeb-878d-cabe-c46d" primary="false" name="Light Armor Skill"/>
+        <categoryLink targetId="dd8f-4143-9e14-8e73" id="92dc-b8f3-70a7-b059" primary="false" name="Speech Skill"/>
+        <categoryLink targetId="3ef1-80a4-0961-9b8a" id="7e34-fc77-5d7c-e15e" primary="false" name="Cicero: Dark Brotherhood Keeper"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2523-0d8d-cfb2-4669" name="Arnbjorn: Sanctuary Enforcer" hidden="false" collective="false" import="true" targetId="911f-7756-94d4-6f50" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="51d6-db0d-2563-50b0" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="a16d-edde-cc37-27c3" name="Dark Brotherhood" hidden="false" targetId="1f84-91ee-9af3-80ac" primary="false"/>
+        <categoryLink id="b0a6-607c-876d-3c6e" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="e1ab-db3f-a6e9-0a6e" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink targetId="c09c-471e-77ee-470f" id="53d7-47c0-4a30-7148" primary="false" name="Arnbjorn: Sanctuary Enforcer"/>
+        <categoryLink targetId="f71c-90c3-abdf-17ee" id="6df2-0b6f-3cb1-e3cf" primary="false" name="Werewolf"/>
+        <categoryLink targetId="c65e-1c8e-613b-dc01" id="e632-c096-b4e0-61cc" primary="false" name="Block Skill"/>
+        <categoryLink targetId="74fd-ddce-0be6-02c5" id="921e-2ded-ee70-b145" primary="false" name="Two-Handed Skill"/>
+        <categoryLink targetId="c7db-eac8-21dc-49a0" id="b63f-df6a-f001-91dc" primary="false" name="Smithing Skill"/>
+        <categoryLink targetId="dd8f-4143-9e14-8e73" id="6d03-4c0b-ee11-e278" primary="false" name="Speech Skill"/>
+        <categoryLink targetId="8af2-ae59-4a5c-98b8" id="7d3c-ca94-e3a0-cd40" primary="false" name="Light Armor Skill"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3838-ee29-fe4c-23d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="e7f1-7d01-d4aa-bb0b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -587,6 +770,115 @@
         <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7dcc-d7f3-9f9c-5b19" name="Cicero: Dark Brotherhood Keeper" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="c995-2433-aae8-2fcb" name="Fool of Hearts" publicationId="1d0d-fac6-d336-636f" hidden="false">
+          <description>As a Special Action, Cicero may take a Wisdom Attribute Test. If passed, then for the remainder of the round Cicero and all friendly models within 3&quot; gain a -1 modifier to their Skill Tests, while all enemy models within 3&quot; suffer a +1 modifier to their Skill Tests.</description>
+        </rule>
+        <rule id="2a87-e832-e42b-bfc5" name="Stab You, Stab You!" publicationId="1d0d-fac6-d336-636f" hidden="false">
+          <description>Cicero always gains the Follow-Up Keyword when Attacking with a Dagger,</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c7a6-48b8-1f01-12bf" name="Extra Action" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+        <infoLink id="712e-24c2-dceb-8c66" name="Perk: Poisoner" hidden="false" targetId="eb67-8629-d619-bf14" type="rule"/>
+        <infoLink id="e82d-8f8a-7661-6298" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="a06d-82e2-fd28-caa4" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+        <infoLink id="e323-543a-b5b8-dfa5" name="Perk: Backstab" hidden="false" targetId="3c8f-df29-73c0-e515" type="rule"/>
+        <infoLink id="efd5-4212-8501-8860" name="Cicero: Dark Brotherhood Keeper" hidden="false" targetId="e265-d8e3-d310-0e35" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5d23-c46e-8838-38ed" name="Perk: Deft Movement" hidden="false" targetId="0b47-a02d-7096-e30f" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="559e-93bb-46e4-41da" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="882c-6eb4-06e5-7bc9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="28fe-a707-8561-d088" name="Cicero: Dark Brotherhood Keeper (Leveled)" hidden="false" targetId="1429-9eea-b4aa-b001" type="profile"/>
+            <infoLink id="00fc-0044-fbac-3e13" name="Perk: Timely Escape" hidden="false" targetId="de14-14f0-2811-08f4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7620-5d20-4dea-6668" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="8c84-6860-193d-e655" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="62"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="911f-7756-94d4-6f50" name="Arnbjorn: Sanctuary Enforcer" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="7392-b350-d4e3-5f54" name="Devoted Guardian" publicationId="1d0d-fac6-d336-636f" hidden="false">
+          <description>If Astrid is in the same Party, and is removed as a Casualty, Arnbjorn adds [RED] to his Melee Attack Tests and Armor Rating for the rest of the game.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3141-f600-de78-01fe" name="Perk: Smithing (Type)" hidden="false" targetId="433e-9827-e87e-fa56" type="rule"/>
+        <infoLink id="319a-2afd-814e-0b62" name="Perk: Intimidation" hidden="false" targetId="17da-adc8-59a7-7616" type="rule"/>
+        <infoLink id="a92e-4468-e45f-2c72" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
+        <infoLink id="3c06-4592-8303-5c0b" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+        <infoLink id="9557-3325-3765-5a4e" name="Arnbjorn: Sanctuary Enforcer" hidden="false" targetId="c03f-0bd9-3356-3bf3" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3838-ee29-fe4c-23d1" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8f7b-8f9c-ec4b-3b64" name="Shapeshift (X)" hidden="false" targetId="c372-6973-ecac-b0d8" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2c07-7614-a0b1-e677" name="Include Leveled Profile" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b7c-9073-2bf1-3299" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="aac4-960b-8f68-915d" name="Arnbjorn: Sanctuary Enforcer (Leveled)" hidden="false" targetId="fe0d-cef9-1ee3-2b61" type="profile"/>
+            <infoLink id="609c-252f-0712-365f" name="Perk: Devastating Blow" hidden="false" targetId="ef5a-bdc6-5744-5b1e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Include Shapeshift Profile" hidden="false" id="d3a4-d7a0-977d-de77" publicationId="4d6f-8c48-a5ea-e83c" collective="false" defaultAmount="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f63-1a67-c73d-6404" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Werewolf (Alternate Form)" id="9200-b878-7de7-61a6" hidden="false" targetId="3bcd-092b-3ee5-0e51" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1352-e9e3-f2ff-a4e3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="0234-50f5-9b46-72ca" name="Party Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed0-2901-efba-7398" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="8a16-e993-bfd6-d125" name="Astrid: Brotherhood Leader" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -614,6 +906,7 @@ Speech</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
       </characteristics>
+      <alias>Astrid</alias>
     </profile>
     <profile id="3c0f-c98d-93e5-bfd4" name="Astrid: Brotherhood Leader (Leveled)" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
@@ -640,6 +933,7 @@ Speech</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
+      <alias>Astrid</alias>
     </profile>
     <profile id="6a2b-1bae-1fb5-2129" name="Festus Krex: Remorseless Killer" publicationId="2733-0fd1-3311-3be2" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
@@ -981,6 +1275,116 @@ Sneak</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">1</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Dark Brotherhood</characteristic>
       </characteristics>
+    </profile>
+    <profile id="e265-d8e3-d310-0e35" name="Cicero: Dark Brotherhood Keeper" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Imperial</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Backstab, Deft Movement, Poisoner</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Extra Action, Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Fool of Hearts, Stab You Stab You!</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">5
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Alchemy
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+      <alias>Cicero</alias>
+    </profile>
+    <profile id="1429-9eea-b4aa-b001" name="Cicero: Dark Brotherhood Keeper (Leveled)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Backstab, Deft Movement, Poisoner, Timely Escape</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Extra Action, Imperial Luck</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Fool of Hearts, Stab You Stab You!</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">6
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Alchemy
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">5</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>Cicero</alias>
+    </profile>
+    <profile id="c03f-0bd9-3356-3bf3" name="Arnbjorn: Sanctuary Enforcer" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Shadow</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Intimidation, Smithing (Iron, Steel)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost), Shapeshift (Werewolf)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Devoted Guardian</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Dark Brotherhood</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+      <alias>Arnbjorn</alias>
+    </profile>
+    <profile id="fe0d-cef9-1ee3-2b61" name="Arnbjorn: Sanctuary Enforcer (Leveled)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Devastating Blow, Intimidation, Smithing (Iron, Steel)</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Resistance (Frost), Shapeshift (Werewolf)</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Devoted Guardian</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Smithing</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">2</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>Arnbjorn</alias>
     </profile>
   </sharedProfiles>
 </catalogue>

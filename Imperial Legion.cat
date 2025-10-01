@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <categoryEntries>
     <categoryEntry id="ea8e-4fe3-e4a5-c93b" name="Hadvar: Hero Of Helgen" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <constraints>
@@ -46,6 +46,13 @@
         <categoryLink id="a170-0a00-ac55-7bb4" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
         <categoryLink id="3939-dd0e-ac57-4dbd" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="a63e-a0e5-e1d8-295f" name="Hadvar: Hero Of Helgen" hidden="false" collective="false" import="true" targetId="8be8-d241-f20f-ebc9" type="selectionEntry">
       <categoryLinks>
@@ -61,6 +68,13 @@
         <categoryLink id="36b7-1cb1-41b5-4981" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="966e-cfd7-6dd4-ff34" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="0ebf-81c9-6945-3be9" name="General Tullius: Imperial Governor" hidden="false" collective="false" import="true" targetId="821f-2b39-4456-871d" type="selectionEntry">
       <categoryLinks>
@@ -76,6 +90,13 @@
         <categoryLink id="1500-4da1-6811-dec7" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="3fd0-24de-c9ed-bd48" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="e13c-ea90-fe40-ddbd" name="Legate Rikke: Chief Legate" hidden="false" collective="false" import="true" targetId="1014-5819-0aac-b059" type="selectionEntry">
       <categoryLinks>
@@ -91,6 +112,13 @@
         <categoryLink id="fb8a-8e16-035a-e846" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="ecf1-5346-a929-5b03" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="e2dd-5903-52b7-05c3" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="8cff-5b1e-1e85-34e4" type="selectionEntry">
       <categoryLinks>
@@ -105,6 +133,13 @@
         <categoryLink id="6604-bc24-3a01-2d63" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="7b96-2a0f-9150-79ee" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="0b3b-562b-aec2-8550" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="0895-0dae-ed96-6aa6" type="selectionEntry">
       <categoryLinks>
@@ -120,6 +155,13 @@
         <categoryLink id="7d05-23ed-1f67-54d7" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="f887-9e73-9677-bb90" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="d6bf-664a-42bb-2800" name="Imperial Headsman: Grim Executioner" hidden="false" collective="false" import="true" targetId="d737-af1a-f6d7-226a" type="selectionEntry">
       <categoryLinks>
@@ -131,6 +173,13 @@
         <categoryLink id="c961-72ef-2b04-5976" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="de5f-30ad-be83-8926" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="5057-a51e-4f9a-22f1" name="Imperial Captain: Garrison Commander" hidden="false" collective="false" import="true" targetId="e764-5fa7-0ea8-958e" type="selectionEntry">
       <categoryLinks>
@@ -143,6 +192,13 @@
         <categoryLink id="1e2f-e617-a384-b9f7" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="7d5a-2bb1-5c19-ef75" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="6374-9535-0c3e-da34" name="Imperial Soldier: Heavy Armor" hidden="false" collective="false" import="true" targetId="f440-aaa7-8814-f988" type="selectionEntry">
       <categoryLinks>
@@ -150,6 +206,13 @@
         <categoryLink id="6f2e-27a5-9005-a90f" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="7e88-960e-07a7-885b" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="37be-cb78-1b7a-1eb4" name="Imperial Soldier: Archer" hidden="false" collective="false" import="true" targetId="dca6-c5f7-43c9-aff9" type="selectionEntry">
       <categoryLinks>
@@ -157,6 +220,13 @@
         <categoryLink id="7e4a-2650-3b05-e1e6" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="38c9-0302-5338-019a" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="88ba-995a-4931-fdad" name="Imperial Recruit: Drillyard Trainee" hidden="false" collective="false" import="true" targetId="b350-a774-e96d-43bf" type="selectionEntry">
       <categoryLinks>
@@ -164,6 +234,13 @@
         <categoryLink id="4162-40f2-b04e-ad4f" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="804e-85f7-a744-6d1c" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="7269-cdc4-5515-ad0c" name="Imperial Soldier: Sword And Shield" hidden="false" collective="false" import="true" targetId="e723-610d-0c0f-f5cb" type="selectionEntry">
       <categoryLinks>
@@ -171,6 +248,13 @@
         <categoryLink id="3622-26ea-b695-424a" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="5f0c-e146-97a3-18b0" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a42d-5cd6-77d3-e140" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="5202-a07f-833b-15b5" name="Hadvar: Hero Of Helgen (Adversary)" hidden="false" collective="false" import="true" targetId="5aeb-1597-85dc-a277" type="selectionEntry">
       <categoryLinks>

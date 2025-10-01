@@ -8,32 +8,46 @@
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="bc73-c97b-1876-7e03" name="The Sorceress: Dominion Champion" hidden="false" collective="false" import="true" targetId="1651-661c-4fbb-42cb" type="selectionEntry">
+    <entryLink import="true" name="The Sorceress: Dominion Champion (Adversary)" hidden="false" id="1532-e8c3-91d2-6f7d" collective="false" targetId="d1ed-5300-6d4b-1cb9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1451-d078-8c57-4039" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
-        <categoryLink id="2390-21b8-3849-5bbf" name="Aldmeri Dominion" hidden="false" targetId="7a4b-b0a8-af97-404b" primary="false"/>
-        <categoryLink id="7589-bc81-e88c-8399" name="The Sorceress: Dominion Champion" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
-        <categoryLink id="885d-1c8f-3588-3769" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
-        <categoryLink id="c5e2-9526-e83b-a2bf" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
-        <categoryLink id="d24b-0520-5ca2-cf91" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
-        <categoryLink id="6ba1-6149-8b89-efc1" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
-        <categoryLink id="6445-ab75-a37a-4213" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
-        <categoryLink id="0ba6-3490-0e60-b402" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
-        <categoryLink id="223d-4933-becd-a549" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
-        <categoryLink id="a862-6c9e-eb2b-475e" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
-        <categoryLink id="8ad5-6662-ea35-38df" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
-        <categoryLink id="88bb-ab32-dffe-5d11" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
-        <categoryLink id="634e-69f9-2353-a109" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink name="Aldmeri Dominion" hidden="false" id="a59f-67d6-a563-33c4" targetId="7a4b-b0a8-af97-404b" primary="false"/>
+        <categoryLink name="The Sorceress: Dominion Champion" hidden="false" id="7bdb-2371-7373-d8e5" targetId="9720-15f3-7997-3025" primary="false"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="e28e-63a6-179f-e40e" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Adversary Master" hidden="false" id="e3b6-a512-1c1d-5b82" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+        <categoryLink name="Elf" hidden="false" id="fe59-9f76-d9c8-31d0" targetId="7975-461a-3ea6-a65b" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
-    <entryLink id="1532-e8c3-91d2-6f7d" name="The Sorceress: Dominion Champion (Adversary)" hidden="false" collective="false" import="true" targetId="d1ed-5300-6d4b-1cb9" type="selectionEntry">
+    <entryLink import="true" name="The Sorceress: Dominion Champion" hidden="false" id="bc73-c97b-1876-7e03" collective="false" targetId="1651-661c-4fbb-42cb" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a59f-67d6-a563-33c4" name="Aldmeri Dominion" hidden="false" targetId="7a4b-b0a8-af97-404b" primary="false"/>
-        <categoryLink id="7bdb-2371-7373-d8e5" name="The Sorceress: Dominion Champion" hidden="false" targetId="9720-15f3-7997-3025" primary="false"/>
-        <categoryLink id="e28e-63a6-179f-e40e" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
-        <categoryLink id="e3b6-a512-1c1d-5b82" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
-        <categoryLink id="fe59-9f76-d9c8-31d0" name="Elf" hidden="false" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="1451-d078-8c57-4039" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Aldmeri Dominion" hidden="false" id="2390-21b8-3849-5bbf" targetId="7a4b-b0a8-af97-404b" primary="false"/>
+        <categoryLink name="The Sorceress: Dominion Champion" hidden="false" id="7589-bc81-e88c-8399" targetId="9720-15f3-7997-3025" primary="false"/>
+        <categoryLink name="Adventurers" hidden="false" id="885d-1c8f-3588-3769" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="c5e2-9526-e83b-a2bf" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="d24b-0520-5ca2-cf91" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Light Armor Skill" hidden="false" id="6ba1-6149-8b89-efc1" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="6445-ab75-a37a-4213" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Conjuration Skill" hidden="false" id="0ba6-3490-0e60-b402" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink name="Destruction Skill" hidden="false" id="223d-4933-becd-a549" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink name="Illusion Skill" hidden="false" id="a862-6c9e-eb2b-475e" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink name="Alchemy Skill" hidden="false" id="8ad5-6662-ea35-38df" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="88bb-ab32-dffe-5d11" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="Elf" hidden="false" id="634e-69f9-2353-a109" targetId="7975-461a-3ea6-a65b" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="949d-3d53-f802-2bf3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>

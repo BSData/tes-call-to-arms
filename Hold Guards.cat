@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <entryLinks>
     <entryLink id="f97a-a510-bc8b-1b53" name="Hold Guard Captain: Commander Of The Watch" hidden="false" collective="false" import="true" targetId="0cc8-d2e1-973b-af19" type="selectionEntry">
       <categoryLinks>
@@ -15,6 +15,13 @@
         <categoryLink id="01b2-c2c6-bf7c-0831" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
         <categoryLink id="e8c8-3146-f51c-21c5" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4a41-4348-2857-17c1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="7eea-2a98-6a78-d3f2" name="Hold Guard: Enforcer" hidden="false" collective="false" import="true" targetId="1454-24be-fa85-cba3" type="selectionEntry">
       <categoryLinks>
@@ -22,6 +29,13 @@
         <categoryLink id="7182-bbf5-0244-2c0d" name="Hold Guard" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
         <categoryLink id="454b-4654-60d7-13d4" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4a41-4348-2857-17c1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="609c-34fa-f01c-6592" name="Hold Guard: Sentry" hidden="false" collective="false" import="true" targetId="a021-3155-c447-8086" type="selectionEntry">
       <categoryLinks>
@@ -29,6 +43,13 @@
         <categoryLink id="f6f5-506e-1d16-5aa2" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="6815-975a-5ba7-a202" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4a41-4348-2857-17c1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="1506-689a-2ef7-ae92" name="Hold Guard: Patroller" hidden="false" collective="false" import="true" targetId="0c8a-1c7f-7a54-4b64" type="selectionEntry">
       <categoryLinks>
@@ -36,6 +57,13 @@
         <categoryLink id="b6d6-dbf9-f62d-1fe9" name="Hold Guard" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
         <categoryLink id="58c7-aa67-e0e5-6176" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4a41-4348-2857-17c1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
