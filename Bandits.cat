@@ -178,7 +178,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink id="d2bd-9c8a-09b0-a81f" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="b2c1-c5d8-2dba-86de" type="selectionEntry">
+    <entryLink id="d2bd-9c8a-09b0-a81f" name="Eisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="b2c1-c5d8-2dba-86de" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1cf7-f99d-c5df-2dd5" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="76e3-d6b5-cb80-e29c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
@@ -315,7 +315,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="set-primary" value="03a4-6256-8b54-3dba" field="category"/>
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
@@ -345,7 +345,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="set-primary" value="03a4-6256-8b54-3dba" field="category"/>
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
@@ -375,7 +375,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="set-primary" value="03a4-6256-8b54-3dba" field="category"/>
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
@@ -405,7 +405,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="set-primary" value="03a4-6256-8b54-3dba" field="category"/>
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
@@ -435,7 +435,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="set-primary" value="03a4-6256-8b54-3dba" field="category"/>
             <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
           <conditions>
@@ -628,7 +628,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5c-f67b-3809-5357" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="bdcc-2259-aaef-6c84" name="Elisa Blackthorn: Frostmere Raider (Leveled)" hidden="false" targetId="bdc2-e491-7dd9-db25" type="profile"/>
+            <infoLink id="bdcc-2259-aaef-6c84" name="Eisa Blackthorn: Frostmere Raider (Leveled)" hidden="false" targetId="bdc2-e491-7dd9-db25" type="profile"/>
             <infoLink id="446f-e6f8-d37e-b2ff" name="Perk: Wind Walker" hidden="false" targetId="986d-0c2c-6f55-86f8" type="rule"/>
           </infoLinks>
           <costs>
