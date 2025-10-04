@@ -534,7 +534,7 @@
       <modifiers>
         <modifier type="add" value="8f46-4e02-54b3-0331" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="9bb6-43ae-1f58-ba79" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="9bb6-43ae-1f58-ba79" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -566,11 +566,6 @@
         <categoryLink targetId="6a3b-af04-871d-c135" id="bff9-9832-ebff-bc19" primary="false" name="Sigdis Gauldurson Signature Loot"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="add" value="8f46-4e02-54b3-0331" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="9bb6-43ae-1f58-ba79" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditionGroups>
             <conditionGroup type="and">

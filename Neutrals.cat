@@ -392,6 +392,18 @@
             <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="b9a4-31a5-b4ed-b4c7" field="category"/>
+            <modifier type="remove" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Hero"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <categoryLinks>
         <categoryLink id="8da0-93df-bf9b-0d9b" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
@@ -407,8 +419,8 @@
         <categoryLink id="fe0c-b9b8-a99b-9bc5" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="3a66-dd61-b7ea-f813" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="d485-38ed-c23a-8b70" primary="false" name="Hireling Count"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="e657-0ba4-32c3-6acb" primary="false" name="Dunmer"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="7146-abc0-b2f7-07c9" primary="false" name="Elf"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="e657-0ba4-32c3-6acb" primary="false" name="Race: Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="7146-abc0-b2f7-07c9" primary="false" name="Racial Group: Elf"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -433,6 +445,18 @@
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
             <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b7aa-4b7c-29c1-1bb5" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Hero"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -559,6 +583,18 @@
             <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="b9a4-31a5-b4ed-b4c7" field="category"/>
+            <modifier type="remove" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Hero"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <categoryLinks>
         <categoryLink id="42bd-137f-c921-8e6e" name="Hireling Hero" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
@@ -596,6 +632,18 @@
             <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
             <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
             <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="b9a4-31a5-b4ed-b4c7" field="category"/>
+            <modifier type="remove" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Hero"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -646,6 +694,20 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="ba61-d304-9352-ec15" field="category"/>
+            <modifier type="remove" value="03a4-6256-8b54-3dba" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Follower"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="6caf-7823-4c4a-8720" name="Vigilance: War Dog" hidden="false" collective="false" import="true" targetId="da22-8c02-dd4c-6d0c" type="selectionEntry">
       <categoryLinks>
@@ -690,6 +752,20 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="ba61-d304-9352-ec15" field="category"/>
+            <modifier type="remove" value="03a4-6256-8b54-3dba" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Follower"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="1f8b-7d1b-d85c-15da" name="Steadfast Dwarven Spider: Friendly Construct" hidden="false" collective="false" import="true" targetId="bf15-71b2-fde4-e5d5" type="selectionEntry">
       <categoryLinks>
@@ -1128,8 +1204,8 @@
         <categoryLink id="3148-a7d7-549d-54f1" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="7a29-72c3-3600-468d" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="d1b8-81b9-1e9b-5940" primary="false" name="Hireling Count"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="f412-baa2-4f66-79fe" primary="false" name="Dunmer"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="c846-2caa-9228-d2d9" primary="false" name="Elf"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="f412-baa2-4f66-79fe" primary="false" name="Race: Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="c846-2caa-9228-d2d9" primary="false" name="Racial Group: Elf"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5128-e696-4c08-2997" name="Dunmer Twinblade: Sheathed Blade" hidden="true" collective="false" import="true" targetId="87e4-15d3-4105-7b8d" type="selectionEntry">
@@ -1174,8 +1250,8 @@
         <categoryLink id="736f-aab5-e7bb-f6eb" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
         <categoryLink id="f963-a6cb-a3f4-b57d" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="d024-47b3-92a5-d674" primary="false" name="Hireling Count"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="a987-8157-1069-e9aa" primary="false" name="Dunmer"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="9a20-fc37-fc05-b45f" primary="false" name="Elf"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="a987-8157-1069-e9aa" primary="false" name="Race: Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="9a20-fc37-fc05-b45f" primary="false" name="Racial Group: Elf"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cdeb-f1d7-32e4-f95e" name="Imperial Destruction Mage: Sheathed Blade" hidden="true" collective="false" import="true" targetId="a5a3-5e5f-8530-6ecf" type="selectionEntry">
@@ -1676,6 +1752,20 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="ba61-d304-9352-ec15" field="category"/>
+            <modifier type="remove" value="03a4-6256-8b54-3dba" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Follower"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="ca59-7a20-68f1-4f08" name="Nord Ranger: Mercenary" hidden="false" collective="false" import="true" targetId="1433-199b-3dda-e768" type="selectionEntry">
       <categoryLinks>
@@ -1697,6 +1787,20 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="ba61-d304-9352-ec15" field="category"/>
+            <modifier type="remove" value="03a4-6256-8b54-3dba" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Follower"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="a2a8-b195-83a5-6f22" name="Orc Warrior: Mercenary" hidden="false" collective="false" import="true" targetId="fc9f-2270-e1b5-811e" type="selectionEntry">
       <categoryLinks>
@@ -1718,6 +1822,20 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="ba61-d304-9352-ec15" field="category"/>
+            <modifier type="remove" value="03a4-6256-8b54-3dba" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Follower"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="822a-50e2-9ff9-30fc" name="Arondil: Exiled Necromancer" hidden="false" collective="false" import="true" targetId="6431-74bd-42fa-cec4" type="selectionEntry">
       <modifierGroups>
@@ -1782,6 +1900,20 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="b9a4-31a5-b4ed-b4c7" field="category"/>
+            <modifier type="remove" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Hero"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="9449-b53c-0b22-5b94" name="Necromancer: Student of the Forbidden Arts" hidden="false" collective="false" import="true" targetId="7820-2195-cb01-02bc" type="selectionEntry">
       <categoryLinks>
@@ -1808,6 +1940,20 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="b9a4-31a5-b4ed-b4c7" field="category"/>
+            <modifier type="remove" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="remove" value="065c-f392-0c98-91f5" field="category"/>
+            <modifier type="add" value="3987-ed35-2c6f-2464" field="category"/>
+            <modifier type="set" value="Clan Volkihar (Thrall)" field="f0f6-8ae1-ea14-c9fa" affects="profiles.Hero"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="0fae-dcda-b9ae-0a75" name="Erandur: Priest of Mara" hidden="false" collective="false" import="true" targetId="e4e3-d9c9-ad44-aad2" type="selectionEntry">
       <categoryLinks>
@@ -1819,7 +1965,7 @@
         <categoryLink id="54a6-7322-2a88-8a23" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink id="3443-bdfc-c711-259c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="4415-e4ec-23f5-4980" primary="false" name="Hireling Count"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="6d92-c30e-7a65-5f47" primary="false" name="Dunmer"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="6d92-c30e-7a65-5f47" primary="false" name="Race: Dunmer"/>
         <categoryLink targetId="7653-61fc-f2cd-7695" id="afa6-42e6-4175-930a" primary="false" name="Erandur: Priest of Mara"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="cf92-00fd-fc3e-e4ff" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="c7db-eac8-21dc-49a0" id="1694-85f5-e34e-2ebf" primary="false" name="Smithing Skill"/>

@@ -34,8 +34,8 @@
         <categoryLink name="One-Handed Skill" hidden="false" id="a914-ede2-6b78-d313" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink targetId="d885-1bd2-82bb-42a1" id="85c1-a4a4-ec67-9f56" primary="false" name="Savos Aren: Arch-Mage"/>
         <categoryLink targetId="917c-eb56-30eb-a720" id="88d3-4e2b-c744-89c6" primary="false" name="Born Leader"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="fb91-ea2a-2dc6-cd57" primary="false" name="Dunmer"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="e107-1d1f-3a3c-b23d" primary="false" name="Elf"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="fb91-ea2a-2dc6-cd57" primary="false" name="Race: Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="e107-1d1f-3a3c-b23d" primary="false" name="Racial Group: Elf"/>
         <categoryLink targetId="f1a5-f2a8-0691-3c85" id="d275-b3fc-1d8a-b8fd" primary="false" name="Conjuration Skill"/>
         <categoryLink targetId="93b4-afa5-eb85-d8ec" id="5d7d-cf1c-0f7e-4800" primary="false" name="Illusion Skill"/>
         <categoryLink targetId="37d3-238a-d08a-1589" id="587d-da61-792d-3ed7" primary="false" name="Alchemy Skill"/>
@@ -58,7 +58,7 @@
         <categoryLink name="Destruction Skill" hidden="false" id="31aa-fd4a-799c-03e0" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink name="Restoration Skill" hidden="false" id="69b0-7141-9fd7-f7d6" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink name="One-Handed Skill" hidden="false" id="86e7-f935-1139-0dec" targetId="64bb-1eb1-1896-f36d" primary="false"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="e1b8-c890-7102-f844" primary="false" name="Elf"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="e1b8-c890-7102-f844" primary="false" name="Racial Group: Elf"/>
         <categoryLink targetId="4d42-f7a9-a2ca-654e" id="badd-3467-8f58-3a62" primary="false" name="Archery Skill"/>
         <categoryLink targetId="ce1e-5b7d-d29b-2ecb" id="1f72-098c-98b4-625c" primary="false" name="Faralda: College Guardian"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="6be5-212d-500d-41de" primary="false" name="Light Armor Skill"/>
@@ -71,6 +71,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -95,7 +96,7 @@
         <categoryLink name="Alteration Skill" hidden="false" id="aaff-52fc-ca47-289d" targetId="2aea-a863-419f-ba90" primary="false"/>
         <categoryLink name="Restoration Skill" hidden="false" id="e777-621a-027b-95a1" targetId="b0b5-e13e-f45a-5045" primary="false"/>
         <categoryLink name="One-Handed Skill" hidden="false" id="d370-c8b6-17c9-b0c5" targetId="64bb-1eb1-1896-f36d" primary="false"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="b1db-30b9-c635-4378" primary="false" name="Elf"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="b1db-30b9-c635-4378" primary="false" name="Racial Group: Elf"/>
         <categoryLink targetId="2b0f-1265-0b4f-1046" id="53db-d436-fdb7-1d98" primary="false" name="College Of Winterhold"/>
         <categoryLink targetId="2f0f-28c6-ba4f-353f" id="e9aa-690f-db32-9ae6" primary="false" name="Ancano: Advisor to the Arch-Mage"/>
         <categoryLink targetId="ff7a-e4f7-2845-6f78" id="bb3c-b813-59e4-3dc7" primary="false" name="Thalmor"/>
@@ -110,6 +111,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -153,6 +155,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -191,6 +194,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -246,6 +250,8 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>

@@ -10,7 +10,7 @@
         <categoryLink name="Block Skill" hidden="false" id="d777-a12a-eb44-78fe" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink name="Archery Skill" hidden="false" id="e821-ffd3-01e7-f576" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink name="Speech Skill" hidden="false" id="5e1a-8ca8-59fc-f178" targetId="dd8f-4143-9e14-8e73" primary="false"/>
-        <categoryLink targetId="5a63-c7de-3c2a-78cb" id="4989-ea43-33f1-5aa3" primary="false" name="The Companions"/>
+        <categoryLink targetId="5a63-c7de-3c2a-78cb" id="4989-ea43-33f1-5aa3" primary="false" name="Companions"/>
         <categoryLink targetId="e8e8-69e8-5565-af4f" id="875a-bcf9-4709-d747" primary="false" name="Heavy Armor Skill"/>
         <categoryLink targetId="6637-6fec-ac84-ca66" id="dc83-5119-6608-c430" primary="false" name="Kodlak: Ailing Harbinger"/>
         <categoryLink targetId="f71c-90c3-abdf-17ee" id="07a7-02e8-ad8c-eb49" primary="false" name="Werewolf"/>
@@ -31,7 +31,7 @@
         <categoryLink name="Block Skill" hidden="false" id="2917-9f1c-9db8-0306" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink name="Archery Skill" hidden="false" id="0d43-c898-532e-9a9a" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink name="Speech Skill" hidden="false" id="3b6d-c708-252f-0493" targetId="dd8f-4143-9e14-8e73" primary="false"/>
-        <categoryLink targetId="5a63-c7de-3c2a-78cb" id="21ba-4f2a-b0fd-da63" primary="false" name="The Companions"/>
+        <categoryLink targetId="5a63-c7de-3c2a-78cb" id="21ba-4f2a-b0fd-da63" primary="false" name="Companions"/>
         <categoryLink targetId="e8e8-69e8-5565-af4f" id="e8d2-a2d9-6898-40a0" primary="false" name="Heavy Armor Skill"/>
         <categoryLink targetId="f71c-90c3-abdf-17ee" id="4c6d-9f9b-db65-b631" primary="false" name="Werewolf"/>
         <categoryLink targetId="cc7c-d07d-c8f8-fcdf" id="02c5-fa90-8203-31a7" primary="false" name="Skjor: Champion of the Circle"/>
@@ -45,6 +45,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="e7f1-7d01-d4aa-bb0b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -68,7 +69,7 @@
         <categoryLink name="One-Handed Skill" hidden="false" id="826f-128b-c32e-64a3" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink name="Archery Skill" hidden="false" id="b46b-7133-4716-263e" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink name="Speech Skill" hidden="false" id="37c5-6549-13fd-e12a" targetId="dd8f-4143-9e14-8e73" primary="false"/>
-        <categoryLink targetId="5a63-c7de-3c2a-78cb" id="b78c-b2a4-4e98-ba4d" primary="false" name="The Companions"/>
+        <categoryLink targetId="5a63-c7de-3c2a-78cb" id="b78c-b2a4-4e98-ba4d" primary="false" name="Companions"/>
         <categoryLink targetId="f71c-90c3-abdf-17ee" id="4bbc-728f-5b14-e0b7" primary="false" name="Werewolf"/>
         <categoryLink targetId="b6ed-e35f-bd57-1121" id="c201-3251-1eed-e3b4" primary="false" name="Aela: The Huntress"/>
         <categoryLink targetId="7d06-5fcb-c718-e106" id="3597-f068-bb28-dc79" primary="false" name="Lockpicking Skill"/>
@@ -84,6 +85,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="e7f1-7d01-d4aa-bb0b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -108,7 +110,7 @@
         <categoryLink name="One-Handed Skill" hidden="false" id="b4c2-d316-b170-6b94" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink name="Block Skill" hidden="false" id="0647-ffe8-c3fb-1154" targetId="c65e-1c8e-613b-dc01" primary="false"/>
         <categoryLink name="Speech Skill" hidden="false" id="edfe-2dd6-4a60-55b3" targetId="dd8f-4143-9e14-8e73" primary="false"/>
-        <categoryLink targetId="5a63-c7de-3c2a-78cb" id="c3ae-0319-533b-a134" primary="false" name="The Companions"/>
+        <categoryLink targetId="5a63-c7de-3c2a-78cb" id="c3ae-0319-533b-a134" primary="false" name="Companions"/>
         <categoryLink targetId="e8e8-69e8-5565-af4f" id="067e-39a0-79af-2dbe" primary="false" name="Heavy Armor Skill"/>
         <categoryLink targetId="f71c-90c3-abdf-17ee" id="1be7-3c56-d212-5801" primary="false" name="Werewolf"/>
         <categoryLink targetId="0c2c-2ea1-9cba-578a" id="d062-66c2-f4f8-b31d" primary="false" name="Farkas: Companions Bruiser"/>
@@ -124,6 +126,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="e7f1-7d01-d4aa-bb0b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>

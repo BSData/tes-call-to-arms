@@ -19,7 +19,7 @@
         <categoryLink id="6d8e-c464-db18-8c8a" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="a931-a637-d8b6-b0ea" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="8ee6-0a1b-3595-5843" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
-        <categoryLink id="d860-e59a-5ca5-b02c" name="Bonus Quick Slot: Thieves&apos; Guild" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
+        <categoryLink id="d860-e59a-5ca5-b02c" name="Bonus Quick Slot: Thieves&apos; Guild Armor" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
         <categoryLink id="fbd0-ba58-fc17-a129" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="e133-dd0b-82bd-eb17" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
         <categoryLink id="a91e-3112-0d1b-72ab" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
@@ -28,24 +28,24 @@
         <categoryLink id="0ede-711f-1bcf-b0ce" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="247b-0acd-dc52-c5dc" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="9069-4a17-6e71-50d1" primary="false" name="Hireling Count"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="9757-5770-7ea5-c3aa" primary="false" name="Elf"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="5deb-f89f-444d-17c1" primary="false" name="Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="9757-5770-7ea5-c3aa" primary="false" name="Racial Group: Elf"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="5deb-f89f-444d-17c1" primary="false" name="Race: Dunmer"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Karliah: The Outcast" hidden="false" id="065d-15e8-831d-53f5" collective="false" targetId="4282-a510-3515-d843" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Hero" hidden="false" id="d62d-2ae3-268a-144c" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink name="One-Handed Skill" hidden="false" id="79bd-ca3d-2c4c-2ac0" targetId="64bb-1eb1-1896-f36d" primary="false"/>
-        <categoryLink name="Elf" hidden="false" id="e7fa-befd-2181-84ab" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink name="Racial Group: Elf" hidden="false" id="e7fa-befd-2181-84ab" targetId="7975-461a-3ea6-a65b" primary="false"/>
         <categoryLink targetId="8a28-7b3b-a05f-2a2f" id="cd41-9b4b-f891-4603" primary="false" name="Karliah: The Outcast"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="22de-11d4-1e79-56c1" primary="false" name="Dunmer"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="22de-11d4-1e79-56c1" primary="false" name="Race: Dunmer"/>
         <categoryLink targetId="4d42-f7a9-a2ca-654e" id="b7b4-9977-c221-f0e9" primary="false" name="Archery Skill"/>
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="858c-dd97-e649-355a" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="7d06-5fcb-c718-e106" id="1bc7-cd97-14d2-f667" primary="false" name="Lockpicking Skill"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="75f5-66f3-ec6e-a569" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="37d3-238a-d08a-1589" id="2b37-da72-30f5-9b8a" primary="false" name="Alchemy Skill"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="1c3c-b4e2-4e34-cf54" primary="false" name="Path of Shadow"/>
-        <categoryLink targetId="4347-a391-1fca-ce31" id="8d23-e21f-c50e-ef58" primary="false" name="The Thieves&apos; Guild"/>
+        <categoryLink targetId="4347-a391-1fca-ce31" id="8d23-e21f-c50e-ef58" primary="false" name="Thieves&apos; Guild"/>
         <categoryLink targetId="5594-acf1-76dc-5206" id="7ce8-2689-bd63-8927" primary="false" name="Nightingales"/>
       </categoryLinks>
       <modifiers>
@@ -55,6 +55,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="3987-ed35-2c6f-2464" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -86,7 +87,7 @@
         <categoryLink targetId="7d06-5fcb-c718-e106" id="e29f-731d-7880-3f34" primary="false" name="Lockpicking Skill"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="409f-43d1-bf0d-e309" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="8e29-fe94-03b3-fe35" primary="false" name="Path of Shadow"/>
-        <categoryLink targetId="4347-a391-1fca-ce31" id="758b-ae1d-7ff0-e858" primary="false" name="The Thieves&apos; Guild"/>
+        <categoryLink targetId="4347-a391-1fca-ce31" id="758b-ae1d-7ff0-e858" primary="false" name="Thieves&apos; Guild"/>
         <categoryLink targetId="5594-acf1-76dc-5206" id="e133-6cbf-60b3-ad1c" primary="false" name="Nightingales"/>
         <categoryLink targetId="cd5e-b5a1-1eb7-27fa" id="2e5d-7ca9-db8e-2ec1" primary="false" name="Mercer Frey: Guildmaster"/>
         <categoryLink targetId="c65e-1c8e-613b-dc01" id="0619-49f4-d3ce-8bf5" primary="false" name="Block Skill"/>
@@ -101,6 +102,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="3987-ed35-2c6f-2464" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -131,7 +133,7 @@
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="1d36-43bd-f6da-13a5" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="5280-965d-36b1-8bf9" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="25bb-b803-55cc-cc5c" primary="false" name="Path of Shadow"/>
-        <categoryLink targetId="4347-a391-1fca-ce31" id="8b38-b7a1-0eb6-c052" primary="false" name="The Thieves&apos; Guild"/>
+        <categoryLink targetId="4347-a391-1fca-ce31" id="8b38-b7a1-0eb6-c052" primary="false" name="Thieves&apos; Guild"/>
         <categoryLink targetId="7f96-4899-973e-0e11" id="c15f-734f-dd79-b891" primary="false" name="Pickpocket Skill"/>
         <categoryLink targetId="dd8f-4143-9e14-8e73" id="5b11-dd7c-8a8a-8bc3" primary="false" name="Speech Skill"/>
         <categoryLink targetId="37d3-238a-d08a-1589" id="1823-08e3-0341-9a71" primary="false" name="Alchemy Skill"/>
@@ -145,6 +147,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="3987-ed35-2c6f-2464" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -170,7 +173,7 @@
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="dedd-0df4-2b6a-c472" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="2d39-4f3a-7b6f-c294" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="d203-1629-de5f-1e28" primary="false" name="Path of Shadow"/>
-        <categoryLink targetId="4347-a391-1fca-ce31" id="83b8-6e0b-0df2-1ec2" primary="false" name="The Thieves&apos; Guild"/>
+        <categoryLink targetId="4347-a391-1fca-ce31" id="83b8-6e0b-0df2-1ec2" primary="false" name="Thieves&apos; Guild"/>
         <categoryLink targetId="e399-b169-111d-9451" id="47b8-c35b-5818-72f1" primary="false" name="Delvin Mallory: Guild Enforcer"/>
       </categoryLinks>
       <modifiers>
@@ -181,6 +184,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="3987-ed35-2c6f-2464" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -206,9 +210,9 @@
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="ff40-fa0a-d4d0-b089" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="a886-926c-55dd-5e31" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="6a34-84b4-ec0f-5c4b" primary="false" name="Path of Shadow"/>
-        <categoryLink targetId="4347-a391-1fca-ce31" id="9337-bc6f-da96-6a55" primary="false" name="The Thieves&apos; Guild"/>
+        <categoryLink targetId="4347-a391-1fca-ce31" id="9337-bc6f-da96-6a55" primary="false" name="Thieves&apos; Guild"/>
         <categoryLink targetId="dd8f-4143-9e14-8e73" id="46f9-e6fb-aa92-58c3" primary="false" name="Speech Skill"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="f75b-2bd2-4cca-d17d" primary="false" name="Elf"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="f75b-2bd2-4cca-d17d" primary="false" name="Racial Group: Elf"/>
         <categoryLink targetId="e793-1c31-9b4c-a7c6" id="1cc7-020f-c89a-579d" primary="false" name="Niruin: Night Archer"/>
       </categoryLinks>
       <modifiers>
@@ -218,6 +222,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="3987-ed35-2c6f-2464" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -243,7 +248,7 @@
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="b6ba-ff3d-83eb-55b4" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="2445-efc1-b708-19ac" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="4234-f7ab-75cf-68a0" primary="false" name="Path of Shadow"/>
-        <categoryLink targetId="4347-a391-1fca-ce31" id="642d-a27e-64af-210b" primary="false" name="The Thieves&apos; Guild"/>
+        <categoryLink targetId="4347-a391-1fca-ce31" id="642d-a27e-64af-210b" primary="false" name="Thieves&apos; Guild"/>
         <categoryLink targetId="a055-de22-f4b0-c39c" id="4911-991a-25e4-6b3a" primary="false" name="Vex: Guild Locksmith"/>
         <categoryLink targetId="7d06-5fcb-c718-e106" id="dd3f-faf4-d08a-1e70" primary="false" name="Lockpicking Skill"/>
       </categoryLinks>
@@ -255,6 +260,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="3987-ed35-2c6f-2464" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -461,8 +467,7 @@ Sneak</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
 Light Armor</characteristic>
         <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
-        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
-</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4</characteristic>
         <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
@@ -487,8 +492,7 @@ Sneak</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
 Light Armor</characteristic>
         <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
-        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
-</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5</characteristic>
         <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
