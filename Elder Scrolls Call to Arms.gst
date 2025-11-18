@@ -2983,7 +2983,7 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="f675-28a6-b947-2dd1" name="College Of Winterhold" page="TBD" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f675-28a6-b947-2dd1" name="College Of Winterhold" page="TBD" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f39-56f3-737b-57d7" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5379-daf6-55f8-6bf6" type="min"/>
