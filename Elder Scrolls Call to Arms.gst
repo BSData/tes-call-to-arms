@@ -8900,14 +8900,12 @@ A: Yes</description>
                       <modifiers>
                         <modifier type="decrement" value="2" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="append" value="*" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="floor" value="1" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="2" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="append" value="*" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="floor" value="1" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                   </modifierGroups>
@@ -8943,21 +8941,18 @@ A: Yes</description>
                       <modifiers>
                         <modifier type="decrement" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="append" value="*" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="floor" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="append" value="*" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="floor" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="append" value="*" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="floor" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                   </modifierGroups>
@@ -8993,14 +8988,12 @@ A: Yes</description>
                       <modifiers>
                         <modifier type="decrement" value="2" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="append" value="*" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="floor" value="1" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="2" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="append" value="*" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="floor" value="1" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                   </modifierGroups>
